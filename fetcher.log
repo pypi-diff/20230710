@@ -809,3 +809,39 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 00:56:45] INFO root fetch - processPackages [namer]: Remove: archive file [/home/abi/fetcher/tmp/namer-1.9.8.tar.gz]
 [2023-07-10 00:56:45] INFO root fetch - main [MainThread]: End processing [namer]: success
 [2023-07-10 00:56:45] INFO root fetch - main [MainThread]: Store serial: [18824035]
+[2023-07-10 01:01:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18824035]
+[2023-07-10 01:01:54] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-10 01:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: docs2txt
+[2023-07-10 01:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-excel-serializer
+[2023-07-10 01:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edp-redy-py
+[2023-07-10 01:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kopikatapi
+[2023-07-10 01:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-djangogql
+[2023-07-10 01:01:54] WARNING root fetch - processPackages [python-djangogql]: Skipping, unable to determine old version
+[2023-07-10 01:01:54] INFO root fetch - main [MainThread]: End processing [python-djangogql] error
+[2023-07-10 01:01:54] INFO root fetch - processPackages [edp-redy-py]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 01:01:54] WARNING root fetch - processPackages [django-excel-serializer]: Skipping, unable to determine old version
+[2023-07-10 01:01:54] INFO root fetch - main [MainThread]: End processing [django-excel-serializer] error
+[2023-07-10 01:01:54] INFO root fetch - processPackages [docs2txt]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-10 01:01:54] INFO root fetch - processPackages [kopikatapi]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-10 01:01:54] INFO root fetch - processPackages [docs2txt]: Downloading https://files.pythonhosted.org/packages/ac/53/fe38b724e640b17d2d5b2c67f009f26cc584bd6a3617cbf086b15a1d66bf/docs2txt-0.1.3.tar.gz
+[2023-07-10 01:01:54] INFO root fetch - processPackages [edp-redy-py]: Downloading https://files.pythonhosted.org/packages/14/20/2292474a5ad851a9cf8a61884a1b5526a4a4671f84345d9d83e9b4b8f868/edp_redy_py-0.1.8.tar.gz
+[2023-07-10 01:01:55] INFO root fetch - processPackages [kopikatapi]: Downloading https://files.pythonhosted.org/packages/dc/f2/b3eda4bef67caf3ff7c6aae5e6df1968ef6c1fbddcfe5038d6e3a98027a3/kopikatapi-0.0.1.tar.gz
+[2023-07-10 01:01:55] INFO root fetch - processPackages [edp-redy-py]: Downloading https://files.pythonhosted.org/packages/f6/5e/86c245d985ed6effb5887499d8e233fb9602ad0afeb064878573fd74a032/edp_redy_py-0.1.9.tar.gz
+[2023-07-10 01:01:55] INFO root fetch - processPackages [docs2txt]: Downloading https://files.pythonhosted.org/packages/56/19/5baf82cb8490ec6284c70ebd87b11bdf1f935281c338a2ab8266ba9c34b2/docs2txt-0.1.4.tar.gz
+[2023-07-10 01:01:55] INFO root fetch - processPackages [docs2txt]: executing diffoscope
+[2023-07-10 01:01:55] INFO root fetch - processPackages [docs2txt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docs2txt-0.1.3.tar.gz tmp/docs2txt-0.1.4.tar.gz --markdown 20230710/d/docs2txt/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-10 01:01:55] INFO root fetch - processPackages [kopikatapi]: Downloading https://files.pythonhosted.org/packages/1b/d8/53e912e30810b600345c5b8f4bf1f0c53c9b22834441ca55a4edad57cd49/kopikatapi-0.0.2.tar.gz
+[2023-07-10 01:01:55] INFO root fetch - processPackages [edp-redy-py]: executing diffoscope
+[2023-07-10 01:01:55] INFO root fetch - processPackages [edp-redy-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edp_redy_py-0.1.8.tar.gz tmp/edp_redy_py-0.1.9.tar.gz --markdown 20230710/e/edp-redy-py/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 01:01:55] INFO root fetch - processPackages [kopikatapi]: executing diffoscope
+[2023-07-10 01:01:55] INFO root fetch - processPackages [kopikatapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kopikatapi-0.0.1.tar.gz tmp/kopikatapi-0.0.2.tar.gz --markdown 20230710/k/kopikatapi/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-10 01:01:56] INFO root fetch - processPackages [edp-redy-py]: Remove: archive file [/home/abi/fetcher/tmp/edp_redy_py-0.1.8.tar.gz]
+[2023-07-10 01:01:56] INFO root fetch - processPackages [edp-redy-py]: Remove: archive file [/home/abi/fetcher/tmp/edp_redy_py-0.1.9.tar.gz]
+[2023-07-10 01:01:56] INFO root fetch - main [MainThread]: End processing [edp-redy-py]: success
+[2023-07-10 01:01:56] INFO root fetch - processPackages [kopikatapi]: Remove: archive file [/home/abi/fetcher/tmp/kopikatapi-0.0.1.tar.gz]
+[2023-07-10 01:01:56] INFO root fetch - processPackages [kopikatapi]: Remove: archive file [/home/abi/fetcher/tmp/kopikatapi-0.0.2.tar.gz]
+[2023-07-10 01:01:56] INFO root fetch - main [MainThread]: End processing [kopikatapi]: success
+[2023-07-10 01:01:56] INFO root fetch - processPackages [docs2txt]: Remove: archive file [/home/abi/fetcher/tmp/docs2txt-0.1.3.tar.gz]
+[2023-07-10 01:01:56] INFO root fetch - processPackages [docs2txt]: Remove: archive file [/home/abi/fetcher/tmp/docs2txt-0.1.4.tar.gz]
+[2023-07-10 01:01:56] INFO root fetch - main [MainThread]: End processing [docs2txt]: success
+[2023-07-10 01:01:56] INFO root fetch - main [MainThread]: Store serial: [18824055]
