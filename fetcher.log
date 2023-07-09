@@ -845,3 +845,51 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 01:01:56] INFO root fetch - processPackages [docs2txt]: Remove: archive file [/home/abi/fetcher/tmp/docs2txt-0.1.4.tar.gz]
 [2023-07-10 01:01:56] INFO root fetch - main [MainThread]: End processing [docs2txt]: success
 [2023-07-10 01:01:56] INFO root fetch - main [MainThread]: Store serial: [18824055]
+[2023-07-10 01:07:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18824055]
+[2023-07-10 01:07:05] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-10 01:07:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tmnt-cu101
+[2023-07-10 01:07:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyfirebird
+[2023-07-10 01:07:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tmnt
+[2023-07-10 01:07:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pipd
+[2023-07-10 01:07:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-password-policies-iplweb
+[2023-07-10 01:07:05] INFO root fetch - processPackages [pyfirebird]: New version: [0.0.78] Old Version: [0.0.77]
+[2023-07-10 01:07:05] INFO root fetch - processPackages [django-password-policies-iplweb]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-07-10 01:07:05] INFO root fetch - processPackages [pipd]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-10 01:07:05] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230709] Old Version: [0.7.0b20230708]
+[2023-07-10 01:07:05] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230709] Old Version: [0.7.0b20230708]
+[2023-07-10 01:07:05] INFO root fetch - processPackages [pyfirebird]: Downloading https://files.pythonhosted.org/packages/5a/d5/172ef054ac8c8c718ca26361824d96dcb099c93254f3926f4b066d1aef9e/pyfirebird-0.0.77.tar.gz
+[2023-07-10 01:07:05] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/c2/9f/f7d5c6b7d5aaa8e57856dd7554c19acaec036939b89da8cfbbf342306272/tmnt-0.7.0b20230708.tar.gz
+[2023-07-10 01:07:05] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/a8/72/6df51137a6a6eb22ea222b4f1354f810bc96d3730792d0f0cad48f0769b9/tmnt-cu101-0.7.0b20230708.tar.gz
+[2023-07-10 01:07:05] INFO root fetch - processPackages [pipd]: Downloading https://files.pythonhosted.org/packages/da/9f/0978dd181004467705565433ea4160e553f922e1f8562104de3de3c2af95/pipd-0.1.6.tar.gz
+[2023-07-10 01:07:05] INFO root fetch - processPackages [django-password-policies-iplweb]: Downloading https://files.pythonhosted.org/packages/5c/ff/2c2a0983de60cff1cef98f750a13d623aa4557747dc6a49a78d0eb65d692/django-password-policies-iplweb-0.8.4.tar.gz
+[2023-07-10 01:07:05] INFO root fetch - processPackages [pyfirebird]: Downloading https://files.pythonhosted.org/packages/e5/bf/ddcfac41c1626798bc0b4aad6a926c490e4a9ae9374b539607d76cc7d455/pyfirebird-0.0.78.tar.gz
+[2023-07-10 01:07:05] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/93/58/42ebceed6d9a18e969aaea62b48d031ef8356dcbad38c500e162952212fa/tmnt-0.7.0b20230709.tar.gz
+[2023-07-10 01:07:05] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/d3/31/eeea7f49dcd4da860c6d98d8028fd8798b9df02a1659fd7e15ecb0be48bf/tmnt-cu101-0.7.0b20230709.tar.gz
+[2023-07-10 01:07:05] INFO root fetch - processPackages [pipd]: Downloading https://files.pythonhosted.org/packages/48/d6/f88a967f8f3fb8caa91ef2719cae21431ff9e02cdfa4da8415141cd5d6b3/pipd-0.1.7.tar.gz
+[2023-07-10 01:07:05] INFO root fetch - processPackages [django-password-policies-iplweb]: Downloading https://files.pythonhosted.org/packages/37/aa/45d8007d5c7cc2cec7888950985884273ab81f8a19869f0dc577fd40cb73/django_password_policies_iplweb-0.8.5-py3-none-any.whl
+[2023-07-10 01:07:06] INFO root fetch - processPackages [pyfirebird]: executing diffoscope
+[2023-07-10 01:07:06] INFO root fetch - processPackages [pyfirebird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfirebird-0.0.77.tar.gz tmp/pyfirebird-0.0.78.tar.gz --markdown 20230710/p/pyfirebird/0.0.77-0.0.78/diff.md --exclude *.pyd
+[2023-07-10 01:07:06] INFO root fetch - processPackages [pipd]: executing diffoscope
+[2023-07-10 01:07:06] INFO root fetch - processPackages [pipd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipd-0.1.6.tar.gz tmp/pipd-0.1.7.tar.gz --markdown 20230710/p/pipd/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-10 01:07:06] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-07-10 01:07:06] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230708.tar.gz tmp/tmnt-0.7.0b20230709.tar.gz --markdown 20230710/t/tmnt/0.7.0b20230708-0.7.0b20230709/diff.md --exclude *.pyd
+[2023-07-10 01:07:06] INFO root fetch - processPackages [django-password-policies-iplweb]: executing diffoscope
+[2023-07-10 01:07:06] INFO root fetch - processPackages [django-password-policies-iplweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-password-policies-iplweb-0.8.4.tar.gz tmp/django_password_policies_iplweb-0.8.5-py3-none-any.whl.zip --markdown 20230710/d/django-password-policies-iplweb/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-07-10 01:07:06] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-07-10 01:07:06] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230708.tar.gz tmp/tmnt-cu101-0.7.0b20230709.tar.gz --markdown 20230710/t/tmnt-cu101/0.7.0b20230708-0.7.0b20230709/diff.md --exclude *.pyd
+[2023-07-10 01:07:07] INFO root fetch - processPackages [pipd]: Remove: archive file [/home/abi/fetcher/tmp/pipd-0.1.6.tar.gz]
+[2023-07-10 01:07:07] INFO root fetch - processPackages [pipd]: Remove: archive file [/home/abi/fetcher/tmp/pipd-0.1.7.tar.gz]
+[2023-07-10 01:07:07] INFO root fetch - main [MainThread]: End processing [pipd]: success
+[2023-07-10 01:07:07] INFO root fetch - processPackages [django-password-policies-iplweb]: Remove: archive file [/home/abi/fetcher/tmp/django-password-policies-iplweb-0.8.4.tar.gz]
+[2023-07-10 01:07:07] INFO root fetch - processPackages [django-password-policies-iplweb]: Remove: archive file [/home/abi/fetcher/tmp/django_password_policies_iplweb-0.8.5-py3-none-any.whl.zip]
+[2023-07-10 01:07:07] INFO root fetch - main [MainThread]: End processing [django-password-policies-iplweb]: success
+[2023-07-10 01:07:07] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230708.tar.gz]
+[2023-07-10 01:07:07] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230709.tar.gz]
+[2023-07-10 01:07:07] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-07-10 01:07:07] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230708.tar.gz]
+[2023-07-10 01:07:07] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230709.tar.gz]
+[2023-07-10 01:07:07] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-07-10 01:07:07] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.77.tar.gz]
+[2023-07-10 01:07:07] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.78.tar.gz]
+[2023-07-10 01:07:07] INFO root fetch - main [MainThread]: End processing [pyfirebird]: success
+[2023-07-10 01:07:07] INFO root fetch - main [MainThread]: Store serial: [18824070]
