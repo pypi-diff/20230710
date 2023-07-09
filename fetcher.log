@@ -402,3 +402,120 @@
 [2023-07-10 00:25:32] INFO root fetch - processPackages [streamlit-binary-tree]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-binary-tree-0.1.4.tar.gz]
 [2023-07-10 00:25:32] INFO root fetch - main [MainThread]: End processing [streamlit-binary-tree]: success
 [2023-07-10 00:25:32] INFO root fetch - main [MainThread]: Store serial: [18823902]
+[2023-07-10 00:30:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18823902]
+[2023-07-10 00:30:41] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-10 00:30:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llama-cpp-python
+[2023-07-10 00:30:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: katottglib
+[2023-07-10 00:30:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aws-spy
+[2023-07-10 00:30:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AsyncIRCClient
+[2023-07-10 00:30:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: WifiOrca
+[2023-07-10 00:30:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dank-mids
+[2023-07-10 00:30:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gsuite-meld
+[2023-07-10 00:30:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: streamlit-binary-tree
+[2023-07-10 00:30:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sydeploy
+[2023-07-10 00:30:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ruspy
+[2023-07-10 00:30:41] WARNING root fetch - processPackages [gsuite-meld]: Skipping, unable to determine old version
+[2023-07-10 00:30:41] INFO root fetch - processPackages [gsuite-meld]: Start processing: pyfirebird
+[2023-07-10 00:30:41] INFO root fetch - main [MainThread]: End processing [gsuite-meld] error
+[2023-07-10 00:30:41] INFO root fetch - processPackages [llama-cpp-python]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 00:30:41] INFO root fetch - processPackages [aws-spy]: New version: [0.2.0] Old Version: [0.1.11]
+[2023-07-10 00:30:41] INFO root fetch - processPackages [sydeploy]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-10 00:30:41] INFO root fetch - processPackages [streamlit-binary-tree]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-10 00:30:41] INFO root fetch - processPackages [WifiOrca]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 00:30:41] INFO root fetch - processPackages [AsyncIRCClient]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-10 00:30:41] INFO root fetch - processPackages [katottglib]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-10 00:30:41] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-10 00:30:41] WARNING root fetch - processPackages [ruspy]: Skipping, unable to determine old version
+[2023-07-10 00:30:41] INFO root fetch - processPackages [ruspy]: Start processing: katottglib
+[2023-07-10 00:30:41] INFO root fetch - main [MainThread]: End processing [ruspy] error
+[2023-07-10 00:30:41] INFO root fetch - processPackages [pyfirebird]: New version: [0.0.75] Old Version: [0.0.74]
+[2023-07-10 00:30:41] INFO root fetch - processPackages [katottglib]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-10 00:30:41] INFO root fetch - processPackages [WifiOrca]: Downloading https://files.pythonhosted.org/packages/7d/1f/5b35c8e41585e1e723564d5a9ed3e1efe5a25f5f49ec0abfedbc77c15921/WifiOrca-0.0.8.tar.gz
+[2023-07-10 00:30:41] INFO root fetch - processPackages [aws-spy]: Downloading https://files.pythonhosted.org/packages/e3/0e/7bd144b636d61e3442c8375e6274c986e33f6545e90dde3d93b97ad506a5/aws_spy-0.1.11.tar.gz
+[2023-07-10 00:30:41] INFO root fetch - processPackages [llama-cpp-python]: Downloading https://files.pythonhosted.org/packages/7e/3b/b5f7e1ec5f43a4e980733c63bd4f05e1b7e14fd3b7aa72d9ca91f2415323/llama_cpp_python-0.1.8.tar.gz
+[2023-07-10 00:30:41] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/58/18/76804ce4b2cba456dbd3b7cbd1ad2b41c38066c394960662956c56f97852/sydeploy-0.2.8-py3-none-any.whl
+[2023-07-10 00:30:41] INFO root fetch - processPackages [katottglib]: Downloading https://files.pythonhosted.org/packages/ac/64/0873ae12f3efeb313f05c811870efe46086def405faf8d498281acf24cf0/katottglib-0.2.2.tar.gz
+[2023-07-10 00:30:41] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-10 00:30:41] INFO root fetch - processPackages [streamlit-binary-tree]: Downloading https://files.pythonhosted.org/packages/9a/83/a73c617d399196004fe2e82936d43429e3306f3dd1df4f2ce1df7ccd7bbf/streamlit-binary-tree-0.1.5.tar.gz
+[2023-07-10 00:30:41] INFO root fetch - processPackages [AsyncIRCClient]: Downloading https://files.pythonhosted.org/packages/b3/16/01a5df042acd3aa14de8dd679b05d86d4f89f58d22efc500e84921c72fc7/AsyncIRCClient-0.0.7.tar.gz
+[2023-07-10 00:30:41] INFO root fetch - processPackages [pyfirebird]: Downloading https://files.pythonhosted.org/packages/f6/d7/7ccb4d14ddb3c2b3e77203e1bb75f090e54a8d4b45dc5593f7627d15e081/pyfirebird-0.0.74.tar.gz
+[2023-07-10 00:30:41] INFO root fetch - processPackages [katottglib]: Downloading https://files.pythonhosted.org/packages/03/0a/9a3b0cace4aeab2d47162ad674b7255b8c1cfba675e522028119c3ea6cd9/katottglib-0.2.3.tar.gz
+[2023-07-10 00:30:42] INFO root fetch - processPackages [WifiOrca]: Downloading https://files.pythonhosted.org/packages/6c/bc/e2456b958bc898982eb43af2620e188bbfa5aa238ab51471ad1a3df3e58b/WifiOrca-0.0.9.tar.gz
+[2023-07-10 00:30:42] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-10 00:30:42] INFO root fetch - processPackages [aws-spy]: Downloading https://files.pythonhosted.org/packages/db/8f/448a95df2f2de171e56212ce3a2bad5fd007477bc72aca5f84b4a7b3a831/aws_spy-0.2.0.tar.gz
+[2023-07-10 00:30:42] INFO root fetch - processPackages [llama-cpp-python]: Downloading https://files.pythonhosted.org/packages/9f/24/45a5a3beee1354f668d916eb1a2146835a0eda4dbad0da45252170e105a6/llama_cpp_python-0.1.9.tar.gz
+[2023-07-10 00:30:42] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/cc/3a/ade23a174e4194ca6a2faef50394f37b84a3bc0b742c0fc2ef4b2e2094be/sydeploy-0.2.9-py3-none-any.whl
+[2023-07-10 00:30:42] INFO root fetch - processPackages [katottglib]: executing diffoscope
+[2023-07-10 00:30:42] INFO root fetch - processPackages [katottglib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/katottglib-0.2.2.tar.gz tmp/katottglib-0.2.3.tar.gz --markdown 20230710/k/katottglib/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-10 00:30:42] INFO root fetch - processPackages [pyfirebird]: Downloading https://files.pythonhosted.org/packages/f8/04/1d404855b55199e354fee1fce3a415f31483b96c49f6dae9905dbd9a9ffa/pyfirebird-0.0.75.tar.gz
+[2023-07-10 00:30:42] INFO root fetch - processPackages [AsyncIRCClient]: Downloading https://files.pythonhosted.org/packages/c2/d8/0c4d78ead80eda94358b398062bd4cf3b261a02eff5ed0f1fbbc829d5b95/AsyncIRCClient-0.0.8.tar.gz
+[2023-07-10 00:30:42] INFO root fetch - processPackages [WifiOrca]: executing diffoscope
+[2023-07-10 00:30:42] INFO root fetch - processPackages [WifiOrca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WifiOrca-0.0.8.tar.gz tmp/WifiOrca-0.0.9.tar.gz --markdown 20230710/W/WifiOrca/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 00:30:42] INFO root fetch - processPackages [katottglib]: Downloading https://files.pythonhosted.org/packages/7d/64/464f7174be3fb0af52e0c7db58eaaac12cbc5f9cf060f9d97baf576bb0e9/katottglib-0.2.4.tar.gz
+[2023-07-10 00:30:42] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-10 00:30:42] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230710/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-10 00:30:42] INFO root fetch - processPackages [streamlit-binary-tree]: Downloading https://files.pythonhosted.org/packages/82/94/04ff2ad00c25eac454234869d6cf00d9277123c61c5021388f5e7b260289/streamlit-binary-tree-0.1.6.tar.gz
+[2023-07-10 00:30:42] INFO root fetch - processPackages [llama-cpp-python]: executing diffoscope
+[2023-07-10 00:30:42] INFO root fetch - processPackages [llama-cpp-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_cpp_python-0.1.8.tar.gz tmp/llama_cpp_python-0.1.9.tar.gz --markdown 20230710/l/llama-cpp-python/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 00:30:42] INFO root fetch - processPackages [aws-spy]: executing diffoscope
+[2023-07-10 00:30:42] INFO root fetch - processPackages [aws-spy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_spy-0.1.11.tar.gz tmp/aws_spy-0.2.0.tar.gz --markdown 20230710/a/aws-spy/0.1.11-0.2.0/diff.md --exclude *.pyd
+[2023-07-10 00:30:42] INFO root fetch - processPackages [sydeploy]: executing diffoscope
+[2023-07-10 00:30:42] INFO root fetch - processPackages [sydeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sydeploy-0.2.8-py3-none-any.whl.zip tmp/sydeploy-0.2.9-py3-none-any.whl.zip --markdown 20230710/s/sydeploy/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-10 00:30:42] INFO root fetch - processPackages [AsyncIRCClient]: executing diffoscope
+[2023-07-10 00:30:42] INFO root fetch - processPackages [AsyncIRCClient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AsyncIRCClient-0.0.7.tar.gz tmp/AsyncIRCClient-0.0.8.tar.gz --markdown 20230710/A/AsyncIRCClient/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-10 00:30:42] INFO root fetch - processPackages [pyfirebird]: executing diffoscope
+[2023-07-10 00:30:42] INFO root fetch - processPackages [pyfirebird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfirebird-0.0.74.tar.gz tmp/pyfirebird-0.0.75.tar.gz --markdown 20230710/p/pyfirebird/0.0.74-0.0.75/diff.md --exclude *.pyd
+[2023-07-10 00:30:42] INFO root fetch - processPackages [katottglib]: executing diffoscope
+[2023-07-10 00:30:42] INFO root fetch - processPackages [katottglib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/katottglib-0.2.3.tar.gz tmp/katottglib-0.2.4.tar.gz --markdown 20230710/k/katottglib/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-10 00:30:42] INFO root fetch - processPackages [streamlit-binary-tree]: executing diffoscope
+[2023-07-10 00:30:42] INFO root fetch - processPackages [streamlit-binary-tree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-binary-tree-0.1.5.tar.gz tmp/streamlit-binary-tree-0.1.6.tar.gz --markdown 20230710/s/streamlit-binary-tree/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-10 00:30:43] INFO root fetch - processPackages [WifiOrca]: Remove: archive file [/home/abi/fetcher/tmp/WifiOrca-0.0.8.tar.gz]
+[2023-07-10 00:30:43] INFO root fetch - processPackages [WifiOrca]: Remove: archive file [/home/abi/fetcher/tmp/WifiOrca-0.0.9.tar.gz]
+[2023-07-10 00:30:43] INFO root fetch - main [MainThread]: End processing [WifiOrca]: success
+[2023-07-10 00:30:43] INFO root fetch - processPackages [katottglib]: Remove: archive file [/home/abi/fetcher/tmp/katottglib-0.2.2.tar.gz]
+[2023-07-10 00:30:43] INFO root fetch - processPackages [katottglib]: Remove: archive file [/home/abi/fetcher/tmp/katottglib-0.2.3.tar.gz]
+[2023-07-10 00:30:43] INFO root fetch - main [MainThread]: End processing [katottglib]: success
+[2023-07-10 00:30:44] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-10 00:30:44] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-10 00:30:44] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-10 00:30:44] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.8-py3-none-any.whl.zip]
+[2023-07-10 00:30:44] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.9-py3-none-any.whl.zip]
+[2023-07-10 00:30:44] INFO root fetch - main [MainThread]: End processing [sydeploy]: success
+[2023-07-10 00:30:44] INFO root fetch - processPackages [AsyncIRCClient]: Remove: archive file [/home/abi/fetcher/tmp/AsyncIRCClient-0.0.7.tar.gz]
+[2023-07-10 00:30:44] INFO root fetch - processPackages [AsyncIRCClient]: Remove: archive file [/home/abi/fetcher/tmp/AsyncIRCClient-0.0.8.tar.gz]
+[2023-07-10 00:30:44] INFO root fetch - main [MainThread]: End processing [AsyncIRCClient]: success
+[2023-07-10 00:30:44] ERROR root fetch - processPackages [katottglib]: Diffoscope failed: time="2023-07-10T00:30:42+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
+
+[2023-07-10 00:30:44] INFO root fetch - main [MainThread]: End processing [katottglib] error
+[2023-07-10 00:30:44] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.1.8.tar.gz]
+[2023-07-10 00:30:44] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.1.9.tar.gz]
+[2023-07-10 00:30:44] INFO root fetch - main [MainThread]: End processing [llama-cpp-python]: success
+[2023-07-10 00:30:44] INFO root fetch - processPackages [aws-spy]: Remove: archive file [/home/abi/fetcher/tmp/aws_spy-0.1.11.tar.gz]
+[2023-07-10 00:30:44] INFO root fetch - processPackages [aws-spy]: Remove: archive file [/home/abi/fetcher/tmp/aws_spy-0.2.0.tar.gz]
+[2023-07-10 00:30:44] INFO root fetch - main [MainThread]: End processing [aws-spy]: success
+[2023-07-10 00:30:44] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.74.tar.gz]
+[2023-07-10 00:30:44] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.75.tar.gz]
+[2023-07-10 00:30:44] INFO root fetch - main [MainThread]: End processing [pyfirebird]: success
+[2023-07-10 00:30:44] INFO root fetch - processPackages [streamlit-binary-tree]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-binary-tree-0.1.5.tar.gz]
+[2023-07-10 00:30:44] INFO root fetch - processPackages [streamlit-binary-tree]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-binary-tree-0.1.6.tar.gz]
+[2023-07-10 00:30:44] INFO root fetch - main [MainThread]: End processing [streamlit-binary-tree]: success
+[2023-07-10 00:30:44] INFO root fetch - main [MainThread]: Store serial: [18823939]
