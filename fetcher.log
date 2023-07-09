@@ -610,3 +610,60 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 00:35:57] INFO root fetch - processPackages [XPER]: Remove: archive file [/home/abi/fetcher/tmp/XPER-0.0.9.tar.gz]
 [2023-07-10 00:35:57] INFO root fetch - main [MainThread]: End processing [XPER]: success
 [2023-07-10 00:35:57] INFO root fetch - main [MainThread]: Store serial: [18823968]
+[2023-07-10 00:41:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18823968]
+[2023-07-10 00:41:05] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-10 00:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: read-tydex-file-pkg
+[2023-07-10 00:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyspimosim
+[2023-07-10 00:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kanonym4text
+[2023-07-10 00:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: streamlit-binary-tree
+[2023-07-10 00:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypdfe
+[2023-07-10 00:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sail
+[2023-07-10 00:41:06] INFO root fetch - processPackages [streamlit-binary-tree]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-10 00:41:06] INFO root fetch - processPackages [pypdfe]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 00:41:06] INFO root fetch - processPackages [pyspimosim]: New version: [1.2.16] Old Version: [1.2.15.2]
+[2023-07-10 00:41:06] INFO root fetch - processPackages [read-tydex-file-pkg]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-10 00:41:06] INFO root fetch - processPackages [kanonym4text]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-10 00:41:06] INFO root fetch - processPackages [sail]: New version: [0.6.3] Old Version: [0.5.2]
+[2023-07-10 00:41:06] INFO root fetch - processPackages [pypdfe]: Downloading https://files.pythonhosted.org/packages/d7/7b/fc7b6a476dedac0cb198574c6cd3284d66d0d58096771544f79bc432f259/pypdfe-0.1.8.tar.gz
+[2023-07-10 00:41:06] INFO root fetch - processPackages [kanonym4text]: Downloading https://files.pythonhosted.org/packages/5a/ae/a60a6bd3bb6d168a52018d2efcb6b84bab150a2c814c6c1768483760fc3f/kanonym4text-0.2.3.tar.gz
+[2023-07-10 00:41:06] INFO root fetch - processPackages [streamlit-binary-tree]: Downloading https://files.pythonhosted.org/packages/ba/0d/4846a044cd5fccbe1b3b6b725500872bb7c65913913cba2422024f6e0ec8/streamlit-binary-tree-0.1.7.tar.gz
+[2023-07-10 00:41:06] INFO root fetch - processPackages [read-tydex-file-pkg]: Downloading https://files.pythonhosted.org/packages/e9/86/fe925c25ed25ed10d6e25fd1a8964101439a798966de68cec594835d42a7/read_tydex_file_pkg-0.0.1.tar.gz
+[2023-07-10 00:41:06] INFO root fetch - processPackages [pyspimosim]: Downloading https://files.pythonhosted.org/packages/d4/5c/cd3e99c9af0f837a84b06be70523553cc1b082865a3b8c82cad30a9cb117/pyspimosim-1.2.15.2-py3-none-any.whl
+[2023-07-10 00:41:06] INFO root fetch - processPackages [sail]: Downloading https://files.pythonhosted.org/packages/3a/63/c072136119792418e7067613ff869960e4c52b50c5a5b7113442e4a585a0/sail-0.5.2-py3-none-any.whl
+[2023-07-10 00:41:06] INFO root fetch - processPackages [pypdfe]: Downloading https://files.pythonhosted.org/packages/43/f0/f557d7789e790c4ca9eaa4fee3f4110f3bb7961c5c7835e2c206b280ace4/pypdfe-0.1.9.tar.gz
+[2023-07-10 00:41:06] INFO root fetch - processPackages [kanonym4text]: Downloading https://files.pythonhosted.org/packages/65/be/82a00fda82c2ed7ba15e97a9717a51924bf996af1fe40e5220c6aee2ca24/kanonym4text-0.2.4.tar.gz
+[2023-07-10 00:41:06] INFO root fetch - processPackages [read-tydex-file-pkg]: Downloading https://files.pythonhosted.org/packages/22/2b/86fc2971110203b1d1396ddf0a4daba651f260c1a2af8ece791d0b1ed3c6/read_tydex_file_pkg-0.0.2.tar.gz
+[2023-07-10 00:41:06] INFO root fetch - processPackages [pypdfe]: executing diffoscope
+[2023-07-10 00:41:06] INFO root fetch - processPackages [pypdfe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypdfe-0.1.8.tar.gz tmp/pypdfe-0.1.9.tar.gz --markdown 20230710/p/pypdfe/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 00:41:06] INFO root fetch - processPackages [streamlit-binary-tree]: Downloading https://files.pythonhosted.org/packages/82/a7/208df0343628f43c98559a06814ff49c34173dbe2da681ce3978135d2a34/streamlit-binary-tree-0.1.8.tar.gz
+[2023-07-10 00:41:06] INFO root fetch - processPackages [sail]: Downloading https://files.pythonhosted.org/packages/72/64/099310d8e82f9c0f50bb32420b69f71851bbd1a06cc9d313f8217197a5f0/sail-0.6.3.tar.gz
+[2023-07-10 00:41:06] INFO root fetch - processPackages [kanonym4text]: executing diffoscope
+[2023-07-10 00:41:06] INFO root fetch - processPackages [kanonym4text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kanonym4text-0.2.3.tar.gz tmp/kanonym4text-0.2.4.tar.gz --markdown 20230710/k/kanonym4text/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-10 00:41:06] INFO root fetch - processPackages [pyspimosim]: Downloading https://files.pythonhosted.org/packages/7b/b0/f2bb5f73b58fcab69d57dd2e9df66355c0bbcb0e619fc6595273778eec71/pyspimosim-1.2.16-py3-none-any.whl
+[2023-07-10 00:41:06] INFO root fetch - processPackages [read-tydex-file-pkg]: executing diffoscope
+[2023-07-10 00:41:06] INFO root fetch - processPackages [read-tydex-file-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/read_tydex_file_pkg-0.0.1.tar.gz tmp/read_tydex_file_pkg-0.0.2.tar.gz --markdown 20230710/r/read-tydex-file-pkg/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-10 00:41:07] INFO root fetch - processPackages [sail]: executing diffoscope
+[2023-07-10 00:41:07] INFO root fetch - processPackages [sail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sail-0.5.2-py3-none-any.whl.zip tmp/sail-0.6.3.tar.gz --markdown 20230710/s/sail/0.5.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-10 00:41:07] INFO root fetch - processPackages [streamlit-binary-tree]: executing diffoscope
+[2023-07-10 00:41:07] INFO root fetch - processPackages [streamlit-binary-tree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-binary-tree-0.1.7.tar.gz tmp/streamlit-binary-tree-0.1.8.tar.gz --markdown 20230710/s/streamlit-binary-tree/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-10 00:41:07] INFO root fetch - processPackages [pyspimosim]: executing diffoscope
+[2023-07-10 00:41:07] INFO root fetch - processPackages [pyspimosim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspimosim-1.2.15.2-py3-none-any.whl.zip tmp/pyspimosim-1.2.16-py3-none-any.whl.zip --markdown 20230710/p/pyspimosim/1.2.15.2-1.2.16/diff.md --exclude *.pyd
+[2023-07-10 00:41:07] INFO root fetch - processPackages [kanonym4text]: Remove: archive file [/home/abi/fetcher/tmp/kanonym4text-0.2.3.tar.gz]
+[2023-07-10 00:41:07] INFO root fetch - processPackages [kanonym4text]: Remove: archive file [/home/abi/fetcher/tmp/kanonym4text-0.2.4.tar.gz]
+[2023-07-10 00:41:07] INFO root fetch - main [MainThread]: End processing [kanonym4text]: success
+[2023-07-10 00:41:07] INFO root fetch - processPackages [pypdfe]: Remove: archive file [/home/abi/fetcher/tmp/pypdfe-0.1.8.tar.gz]
+[2023-07-10 00:41:07] INFO root fetch - processPackages [pypdfe]: Remove: archive file [/home/abi/fetcher/tmp/pypdfe-0.1.9.tar.gz]
+[2023-07-10 00:41:07] INFO root fetch - main [MainThread]: End processing [pypdfe]: success
+[2023-07-10 00:41:08] INFO root fetch - processPackages [read-tydex-file-pkg]: Remove: archive file [/home/abi/fetcher/tmp/read_tydex_file_pkg-0.0.1.tar.gz]
+[2023-07-10 00:41:08] INFO root fetch - processPackages [read-tydex-file-pkg]: Remove: archive file [/home/abi/fetcher/tmp/read_tydex_file_pkg-0.0.2.tar.gz]
+[2023-07-10 00:41:08] INFO root fetch - main [MainThread]: End processing [read-tydex-file-pkg]: success
+[2023-07-10 00:41:08] INFO root fetch - processPackages [sail]: Remove: archive file [/home/abi/fetcher/tmp/sail-0.5.2-py3-none-any.whl.zip]
+[2023-07-10 00:41:08] INFO root fetch - processPackages [sail]: Remove: archive file [/home/abi/fetcher/tmp/sail-0.6.3.tar.gz]
+[2023-07-10 00:41:08] INFO root fetch - main [MainThread]: End processing [sail]: success
+[2023-07-10 00:41:08] INFO root fetch - processPackages [streamlit-binary-tree]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-binary-tree-0.1.7.tar.gz]
+[2023-07-10 00:41:08] INFO root fetch - processPackages [streamlit-binary-tree]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-binary-tree-0.1.8.tar.gz]
+[2023-07-10 00:41:08] INFO root fetch - main [MainThread]: End processing [streamlit-binary-tree]: success
+[2023-07-10 00:41:10] INFO root fetch - processPackages [pyspimosim]: Remove: archive file [/home/abi/fetcher/tmp/pyspimosim-1.2.15.2-py3-none-any.whl.zip]
+[2023-07-10 00:41:10] INFO root fetch - processPackages [pyspimosim]: Remove: archive file [/home/abi/fetcher/tmp/pyspimosim-1.2.16-py3-none-any.whl.zip]
+[2023-07-10 00:41:10] INFO root fetch - main [MainThread]: End processing [pyspimosim]: success
+[2023-07-10 00:41:10] INFO root fetch - main [MainThread]: Store serial: [18823984]
