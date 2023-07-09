@@ -1039,3 +1039,106 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 01:27:51] INFO root fetch - processPackages [airunner]: Remove: archive file [/home/abi/fetcher/tmp/airunner-2.0.0.tar.gz]
 [2023-07-10 01:27:51] INFO root fetch - main [MainThread]: End processing [airunner]: success
 [2023-07-10 01:27:51] INFO root fetch - main [MainThread]: Store serial: [18824131]
+[2023-07-10 01:32:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18824131]
+[2023-07-10 01:32:59] INFO root fetch - main [MainThread]: No changed packages found
+[2023-07-10 01:38:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18824131]
+[2023-07-10 01:38:05] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-10 01:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ladybug-vectorworks
+[2023-07-10 01:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sdss-lvmecp
+[2023-07-10 01:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cellxgene-gateway
+[2023-07-10 01:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-embedded
+[2023-07-10 01:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-embedded-serial
+[2023-07-10 01:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: roblox-pyc
+[2023-07-10 01:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytest-embedded-serial-esp
+[2023-07-10 01:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytest-embedded-idf
+[2023-07-10 01:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytest-embedded-jtag
+[2023-07-10 01:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pytest-embedded-qemu
+[2023-07-10 01:38:05] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-10 01:38:05] WARNING root fetch - processPackages [sdss-lvmecp]: Skipping, unable to determine old version
+[2023-07-10 01:38:05] INFO root fetch - processPackages [sdss-lvmecp]: Start processing: pytest-embedded-arduino
+[2023-07-10 01:38:05] INFO root fetch - main [MainThread]: End processing [sdss-lvmecp] error
+[2023-07-10 01:38:05] INFO root fetch - processPackages [ladybug-vectorworks]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-10 01:38:05] INFO root fetch - processPackages [cellxgene-gateway]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-10 01:38:05] INFO root fetch - processPackages [pytest-embedded-idf]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-07-10 01:38:05] INFO root fetch - processPackages [pytest-embedded]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-07-10 01:38:05] INFO root fetch - processPackages [pytest-embedded-serial-esp]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-07-10 01:38:05] INFO root fetch - processPackages [pytest-embedded-serial]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-07-10 01:38:05] INFO root fetch - processPackages [pytest-embedded-qemu]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-07-10 01:38:05] INFO root fetch - processPackages [pytest-embedded-jtag]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-07-10 01:38:05] INFO root fetch - processPackages [pytest-embedded-arduino]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-07-10 01:38:05] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-10 01:38:05] INFO root fetch - processPackages [ladybug-vectorworks]: Downloading https://files.pythonhosted.org/packages/15/f2/4e099e2233df88c71911973edbd4f1e7a94c02e25e044cdbb40125641e4f/ladybug_vectorworks-0.2.6.tar.gz
+[2023-07-10 01:38:05] INFO root fetch - processPackages [cellxgene-gateway]: Downloading https://files.pythonhosted.org/packages/9d/44/324c15cc89319ad3acc061255b6ae4aaaec3933b993a59299771bb56491d/cellxgene-gateway-0.3.8.tar.gz
+[2023-07-10 01:38:06] INFO root fetch - processPackages [pytest-embedded-idf]: Downloading https://files.pythonhosted.org/packages/df/48/dd6b8d0bc14f9e8042ddb2734587e58831413e89fa3b978084071b61076b/pytest_embedded_idf-1.3.3.tar.gz
+[2023-07-10 01:38:06] WARNING root fetch - processPackages [ladybug-vectorworks]: Skipping package: exceeds size limit 41387234>=10485760
+[2023-07-10 01:38:06] INFO root fetch - processPackages [ladybug-vectorworks]: Start processing: dank-mids
+[2023-07-10 01:38:06] INFO root fetch - main [MainThread]: End processing [ladybug-vectorworks] error
+[2023-07-10 01:38:06] INFO root fetch - processPackages [pytest-embedded-serial-esp]: Downloading https://files.pythonhosted.org/packages/e7/9c/3433272ed7f9602f3b2625ee51b8a5b7bfdee390344b75fcf5ef7b189f4e/pytest_embedded_serial_esp-1.3.3.tar.gz
+[2023-07-10 01:38:06] INFO root fetch - processPackages [pytest-embedded-serial]: Downloading https://files.pythonhosted.org/packages/7e/c4/823df75ea738f12d9c910c06413281ec98976e5107fe255427835f4f3f79/pytest_embedded_serial-1.3.3.tar.gz
+[2023-07-10 01:38:06] INFO root fetch - processPackages [pytest-embedded]: Downloading https://files.pythonhosted.org/packages/eb/0a/067ec342948a030e6a86a677e8e7da55b84848a936fcb16b788f2ab63316/pytest_embedded-1.3.3.tar.gz
+[2023-07-10 01:38:06] INFO root fetch - processPackages [pytest-embedded-jtag]: Downloading https://files.pythonhosted.org/packages/90/ed/341d303841dc9be3df2d8ca7df9ed1ea5daed870e625277afdeb53f2c99f/pytest_embedded_jtag-1.3.3.tar.gz
+[2023-07-10 01:38:06] INFO root fetch - processPackages [pytest-embedded-qemu]: Downloading https://files.pythonhosted.org/packages/13/05/0a194a993a8c2a0ac6c2419f3bb0208f183f454c9db641e4fa2febbc0503/pytest_embedded_qemu-1.3.3.tar.gz
+[2023-07-10 01:38:06] INFO root fetch - processPackages [pytest-embedded-arduino]: Downloading https://files.pythonhosted.org/packages/bd/4d/30a73ac0d933616596a3421f6b8a4ebf6fbc02c171be793ef71727aa167a/pytest_embedded_arduino-1.3.3.tar.gz
+[2023-07-10 01:38:06] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-10 01:38:06] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-10 01:38:06] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-10 01:38:06] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-10 01:38:06] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230710/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-10 01:38:06] INFO root fetch - processPackages [pytest-embedded-serial-esp]: Downloading https://files.pythonhosted.org/packages/39/11/7c2a6a00611ec5e810a2c2b6f3aaf6818d84b81001d93e00f17cebcefa70/pytest_embedded_serial_esp-1.3.4.tar.gz
+[2023-07-10 01:38:06] INFO root fetch - processPackages [pytest-embedded-idf]: Downloading https://files.pythonhosted.org/packages/4d/92/9ca15c1c61d89c3118ea2531b4daf484a8538f77ce32e5b544ace57d81f5/pytest_embedded_idf-1.3.4.tar.gz
+[2023-07-10 01:38:06] INFO root fetch - processPackages [cellxgene-gateway]: Downloading https://files.pythonhosted.org/packages/87/38/dfb5e7d285e03ef55f60755d4722f5e88abf2828f03594c8917856def204/cellxgene-gateway-0.3.9.tar.gz
+[2023-07-10 01:38:06] INFO root fetch - processPackages [pytest-embedded-serial]: Downloading https://files.pythonhosted.org/packages/a3/49/b92fdcef33e9ca88f47e2caf14be85b6d975b03447f46120fb48b95f2dab/pytest_embedded_serial-1.3.4.tar.gz
+[2023-07-10 01:38:06] INFO root fetch - processPackages [pytest-embedded-jtag]: Downloading https://files.pythonhosted.org/packages/38/a9/88dbe88009dc5bc2747f6b089c1aebd551eded1cd16a52501cbf5902905d/pytest_embedded_jtag-1.3.4.tar.gz
+[2023-07-10 01:38:06] INFO root fetch - processPackages [pytest-embedded]: Downloading https://files.pythonhosted.org/packages/ae/1b/47b169085ed88b2c44a1283d89c849973c7a5ab42c111c5db80621a9be61/pytest_embedded-1.3.4.tar.gz
+[2023-07-10 01:38:06] INFO root fetch - processPackages [pytest-embedded-qemu]: Downloading https://files.pythonhosted.org/packages/f9/1d/127b945c06464d69fd582e8ae7c3e9f932454fd6c2c934ce71bea7b38d98/pytest_embedded_qemu-1.3.4.tar.gz
+[2023-07-10 01:38:06] INFO root fetch - processPackages [pytest-embedded-arduino]: Downloading https://files.pythonhosted.org/packages/d6/2b/7736001b0db1287347d3beb60277a79b63f1a31ffe49092683bac9456b25/pytest_embedded_arduino-1.3.4.tar.gz
+[2023-07-10 01:38:06] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-10 01:38:06] INFO root fetch - processPackages [pytest-embedded-serial-esp]: executing diffoscope
+[2023-07-10 01:38:06] INFO root fetch - processPackages [pytest-embedded-serial-esp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_embedded_serial_esp-1.3.3.tar.gz tmp/pytest_embedded_serial_esp-1.3.4.tar.gz --markdown 20230710/p/pytest-embedded-serial-esp/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-07-10 01:38:06] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-10 01:38:06] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230710/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-10 01:38:06] INFO root fetch - processPackages [pytest-embedded-serial]: executing diffoscope
+[2023-07-10 01:38:06] INFO root fetch - processPackages [pytest-embedded-idf]: executing diffoscope
+[2023-07-10 01:38:06] INFO root fetch - processPackages [pytest-embedded-serial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_embedded_serial-1.3.3.tar.gz tmp/pytest_embedded_serial-1.3.4.tar.gz --markdown 20230710/p/pytest-embedded-serial/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-07-10 01:38:06] INFO root fetch - processPackages [pytest-embedded-idf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_embedded_idf-1.3.3.tar.gz tmp/pytest_embedded_idf-1.3.4.tar.gz --markdown 20230710/p/pytest-embedded-idf/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-07-10 01:38:07] INFO root fetch - processPackages [pytest-embedded-jtag]: executing diffoscope
+[2023-07-10 01:38:07] INFO root fetch - processPackages [pytest-embedded-qemu]: executing diffoscope
+[2023-07-10 01:38:07] INFO root fetch - processPackages [pytest-embedded-jtag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_embedded_jtag-1.3.3.tar.gz tmp/pytest_embedded_jtag-1.3.4.tar.gz --markdown 20230710/p/pytest-embedded-jtag/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-07-10 01:38:07] INFO root fetch - processPackages [pytest-embedded-qemu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_embedded_qemu-1.3.3.tar.gz tmp/pytest_embedded_qemu-1.3.4.tar.gz --markdown 20230710/p/pytest-embedded-qemu/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-07-10 01:38:07] INFO root fetch - processPackages [cellxgene-gateway]: executing diffoscope
+[2023-07-10 01:38:07] INFO root fetch - processPackages [cellxgene-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellxgene-gateway-0.3.8.tar.gz tmp/cellxgene-gateway-0.3.9.tar.gz --markdown 20230710/c/cellxgene-gateway/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-10 01:38:07] INFO root fetch - processPackages [pytest-embedded-arduino]: executing diffoscope
+[2023-07-10 01:38:07] INFO root fetch - processPackages [pytest-embedded-arduino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_embedded_arduino-1.3.3.tar.gz tmp/pytest_embedded_arduino-1.3.4.tar.gz --markdown 20230710/p/pytest-embedded-arduino/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-07-10 01:38:07] INFO root fetch - processPackages [pytest-embedded]: executing diffoscope
+[2023-07-10 01:38:07] INFO root fetch - processPackages [pytest-embedded]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_embedded-1.3.3.tar.gz tmp/pytest_embedded-1.3.4.tar.gz --markdown 20230710/p/pytest-embedded/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-07-10 01:38:07] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-10 01:38:07] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-10 01:38:07] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-10 01:38:08] INFO root fetch - processPackages [pytest-embedded-serial-esp]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_serial_esp-1.3.3.tar.gz]
+[2023-07-10 01:38:08] INFO root fetch - processPackages [pytest-embedded-serial-esp]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_serial_esp-1.3.4.tar.gz]
+[2023-07-10 01:38:08] INFO root fetch - main [MainThread]: End processing [pytest-embedded-serial-esp]: success
+[2023-07-10 01:38:08] INFO root fetch - processPackages [pytest-embedded-idf]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_idf-1.3.3.tar.gz]
+[2023-07-10 01:38:08] INFO root fetch - processPackages [pytest-embedded-idf]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_idf-1.3.4.tar.gz]
+[2023-07-10 01:38:08] INFO root fetch - main [MainThread]: End processing [pytest-embedded-idf]: success
+[2023-07-10 01:38:08] INFO root fetch - processPackages [pytest-embedded-arduino]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_arduino-1.3.3.tar.gz]
+[2023-07-10 01:38:08] INFO root fetch - processPackages [pytest-embedded-arduino]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_arduino-1.3.4.tar.gz]
+[2023-07-10 01:38:08] INFO root fetch - main [MainThread]: End processing [pytest-embedded-arduino]: success
+[2023-07-10 01:38:08] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-10 01:38:08] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-10 01:38:08] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-10 01:38:08] INFO root fetch - processPackages [pytest-embedded]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded-1.3.3.tar.gz]
+[2023-07-10 01:38:08] INFO root fetch - processPackages [pytest-embedded]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded-1.3.4.tar.gz]
+[2023-07-10 01:38:08] INFO root fetch - main [MainThread]: End processing [pytest-embedded]: success
+[2023-07-10 01:38:08] INFO root fetch - processPackages [pytest-embedded-serial]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_serial-1.3.3.tar.gz]
+[2023-07-10 01:38:08] INFO root fetch - processPackages [pytest-embedded-serial]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_serial-1.3.4.tar.gz]
+[2023-07-10 01:38:08] INFO root fetch - main [MainThread]: End processing [pytest-embedded-serial]: success
+[2023-07-10 01:38:08] INFO root fetch - processPackages [pytest-embedded-qemu]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_qemu-1.3.3.tar.gz]
+[2023-07-10 01:38:08] INFO root fetch - processPackages [pytest-embedded-qemu]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_qemu-1.3.4.tar.gz]
+[2023-07-10 01:38:08] INFO root fetch - main [MainThread]: End processing [pytest-embedded-qemu]: success
+[2023-07-10 01:38:08] INFO root fetch - processPackages [cellxgene-gateway]: Remove: archive file [/home/abi/fetcher/tmp/cellxgene-gateway-0.3.8.tar.gz]
+[2023-07-10 01:38:08] INFO root fetch - processPackages [cellxgene-gateway]: Remove: archive file [/home/abi/fetcher/tmp/cellxgene-gateway-0.3.9.tar.gz]
+[2023-07-10 01:38:08] INFO root fetch - main [MainThread]: End processing [cellxgene-gateway]: success
+[2023-07-10 01:38:09] INFO root fetch - processPackages [pytest-embedded-jtag]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_jtag-1.3.3.tar.gz]
+[2023-07-10 01:38:09] INFO root fetch - processPackages [pytest-embedded-jtag]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_jtag-1.3.4.tar.gz]
+[2023-07-10 01:38:09] INFO root fetch - main [MainThread]: End processing [pytest-embedded-jtag]: success
+[2023-07-10 01:38:09] INFO root fetch - main [MainThread]: Store serial: [18824170]
