@@ -89,3 +89,174 @@
 [2023-07-10 00:04:45] INFO root fetch - processPackages [pypdfe]: Remove: archive file [/home/abi/fetcher/tmp/pypdfe-0.1.9.tar.gz]
 [2023-07-10 00:04:45] INFO root fetch - main [MainThread]: End processing [pypdfe]: success
 [2023-07-10 00:04:45] INFO root fetch - main [MainThread]: Store serial: [18823785]
+[2023-07-10 00:09:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18823785]
+[2023-07-10 00:09:54] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-10 00:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trendalation
+[2023-07-10 00:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ez-a-sync
+[2023-07-10 00:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rds-core
+[2023-07-10 00:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: video-ditor
+[2023-07-10 00:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edp-redy-py
+[2023-07-10 00:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: r614-config
+[2023-07-10 00:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyrosimple
+[2023-07-10 00:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hypha
+[2023-07-10 00:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: statprocon
+[2023-07-10 00:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: r614-o11y
+[2023-07-10 00:09:54] INFO root fetch - processPackages [ez-a-sync]: New version: [0.6.1.dev5] Old Version: [0.6.1.dev4]
+[2023-07-10 00:09:54] INFO root fetch - processPackages [pyrosimple]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-07-10 00:09:54] INFO root fetch - processPackages [r614-config]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-10 00:09:54] INFO root fetch - processPackages [rds-core]: New version: [0.2.1] Old Version: [0.1.2]
+[2023-07-10 00:09:54] INFO root fetch - processPackages [hypha]: New version: [0.15.8] Old Version: [0.15.7]
+[2023-07-10 00:09:54] INFO root fetch - processPackages [statprocon]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-10 00:09:54] INFO root fetch - processPackages [r614-o11y]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-10 00:09:54] INFO root fetch - processPackages [edp-redy-py]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-10 00:09:54] INFO root fetch - processPackages [video-ditor]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-10 00:09:54] INFO root fetch - processPackages [trendalation]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 00:09:54] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/84/c9/e929eab3e011defab803374511ebd79533fa2b720250bee96222fc41a0d3/ez-a-sync-0.6.1.dev4.tar.gz
+[2023-07-10 00:09:54] INFO root fetch - processPackages [statprocon]: Downloading https://files.pythonhosted.org/packages/9c/05/3ec8ff84afaded6ac76ecde1f49a065b66df4381b3b3fc3dfbd91fe9fc34/statprocon-0.0.2.tar.gz
+[2023-07-10 00:09:54] INFO root fetch - processPackages [edp-redy-py]: Downloading https://files.pythonhosted.org/packages/02/fd/ee0d7bcc96d7a1612e835655ab2b4395bc8fafee2447da8b4baa2149f30e/edp_redy_py-0.1.6.tar.gz
+[2023-07-10 00:09:54] INFO root fetch - processPackages [pyrosimple]: Downloading https://files.pythonhosted.org/packages/e6/86/a5ff57bdcd07032f82e3b9fc57bce20a14a3a7fde27f47b5d0701618b275/pyrosimple-2.9.0.tar.gz
+[2023-07-10 00:09:54] INFO root fetch - processPackages [r614-config]: Downloading https://files.pythonhosted.org/packages/cb/f0/b10c7899de0c0f46e36dcd6383ba42bddf750d8d2a6961c0018f16323d8e/r614_config-0.1.6.tar.gz
+[2023-07-10 00:09:54] INFO root fetch - processPackages [rds-core]: Downloading https://files.pythonhosted.org/packages/db/ef/b939499a757f41d816154ae2ecc2375613fec9fedbfd725ef9f70c3719c9/rds-core-0.1.2.tar.gz
+[2023-07-10 00:09:54] INFO root fetch - processPackages [video-ditor]: Downloading https://files.pythonhosted.org/packages/3e/88/395a671711a9faf42a1321ec0c9c416c932905929af73e7133f58c2e31a8/video-ditor-0.0.1.tar.gz
+[2023-07-10 00:09:54] INFO root fetch - processPackages [hypha]: Downloading https://files.pythonhosted.org/packages/3b/1c/2587650834b82f5294e81891a15c92e1504fc26a7cb3ea08be1d64f1236a/hypha-0.15.7.tar.gz
+[2023-07-10 00:09:54] INFO root fetch - processPackages [trendalation]: Downloading https://files.pythonhosted.org/packages/7f/e7/bdf32138eb3d3275ad342d9b243068c94e6d20a037cee875d08d1e9358b1/trendalation-0.1.8.tar.gz
+[2023-07-10 00:09:54] INFO root fetch - processPackages [r614-o11y]: Downloading https://files.pythonhosted.org/packages/67/63/ab154af39dbb44f906af5513bc156e2825b3c498a8da56e9d95a323b3f75/r614_o11y-0.1.5.tar.gz
+[2023-07-10 00:09:54] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/0e/96/8b303bace190a6187bb851562a5f68a623bcc35923b50d30a78ebc06fd4b/ez-a-sync-0.6.1.dev5.tar.gz
+[2023-07-10 00:09:54] INFO root fetch - processPackages [statprocon]: Downloading https://files.pythonhosted.org/packages/1e/d8/0604dfaaa0cf7edabae372e4d063beb2f7f1411adb0e82dd29cebe24fc2a/statprocon-0.0.3.tar.gz
+[2023-07-10 00:09:55] INFO root fetch - processPackages [edp-redy-py]: Downloading https://files.pythonhosted.org/packages/43/cd/22aa5f83a51e43f881c332f2c06ba90abfde2f471b31b71730255b0dd3a4/edp_redy_py-0.1.7.tar.gz
+[2023-07-10 00:09:55] INFO root fetch - processPackages [pyrosimple]: Downloading https://files.pythonhosted.org/packages/5a/a2/4ac9319d185bc037fb33507148aaf889737c206f0203d819052b43ac4d81/pyrosimple-2.9.1.tar.gz
+[2023-07-10 00:09:55] INFO root fetch - processPackages [statprocon]: executing diffoscope
+[2023-07-10 00:09:55] INFO root fetch - processPackages [statprocon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statprocon-0.0.2.tar.gz tmp/statprocon-0.0.3.tar.gz --markdown 20230710/s/statprocon/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-10 00:09:55] INFO root fetch - processPackages [edp-redy-py]: executing diffoscope
+[2023-07-10 00:09:55] INFO root fetch - processPackages [edp-redy-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edp_redy_py-0.1.6.tar.gz tmp/edp_redy_py-0.1.7.tar.gz --markdown 20230710/e/edp-redy-py/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-10 00:09:55] INFO root fetch - processPackages [r614-o11y]: Downloading https://files.pythonhosted.org/packages/59/16/7873da32dd8fe604909e66947220d6be3581fc79d24ba3f6fdd08a6557c0/r614_o11y-0.1.6.tar.gz
+[2023-07-10 00:09:55] INFO root fetch - processPackages [r614-config]: Downloading https://files.pythonhosted.org/packages/ee/a6/bb0efea96e6f82181f1983960de6cbf5975fee0ee3ccce3c9e23d485080a/r614_config-0.1.7.tar.gz
+[2023-07-10 00:09:55] INFO root fetch - processPackages [ez-a-sync]: executing diffoscope
+[2023-07-10 00:09:55] INFO root fetch - processPackages [ez-a-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez-a-sync-0.6.1.dev4.tar.gz tmp/ez-a-sync-0.6.1.dev5.tar.gz --markdown 20230710/e/ez-a-sync/0.6.1.dev4-0.6.1.dev5/diff.md --exclude *.pyd
+[2023-07-10 00:09:55] INFO root fetch - processPackages [rds-core]: Downloading https://files.pythonhosted.org/packages/66/07/58132860ebcacfbe31498ee6687f3d1be40ded7db888fc9d123672f85c72/rds-core-0.2.1.tar.gz
+[2023-07-10 00:09:55] INFO root fetch - processPackages [pyrosimple]: executing diffoscope
+[2023-07-10 00:09:55] INFO root fetch - processPackages [pyrosimple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrosimple-2.9.0.tar.gz tmp/pyrosimple-2.9.1.tar.gz --markdown 20230710/p/pyrosimple/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-07-10 00:09:55] INFO root fetch - processPackages [video-ditor]: Downloading https://files.pythonhosted.org/packages/6f/63/2851748243e7544d2e83b3bdea65c01a40d3a0b53defe6b0450e291cdaa1/video-ditor-0.0.2.tar.gz
+[2023-07-10 00:09:55] INFO root fetch - processPackages [trendalation]: Downloading https://files.pythonhosted.org/packages/8e/b1/c6a07b53ec88e05bdf8c959508dc4f5ea8aa1c97cd849ddc13584538a9a4/trendalation-0.1.9.tar.gz
+[2023-07-10 00:09:55] INFO root fetch - processPackages [r614-o11y]: executing diffoscope
+[2023-07-10 00:09:55] INFO root fetch - processPackages [r614-o11y]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/r614_o11y-0.1.5.tar.gz tmp/r614_o11y-0.1.6.tar.gz --markdown 20230710/r/r614-o11y/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-10 00:09:55] INFO root fetch - processPackages [r614-config]: executing diffoscope
+[2023-07-10 00:09:55] INFO root fetch - processPackages [r614-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/r614_config-0.1.6.tar.gz tmp/r614_config-0.1.7.tar.gz --markdown 20230710/r/r614-config/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-10 00:09:55] INFO root fetch - processPackages [rds-core]: executing diffoscope
+[2023-07-10 00:09:55] INFO root fetch - processPackages [rds-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rds-core-0.1.2.tar.gz tmp/rds-core-0.2.1.tar.gz --markdown 20230710/r/rds-core/0.1.2-0.2.1/diff.md --exclude *.pyd
+[2023-07-10 00:09:55] INFO root fetch - processPackages [hypha]: Downloading https://files.pythonhosted.org/packages/5f/f5/974dbcd4812824cf3f90d85490f8c6b7df7931f35b4ea2b5bdb8cd72cdbf/hypha-0.15.8.tar.gz
+[2023-07-10 00:09:55] INFO root fetch - processPackages [video-ditor]: executing diffoscope
+[2023-07-10 00:09:55] INFO root fetch - processPackages [video-ditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/video-ditor-0.0.1.tar.gz tmp/video-ditor-0.0.2.tar.gz --markdown 20230710/v/video-ditor/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-10 00:09:55] INFO root fetch - processPackages [trendalation]: executing diffoscope
+[2023-07-10 00:09:55] INFO root fetch - processPackages [trendalation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trendalation-0.1.8.tar.gz tmp/trendalation-0.1.9.tar.gz --markdown 20230710/t/trendalation/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 00:09:55] INFO root fetch - processPackages [hypha]: executing diffoscope
+[2023-07-10 00:09:55] INFO root fetch - processPackages [hypha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypha-0.15.7.tar.gz tmp/hypha-0.15.8.tar.gz --markdown 20230710/h/hypha/0.15.7-0.15.8/diff.md --exclude *.pyd
+[2023-07-10 00:09:56] INFO root fetch - processPackages [statprocon]: Remove: archive file [/home/abi/fetcher/tmp/statprocon-0.0.2.tar.gz]
+[2023-07-10 00:09:56] INFO root fetch - processPackages [statprocon]: Remove: archive file [/home/abi/fetcher/tmp/statprocon-0.0.3.tar.gz]
+[2023-07-10 00:09:56] INFO root fetch - processPackages [statprocon]: Start processing: dank-mids
+[2023-07-10 00:09:56] INFO root fetch - main [MainThread]: End processing [statprocon]: success
+[2023-07-10 00:09:56] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-10 00:09:56] INFO root fetch - processPackages [edp-redy-py]: Remove: archive file [/home/abi/fetcher/tmp/edp_redy_py-0.1.6.tar.gz]
+[2023-07-10 00:09:56] INFO root fetch - processPackages [edp-redy-py]: Remove: archive file [/home/abi/fetcher/tmp/edp_redy_py-0.1.7.tar.gz]
+[2023-07-10 00:09:56] INFO root fetch - processPackages [edp-redy-py]: Start processing: micropython-tmp117
+[2023-07-10 00:09:56] INFO root fetch - main [MainThread]: End processing [edp-redy-py]: success
+[2023-07-10 00:09:56] INFO root fetch - processPackages [micropython-tmp117]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-10 00:09:56] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-10 00:09:57] INFO root fetch - processPackages [trendalation]: Remove: archive file [/home/abi/fetcher/tmp/trendalation-0.1.8.tar.gz]
+[2023-07-10 00:09:57] INFO root fetch - processPackages [trendalation]: Remove: archive file [/home/abi/fetcher/tmp/trendalation-0.1.9.tar.gz]
+[2023-07-10 00:09:57] INFO root fetch - processPackages [trendalation]: Start processing: eo-validation
+[2023-07-10 00:09:57] INFO root fetch - main [MainThread]: End processing [trendalation]: success
+[2023-07-10 00:09:57] INFO root fetch - processPackages [micropython-tmp117]: Downloading https://files.pythonhosted.org/packages/b2/6c/052cae897b8b5e82c9c60b1adb6fe9a38e455733110f5848364fea9763f9/micropython-tmp117-0.2.1.tar.gz
+[2023-07-10 00:09:57] INFO root fetch - processPackages [rds-core]: Remove: archive file [/home/abi/fetcher/tmp/rds-core-0.1.2.tar.gz]
+[2023-07-10 00:09:57] INFO root fetch - processPackages [rds-core]: Remove: archive file [/home/abi/fetcher/tmp/rds-core-0.2.1.tar.gz]
+[2023-07-10 00:09:57] INFO root fetch - processPackages [rds-core]: Start processing: r614-postgres
+[2023-07-10 00:09:57] INFO root fetch - main [MainThread]: End processing [rds-core]: success
+[2023-07-10 00:09:57] INFO root fetch - processPackages [video-ditor]: Remove: archive file [/home/abi/fetcher/tmp/video-ditor-0.0.1.tar.gz]
+[2023-07-10 00:09:57] INFO root fetch - processPackages [video-ditor]: Remove: archive file [/home/abi/fetcher/tmp/video-ditor-0.0.2.tar.gz]
+[2023-07-10 00:09:57] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-10 00:09:57] INFO root fetch - processPackages [video-ditor]: Start processing: pydaraja
+[2023-07-10 00:09:57] INFO root fetch - main [MainThread]: End processing [video-ditor]: success
+[2023-07-10 00:09:57] INFO root fetch - processPackages [r614-postgres]: New version: [0.1.18] Old Version: [0.1.17]
+[2023-07-10 00:09:57] INFO root fetch - processPackages [r614-o11y]: Remove: archive file [/home/abi/fetcher/tmp/r614_o11y-0.1.5.tar.gz]
+[2023-07-10 00:09:57] INFO root fetch - processPackages [r614-o11y]: Remove: archive file [/home/abi/fetcher/tmp/r614_o11y-0.1.6.tar.gz]
+[2023-07-10 00:09:57] INFO root fetch - processPackages [r614-o11y]: Start processing: WifiOrca
+[2023-07-10 00:09:57] INFO root fetch - main [MainThread]: End processing [r614-o11y]: success
+[2023-07-10 00:09:57] WARNING root fetch - processPackages [eo-validation]: Skipping, unable to determine old version
+[2023-07-10 00:09:57] INFO root fetch - processPackages [eo-validation]: Start processing: pyosutools
+[2023-07-10 00:09:57] INFO root fetch - main [MainThread]: End processing [eo-validation] error
+[2023-07-10 00:09:57] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.6.1.dev4.tar.gz]
+[2023-07-10 00:09:57] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.6.1.dev5.tar.gz]
+[2023-07-10 00:09:57] INFO root fetch - processPackages [ez-a-sync]: Start processing: trendalation
+[2023-07-10 00:09:57] INFO root fetch - main [MainThread]: End processing [ez-a-sync]: success
+[2023-07-10 00:09:57] WARNING root fetch - processPackages [pydaraja]: Skipping, unable to determine old version
+[2023-07-10 00:09:57] INFO root fetch - processPackages [pydaraja]: Start processing: r614-o11y
+[2023-07-10 00:09:57] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-10 00:09:57] INFO root fetch - main [MainThread]: End processing [pydaraja] error
+[2023-07-10 00:09:57] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230710/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-10 00:09:57] INFO root fetch - processPackages [WifiOrca]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 00:09:57] INFO root fetch - processPackages [pyosutools]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-10 00:09:57] INFO root fetch - processPackages [trendalation]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 00:09:57] INFO root fetch - processPackages [r614-o11y]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-10 00:09:57] INFO root fetch - processPackages [hypha]: Remove: archive file [/home/abi/fetcher/tmp/hypha-0.15.7.tar.gz]
+[2023-07-10 00:09:57] INFO root fetch - processPackages [hypha]: Remove: archive file [/home/abi/fetcher/tmp/hypha-0.15.8.tar.gz]
+[2023-07-10 00:09:57] INFO root fetch - processPackages [hypha]: Start processing: aihandler
+[2023-07-10 00:09:57] INFO root fetch - main [MainThread]: End processing [hypha]: success
+[2023-07-10 00:09:57] INFO root fetch - processPackages [pyrosimple]: Remove: archive file [/home/abi/fetcher/tmp/pyrosimple-2.9.0.tar.gz]
+[2023-07-10 00:09:57] INFO root fetch - processPackages [pyrosimple]: Remove: archive file [/home/abi/fetcher/tmp/pyrosimple-2.9.1.tar.gz]
+[2023-07-10 00:09:57] INFO root fetch - main [MainThread]: End processing [pyrosimple]: success
+[2023-07-10 00:09:57] INFO root fetch - processPackages [r614-postgres]: Downloading https://files.pythonhosted.org/packages/25/0c/27f67d37a3c41b981d1ff54f8c4073ed038aa656140bb9bc1f45056a5678/r614_postgres-0.1.17.tar.gz
+[2023-07-10 00:09:57] INFO root fetch - processPackages [r614-config]: Remove: archive file [/home/abi/fetcher/tmp/r614_config-0.1.6.tar.gz]
+[2023-07-10 00:09:57] INFO root fetch - processPackages [r614-config]: Remove: archive file [/home/abi/fetcher/tmp/r614_config-0.1.7.tar.gz]
+[2023-07-10 00:09:57] INFO root fetch - main [MainThread]: End processing [r614-config]: success
+[2023-07-10 00:09:57] INFO root fetch - processPackages [WifiOrca]: Downloading https://files.pythonhosted.org/packages/7d/1f/5b35c8e41585e1e723564d5a9ed3e1efe5a25f5f49ec0abfedbc77c15921/WifiOrca-0.0.8.tar.gz
+[2023-07-10 00:09:57] INFO root fetch - processPackages [pyosutools]: Downloading https://files.pythonhosted.org/packages/42/5d/9171313842f04d39c35d9f57935212adfce44ed903e5fe55e6f572ca96bf/pyosutools-0.2.1.tar.gz
+[2023-07-10 00:09:57] INFO root fetch - processPackages [trendalation]: Downloading https://files.pythonhosted.org/packages/7f/e7/bdf32138eb3d3275ad342d9b243068c94e6d20a037cee875d08d1e9358b1/trendalation-0.1.8.tar.gz
+[2023-07-10 00:09:57] INFO root fetch - processPackages [aihandler]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-10 00:09:57] INFO root fetch - processPackages [r614-o11y]: Downloading https://files.pythonhosted.org/packages/67/63/ab154af39dbb44f906af5513bc156e2825b3c498a8da56e9d95a323b3f75/r614_o11y-0.1.5.tar.gz
+[2023-07-10 00:09:57] INFO root fetch - processPackages [micropython-tmp117]: Downloading https://files.pythonhosted.org/packages/fb/05/3b6af66edd4029dc5dbafe0c4512b5dc528b513f439cd14fa28efda25d84/micropython-tmp117-0.2.2.tar.gz
+[2023-07-10 00:09:57] INFO root fetch - processPackages [WifiOrca]: Downloading https://files.pythonhosted.org/packages/6c/bc/e2456b958bc898982eb43af2620e188bbfa5aa238ab51471ad1a3df3e58b/WifiOrca-0.0.9.tar.gz
+[2023-07-10 00:09:57] INFO root fetch - processPackages [r614-postgres]: Downloading https://files.pythonhosted.org/packages/ca/8f/506b792df8864de2756c1d827a728144c9d7daacefb62abdb5dfe55fb465/r614_postgres-0.1.18.tar.gz
+[2023-07-10 00:09:57] INFO root fetch - processPackages [trendalation]: Downloading https://files.pythonhosted.org/packages/8e/b1/c6a07b53ec88e05bdf8c959508dc4f5ea8aa1c97cd849ddc13584538a9a4/trendalation-0.1.9.tar.gz
+[2023-07-10 00:09:57] INFO root fetch - processPackages [micropython-tmp117]: executing diffoscope
+[2023-07-10 00:09:57] INFO root fetch - processPackages [micropython-tmp117]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-tmp117-0.2.1.tar.gz tmp/micropython-tmp117-0.2.2.tar.gz --markdown 20230710/m/micropython-tmp117/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-10 00:09:57] INFO root fetch - processPackages [aihandler]: Downloading https://files.pythonhosted.org/packages/5f/59/0f3fec3d9c2165b2534eebc579ad40951d28dd76a141ee0517afca3f1a84/aihandler-1.9.8.tar.gz
+[2023-07-10 00:09:57] INFO root fetch - processPackages [pyosutools]: Downloading https://files.pythonhosted.org/packages/f2/bf/f64fc9b59dcb8e15a767f454ce7fa6aa960ef43f9eae82481979bf230ff0/pyosutools-0.2.2.tar.gz
+[2023-07-10 00:09:57] INFO root fetch - processPackages [r614-postgres]: executing diffoscope
+[2023-07-10 00:09:57] INFO root fetch - processPackages [r614-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/r614_postgres-0.1.17.tar.gz tmp/r614_postgres-0.1.18.tar.gz --markdown 20230710/r/r614-postgres/0.1.17-0.1.18/diff.md --exclude *.pyd
+[2023-07-10 00:09:57] INFO root fetch - processPackages [r614-o11y]: Downloading https://files.pythonhosted.org/packages/59/16/7873da32dd8fe604909e66947220d6be3581fc79d24ba3f6fdd08a6557c0/r614_o11y-0.1.6.tar.gz
+[2023-07-10 00:09:57] INFO root fetch - processPackages [WifiOrca]: executing diffoscope
+[2023-07-10 00:09:57] INFO root fetch - processPackages [WifiOrca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WifiOrca-0.0.8.tar.gz tmp/WifiOrca-0.0.9.tar.gz --markdown 20230710/W/WifiOrca/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 00:09:57] INFO root fetch - processPackages [trendalation]: executing diffoscope
+[2023-07-10 00:09:57] INFO root fetch - processPackages [trendalation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trendalation-0.1.8.tar.gz tmp/trendalation-0.1.9.tar.gz --markdown 20230710/t/trendalation/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 00:09:57] INFO root fetch - processPackages [r614-o11y]: executing diffoscope
+[2023-07-10 00:09:57] INFO root fetch - processPackages [r614-o11y]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/r614_o11y-0.1.5.tar.gz tmp/r614_o11y-0.1.6.tar.gz --markdown 20230710/r/r614-o11y/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-10 00:09:57] INFO root fetch - processPackages [pyosutools]: executing diffoscope
+[2023-07-10 00:09:57] INFO root fetch - processPackages [pyosutools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyosutools-0.2.1.tar.gz tmp/pyosutools-0.2.2.tar.gz --markdown 20230710/p/pyosutools/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-10 00:09:58] INFO root fetch - processPackages [aihandler]: Downloading https://files.pythonhosted.org/packages/b3/c7/544c990d7d396289c416e3676f2fdf02804edee7d23e678081cc4c761c29/aihandler-1.9.9.tar.gz
+[2023-07-10 00:09:58] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-10 00:09:58] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-10 00:09:58] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-10 00:09:58] INFO root fetch - processPackages [aihandler]: executing diffoscope
+[2023-07-10 00:09:58] INFO root fetch - processPackages [aihandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aihandler-1.9.8.tar.gz tmp/aihandler-1.9.9.tar.gz --markdown 20230710/a/aihandler/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-10 00:09:59] INFO root fetch - processPackages [r614-postgres]: Remove: archive file [/home/abi/fetcher/tmp/r614_postgres-0.1.17.tar.gz]
+[2023-07-10 00:09:59] INFO root fetch - processPackages [r614-postgres]: Remove: archive file [/home/abi/fetcher/tmp/r614_postgres-0.1.18.tar.gz]
+[2023-07-10 00:09:59] INFO root fetch - main [MainThread]: End processing [r614-postgres]: success
+[2023-07-10 00:09:59] INFO root fetch - processPackages [trendalation]: Remove: archive file [/home/abi/fetcher/tmp/trendalation-0.1.8.tar.gz]
+[2023-07-10 00:09:59] INFO root fetch - processPackages [trendalation]: Remove: archive file [/home/abi/fetcher/tmp/trendalation-0.1.9.tar.gz]
+[2023-07-10 00:09:59] INFO root fetch - main [MainThread]: End processing [trendalation]: success
+[2023-07-10 00:09:59] INFO root fetch - processPackages [micropython-tmp117]: Remove: archive file [/home/abi/fetcher/tmp/micropython-tmp117-0.2.1.tar.gz]
+[2023-07-10 00:09:59] INFO root fetch - processPackages [micropython-tmp117]: Remove: archive file [/home/abi/fetcher/tmp/micropython-tmp117-0.2.2.tar.gz]
+[2023-07-10 00:09:59] INFO root fetch - main [MainThread]: End processing [micropython-tmp117]: success
+[2023-07-10 00:09:59] INFO root fetch - processPackages [WifiOrca]: Remove: archive file [/home/abi/fetcher/tmp/WifiOrca-0.0.8.tar.gz]
+[2023-07-10 00:09:59] INFO root fetch - processPackages [WifiOrca]: Remove: archive file [/home/abi/fetcher/tmp/WifiOrca-0.0.9.tar.gz]
+[2023-07-10 00:09:59] INFO root fetch - main [MainThread]: End processing [WifiOrca]: success
+[2023-07-10 00:09:59] INFO root fetch - processPackages [r614-o11y]: Remove: archive file [/home/abi/fetcher/tmp/r614_o11y-0.1.5.tar.gz]
+[2023-07-10 00:09:59] INFO root fetch - processPackages [r614-o11y]: Remove: archive file [/home/abi/fetcher/tmp/r614_o11y-0.1.6.tar.gz]
+[2023-07-10 00:09:59] INFO root fetch - main [MainThread]: End processing [r614-o11y]: success
+[2023-07-10 00:09:59] INFO root fetch - processPackages [pyosutools]: Remove: archive file [/home/abi/fetcher/tmp/pyosutools-0.2.1.tar.gz]
+[2023-07-10 00:09:59] INFO root fetch - processPackages [pyosutools]: Remove: archive file [/home/abi/fetcher/tmp/pyosutools-0.2.2.tar.gz]
+[2023-07-10 00:09:59] INFO root fetch - main [MainThread]: End processing [pyosutools]: success
+[2023-07-10 00:09:59] INFO root fetch - processPackages [aihandler]: Remove: archive file [/home/abi/fetcher/tmp/aihandler-1.9.8.tar.gz]
+[2023-07-10 00:09:59] INFO root fetch - processPackages [aihandler]: Remove: archive file [/home/abi/fetcher/tmp/aihandler-1.9.9.tar.gz]
+[2023-07-10 00:09:59] INFO root fetch - main [MainThread]: End processing [aihandler]: success
+[2023-07-10 00:09:59] INFO root fetch - main [MainThread]: Store serial: [18823845]
