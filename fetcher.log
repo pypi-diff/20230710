@@ -1184,3 +1184,60 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 01:43:19] INFO root fetch - processPackages [pypdfe]: Remove: archive file [/home/abi/fetcher/tmp/pypdfe-0.1.9.tar.gz]
 [2023-07-10 01:43:19] INFO root fetch - main [MainThread]: End processing [pypdfe]: success
 [2023-07-10 01:43:19] INFO root fetch - main [MainThread]: Store serial: [18824186]
+[2023-07-10 01:48:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18824186]
+[2023-07-10 01:48:28] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-10 01:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imjoy-rpc
+[2023-07-10 01:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: code-extractor
+[2023-07-10 01:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: skyplane-nightly
+[2023-07-10 01:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: utilspkg
+[2023-07-10 01:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ofscraper
+[2023-07-10 01:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jplaw
+[2023-07-10 01:48:28] INFO root fetch - processPackages [utilspkg]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-10 01:48:28] INFO root fetch - processPackages [code-extractor]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-10 01:48:29] INFO root fetch - processPackages [ofscraper]: New version: [2.7.1] Old Version: [2.6.4]
+[2023-07-10 01:48:29] INFO root fetch - processPackages [imjoy-rpc]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-10 01:48:29] INFO root fetch - processPackages [jplaw]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-10 01:48:29] INFO root fetch - processPackages [utilspkg]: Downloading https://files.pythonhosted.org/packages/c6/23/8bc54c7aad69ba3dca1af9293958e82b533645602dd91b771296ea21d804/utilspkg-0.3.1.tar.gz
+[2023-07-10 01:48:29] INFO root fetch - processPackages [skyplane-nightly]: New version: [0.3.2.dev20230709] Old Version: [0.3.2.dev20230708]
+[2023-07-10 01:48:29] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/3a/b2/9367dce2f0620794b2656819934fd7f20cbe4882082935859906ab8ffe9e/ofscraper-2.6.4.tar.gz
+[2023-07-10 01:48:29] INFO root fetch - processPackages [code-extractor]: Downloading https://files.pythonhosted.org/packages/3d/58/ceae421b3f8116d06a11991445888ed7e73f0c8cee924c034a8eb6bcbf13/code-extractor-0.3.0.tar.gz
+[2023-07-10 01:48:29] INFO root fetch - processPackages [imjoy-rpc]: Downloading https://files.pythonhosted.org/packages/62/bf/e0cd8c6c4bfbc73547dd7a58b65fe8314743f962e1771888a1e6a088b01d/imjoy-rpc-0.5.8.tar.gz
+[2023-07-10 01:48:29] INFO root fetch - processPackages [jplaw]: Downloading https://files.pythonhosted.org/packages/7b/21/4969e071b034034f80e7ac122c97f6c5c4526ac9311af493707451942ee8/jplaw-0.1.6.tar.gz
+[2023-07-10 01:48:29] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/46/02/28cc6d916eff7848a159486b423fcfc1fd4b59a282c76bacab4fd8b98ba1/skyplane_nightly-0.3.2.dev20230708.tar.gz
+[2023-07-10 01:48:29] INFO root fetch - processPackages [utilspkg]: Downloading https://files.pythonhosted.org/packages/7b/e3/92ad208fbac7f1efce1f82fc96a56f1c293ebcece678625d27b3e5a82338/utilspkg-0.3.2.tar.gz
+[2023-07-10 01:48:29] INFO root fetch - processPackages [utilspkg]: executing diffoscope
+[2023-07-10 01:48:29] INFO root fetch - processPackages [utilspkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utilspkg-0.3.1.tar.gz tmp/utilspkg-0.3.2.tar.gz --markdown 20230710/u/utilspkg/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-10 01:48:29] INFO root fetch - processPackages [code-extractor]: Downloading https://files.pythonhosted.org/packages/d2/fe/ae1fbf0c8017ec31730be82f692301e7d43538a34a619c13c0c70df10a0e/code-extractor-0.4.0.tar.gz
+[2023-07-10 01:48:29] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/b8/7d/9dfa66bf7ae6d4794b5509874955b1c207242ca184a15ad94233786e1eee/ofscraper-2.7.1.tar.gz
+[2023-07-10 01:48:29] INFO root fetch - processPackages [jplaw]: Downloading https://files.pythonhosted.org/packages/68/8b/473c44df16408a2daed23be98db913921a4d8bf09755e97572f4e01ed1a1/jplaw-0.1.7.tar.gz
+[2023-07-10 01:48:29] INFO root fetch - processPackages [imjoy-rpc]: Downloading https://files.pythonhosted.org/packages/32/2c/24a2fd77d69514d794a4e4c8db3307e0ef3e19e0338c3edb6bf7bdd4d021/imjoy-rpc-0.5.9.tar.gz
+[2023-07-10 01:48:29] INFO root fetch - processPackages [code-extractor]: executing diffoscope
+[2023-07-10 01:48:29] INFO root fetch - processPackages [code-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code-extractor-0.3.0.tar.gz tmp/code-extractor-0.4.0.tar.gz --markdown 20230710/c/code-extractor/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-10 01:48:29] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/dd/55/95f48b58bfb3e8062f624764f26ca636a59fd2b309979768b485a078457a/skyplane_nightly-0.3.2.dev20230709.tar.gz
+[2023-07-10 01:48:29] INFO root fetch - processPackages [imjoy-rpc]: executing diffoscope
+[2023-07-10 01:48:29] INFO root fetch - processPackages [imjoy-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imjoy-rpc-0.5.8.tar.gz tmp/imjoy-rpc-0.5.9.tar.gz --markdown 20230710/i/imjoy-rpc/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-10 01:48:30] INFO root fetch - processPackages [ofscraper]: executing diffoscope
+[2023-07-10 01:48:30] INFO root fetch - processPackages [ofscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofscraper-2.6.4.tar.gz tmp/ofscraper-2.7.1.tar.gz --markdown 20230710/o/ofscraper/2.6.4-2.7.1/diff.md --exclude *.pyd
+[2023-07-10 01:48:30] INFO root fetch - processPackages [jplaw]: executing diffoscope
+[2023-07-10 01:48:30] INFO root fetch - processPackages [jplaw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jplaw-0.1.6.tar.gz tmp/jplaw-0.1.7.tar.gz --markdown 20230710/j/jplaw/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-10 01:48:30] INFO root fetch - processPackages [skyplane-nightly]: executing diffoscope
+[2023-07-10 01:48:30] INFO root fetch - processPackages [skyplane-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyplane_nightly-0.3.2.dev20230708.tar.gz tmp/skyplane_nightly-0.3.2.dev20230709.tar.gz --markdown 20230710/s/skyplane-nightly/0.3.2.dev20230708-0.3.2.dev20230709/diff.md --exclude *.pyd
+[2023-07-10 01:48:30] INFO root fetch - processPackages [utilspkg]: Remove: archive file [/home/abi/fetcher/tmp/utilspkg-0.3.1.tar.gz]
+[2023-07-10 01:48:30] INFO root fetch - processPackages [utilspkg]: Remove: archive file [/home/abi/fetcher/tmp/utilspkg-0.3.2.tar.gz]
+[2023-07-10 01:48:30] INFO root fetch - main [MainThread]: End processing [utilspkg]: success
+[2023-07-10 01:48:30] INFO root fetch - processPackages [imjoy-rpc]: Remove: archive file [/home/abi/fetcher/tmp/imjoy-rpc-0.5.8.tar.gz]
+[2023-07-10 01:48:30] INFO root fetch - processPackages [imjoy-rpc]: Remove: archive file [/home/abi/fetcher/tmp/imjoy-rpc-0.5.9.tar.gz]
+[2023-07-10 01:48:30] INFO root fetch - main [MainThread]: End processing [imjoy-rpc]: success
+[2023-07-10 01:48:31] INFO root fetch - processPackages [code-extractor]: Remove: archive file [/home/abi/fetcher/tmp/code-extractor-0.3.0.tar.gz]
+[2023-07-10 01:48:31] INFO root fetch - processPackages [code-extractor]: Remove: archive file [/home/abi/fetcher/tmp/code-extractor-0.4.0.tar.gz]
+[2023-07-10 01:48:31] INFO root fetch - main [MainThread]: End processing [code-extractor]: success
+[2023-07-10 01:48:31] INFO root fetch - processPackages [jplaw]: Remove: archive file [/home/abi/fetcher/tmp/jplaw-0.1.6.tar.gz]
+[2023-07-10 01:48:31] INFO root fetch - processPackages [jplaw]: Remove: archive file [/home/abi/fetcher/tmp/jplaw-0.1.7.tar.gz]
+[2023-07-10 01:48:31] INFO root fetch - main [MainThread]: End processing [jplaw]: success
+[2023-07-10 01:48:31] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-2.6.4.tar.gz]
+[2023-07-10 01:48:31] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-2.7.1.tar.gz]
+[2023-07-10 01:48:31] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
+[2023-07-10 01:48:31] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230708.tar.gz]
+[2023-07-10 01:48:31] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230709.tar.gz]
+[2023-07-10 01:48:31] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
+[2023-07-10 01:48:31] INFO root fetch - main [MainThread]: Store serial: [18824204]
