@@ -767,3 +767,45 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 00:51:34] INFO root fetch - processPackages [PyGeopack]: Remove: archive file [/home/abi/fetcher/tmp/PyGeopack-1.2.1.tar.gz]
 [2023-07-10 00:51:34] INFO root fetch - main [MainThread]: End processing [PyGeopack]: success
 [2023-07-10 00:51:34] INFO root fetch - main [MainThread]: Store serial: [18824020]
+[2023-07-10 00:56:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18824020]
+[2023-07-10 00:56:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-10 00:56:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: baumanecbank-common
+[2023-07-10 00:56:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: namer
+[2023-07-10 00:56:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-excel-serializer
+[2023-07-10 00:56:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clize
+[2023-07-10 00:56:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: docs2txt
+[2023-07-10 00:56:43] ERROR root fetch - processPackages [django-excel-serializer]: Unable to get metadata: No such project 'django-excel-serializer'
+[2023-07-10 00:56:43] INFO root fetch - main [MainThread]: End processing [django-excel-serializer] error
+[2023-07-10 00:56:43] INFO root fetch - processPackages [baumanecbank-common]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-10 00:56:43] INFO root fetch - processPackages [docs2txt]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-10 00:56:43] INFO root fetch - processPackages [clize]: New version: [5.0.2] Old Version: [5.0.1]
+[2023-07-10 00:56:43] INFO root fetch - processPackages [namer]: New version: [1.9.8] Old Version: [1.9.7]
+[2023-07-10 00:56:43] INFO root fetch - processPackages [baumanecbank-common]: Downloading https://files.pythonhosted.org/packages/94/08/91b57c69e6962f57de776a0fbeed2a1246e4100f90a5b559d532d3ff9881/baumanecbank_common-1.0.0.tar.gz
+[2023-07-10 00:56:43] INFO root fetch - processPackages [docs2txt]: Downloading https://files.pythonhosted.org/packages/5d/10/dd317d691e94397477904ed849009e277c9bdeca3d5fa63e20e1aa5fd33b/docs2txt-0.1.2.tar.gz
+[2023-07-10 00:56:43] INFO root fetch - processPackages [clize]: Downloading https://files.pythonhosted.org/packages/d4/c5/b29e1f3a3e1762d3d144c311515e7bd207c871ac7b2c9dc4c0db31d35267/clize-5.0.1.tar.gz
+[2023-07-10 00:56:43] INFO root fetch - processPackages [namer]: Downloading https://files.pythonhosted.org/packages/13/04/79d5b1d7c32bd69fa2f6b689030b844e992c35bb3a8907ea9f944a76e29d/namer-1.9.7.tar.gz
+[2023-07-10 00:56:44] INFO root fetch - processPackages [baumanecbank-common]: Downloading https://files.pythonhosted.org/packages/9a/3a/3b620897ae3ab3eff35ae94ddb6e5bff404bb47c2f14f7fb126ac3045e56/baumanecbank_common-1.0.1.tar.gz
+[2023-07-10 00:56:44] INFO root fetch - processPackages [docs2txt]: Downloading https://files.pythonhosted.org/packages/ac/53/fe38b724e640b17d2d5b2c67f009f26cc584bd6a3617cbf086b15a1d66bf/docs2txt-0.1.3.tar.gz
+[2023-07-10 00:56:44] INFO root fetch - processPackages [baumanecbank-common]: executing diffoscope
+[2023-07-10 00:56:44] INFO root fetch - processPackages [baumanecbank-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baumanecbank_common-1.0.0.tar.gz tmp/baumanecbank_common-1.0.1.tar.gz --markdown 20230710/b/baumanecbank-common/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-10 00:56:44] INFO root fetch - processPackages [clize]: Downloading https://files.pythonhosted.org/packages/27/d9/351db7247739f7cdaa076a1a25163afc7b553af556273729320a64cf0ab4/clize-5.0.2.tar.gz
+[2023-07-10 00:56:44] INFO root fetch - processPackages [namer]: Downloading https://files.pythonhosted.org/packages/4c/f1/c49c428124090401e22593a3d7f5c99a317c54dbe00b5c67957b784e0dd0/namer-1.9.8.tar.gz
+[2023-07-10 00:56:44] INFO root fetch - processPackages [docs2txt]: executing diffoscope
+[2023-07-10 00:56:44] INFO root fetch - processPackages [docs2txt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docs2txt-0.1.2.tar.gz tmp/docs2txt-0.1.3.tar.gz --markdown 20230710/d/docs2txt/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-10 00:56:44] INFO root fetch - processPackages [clize]: executing diffoscope
+[2023-07-10 00:56:44] INFO root fetch - processPackages [clize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clize-5.0.1.tar.gz tmp/clize-5.0.2.tar.gz --markdown 20230710/c/clize/5.0.1-5.0.2/diff.md --exclude *.pyd
+[2023-07-10 00:56:44] INFO root fetch - processPackages [namer]: executing diffoscope
+[2023-07-10 00:56:44] INFO root fetch - processPackages [namer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namer-1.9.7.tar.gz tmp/namer-1.9.8.tar.gz --markdown 20230710/n/namer/1.9.7-1.9.8/diff.md --exclude *.pyd
+[2023-07-10 00:56:45] INFO root fetch - processPackages [baumanecbank-common]: Remove: archive file [/home/abi/fetcher/tmp/baumanecbank_common-1.0.0.tar.gz]
+[2023-07-10 00:56:45] INFO root fetch - processPackages [baumanecbank-common]: Remove: archive file [/home/abi/fetcher/tmp/baumanecbank_common-1.0.1.tar.gz]
+[2023-07-10 00:56:45] INFO root fetch - main [MainThread]: End processing [baumanecbank-common]: success
+[2023-07-10 00:56:45] INFO root fetch - processPackages [docs2txt]: Remove: archive file [/home/abi/fetcher/tmp/docs2txt-0.1.2.tar.gz]
+[2023-07-10 00:56:45] INFO root fetch - processPackages [docs2txt]: Remove: archive file [/home/abi/fetcher/tmp/docs2txt-0.1.3.tar.gz]
+[2023-07-10 00:56:45] INFO root fetch - main [MainThread]: End processing [docs2txt]: success
+[2023-07-10 00:56:45] INFO root fetch - processPackages [clize]: Remove: archive file [/home/abi/fetcher/tmp/clize-5.0.1.tar.gz]
+[2023-07-10 00:56:45] INFO root fetch - processPackages [clize]: Remove: archive file [/home/abi/fetcher/tmp/clize-5.0.2.tar.gz]
+[2023-07-10 00:56:45] INFO root fetch - main [MainThread]: End processing [clize]: success
+[2023-07-10 00:56:45] INFO root fetch - processPackages [namer]: Remove: archive file [/home/abi/fetcher/tmp/namer-1.9.7.tar.gz]
+[2023-07-10 00:56:45] INFO root fetch - processPackages [namer]: Remove: archive file [/home/abi/fetcher/tmp/namer-1.9.8.tar.gz]
+[2023-07-10 00:56:45] INFO root fetch - main [MainThread]: End processing [namer]: success
+[2023-07-10 00:56:45] INFO root fetch - main [MainThread]: Store serial: [18824035]
