@@ -519,3 +519,94 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 00:30:44] INFO root fetch - processPackages [streamlit-binary-tree]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-binary-tree-0.1.6.tar.gz]
 [2023-07-10 00:30:44] INFO root fetch - main [MainThread]: End processing [streamlit-binary-tree]: success
 [2023-07-10 00:30:44] INFO root fetch - main [MainThread]: Store serial: [18823939]
+[2023-07-10 00:35:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18823939]
+[2023-07-10 00:35:52] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-10 00:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyhowdoi
+[2023-07-10 00:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AshCrypt
+[2023-07-10 00:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyhowdoi
+[2023-07-10 00:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simplechatgpt
+[2023-07-10 00:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: khoj-assistant
+[2023-07-10 00:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: discrete-key-value-bottleneck-pytorch
+[2023-07-10 00:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: canarypy
+[2023-07-10 00:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: WifiOrca
+[2023-07-10 00:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: XPER
+[2023-07-10 00:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: streamlit-binary-tree
+[2023-07-10 00:35:53] INFO root fetch - processPackages [pyhowdoi]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-10 00:35:53] INFO root fetch - processPackages [pyhowdoi]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-10 00:35:53] INFO root fetch - processPackages [XPER]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 00:35:53] INFO root fetch - processPackages [streamlit-binary-tree]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-10 00:35:53] INFO root fetch - processPackages [discrete-key-value-bottleneck-pytorch]: New version: [0.1.0] Old Version: [0.0.8]
+[2023-07-10 00:35:53] INFO root fetch - processPackages [simplechatgpt]: New version: [1.0.1] Old Version: [1.0]
+[2023-07-10 00:35:53] INFO root fetch - processPackages [canarypy]: New version: [0.0.14] Old Version: [0.0.13]
+[2023-07-10 00:35:53] INFO root fetch - processPackages [WifiOrca]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 00:35:53] INFO root fetch - processPackages [AshCrypt]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-07-10 00:35:53] INFO root fetch - processPackages [khoj-assistant]: New version: [0.7.2.dev45] Old Version: [0.7.2.dev44]
+[2023-07-10 00:35:53] INFO root fetch - processPackages [XPER]: Downloading https://files.pythonhosted.org/packages/ae/2d/41457ff7ff4e5347b5ad44d430579e6720ff29b66a7d06d7754ec79fb011/XPER-0.0.8.tar.gz
+[2023-07-10 00:35:53] INFO root fetch - processPackages [streamlit-binary-tree]: Downloading https://files.pythonhosted.org/packages/9a/83/a73c617d399196004fe2e82936d43429e3306f3dd1df4f2ce1df7ccd7bbf/streamlit-binary-tree-0.1.5.tar.gz
+[2023-07-10 00:35:53] INFO root fetch - processPackages [pyhowdoi]: Downloading https://files.pythonhosted.org/packages/aa/b1/5891dbded9b0c117ed5842892ce81e41b1b9729447c16a381cc5590d49fc/pyhowdoi-1.0.1.tar.gz
+[2023-07-10 00:35:53] INFO root fetch - processPackages [WifiOrca]: Downloading https://files.pythonhosted.org/packages/7d/1f/5b35c8e41585e1e723564d5a9ed3e1efe5a25f5f49ec0abfedbc77c15921/WifiOrca-0.0.8.tar.gz
+[2023-07-10 00:35:53] INFO root fetch - processPackages [pyhowdoi]: Downloading https://files.pythonhosted.org/packages/aa/b1/5891dbded9b0c117ed5842892ce81e41b1b9729447c16a381cc5590d49fc/pyhowdoi-1.0.1.tar.gz
+[2023-07-10 00:35:53] INFO root fetch - processPackages [AshCrypt]: Downloading https://files.pythonhosted.org/packages/6f/9c/aa00a618680f903ad3b4a5b425e3e9d510b1c7616a9f1e40bc9125f3cf9b/AshCrypt-1.3.4.tar.gz
+[2023-07-10 00:35:53] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/93/96/9defcd369c9d2ba7b32a73aae734f197f463eb830663d19f4ca4d9a9557b/khoj_assistant-0.7.2.dev44.tar.gz
+[2023-07-10 00:35:53] INFO root fetch - processPackages [discrete-key-value-bottleneck-pytorch]: Downloading https://files.pythonhosted.org/packages/db/18/22347255e38b7d81aabc6d04f0dad4d58458afa6d6c69e15d33bbe961676/discrete-key-value-bottleneck-pytorch-0.0.8.tar.gz
+[2023-07-10 00:35:53] INFO root fetch - processPackages [simplechatgpt]: Downloading https://files.pythonhosted.org/packages/46/2c/cffd34b213670ef24795d2c34c6edb7561f7acfa3a6c9a815e23055bcae0/simplechatgpt-1.0.tar.gz
+[2023-07-10 00:35:53] INFO root fetch - processPackages [canarypy]: Downloading https://files.pythonhosted.org/packages/8a/75/24a22e842c3192bd5cee507f64359b889058bd6209734a00fc86c56d1b2c/canarypy-0.0.13-py3-none-any.whl
+[2023-07-10 00:35:54] INFO root fetch - processPackages [WifiOrca]: Downloading https://files.pythonhosted.org/packages/6c/bc/e2456b958bc898982eb43af2620e188bbfa5aa238ab51471ad1a3df3e58b/WifiOrca-0.0.9.tar.gz
+[2023-07-10 00:35:54] INFO root fetch - processPackages [discrete-key-value-bottleneck-pytorch]: Downloading https://files.pythonhosted.org/packages/5f/30/baf26d3197081790d824a684c13f2034de4018dbc024f03c062e89b0e932/discrete-key-value-bottleneck-pytorch-0.1.0.tar.gz
+[2023-07-10 00:35:54] INFO root fetch - processPackages [simplechatgpt]: Downloading https://files.pythonhosted.org/packages/ca/74/7293bcc92fa29cc80d04c3ebf22c7d987c1e1000c237e06438c238675769/simplechatgpt-1.0.1.tar.gz
+[2023-07-10 00:35:54] INFO root fetch - processPackages [pyhowdoi]: Downloading https://files.pythonhosted.org/packages/45/7a/0290722c5932d086fb998a4de02cc09ec6a3075e6455781a0029307f0821/pyhowdoi-1.0.2.tar.gz
+[2023-07-10 00:35:54] INFO root fetch - processPackages [pyhowdoi]: Downloading https://files.pythonhosted.org/packages/45/7a/0290722c5932d086fb998a4de02cc09ec6a3075e6455781a0029307f0821/pyhowdoi-1.0.2.tar.gz
+[2023-07-10 00:35:54] INFO root fetch - processPackages [streamlit-binary-tree]: Downloading https://files.pythonhosted.org/packages/82/94/04ff2ad00c25eac454234869d6cf00d9277123c61c5021388f5e7b260289/streamlit-binary-tree-0.1.6.tar.gz
+[2023-07-10 00:35:54] INFO root fetch - processPackages [canarypy]: Downloading https://files.pythonhosted.org/packages/43/53/8f29d56da886df9735e58473ca6d7efee4c0683ac3a5c0f8c53f9c2f550c/canarypy-0.0.14-py3-none-any.whl
+[2023-07-10 00:35:54] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/37/38/cee1d3e6738a8ce7dc9e7d5f71f127beeba95cc1311f8a65bff245da0654/khoj_assistant-0.7.2.dev45.tar.gz
+[2023-07-10 00:35:54] INFO root fetch - processPackages [XPER]: Downloading https://files.pythonhosted.org/packages/b3/4a/3e0a3cec66405593c7f44c1d2128bcd47efbd87eba31462db86569c8da19/XPER-0.0.9.tar.gz
+[2023-07-10 00:35:54] INFO root fetch - processPackages [WifiOrca]: executing diffoscope
+[2023-07-10 00:35:54] INFO root fetch - processPackages [WifiOrca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WifiOrca-0.0.8.tar.gz tmp/WifiOrca-0.0.9.tar.gz --markdown 20230710/W/WifiOrca/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 00:35:54] INFO root fetch - processPackages [AshCrypt]: Downloading https://files.pythonhosted.org/packages/9a/a5/bb5511ff0a469c4f1234ed8d198b19521947fd688e8bde76d3bdcb12412a/AshCrypt-1.3.5.tar.gz
+[2023-07-10 00:35:54] INFO root fetch - processPackages [discrete-key-value-bottleneck-pytorch]: executing diffoscope
+[2023-07-10 00:35:54] INFO root fetch - processPackages [discrete-key-value-bottleneck-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discrete-key-value-bottleneck-pytorch-0.0.8.tar.gz tmp/discrete-key-value-bottleneck-pytorch-0.1.0.tar.gz --markdown 20230710/d/discrete-key-value-bottleneck-pytorch/0.0.8-0.1.0/diff.md --exclude *.pyd
+[2023-07-10 00:35:54] INFO root fetch - processPackages [pyhowdoi]: executing diffoscope
+[2023-07-10 00:35:54] INFO root fetch - processPackages [pyhowdoi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhowdoi-1.0.1.tar.gz tmp/pyhowdoi-1.0.2.tar.gz --markdown 20230710/p/pyhowdoi/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-10 00:35:54] INFO root fetch - processPackages [pyhowdoi]: executing diffoscope
+[2023-07-10 00:35:54] INFO root fetch - processPackages [pyhowdoi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhowdoi-1.0.1.tar.gz tmp/pyhowdoi-1.0.2.tar.gz --markdown 20230710/p/pyhowdoi/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-10 00:35:54] INFO root fetch - processPackages [simplechatgpt]: executing diffoscope
+[2023-07-10 00:35:54] INFO root fetch - processPackages [simplechatgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplechatgpt-1.0.tar.gz tmp/simplechatgpt-1.0.1.tar.gz --markdown 20230710/s/simplechatgpt/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-10 00:35:54] INFO root fetch - processPackages [canarypy]: executing diffoscope
+[2023-07-10 00:35:54] INFO root fetch - processPackages [canarypy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canarypy-0.0.13-py3-none-any.whl.zip tmp/canarypy-0.0.14-py3-none-any.whl.zip --markdown 20230710/c/canarypy/0.0.13-0.0.14/diff.md --exclude *.pyd
+[2023-07-10 00:35:54] INFO root fetch - processPackages [streamlit-binary-tree]: executing diffoscope
+[2023-07-10 00:35:54] INFO root fetch - processPackages [streamlit-binary-tree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-binary-tree-0.1.5.tar.gz tmp/streamlit-binary-tree-0.1.6.tar.gz --markdown 20230710/s/streamlit-binary-tree/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-10 00:35:54] INFO root fetch - processPackages [AshCrypt]: executing diffoscope
+[2023-07-10 00:35:54] INFO root fetch - processPackages [AshCrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AshCrypt-1.3.4.tar.gz tmp/AshCrypt-1.3.5.tar.gz --markdown 20230710/A/AshCrypt/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-07-10 00:35:54] INFO root fetch - processPackages [XPER]: executing diffoscope
+[2023-07-10 00:35:54] INFO root fetch - processPackages [XPER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XPER-0.0.8.tar.gz tmp/XPER-0.0.9.tar.gz --markdown 20230710/X/XPER/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 00:35:54] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-07-10 00:35:54] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.7.2.dev44.tar.gz tmp/khoj_assistant-0.7.2.dev45.tar.gz --markdown 20230710/k/khoj-assistant/0.7.2.dev44-0.7.2.dev45/diff.md --exclude *.pyd
+[2023-07-10 00:35:55] INFO root fetch - processPackages [simplechatgpt]: Remove: archive file [/home/abi/fetcher/tmp/simplechatgpt-1.0.tar.gz]
+[2023-07-10 00:35:55] INFO root fetch - processPackages [simplechatgpt]: Remove: archive file [/home/abi/fetcher/tmp/simplechatgpt-1.0.1.tar.gz]
+[2023-07-10 00:35:55] INFO root fetch - main [MainThread]: End processing [simplechatgpt]: success
+[2023-07-10 00:35:55] INFO root fetch - processPackages [pyhowdoi]: Remove: archive file [/home/abi/fetcher/tmp/pyhowdoi-1.0.1.tar.gz]
+[2023-07-10 00:35:55] INFO root fetch - processPackages [pyhowdoi]: Remove: archive file [/home/abi/fetcher/tmp/pyhowdoi-1.0.2.tar.gz]
+[2023-07-10 00:35:55] INFO root fetch - main [MainThread]: End processing [pyhowdoi]: success
+[2023-07-10 00:35:56] INFO root fetch - main [MainThread]: End processing [pyhowdoi]: success
+[2023-07-10 00:35:56] INFO root fetch - processPackages [WifiOrca]: Remove: archive file [/home/abi/fetcher/tmp/WifiOrca-0.0.8.tar.gz]
+[2023-07-10 00:35:56] INFO root fetch - processPackages [WifiOrca]: Remove: archive file [/home/abi/fetcher/tmp/WifiOrca-0.0.9.tar.gz]
+[2023-07-10 00:35:56] INFO root fetch - main [MainThread]: End processing [WifiOrca]: success
+[2023-07-10 00:35:56] INFO root fetch - processPackages [discrete-key-value-bottleneck-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/discrete-key-value-bottleneck-pytorch-0.0.8.tar.gz]
+[2023-07-10 00:35:56] INFO root fetch - processPackages [discrete-key-value-bottleneck-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/discrete-key-value-bottleneck-pytorch-0.1.0.tar.gz]
+[2023-07-10 00:35:56] INFO root fetch - main [MainThread]: End processing [discrete-key-value-bottleneck-pytorch]: success
+[2023-07-10 00:35:56] INFO root fetch - processPackages [canarypy]: Remove: archive file [/home/abi/fetcher/tmp/canarypy-0.0.13-py3-none-any.whl.zip]
+[2023-07-10 00:35:56] INFO root fetch - processPackages [canarypy]: Remove: archive file [/home/abi/fetcher/tmp/canarypy-0.0.14-py3-none-any.whl.zip]
+[2023-07-10 00:35:56] INFO root fetch - main [MainThread]: End processing [canarypy]: success
+[2023-07-10 00:35:56] INFO root fetch - processPackages [streamlit-binary-tree]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-binary-tree-0.1.5.tar.gz]
+[2023-07-10 00:35:56] INFO root fetch - processPackages [streamlit-binary-tree]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-binary-tree-0.1.6.tar.gz]
+[2023-07-10 00:35:56] INFO root fetch - main [MainThread]: End processing [streamlit-binary-tree]: success
+[2023-07-10 00:35:56] INFO root fetch - processPackages [AshCrypt]: Remove: archive file [/home/abi/fetcher/tmp/AshCrypt-1.3.4.tar.gz]
+[2023-07-10 00:35:56] INFO root fetch - processPackages [AshCrypt]: Remove: archive file [/home/abi/fetcher/tmp/AshCrypt-1.3.5.tar.gz]
+[2023-07-10 00:35:56] INFO root fetch - main [MainThread]: End processing [AshCrypt]: success
+[2023-07-10 00:35:56] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.7.2.dev44.tar.gz]
+[2023-07-10 00:35:56] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.7.2.dev45.tar.gz]
+[2023-07-10 00:35:56] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-07-10 00:35:57] INFO root fetch - processPackages [XPER]: Remove: archive file [/home/abi/fetcher/tmp/XPER-0.0.8.tar.gz]
+[2023-07-10 00:35:57] INFO root fetch - processPackages [XPER]: Remove: archive file [/home/abi/fetcher/tmp/XPER-0.0.9.tar.gz]
+[2023-07-10 00:35:57] INFO root fetch - main [MainThread]: End processing [XPER]: success
+[2023-07-10 00:35:57] INFO root fetch - main [MainThread]: Store serial: [18823968]
