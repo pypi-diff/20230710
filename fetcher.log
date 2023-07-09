@@ -260,3 +260,42 @@
 [2023-07-10 00:09:59] INFO root fetch - processPackages [aihandler]: Remove: archive file [/home/abi/fetcher/tmp/aihandler-1.9.9.tar.gz]
 [2023-07-10 00:09:59] INFO root fetch - main [MainThread]: End processing [aihandler]: success
 [2023-07-10 00:09:59] INFO root fetch - main [MainThread]: Store serial: [18823845]
+[2023-07-10 00:15:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18823845]
+[2023-07-10 00:15:07] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-10 00:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: WifiOrca
+[2023-07-10 00:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sydeploy
+[2023-07-10 00:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edp-redy-py
+[2023-07-10 00:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airunner
+[2023-07-10 00:15:08] INFO root fetch - processPackages [WifiOrca]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 00:15:08] INFO root fetch - processPackages [edp-redy-py]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-10 00:15:08] INFO root fetch - processPackages [sydeploy]: New version: [0.2.8] Old Version: [0.2.7rc8]
+[2023-07-10 00:15:08] INFO root fetch - processPackages [airunner]: New version: [2.0.0] Old Version: [1.9.5]
+[2023-07-10 00:15:08] INFO root fetch - processPackages [edp-redy-py]: Downloading https://files.pythonhosted.org/packages/43/cd/22aa5f83a51e43f881c332f2c06ba90abfde2f471b31b71730255b0dd3a4/edp_redy_py-0.1.7.tar.gz
+[2023-07-10 00:15:08] INFO root fetch - processPackages [WifiOrca]: Downloading https://files.pythonhosted.org/packages/7d/1f/5b35c8e41585e1e723564d5a9ed3e1efe5a25f5f49ec0abfedbc77c15921/WifiOrca-0.0.8.tar.gz
+[2023-07-10 00:15:08] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/04/0f/41d8273b8328bed16f31a5e8d46c2168b617a9aad01c7cc83b7a459caaf9/sydeploy-0.2.7rc8-py3-none-any.whl
+[2023-07-10 00:15:08] INFO root fetch - processPackages [airunner]: Downloading https://files.pythonhosted.org/packages/60/cd/d466790071a923540ac289e13a314b39c47ceaefc303cbe0046ca6e65710/airunner-1.9.5.tar.gz
+[2023-07-10 00:15:08] INFO root fetch - processPackages [WifiOrca]: Downloading https://files.pythonhosted.org/packages/6c/bc/e2456b958bc898982eb43af2620e188bbfa5aa238ab51471ad1a3df3e58b/WifiOrca-0.0.9.tar.gz
+[2023-07-10 00:15:08] INFO root fetch - processPackages [WifiOrca]: executing diffoscope
+[2023-07-10 00:15:08] INFO root fetch - processPackages [WifiOrca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WifiOrca-0.0.8.tar.gz tmp/WifiOrca-0.0.9.tar.gz --markdown 20230710/W/WifiOrca/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 00:15:08] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/58/18/76804ce4b2cba456dbd3b7cbd1ad2b41c38066c394960662956c56f97852/sydeploy-0.2.8-py3-none-any.whl
+[2023-07-10 00:15:08] INFO root fetch - processPackages [edp-redy-py]: Downloading https://files.pythonhosted.org/packages/14/20/2292474a5ad851a9cf8a61884a1b5526a4a4671f84345d9d83e9b4b8f868/edp_redy_py-0.1.8.tar.gz
+[2023-07-10 00:15:08] INFO root fetch - processPackages [sydeploy]: executing diffoscope
+[2023-07-10 00:15:08] INFO root fetch - processPackages [sydeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sydeploy-0.2.7rc8-py3-none-any.whl.zip tmp/sydeploy-0.2.8-py3-none-any.whl.zip --markdown 20230710/s/sydeploy/0.2.7rc8-0.2.8/diff.md --exclude *.pyd
+[2023-07-10 00:15:08] INFO root fetch - processPackages [edp-redy-py]: executing diffoscope
+[2023-07-10 00:15:08] INFO root fetch - processPackages [edp-redy-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edp_redy_py-0.1.7.tar.gz tmp/edp_redy_py-0.1.8.tar.gz --markdown 20230710/e/edp-redy-py/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-10 00:15:08] INFO root fetch - processPackages [airunner]: Downloading https://files.pythonhosted.org/packages/a7/74/59f7ad0b2bc7845c3a172c2439d686c588dc0b950ccebdb7e0ca9254cd62/airunner-2.0.0.tar.gz
+[2023-07-10 00:15:09] INFO root fetch - processPackages [airunner]: executing diffoscope
+[2023-07-10 00:15:09] INFO root fetch - processPackages [airunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airunner-1.9.5.tar.gz tmp/airunner-2.0.0.tar.gz --markdown 20230710/a/airunner/1.9.5-2.0.0/diff.md --exclude *.pyd
+[2023-07-10 00:15:09] INFO root fetch - processPackages [WifiOrca]: Remove: archive file [/home/abi/fetcher/tmp/WifiOrca-0.0.8.tar.gz]
+[2023-07-10 00:15:09] INFO root fetch - processPackages [WifiOrca]: Remove: archive file [/home/abi/fetcher/tmp/WifiOrca-0.0.9.tar.gz]
+[2023-07-10 00:15:09] INFO root fetch - main [MainThread]: End processing [WifiOrca]: success
+[2023-07-10 00:15:09] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.7rc8-py3-none-any.whl.zip]
+[2023-07-10 00:15:09] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.8-py3-none-any.whl.zip]
+[2023-07-10 00:15:09] INFO root fetch - main [MainThread]: End processing [sydeploy]: success
+[2023-07-10 00:15:09] INFO root fetch - processPackages [edp-redy-py]: Remove: archive file [/home/abi/fetcher/tmp/edp_redy_py-0.1.7.tar.gz]
+[2023-07-10 00:15:09] INFO root fetch - processPackages [edp-redy-py]: Remove: archive file [/home/abi/fetcher/tmp/edp_redy_py-0.1.8.tar.gz]
+[2023-07-10 00:15:09] INFO root fetch - main [MainThread]: End processing [edp-redy-py]: success
+[2023-07-10 00:15:09] INFO root fetch - processPackages [airunner]: Remove: archive file [/home/abi/fetcher/tmp/airunner-1.9.5.tar.gz]
+[2023-07-10 00:15:09] INFO root fetch - processPackages [airunner]: Remove: archive file [/home/abi/fetcher/tmp/airunner-2.0.0.tar.gz]
+[2023-07-10 00:15:09] INFO root fetch - main [MainThread]: End processing [airunner]: success
+[2023-07-10 00:15:09] INFO root fetch - main [MainThread]: Store serial: [18823856]
