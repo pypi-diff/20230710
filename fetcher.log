@@ -893,3 +893,72 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 01:07:07] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.78.tar.gz]
 [2023-07-10 01:07:07] INFO root fetch - main [MainThread]: End processing [pyfirebird]: success
 [2023-07-10 01:07:07] INFO root fetch - main [MainThread]: Store serial: [18824070]
+[2023-07-10 01:12:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18824070]
+[2023-07-10 01:12:16] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-10 01:12:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aws-spy
+[2023-07-10 01:12:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DBRetina
+[2023-07-10 01:12:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aioesphomeapi
+[2023-07-10 01:12:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: statprocon
+[2023-07-10 01:12:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ofscraper
+[2023-07-10 01:12:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gmailsorter
+[2023-07-10 01:12:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyfirebird
+[2023-07-10 01:12:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: docs2txt
+[2023-07-10 01:12:16] WARNING root fetch - processPackages [gmailsorter]: Skipping, unable to determine old version
+[2023-07-10 01:12:16] INFO root fetch - main [MainThread]: End processing [gmailsorter] error
+[2023-07-10 01:12:16] INFO root fetch - processPackages [pyfirebird]: New version: [0.0.79] Old Version: [0.0.78]
+[2023-07-10 01:12:16] INFO root fetch - processPackages [docs2txt]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-10 01:12:16] INFO root fetch - processPackages [aws-spy]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-10 01:12:16] INFO root fetch - processPackages [statprocon]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-10 01:12:16] INFO root fetch - processPackages [DBRetina]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-10 01:12:16] INFO root fetch - processPackages [ofscraper]: New version: [2.7] Old Version: [2.6.4]
+[2023-07-10 01:12:16] INFO root fetch - processPackages [aioesphomeapi]: New version: [9.1.5] Old Version: [9.1.4]
+[2023-07-10 01:12:16] INFO root fetch - processPackages [docs2txt]: Downloading https://files.pythonhosted.org/packages/56/19/5baf82cb8490ec6284c70ebd87b11bdf1f935281c338a2ab8266ba9c34b2/docs2txt-0.1.4.tar.gz
+[2023-07-10 01:12:16] INFO root fetch - processPackages [pyfirebird]: Downloading https://files.pythonhosted.org/packages/e5/bf/ddcfac41c1626798bc0b4aad6a926c490e4a9ae9374b539607d76cc7d455/pyfirebird-0.0.78.tar.gz
+[2023-07-10 01:12:16] INFO root fetch - processPackages [statprocon]: Downloading https://files.pythonhosted.org/packages/1e/d8/0604dfaaa0cf7edabae372e4d063beb2f7f1411adb0e82dd29cebe24fc2a/statprocon-0.0.3.tar.gz
+[2023-07-10 01:12:16] INFO root fetch - processPackages [aws-spy]: Downloading https://files.pythonhosted.org/packages/db/8f/448a95df2f2de171e56212ce3a2bad5fd007477bc72aca5f84b4a7b3a831/aws_spy-0.2.0.tar.gz
+[2023-07-10 01:12:16] INFO root fetch - processPackages [DBRetina]: Downloading https://files.pythonhosted.org/packages/2d/27/4639789d91afeb031994b2e4b18127a4d05a446158df3426ad749254d322/DBRetina-2.2.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-10 01:12:16] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/3a/b2/9367dce2f0620794b2656819934fd7f20cbe4882082935859906ab8ffe9e/ofscraper-2.6.4.tar.gz
+[2023-07-10 01:12:16] INFO root fetch - processPackages [aioesphomeapi]: Downloading https://files.pythonhosted.org/packages/62/7f/d2cc3b95dfe936bbad8f3956f274147389d6625de031d1105261491bffd9/aioesphomeapi-9.1.4.tar.gz
+[2023-07-10 01:12:16] INFO root fetch - processPackages [statprocon]: Downloading https://files.pythonhosted.org/packages/9d/83/a0107dbc1ff85f572103f0862a380a2fd643547619b0331ccd5b8a77e653/statprocon-0.0.4.tar.gz
+[2023-07-10 01:12:16] INFO root fetch - processPackages [pyfirebird]: Downloading https://files.pythonhosted.org/packages/82/fe/c038b45d2c931bf8474a708ffa471c70af9766d378fb43a785b67b86abcb/pyfirebird-0.0.79.tar.gz
+[2023-07-10 01:12:17] INFO root fetch - processPackages [aws-spy]: Downloading https://files.pythonhosted.org/packages/5a/29/77da9659cbd298a2ffcabf2e83a4f47b508b1a401f00222c5bfef50ad047/aws_spy-0.2.1.tar.gz
+[2023-07-10 01:12:17] INFO root fetch - processPackages [docs2txt]: Downloading https://files.pythonhosted.org/packages/b4/e9/b6b5ceb2b7944dde9c35b76f89e6861ab307c5f477d050e8b05c93f81020/docs2txt-0.1.5.tar.gz
+[2023-07-10 01:12:17] INFO root fetch - processPackages [statprocon]: executing diffoscope
+[2023-07-10 01:12:17] INFO root fetch - processPackages [statprocon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statprocon-0.0.3.tar.gz tmp/statprocon-0.0.4.tar.gz --markdown 20230710/s/statprocon/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-10 01:12:17] INFO root fetch - processPackages [pyfirebird]: executing diffoscope
+[2023-07-10 01:12:17] INFO root fetch - processPackages [pyfirebird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfirebird-0.0.78.tar.gz tmp/pyfirebird-0.0.79.tar.gz --markdown 20230710/p/pyfirebird/0.0.78-0.0.79/diff.md --exclude *.pyd
+[2023-07-10 01:12:17] INFO root fetch - processPackages [aws-spy]: executing diffoscope
+[2023-07-10 01:12:17] INFO root fetch - processPackages [aws-spy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_spy-0.2.0.tar.gz tmp/aws_spy-0.2.1.tar.gz --markdown 20230710/a/aws-spy/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-10 01:12:17] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/41/3d/a23076dd18ab400212be394f4e7c322e2326f3315f2531e1d145293c4e68/ofscraper-2.7.tar.gz
+[2023-07-10 01:12:17] INFO root fetch - processPackages [docs2txt]: executing diffoscope
+[2023-07-10 01:12:17] INFO root fetch - processPackages [docs2txt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docs2txt-0.1.4.tar.gz tmp/docs2txt-0.1.5.tar.gz --markdown 20230710/d/docs2txt/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-10 01:12:17] INFO root fetch - processPackages [aioesphomeapi]: Downloading https://files.pythonhosted.org/packages/95/57/381c894380ec58a8c891a923696dc0d97d7af266921f326f942ec3332685/aioesphomeapi-9.1.5.tar.gz
+[2023-07-10 01:12:17] INFO root fetch - processPackages [ofscraper]: executing diffoscope
+[2023-07-10 01:12:17] INFO root fetch - processPackages [ofscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofscraper-2.6.4.tar.gz tmp/ofscraper-2.7.tar.gz --markdown 20230710/o/ofscraper/2.6.4-2.7/diff.md --exclude *.pyd
+[2023-07-10 01:12:17] INFO root fetch - processPackages [aioesphomeapi]: executing diffoscope
+[2023-07-10 01:12:17] INFO root fetch - processPackages [aioesphomeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioesphomeapi-9.1.4.tar.gz tmp/aioesphomeapi-9.1.5.tar.gz --markdown 20230710/a/aioesphomeapi/9.1.4-9.1.5/diff.md --exclude *.pyd
+[2023-07-10 01:12:18] INFO root fetch - processPackages [statprocon]: Remove: archive file [/home/abi/fetcher/tmp/statprocon-0.0.3.tar.gz]
+[2023-07-10 01:12:18] INFO root fetch - processPackages [statprocon]: Remove: archive file [/home/abi/fetcher/tmp/statprocon-0.0.4.tar.gz]
+[2023-07-10 01:12:18] INFO root fetch - main [MainThread]: End processing [statprocon]: success
+[2023-07-10 01:12:18] INFO root fetch - processPackages [DBRetina]: Downloading https://files.pythonhosted.org/packages/69/9c/c6dde0ad5623c71abd1f045b795791335b2760160922c49eb6342f60c439/DBRetina-2.2.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-10 01:12:18] INFO root fetch - processPackages [docs2txt]: Remove: archive file [/home/abi/fetcher/tmp/docs2txt-0.1.4.tar.gz]
+[2023-07-10 01:12:18] INFO root fetch - processPackages [docs2txt]: Remove: archive file [/home/abi/fetcher/tmp/docs2txt-0.1.5.tar.gz]
+[2023-07-10 01:12:18] INFO root fetch - main [MainThread]: End processing [docs2txt]: success
+[2023-07-10 01:12:18] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.78.tar.gz]
+[2023-07-10 01:12:18] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.79.tar.gz]
+[2023-07-10 01:12:18] INFO root fetch - main [MainThread]: End processing [pyfirebird]: success
+[2023-07-10 01:12:18] INFO root fetch - processPackages [aws-spy]: Remove: archive file [/home/abi/fetcher/tmp/aws_spy-0.2.0.tar.gz]
+[2023-07-10 01:12:18] INFO root fetch - processPackages [aws-spy]: Remove: archive file [/home/abi/fetcher/tmp/aws_spy-0.2.1.tar.gz]
+[2023-07-10 01:12:18] INFO root fetch - main [MainThread]: End processing [aws-spy]: success
+[2023-07-10 01:12:18] INFO root fetch - processPackages [aioesphomeapi]: Remove: archive file [/home/abi/fetcher/tmp/aioesphomeapi-9.1.4.tar.gz]
+[2023-07-10 01:12:18] INFO root fetch - processPackages [aioesphomeapi]: Remove: archive file [/home/abi/fetcher/tmp/aioesphomeapi-9.1.5.tar.gz]
+[2023-07-10 01:12:18] INFO root fetch - main [MainThread]: End processing [aioesphomeapi]: success
+[2023-07-10 01:12:18] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-2.6.4.tar.gz]
+[2023-07-10 01:12:18] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-2.7.tar.gz]
+[2023-07-10 01:12:18] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
+[2023-07-10 01:12:19] INFO root fetch - processPackages [DBRetina]: executing diffoscope
+[2023-07-10 01:12:19] INFO root fetch - processPackages [DBRetina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DBRetina-2.2.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/DBRetina-2.2.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230710/D/DBRetina/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-10 01:12:20] INFO root fetch - processPackages [DBRetina]: Remove: archive file [/home/abi/fetcher/tmp/DBRetina-2.2.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-10 01:12:20] INFO root fetch - processPackages [DBRetina]: Remove: archive file [/home/abi/fetcher/tmp/DBRetina-2.2.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-10 01:12:20] INFO root fetch - main [MainThread]: End processing [DBRetina]: success
+[2023-07-10 01:12:20] INFO root fetch - main [MainThread]: Store serial: [18824099]
