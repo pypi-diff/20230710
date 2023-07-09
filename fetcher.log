@@ -366,3 +366,39 @@
 [2023-07-10 00:20:21] INFO root fetch - main [MainThread]: End processing [streamlit-binary-tree]: success
 [2023-07-10 00:20:21] INFO root fetch - main [MainThread]: End processing [streamlit-binary-tree]: success
 [2023-07-10 00:20:21] INFO root fetch - main [MainThread]: Store serial: [18823882]
+[2023-07-10 00:25:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18823882]
+[2023-07-10 00:25:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-10 00:25:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sofascore-api
+[2023-07-10 00:25:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gridkit
+[2023-07-10 00:25:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: WifiOrca
+[2023-07-10 00:25:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyhowdoi
+[2023-07-10 00:25:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: streamlit-binary-tree
+[2023-07-10 00:25:30] INFO root fetch - processPackages [gridkit]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-10 00:25:30] INFO root fetch - processPackages [streamlit-binary-tree]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-10 00:25:30] WARNING root fetch - processPackages [pyhowdoi]: Skipping, unable to determine old version
+[2023-07-10 00:25:30] INFO root fetch - main [MainThread]: End processing [pyhowdoi] error
+[2023-07-10 00:25:30] WARNING root fetch - processPackages [sofascore-api]: Skipping, unable to determine old version
+[2023-07-10 00:25:30] INFO root fetch - main [MainThread]: End processing [sofascore-api] error
+[2023-07-10 00:25:30] INFO root fetch - processPackages [WifiOrca]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 00:25:31] INFO root fetch - processPackages [streamlit-binary-tree]: Downloading https://files.pythonhosted.org/packages/7b/ff/e984f1bab18ca916d7011c90cf360128d7ab92d12b6fb04641db4c499ddb/streamlit-binary-tree-0.1.3.tar.gz
+[2023-07-10 00:25:31] INFO root fetch - processPackages [WifiOrca]: Downloading https://files.pythonhosted.org/packages/7d/1f/5b35c8e41585e1e723564d5a9ed3e1efe5a25f5f49ec0abfedbc77c15921/WifiOrca-0.0.8.tar.gz
+[2023-07-10 00:25:31] INFO root fetch - processPackages [gridkit]: Downloading https://files.pythonhosted.org/packages/4d/88/7df6dc4186c30418d60196e6339da609ad784ec9fd59362b787dd50f244b/gridkit-0.1.1.tar.gz
+[2023-07-10 00:25:31] INFO root fetch - processPackages [WifiOrca]: Downloading https://files.pythonhosted.org/packages/6c/bc/e2456b958bc898982eb43af2620e188bbfa5aa238ab51471ad1a3df3e58b/WifiOrca-0.0.9.tar.gz
+[2023-07-10 00:25:31] INFO root fetch - processPackages [streamlit-binary-tree]: Downloading https://files.pythonhosted.org/packages/32/9e/b871fc3e7c201630153bfb83f52c89afc6efec899a269fd67296d2823b16/streamlit-binary-tree-0.1.4.tar.gz
+[2023-07-10 00:25:31] INFO root fetch - processPackages [WifiOrca]: executing diffoscope
+[2023-07-10 00:25:31] INFO root fetch - processPackages [WifiOrca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WifiOrca-0.0.8.tar.gz tmp/WifiOrca-0.0.9.tar.gz --markdown 20230710/W/WifiOrca/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 00:25:31] INFO root fetch - processPackages [gridkit]: Downloading https://files.pythonhosted.org/packages/12/14/dbd6259d7dd2f88ccf3be58cbcf1591881586325f4ff99cca6c6003875a6/gridkit-0.2.0.tar.gz
+[2023-07-10 00:25:31] INFO root fetch - processPackages [streamlit-binary-tree]: executing diffoscope
+[2023-07-10 00:25:31] INFO root fetch - processPackages [streamlit-binary-tree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-binary-tree-0.1.3.tar.gz tmp/streamlit-binary-tree-0.1.4.tar.gz --markdown 20230710/s/streamlit-binary-tree/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-10 00:25:31] INFO root fetch - processPackages [gridkit]: executing diffoscope
+[2023-07-10 00:25:31] INFO root fetch - processPackages [gridkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridkit-0.1.1.tar.gz tmp/gridkit-0.2.0.tar.gz --markdown 20230710/g/gridkit/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-10 00:25:32] INFO root fetch - processPackages [WifiOrca]: Remove: archive file [/home/abi/fetcher/tmp/WifiOrca-0.0.8.tar.gz]
+[2023-07-10 00:25:32] INFO root fetch - processPackages [WifiOrca]: Remove: archive file [/home/abi/fetcher/tmp/WifiOrca-0.0.9.tar.gz]
+[2023-07-10 00:25:32] INFO root fetch - main [MainThread]: End processing [WifiOrca]: success
+[2023-07-10 00:25:32] INFO root fetch - processPackages [gridkit]: Remove: archive file [/home/abi/fetcher/tmp/gridkit-0.1.1.tar.gz]
+[2023-07-10 00:25:32] INFO root fetch - processPackages [gridkit]: Remove: archive file [/home/abi/fetcher/tmp/gridkit-0.2.0.tar.gz]
+[2023-07-10 00:25:32] INFO root fetch - main [MainThread]: End processing [gridkit]: success
+[2023-07-10 00:25:32] INFO root fetch - processPackages [streamlit-binary-tree]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-binary-tree-0.1.3.tar.gz]
+[2023-07-10 00:25:32] INFO root fetch - processPackages [streamlit-binary-tree]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-binary-tree-0.1.4.tar.gz]
+[2023-07-10 00:25:32] INFO root fetch - main [MainThread]: End processing [streamlit-binary-tree]: success
+[2023-07-10 00:25:32] INFO root fetch - main [MainThread]: Store serial: [18823902]
