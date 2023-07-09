@@ -1018,3 +1018,24 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 01:22:41] INFO root fetch - processPackages [ypricemagic]: Remove: archive file [/home/abi/fetcher/tmp/ypricemagic-2.8.3.dev3.tar.gz]
 [2023-07-10 01:22:41] INFO root fetch - main [MainThread]: End processing [ypricemagic]: success
 [2023-07-10 01:22:41] INFO root fetch - main [MainThread]: Store serial: [18824121]
+[2023-07-10 01:27:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18824121]
+[2023-07-10 01:27:49] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-10 01:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dank-mids
+[2023-07-10 01:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airunner
+[2023-07-10 01:27:49] INFO root fetch - processPackages [airunner]: New version: [2.0.0] Old Version: [1.9.5]
+[2023-07-10 01:27:49] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-10 01:27:49] INFO root fetch - processPackages [airunner]: Downloading https://files.pythonhosted.org/packages/60/cd/d466790071a923540ac289e13a314b39c47ceaefc303cbe0046ca6e65710/airunner-1.9.5.tar.gz
+[2023-07-10 01:27:49] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-10 01:27:50] INFO root fetch - processPackages [airunner]: Downloading https://files.pythonhosted.org/packages/a7/74/59f7ad0b2bc7845c3a172c2439d686c588dc0b950ccebdb7e0ca9254cd62/airunner-2.0.0.tar.gz
+[2023-07-10 01:27:50] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-10 01:27:50] INFO root fetch - processPackages [airunner]: executing diffoscope
+[2023-07-10 01:27:50] INFO root fetch - processPackages [airunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airunner-1.9.5.tar.gz tmp/airunner-2.0.0.tar.gz --markdown 20230710/a/airunner/1.9.5-2.0.0/diff.md --exclude *.pyd
+[2023-07-10 01:27:50] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-10 01:27:50] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230710/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-10 01:27:51] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-10 01:27:51] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-10 01:27:51] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-10 01:27:51] INFO root fetch - processPackages [airunner]: Remove: archive file [/home/abi/fetcher/tmp/airunner-1.9.5.tar.gz]
+[2023-07-10 01:27:51] INFO root fetch - processPackages [airunner]: Remove: archive file [/home/abi/fetcher/tmp/airunner-2.0.0.tar.gz]
+[2023-07-10 01:27:51] INFO root fetch - main [MainThread]: End processing [airunner]: success
+[2023-07-10 01:27:51] INFO root fetch - main [MainThread]: Store serial: [18824131]
