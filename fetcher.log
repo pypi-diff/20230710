@@ -1,0 +1,91 @@
+[2023-07-10 00:04:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18823756]
+[2023-07-10 00:04:41] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-10 00:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-jacc
+[2023-07-10 00:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sydeploy
+[2023-07-10 00:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypdfe
+[2023-07-10 00:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seventv
+[2023-07-10 00:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyfirebird
+[2023-07-10 00:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Kinho
+[2023-07-10 00:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyhOn
+[2023-07-10 00:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sydeploy
+[2023-07-10 00:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: katottglib
+[2023-07-10 00:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: centerline-width
+[2023-07-10 00:04:42] INFO root fetch - processPackages [Kinho]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-07-10 00:04:42] INFO root fetch - processPackages [pyfirebird]: New version: [0.0.75] Old Version: [0.0.74]
+[2023-07-10 00:04:42] INFO root fetch - processPackages [seventv]: New version: [2.3.3] Old Version: [2.3.2]
+[2023-07-10 00:04:42] INFO root fetch - processPackages [sydeploy]: New version: [0.2.7rc8] Old Version: [0.2.7rc7]
+[2023-07-10 00:04:42] INFO root fetch - processPackages [sydeploy]: New version: [0.2.7rc8] Old Version: [0.2.7rc7]
+[2023-07-10 00:04:42] INFO root fetch - processPackages [katottglib]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-10 00:04:42] INFO root fetch - processPackages [centerline-width]: New version: [1.0.0] Old Version: [0.4.0]
+[2023-07-10 00:04:42] INFO root fetch - processPackages [pypdfe]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 00:04:42] INFO root fetch - processPackages [django-jacc]: New version: [3.9.5] Old Version: [3.9.4]
+[2023-07-10 00:04:42] INFO root fetch - processPackages [pyhOn]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-10 00:04:42] INFO root fetch - processPackages [pyfirebird]: Downloading https://files.pythonhosted.org/packages/f6/d7/7ccb4d14ddb3c2b3e77203e1bb75f090e54a8d4b45dc5593f7627d15e081/pyfirebird-0.0.74.tar.gz
+[2023-07-10 00:04:42] INFO root fetch - processPackages [katottglib]: Downloading https://files.pythonhosted.org/packages/e8/dd/26d4a9fe40ce556eb4d4048ba4b0e7c9d596feaf50915e5442df384f6b94/katottglib-0.2.1.tar.gz
+[2023-07-10 00:04:42] INFO root fetch - processPackages [Kinho]: Downloading https://files.pythonhosted.org/packages/ac/10/21b3f0edc17ed79e37ce7215f5b1b9c1672862406f7484b97d07a7983732/Kinho-1.0.1.tar.gz
+[2023-07-10 00:04:42] INFO root fetch - processPackages [pypdfe]: Downloading https://files.pythonhosted.org/packages/d7/7b/fc7b6a476dedac0cb198574c6cd3284d66d0d58096771544f79bc432f259/pypdfe-0.1.8.tar.gz
+[2023-07-10 00:04:42] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/36/7e/46cdd094230a3d47b46bb730a4349a91c0e06570be5478fd80c33c4bd672/sydeploy-0.2.7rc7-py3-none-any.whl
+[2023-07-10 00:04:42] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/36/7e/46cdd094230a3d47b46bb730a4349a91c0e06570be5478fd80c33c4bd672/sydeploy-0.2.7rc7-py3-none-any.whl
+[2023-07-10 00:04:42] INFO root fetch - processPackages [django-jacc]: Downloading https://files.pythonhosted.org/packages/0c/21/831f15116bf7a834bc72192a85b961f2c86ba6f701e1363f7501e72c537f/django-jacc-3.9.4.tar.gz
+[2023-07-10 00:04:42] INFO root fetch - processPackages [centerline-width]: Downloading https://files.pythonhosted.org/packages/a9/55/a115f416d47e5e13bce08a2b712bfd188c5e114a9265a9732c60861487c6/centerline-width-0.4.0.tar.gz
+[2023-07-10 00:04:42] INFO root fetch - processPackages [seventv]: Downloading https://files.pythonhosted.org/packages/85/c0/f0e8b0fc5e346e5ed27af0f2d7f720956bfe05e8e438b0d4c53fe9ed68d5/seventv-2.3.2.tar.gz
+[2023-07-10 00:04:42] INFO root fetch - processPackages [pyhOn]: Downloading https://files.pythonhosted.org/packages/ea/21/a02ec05f27736d84fc536a77e7d8d4bff64042649263f7f166eb347f645e/pyhOn-0.9.0.tar.gz
+[2023-07-10 00:04:42] INFO root fetch - processPackages [pyfirebird]: Downloading https://files.pythonhosted.org/packages/f8/04/1d404855b55199e354fee1fce3a415f31483b96c49f6dae9905dbd9a9ffa/pyfirebird-0.0.75.tar.gz
+[2023-07-10 00:04:42] INFO root fetch - processPackages [katottglib]: Downloading https://files.pythonhosted.org/packages/ac/64/0873ae12f3efeb313f05c811870efe46086def405faf8d498281acf24cf0/katottglib-0.2.2.tar.gz
+[2023-07-10 00:04:42] INFO root fetch - processPackages [Kinho]: Downloading https://files.pythonhosted.org/packages/e6/a7/3cf0d17cae50903faa71fed77d15cc1fe9163a3c41aaa9476f0efb45aa11/Kinho-1.1.0.tar.gz
+[2023-07-10 00:04:42] INFO root fetch - processPackages [django-jacc]: Downloading https://files.pythonhosted.org/packages/25/e4/f995861511ca26ae4758c592155788cff5fa8ae37266bafa13bd4a155d7c/django-jacc-3.9.5.tar.gz
+[2023-07-10 00:04:42] INFO root fetch - processPackages [pypdfe]: Downloading https://files.pythonhosted.org/packages/43/f0/f557d7789e790c4ca9eaa4fee3f4110f3bb7961c5c7835e2c206b280ace4/pypdfe-0.1.9.tar.gz
+[2023-07-10 00:04:43] INFO root fetch - processPackages [katottglib]: executing diffoscope
+[2023-07-10 00:04:43] INFO root fetch - processPackages [seventv]: Downloading https://files.pythonhosted.org/packages/ae/91/ed7ce263ae75e26cf6731835aa625a4fb656c3aabf334ab5432caa63c664/seventv-2.3.3.tar.gz
+[2023-07-10 00:04:43] INFO root fetch - processPackages [katottglib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/katottglib-0.2.1.tar.gz tmp/katottglib-0.2.2.tar.gz --markdown 20230710/k/katottglib/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-10 00:04:43] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/04/0f/41d8273b8328bed16f31a5e8d46c2168b617a9aad01c7cc83b7a459caaf9/sydeploy-0.2.7rc8-py3-none-any.whl
+[2023-07-10 00:04:43] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/04/0f/41d8273b8328bed16f31a5e8d46c2168b617a9aad01c7cc83b7a459caaf9/sydeploy-0.2.7rc8-py3-none-any.whl
+[2023-07-10 00:04:43] INFO root fetch - processPackages [centerline-width]: Downloading https://files.pythonhosted.org/packages/08/45/97bdae83da6bb5633c60d0f9801e74509a7851a338c06fd5e499139dc7a9/centerline-width-1.0.0.tar.gz
+[2023-07-10 00:04:43] INFO root fetch - processPackages [pyfirebird]: executing diffoscope
+[2023-07-10 00:04:43] INFO root fetch - processPackages [pyfirebird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfirebird-0.0.74.tar.gz tmp/pyfirebird-0.0.75.tar.gz --markdown 20230710/p/pyfirebird/0.0.74-0.0.75/diff.md --exclude *.pyd
+[2023-07-10 00:04:43] INFO root fetch - processPackages [django-jacc]: executing diffoscope
+[2023-07-10 00:04:43] INFO root fetch - processPackages [django-jacc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-jacc-3.9.4.tar.gz tmp/django-jacc-3.9.5.tar.gz --markdown 20230710/d/django-jacc/3.9.4-3.9.5/diff.md --exclude *.pyd
+[2023-07-10 00:04:43] INFO root fetch - processPackages [Kinho]: executing diffoscope
+[2023-07-10 00:04:43] INFO root fetch - processPackages [Kinho]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Kinho-1.0.1.tar.gz tmp/Kinho-1.1.0.tar.gz --markdown 20230710/K/Kinho/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-07-10 00:04:43] INFO root fetch - processPackages [pyhOn]: Downloading https://files.pythonhosted.org/packages/bd/8e/c3ca4f478da222a67df9747f74292644f871e32df734b2eaaef829814af5/pyhOn-0.9.1.tar.gz
+[2023-07-10 00:04:43] INFO root fetch - processPackages [pypdfe]: executing diffoscope
+[2023-07-10 00:04:43] INFO root fetch - processPackages [pypdfe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypdfe-0.1.8.tar.gz tmp/pypdfe-0.1.9.tar.gz --markdown 20230710/p/pypdfe/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 00:04:43] INFO root fetch - processPackages [centerline-width]: executing diffoscope
+[2023-07-10 00:04:43] INFO root fetch - processPackages [centerline-width]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/centerline-width-0.4.0.tar.gz tmp/centerline-width-1.0.0.tar.gz --markdown 20230710/c/centerline-width/0.4.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-10 00:04:43] INFO root fetch - processPackages [seventv]: executing diffoscope
+[2023-07-10 00:04:43] INFO root fetch - processPackages [seventv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seventv-2.3.2.tar.gz tmp/seventv-2.3.3.tar.gz --markdown 20230710/s/seventv/2.3.2-2.3.3/diff.md --exclude *.pyd
+[2023-07-10 00:04:43] INFO root fetch - processPackages [sydeploy]: executing diffoscope
+[2023-07-10 00:04:43] INFO root fetch - processPackages [sydeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sydeploy-0.2.7rc7-py3-none-any.whl.zip tmp/sydeploy-0.2.7rc8-py3-none-any.whl.zip --markdown 20230710/s/sydeploy/0.2.7rc7-0.2.7rc8/diff.md --exclude *.pyd
+[2023-07-10 00:04:43] INFO root fetch - processPackages [sydeploy]: executing diffoscope
+[2023-07-10 00:04:43] INFO root fetch - processPackages [sydeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sydeploy-0.2.7rc7-py3-none-any.whl.zip tmp/sydeploy-0.2.7rc8-py3-none-any.whl.zip --markdown 20230710/s/sydeploy/0.2.7rc7-0.2.7rc8/diff.md --exclude *.pyd
+[2023-07-10 00:04:43] INFO root fetch - processPackages [pyhOn]: executing diffoscope
+[2023-07-10 00:04:43] INFO root fetch - processPackages [pyhOn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhOn-0.9.0.tar.gz tmp/pyhOn-0.9.1.tar.gz --markdown 20230710/p/pyhOn/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-10 00:04:44] INFO root fetch - processPackages [katottglib]: Remove: archive file [/home/abi/fetcher/tmp/katottglib-0.2.1.tar.gz]
+[2023-07-10 00:04:44] INFO root fetch - processPackages [katottglib]: Remove: archive file [/home/abi/fetcher/tmp/katottglib-0.2.2.tar.gz]
+[2023-07-10 00:04:44] INFO root fetch - main [MainThread]: End processing [katottglib]: success
+[2023-07-10 00:04:44] INFO root fetch - processPackages [seventv]: Remove: archive file [/home/abi/fetcher/tmp/seventv-2.3.2.tar.gz]
+[2023-07-10 00:04:44] INFO root fetch - processPackages [seventv]: Remove: archive file [/home/abi/fetcher/tmp/seventv-2.3.3.tar.gz]
+[2023-07-10 00:04:44] INFO root fetch - main [MainThread]: End processing [seventv]: success
+[2023-07-10 00:04:44] INFO root fetch - processPackages [Kinho]: Remove: archive file [/home/abi/fetcher/tmp/Kinho-1.0.1.tar.gz]
+[2023-07-10 00:04:44] INFO root fetch - processPackages [Kinho]: Remove: archive file [/home/abi/fetcher/tmp/Kinho-1.1.0.tar.gz]
+[2023-07-10 00:04:44] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.7rc7-py3-none-any.whl.zip]
+[2023-07-10 00:04:44] INFO root fetch - main [MainThread]: End processing [Kinho]: success
+[2023-07-10 00:04:44] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.7rc8-py3-none-any.whl.zip]
+[2023-07-10 00:04:44] INFO root fetch - main [MainThread]: End processing [sydeploy]: success
+[2023-07-10 00:04:45] INFO root fetch - main [MainThread]: End processing [sydeploy]: success
+[2023-07-10 00:04:45] INFO root fetch - processPackages [pyhOn]: Remove: archive file [/home/abi/fetcher/tmp/pyhOn-0.9.0.tar.gz]
+[2023-07-10 00:04:45] INFO root fetch - processPackages [pyhOn]: Remove: archive file [/home/abi/fetcher/tmp/pyhOn-0.9.1.tar.gz]
+[2023-07-10 00:04:45] INFO root fetch - main [MainThread]: End processing [pyhOn]: success
+[2023-07-10 00:04:45] INFO root fetch - processPackages [centerline-width]: Remove: archive file [/home/abi/fetcher/tmp/centerline-width-0.4.0.tar.gz]
+[2023-07-10 00:04:45] INFO root fetch - processPackages [centerline-width]: Remove: archive file [/home/abi/fetcher/tmp/centerline-width-1.0.0.tar.gz]
+[2023-07-10 00:04:45] INFO root fetch - main [MainThread]: End processing [centerline-width]: success
+[2023-07-10 00:04:45] INFO root fetch - processPackages [django-jacc]: Remove: archive file [/home/abi/fetcher/tmp/django-jacc-3.9.4.tar.gz]
+[2023-07-10 00:04:45] INFO root fetch - processPackages [django-jacc]: Remove: archive file [/home/abi/fetcher/tmp/django-jacc-3.9.5.tar.gz]
+[2023-07-10 00:04:45] INFO root fetch - main [MainThread]: End processing [django-jacc]: success
+[2023-07-10 00:04:45] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.74.tar.gz]
+[2023-07-10 00:04:45] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.75.tar.gz]
+[2023-07-10 00:04:45] INFO root fetch - main [MainThread]: End processing [pyfirebird]: success
+[2023-07-10 00:04:45] INFO root fetch - processPackages [pypdfe]: Remove: archive file [/home/abi/fetcher/tmp/pypdfe-0.1.8.tar.gz]
+[2023-07-10 00:04:45] INFO root fetch - processPackages [pypdfe]: Remove: archive file [/home/abi/fetcher/tmp/pypdfe-0.1.9.tar.gz]
+[2023-07-10 00:04:45] INFO root fetch - main [MainThread]: End processing [pypdfe]: success
+[2023-07-10 00:04:45] INFO root fetch - main [MainThread]: Store serial: [18823785]
