@@ -718,3 +718,52 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 00:46:22] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.77.tar.gz]
 [2023-07-10 00:46:22] INFO root fetch - main [MainThread]: End processing [pyfirebird]: success
 [2023-07-10 00:46:22] INFO root fetch - main [MainThread]: Store serial: [18824003]
+[2023-07-10 00:51:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18824003]
+[2023-07-10 00:51:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-10 00:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bb-dirtree
+[2023-07-10 00:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: graphene-djangogql
+[2023-07-10 00:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyGeopack
+[2023-07-10 00:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simple-redis-helper
+[2023-07-10 00:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: docs2txt
+[2023-07-10 00:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: docs2txt
+[2023-07-10 00:51:31] INFO root fetch - processPackages [bb-dirtree]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-10 00:51:31] WARNING root fetch - processPackages [graphene-djangogql]: Skipping, unable to determine old version
+[2023-07-10 00:51:31] INFO root fetch - main [MainThread]: End processing [graphene-djangogql] error
+[2023-07-10 00:51:31] INFO root fetch - processPackages [simple-redis-helper]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-10 00:51:31] INFO root fetch - processPackages [docs2txt]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-10 00:51:31] INFO root fetch - processPackages [PyGeopack]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-10 00:51:31] INFO root fetch - processPackages [docs2txt]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-10 00:51:31] INFO root fetch - processPackages [bb-dirtree]: Downloading https://files.pythonhosted.org/packages/f6/91/ff46950755847840b919efa717f8b150aad26d54bb0edc1e27b815fc7f3b/bb_dirtree-0.2.1.tar.gz
+[2023-07-10 00:51:31] INFO root fetch - processPackages [simple-redis-helper]: Downloading https://files.pythonhosted.org/packages/4c/08/1e37ee111995c64ec3e68050c89fb85b72b838f1be884c7dee49c8f96af1/simple-redis-helper-0.1.4.tar.gz
+[2023-07-10 00:51:31] INFO root fetch - processPackages [docs2txt]: Downloading https://files.pythonhosted.org/packages/fb/1a/19eecd021ca760a3c01932eb0bdec11c3c01cfd9a20ece23b2bbe6691b98/docs2txt-0.1.0.tar.gz
+[2023-07-10 00:51:31] INFO root fetch - processPackages [docs2txt]: Downloading https://files.pythonhosted.org/packages/fb/1a/19eecd021ca760a3c01932eb0bdec11c3c01cfd9a20ece23b2bbe6691b98/docs2txt-0.1.0.tar.gz
+[2023-07-10 00:51:32] INFO root fetch - processPackages [PyGeopack]: Downloading https://files.pythonhosted.org/packages/b3/0b/b04326047314ccdd80740dc22447a6c6dc42f605df6cccfce341b4576e50/PyGeopack-1.2.0.tar.gz
+[2023-07-10 00:51:32] INFO root fetch - processPackages [bb-dirtree]: Downloading https://files.pythonhosted.org/packages/6b/16/7a71f45326a83b358c23b8535f2f25edc9c578fd97524ff1cdc0636fd0dd/bb_dirtree-0.2.2.tar.gz
+[2023-07-10 00:51:32] INFO root fetch - processPackages [bb-dirtree]: executing diffoscope
+[2023-07-10 00:51:32] INFO root fetch - processPackages [bb-dirtree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bb_dirtree-0.2.1.tar.gz tmp/bb_dirtree-0.2.2.tar.gz --markdown 20230710/b/bb-dirtree/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-10 00:51:32] INFO root fetch - processPackages [docs2txt]: Downloading https://files.pythonhosted.org/packages/66/bf/beef8cd7e65348141ab19f88b5aebb5e472fcf1e941d187d6d4e6a976f1a/docs2txt-0.1.1.tar.gz
+[2023-07-10 00:51:32] INFO root fetch - processPackages [docs2txt]: Downloading https://files.pythonhosted.org/packages/66/bf/beef8cd7e65348141ab19f88b5aebb5e472fcf1e941d187d6d4e6a976f1a/docs2txt-0.1.1.tar.gz
+[2023-07-10 00:51:32] INFO root fetch - processPackages [simple-redis-helper]: Downloading https://files.pythonhosted.org/packages/1c/9d/3a3c61fe81b48afc51c296fd9062feb720196a735a2a78fa53f599b3435b/simple-redis-helper-0.1.5.tar.gz
+[2023-07-10 00:51:32] INFO root fetch - processPackages [docs2txt]: executing diffoscope
+[2023-07-10 00:51:32] INFO root fetch - processPackages [docs2txt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docs2txt-0.1.0.tar.gz tmp/docs2txt-0.1.1.tar.gz --markdown 20230710/d/docs2txt/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-10 00:51:32] INFO root fetch - processPackages [docs2txt]: executing diffoscope
+[2023-07-10 00:51:32] INFO root fetch - processPackages [docs2txt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docs2txt-0.1.0.tar.gz tmp/docs2txt-0.1.1.tar.gz --markdown 20230710/d/docs2txt/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-10 00:51:32] INFO root fetch - processPackages [PyGeopack]: Downloading https://files.pythonhosted.org/packages/ff/dd/1793ee9117b0ebef9acf050f78d167024a6943128a0b2dc563cdc7b4dd1a/PyGeopack-1.2.1.tar.gz
+[2023-07-10 00:51:32] INFO root fetch - processPackages [simple-redis-helper]: executing diffoscope
+[2023-07-10 00:51:32] INFO root fetch - processPackages [simple-redis-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple-redis-helper-0.1.4.tar.gz tmp/simple-redis-helper-0.1.5.tar.gz --markdown 20230710/s/simple-redis-helper/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-10 00:51:32] INFO root fetch - processPackages [PyGeopack]: executing diffoscope
+[2023-07-10 00:51:32] INFO root fetch - processPackages [PyGeopack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyGeopack-1.2.0.tar.gz tmp/PyGeopack-1.2.1.tar.gz --markdown 20230710/P/PyGeopack/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-10 00:51:33] INFO root fetch - processPackages [bb-dirtree]: Remove: archive file [/home/abi/fetcher/tmp/bb_dirtree-0.2.1.tar.gz]
+[2023-07-10 00:51:33] INFO root fetch - processPackages [bb-dirtree]: Remove: archive file [/home/abi/fetcher/tmp/bb_dirtree-0.2.2.tar.gz]
+[2023-07-10 00:51:33] INFO root fetch - main [MainThread]: End processing [bb-dirtree]: success
+[2023-07-10 00:51:33] INFO root fetch - processPackages [docs2txt]: Remove: archive file [/home/abi/fetcher/tmp/docs2txt-0.1.0.tar.gz]
+[2023-07-10 00:51:33] INFO root fetch - processPackages [docs2txt]: Remove: archive file [/home/abi/fetcher/tmp/docs2txt-0.1.1.tar.gz]
+[2023-07-10 00:51:33] INFO root fetch - main [MainThread]: End processing [docs2txt]: success
+[2023-07-10 00:51:33] INFO root fetch - processPackages [simple-redis-helper]: Remove: archive file [/home/abi/fetcher/tmp/simple-redis-helper-0.1.4.tar.gz]
+[2023-07-10 00:51:33] INFO root fetch - processPackages [simple-redis-helper]: Remove: archive file [/home/abi/fetcher/tmp/simple-redis-helper-0.1.5.tar.gz]
+[2023-07-10 00:51:33] INFO root fetch - main [MainThread]: End processing [simple-redis-helper]: success
+[2023-07-10 00:51:33] INFO root fetch - main [MainThread]: End processing [docs2txt]: success
+[2023-07-10 00:51:34] INFO root fetch - processPackages [PyGeopack]: Remove: archive file [/home/abi/fetcher/tmp/PyGeopack-1.2.0.tar.gz]
+[2023-07-10 00:51:34] INFO root fetch - processPackages [PyGeopack]: Remove: archive file [/home/abi/fetcher/tmp/PyGeopack-1.2.1.tar.gz]
+[2023-07-10 00:51:34] INFO root fetch - main [MainThread]: End processing [PyGeopack]: success
+[2023-07-10 00:51:34] INFO root fetch - main [MainThread]: Store serial: [18824020]
