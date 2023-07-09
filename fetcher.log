@@ -1258,3 +1258,78 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 01:53:40] WARNING root fetch - processPackages [runestone]: Skipping package: exceeds size limit 29013736>=10485760
 [2023-07-10 01:53:40] INFO root fetch - main [MainThread]: End processing [runestone] error
 [2023-07-10 01:53:40] INFO root fetch - main [MainThread]: Store serial: [18824225]
+[2023-07-10 01:58:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18824225]
+[2023-07-10 01:58:49] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-10 01:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpax
+[2023-07-10 01:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: finvader
+[2023-07-10 01:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tmkit
+[2023-07-10 01:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-excel-serializer
+[2023-07-10 01:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stringzilla
+[2023-07-10 01:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: discrete-key-value-bottleneck-pytorch
+[2023-07-10 01:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bingo-elastic
+[2023-07-10 01:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: epam.indigo
+[2023-07-10 01:58:49] INFO root fetch - processPackages [discrete-key-value-bottleneck-pytorch]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-10 01:58:49] INFO root fetch - processPackages [bingo-elastic]: New version: [1.9.0rc4] Old Version: [1.9.0rc3]
+[2023-07-10 01:58:49] INFO root fetch - processPackages [tmkit]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-10 01:58:49] INFO root fetch - processPackages [gpax]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-10 01:58:49] INFO root fetch - processPackages [finvader]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-10 01:58:49] INFO root fetch - processPackages [django-excel-serializer]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-10 01:58:49] INFO root fetch - processPackages [stringzilla]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-07-10 01:58:49] INFO root fetch - processPackages [epam.indigo]: New version: [1.9.0rc4] Old Version: [1.9.0rc3]
+[2023-07-10 01:58:49] INFO root fetch - processPackages [discrete-key-value-bottleneck-pytorch]: Downloading https://files.pythonhosted.org/packages/5f/30/baf26d3197081790d824a684c13f2034de4018dbc024f03c062e89b0e932/discrete-key-value-bottleneck-pytorch-0.1.0.tar.gz
+[2023-07-10 01:58:49] INFO root fetch - processPackages [tmkit]: Downloading https://files.pythonhosted.org/packages/27/04/5019dcf9444984a56fa0e9f6374f30477bd892a7988513c885aa74423539/tmkit-0.0.2.tar.gz
+[2023-07-10 01:58:49] INFO root fetch - processPackages [bingo-elastic]: Downloading https://files.pythonhosted.org/packages/6d/cd/04a2f25555f373f632dbc074e0d2f89db55708716d7884c4a097a82d2ef3/bingo_elastic-1.9.0rc3-py3-none-any.whl
+[2023-07-10 01:58:49] INFO root fetch - processPackages [django-excel-serializer]: Downloading https://files.pythonhosted.org/packages/80/b6/0e71261512ab671230dd595279b83e1e653909d6fc39d52122544e49cc40/django-excel-serializer-2.0.0.tar.gz
+[2023-07-10 01:58:49] INFO root fetch - processPackages [gpax]: Downloading https://files.pythonhosted.org/packages/38/53/ef20a4420b85603dc9a7d9c0a9b9eff19eb396b738bbea9c6567a5b081f0/gpax-0.0.6.tar.gz
+[2023-07-10 01:58:49] INFO root fetch - processPackages [epam.indigo]: Downloading https://files.pythonhosted.org/packages/9c/79/5347eba118f9933e0a487d8029ab2b0766b1bd05b392c56497ddedd20d89/epam.indigo-1.9.0rc3-py3-none-win_amd64.whl
+[2023-07-10 01:58:49] INFO root fetch - processPackages [stringzilla]: Downloading https://files.pythonhosted.org/packages/fa/50/a183917f17c6e8c6c89d6755243208ef76e0f1ce7ff91bd2404bce9689cb/stringzilla-0.1.3-cp39-cp39-win_amd64.whl
+[2023-07-10 01:58:49] INFO root fetch - processPackages [finvader]: Downloading https://files.pythonhosted.org/packages/6d/46/8b7e6ff18585f6371f033cd52151f6b94e10fc26027b5856191406c2bd72/finvader-1.0.1.tar.gz
+[2023-07-10 01:58:49] INFO root fetch - processPackages [discrete-key-value-bottleneck-pytorch]: Downloading https://files.pythonhosted.org/packages/be/62/6795d3e016a2e36596bbe7a10cbe85a6cfdabe667e4e7f732933980c7433/discrete-key-value-bottleneck-pytorch-0.1.1.tar.gz
+[2023-07-10 01:58:50] INFO root fetch - processPackages [discrete-key-value-bottleneck-pytorch]: executing diffoscope
+[2023-07-10 01:58:50] INFO root fetch - processPackages [discrete-key-value-bottleneck-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discrete-key-value-bottleneck-pytorch-0.1.0.tar.gz tmp/discrete-key-value-bottleneck-pytorch-0.1.1.tar.gz --markdown 20230710/d/discrete-key-value-bottleneck-pytorch/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-10 01:58:50] INFO root fetch - processPackages [tmkit]: Downloading https://files.pythonhosted.org/packages/10/ab/6c32e46eb22143dc9871ff17e2639e25463b524bb734c26afd9a0f6fb7bb/tmkit-0.0.3.tar.gz
+[2023-07-10 01:58:50] INFO root fetch - processPackages [gpax]: Downloading https://files.pythonhosted.org/packages/cc/c5/12c88ef0550e43c5b457be86ed35f40163aa1ad55dbee9185ae0dd21efbb/gpax-0.0.7.tar.gz
+[2023-07-10 01:58:50] INFO root fetch - processPackages [bingo-elastic]: Downloading https://files.pythonhosted.org/packages/34/fb/8816f55d488eeaa423309aa1b297f9a04a91087d26fb5d4641f534342096/bingo_elastic-1.9.0rc4-py3-none-any.whl
+[2023-07-10 01:58:50] INFO root fetch - processPackages [stringzilla]: Downloading https://files.pythonhosted.org/packages/ec/12/46520c04629c11dfa4467ce96d26bca7bf820cd1c409913c1c3feed397a5/stringzilla-0.2.0-cp39-cp39-win_amd64.whl
+[2023-07-10 01:58:50] INFO root fetch - processPackages [finvader]: Downloading https://files.pythonhosted.org/packages/1d/d0/e9c839210a6e8db1b0ec34d01116b1382f809228849a0b294eba260d4d89/finvader-1.0.2.tar.gz
+[2023-07-10 01:58:50] INFO root fetch - processPackages [gpax]: executing diffoscope
+[2023-07-10 01:58:50] INFO root fetch - processPackages [gpax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpax-0.0.6.tar.gz tmp/gpax-0.0.7.tar.gz --markdown 20230710/g/gpax/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-10 01:58:50] INFO root fetch - processPackages [django-excel-serializer]: Downloading https://files.pythonhosted.org/packages/77/93/42868af0b21dd8a2f8b2943eaacf8844f56926f2a9610ee27c0b4d605066/django-excel-serializer-2.0.1.tar.gz
+[2023-07-10 01:58:50] INFO root fetch - processPackages [tmkit]: executing diffoscope
+[2023-07-10 01:58:50] INFO root fetch - processPackages [tmkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmkit-0.0.2.tar.gz tmp/tmkit-0.0.3.tar.gz --markdown 20230710/t/tmkit/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-10 01:58:50] INFO root fetch - processPackages [bingo-elastic]: executing diffoscope
+[2023-07-10 01:58:50] INFO root fetch - processPackages [bingo-elastic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bingo_elastic-1.9.0rc3-py3-none-any.whl.zip tmp/bingo_elastic-1.9.0rc4-py3-none-any.whl.zip --markdown 20230710/b/bingo-elastic/1.9.0rc3-1.9.0rc4/diff.md --exclude *.pyd
+[2023-07-10 01:58:50] INFO root fetch - processPackages [stringzilla]: executing diffoscope
+[2023-07-10 01:58:50] INFO root fetch - processPackages [stringzilla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stringzilla-0.1.3-cp39-cp39-win_amd64.whl.zip tmp/stringzilla-0.2.0-cp39-cp39-win_amd64.whl.zip --markdown 20230710/s/stringzilla/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-07-10 01:58:50] INFO root fetch - processPackages [finvader]: executing diffoscope
+[2023-07-10 01:58:50] INFO root fetch - processPackages [finvader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finvader-1.0.1.tar.gz tmp/finvader-1.0.2.tar.gz --markdown 20230710/f/finvader/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-10 01:58:50] INFO root fetch - processPackages [django-excel-serializer]: executing diffoscope
+[2023-07-10 01:58:50] INFO root fetch - processPackages [django-excel-serializer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-excel-serializer-2.0.0.tar.gz tmp/django-excel-serializer-2.0.1.tar.gz --markdown 20230710/d/django-excel-serializer/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-10 01:58:51] INFO root fetch - processPackages [discrete-key-value-bottleneck-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/discrete-key-value-bottleneck-pytorch-0.1.0.tar.gz]
+[2023-07-10 01:58:51] INFO root fetch - processPackages [discrete-key-value-bottleneck-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/discrete-key-value-bottleneck-pytorch-0.1.1.tar.gz]
+[2023-07-10 01:58:51] INFO root fetch - main [MainThread]: End processing [discrete-key-value-bottleneck-pytorch]: success
+[2023-07-10 01:58:51] INFO root fetch - processPackages [epam.indigo]: Downloading https://files.pythonhosted.org/packages/74/8b/89f1c05a7600f204968e2f264edc40664ea3e59f6c837d3f189bdd08f1d0/epam.indigo-1.9.0rc4-py3-none-win_amd64.whl
+[2023-07-10 01:58:51] INFO root fetch - processPackages [stringzilla]: Remove: archive file [/home/abi/fetcher/tmp/stringzilla-0.1.3-cp39-cp39-win_amd64.whl.zip]
+[2023-07-10 01:58:51] INFO root fetch - processPackages [stringzilla]: Remove: archive file [/home/abi/fetcher/tmp/stringzilla-0.2.0-cp39-cp39-win_amd64.whl.zip]
+[2023-07-10 01:58:51] INFO root fetch - main [MainThread]: End processing [stringzilla]: success
+[2023-07-10 01:58:51] INFO root fetch - processPackages [bingo-elastic]: Remove: archive file [/home/abi/fetcher/tmp/bingo_elastic-1.9.0rc3-py3-none-any.whl.zip]
+[2023-07-10 01:58:51] INFO root fetch - processPackages [bingo-elastic]: Remove: archive file [/home/abi/fetcher/tmp/bingo_elastic-1.9.0rc4-py3-none-any.whl.zip]
+[2023-07-10 01:58:51] INFO root fetch - main [MainThread]: End processing [bingo-elastic]: success
+[2023-07-10 01:58:51] INFO root fetch - processPackages [gpax]: Remove: archive file [/home/abi/fetcher/tmp/gpax-0.0.6.tar.gz]
+[2023-07-10 01:58:51] INFO root fetch - processPackages [gpax]: Remove: archive file [/home/abi/fetcher/tmp/gpax-0.0.7.tar.gz]
+[2023-07-10 01:58:51] INFO root fetch - main [MainThread]: End processing [gpax]: success
+[2023-07-10 01:58:51] INFO root fetch - processPackages [finvader]: Remove: archive file [/home/abi/fetcher/tmp/finvader-1.0.1.tar.gz]
+[2023-07-10 01:58:51] INFO root fetch - processPackages [finvader]: Remove: archive file [/home/abi/fetcher/tmp/finvader-1.0.2.tar.gz]
+[2023-07-10 01:58:51] INFO root fetch - main [MainThread]: End processing [finvader]: success
+[2023-07-10 01:58:51] INFO root fetch - processPackages [django-excel-serializer]: Remove: archive file [/home/abi/fetcher/tmp/django-excel-serializer-2.0.0.tar.gz]
+[2023-07-10 01:58:51] INFO root fetch - processPackages [django-excel-serializer]: Remove: archive file [/home/abi/fetcher/tmp/django-excel-serializer-2.0.1.tar.gz]
+[2023-07-10 01:58:51] INFO root fetch - main [MainThread]: End processing [django-excel-serializer]: success
+[2023-07-10 01:58:51] INFO root fetch - processPackages [tmkit]: Remove: archive file [/home/abi/fetcher/tmp/tmkit-0.0.2.tar.gz]
+[2023-07-10 01:58:51] INFO root fetch - processPackages [tmkit]: Remove: archive file [/home/abi/fetcher/tmp/tmkit-0.0.3.tar.gz]
+[2023-07-10 01:58:51] INFO root fetch - main [MainThread]: End processing [tmkit]: success
+[2023-07-10 01:58:52] INFO root fetch - processPackages [epam.indigo]: executing diffoscope
+[2023-07-10 01:58:52] INFO root fetch - processPackages [epam.indigo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epam.indigo-1.9.0rc3-py3-none-win_amd64.whl.zip tmp/epam.indigo-1.9.0rc4-py3-none-win_amd64.whl.zip --markdown 20230710/e/epam.indigo/1.9.0rc3-1.9.0rc4/diff.md --exclude *.pyd
+[2023-07-10 01:59:18] INFO root fetch - processPackages [epam.indigo]: Remove: archive file [/home/abi/fetcher/tmp/epam.indigo-1.9.0rc3-py3-none-win_amd64.whl.zip]
+[2023-07-10 01:59:18] INFO root fetch - processPackages [epam.indigo]: Remove: archive file [/home/abi/fetcher/tmp/epam.indigo-1.9.0rc4-py3-none-win_amd64.whl.zip]
+[2023-07-10 01:59:18] INFO root fetch - main [MainThread]: End processing [epam.indigo]: success
+[2023-07-10 01:59:18] INFO root fetch - main [MainThread]: Store serial: [18824284]
