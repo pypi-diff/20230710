@@ -1241,3 +1241,20 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 01:48:31] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230709.tar.gz]
 [2023-07-10 01:48:31] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
 [2023-07-10 01:48:31] INFO root fetch - main [MainThread]: Store serial: [18824204]
+[2023-07-10 01:53:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18824204]
+[2023-07-10 01:53:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-10 01:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: runestone
+[2023-07-10 01:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-excel-serializer
+[2023-07-10 01:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: st-paywall
+[2023-07-10 01:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tensorflow-caney
+[2023-07-10 01:53:40] WARNING root fetch - processPackages [tensorflow-caney]: Skipping, unable to determine old version
+[2023-07-10 01:53:40] INFO root fetch - main [MainThread]: End processing [tensorflow-caney] error
+[2023-07-10 01:53:40] WARNING root fetch - processPackages [st-paywall]: Skipping, unable to determine old version
+[2023-07-10 01:53:40] INFO root fetch - main [MainThread]: End processing [st-paywall] error
+[2023-07-10 01:53:40] WARNING root fetch - processPackages [django-excel-serializer]: Skipping, unable to determine old version
+[2023-07-10 01:53:40] INFO root fetch - main [MainThread]: End processing [django-excel-serializer] error
+[2023-07-10 01:53:40] INFO root fetch - processPackages [runestone]: New version: [7.0.2] Old Version: [7.0.1]
+[2023-07-10 01:53:40] INFO root fetch - processPackages [runestone]: Downloading https://files.pythonhosted.org/packages/52/e6/a11bf6a2c835278a15ba237e165f6b9f0393f5359c513272326c1471c934/runestone-7.0.1.tar.gz
+[2023-07-10 01:53:40] WARNING root fetch - processPackages [runestone]: Skipping package: exceeds size limit 29013736>=10485760
+[2023-07-10 01:53:40] INFO root fetch - main [MainThread]: End processing [runestone] error
+[2023-07-10 01:53:40] INFO root fetch - main [MainThread]: Store serial: [18824225]
