@@ -21564,3 +21564,311 @@ EOFError: EOF read where object expected
 [2023-07-10 17:05:37] ERROR root fetch - processPackages [kiwi]: Timeout during execution of pkgdiff
 [2023-07-10 17:05:37] INFO root fetch - main [MainThread]: End processing [kiwi] error
 [2023-07-10 17:05:37] INFO root fetch - main [MainThread]: Store serial: [18832379]
+[2023-07-10 17:10:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18832379]
+[2023-07-10 17:10:47] INFO root fetch - main [MainThread]: Found 35 changed packages
+[2023-07-10 17:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: namespace-mahdimir
+[2023-07-10 17:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: capsulecorp
+[2023-07-10 17:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edc-phq9
+[2023-07-10 17:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ffmperative
+[2023-07-10 17:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: data-engineering-pulumi-components
+[2023-07-10 17:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: NREL-jade
+[2023-07-10 17:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: edc-protocol-incident
+[2023-07-10 17:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tastytrade-sdk
+[2023-07-10 17:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aliyun-python-sdk-rds
+[2023-07-10 17:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: edc-qol
+[2023-07-10 17:10:47] INFO root fetch - processPackages [capsulecorp]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-10 17:10:47] INFO root fetch - processPackages [namespace-mahdimir]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-10 17:10:47] INFO root fetch - processPackages [edc-protocol-incident]: New version: [0.1.26] Old Version: [0.1.25]
+[2023-07-10 17:10:47] INFO root fetch - processPackages [ffmperative]: New version: [0.0.4.post2] Old Version: [0.0.4.post1]
+[2023-07-10 17:10:47] INFO root fetch - processPackages [edc-phq9]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 17:10:47] INFO root fetch - processPackages [aliyun-python-sdk-rds]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-07-10 17:10:47] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.1.4a0.dev9] Old Version: [0.1.4a0.dev8]
+[2023-07-10 17:10:47] INFO root fetch - processPackages [edc-qol]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 17:10:48] INFO root fetch - processPackages [NREL-jade]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-10 17:10:48] INFO root fetch - processPackages [data-engineering-pulumi-components]: New version: [0.4.1.dev7] Old Version: [0.4.1.dev6]
+[2023-07-10 17:10:48] INFO root fetch - processPackages [capsulecorp]: Downloading https://files.pythonhosted.org/packages/15/3c/e5aed88348ec376ddb8a741ec16cf43a6089a213830b46c90e6b9f181116/capsulecorp-0.0.9.tar.gz
+[2023-07-10 17:10:48] INFO root fetch - processPackages [namespace-mahdimir]: Downloading https://files.pythonhosted.org/packages/d9/f4/899ff755a613497f1887fc01b2dd134128d25d8d9b17cebeec663236d431/namespace_mahdimir-1.0.0.tar.gz
+[2023-07-10 17:10:48] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Downloading https://files.pythonhosted.org/packages/86/16/e429481b48c8e39fd99916cf0d5537d596ff8a08c15cde79f3fa9f8b822b/aliyun-python-sdk-rds-2.7.8.tar.gz
+[2023-07-10 17:10:48] INFO root fetch - processPackages [edc-phq9]: Downloading https://files.pythonhosted.org/packages/88/01/92d6ca18b57de3e21b3687ca7b2ace4997990ba17538db86b84b205cbfc2/edc-phq9-0.1.8.tar.gz
+[2023-07-10 17:10:48] INFO root fetch - processPackages [tastytrade-sdk]: Downloading https://files.pythonhosted.org/packages/40/99/5518af8ede59a3ab21c019a933e042ec4c22925d37f64ffb670880084b27/tastytrade_sdk-0.1.4a0.dev8.tar.gz
+[2023-07-10 17:10:48] INFO root fetch - processPackages [ffmperative]: Downloading https://files.pythonhosted.org/packages/5f/06/0dbe31827c1c7ee85680c84c49b37b63b51f36b3cbb15da3667ceadd9ebb/ffmperative-0.0.4.post1-py3-none-any.whl
+[2023-07-10 17:10:48] INFO root fetch - processPackages [data-engineering-pulumi-components]: Downloading https://files.pythonhosted.org/packages/14/06/305be1ee829edb9af712a657d8e45e51744e8c9027ea92116b31bcbf75a8/data-engineering-pulumi-components-0.4.1.dev6.tar.gz
+[2023-07-10 17:10:48] INFO root fetch - processPackages [edc-qol]: Downloading https://files.pythonhosted.org/packages/22/3e/1606e88c3327ced5222951425cfd4fc0195702c74192c6fc5aa147edb9a7/edc-qol-0.1.8.tar.gz
+[2023-07-10 17:10:48] INFO root fetch - processPackages [edc-protocol-incident]: Downloading https://files.pythonhosted.org/packages/62/04/62ffebedb29ee11d4aa21cf16e67b1ec6cb7e0dd6d296948223cb36daddf/edc-protocol-incident-0.1.25.tar.gz
+[2023-07-10 17:10:48] INFO root fetch - processPackages [NREL-jade]: Downloading https://files.pythonhosted.org/packages/f4/c2/ecb88c06cc5b55d7186b5e6f8ea4f680140b4203364fafd91b37f08d1797/NREL-jade-0.9.8.tar.gz
+[2023-07-10 17:10:48] INFO root fetch - processPackages [capsulecorp]: Downloading https://files.pythonhosted.org/packages/67/5f/81925f56e9c8792f2f75882c0b94f1f12e15c4cc6e7631b1908f341d3a5b/capsulecorp-0.1.0.tar.gz
+[2023-07-10 17:10:48] INFO root fetch - processPackages [namespace-mahdimir]: Downloading https://files.pythonhosted.org/packages/c0/00/4bbfbd0db63da5f086c48329cc6cb456b70bcce9cfc99a4b00a0a4eae013/namespace_mahdimir-1.0.1.tar.gz
+[2023-07-10 17:10:48] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Downloading https://files.pythonhosted.org/packages/49/c8/97bd9925e2aab8e2fb90f2bd5952e96c8793dbb73634161c2b81b93690bb/aliyun-python-sdk-rds-2.7.9.tar.gz
+[2023-07-10 17:10:48] INFO root fetch - processPackages [edc-phq9]: Downloading https://files.pythonhosted.org/packages/70/2f/960ecd562dd1c2d8603b2653a50c79df018035f3d69eaed92e0320c7b4c8/edc-phq9-0.1.9.tar.gz
+[2023-07-10 17:10:48] INFO root fetch - processPackages [edc-protocol-incident]: Downloading https://files.pythonhosted.org/packages/b3/6b/7eed04a2a55d838db9d476f4376d8ae352ddcf5dd5ec84b9f6481d6a4536/edc-protocol-incident-0.1.26.tar.gz
+[2023-07-10 17:10:48] INFO root fetch - processPackages [tastytrade-sdk]: Downloading https://files.pythonhosted.org/packages/af/99/95439aaf228c524cc0939f97e6980159e9001d608a79266c666033aa0d69/tastytrade_sdk-0.1.4a0.dev9.tar.gz
+[2023-07-10 17:10:48] INFO root fetch - processPackages [NREL-jade]: Downloading https://files.pythonhosted.org/packages/1e/7a/87103c273c865a5c7bec0d927a3859756824ecbcbe029f0411933388a5d7/NREL-jade-0.9.9.tar.gz
+[2023-07-10 17:10:48] INFO root fetch - processPackages [capsulecorp]: executing diffoscope
+[2023-07-10 17:10:48] INFO root fetch - processPackages [capsulecorp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capsulecorp-0.0.9.tar.gz tmp/capsulecorp-0.1.0.tar.gz --markdown 20230710/c/capsulecorp/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-10 17:10:48] INFO root fetch - processPackages [ffmperative]: Downloading https://files.pythonhosted.org/packages/8a/d2/596467daa019a29843bb1ce3eb609b57fe5c3e948e2ef8b9cc3ecd23f7f3/ffmperative-0.0.4.post2-py3-none-any.whl
+[2023-07-10 17:10:48] INFO root fetch - processPackages [namespace-mahdimir]: executing diffoscope
+[2023-07-10 17:10:48] INFO root fetch - processPackages [namespace-mahdimir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namespace_mahdimir-1.0.0.tar.gz tmp/namespace_mahdimir-1.0.1.tar.gz --markdown 20230710/n/namespace-mahdimir/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-10 17:10:48] INFO root fetch - processPackages [edc-qol]: Downloading https://files.pythonhosted.org/packages/c9/4c/18db3c92b50d28f788e638b1868fc2030807b21fdff6888eb6512f6b9374/edc-qol-0.1.9.tar.gz
+[2023-07-10 17:10:48] INFO root fetch - processPackages [edc-phq9]: executing diffoscope
+[2023-07-10 17:10:48] INFO root fetch - processPackages [edc-phq9]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-phq9-0.1.8.tar.gz tmp/edc-phq9-0.1.9.tar.gz --markdown 20230710/e/edc-phq9/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 17:10:48] INFO root fetch - processPackages [aliyun-python-sdk-rds]: executing diffoscope
+[2023-07-10 17:10:48] INFO root fetch - processPackages [aliyun-python-sdk-rds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-rds-2.7.8.tar.gz tmp/aliyun-python-sdk-rds-2.7.9.tar.gz --markdown 20230710/a/aliyun-python-sdk-rds/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-07-10 17:10:48] INFO root fetch - processPackages [edc-protocol-incident]: executing diffoscope
+[2023-07-10 17:10:48] INFO root fetch - processPackages [edc-protocol-incident]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-protocol-incident-0.1.25.tar.gz tmp/edc-protocol-incident-0.1.26.tar.gz --markdown 20230710/e/edc-protocol-incident/0.1.25-0.1.26/diff.md --exclude *.pyd
+[2023-07-10 17:10:48] INFO root fetch - processPackages [ffmperative]: executing diffoscope
+[2023-07-10 17:10:48] INFO root fetch - processPackages [ffmperative]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffmperative-0.0.4.post1-py3-none-any.whl.zip tmp/ffmperative-0.0.4.post2-py3-none-any.whl.zip --markdown 20230710/f/ffmperative/0.0.4.post1-0.0.4.post2/diff.md --exclude *.pyd
+[2023-07-10 17:10:49] INFO root fetch - processPackages [NREL-jade]: executing diffoscope
+[2023-07-10 17:10:49] INFO root fetch - processPackages [NREL-jade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NREL-jade-0.9.8.tar.gz tmp/NREL-jade-0.9.9.tar.gz --markdown 20230710/N/NREL-jade/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-10 17:10:49] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-07-10 17:10:49] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.1.4a0.dev8.tar.gz tmp/tastytrade_sdk-0.1.4a0.dev9.tar.gz --markdown 20230710/t/tastytrade-sdk/0.1.4a0.dev8-0.1.4a0.dev9/diff.md --exclude *.pyd
+[2023-07-10 17:10:49] INFO root fetch - processPackages [edc-qol]: executing diffoscope
+[2023-07-10 17:10:49] INFO root fetch - processPackages [edc-qol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-qol-0.1.8.tar.gz tmp/edc-qol-0.1.9.tar.gz --markdown 20230710/e/edc-qol/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 17:10:50] INFO root fetch - processPackages [namespace-mahdimir]: Remove: archive file [/home/abi/fetcher/tmp/namespace_mahdimir-1.0.0.tar.gz]
+[2023-07-10 17:10:50] INFO root fetch - processPackages [namespace-mahdimir]: Remove: archive file [/home/abi/fetcher/tmp/namespace_mahdimir-1.0.1.tar.gz]
+[2023-07-10 17:10:50] INFO root fetch - processPackages [namespace-mahdimir]: Start processing: fsleyes-plugin-mrs
+[2023-07-10 17:10:50] INFO root fetch - main [MainThread]: End processing [namespace-mahdimir]: success
+[2023-07-10 17:10:50] INFO root fetch - processPackages [capsulecorp]: Remove: archive file [/home/abi/fetcher/tmp/capsulecorp-0.0.9.tar.gz]
+[2023-07-10 17:10:50] INFO root fetch - processPackages [capsulecorp]: Remove: archive file [/home/abi/fetcher/tmp/capsulecorp-0.1.0.tar.gz]
+[2023-07-10 17:10:50] INFO root fetch - processPackages [capsulecorp]: Start processing: skale-contracts
+[2023-07-10 17:10:50] INFO root fetch - main [MainThread]: End processing [capsulecorp]: success
+[2023-07-10 17:10:50] WARNING root fetch - processPackages [skale-contracts]: Skipping, unable to determine old version
+[2023-07-10 17:10:50] INFO root fetch - processPackages [skale-contracts]: Start processing: tllab-common
+[2023-07-10 17:10:50] INFO root fetch - main [MainThread]: End processing [skale-contracts] error
+[2023-07-10 17:10:50] INFO root fetch - processPackages [fsleyes-plugin-mrs]: New version: [0.1.0] Old Version: [0.0.8]
+[2023-07-10 17:10:50] INFO root fetch - processPackages [tllab-common]: New version: [2023.7.2] Old Version: [2023.7.1]
+[2023-07-10 17:10:50] INFO root fetch - processPackages [tllab-common]: Downloading https://files.pythonhosted.org/packages/18/f5/064b5d4293f90fe641ac0777be43f6ff8175cd73b6b2d7051afe2813c873/tllab_common-2023.7.1.tar.gz
+[2023-07-10 17:10:50] INFO root fetch - processPackages [edc-phq9]: Remove: archive file [/home/abi/fetcher/tmp/edc-phq9-0.1.8.tar.gz]
+[2023-07-10 17:10:50] INFO root fetch - processPackages [edc-phq9]: Remove: archive file [/home/abi/fetcher/tmp/edc-phq9-0.1.9.tar.gz]
+[2023-07-10 17:10:50] INFO root fetch - processPackages [edc-phq9]: Start processing: pytest-restrict
+[2023-07-10 17:10:50] INFO root fetch - main [MainThread]: End processing [edc-phq9]: success
+[2023-07-10 17:10:50] INFO root fetch - processPackages [fsleyes-plugin-mrs]: Downloading https://files.pythonhosted.org/packages/13/89/2ada74f73b9da9279c918ac647ad1805fe207f2cf3d3a82697654900dfab/fsleyes-plugin-mrs-0.0.8.tar.gz
+[2023-07-10 17:10:50] INFO root fetch - processPackages [tastytrade-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tastytrade_sdk-0.1.4a0.dev8.tar.gz]
+[2023-07-10 17:10:50] INFO root fetch - processPackages [tastytrade-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tastytrade_sdk-0.1.4a0.dev9.tar.gz]
+[2023-07-10 17:10:50] INFO root fetch - processPackages [tastytrade-sdk]: Start processing: template-pypackage-tool
+[2023-07-10 17:10:50] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-07-10 17:10:50] INFO root fetch - processPackages [ffmperative]: Remove: archive file [/home/abi/fetcher/tmp/ffmperative-0.0.4.post1-py3-none-any.whl.zip]
+[2023-07-10 17:10:50] INFO root fetch - processPackages [ffmperative]: Remove: archive file [/home/abi/fetcher/tmp/ffmperative-0.0.4.post2-py3-none-any.whl.zip]
+[2023-07-10 17:10:50] INFO root fetch - processPackages [ffmperative]: Start processing: agixt
+[2023-07-10 17:10:50] INFO root fetch - main [MainThread]: End processing [ffmperative]: success
+[2023-07-10 17:10:50] INFO root fetch - processPackages [data-engineering-pulumi-components]: Downloading https://files.pythonhosted.org/packages/e8/ee/a6dfcd17c8a1f4bed3781cf6f66ac1b46a52fee1c1505bb2365d662ae762/data-engineering-pulumi-components-0.4.1.dev7.tar.gz
+[2023-07-10 17:10:50] INFO root fetch - processPackages [pytest-restrict]: New version: [4.6.0] Old Version: [4.5.0]
+[2023-07-10 17:10:50] INFO root fetch - processPackages [agixt]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-10 17:10:50] INFO root fetch - processPackages [template-pypackage-tool]: New version: [0.2] Old Version: [0.1]
+[2023-07-10 17:10:50] INFO root fetch - processPackages [edc-protocol-incident]: Remove: archive file [/home/abi/fetcher/tmp/edc-protocol-incident-0.1.25.tar.gz]
+[2023-07-10 17:10:50] INFO root fetch - processPackages [edc-protocol-incident]: Remove: archive file [/home/abi/fetcher/tmp/edc-protocol-incident-0.1.26.tar.gz]
+[2023-07-10 17:10:50] INFO root fetch - processPackages [edc-protocol-incident]: Start processing: gitlabdata
+[2023-07-10 17:10:50] INFO root fetch - main [MainThread]: End processing [edc-protocol-incident]: success
+[2023-07-10 17:10:50] INFO root fetch - processPackages [edc-qol]: Remove: archive file [/home/abi/fetcher/tmp/edc-qol-0.1.8.tar.gz]
+[2023-07-10 17:10:50] INFO root fetch - processPackages [edc-qol]: Remove: archive file [/home/abi/fetcher/tmp/edc-qol-0.1.9.tar.gz]
+[2023-07-10 17:10:50] INFO root fetch - processPackages [edc-qol]: Start processing: pulumi-datadog
+[2023-07-10 17:10:50] INFO root fetch - main [MainThread]: End processing [edc-qol]: success
+[2023-07-10 17:10:50] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/9b/11/abab4d9f1ba0cda023b8a8f3683cf10face70f19995cd228ece61cde00d0/agixt-1.3.8.tar.gz
+[2023-07-10 17:10:50] INFO root fetch - processPackages [gitlabdata]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-10 17:10:50] INFO root fetch - processPackages [pulumi-datadog]: New version: [4.9.0a1653604828] Old Version: [4.9.0a1650908051]
+[2023-07-10 17:10:50] INFO root fetch - processPackages [tllab-common]: Downloading https://files.pythonhosted.org/packages/e8/6f/35311d80def7538a8ac5d0280f92a3ad6ed659a2864d537e5a9f85044746/tllab_common-2023.7.2.tar.gz
+[2023-07-10 17:10:51] INFO root fetch - processPackages [template-pypackage-tool]: Downloading https://files.pythonhosted.org/packages/4a/49/9ffbb6debfd8b45129394e4420f7e633d7fc18f7f340f019c3e79ce8ea8c/template-pypackage-tool-0.1.tar.gz
+[2023-07-10 17:10:51] INFO root fetch - processPackages [pytest-restrict]: Downloading https://files.pythonhosted.org/packages/02/b4/701d159767e72d3bd8eaaa609fab09f701a982f6390bbd14722c13a3a5a8/pytest_restrict-4.5.0.tar.gz
+[2023-07-10 17:10:51] INFO root fetch - processPackages [tllab-common]: executing diffoscope
+[2023-07-10 17:10:51] INFO root fetch - processPackages [tllab-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tllab_common-2023.7.1.tar.gz tmp/tllab_common-2023.7.2.tar.gz --markdown 20230710/t/tllab-common/2023.7.1-2023.7.2/diff.md --exclude *.pyd
+[2023-07-10 17:10:51] INFO root fetch - processPackages [fsleyes-plugin-mrs]: Downloading https://files.pythonhosted.org/packages/8a/75/262e251fbf536b13936c9e6c1873f1a48f680e2a126ced6c9b85f943ef14/fsleyes-plugin-mrs-0.1.0.tar.gz
+[2023-07-10 17:10:51] INFO root fetch - processPackages [NREL-jade]: Remove: archive file [/home/abi/fetcher/tmp/NREL-jade-0.9.8.tar.gz]
+[2023-07-10 17:10:51] INFO root fetch - processPackages [NREL-jade]: Remove: archive file [/home/abi/fetcher/tmp/NREL-jade-0.9.9.tar.gz]
+[2023-07-10 17:10:51] INFO root fetch - processPackages [NREL-jade]: Start processing: edc-randomization
+[2023-07-10 17:10:51] INFO root fetch - main [MainThread]: End processing [NREL-jade]: success
+[2023-07-10 17:10:51] INFO root fetch - processPackages [gitlabdata]: Downloading https://files.pythonhosted.org/packages/d6/fb/1bd7ca32882fff9d3eb75e6595a17b0059ef80ed9fca250527c7b447a479/gitlabdata-0.3.8.tar.gz
+[2023-07-10 17:10:51] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/d8/b5/8991a5e2174de51c32d71e18a0d3eb5ac2f6bb5fe9f15ca8f908cee6e214/pulumi_datadog-4.9.0a1650908051.tar.gz
+[2023-07-10 17:10:51] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/0f/92/cb9f740c60a0e8bc877dff4b237b465b3144035abfefc80d41fb7c1e5603/agixt-1.3.9.tar.gz
+[2023-07-10 17:10:51] INFO root fetch - processPackages [edc-randomization]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-10 17:10:51] INFO root fetch - processPackages [fsleyes-plugin-mrs]: executing diffoscope
+[2023-07-10 17:10:51] INFO root fetch - processPackages [fsleyes-plugin-mrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsleyes-plugin-mrs-0.0.8.tar.gz tmp/fsleyes-plugin-mrs-0.1.0.tar.gz --markdown 20230710/f/fsleyes-plugin-mrs/0.0.8-0.1.0/diff.md --exclude *.pyd
+[2023-07-10 17:10:51] INFO root fetch - processPackages [pytest-restrict]: Downloading https://files.pythonhosted.org/packages/02/e4/98e5df71f2a6142793aaa1a45c630327b38743799526508ecb91fc30c960/pytest_restrict-4.6.0.tar.gz
+[2023-07-10 17:10:51] INFO root fetch - processPackages [template-pypackage-tool]: Downloading https://files.pythonhosted.org/packages/cf/83/02cd16c123e48d4e558996c4ac444f38867771f6a3566d67d9950cb17b15/template-pypackage-tool-0.2.tar.gz
+[2023-07-10 17:10:51] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2023-07-10 17:10:51] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.3.8.tar.gz tmp/agixt-1.3.9.tar.gz --markdown 20230710/a/agixt/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-10 17:10:51] INFO root fetch - processPackages [edc-randomization]: Downloading https://files.pythonhosted.org/packages/89/58/a366502b90a9a63fc0705bbe32b9bbfd851b78d2a4a5c937c1900510b086/edc_randomization-0.3.8-py3-none-any.whl
+[2023-07-10 17:10:51] INFO root fetch - processPackages [pytest-restrict]: executing diffoscope
+[2023-07-10 17:10:51] INFO root fetch - processPackages [pytest-restrict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_restrict-4.5.0.tar.gz tmp/pytest_restrict-4.6.0.tar.gz --markdown 20230710/p/pytest-restrict/4.5.0-4.6.0/diff.md --exclude *.pyd
+[2023-07-10 17:10:51] INFO root fetch - processPackages [template-pypackage-tool]: executing diffoscope
+[2023-07-10 17:10:51] INFO root fetch - processPackages [template-pypackage-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/template-pypackage-tool-0.1.tar.gz tmp/template-pypackage-tool-0.2.tar.gz --markdown 20230710/t/template-pypackage-tool/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-10 17:10:51] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/de/b3/aee4697d07beb69799f35031c032637a1c998c8ba8a18ace02fb30a3011f/pulumi_datadog-4.9.0a1653604828.tar.gz
+[2023-07-10 17:10:51] INFO root fetch - processPackages [gitlabdata]: Downloading https://files.pythonhosted.org/packages/2f/e0/8ae4a127b1bd2c7f921ee0fec16e3f271d10d2e8053da12a93cf8ab2d773/gitlabdata-0.3.9.tar.gz
+[2023-07-10 17:10:52] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-rds-2.7.8.tar.gz]
+[2023-07-10 17:10:52] INFO root fetch - processPackages [pulumi-datadog]: executing diffoscope
+[2023-07-10 17:10:52] INFO root fetch - processPackages [gitlabdata]: executing diffoscope
+[2023-07-10 17:10:52] INFO root fetch - processPackages [pulumi-datadog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_datadog-4.9.0a1650908051.tar.gz tmp/pulumi_datadog-4.9.0a1653604828.tar.gz --markdown 20230710/p/pulumi-datadog/4.9.0a1650908051-4.9.0a1653604828/diff.md --exclude *.pyd
+[2023-07-10 17:10:52] INFO root fetch - processPackages [gitlabdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlabdata-0.3.8.tar.gz tmp/gitlabdata-0.3.9.tar.gz --markdown 20230710/g/gitlabdata/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-10 17:10:52] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-rds-2.7.9.tar.gz]
+[2023-07-10 17:10:52] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Start processing: telegramweb
+[2023-07-10 17:10:52] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-rds]: success
+[2023-07-10 17:10:52] INFO root fetch - processPackages [telegramweb]: New version: [6.1] Old Version: [6.0]
+[2023-07-10 17:10:52] INFO root fetch - processPackages [edc-randomization]: Downloading https://files.pythonhosted.org/packages/61/5b/4b82d8712c93515bde8a0695fa0cb2bb2299961f752a6028150ce09b27fd/edc_randomization-0.3.9-py3-none-any.whl
+[2023-07-10 17:10:52] INFO root fetch - processPackages [telegramweb]: Downloading https://files.pythonhosted.org/packages/58/6e/01628acc73e95358ba8d136114552f712685f541c701ee7560ddc77b8883/telegramweb-6.0.tar.gz
+[2023-07-10 17:10:52] INFO root fetch - processPackages [tllab-common]: Remove: archive file [/home/abi/fetcher/tmp/tllab_common-2023.7.1.tar.gz]
+[2023-07-10 17:10:52] INFO root fetch - processPackages [edc-randomization]: executing diffoscope
+[2023-07-10 17:10:52] INFO root fetch - processPackages [edc-randomization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_randomization-0.3.8-py3-none-any.whl.zip tmp/edc_randomization-0.3.9-py3-none-any.whl.zip --markdown 20230710/e/edc-randomization/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-10 17:10:52] INFO root fetch - processPackages [tllab-common]: Remove: archive file [/home/abi/fetcher/tmp/tllab_common-2023.7.2.tar.gz]
+[2023-07-10 17:10:52] INFO root fetch - processPackages [tllab-common]: Start processing: lib310-lite
+[2023-07-10 17:10:52] INFO root fetch - main [MainThread]: End processing [tllab-common]: success
+[2023-07-10 17:10:52] INFO root fetch - processPackages [lib310-lite]: New version: [0.1.0.dev7] Old Version: [0.1.0.dev6]
+[2023-07-10 17:10:52] INFO root fetch - processPackages [fsleyes-plugin-mrs]: Remove: archive file [/home/abi/fetcher/tmp/fsleyes-plugin-mrs-0.0.8.tar.gz]
+[2023-07-10 17:10:52] INFO root fetch - processPackages [fsleyes-plugin-mrs]: Remove: archive file [/home/abi/fetcher/tmp/fsleyes-plugin-mrs-0.1.0.tar.gz]
+[2023-07-10 17:10:52] INFO root fetch - processPackages [fsleyes-plugin-mrs]: Start processing: template-pypackage-tool
+[2023-07-10 17:10:52] INFO root fetch - main [MainThread]: End processing [fsleyes-plugin-mrs]: success
+[2023-07-10 17:10:52] INFO root fetch - processPackages [template-pypackage-tool]: New version: [0.2] Old Version: [0.1]
+[2023-07-10 17:10:52] INFO root fetch - processPackages [lib310-lite]: Downloading https://files.pythonhosted.org/packages/dd/11/a81c0410eb91ec141826cc48cdf23de7876110fc818e83429fcaa0827a9f/lib310_lite-0.1.0.dev6.tar.gz
+[2023-07-10 17:10:52] INFO root fetch - processPackages [telegramweb]: Downloading https://files.pythonhosted.org/packages/99/93/5603c8a86207c8d1f803573e6b2f9e29b2d3d92635920b6f206e3abb2c45/telegramweb-6.1.tar.gz
+[2023-07-10 17:10:52] INFO root fetch - processPackages [template-pypackage-tool]: executing diffoscope
+[2023-07-10 17:10:52] INFO root fetch - processPackages [template-pypackage-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/template-pypackage-tool-0.1.tar.gz tmp/template-pypackage-tool-0.2.tar.gz --markdown 20230710/t/template-pypackage-tool/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-10 17:10:52] INFO root fetch - processPackages [pytest-restrict]: Remove: archive file [/home/abi/fetcher/tmp/pytest_restrict-4.5.0.tar.gz]
+[2023-07-10 17:10:52] INFO root fetch - processPackages [pytest-restrict]: Remove: archive file [/home/abi/fetcher/tmp/pytest_restrict-4.6.0.tar.gz]
+[2023-07-10 17:10:52] INFO root fetch - processPackages [pytest-restrict]: Start processing: django-authlib
+[2023-07-10 17:10:52] INFO root fetch - main [MainThread]: End processing [pytest-restrict]: success
+[2023-07-10 17:10:52] INFO root fetch - processPackages [telegramweb]: executing diffoscope
+[2023-07-10 17:10:52] INFO root fetch - processPackages [telegramweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegramweb-6.0.tar.gz tmp/telegramweb-6.1.tar.gz --markdown 20230710/t/telegramweb/6.0-6.1/diff.md --exclude *.pyd
+[2023-07-10 17:10:52] INFO root fetch - processPackages [django-authlib]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-07-10 17:10:53] INFO root fetch - processPackages [template-pypackage-tool]: Remove: archive file [/home/abi/fetcher/tmp/template-pypackage-tool-0.1.tar.gz]
+[2023-07-10 17:10:53] INFO root fetch - processPackages [lib310-lite]: Downloading https://files.pythonhosted.org/packages/f1/df/7bc6f21efe5a7315289d57fddd3aaddcfb77372bfd4cc08e3e389c044d0f/lib310_lite-0.1.0.dev7.tar.gz
+[2023-07-10 17:10:53] INFO root fetch - processPackages [template-pypackage-tool]: Remove: archive file [/home/abi/fetcher/tmp/template-pypackage-tool-0.2.tar.gz]
+[2023-07-10 17:10:53] INFO root fetch - processPackages [template-pypackage-tool]: Start processing: tastytrade-sdk
+[2023-07-10 17:10:53] INFO root fetch - main [MainThread]: End processing [template-pypackage-tool]: success
+[2023-07-10 17:10:53] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.1.4a0.dev9] Old Version: [0.1.4a0.dev8]
+[2023-07-10 17:10:53] INFO root fetch - processPackages [django-authlib]: Downloading https://files.pythonhosted.org/packages/74/e2/4b61b12bd2a45830369ef8204eae35f481d79737621b9b3c0e4f63817fdd/django-authlib-0.9.6.tar.gz
+[2023-07-10 17:10:53] INFO root fetch - processPackages [lib310-lite]: executing diffoscope
+[2023-07-10 17:10:53] INFO root fetch - processPackages [lib310-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib310_lite-0.1.0.dev6.tar.gz tmp/lib310_lite-0.1.0.dev7.tar.gz --markdown 20230710/l/lib310-lite/0.1.0.dev6-0.1.0.dev7/diff.md --exclude *.pyd
+[2023-07-10 17:10:53] INFO root fetch - processPackages [gitlabdata]: Remove: archive file [/home/abi/fetcher/tmp/gitlabdata-0.3.8.tar.gz]
+[2023-07-10 17:10:53] INFO root fetch - processPackages [gitlabdata]: Remove: archive file [/home/abi/fetcher/tmp/gitlabdata-0.3.9.tar.gz]
+[2023-07-10 17:10:53] INFO root fetch - processPackages [gitlabdata]: Start processing: garden-ai
+[2023-07-10 17:10:53] INFO root fetch - main [MainThread]: End processing [gitlabdata]: success
+[2023-07-10 17:10:53] INFO root fetch - processPackages [tastytrade-sdk]: Downloading https://files.pythonhosted.org/packages/40/99/5518af8ede59a3ab21c019a933e042ec4c22925d37f64ffb670880084b27/tastytrade_sdk-0.1.4a0.dev8.tar.gz
+[2023-07-10 17:10:53] INFO root fetch - processPackages [garden-ai]: New version: [0.5.0] Old Version: [0.4.4]
+[2023-07-10 17:10:53] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.3.8.tar.gz]
+[2023-07-10 17:10:53] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.3.9.tar.gz]
+[2023-07-10 17:10:53] INFO root fetch - processPackages [agixt]: Start processing: etherbase-predeployed
+[2023-07-10 17:10:53] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2023-07-10 17:10:53] INFO root fetch - processPackages [tastytrade-sdk]: Downloading https://files.pythonhosted.org/packages/af/99/95439aaf228c524cc0939f97e6980159e9001d608a79266c666033aa0d69/tastytrade_sdk-0.1.4a0.dev9.tar.gz
+[2023-07-10 17:10:53] ERROR root fetch - processPackages [template-pypackage-tool]: Diffoscope failed: time="2023-07-10T17:10:52+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/template-pypackage-tool-0.1.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/template-pypackage-tool-0.2.tar.gz: No such file or directory
+
+[2023-07-10 17:10:53] INFO root fetch - processPackages [template-pypackage-tool]: Start processing: google-cloud-dialogflow-cx
+[2023-07-10 17:10:53] INFO root fetch - main [MainThread]: End processing [template-pypackage-tool] error
+[2023-07-10 17:10:53] INFO root fetch - processPackages [django-authlib]: Downloading https://files.pythonhosted.org/packages/83/da/fc0e8e262a2fdf3fe8adee6aa1d9660bef348e864dd8dd5697aec5c740bb/django-authlib-0.9.7.tar.gz
+[2023-07-10 17:10:53] INFO root fetch - processPackages [etherbase-predeployed]: New version: [1.1.0b3] Old Version: [1.1.0b2]
+[2023-07-10 17:10:53] INFO root fetch - processPackages [garden-ai]: Downloading https://files.pythonhosted.org/packages/aa/41/f67dab7b334b9b3cb059fc2535fdfa5cd8a1cfd4717385af3074667e83b4/garden_ai-0.4.4.tar.gz
+[2023-07-10 17:10:53] INFO root fetch - processPackages [edc-randomization]: Remove: archive file [/home/abi/fetcher/tmp/edc_randomization-0.3.8-py3-none-any.whl.zip]
+[2023-07-10 17:10:53] INFO root fetch - processPackages [edc-randomization]: Remove: archive file [/home/abi/fetcher/tmp/edc_randomization-0.3.9-py3-none-any.whl.zip]
+[2023-07-10 17:10:53] INFO root fetch - processPackages [edc-randomization]: Start processing: alibabacloud-rds20140815-py2
+[2023-07-10 17:10:53] INFO root fetch - main [MainThread]: End processing [edc-randomization]: success
+[2023-07-10 17:10:53] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-07-10 17:10:53] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.1.4a0.dev8.tar.gz tmp/tastytrade_sdk-0.1.4a0.dev9.tar.gz --markdown 20230710/t/tastytrade-sdk/0.1.4a0.dev8-0.1.4a0.dev9/diff.md --exclude *.pyd
+[2023-07-10 17:10:53] INFO root fetch - processPackages [google-cloud-dialogflow-cx]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-10 17:10:53] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-10 17:10:53] INFO root fetch - processPackages [django-authlib]: executing diffoscope
+[2023-07-10 17:10:53] INFO root fetch - processPackages [django-authlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-authlib-0.9.6.tar.gz tmp/django-authlib-0.9.7.tar.gz --markdown 20230710/d/django-authlib/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-07-10 17:10:53] INFO root fetch - processPackages [data-engineering-pulumi-components]: executing diffoscope
+[2023-07-10 17:10:53] INFO root fetch - processPackages [data-engineering-pulumi-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-engineering-pulumi-components-0.4.1.dev6.tar.gz tmp/data-engineering-pulumi-components-0.4.1.dev7.tar.gz --markdown 20230710/d/data-engineering-pulumi-components/0.4.1.dev6-0.4.1.dev7/diff.md --exclude *.pyd
+[2023-07-10 17:10:54] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Downloading https://files.pythonhosted.org/packages/dd/46/3783d5014e92075505a1a942cd972a1d0cec21aa4ce8dac8c6f78f519ede/alibabacloud_rds20140815_py2-1.2.0.tar.gz
+[2023-07-10 17:10:54] INFO root fetch - processPackages [etherbase-predeployed]: Downloading https://files.pythonhosted.org/packages/51/21/b929f05a9c58146b2f29c0797c3ff99adef6ce1de0f05470ac5076d248fc/etherbase-predeployed-1.1.0b2.tar.gz
+[2023-07-10 17:10:54] INFO root fetch - processPackages [google-cloud-dialogflow-cx]: Downloading https://files.pythonhosted.org/packages/4b/56/1b68ce25ed638d22c6ba1e8ef62c176a9dce78654aa24c8d886bc56e874b/google-cloud-dialogflow-cx-1.9.0.tar.gz
+[2023-07-10 17:10:54] INFO root fetch - processPackages [telegramweb]: Remove: archive file [/home/abi/fetcher/tmp/telegramweb-6.0.tar.gz]
+[2023-07-10 17:10:54] INFO root fetch - processPackages [telegramweb]: Remove: archive file [/home/abi/fetcher/tmp/telegramweb-6.1.tar.gz]
+[2023-07-10 17:10:54] INFO root fetch - processPackages [telegramweb]: Start processing: SMjour
+[2023-07-10 17:10:54] INFO root fetch - main [MainThread]: End processing [telegramweb]: success
+[2023-07-10 17:10:54] INFO root fetch - processPackages [garden-ai]: Downloading https://files.pythonhosted.org/packages/99/87/3a8a1e92a2dc8cf948878c4e9fff56a7df8649d69346ce305200c8984cd7/garden_ai-0.5.0.tar.gz
+[2023-07-10 17:10:54] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Downloading https://files.pythonhosted.org/packages/28/f2/b0f6c9dffa94c2dfae200815fca4380b7e68d978713103c74166c8cfcfc0/alibabacloud_rds20140815_py2-1.2.1.tar.gz
+[2023-07-10 17:10:54] INFO root fetch - processPackages [lib310-lite]: Remove: archive file [/home/abi/fetcher/tmp/lib310_lite-0.1.0.dev6.tar.gz]
+[2023-07-10 17:10:54] INFO root fetch - processPackages [lib310-lite]: Remove: archive file [/home/abi/fetcher/tmp/lib310_lite-0.1.0.dev7.tar.gz]
+[2023-07-10 17:10:54] INFO root fetch - processPackages [lib310-lite]: Start processing: google-cloud-build
+[2023-07-10 17:10:54] INFO root fetch - main [MainThread]: End processing [lib310-lite]: success
+[2023-07-10 17:10:54] INFO root fetch - processPackages [SMjour]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 17:10:54] INFO root fetch - processPackages [garden-ai]: executing diffoscope
+[2023-07-10 17:10:54] INFO root fetch - processPackages [garden-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garden_ai-0.4.4.tar.gz tmp/garden_ai-0.5.0.tar.gz --markdown 20230710/g/garden-ai/0.4.4-0.5.0/diff.md --exclude *.pyd
+[2023-07-10 17:10:54] INFO root fetch - processPackages [google-cloud-build]: New version: [3.9.3] Old Version: [3.9.2]
+[2023-07-10 17:10:54] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: executing diffoscope
+[2023-07-10 17:10:54] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_rds20140815_py2-1.2.0.tar.gz tmp/alibabacloud_rds20140815_py2-1.2.1.tar.gz --markdown 20230710/a/alibabacloud-rds20140815-py2/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-10 17:10:54] INFO root fetch - processPackages [etherbase-predeployed]: Downloading https://files.pythonhosted.org/packages/3d/3d/9e8a9263aced10d2e82058dcb79e0685a5e6db3102a640656eebcfc6a889/etherbase-predeployed-1.1.0b3.tar.gz
+[2023-07-10 17:10:54] INFO root fetch - processPackages [SMjour]: Downloading https://files.pythonhosted.org/packages/e0/27/fc2e79ce11ee8e44c63bd16cd245cafc2402878d1801530e8ae87ec66f26/SMjour-0.0.8.tar.gz
+[2023-07-10 17:10:54] INFO root fetch - processPackages [google-cloud-dialogflow-cx]: Downloading https://files.pythonhosted.org/packages/26/2a/2564520aaa17242073d6512f99d52960f9759b54ab9315d43a5cdb3cf723/google-cloud-dialogflow-cx-1.9.1.tar.gz
+[2023-07-10 17:10:54] INFO root fetch - processPackages [etherbase-predeployed]: executing diffoscope
+[2023-07-10 17:10:54] INFO root fetch - processPackages [etherbase-predeployed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etherbase-predeployed-1.1.0b2.tar.gz tmp/etherbase-predeployed-1.1.0b3.tar.gz --markdown 20230710/e/etherbase-predeployed/1.1.0b2-1.1.0b3/diff.md --exclude *.pyd
+[2023-07-10 17:10:54] INFO root fetch - processPackages [google-cloud-build]: Downloading https://files.pythonhosted.org/packages/a7/a3/d24db77d483ff3030d14c86e974b1cb6fb32619e9e48f886f505d59b9343/google-cloud-build-3.9.2.tar.gz
+[2023-07-10 17:10:55] INFO root fetch - processPackages [SMjour]: Downloading https://files.pythonhosted.org/packages/ca/4b/92872715ed1335daf063e3ff949622cd4089050841205f9ac65b98bf368e/SMjour-0.0.9.tar.gz
+[2023-07-10 17:10:55] INFO root fetch - processPackages [tastytrade-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tastytrade_sdk-0.1.4a0.dev8.tar.gz]
+[2023-07-10 17:10:55] INFO root fetch - processPackages [tastytrade-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tastytrade_sdk-0.1.4a0.dev9.tar.gz]
+[2023-07-10 17:10:55] INFO root fetch - processPackages [tastytrade-sdk]: Start processing: google-cloud-dialogflow
+[2023-07-10 17:10:55] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-07-10 17:10:55] INFO root fetch - processPackages [google-cloud-dialogflow]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-07-10 17:10:55] INFO root fetch - processPackages [google-cloud-dialogflow-cx]: executing diffoscope
+[2023-07-10 17:10:55] INFO root fetch - processPackages [google-cloud-dialogflow-cx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-dialogflow-cx-1.9.0.tar.gz tmp/google-cloud-dialogflow-cx-1.9.1.tar.gz --markdown 20230710/g/google-cloud-dialogflow-cx/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-10 17:10:55] INFO root fetch - processPackages [SMjour]: executing diffoscope
+[2023-07-10 17:10:55] INFO root fetch - processPackages [SMjour]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SMjour-0.0.8.tar.gz tmp/SMjour-0.0.9.tar.gz --markdown 20230710/S/SMjour/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 17:10:55] INFO root fetch - processPackages [django-authlib]: Remove: archive file [/home/abi/fetcher/tmp/django-authlib-0.9.6.tar.gz]
+[2023-07-10 17:10:55] INFO root fetch - processPackages [django-authlib]: Remove: archive file [/home/abi/fetcher/tmp/django-authlib-0.9.7.tar.gz]
+[2023-07-10 17:10:55] INFO root fetch - processPackages [django-authlib]: Start processing: domain-admin
+[2023-07-10 17:10:55] INFO root fetch - main [MainThread]: End processing [django-authlib]: success
+[2023-07-10 17:10:55] INFO root fetch - processPackages [google-cloud-dialogflow]: Downloading https://files.pythonhosted.org/packages/c5/62/31df8cc11aa654c6b6359c28f342eaa7f82ddd5bdff86757eef100fe7972/google-cloud-dialogflow-2.9.0.tar.gz
+[2023-07-10 17:10:55] INFO root fetch - processPackages [google-cloud-build]: Downloading https://files.pythonhosted.org/packages/3c/17/46c12ddd8e2929d83b09384ed72971f49645b94e0d23459f9863941ce66a/google-cloud-build-3.9.3.tar.gz
+[2023-07-10 17:10:55] INFO root fetch - processPackages [domain-admin]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-10 17:10:55] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1650908051.tar.gz]
+[2023-07-10 17:10:55] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1653604828.tar.gz]
+[2023-07-10 17:10:55] INFO root fetch - processPackages [pulumi-datadog]: Start processing: plakakia
+[2023-07-10 17:10:55] INFO root fetch - main [MainThread]: End processing [pulumi-datadog]: success
+[2023-07-10 17:10:55] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/3a/f2/23400df41503073b93b342c8dcf715e54b76978a0ee3202a010a8c6a2fe7/domain-admin-1.4.8.tar.gz
+[2023-07-10 17:10:55] INFO root fetch - processPackages [google-cloud-build]: executing diffoscope
+[2023-07-10 17:10:55] INFO root fetch - processPackages [google-cloud-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-build-3.9.2.tar.gz tmp/google-cloud-build-3.9.3.tar.gz --markdown 20230710/g/google-cloud-build/3.9.2-3.9.3/diff.md --exclude *.pyd
+[2023-07-10 17:10:55] INFO root fetch - processPackages [plakakia]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-10 17:10:55] INFO root fetch - processPackages [garden-ai]: Remove: archive file [/home/abi/fetcher/tmp/garden_ai-0.4.4.tar.gz]
+[2023-07-10 17:10:55] INFO root fetch - processPackages [garden-ai]: Remove: archive file [/home/abi/fetcher/tmp/garden_ai-0.5.0.tar.gz]
+[2023-07-10 17:10:55] INFO root fetch - processPackages [garden-ai]: Start processing: zenroom
+[2023-07-10 17:10:55] INFO root fetch - main [MainThread]: End processing [garden-ai]: success
+[2023-07-10 17:10:55] INFO root fetch - processPackages [zenroom]: New version: [3.9.1] Old Version: [3.8.0]
+[2023-07-10 17:10:56] INFO root fetch - processPackages [plakakia]: Downloading https://files.pythonhosted.org/packages/82/e1/7f7426f9660c4bb992ecbf7136ab594877844fbd7a4df8d04104212f6418/plakakia-0.1.0.tar.gz
+[2023-07-10 17:10:56] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/c8/72/cfb118e14c007a151e3448decdf03d9f857f769cf0e5fce80f46281b8de5/domain-admin-1.4.9.tar.gz
+[2023-07-10 17:10:56] INFO root fetch - processPackages [google-cloud-dialogflow]: Downloading https://files.pythonhosted.org/packages/97/bc/0f17109de412cce4068daa19d46d81560808b13d36f8a3e45beaa90eec26/google-cloud-dialogflow-2.9.1.tar.gz
+[2023-07-10 17:10:56] INFO root fetch - processPackages [zenroom]: Downloading https://files.pythonhosted.org/packages/f3/9a/338abeb4a3c4ac5e251366dea7d38d8c492fee014147c2239dc1fe4f21fa/zenroom-3.8.0.tar.gz
+[2023-07-10 17:10:56] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-07-10 17:10:56] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.4.8.tar.gz tmp/domain-admin-1.4.9.tar.gz --markdown 20230710/d/domain-admin/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-10 17:10:56] INFO root fetch - processPackages [etherbase-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/etherbase-predeployed-1.1.0b2.tar.gz]
+[2023-07-10 17:10:56] INFO root fetch - processPackages [etherbase-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/etherbase-predeployed-1.1.0b3.tar.gz]
+[2023-07-10 17:10:56] INFO root fetch - processPackages [etherbase-predeployed]: Start processing: alibabacloud-rds20140815
+[2023-07-10 17:10:56] INFO root fetch - main [MainThread]: End processing [etherbase-predeployed]: success
+[2023-07-10 17:10:56] INFO root fetch - processPackages [data-engineering-pulumi-components]: Remove: archive file [/home/abi/fetcher/tmp/data-engineering-pulumi-components-0.4.1.dev6.tar.gz]
+[2023-07-10 17:10:56] INFO root fetch - processPackages [data-engineering-pulumi-components]: Remove: archive file [/home/abi/fetcher/tmp/data-engineering-pulumi-components-0.4.1.dev7.tar.gz]
+[2023-07-10 17:10:56] INFO root fetch - main [MainThread]: End processing [data-engineering-pulumi-components]: success
+[2023-07-10 17:10:56] WARNING root fetch - processPackages [zenroom]: Skipping package: exceeds size limit 25654205>=10485760
+[2023-07-10 17:10:56] INFO root fetch - main [MainThread]: End processing [zenroom] error
+[2023-07-10 17:10:56] INFO root fetch - processPackages [alibabacloud-rds20140815]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-10 17:10:56] INFO root fetch - processPackages [google-cloud-dialogflow]: executing diffoscope
+[2023-07-10 17:10:56] INFO root fetch - processPackages [google-cloud-dialogflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-dialogflow-2.9.0.tar.gz tmp/google-cloud-dialogflow-2.9.1.tar.gz --markdown 20230710/g/google-cloud-dialogflow/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-07-10 17:10:56] INFO root fetch - processPackages [alibabacloud-rds20140815]: Downloading https://files.pythonhosted.org/packages/5f/38/f84538e433bf80888d80fff1ecb5949fa755b46ec10e96b1238c937fc80f/alibabacloud_rds20140815-2.2.8.tar.gz
+[2023-07-10 17:10:56] INFO root fetch - processPackages [plakakia]: Downloading https://files.pythonhosted.org/packages/69/a2/5f1c7822c34bf376ec6d4da938c1ed23716ff2225d005bf385996e7f2211/plakakia-0.2.0.tar.gz
+[2023-07-10 17:10:56] INFO root fetch - processPackages [SMjour]: Remove: archive file [/home/abi/fetcher/tmp/SMjour-0.0.8.tar.gz]
+[2023-07-10 17:10:56] INFO root fetch - processPackages [SMjour]: Remove: archive file [/home/abi/fetcher/tmp/SMjour-0.0.9.tar.gz]
+[2023-07-10 17:10:56] INFO root fetch - main [MainThread]: End processing [SMjour]: success
+[2023-07-10 17:10:56] INFO root fetch - processPackages [plakakia]: executing diffoscope
+[2023-07-10 17:10:56] INFO root fetch - processPackages [plakakia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plakakia-0.1.0.tar.gz tmp/plakakia-0.2.0.tar.gz --markdown 20230710/p/plakakia/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-10 17:10:56] INFO root fetch - processPackages [alibabacloud-rds20140815]: Downloading https://files.pythonhosted.org/packages/8e/38/2ed843ab2f4bae57c984e9c496af84eaedd402b05d3492d4c9d1a253f508/alibabacloud_rds20140815-2.2.9.tar.gz
+[2023-07-10 17:10:56] INFO root fetch - processPackages [alibabacloud-rds20140815]: executing diffoscope
+[2023-07-10 17:10:56] INFO root fetch - processPackages [alibabacloud-rds20140815]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_rds20140815-2.2.8.tar.gz tmp/alibabacloud_rds20140815-2.2.9.tar.gz --markdown 20230710/a/alibabacloud-rds20140815/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-10 17:10:57] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815_py2-1.2.0.tar.gz]
+[2023-07-10 17:10:57] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815_py2-1.2.1.tar.gz]
+[2023-07-10 17:10:57] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds20140815-py2]: success
+[2023-07-10 17:10:57] INFO root fetch - processPackages [google-cloud-build]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-build-3.9.2.tar.gz]
+[2023-07-10 17:10:57] INFO root fetch - processPackages [google-cloud-build]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-build-3.9.3.tar.gz]
+[2023-07-10 17:10:57] INFO root fetch - main [MainThread]: End processing [google-cloud-build]: success
+[2023-07-10 17:10:57] INFO root fetch - processPackages [plakakia]: Remove: archive file [/home/abi/fetcher/tmp/plakakia-0.1.0.tar.gz]
+[2023-07-10 17:10:57] INFO root fetch - processPackages [plakakia]: Remove: archive file [/home/abi/fetcher/tmp/plakakia-0.2.0.tar.gz]
+[2023-07-10 17:10:57] INFO root fetch - main [MainThread]: End processing [plakakia]: success
+[2023-07-10 17:10:58] INFO root fetch - processPackages [alibabacloud-rds20140815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815-2.2.8.tar.gz]
+[2023-07-10 17:10:58] INFO root fetch - processPackages [alibabacloud-rds20140815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815-2.2.9.tar.gz]
+[2023-07-10 17:10:58] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds20140815]: success
+[2023-07-10 17:10:59] INFO root fetch - processPackages [google-cloud-dialogflow-cx]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-dialogflow-cx-1.9.0.tar.gz]
+[2023-07-10 17:10:59] INFO root fetch - processPackages [google-cloud-dialogflow-cx]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-dialogflow-cx-1.9.1.tar.gz]
+[2023-07-10 17:10:59] INFO root fetch - main [MainThread]: End processing [google-cloud-dialogflow-cx]: success
+[2023-07-10 17:10:59] INFO root fetch - processPackages [google-cloud-dialogflow]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-dialogflow-2.9.0.tar.gz]
+[2023-07-10 17:10:59] INFO root fetch - processPackages [google-cloud-dialogflow]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-dialogflow-2.9.1.tar.gz]
+[2023-07-10 17:10:59] INFO root fetch - main [MainThread]: End processing [google-cloud-dialogflow]: success
+[2023-07-10 17:11:05] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.8.tar.gz]
+[2023-07-10 17:11:05] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.9.tar.gz]
+[2023-07-10 17:11:05] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-07-10 17:11:05] INFO root fetch - main [MainThread]: Store serial: [18832505]
