@@ -19732,3 +19732,303 @@ EOFError: EOF read where object expected
 [2023-07-10 16:08:24] INFO root fetch - processPackages [ais-dom]: Remove: archive file [/home/abi/fetcher/tmp/ais-dom-2023.7.1.tar.gz]
 [2023-07-10 16:08:24] INFO root fetch - main [MainThread]: End processing [ais-dom]: success
 [2023-07-10 16:08:24] INFO root fetch - main [MainThread]: Store serial: [18831577]
+[2023-07-10 16:13:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18831577]
+[2023-07-10 16:13:34] INFO root fetch - main [MainThread]: Found 35 changed packages
+[2023-07-10 16:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: toodaloo
+[2023-07-10 16:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: poetry-dynamic-versioning
+[2023-07-10 16:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: remotivelabs-cli
+[2023-07-10 16:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langchain-chatglm
+[2023-07-10 16:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ncafs
+[2023-07-10 16:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: QuNet
+[2023-07-10 16:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyfastedit
+[2023-07-10 16:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pychrome
+[2023-07-10 16:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mimeograph
+[2023-07-10 16:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pypipo
+[2023-07-10 16:13:34] INFO root fetch - processPackages [langchain-chatglm]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 16:13:34] WARNING root fetch - processPackages [toodaloo]: Skipping, unable to determine old version
+[2023-07-10 16:13:34] INFO root fetch - processPackages [toodaloo]: Start processing: papertronics-sdk
+[2023-07-10 16:13:34] INFO root fetch - main [MainThread]: End processing [toodaloo] error
+[2023-07-10 16:13:34] INFO root fetch - processPackages [ncafs]: New version: [0.2.1] Old Version: [0.2]
+[2023-07-10 16:13:34] WARNING root fetch - processPackages [pyfastedit]: Skipping, unable to determine old version
+[2023-07-10 16:13:34] INFO root fetch - processPackages [pyfastedit]: Start processing: brightsky
+[2023-07-10 16:13:34] INFO root fetch - main [MainThread]: End processing [pyfastedit] error
+[2023-07-10 16:13:34] INFO root fetch - processPackages [remotivelabs-cli]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-07-10 16:13:34] INFO root fetch - processPackages [mimeograph]: New version: [1.1.0] Old Version: [1.0.4]
+[2023-07-10 16:13:34] INFO root fetch - processPackages [QuNet]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-10 16:13:34] INFO root fetch - processPackages [papertronics-sdk]: New version: [0.0.18] Old Version: [0.0.17]
+[2023-07-10 16:13:34] INFO root fetch - processPackages [pypipo]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-10 16:13:34] INFO root fetch - processPackages [poetry-dynamic-versioning]: New version: [1.0.0b3] Old Version: [1.0.0b2]
+[2023-07-10 16:13:34] INFO root fetch - processPackages [pychrome]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-10 16:13:34] INFO root fetch - processPackages [brightsky]: New version: [2.0.7] Old Version: [2.0.6]
+[2023-07-10 16:13:34] INFO root fetch - processPackages [langchain-chatglm]: Downloading https://files.pythonhosted.org/packages/22/93/5d2bb88a621d4b8300241c60bce0b8129dfe1a21122262e3e85f6ee432b9/langchain-chatglm-0.0.8.tar.gz
+[2023-07-10 16:13:34] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/d5/ed/08e3812ae99f48d271d226b77d4a7da9cf1105ce195a4687389eb1e2d646/QuNet-0.0.98-py3-none-any.whl
+[2023-07-10 16:13:34] INFO root fetch - processPackages [papertronics-sdk]: Downloading https://files.pythonhosted.org/packages/7d/cb/0864b0204c731a586141d7d2c81a44c386cf601a6aa3d2a1f0bebd64d2d1/papertronics-sdk-0.0.17.tar.gz
+[2023-07-10 16:13:34] INFO root fetch - processPackages [poetry-dynamic-versioning]: Downloading https://files.pythonhosted.org/packages/b1/d6/5a83f2b400fce07e8f10d782dbf3eadae453b1a65923418e3b0e961c5bc4/poetry-dynamic-versioning-1.0.0b2.tar.gz
+[2023-07-10 16:13:34] INFO root fetch - processPackages [ncafs]: Downloading https://files.pythonhosted.org/packages/7c/83/dbdc28f6babc7f2f1a017d0434c08fdb54a10c02aa6f1bc6b67aeafe17f4/ncafs-0.2.tar.gz
+[2023-07-10 16:13:34] INFO root fetch - processPackages [remotivelabs-cli]: Downloading https://files.pythonhosted.org/packages/9e/af/b85d4ab12b3ff8b26eeb84f5748bf68a170ccb0483ce464fbc14dfacaa8e/remotivelabs_cli-0.0.1a8.tar.gz
+[2023-07-10 16:13:34] INFO root fetch - processPackages [mimeograph]: Downloading https://files.pythonhosted.org/packages/c9/f9/123a4f84b49d741fe00284f07e0396edea14f9ea72acbebf42639c8e0645/mimeograph-1.0.4.tar.gz
+[2023-07-10 16:13:34] INFO root fetch - processPackages [pychrome]: Downloading https://files.pythonhosted.org/packages/2e/9a/ec42df3a2712e70442f4a98cb67c01bdcc3f6be6bd8f25362bec39f85673/pychrome-0.2.3.tar.gz
+[2023-07-10 16:13:34] INFO root fetch - processPackages [pypipo]: Downloading https://files.pythonhosted.org/packages/35/8c/0f34ac6c3a8a90b2ec4c71fc148e92eb15390490165e409dd419bab19c43/pypipo-0.0.7.tar.gz
+[2023-07-10 16:13:34] INFO root fetch - processPackages [brightsky]: Downloading https://files.pythonhosted.org/packages/73/5e/2555a2ad56b640435c154b4bc8d8c8dad48509fb36aa95a9b526ebac4fda/brightsky-2.0.6.tar.gz
+[2023-07-10 16:13:35] INFO root fetch - processPackages [langchain-chatglm]: Downloading https://files.pythonhosted.org/packages/1f/20/5b12aa1c2cefff4376c344cde18bc4a79d22b3b5851ee663c4c4ac42927a/langchain-chatglm-0.0.9.tar.gz
+[2023-07-10 16:13:35] INFO root fetch - processPackages [papertronics-sdk]: Downloading https://files.pythonhosted.org/packages/47/9e/3d3e180bad825cdb2a930c8e644ca20e3976c668c169499d059826ba2291/papertronics-sdk-0.0.18.tar.gz
+[2023-07-10 16:13:35] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/e0/80/c34810051dcacd44f750dc59c5f982f9a679cbb6caaccd0aad3288430f3e/QuNet-0.0.99-py3-none-any.whl
+[2023-07-10 16:13:35] INFO root fetch - processPackages [poetry-dynamic-versioning]: Downloading https://files.pythonhosted.org/packages/81/a2/81f8bcee29b28979952b5596f15e5e16b9d160ab3644e20c449a2f15ed29/poetry-dynamic-versioning-1.0.0b3.tar.gz
+[2023-07-10 16:13:35] INFO root fetch - processPackages [pychrome]: Downloading https://files.pythonhosted.org/packages/77/5e/e51089f733020ed96849f55803d46448ad1dc5fb1a5533013672dafdc90d/pychrome-0.2.4.tar.gz
+[2023-07-10 16:13:35] INFO root fetch - processPackages [langchain-chatglm]: executing diffoscope
+[2023-07-10 16:13:35] INFO root fetch - processPackages [langchain-chatglm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-chatglm-0.0.8.tar.gz tmp/langchain-chatglm-0.0.9.tar.gz --markdown 20230710/l/langchain-chatglm/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 16:13:35] INFO root fetch - processPackages [pypipo]: Downloading https://files.pythonhosted.org/packages/ce/4d/57865a4852c63ce6e29431c645420597154b845106d519b2f3f65ed006f6/pypipo-0.0.8.tar.gz
+[2023-07-10 16:13:35] INFO root fetch - processPackages [brightsky]: Downloading https://files.pythonhosted.org/packages/c1/5f/a842dbf0170fc1184b586a36415fbc0681d5ed6a5d8d63ec7a31ac8e77d3/brightsky-2.0.7.tar.gz
+[2023-07-10 16:13:35] INFO root fetch - processPackages [remotivelabs-cli]: Downloading https://files.pythonhosted.org/packages/6e/ec/8b4e17df12c5a2d39a005264591da395be8eae3517772654316d89e40301/remotivelabs_cli-0.0.1a9.tar.gz
+[2023-07-10 16:13:35] INFO root fetch - processPackages [ncafs]: Downloading https://files.pythonhosted.org/packages/82/ce/f9949eb32638bd3e5824032fa98bea0235dd6448f0942327174c3831a53c/ncafs-0.2.1.tar.gz
+[2023-07-10 16:13:35] INFO root fetch - processPackages [papertronics-sdk]: executing diffoscope
+[2023-07-10 16:13:35] INFO root fetch - processPackages [papertronics-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/papertronics-sdk-0.0.17.tar.gz tmp/papertronics-sdk-0.0.18.tar.gz --markdown 20230710/p/papertronics-sdk/0.0.17-0.0.18/diff.md --exclude *.pyd
+[2023-07-10 16:13:35] INFO root fetch - processPackages [poetry-dynamic-versioning]: executing diffoscope
+[2023-07-10 16:13:35] INFO root fetch - processPackages [poetry-dynamic-versioning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry-dynamic-versioning-1.0.0b2.tar.gz tmp/poetry-dynamic-versioning-1.0.0b3.tar.gz --markdown 20230710/p/poetry-dynamic-versioning/1.0.0b2-1.0.0b3/diff.md --exclude *.pyd
+[2023-07-10 16:13:35] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-07-10 16:13:35] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.98-py3-none-any.whl.zip tmp/QuNet-0.0.99-py3-none-any.whl.zip --markdown 20230710/Q/QuNet/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-10 16:13:35] INFO root fetch - processPackages [pychrome]: executing diffoscope
+[2023-07-10 16:13:35] INFO root fetch - processPackages [pychrome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pychrome-0.2.3.tar.gz tmp/pychrome-0.2.4.tar.gz --markdown 20230710/p/pychrome/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-10 16:13:35] INFO root fetch - processPackages [pypipo]: executing diffoscope
+[2023-07-10 16:13:35] INFO root fetch - processPackages [pypipo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipo-0.0.7.tar.gz tmp/pypipo-0.0.8.tar.gz --markdown 20230710/p/pypipo/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-10 16:13:35] INFO root fetch - processPackages [brightsky]: executing diffoscope
+[2023-07-10 16:13:35] INFO root fetch - processPackages [brightsky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brightsky-2.0.6.tar.gz tmp/brightsky-2.0.7.tar.gz --markdown 20230710/b/brightsky/2.0.6-2.0.7/diff.md --exclude *.pyd
+[2023-07-10 16:13:35] INFO root fetch - processPackages [remotivelabs-cli]: executing diffoscope
+[2023-07-10 16:13:35] INFO root fetch - processPackages [remotivelabs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotivelabs_cli-0.0.1a8.tar.gz tmp/remotivelabs_cli-0.0.1a9.tar.gz --markdown 20230710/r/remotivelabs-cli/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-07-10 16:13:35] INFO root fetch - processPackages [mimeograph]: Downloading https://files.pythonhosted.org/packages/49/44/15f7da9dede23c8595af39cf84619db735533b79f0719b48571c4aef35a1/mimeograph-1.1.0.tar.gz
+[2023-07-10 16:13:35] INFO root fetch - processPackages [ncafs]: executing diffoscope
+[2023-07-10 16:13:35] INFO root fetch - processPackages [ncafs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncafs-0.2.tar.gz tmp/ncafs-0.2.1.tar.gz --markdown 20230710/n/ncafs/0.2-0.2.1/diff.md --exclude *.pyd
+[2023-07-10 16:13:36] INFO root fetch - processPackages [mimeograph]: executing diffoscope
+[2023-07-10 16:13:36] INFO root fetch - processPackages [mimeograph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimeograph-1.0.4.tar.gz tmp/mimeograph-1.1.0.tar.gz --markdown 20230710/m/mimeograph/1.0.4-1.1.0/diff.md --exclude *.pyd
+[2023-07-10 16:13:36] INFO root fetch - processPackages [langchain-chatglm]: Remove: archive file [/home/abi/fetcher/tmp/langchain-chatglm-0.0.8.tar.gz]
+[2023-07-10 16:13:36] INFO root fetch - processPackages [langchain-chatglm]: Remove: archive file [/home/abi/fetcher/tmp/langchain-chatglm-0.0.9.tar.gz]
+[2023-07-10 16:13:36] INFO root fetch - processPackages [langchain-chatglm]: Start processing: tinybird-cli
+[2023-07-10 16:13:36] INFO root fetch - main [MainThread]: End processing [langchain-chatglm]: success
+[2023-07-10 16:13:36] INFO root fetch - processPackages [tinybird-cli]: New version: [1.0.0b99] Old Version: [1.0.0b98]
+[2023-07-10 16:13:37] INFO root fetch - processPackages [papertronics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/papertronics-sdk-0.0.17.tar.gz]
+[2023-07-10 16:13:37] INFO root fetch - processPackages [papertronics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/papertronics-sdk-0.0.18.tar.gz]
+[2023-07-10 16:13:37] INFO root fetch - processPackages [papertronics-sdk]: Start processing: assemblyline-service-client
+[2023-07-10 16:13:37] INFO root fetch - main [MainThread]: End processing [papertronics-sdk]: success
+[2023-07-10 16:13:37] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-10 16:13:37] INFO root fetch - processPackages [poetry-dynamic-versioning]: Remove: archive file [/home/abi/fetcher/tmp/poetry-dynamic-versioning-1.0.0b2.tar.gz]
+[2023-07-10 16:13:37] INFO root fetch - processPackages [poetry-dynamic-versioning]: Remove: archive file [/home/abi/fetcher/tmp/poetry-dynamic-versioning-1.0.0b3.tar.gz]
+[2023-07-10 16:13:37] INFO root fetch - processPackages [poetry-dynamic-versioning]: Start processing: assemblyline-service-server
+[2023-07-10 16:13:37] INFO root fetch - main [MainThread]: End processing [poetry-dynamic-versioning]: success
+[2023-07-10 16:13:37] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/cf/bc/f6fe2aa48ad97fc6f03b105a263497f0cc5d7173fa89703bbc609c18f13a/tinybird-cli-1.0.0b98.tar.gz
+[2023-07-10 16:13:37] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-10 16:13:37] INFO root fetch - processPackages [pypipo]: Remove: archive file [/home/abi/fetcher/tmp/pypipo-0.0.7.tar.gz]
+[2023-07-10 16:13:37] INFO root fetch - processPackages [pypipo]: Remove: archive file [/home/abi/fetcher/tmp/pypipo-0.0.8.tar.gz]
+[2023-07-10 16:13:37] INFO root fetch - processPackages [pypipo]: Start processing: assemblyline-ui
+[2023-07-10 16:13:37] INFO root fetch - main [MainThread]: End processing [pypipo]: success
+[2023-07-10 16:13:37] INFO root fetch - processPackages [ncafs]: Remove: archive file [/home/abi/fetcher/tmp/ncafs-0.2.tar.gz]
+[2023-07-10 16:13:37] INFO root fetch - processPackages [ncafs]: Remove: archive file [/home/abi/fetcher/tmp/ncafs-0.2.1.tar.gz]
+[2023-07-10 16:13:37] INFO root fetch - processPackages [ncafs]: Start processing: assemblyline-v4-service
+[2023-07-10 16:13:37] INFO root fetch - main [MainThread]: End processing [ncafs]: success
+[2023-07-10 16:13:37] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.98-py3-none-any.whl.zip]
+[2023-07-10 16:13:37] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.99-py3-none-any.whl.zip]
+[2023-07-10 16:13:37] INFO root fetch - processPackages [QuNet]: Start processing: assemblyline
+[2023-07-10 16:13:37] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-07-10 16:13:37] INFO root fetch - processPackages [pychrome]: Remove: archive file [/home/abi/fetcher/tmp/pychrome-0.2.3.tar.gz]
+[2023-07-10 16:13:37] INFO root fetch - processPackages [pychrome]: Remove: archive file [/home/abi/fetcher/tmp/pychrome-0.2.4.tar.gz]
+[2023-07-10 16:13:37] INFO root fetch - processPackages [pychrome]: Start processing: assemblyline-core
+[2023-07-10 16:13:37] INFO root fetch - main [MainThread]: End processing [pychrome]: success
+[2023-07-10 16:13:37] INFO root fetch - processPackages [brightsky]: Remove: archive file [/home/abi/fetcher/tmp/brightsky-2.0.6.tar.gz]
+[2023-07-10 16:13:37] INFO root fetch - processPackages [brightsky]: Remove: archive file [/home/abi/fetcher/tmp/brightsky-2.0.7.tar.gz]
+[2023-07-10 16:13:37] INFO root fetch - processPackages [brightsky]: Start processing: network-config-analyzer
+[2023-07-10 16:13:37] INFO root fetch - main [MainThread]: End processing [brightsky]: success
+[2023-07-10 16:13:37] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-10 16:13:37] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/a4/73/2640c3bfcb2613b0f095aa242df946dd9c81ed47f2dd21c43c0eca553226/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl
+[2023-07-10 16:13:37] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-10 16:13:37] INFO root fetch - processPackages [assemblyline]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-10 16:13:37] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/d0/9d/73a653591c81e927ff88321d05e4273374e7a6b83130aa29fe2ca8a8f3c8/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl
+[2023-07-10 16:13:37] INFO root fetch - processPackages [network-config-analyzer]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-07-10 16:13:37] INFO root fetch - processPackages [assemblyline-core]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-10 16:13:37] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/6a/27/a5d411f1a02b44b9f386c7d18397784dcaa5fe1129d9a77e87a5e048edc5/tinybird-cli-1.0.0b99.tar.gz
+[2023-07-10 16:13:37] INFO root fetch - processPackages [remotivelabs-cli]: Remove: archive file [/home/abi/fetcher/tmp/remotivelabs_cli-0.0.1a8.tar.gz]
+[2023-07-10 16:13:37] INFO root fetch - processPackages [remotivelabs-cli]: Remove: archive file [/home/abi/fetcher/tmp/remotivelabs_cli-0.0.1a9.tar.gz]
+[2023-07-10 16:13:37] INFO root fetch - processPackages [remotivelabs-cli]: Start processing: lusid-workflow-sdk-preview
+[2023-07-10 16:13:37] INFO root fetch - main [MainThread]: End processing [remotivelabs-cli]: success
+[2023-07-10 16:13:37] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/88/f0/1e1ea5a38c6644090daf7b8e756373614f960038fc4187021d034bab3f59/assemblyline_ui-4.4.1.dev98-py3-none-any.whl
+[2023-07-10 16:13:37] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/0d/18/25fd38ec83bbb1da504d3063623af0139b964cc4957ee52dab43c8a48eec/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl
+[2023-07-10 16:13:37] INFO root fetch - processPackages [network-config-analyzer]: Downloading https://files.pythonhosted.org/packages/5f/f2/33cf401f2ad6257aafca95ad7700a4e5d6523560307b7c6aeea52bb30be8/network-config-analyzer-1.9.2.tar.gz
+[2023-07-10 16:13:37] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/fb/ca/10ec337efc2ea70b32ead6e4b7d46e1e23f2d1a7638e8bfd6b51a182d2af/assemblyline-4.4.1.dev98.tar.gz
+[2023-07-10 16:13:37] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: New version: [0.1.345] Old Version: [0.1.342]
+[2023-07-10 16:13:38] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2023-07-10 16:13:38] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-1.0.0b98.tar.gz tmp/tinybird-cli-1.0.0b99.tar.gz --markdown 20230710/t/tinybird-cli/1.0.0b98-1.0.0b99/diff.md --exclude *.pyd
+[2023-07-10 16:13:38] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/bd/c6/6e355350483536185a855a768a59edd86f3a9b152d83c0e328adfb3c5158/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl
+[2023-07-10 16:13:38] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/c6/b0/1bb0cc8f270604c12a6c573e663a56b4479a805585b2f0dec5745c366b75/assemblyline-core-4.4.1.dev98.tar.gz
+[2023-07-10 16:13:38] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/2c/65/290b479a07ea2714c26e302d7ee822da3dcfd3a50ecbfcf4091efd378829/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl
+[2023-07-10 16:13:38] INFO root fetch - processPackages [mimeograph]: Remove: archive file [/home/abi/fetcher/tmp/mimeograph-1.0.4.tar.gz]
+[2023-07-10 16:13:38] INFO root fetch - processPackages [mimeograph]: Remove: archive file [/home/abi/fetcher/tmp/mimeograph-1.1.0.tar.gz]
+[2023-07-10 16:13:38] INFO root fetch - processPackages [mimeograph]: Start processing: papertronics-sdk
+[2023-07-10 16:13:38] INFO root fetch - main [MainThread]: End processing [mimeograph]: success
+[2023-07-10 16:13:38] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/a0/82/0e79d387e681a9f5524679d36b8b3845ec56eab9b77068d0ddf41919e876/lusid-workflow-sdk-preview-0.1.342.tar.gz
+[2023-07-10 16:13:38] INFO root fetch - processPackages [papertronics-sdk]: New version: [0.0.18] Old Version: [0.0.17]
+[2023-07-10 16:13:38] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2023-07-10 16:13:38] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230710/a/assemblyline-service-client/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-10 16:13:38] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-07-10 16:13:38] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230710/a/assemblyline-service-server/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-10 16:13:38] INFO root fetch - processPackages [papertronics-sdk]: Downloading https://files.pythonhosted.org/packages/7d/cb/0864b0204c731a586141d7d2c81a44c386cf601a6aa3d2a1f0bebd64d2d1/papertronics-sdk-0.0.17.tar.gz
+[2023-07-10 16:13:38] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/e3/c6/dfade12e5e90540956305d36f873c5aed23370282783a34e66dc3b21a383/assemblyline_ui-4.4.1.dev99-py3-none-any.whl
+[2023-07-10 16:13:38] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/47/8f/28c4f84deeaf6ecece9518c5613a84646d9a0b9e24b8c8791e4612f1738c/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl
+[2023-07-10 16:13:38] INFO root fetch - processPackages [network-config-analyzer]: Downloading https://files.pythonhosted.org/packages/93/21/7d53626fe6da22bc28031b54c379cc68c10fe75fb14b6f90f7a53661b4cc/network-config-analyzer-1.9.3.tar.gz
+[2023-07-10 16:13:38] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/bd/bc/8573bd972e279862ab5c57e5a99e53f5087cd49a2741a054d2753ef654a7/assemblyline-4.4.1.dev99.tar.gz
+[2023-07-10 16:13:38] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2023-07-10 16:13:38] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_ui-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230710/a/assemblyline-ui/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-10 16:13:38] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/63/40/1e762930effd688f4bca07aca72276ca6ebee782934f06a6006ea66b2f16/assemblyline-core-4.4.1.dev99.tar.gz
+[2023-07-10 16:13:38] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2023-07-10 16:13:38] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230710/a/assemblyline-v4-service/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-10 16:13:38] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/74/70/79614fdfc46b4a934cc9f6fc6412ef21901af24baacec198fffc4a8aa35b/lusid-workflow-sdk-preview-0.1.345.tar.gz
+[2023-07-10 16:13:38] INFO root fetch - processPackages [papertronics-sdk]: Downloading https://files.pythonhosted.org/packages/47/9e/3d3e180bad825cdb2a930c8e644ca20e3976c668c169499d059826ba2291/papertronics-sdk-0.0.18.tar.gz
+[2023-07-10 16:13:38] INFO root fetch - processPackages [network-config-analyzer]: executing diffoscope
+[2023-07-10 16:13:38] INFO root fetch - processPackages [network-config-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/network-config-analyzer-1.9.2.tar.gz tmp/network-config-analyzer-1.9.3.tar.gz --markdown 20230710/n/network-config-analyzer/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-07-10 16:13:38] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2023-07-10 16:13:38] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.4.1.dev98.tar.gz tmp/assemblyline-4.4.1.dev99.tar.gz --markdown 20230710/a/assemblyline/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-10 16:13:38] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2023-07-10 16:13:38] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.4.1.dev98.tar.gz tmp/assemblyline-core-4.4.1.dev99.tar.gz --markdown 20230710/a/assemblyline-core/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-10 16:13:38] INFO root fetch - processPackages [papertronics-sdk]: executing diffoscope
+[2023-07-10 16:13:38] INFO root fetch - processPackages [papertronics-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/papertronics-sdk-0.0.17.tar.gz tmp/papertronics-sdk-0.0.18.tar.gz --markdown 20230710/p/papertronics-sdk/0.0.17-0.0.18/diff.md --exclude *.pyd
+[2023-07-10 16:13:38] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: executing diffoscope
+[2023-07-10 16:13:38] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-workflow-sdk-preview-0.1.342.tar.gz tmp/lusid-workflow-sdk-preview-0.1.345.tar.gz --markdown 20230710/l/lusid-workflow-sdk-preview/0.1.342-0.1.345/diff.md --exclude *.pyd
+[2023-07-10 16:13:39] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b98.tar.gz]
+[2023-07-10 16:13:39] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b99.tar.gz]
+[2023-07-10 16:13:39] INFO root fetch - processPackages [tinybird-cli]: Start processing: ord-schema
+[2023-07-10 16:13:39] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2023-07-10 16:13:39] INFO root fetch - processPackages [ord-schema]: New version: [0.3.60] Old Version: [0.3.59]
+[2023-07-10 16:13:39] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-10 16:13:39] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-10 16:13:39] INFO root fetch - processPackages [assemblyline-service-client]: Start processing: ds-caselaw-marklogic-api-client
+[2023-07-10 16:13:39] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2023-07-10 16:13:39] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: New version: [9.0.0] Old Version: [8.0.0]
+[2023-07-10 16:13:39] INFO root fetch - processPackages [ord-schema]: Downloading https://files.pythonhosted.org/packages/70/34/5cb397213ff7b58fb3feab639c068e86de6b1e7bb20cfea08ee8dcf9ccfe/ord-schema-0.3.59.tar.gz
+[2023-07-10 16:13:39] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-10 16:13:39] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-10 16:13:39] INFO root fetch - processPackages [assemblyline-service-server]: Start processing: localstack-core
+[2023-07-10 16:13:39] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-07-10 16:13:39] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: Downloading https://files.pythonhosted.org/packages/5b/8a/0481fc7e5ba3e035cc1653d98c2f46ecd48b306fc79b995ec6af7e7b0f5d/ds_caselaw_marklogic_api_client-8.0.0.tar.gz
+[2023-07-10 16:13:39] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230710141117] Old Version: [2.1.1.dev20230710122815]
+[2023-07-10 16:13:39] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/88/78/643bc3faa6b45ae79adc427e3fa48d8885fcbf1b013a5d164b1c4d62e859/localstack-core-2.1.1.dev20230710122815.tar.gz
+[2023-07-10 16:13:40] INFO root fetch - processPackages [ord-schema]: Downloading https://files.pythonhosted.org/packages/8b/6f/90c232724f77121e5a342f24928268691838524cd3063d3f1b96b81f174c/ord-schema-0.3.60.tar.gz
+[2023-07-10 16:13:40] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: Downloading https://files.pythonhosted.org/packages/3c/df/fedd765da0968ca3e553992d6546069c8c5f4dab1b3aa406246988c77909/ds_caselaw_marklogic_api_client-9.0.0.tar.gz
+[2023-07-10 16:13:40] INFO root fetch - processPackages [ord-schema]: executing diffoscope
+[2023-07-10 16:13:40] INFO root fetch - processPackages [ord-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ord-schema-0.3.59.tar.gz tmp/ord-schema-0.3.60.tar.gz --markdown 20230710/o/ord-schema/0.3.59-0.3.60/diff.md --exclude *.pyd
+[2023-07-10 16:13:40] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-10 16:13:40] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-10 16:13:40] INFO root fetch - processPackages [assemblyline-ui]: Start processing: oarepo-model-builder
+[2023-07-10 16:13:40] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2023-07-10 16:13:40] INFO root fetch - processPackages [papertronics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/papertronics-sdk-0.0.17.tar.gz]
+[2023-07-10 16:13:40] INFO root fetch - processPackages [papertronics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/papertronics-sdk-0.0.18.tar.gz]
+[2023-07-10 16:13:40] INFO root fetch - processPackages [papertronics-sdk]: Start processing: pypipypipypipypipypipypipypi
+[2023-07-10 16:13:40] INFO root fetch - main [MainThread]: End processing [papertronics-sdk]: success
+[2023-07-10 16:13:40] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: executing diffoscope
+[2023-07-10 16:13:40] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ds_caselaw_marklogic_api_client-8.0.0.tar.gz tmp/ds_caselaw_marklogic_api_client-9.0.0.tar.gz --markdown 20230710/d/ds-caselaw-marklogic-api-client/8.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-07-10 16:13:40] INFO root fetch - processPackages [oarepo-model-builder]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-07-10 16:13:40] INFO root fetch - processPackages [pypipypipypipypipypipypipypi]: New version: [0.2] Old Version: [0.1]
+[2023-07-10 16:13:40] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/31/fd/541603f3e52a7b7e88994db6ba821569a0923ec5752f2a8d602efa0536f5/localstack-core-2.1.1.dev20230710141117.tar.gz
+[2023-07-10 16:13:40] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.4.1.dev98.tar.gz]
+[2023-07-10 16:13:40] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.4.1.dev99.tar.gz]
+[2023-07-10 16:13:40] INFO root fetch - processPackages [assemblyline-core]: Start processing: pygments-git
+[2023-07-10 16:13:40] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2023-07-10 16:13:40] INFO root fetch - processPackages [oarepo-model-builder]: Downloading https://files.pythonhosted.org/packages/a7/f0/62f6d05442790f0562d20d7e93407d69aeea6c98832d6f8f68b27611715f/oarepo-model-builder-4.0.8.tar.gz
+[2023-07-10 16:13:40] INFO root fetch - processPackages [pypipypipypipypipypipypipypi]: Downloading https://files.pythonhosted.org/packages/d6/7d/e67e7868b467b13e105b0ebd980781eeb99c5f518aad7c5cec78abf759ae/pypipypipypipypipypipypipypi-0.1.tar.gz
+[2023-07-10 16:13:40] INFO root fetch - processPackages [pygments-git]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-07-10 16:13:40] INFO root fetch - processPackages [oarepo-model-builder]: Downloading https://files.pythonhosted.org/packages/d0/c0/f88cc77e087d52084596bac94c3c439ecf68e7ef6b2b2efa8058d91454f9/oarepo-model-builder-4.0.9.tar.gz
+[2023-07-10 16:13:40] INFO root fetch - processPackages [network-config-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/network-config-analyzer-1.9.2.tar.gz]
+[2023-07-10 16:13:40] INFO root fetch - processPackages [network-config-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/network-config-analyzer-1.9.3.tar.gz]
+[2023-07-10 16:13:40] INFO root fetch - processPackages [network-config-analyzer]: Start processing: usearch
+[2023-07-10 16:13:40] INFO root fetch - main [MainThread]: End processing [network-config-analyzer]: success
+[2023-07-10 16:13:40] INFO root fetch - processPackages [pygments-git]: Downloading https://files.pythonhosted.org/packages/c3/16/31f075008a502222f27e7dc35d8cc2c02d1b18e79db932f24ab253dea1a4/pygments_git-1.5.0.tar.gz
+[2023-07-10 16:13:40] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-07-10 16:13:40] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230710122815.tar.gz tmp/localstack-core-2.1.1.dev20230710141117.tar.gz --markdown 20230710/l/localstack-core/2.1.1.dev20230710122815-2.1.1.dev20230710141117/diff.md --exclude *.pyd
+[2023-07-10 16:13:40] INFO root fetch - processPackages [usearch]: New version: [0.9.7] Old Version: [0.5.1]
+[2023-07-10 16:13:41] INFO root fetch - processPackages [oarepo-model-builder]: executing diffoscope
+[2023-07-10 16:13:41] INFO root fetch - processPackages [oarepo-model-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-4.0.8.tar.gz tmp/oarepo-model-builder-4.0.9.tar.gz --markdown 20230710/o/oarepo-model-builder/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-07-10 16:13:41] INFO root fetch - processPackages [pypipypipypipypipypipypipypi]: Downloading https://files.pythonhosted.org/packages/2e/e6/7b63e4ce361bb1e56d7a63b6407d899cce5bf751df57b51079ce59a4a113/pypipypipypipypipypipypipypi-0.2.tar.gz
+[2023-07-10 16:13:41] INFO root fetch - processPackages [pypipypipypipypipypipypipypi]: executing diffoscope
+[2023-07-10 16:13:41] INFO root fetch - processPackages [pypipypipypipypipypipypipypi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipypipypipypipypipypipypi-0.1.tar.gz tmp/pypipypipypipypipypipypipypi-0.2.tar.gz --markdown 20230710/p/pypipypipypipypipypipypipypi/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-10 16:13:41] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.4.1.dev98.tar.gz]
+[2023-07-10 16:13:41] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.4.1.dev99.tar.gz]
+[2023-07-10 16:13:41] INFO root fetch - processPackages [assemblyline]: Start processing: finetuner-stubs
+[2023-07-10 16:13:41] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2023-07-10 16:13:41] INFO root fetch - processPackages [usearch]: Downloading https://files.pythonhosted.org/packages/2a/c9/b25987d4526f4f83d81623c1986139f98f49d284351df0f377a33e5a1cd7/usearch-0.5.1-cp39-cp39-win_amd64.whl
+[2023-07-10 16:13:41] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.342.tar.gz]
+[2023-07-10 16:13:41] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.345.tar.gz]
+[2023-07-10 16:13:41] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Start processing: pip-lock
+[2023-07-10 16:13:41] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk-preview]: success
+[2023-07-10 16:13:41] INFO root fetch - processPackages [finetuner-stubs]: New version: [0.9.3] Old Version: [0.13.8]
+[2023-07-10 16:13:41] INFO root fetch - processPackages [pygments-git]: Downloading https://files.pythonhosted.org/packages/7f/51/a77befb68bc76895287492048e001c7f298d849147ee39e3c23fde9e61fd/pygments_git-1.6.0.tar.gz
+[2023-07-10 16:13:41] INFO root fetch - processPackages [pip-lock]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-07-10 16:13:41] INFO root fetch - processPackages [finetuner-stubs]: Downloading https://files.pythonhosted.org/packages/7c/ad/189a045dd18d1bfdb85b74a7363e7cdf6e92a9e0133dfa698af7ff7fb41d/finetuner_stubs-0.13.8-py3-none-any.whl
+[2023-07-10 16:13:41] INFO root fetch - processPackages [pygments-git]: executing diffoscope
+[2023-07-10 16:13:41] INFO root fetch - processPackages [pygments-git]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygments_git-1.5.0.tar.gz tmp/pygments_git-1.6.0.tar.gz --markdown 20230710/p/pygments-git/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-07-10 16:13:41] INFO root fetch - processPackages [pip-lock]: Downloading https://files.pythonhosted.org/packages/44/87/e38fc57fa286fbc8d1b19e565ae6c92dfc0a1b2a5c4def725bab74468084/pip-lock-2.8.1.tar.gz
+[2023-07-10 16:13:41] INFO root fetch - processPackages [usearch]: Downloading https://files.pythonhosted.org/packages/a2/8f/a3252b30a16eab11240405b70ca175d22e9e65286f0453a51404db91b23e/usearch-0.9.7-cp39-cp39-manylinux_2_28_x86_64.whl
+[2023-07-10 16:13:41] INFO root fetch - processPackages [finetuner-stubs]: Downloading https://files.pythonhosted.org/packages/ef/16/270441d5d09ae4589cc4559a4e500eceea41c57fc45893813e21f24b16dc/finetuner-stubs-0.9.3.tar.gz
+[2023-07-10 16:13:41] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ds_caselaw_marklogic_api_client-8.0.0.tar.gz]
+[2023-07-10 16:13:41] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ds_caselaw_marklogic_api_client-9.0.0.tar.gz]
+[2023-07-10 16:13:41] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: Start processing: coolopen
+[2023-07-10 16:13:41] INFO root fetch - main [MainThread]: End processing [ds-caselaw-marklogic-api-client]: success
+[2023-07-10 16:13:41] WARNING root fetch - processPackages [coolopen]: Skipping, unable to determine old version
+[2023-07-10 16:13:41] INFO root fetch - processPackages [coolopen]: Start processing: finetuner-commons
+[2023-07-10 16:13:41] INFO root fetch - main [MainThread]: End processing [coolopen] error
+[2023-07-10 16:13:41] INFO root fetch - processPackages [finetuner-stubs]: executing diffoscope
+[2023-07-10 16:13:41] INFO root fetch - processPackages [finetuner-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finetuner_stubs-0.13.8-py3-none-any.whl.zip tmp/finetuner-stubs-0.9.3.tar.gz --markdown 20230710/f/finetuner-stubs/0.13.8-0.9.3/diff.md --exclude *.pyd
+[2023-07-10 16:13:41] INFO root fetch - processPackages [ord-schema]: Remove: archive file [/home/abi/fetcher/tmp/ord-schema-0.3.59.tar.gz]
+[2023-07-10 16:13:41] INFO root fetch - processPackages [ord-schema]: Remove: archive file [/home/abi/fetcher/tmp/ord-schema-0.3.60.tar.gz]
+[2023-07-10 16:13:41] INFO root fetch - processPackages [ord-schema]: Start processing: django-twined
+[2023-07-10 16:13:41] INFO root fetch - main [MainThread]: End processing [ord-schema]: success
+[2023-07-10 16:13:41] INFO root fetch - processPackages [finetuner-commons]: New version: [0.9.3] Old Version: [0.13.8]
+[2023-07-10 16:13:42] INFO root fetch - processPackages [django-twined]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-10 16:13:42] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-10 16:13:42] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-10 16:13:42] INFO root fetch - processPackages [pip-lock]: Downloading https://files.pythonhosted.org/packages/3e/75/20d0c9729c49c6d02a9b3e3ab6c162130ea24f78ebb7db00675959b460d1/pip-lock-2.9.0.tar.gz
+[2023-07-10 16:13:42] INFO root fetch - processPackages [assemblyline-v4-service]: Start processing: language-agent
+[2023-07-10 16:13:42] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2023-07-10 16:13:42] INFO root fetch - processPackages [usearch]: executing diffoscope
+[2023-07-10 16:13:42] INFO root fetch - processPackages [usearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usearch-0.5.1-cp39-cp39-win_amd64.whl.zip tmp/usearch-0.9.7-cp39-cp39-manylinux_2_28_x86_64.whl.zip --markdown 20230710/u/usearch/0.5.1-0.9.7/diff.md --exclude *.pyd
+[2023-07-10 16:13:42] INFO root fetch - processPackages [finetuner-commons]: Downloading https://files.pythonhosted.org/packages/af/75/b22176b16d590d02c990a9a379e0cf3e4a81de27c06680c0ad3bf6f698a9/finetuner_commons-0.13.8-py3-none-any.whl
+[2023-07-10 16:13:42] INFO root fetch - processPackages [language-agent]: New version: [0.2] Old Version: [0.1]
+[2023-07-10 16:13:42] INFO root fetch - processPackages [pip-lock]: executing diffoscope
+[2023-07-10 16:13:42] INFO root fetch - processPackages [pip-lock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip-lock-2.8.1.tar.gz tmp/pip-lock-2.9.0.tar.gz --markdown 20230710/p/pip-lock/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-07-10 16:13:42] INFO root fetch - processPackages [django-twined]: Downloading https://files.pythonhosted.org/packages/f1/0d/4d18e229f0e3640b5aa7964ab5b3fb7fa4b023a8edba593f30e8524e159e/django_twined-0.5.0.tar.gz
+[2023-07-10 16:13:42] INFO root fetch - processPackages [language-agent]: Downloading https://files.pythonhosted.org/packages/67/a0/d5ed0a182f1732e12cb35cbf87c22b300cccdd085ba932848cf52a2e2e31/language-agent-0.1.tar.gz
+[2023-07-10 16:13:42] INFO root fetch - processPackages [finetuner-commons]: Downloading https://files.pythonhosted.org/packages/e1/c1/11430d37c19d8b297ea0e066a6e93ea1316ef71b4a98447a0f0eb51d465d/finetuner-commons-0.9.3.tar.gz
+[2023-07-10 16:13:42] INFO root fetch - processPackages [pypipypipypipypipypipypipypi]: Remove: archive file [/home/abi/fetcher/tmp/pypipypipypipypipypipypipypi-0.1.tar.gz]
+[2023-07-10 16:13:42] INFO root fetch - processPackages [pypipypipypipypipypipypipypi]: Remove: archive file [/home/abi/fetcher/tmp/pypipypipypipypipypipypipypi-0.2.tar.gz]
+[2023-07-10 16:13:42] INFO root fetch - main [MainThread]: End processing [pypipypipypipypipypipypipypi]: success
+[2023-07-10 16:13:42] INFO root fetch - processPackages [finetuner-commons]: executing diffoscope
+[2023-07-10 16:13:42] INFO root fetch - processPackages [finetuner-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finetuner_commons-0.13.8-py3-none-any.whl.zip tmp/finetuner-commons-0.9.3.tar.gz --markdown 20230710/f/finetuner-commons/0.13.8-0.9.3/diff.md --exclude *.pyd
+[2023-07-10 16:13:42] INFO root fetch - processPackages [language-agent]: Downloading https://files.pythonhosted.org/packages/0e/26/acedaf1996f46777248679421ba510f00a45f0af94f23c05ad300476aa02/language-agent-0.2.tar.gz
+[2023-07-10 16:13:42] INFO root fetch - processPackages [django-twined]: Downloading https://files.pythonhosted.org/packages/45/17/cad6508c193984749d0a8548ca28fe4412850ba154ace506ae0794b019b7/django_twined-0.5.1.tar.gz
+[2023-07-10 16:13:42] INFO root fetch - processPackages [language-agent]: executing diffoscope
+[2023-07-10 16:13:42] INFO root fetch - processPackages [language-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/language-agent-0.1.tar.gz tmp/language-agent-0.2.tar.gz --markdown 20230710/l/language-agent/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-10 16:13:42] INFO root fetch - processPackages [django-twined]: executing diffoscope
+[2023-07-10 16:13:42] INFO root fetch - processPackages [django-twined]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_twined-0.5.0.tar.gz tmp/django_twined-0.5.1.tar.gz --markdown 20230710/d/django-twined/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-10 16:13:42] INFO root fetch - processPackages [pygments-git]: Remove: archive file [/home/abi/fetcher/tmp/pygments_git-1.5.0.tar.gz]
+[2023-07-10 16:13:42] INFO root fetch - processPackages [pygments-git]: Remove: archive file [/home/abi/fetcher/tmp/pygments_git-1.6.0.tar.gz]
+[2023-07-10 16:13:42] INFO root fetch - main [MainThread]: End processing [pygments-git]: success
+[2023-07-10 16:13:43] INFO root fetch - processPackages [finetuner-stubs]: Remove: archive file [/home/abi/fetcher/tmp/finetuner_stubs-0.13.8-py3-none-any.whl.zip]
+[2023-07-10 16:13:43] INFO root fetch - processPackages [finetuner-stubs]: Remove: archive file [/home/abi/fetcher/tmp/finetuner-stubs-0.9.3.tar.gz]
+[2023-07-10 16:13:43] INFO root fetch - main [MainThread]: End processing [finetuner-stubs]: success
+[2023-07-10 16:13:43] INFO root fetch - processPackages [oarepo-model-builder]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-4.0.8.tar.gz]
+[2023-07-10 16:13:43] INFO root fetch - processPackages [oarepo-model-builder]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-4.0.9.tar.gz]
+[2023-07-10 16:13:43] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder]: success
+[2023-07-10 16:13:43] INFO root fetch - processPackages [usearch]: Remove: archive file [/home/abi/fetcher/tmp/usearch-0.5.1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-10 16:13:43] INFO root fetch - processPackages [usearch]: Remove: archive file [/home/abi/fetcher/tmp/usearch-0.9.7-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
+[2023-07-10 16:13:43] INFO root fetch - main [MainThread]: End processing [usearch]: success
+[2023-07-10 16:13:43] INFO root fetch - processPackages [pip-lock]: Remove: archive file [/home/abi/fetcher/tmp/pip-lock-2.8.1.tar.gz]
+[2023-07-10 16:13:43] INFO root fetch - processPackages [pip-lock]: Remove: archive file [/home/abi/fetcher/tmp/pip-lock-2.9.0.tar.gz]
+[2023-07-10 16:13:43] INFO root fetch - main [MainThread]: End processing [pip-lock]: success
+[2023-07-10 16:13:43] INFO root fetch - processPackages [finetuner-commons]: Remove: archive file [/home/abi/fetcher/tmp/finetuner_commons-0.13.8-py3-none-any.whl.zip]
+[2023-07-10 16:13:43] INFO root fetch - processPackages [finetuner-commons]: Remove: archive file [/home/abi/fetcher/tmp/finetuner-commons-0.9.3.tar.gz]
+[2023-07-10 16:13:43] INFO root fetch - main [MainThread]: End processing [finetuner-commons]: success
+[2023-07-10 16:13:43] INFO root fetch - processPackages [language-agent]: Remove: archive file [/home/abi/fetcher/tmp/language-agent-0.1.tar.gz]
+[2023-07-10 16:13:43] INFO root fetch - processPackages [language-agent]: Remove: archive file [/home/abi/fetcher/tmp/language-agent-0.2.tar.gz]
+[2023-07-10 16:13:43] INFO root fetch - main [MainThread]: End processing [language-agent]: success
+[2023-07-10 16:13:43] INFO root fetch - processPackages [django-twined]: Remove: archive file [/home/abi/fetcher/tmp/django_twined-0.5.0.tar.gz]
+[2023-07-10 16:13:43] INFO root fetch - processPackages [django-twined]: Remove: archive file [/home/abi/fetcher/tmp/django_twined-0.5.1.tar.gz]
+[2023-07-10 16:13:43] INFO root fetch - main [MainThread]: End processing [django-twined]: success
+[2023-07-10 16:13:45] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230710122815.tar.gz]
+[2023-07-10 16:13:45] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230710141117.tar.gz]
+[2023-07-10 16:13:45] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-07-10 16:13:45] INFO root fetch - main [MainThread]: Store serial: [18831704]
