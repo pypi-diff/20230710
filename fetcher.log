@@ -18625,3 +18625,83 @@ EOFError: EOF read where object expected
 [2023-07-10 15:31:00] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
 [2023-07-10 15:31:00] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2023-07-10 15:31:00] INFO root fetch - main [MainThread]: Store serial: [18831133]
+[2023-07-10 15:36:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18831133]
+[2023-07-10 15:36:09] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-10 15:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gdal2numpy
+[2023-07-10 15:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tiled
+[2023-07-10 15:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SparkMinIOHandle
+[2023-07-10 15:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pipedi
+[2023-07-10 15:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: katottglib
+[2023-07-10 15:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: reportportal-client
+[2023-07-10 15:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: curriculumagent
+[2023-07-10 15:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-allow-cidr
+[2023-07-10 15:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: init-maths-equation
+[2023-07-10 15:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: netdoc
+[2023-07-10 15:36:10] INFO root fetch - processPackages [django-allow-cidr]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-10 15:36:10] WARNING root fetch - processPackages [pipedi]: Skipping, unable to determine old version
+[2023-07-10 15:36:10] INFO root fetch - processPackages [pipedi]: Start processing: database-infrastructure-local
+[2023-07-10 15:36:10] INFO root fetch - main [MainThread]: End processing [pipedi] error
+[2023-07-10 15:36:10] INFO root fetch - processPackages [SparkMinIOHandle]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-10 15:36:10] INFO root fetch - processPackages [netdoc]: New version: [0.9.71] Old Version: [0.9.70]
+[2023-07-10 15:36:10] WARNING root fetch - processPackages [init-maths-equation]: Skipping, unable to determine old version
+[2023-07-10 15:36:10] INFO root fetch - main [MainThread]: End processing [init-maths-equation] error
+[2023-07-10 15:36:10] INFO root fetch - processPackages [gdal2numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-10 15:36:10] INFO root fetch - processPackages [curriculumagent]: New version: [1.0.0] Old Version: [0.0.4]
+[2023-07-10 15:36:10] INFO root fetch - processPackages [katottglib]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-10 15:36:10] INFO root fetch - processPackages [tiled]: New version: [0.1.0a99] Old Version: [0.1.0a98]
+[2023-07-10 15:36:10] INFO root fetch - processPackages [reportportal-client]: New version: [5.4.0] Old Version: [5.3.5]
+[2023-07-10 15:36:10] WARNING root fetch - processPackages [database-infrastructure-local]: Skipping, unable to determine old version
+[2023-07-10 15:36:10] INFO root fetch - main [MainThread]: End processing [database-infrastructure-local] error
+[2023-07-10 15:36:10] INFO root fetch - processPackages [django-allow-cidr]: Downloading https://files.pythonhosted.org/packages/8f/31/ceda29b123d6dd0f91ddfa0ac557887f3be741b25fb0e860b6f61f979fe0/django-allow-cidr-0.7.0.tar.gz
+[2023-07-10 15:36:10] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/8b/c7/c38f143f5db75454a9df08f7ff287cb3de46fb5f10139def0fcb92a15404/gdal2numpy-0.0.98.tar.gz
+[2023-07-10 15:36:10] INFO root fetch - processPackages [netdoc]: Downloading https://files.pythonhosted.org/packages/f2/ef/1d391989d1fcf09c8c91936ac38fc2ecb4b2432ab959707ae3761c31002a/netdoc-0.9.70.tar.gz
+[2023-07-10 15:36:10] INFO root fetch - processPackages [SparkMinIOHandle]: Downloading https://files.pythonhosted.org/packages/a8/a9/0faa22eec9cf86d7faab7a5fceb1418eacdee532029cc6883aff3d284656/SparkMinIOHandle-0.0.6.tar.gz
+[2023-07-10 15:36:10] INFO root fetch - processPackages [katottglib]: Downloading https://files.pythonhosted.org/packages/99/ae/ccf5ba93a1ed57479cad0d2d43d7175822c0656d5efdea164b5ab7f09abb/katottglib-0.2.6.tar.gz
+[2023-07-10 15:36:10] INFO root fetch - processPackages [reportportal-client]: Downloading https://files.pythonhosted.org/packages/a5/58/1361baf4cde2af591b7d965498023f20add30c049a3e6a0a5949d972f749/reportportal-client-5.3.5.tar.gz
+[2023-07-10 15:36:10] INFO root fetch - processPackages [curriculumagent]: Downloading https://files.pythonhosted.org/packages/0f/2a/69f1ae425711d3d1e9956a582c7f60b5d3e337cb637f77afa93c6ace7ab0/curriculumagent-0.0.4.tar.gz
+[2023-07-10 15:36:10] INFO root fetch - processPackages [tiled]: Downloading https://files.pythonhosted.org/packages/ef/55/e9f7861db7d4df186a6df7359a77bf992e658e7b4d7f89a3849be68ca576/tiled-0.1.0a98.tar.gz
+[2023-07-10 15:36:10] WARNING root fetch - processPackages [tiled]: Skipping package: exceeds size limit 71915308>=10485760
+[2023-07-10 15:36:10] INFO root fetch - main [MainThread]: End processing [tiled] error
+[2023-07-10 15:36:10] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/67/ee/9c755bd5249fc9dc6a1dd773cb241c19b8df83a94fc0674017b57bd19e20/gdal2numpy-0.0.99.tar.gz
+[2023-07-10 15:36:10] INFO root fetch - processPackages [django-allow-cidr]: Downloading https://files.pythonhosted.org/packages/2c/7f/98dd15aeed94160ef25f41bdaf363a7cf5904ca469f3dda50d56558220c3/django-allow-cidr-0.7.1.tar.gz
+[2023-07-10 15:36:10] INFO root fetch - processPackages [SparkMinIOHandle]: Downloading https://files.pythonhosted.org/packages/37/8d/8423a29812bde46caa5df9bf068b094647fa623a7462baea4decdfc1d1e3/SparkMinIOHandle-0.0.7.tar.gz
+[2023-07-10 15:36:11] INFO root fetch - processPackages [netdoc]: Downloading https://files.pythonhosted.org/packages/c5/bc/813dccd0af76852b3fea6f6f9ba3ebc578c1efa3980ff3e4676ac88f2077/netdoc-0.9.71.tar.gz
+[2023-07-10 15:36:11] INFO root fetch - processPackages [gdal2numpy]: executing diffoscope
+[2023-07-10 15:36:11] INFO root fetch - processPackages [gdal2numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdal2numpy-0.0.98.tar.gz tmp/gdal2numpy-0.0.99.tar.gz --markdown 20230710/g/gdal2numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-10 15:36:11] INFO root fetch - processPackages [katottglib]: Downloading https://files.pythonhosted.org/packages/85/90/cce1fcdbc5eea349d81fe54290ae66178ab2cc1721fefb2a1434ce7ce59f/katottglib-0.2.7.tar.gz
+[2023-07-10 15:36:11] INFO root fetch - processPackages [django-allow-cidr]: executing diffoscope
+[2023-07-10 15:36:11] INFO root fetch - processPackages [django-allow-cidr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-allow-cidr-0.7.0.tar.gz tmp/django-allow-cidr-0.7.1.tar.gz --markdown 20230710/d/django-allow-cidr/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-10 15:36:11] INFO root fetch - processPackages [reportportal-client]: Downloading https://files.pythonhosted.org/packages/2e/57/5b9a07dab171f4fa706d68b290ebaf695faaa0413e2d31ee047764ce0a2a/reportportal-client-5.4.0.tar.gz
+[2023-07-10 15:36:11] INFO root fetch - processPackages [SparkMinIOHandle]: executing diffoscope
+[2023-07-10 15:36:11] INFO root fetch - processPackages [SparkMinIOHandle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SparkMinIOHandle-0.0.6.tar.gz tmp/SparkMinIOHandle-0.0.7.tar.gz --markdown 20230710/S/SparkMinIOHandle/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-10 15:36:11] INFO root fetch - processPackages [curriculumagent]: Downloading https://files.pythonhosted.org/packages/dc/3e/1fd09c578eaee8bfe5df3f7fff456928816a13f53b17cae55431ace6b80f/curriculumagent-1.0.0.tar.gz
+[2023-07-10 15:36:11] INFO root fetch - processPackages [netdoc]: executing diffoscope
+[2023-07-10 15:36:11] INFO root fetch - processPackages [netdoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netdoc-0.9.70.tar.gz tmp/netdoc-0.9.71.tar.gz --markdown 20230710/n/netdoc/0.9.70-0.9.71/diff.md --exclude *.pyd
+[2023-07-10 15:36:11] INFO root fetch - processPackages [reportportal-client]: executing diffoscope
+[2023-07-10 15:36:11] INFO root fetch - processPackages [reportportal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reportportal-client-5.3.5.tar.gz tmp/reportportal-client-5.4.0.tar.gz --markdown 20230710/r/reportportal-client/5.3.5-5.4.0/diff.md --exclude *.pyd
+[2023-07-10 15:36:11] INFO root fetch - processPackages [curriculumagent]: executing diffoscope
+[2023-07-10 15:36:11] INFO root fetch - processPackages [curriculumagent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curriculumagent-0.0.4.tar.gz tmp/curriculumagent-1.0.0.tar.gz --markdown 20230710/c/curriculumagent/0.0.4-1.0.0/diff.md --exclude *.pyd
+[2023-07-10 15:36:11] INFO root fetch - processPackages [katottglib]: executing diffoscope
+[2023-07-10 15:36:11] INFO root fetch - processPackages [katottglib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/katottglib-0.2.6.tar.gz tmp/katottglib-0.2.7.tar.gz --markdown 20230710/k/katottglib/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-10 15:36:12] INFO root fetch - processPackages [SparkMinIOHandle]: Remove: archive file [/home/abi/fetcher/tmp/SparkMinIOHandle-0.0.6.tar.gz]
+[2023-07-10 15:36:12] INFO root fetch - processPackages [SparkMinIOHandle]: Remove: archive file [/home/abi/fetcher/tmp/SparkMinIOHandle-0.0.7.tar.gz]
+[2023-07-10 15:36:12] INFO root fetch - main [MainThread]: End processing [SparkMinIOHandle]: success
+[2023-07-10 15:36:12] INFO root fetch - processPackages [django-allow-cidr]: Remove: archive file [/home/abi/fetcher/tmp/django-allow-cidr-0.7.0.tar.gz]
+[2023-07-10 15:36:12] INFO root fetch - processPackages [django-allow-cidr]: Remove: archive file [/home/abi/fetcher/tmp/django-allow-cidr-0.7.1.tar.gz]
+[2023-07-10 15:36:12] INFO root fetch - main [MainThread]: End processing [django-allow-cidr]: success
+[2023-07-10 15:36:12] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.98.tar.gz]
+[2023-07-10 15:36:12] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.99.tar.gz]
+[2023-07-10 15:36:12] INFO root fetch - main [MainThread]: End processing [gdal2numpy]: success
+[2023-07-10 15:36:12] INFO root fetch - processPackages [curriculumagent]: Remove: archive file [/home/abi/fetcher/tmp/curriculumagent-0.0.4.tar.gz]
+[2023-07-10 15:36:12] INFO root fetch - processPackages [curriculumagent]: Remove: archive file [/home/abi/fetcher/tmp/curriculumagent-1.0.0.tar.gz]
+[2023-07-10 15:36:12] INFO root fetch - main [MainThread]: End processing [curriculumagent]: success
+[2023-07-10 15:36:12] INFO root fetch - processPackages [katottglib]: Remove: archive file [/home/abi/fetcher/tmp/katottglib-0.2.6.tar.gz]
+[2023-07-10 15:36:12] INFO root fetch - processPackages [katottglib]: Remove: archive file [/home/abi/fetcher/tmp/katottglib-0.2.7.tar.gz]
+[2023-07-10 15:36:12] INFO root fetch - main [MainThread]: End processing [katottglib]: success
+[2023-07-10 15:36:12] INFO root fetch - processPackages [reportportal-client]: Remove: archive file [/home/abi/fetcher/tmp/reportportal-client-5.3.5.tar.gz]
+[2023-07-10 15:36:12] INFO root fetch - processPackages [reportportal-client]: Remove: archive file [/home/abi/fetcher/tmp/reportportal-client-5.4.0.tar.gz]
+[2023-07-10 15:36:12] INFO root fetch - main [MainThread]: End processing [reportportal-client]: success
+[2023-07-10 15:36:13] INFO root fetch - processPackages [netdoc]: Remove: archive file [/home/abi/fetcher/tmp/netdoc-0.9.70.tar.gz]
+[2023-07-10 15:36:13] INFO root fetch - processPackages [netdoc]: Remove: archive file [/home/abi/fetcher/tmp/netdoc-0.9.71.tar.gz]
+[2023-07-10 15:36:13] INFO root fetch - main [MainThread]: End processing [netdoc]: success
+[2023-07-10 15:36:13] INFO root fetch - main [MainThread]: Store serial: [18831174]
