@@ -1813,3 +1813,144 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 02:20:38] INFO root fetch - processPackages [a-bigelow.cdk-eventbridge-partner-processors]: Remove: archive file [/home/abi/fetcher/tmp/a-bigelow.cdk-eventbridge-partner-processors-0.0.99.tar.gz]
 [2023-07-10 02:20:38] INFO root fetch - main [MainThread]: End processing [a-bigelow.cdk-eventbridge-partner-processors]: success
 [2023-07-10 02:20:38] INFO root fetch - main [MainThread]: Store serial: [18824457]
+[2023-07-10 02:25:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18824457]
+[2023-07-10 02:25:47] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-10 02:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-djangogql
+[2023-07-10 02:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ephysio
+[2023-07-10 02:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdktf-surreal-backend
+[2023-07-10 02:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python
+[2023-07-10 02:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s-image
+[2023-07-10 02:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-budibase
+[2023-07-10 02:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-gitlab-runner
+[2023-07-10 02:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-nag
+[2023-07-10 02:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vhr-composite
+[2023-07-10 02:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdklabs.cdk-ethereum-node
+[2023-07-10 02:25:48] INFO root fetch - processPackages [ephysio]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-10 02:25:48] INFO root fetch - processPackages [cdktf-surreal-backend]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-10 02:25:48] INFO root fetch - processPackages [python-djangogql]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-10 02:25:48] WARNING root fetch - processPackages [vhr-composite]: Skipping, unable to determine old version
+[2023-07-10 02:25:48] INFO root fetch - processPackages [vhr-composite]: Start processing: trex-imager-readfile
+[2023-07-10 02:25:48] INFO root fetch - main [MainThread]: End processing [vhr-composite] error
+[2023-07-10 02:25:48] INFO root fetch - processPackages [cdk-budibase]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-10 02:25:48] INFO root fetch - processPackages [cdk-nag]: New version: [2.9.7] Old Version: [2.9.6]
+[2023-07-10 02:25:48] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-10 02:25:48] INFO root fetch - processPackages [cdk8s-image]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-07-10 02:25:48] INFO root fetch - processPackages [tencentcloud-sdk-python]: New version: [3.0.99] Old Version: [3.0.98]
+[2023-07-10 02:25:48] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-07-10 02:25:48] INFO root fetch - processPackages [trex-imager-readfile]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-07-10 02:25:48] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/4f/0a/01c6428b0ea2e78dd2dd9e10aba3ba8252b6cd0992b5a90ea9ba90983551/cdk-budibase-0.0.98.tar.gz
+[2023-07-10 02:25:48] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/26/bc/b8768e307b8d360b78f45303ac30baa4232637f372296203b0005cd07cd4/cdk-nag-2.9.6.tar.gz
+[2023-07-10 02:25:48] INFO root fetch - processPackages [ephysio]: Downloading https://files.pythonhosted.org/packages/4a/2c/656624202a00d645ae141ce001c92cc2800e3c1faaeae03b07b6dec9766c/ephysio-1.0.2.tar.gz
+[2023-07-10 02:25:48] INFO root fetch - processPackages [cdktf-surreal-backend]: Downloading https://files.pythonhosted.org/packages/cb/0a/a7b476cc0f57abbfe23b6e1de3ab7c8d7ef56c77aa972828c5dc9958e1d8/cdktf-surreal-backend-1.0.98.tar.gz
+[2023-07-10 02:25:48] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/d8/1a/417af84315b2d52f6063ccf2072677259777d28fb73cab91e17879faaa26/cdklabs.cdk-ethereum-node-0.0.98.tar.gz
+[2023-07-10 02:25:48] INFO root fetch - processPackages [python-djangogql]: Downloading https://files.pythonhosted.org/packages/7a/09/7b67e4d55f9d8240c198db77e466e6ca3c1c2177ef8c439634efd679d9a4/python-djangogql-1.0.0.tar.gz
+[2023-07-10 02:25:48] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/00/40/016cdb2fb9e28fe1b601ce7542603c38b93a78a9a0d77a0309e559d58a1c/cdk-gitlab-runner-2.1.98.tar.gz
+[2023-07-10 02:25:48] INFO root fetch - processPackages [cdk8s-image]: Downloading https://files.pythonhosted.org/packages/08/4a/4983fe97d4073731fd1258ffef45d7770c72f1de7244a05cdfe1bb68d3b0/cdk8s-image-0.2.98.tar.gz
+[2023-07-10 02:25:48] INFO root fetch - processPackages [tencentcloud-sdk-python]: Downloading https://files.pythonhosted.org/packages/f0/66/70bad4df9baa2cf443aefa77ba985f71fafcb3897adfe825ffc9dfa6caef/tencentcloud-sdk-python-3.0.98.tar.gz
+[2023-07-10 02:25:48] INFO root fetch - processPackages [trex-imager-readfile]: Downloading https://files.pythonhosted.org/packages/fc/e4/96c2961798992f82c8d283a2cdc2dc019d951569947fd20d0cc8a23c8c90/trex_imager_readfile-1.4.3.tar.gz
+[2023-07-10 02:25:48] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/3d/b1/10d1c8f0601959fd0771f3dc7b94b15e702b81729d74397e80ca3dd66c88/cdk-budibase-0.0.99.tar.gz
+[2023-07-10 02:25:48] INFO root fetch - processPackages [cdk8s-image]: Downloading https://files.pythonhosted.org/packages/fb/19/ce87f85995849eec0b27665fe8c6c59e225f2d99370b1c068893ad31c698/cdk8s-image-0.2.99.tar.gz
+[2023-07-10 02:25:48] INFO root fetch - processPackages [cdktf-surreal-backend]: Downloading https://files.pythonhosted.org/packages/b2/df/7604fdc8f04cf537fd774472005fab2e46b4e2271b55ee3e5027045037e4/cdktf-surreal-backend-1.0.99.tar.gz
+[2023-07-10 02:25:48] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/2d/d8/3fd98f927d9988f7c189f488b1829ac7aa7f855bf93f6030e3bed9af9a97/cdklabs.cdk-ethereum-node-0.0.99.tar.gz
+[2023-07-10 02:25:49] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/71/78/6a2d0c627f1033774d5be3d2faca465e0bc0b07cf97cec491c795775999a/cdk-nag-2.9.7.tar.gz
+[2023-07-10 02:25:49] INFO root fetch - processPackages [ephysio]: Downloading https://files.pythonhosted.org/packages/bf/40/9c70082229a2062fbe9e9030ce29bf52269a26b5d34f480fba7994c93624/ephysio-1.0.3.tar.gz
+[2023-07-10 02:25:49] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/89/96/8e14acbbed72ce7cf16a2f829e722ff9189610a1fe440e7d52bb6185d401/cdk-gitlab-runner-2.1.99.tar.gz
+[2023-07-10 02:25:49] INFO root fetch - processPackages [python-djangogql]: Downloading https://files.pythonhosted.org/packages/72/7e/092f3b15f8d0d424edb09390cbf873570dcf3d65db9a1880ef9ad91cbc24/python-djangogql-1.0.1.tar.gz
+[2023-07-10 02:25:49] INFO root fetch - processPackages [cdk8s-image]: executing diffoscope
+[2023-07-10 02:25:49] INFO root fetch - processPackages [cdk8s-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-image-0.2.98.tar.gz tmp/cdk8s-image-0.2.99.tar.gz --markdown 20230710/c/cdk8s-image/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-07-10 02:25:49] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: executing diffoscope
+[2023-07-10 02:25:49] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz --markdown 20230710/c/cdklabs.cdk-ethereum-node/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-10 02:25:49] INFO root fetch - processPackages [cdktf-surreal-backend]: executing diffoscope
+[2023-07-10 02:25:49] INFO root fetch - processPackages [cdktf-surreal-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-surreal-backend-1.0.98.tar.gz tmp/cdktf-surreal-backend-1.0.99.tar.gz --markdown 20230710/c/cdktf-surreal-backend/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-10 02:25:49] INFO root fetch - processPackages [trex-imager-readfile]: Downloading https://files.pythonhosted.org/packages/22/c6/2841765ade958f71a35ce666f187d728929ddeb3b0bc57e9f18d1a93a1b1/trex_imager_readfile-1.4.4.tar.gz
+[2023-07-10 02:25:49] INFO root fetch - processPackages [ephysio]: executing diffoscope
+[2023-07-10 02:25:49] INFO root fetch - processPackages [ephysio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ephysio-1.0.2.tar.gz tmp/ephysio-1.0.3.tar.gz --markdown 20230710/e/ephysio/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-10 02:25:49] INFO root fetch - processPackages [cdk-budibase]: executing diffoscope
+[2023-07-10 02:25:49] INFO root fetch - processPackages [cdk-budibase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-budibase-0.0.98.tar.gz tmp/cdk-budibase-0.0.99.tar.gz --markdown 20230710/c/cdk-budibase/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-10 02:25:49] INFO root fetch - processPackages [python-djangogql]: executing diffoscope
+[2023-07-10 02:25:49] INFO root fetch - processPackages [python-djangogql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-djangogql-1.0.0.tar.gz tmp/python-djangogql-1.0.1.tar.gz --markdown 20230710/p/python-djangogql/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-10 02:25:49] INFO root fetch - processPackages [cdk-nag]: executing diffoscope
+[2023-07-10 02:25:49] INFO root fetch - processPackages [cdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-nag-2.9.6.tar.gz tmp/cdk-nag-2.9.7.tar.gz --markdown 20230710/c/cdk-nag/2.9.6-2.9.7/diff.md --exclude *.pyd
+[2023-07-10 02:25:49] INFO root fetch - processPackages [tencentcloud-sdk-python]: Downloading https://files.pythonhosted.org/packages/b5/b3/1181ead927d9f39a37e213be45e2821a5c0cb99c327b50b4f1401b90cc33/tencentcloud-sdk-python-3.0.99.tar.gz
+[2023-07-10 02:25:49] INFO root fetch - processPackages [trex-imager-readfile]: executing diffoscope
+[2023-07-10 02:25:49] INFO root fetch - processPackages [trex-imager-readfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trex_imager_readfile-1.4.3.tar.gz tmp/trex_imager_readfile-1.4.4.tar.gz --markdown 20230710/t/trex-imager-readfile/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-07-10 02:25:49] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2023-07-10 02:25:49] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.1.98.tar.gz tmp/cdk-gitlab-runner-2.1.99.tar.gz --markdown 20230710/c/cdk-gitlab-runner/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-07-10 02:25:49] INFO root fetch - processPackages [tencentcloud-sdk-python]: executing diffoscope
+[2023-07-10 02:25:49] INFO root fetch - processPackages [tencentcloud-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-3.0.98.tar.gz tmp/tencentcloud-sdk-python-3.0.99.tar.gz --markdown 20230710/t/tencentcloud-sdk-python/3.0.98-3.0.99/diff.md --exclude *.pyd
+[2023-07-10 02:25:50] INFO root fetch - processPackages [cdktf-surreal-backend]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-surreal-backend-1.0.98.tar.gz]
+[2023-07-10 02:25:50] INFO root fetch - processPackages [cdktf-surreal-backend]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-surreal-backend-1.0.99.tar.gz]
+[2023-07-10 02:25:50] INFO root fetch - processPackages [cdktf-surreal-backend]: Start processing: cdk8s-valheim
+[2023-07-10 02:25:50] INFO root fetch - main [MainThread]: End processing [cdktf-surreal-backend]: success
+[2023-07-10 02:25:50] INFO root fetch - processPackages [cdk8s-image]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-image-0.2.98.tar.gz]
+[2023-07-10 02:25:50] INFO root fetch - processPackages [cdk8s-image]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-image-0.2.99.tar.gz]
+[2023-07-10 02:25:50] INFO root fetch - processPackages [cdk8s-image]: Start processing: low-cost-ecs
+[2023-07-10 02:25:50] INFO root fetch - main [MainThread]: End processing [cdk8s-image]: success
+[2023-07-10 02:25:50] INFO root fetch - processPackages [cdk8s-valheim]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-10 02:25:50] INFO root fetch - processPackages [low-cost-ecs]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 02:25:51] INFO root fetch - processPackages [ephysio]: Remove: archive file [/home/abi/fetcher/tmp/ephysio-1.0.2.tar.gz]
+[2023-07-10 02:25:51] INFO root fetch - processPackages [ephysio]: Remove: archive file [/home/abi/fetcher/tmp/ephysio-1.0.3.tar.gz]
+[2023-07-10 02:25:51] INFO root fetch - processPackages [ephysio]: Start processing: cdk8s
+[2023-07-10 02:25:51] INFO root fetch - main [MainThread]: End processing [ephysio]: success
+[2023-07-10 02:25:51] INFO root fetch - processPackages [cdk8s-valheim]: Downloading https://files.pythonhosted.org/packages/85/d8/81574b6442b1b94620aa1985afe516b2e1e0688ce1267cb3ec360aabdcd1/cdk8s-valheim-0.0.98.tar.gz
+[2023-07-10 02:25:51] INFO root fetch - processPackages [cdk8s]: New version: [2.7.99] Old Version: [2.7.98]
+[2023-07-10 02:25:51] INFO root fetch - processPackages [trex-imager-readfile]: Remove: archive file [/home/abi/fetcher/tmp/trex_imager_readfile-1.4.3.tar.gz]
+[2023-07-10 02:25:51] INFO root fetch - processPackages [trex-imager-readfile]: Remove: archive file [/home/abi/fetcher/tmp/trex_imager_readfile-1.4.4.tar.gz]
+[2023-07-10 02:25:51] INFO root fetch - processPackages [trex-imager-readfile]: Start processing: psychicapi
+[2023-07-10 02:25:51] INFO root fetch - main [MainThread]: End processing [trex-imager-readfile]: success
+[2023-07-10 02:25:51] INFO root fetch - processPackages [python-djangogql]: Remove: archive file [/home/abi/fetcher/tmp/python-djangogql-1.0.0.tar.gz]
+[2023-07-10 02:25:51] INFO root fetch - processPackages [python-djangogql]: Remove: archive file [/home/abi/fetcher/tmp/python-djangogql-1.0.1.tar.gz]
+[2023-07-10 02:25:51] INFO root fetch - processPackages [python-djangogql]: Start processing: cdk-aurora-globaldatabase
+[2023-07-10 02:25:51] INFO root fetch - main [MainThread]: End processing [python-djangogql]: success
+[2023-07-10 02:25:51] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.98.tar.gz]
+[2023-07-10 02:25:51] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.99.tar.gz]
+[2023-07-10 02:25:51] INFO root fetch - main [MainThread]: End processing [cdk-budibase]: success
+[2023-07-10 02:25:51] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/d8/60/774b00a08e1e8a1155f225bfc65207f11ae692dd4bd4cc19fc599853994a/cdk8s-2.7.98.tar.gz
+[2023-07-10 02:25:51] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-10 02:25:51] INFO root fetch - processPackages [low-cost-ecs]: Downloading https://files.pythonhosted.org/packages/07/40/e9142a10d6b901d0892bcfbb1046c7e8773e2bef15a1f7d79d82c1d2cafb/low-cost-ecs-0.0.8.tar.gz
+[2023-07-10 02:25:51] INFO root fetch - processPackages [psychicapi]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-10 02:25:51] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.1.98.tar.gz]
+[2023-07-10 02:25:51] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.1.99.tar.gz]
+[2023-07-10 02:25:51] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2023-07-10 02:25:51] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz]
+[2023-07-10 02:25:51] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz]
+[2023-07-10 02:25:51] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-ethereum-node]: success
+[2023-07-10 02:25:51] INFO root fetch - processPackages [cdk8s-valheim]: Downloading https://files.pythonhosted.org/packages/ce/27/b660a37e9470f74e7b0d5c589710b82fcbfc01ec4796630a81d2dabb9e17/cdk8s-valheim-0.0.99.tar.gz
+[2023-07-10 02:25:51] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.6.tar.gz]
+[2023-07-10 02:25:51] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.7.tar.gz]
+[2023-07-10 02:25:51] INFO root fetch - main [MainThread]: End processing [cdk-nag]: success
+[2023-07-10 02:25:51] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2023-07-10 02:25:51] INFO root fetch - processPackages [cdk8s-valheim]: executing diffoscope
+[2023-07-10 02:25:51] INFO root fetch - processPackages [cdk8s-valheim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-valheim-0.0.98.tar.gz tmp/cdk8s-valheim-0.0.99.tar.gz --markdown 20230710/c/cdk8s-valheim/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-10 02:25:51] INFO root fetch - processPackages [psychicapi]: Downloading https://files.pythonhosted.org/packages/53/21/171e0474f31e2de80ef4311d2ef64c962906d231552824c504a38a49236e/psychicapi-0.8.0.tar.gz
+[2023-07-10 02:25:51] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/23/d1/ee5cf44f421921d790a4e0d2cf87c118188da9c30cbece10e0e66cf115fe/cdk8s-2.7.99.tar.gz
+[2023-07-10 02:25:51] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2023-07-10 02:25:51] INFO root fetch - processPackages [low-cost-ecs]: Downloading https://files.pythonhosted.org/packages/f8/e2/870bffe92129bd52bf49ffe3cc71a2072a6e2f34270a3241e7c54c1e7df4/low-cost-ecs-0.0.9.tar.gz
+[2023-07-10 02:25:51] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2023-07-10 02:25:51] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20230710/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-10 02:25:51] INFO root fetch - processPackages [low-cost-ecs]: executing diffoscope
+[2023-07-10 02:25:51] INFO root fetch - processPackages [low-cost-ecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/low-cost-ecs-0.0.8.tar.gz tmp/low-cost-ecs-0.0.9.tar.gz --markdown 20230710/l/low-cost-ecs/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 02:25:51] INFO root fetch - processPackages [psychicapi]: Downloading https://files.pythonhosted.org/packages/8b/d8/94430db727f0c520f1bb2e6f83caadf42b023d79ac3cc807cc080d2197d5/psychicapi-0.8.1.tar.gz
+[2023-07-10 02:25:52] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-07-10 02:25:52] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.7.98.tar.gz tmp/cdk8s-2.7.99.tar.gz --markdown 20230710/c/cdk8s/2.7.98-2.7.99/diff.md --exclude *.pyd
+[2023-07-10 02:25:52] INFO root fetch - processPackages [psychicapi]: executing diffoscope
+[2023-07-10 02:25:52] INFO root fetch - processPackages [psychicapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psychicapi-0.8.0.tar.gz tmp/psychicapi-0.8.1.tar.gz --markdown 20230710/p/psychicapi/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-10 02:25:52] INFO root fetch - processPackages [cdk8s-valheim]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-valheim-0.0.98.tar.gz]
+[2023-07-10 02:25:52] INFO root fetch - processPackages [cdk8s-valheim]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-valheim-0.0.99.tar.gz]
+[2023-07-10 02:25:52] INFO root fetch - main [MainThread]: End processing [cdk8s-valheim]: success
+[2023-07-10 02:25:52] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2023-07-10 02:25:52] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2023-07-10 02:25:52] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2023-07-10 02:25:52] INFO root fetch - processPackages [low-cost-ecs]: Remove: archive file [/home/abi/fetcher/tmp/low-cost-ecs-0.0.8.tar.gz]
+[2023-07-10 02:25:52] INFO root fetch - processPackages [low-cost-ecs]: Remove: archive file [/home/abi/fetcher/tmp/low-cost-ecs-0.0.9.tar.gz]
+[2023-07-10 02:25:52] INFO root fetch - main [MainThread]: End processing [low-cost-ecs]: success
+[2023-07-10 02:25:52] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.98.tar.gz]
+[2023-07-10 02:25:52] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.99.tar.gz]
+[2023-07-10 02:25:53] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-07-10 02:25:53] INFO root fetch - processPackages [psychicapi]: Remove: archive file [/home/abi/fetcher/tmp/psychicapi-0.8.0.tar.gz]
+[2023-07-10 02:25:53] INFO root fetch - processPackages [psychicapi]: Remove: archive file [/home/abi/fetcher/tmp/psychicapi-0.8.1.tar.gz]
+[2023-07-10 02:25:53] INFO root fetch - main [MainThread]: End processing [psychicapi]: success
+[2023-07-10 02:25:53] INFO root fetch - processPackages [tencentcloud-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-3.0.98.tar.gz]
+[2023-07-10 02:25:53] INFO root fetch - processPackages [tencentcloud-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-3.0.99.tar.gz]
+[2023-07-10 02:25:53] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python]: success
+[2023-07-10 02:25:53] INFO root fetch - main [MainThread]: Store serial: [18824510]
