@@ -10967,3 +10967,73 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 09:59:22] INFO root fetch - processPackages [akeyless]: Remove: archive file [/home/abi/fetcher/tmp/akeyless-3.3.9.tar.gz]
 [2023-07-10 09:59:22] INFO root fetch - main [MainThread]: End processing [akeyless]: success
 [2023-07-10 09:59:22] INFO root fetch - main [MainThread]: Store serial: [18827976]
+[2023-07-10 10:04:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18827976]
+[2023-07-10 10:04:31] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-10 10:04:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imesh
+[2023-07-10 10:04:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qiskit-iqm
+[2023-07-10 10:04:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: localstack-plugin-persistence
+[2023-07-10 10:04:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mistapi
+[2023-07-10 10:04:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: feapder
+[2023-07-10 10:04:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydatafabric
+[2023-07-10 10:04:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kaihoplots
+[2023-07-10 10:04:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: feapder
+[2023-07-10 10:04:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hyprshade
+[2023-07-10 10:04:31] INFO root fetch - processPackages [qiskit-iqm]: New version: [9.0] Old Version: [8.3]
+[2023-07-10 10:04:31] INFO root fetch - processPackages [imesh]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 10:04:31] INFO root fetch - processPackages [localstack-plugin-persistence]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-10 10:04:31] INFO root fetch - processPackages [mistapi]: New version: [0.41.9] Old Version: [0.41.8]
+[2023-07-10 10:04:31] INFO root fetch - processPackages [pydatafabric]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-07-10 10:04:31] INFO root fetch - processPackages [feapder]: New version: [1.8.7b2] Old Version: [1.8.7b1]
+[2023-07-10 10:04:31] INFO root fetch - processPackages [feapder]: New version: [1.8.7b2] Old Version: [1.8.7b1]
+[2023-07-10 10:04:32] WARNING root fetch - processPackages [hyprshade]: Skipping, unable to determine old version
+[2023-07-10 10:04:32] INFO root fetch - main [MainThread]: End processing [hyprshade] error
+[2023-07-10 10:04:32] WARNING root fetch - processPackages [kaihoplots]: Skipping, unable to determine old version
+[2023-07-10 10:04:32] INFO root fetch - main [MainThread]: End processing [kaihoplots] error
+[2023-07-10 10:04:32] INFO root fetch - processPackages [imesh]: Downloading https://files.pythonhosted.org/packages/f8/11/fbb815700a24d95cfbe7365213d0aee80141c751106cf6f5ca79461d9263/imesh-0.0.8.tar.gz
+[2023-07-10 10:04:32] INFO root fetch - processPackages [pydatafabric]: Downloading https://files.pythonhosted.org/packages/83/00/e3d1625d7caebfb52a2d53ec946cd7d06ccb88bf2e0c1fbf0e95f57a2e83/pydatafabric-0.4.7.tar.gz
+[2023-07-10 10:04:32] INFO root fetch - processPackages [mistapi]: Downloading https://files.pythonhosted.org/packages/7c/7e/c80f4702c10dec7db81faaea2d584d96aa31fc91f05e2e141180faf6efd7/mistapi-0.41.8.tar.gz
+[2023-07-10 10:04:32] INFO root fetch - processPackages [localstack-plugin-persistence]: Downloading https://files.pythonhosted.org/packages/05/4a/7f32c0bebccef4a767ddfb31fe18148863eb269d5b7691e0d55f9a82a8dd/localstack-plugin-persistence-1.0.5.tar.gz
+[2023-07-10 10:04:32] INFO root fetch - processPackages [feapder]: Downloading https://files.pythonhosted.org/packages/9e/e1/6fb6c85cf3d250dab40bcf2b330bed30626830e40c23d4352ebd36a1c57a/feapder-1.8.7b1.tar.gz
+[2023-07-10 10:04:32] INFO root fetch - processPackages [feapder]: Downloading https://files.pythonhosted.org/packages/9e/e1/6fb6c85cf3d250dab40bcf2b330bed30626830e40c23d4352ebd36a1c57a/feapder-1.8.7b1.tar.gz
+[2023-07-10 10:04:32] INFO root fetch - processPackages [imesh]: Downloading https://files.pythonhosted.org/packages/9b/8d/a9d2b6ef3ee8c478fed84a6db20ce40bbc8121280b7ede35f9e98d939a5d/imesh-0.0.9.tar.gz
+[2023-07-10 10:04:32] INFO root fetch - processPackages [qiskit-iqm]: Downloading https://files.pythonhosted.org/packages/6f/9f/9f7666c7e61e4ba8b3f959e0c5eef07e997c7500f0d051b41a202380e0fc/qiskit-iqm-8.3.tar.gz
+[2023-07-10 10:04:32] INFO root fetch - processPackages [mistapi]: Downloading https://files.pythonhosted.org/packages/80/d3/b266dd4edb93a3e8306915b9003b44b3217feb55cf5e562b2563675b50bf/mistapi-0.41.9.tar.gz
+[2023-07-10 10:04:32] INFO root fetch - processPackages [pydatafabric]: Downloading https://files.pythonhosted.org/packages/e1/94/68f31cc8d3550619ab7419da65d6450332ab27cf4778fb46b490fbef56b9/pydatafabric-0.4.8.tar.gz
+[2023-07-10 10:04:32] INFO root fetch - processPackages [imesh]: executing diffoscope
+[2023-07-10 10:04:32] INFO root fetch - processPackages [imesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imesh-0.0.8.tar.gz tmp/imesh-0.0.9.tar.gz --markdown 20230710/i/imesh/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 10:04:32] INFO root fetch - processPackages [mistapi]: executing diffoscope
+[2023-07-10 10:04:32] INFO root fetch - processPackages [mistapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistapi-0.41.8.tar.gz tmp/mistapi-0.41.9.tar.gz --markdown 20230710/m/mistapi/0.41.8-0.41.9/diff.md --exclude *.pyd
+[2023-07-10 10:04:32] INFO root fetch - processPackages [localstack-plugin-persistence]: Downloading https://files.pythonhosted.org/packages/34/28/0372d6c0d6061ab30152b75c9ac494ff55cd82e47ad8acd50af02a08dd0a/localstack-plugin-persistence-1.0.6.tar.gz
+[2023-07-10 10:04:32] INFO root fetch - processPackages [pydatafabric]: executing diffoscope
+[2023-07-10 10:04:32] INFO root fetch - processPackages [pydatafabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatafabric-0.4.7.tar.gz tmp/pydatafabric-0.4.8.tar.gz --markdown 20230710/p/pydatafabric/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-07-10 10:04:32] INFO root fetch - processPackages [feapder]: Downloading https://files.pythonhosted.org/packages/37/70/8d9a79340f74bdb466973caf676a0db0219d5d739f16f8bdb9f630868caa/feapder-1.8.7b2.tar.gz
+[2023-07-10 10:04:32] INFO root fetch - processPackages [feapder]: Downloading https://files.pythonhosted.org/packages/37/70/8d9a79340f74bdb466973caf676a0db0219d5d739f16f8bdb9f630868caa/feapder-1.8.7b2.tar.gz
+[2023-07-10 10:04:32] INFO root fetch - processPackages [localstack-plugin-persistence]: executing diffoscope
+[2023-07-10 10:04:32] INFO root fetch - processPackages [localstack-plugin-persistence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-plugin-persistence-1.0.5.tar.gz tmp/localstack-plugin-persistence-1.0.6.tar.gz --markdown 20230710/l/localstack-plugin-persistence/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-10 10:04:33] INFO root fetch - processPackages [feapder]: executing diffoscope
+[2023-07-10 10:04:33] INFO root fetch - processPackages [feapder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feapder-1.8.7b1.tar.gz tmp/feapder-1.8.7b2.tar.gz --markdown 20230710/f/feapder/1.8.7b1-1.8.7b2/diff.md --exclude *.pyd
+[2023-07-10 10:04:33] INFO root fetch - processPackages [feapder]: executing diffoscope
+[2023-07-10 10:04:33] INFO root fetch - processPackages [feapder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feapder-1.8.7b1.tar.gz tmp/feapder-1.8.7b2.tar.gz --markdown 20230710/f/feapder/1.8.7b1-1.8.7b2/diff.md --exclude *.pyd
+[2023-07-10 10:04:33] INFO root fetch - processPackages [qiskit-iqm]: Downloading https://files.pythonhosted.org/packages/21/fa/19188be4ca367f4ebaec7bd7ee3b5daab94d4a3a20da3ac629796190e76b/qiskit-iqm-9.0.tar.gz
+[2023-07-10 10:04:33] INFO root fetch - processPackages [qiskit-iqm]: executing diffoscope
+[2023-07-10 10:04:33] INFO root fetch - processPackages [qiskit-iqm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit-iqm-8.3.tar.gz tmp/qiskit-iqm-9.0.tar.gz --markdown 20230710/q/qiskit-iqm/8.3-9.0/diff.md --exclude *.pyd
+[2023-07-10 10:04:33] INFO root fetch - processPackages [pydatafabric]: Remove: archive file [/home/abi/fetcher/tmp/pydatafabric-0.4.7.tar.gz]
+[2023-07-10 10:04:33] INFO root fetch - processPackages [pydatafabric]: Remove: archive file [/home/abi/fetcher/tmp/pydatafabric-0.4.8.tar.gz]
+[2023-07-10 10:04:33] INFO root fetch - main [MainThread]: End processing [pydatafabric]: success
+[2023-07-10 10:04:34] INFO root fetch - processPackages [localstack-plugin-persistence]: Remove: archive file [/home/abi/fetcher/tmp/localstack-plugin-persistence-1.0.5.tar.gz]
+[2023-07-10 10:04:34] INFO root fetch - processPackages [localstack-plugin-persistence]: Remove: archive file [/home/abi/fetcher/tmp/localstack-plugin-persistence-1.0.6.tar.gz]
+[2023-07-10 10:04:34] INFO root fetch - main [MainThread]: End processing [localstack-plugin-persistence]: success
+[2023-07-10 10:04:34] INFO root fetch - processPackages [imesh]: Remove: archive file [/home/abi/fetcher/tmp/imesh-0.0.8.tar.gz]
+[2023-07-10 10:04:34] INFO root fetch - processPackages [imesh]: Remove: archive file [/home/abi/fetcher/tmp/imesh-0.0.9.tar.gz]
+[2023-07-10 10:04:34] INFO root fetch - main [MainThread]: End processing [imesh]: success
+[2023-07-10 10:04:34] INFO root fetch - processPackages [feapder]: Remove: archive file [/home/abi/fetcher/tmp/feapder-1.8.7b1.tar.gz]
+[2023-07-10 10:04:34] INFO root fetch - processPackages [feapder]: Remove: archive file [/home/abi/fetcher/tmp/feapder-1.8.7b2.tar.gz]
+[2023-07-10 10:04:34] INFO root fetch - main [MainThread]: End processing [feapder]: success
+[2023-07-10 10:04:34] INFO root fetch - main [MainThread]: End processing [feapder]: success
+[2023-07-10 10:04:35] INFO root fetch - processPackages [qiskit-iqm]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-iqm-8.3.tar.gz]
+[2023-07-10 10:04:35] INFO root fetch - processPackages [qiskit-iqm]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-iqm-9.0.tar.gz]
+[2023-07-10 10:04:35] INFO root fetch - main [MainThread]: End processing [qiskit-iqm]: success
+[2023-07-10 10:04:35] INFO root fetch - processPackages [mistapi]: Remove: archive file [/home/abi/fetcher/tmp/mistapi-0.41.8.tar.gz]
+[2023-07-10 10:04:35] INFO root fetch - processPackages [mistapi]: Remove: archive file [/home/abi/fetcher/tmp/mistapi-0.41.9.tar.gz]
+[2023-07-10 10:04:35] INFO root fetch - main [MainThread]: End processing [mistapi]: success
+[2023-07-10 10:04:35] INFO root fetch - main [MainThread]: Store serial: [18828006]
