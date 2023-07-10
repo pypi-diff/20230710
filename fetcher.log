@@ -6839,3 +6839,60 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 06:09:39] INFO root fetch - processPackages [dev-assistant-client]: Remove: archive file [/home/abi/fetcher/tmp/dev-assistant-client-0.1.4.tar.gz]
 [2023-07-10 06:09:39] INFO root fetch - main [MainThread]: End processing [dev-assistant-client]: success
 [2023-07-10 06:09:39] INFO root fetch - main [MainThread]: Store serial: [18826275]
+[2023-07-10 06:14:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18826275]
+[2023-07-10 06:14:48] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-10 06:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sydeploy
+[2023-07-10 06:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DGet
+[2023-07-10 06:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: starred-repo-finder
+[2023-07-10 06:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-oauth2
+[2023-07-10 06:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: labml
+[2023-07-10 06:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DefyDatabase
+[2023-07-10 06:14:48] INFO root fetch - processPackages [django-oauth2]: New version: [4.1] Old Version: [4.0]
+[2023-07-10 06:14:48] INFO root fetch - processPackages [sydeploy]: New version: [0.2.92] Old Version: [0.2.91]
+[2023-07-10 06:14:48] INFO root fetch - processPackages [starred-repo-finder]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-10 06:14:48] INFO root fetch - processPackages [DGet]: New version: [0.9] Old Version: [0.8]
+[2023-07-10 06:14:48] INFO root fetch - processPackages [labml]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-07-10 06:14:48] INFO root fetch - processPackages [DGet]: Downloading https://files.pythonhosted.org/packages/9d/da/c24dfb2d507cb307cb8aa1a7eb560de93376054f8184bc55124a3834e932/DGet-0.8.tar.gz
+[2023-07-10 06:14:48] INFO root fetch - processPackages [starred-repo-finder]: Downloading https://files.pythonhosted.org/packages/b2/58/3aa747a15347abc2267795603935edfb8513ddcebb36c2207c8a0bf50997/starred_repo_finder-0.3.0.tar.gz
+[2023-07-10 06:14:48] INFO root fetch - processPackages [DefyDatabase]: New version: [10.0.0b1] Old Version: [10.0.0a4.dev202307071900]
+[2023-07-10 06:14:48] INFO root fetch - processPackages [labml]: Downloading https://files.pythonhosted.org/packages/ad/b0/2f629ab724eac107b099768a07fd8edd4da03b2de41b4f637073886003bc/labml-0.4.98.tar.gz
+[2023-07-10 06:14:48] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/8a/62/ec3c69e8b010e52ee78fe93ec39627531938d50668f2092e6b9f25e421e2/sydeploy-0.2.91-py3-none-any.whl
+[2023-07-10 06:14:48] INFO root fetch - processPackages [django-oauth2]: Downloading https://files.pythonhosted.org/packages/16/8d/50545a65eeb415e8bffbbc6e1c356e9ec3e35405da3cdb9e62f2e90c5888/django-oauth2-4.0.tar.gz
+[2023-07-10 06:14:49] INFO root fetch - processPackages [DGet]: Downloading https://files.pythonhosted.org/packages/34/87/4cf24c82732362ebb31866944ddbb4566ad0b8a317c80e4983dcf18e525f/DGet-0.9.tar.gz
+[2023-07-10 06:14:49] INFO root fetch - processPackages [DefyDatabase]: Downloading https://files.pythonhosted.org/packages/fc/58/b3941850fbe98badba327982683f2a7a8e221ee42b3a48201fb549b0f849/DefyDatabase-10.0.0a4.dev202307071900.tar.gz
+[2023-07-10 06:14:49] INFO root fetch - processPackages [labml]: Downloading https://files.pythonhosted.org/packages/3e/a4/7ab7ac87bc2b361ae6b357a7f09b0ab612c1b3d7475eca5f8db578d3af7b/labml-0.4.99.tar.gz
+[2023-07-10 06:14:49] INFO root fetch - processPackages [starred-repo-finder]: Downloading https://files.pythonhosted.org/packages/0b/ca/f9a008a479c34fc0615f31018d740ee9f1d2ed6a92b2e91d5e96a6957ec4/starred_repo_finder-0.4.0.tar.gz
+[2023-07-10 06:14:49] INFO root fetch - processPackages [DGet]: executing diffoscope
+[2023-07-10 06:14:49] INFO root fetch - processPackages [DGet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DGet-0.8.tar.gz tmp/DGet-0.9.tar.gz --markdown 20230710/D/DGet/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-10 06:14:49] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/17/6a/57326c3524f2be861275d72d9988d02bb70405951302fe73d0f39510185f/sydeploy-0.2.92-py3-none-any.whl
+[2023-07-10 06:14:49] INFO root fetch - processPackages [django-oauth2]: Downloading https://files.pythonhosted.org/packages/e5/45/320d1019da544b43c8ea7a3584220e2c6444104262b2da8329a685141535/django-oauth2-4.1.tar.gz
+[2023-07-10 06:14:49] INFO root fetch - processPackages [labml]: executing diffoscope
+[2023-07-10 06:14:49] INFO root fetch - processPackages [labml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labml-0.4.98.tar.gz tmp/labml-0.4.99.tar.gz --markdown 20230710/l/labml/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-07-10 06:14:49] INFO root fetch - processPackages [sydeploy]: executing diffoscope
+[2023-07-10 06:14:49] INFO root fetch - processPackages [sydeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sydeploy-0.2.91-py3-none-any.whl.zip tmp/sydeploy-0.2.92-py3-none-any.whl.zip --markdown 20230710/s/sydeploy/0.2.91-0.2.92/diff.md --exclude *.pyd
+[2023-07-10 06:14:49] INFO root fetch - processPackages [starred-repo-finder]: executing diffoscope
+[2023-07-10 06:14:49] INFO root fetch - processPackages [starred-repo-finder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starred_repo_finder-0.3.0.tar.gz tmp/starred_repo_finder-0.4.0.tar.gz --markdown 20230710/s/starred-repo-finder/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-10 06:14:49] INFO root fetch - processPackages [DefyDatabase]: Downloading https://files.pythonhosted.org/packages/9c/cd/9ca75d65ea8f3fd81dbb3b3f97fb1ea051610d3b96514d52516aa7c51106/DefyDatabase-10.0.0b1.tar.gz
+[2023-07-10 06:14:49] INFO root fetch - processPackages [django-oauth2]: executing diffoscope
+[2023-07-10 06:14:49] INFO root fetch - processPackages [django-oauth2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-oauth2-4.0.tar.gz tmp/django-oauth2-4.1.tar.gz --markdown 20230710/d/django-oauth2/4.0-4.1/diff.md --exclude *.pyd
+[2023-07-10 06:14:50] INFO root fetch - processPackages [DefyDatabase]: executing diffoscope
+[2023-07-10 06:14:50] INFO root fetch - processPackages [DefyDatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DefyDatabase-10.0.0a4.dev202307071900.tar.gz tmp/DefyDatabase-10.0.0b1.tar.gz --markdown 20230710/D/DefyDatabase/10.0.0a4.dev202307071900-10.0.0b1/diff.md --exclude *.pyd
+[2023-07-10 06:14:50] INFO root fetch - processPackages [DGet]: Remove: archive file [/home/abi/fetcher/tmp/DGet-0.8.tar.gz]
+[2023-07-10 06:14:50] INFO root fetch - processPackages [DGet]: Remove: archive file [/home/abi/fetcher/tmp/DGet-0.9.tar.gz]
+[2023-07-10 06:14:50] INFO root fetch - main [MainThread]: End processing [DGet]: success
+[2023-07-10 06:14:50] INFO root fetch - processPackages [starred-repo-finder]: Remove: archive file [/home/abi/fetcher/tmp/starred_repo_finder-0.3.0.tar.gz]
+[2023-07-10 06:14:50] INFO root fetch - processPackages [starred-repo-finder]: Remove: archive file [/home/abi/fetcher/tmp/starred_repo_finder-0.4.0.tar.gz]
+[2023-07-10 06:14:50] INFO root fetch - main [MainThread]: End processing [starred-repo-finder]: success
+[2023-07-10 06:14:50] INFO root fetch - processPackages [django-oauth2]: Remove: archive file [/home/abi/fetcher/tmp/django-oauth2-4.0.tar.gz]
+[2023-07-10 06:14:50] INFO root fetch - processPackages [django-oauth2]: Remove: archive file [/home/abi/fetcher/tmp/django-oauth2-4.1.tar.gz]
+[2023-07-10 06:14:50] INFO root fetch - main [MainThread]: End processing [django-oauth2]: success
+[2023-07-10 06:14:50] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.91-py3-none-any.whl.zip]
+[2023-07-10 06:14:50] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.92-py3-none-any.whl.zip]
+[2023-07-10 06:14:50] INFO root fetch - main [MainThread]: End processing [sydeploy]: success
+[2023-07-10 06:14:50] INFO root fetch - processPackages [labml]: Remove: archive file [/home/abi/fetcher/tmp/labml-0.4.98.tar.gz]
+[2023-07-10 06:14:50] INFO root fetch - processPackages [labml]: Remove: archive file [/home/abi/fetcher/tmp/labml-0.4.99.tar.gz]
+[2023-07-10 06:14:50] INFO root fetch - main [MainThread]: End processing [labml]: success
+[2023-07-10 06:14:50] INFO root fetch - processPackages [DefyDatabase]: Remove: archive file [/home/abi/fetcher/tmp/DefyDatabase-10.0.0a4.dev202307071900.tar.gz]
+[2023-07-10 06:14:50] INFO root fetch - processPackages [DefyDatabase]: Remove: archive file [/home/abi/fetcher/tmp/DefyDatabase-10.0.0b1.tar.gz]
+[2023-07-10 06:14:50] INFO root fetch - main [MainThread]: End processing [DefyDatabase]: success
+[2023-07-10 06:14:50] INFO root fetch - main [MainThread]: Store serial: [18826288]
