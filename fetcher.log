@@ -19368,3 +19368,176 @@ EOFError: EOF read where object expected
 [2023-07-10 15:55:08] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
 [2023-07-10 15:55:08] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
 [2023-07-10 15:55:08] INFO root fetch - main [MainThread]: Store serial: [18831432]
+[2023-07-10 16:00:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18831432]
+[2023-07-10 16:00:17] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-07-10 16:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-stable-diffusion-diao
+[2023-07-10 16:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: poetry-dynamic-versioning
+[2023-07-10 16:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: awsibox
+[2023-07-10 16:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lbt-honeybee
+[2023-07-10 16:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: colemen-utils
+[2023-07-10 16:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: papertronics-sdk
+[2023-07-10 16:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: orderly
+[2023-07-10 16:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ramodels
+[2023-07-10 16:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dv-utils
+[2023-07-10 16:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: oarepo-model-builder-multilingual
+[2023-07-10 16:00:18] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-07-10 16:00:18] INFO root fetch - processPackages [colemen-utils]: New version: [2.9.63] Old Version: [2.9.62]
+[2023-07-10 16:00:18] INFO root fetch - processPackages [orderly]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-10 16:00:18] WARNING root fetch - processPackages [papertronics-sdk]: Skipping, unable to determine old version
+[2023-07-10 16:00:18] INFO root fetch - processPackages [papertronics-sdk]: Start processing: icub-models
+[2023-07-10 16:00:18] INFO root fetch - main [MainThread]: End processing [papertronics-sdk] error
+[2023-07-10 16:00:18] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-10 16:00:18] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-07-10 16:00:18] INFO root fetch - processPackages [awsibox]: New version: [0.8.8] Old Version: [0.8.7]
+[2023-07-10 16:00:18] INFO root fetch - processPackages [icub-models]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-07-10 16:00:18] INFO root fetch - processPackages [dv-utils]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-10 16:00:18] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: New version: [0.3.0.1] Old Version: [0.3]
+[2023-07-10 16:00:18] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: New version: [3.0.7] Old Version: [3.0.6]
+[2023-07-10 16:00:18] INFO root fetch - processPackages [poetry-dynamic-versioning]: New version: [1.0.0b3] Old Version: [1.0.0b2]
+[2023-07-10 16:00:18] INFO root fetch - processPackages [colemen-utils]: Downloading https://files.pythonhosted.org/packages/69/ca/315cf89da6a7e43cf5cb106400b56a1a008a90345fe6b6061c135445c1bf/colemen_utils-2.9.62.tar.gz
+[2023-07-10 16:00:18] INFO root fetch - processPackages [orderly]: Downloading https://files.pythonhosted.org/packages/55/23/e4b94431eee3935336a00f366f451dfd4919eb3bf4155349313319176933/orderly-0.0.1.tar.gz
+[2023-07-10 16:00:18] INFO root fetch - processPackages [awsibox]: Downloading https://files.pythonhosted.org/packages/ff/6e/e1476c2d601dccb2c7b6e1e053f941e02e224c17489a47975c45b09ed164/awsibox-0.8.7.tar.gz
+[2023-07-10 16:00:18] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/19/59/4901be09b4bc6b97917c58bf3279cb373aa222989b9501e53b4c43213a9e/lbt-honeybee-0.7.98.tar.gz
+[2023-07-10 16:00:18] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-07-10 16:00:18] WARNING root fetch - processPackages [orderly]: Skipping package: exceeds size limit 18454258>=10485760
+[2023-07-10 16:00:18] INFO root fetch - processPackages [orderly]: Start processing: sethan
+[2023-07-10 16:00:18] INFO root fetch - main [MainThread]: End processing [orderly] error
+[2023-07-10 16:00:18] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/71/9b/b3881e9941f6ab4edd692fc196955939313affca7acbfd5c44ce8b3cb969/nonebot_plugin_stable_diffusion_diao-0.3.tar.gz
+[2023-07-10 16:00:18] INFO root fetch - processPackages [icub-models]: Downloading https://files.pythonhosted.org/packages/52/9d/46dad55fa092c91524cdf4db08dcbf615b7a33e9931cb75196d7e2d03aa9/icub_models-2.2.0.tar.gz
+[2023-07-10 16:00:18] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: Downloading https://files.pythonhosted.org/packages/3a/6d/bf816ca71c6717307b8b980e4417a3dda70fbbbad67044e011243607d97c/oarepo-model-builder-multilingual-3.0.6.tar.gz
+[2023-07-10 16:00:18] INFO root fetch - processPackages [poetry-dynamic-versioning]: Downloading https://files.pythonhosted.org/packages/b1/d6/5a83f2b400fce07e8f10d782dbf3eadae453b1a65923418e3b0e961c5bc4/poetry-dynamic-versioning-1.0.0b2.tar.gz
+[2023-07-10 16:00:18] INFO root fetch - processPackages [dv-utils]: Downloading https://files.pythonhosted.org/packages/6b/78/9aab158dcb8a4529ef04785ed9f807b4addbb2b35c3eed485c124285c3de/dv_utils-0.1.3.tar.gz
+[2023-07-10 16:00:18] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-07-10 16:00:18] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230710/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-07-10 16:00:18] WARNING root fetch - processPackages [sethan]: Skipping, unable to determine old version
+[2023-07-10 16:00:18] INFO root fetch - processPackages [sethan]: Start processing: google-cloud-os-login
+[2023-07-10 16:00:18] INFO root fetch - main [MainThread]: End processing [sethan] error
+[2023-07-10 16:00:18] INFO root fetch - processPackages [google-cloud-os-login]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-07-10 16:00:18] WARNING root fetch - processPackages [icub-models]: Skipping package: exceeds size limit 23549637>=10485760
+[2023-07-10 16:00:18] INFO root fetch - processPackages [icub-models]: Start processing: colemen-utils
+[2023-07-10 16:00:18] INFO root fetch - main [MainThread]: End processing [icub-models] error
+[2023-07-10 16:00:19] INFO root fetch - processPackages [colemen-utils]: New version: [2.9.63] Old Version: [2.9.62]
+[2023-07-10 16:00:19] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/a2/24/156ec161f44515db7966a68d9cc8aa62da7475128d138541e64b86dd4487/lbt-honeybee-0.7.99.tar.gz
+[2023-07-10 16:00:19] INFO root fetch - processPackages [colemen-utils]: Downloading https://files.pythonhosted.org/packages/48/d6/a4ea4d4d949588944737f8db20f68db94b2799c25c0697eb5e304670d0db/colemen_utils-2.9.63.tar.gz
+[2023-07-10 16:00:19] INFO root fetch - processPackages [google-cloud-os-login]: Downloading https://files.pythonhosted.org/packages/a4/63/992c772c62efa5b60d26dec7a69944113f49d351ddfd404269b69e0e4a81/google-cloud-os-login-2.9.0.tar.gz
+[2023-07-10 16:00:19] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/2b/d2/d77a4d0c22e464c288b1d4b08eb40a869e286a35a5874cb2800c68eefc52/nonebot_plugin_stable_diffusion_diao-0.3.0.1.tar.gz
+[2023-07-10 16:00:19] INFO root fetch - processPackages [dv-utils]: Downloading https://files.pythonhosted.org/packages/f0/a2/a268c725ce4e766fa77c197f566311efb49317d9e054a628ba8989898640/dv_utils-0.1.4.tar.gz
+[2023-07-10 16:00:19] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: Downloading https://files.pythonhosted.org/packages/14/2b/125a75eb7b8039498cf31eab2f32ac4945c0ab07c66332cb5f4a0c3a0f64/oarepo-model-builder-multilingual-3.0.7.tar.gz
+[2023-07-10 16:00:19] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-07-10 16:00:19] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230710/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-10 16:00:19] INFO root fetch - processPackages [colemen-utils]: Downloading https://files.pythonhosted.org/packages/48/d6/a4ea4d4d949588944737f8db20f68db94b2799c25c0697eb5e304670d0db/colemen_utils-2.9.63.tar.gz
+[2023-07-10 16:00:19] INFO root fetch - processPackages [awsibox]: Downloading https://files.pythonhosted.org/packages/a9/ef/7a9efb1d4ba1b9713e2cc7f8ef7b2d2c17b5d5bcea85e70cba8d3c239af3/awsibox-0.8.8.tar.gz
+[2023-07-10 16:00:19] INFO root fetch - processPackages [colemen-utils]: executing diffoscope
+[2023-07-10 16:00:19] INFO root fetch - processPackages [colemen-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colemen_utils-2.9.62.tar.gz tmp/colemen_utils-2.9.63.tar.gz --markdown 20230710/c/colemen-utils/2.9.62-2.9.63/diff.md --exclude *.pyd
+[2023-07-10 16:00:19] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: executing diffoscope
+[2023-07-10 16:00:19] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_stable_diffusion_diao-0.3.tar.gz tmp/nonebot_plugin_stable_diffusion_diao-0.3.0.1.tar.gz --markdown 20230710/n/nonebot-plugin-stable-diffusion-diao/0.3-0.3.0.1/diff.md --exclude *.pyd
+[2023-07-10 16:00:19] INFO root fetch - processPackages [colemen-utils]: executing diffoscope
+[2023-07-10 16:00:19] INFO root fetch - processPackages [colemen-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colemen_utils-2.9.62.tar.gz tmp/colemen_utils-2.9.63.tar.gz --markdown 20230710/c/colemen-utils/2.9.62-2.9.63/diff.md --exclude *.pyd
+[2023-07-10 16:00:19] INFO root fetch - processPackages [dv-utils]: executing diffoscope
+[2023-07-10 16:00:19] INFO root fetch - processPackages [dv-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dv_utils-0.1.3.tar.gz tmp/dv_utils-0.1.4.tar.gz --markdown 20230710/d/dv-utils/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-10 16:00:19] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: executing diffoscope
+[2023-07-10 16:00:19] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-multilingual-3.0.6.tar.gz tmp/oarepo-model-builder-multilingual-3.0.7.tar.gz --markdown 20230710/o/oarepo-model-builder-multilingual/3.0.6-3.0.7/diff.md --exclude *.pyd
+[2023-07-10 16:00:19] INFO root fetch - processPackages [awsibox]: executing diffoscope
+[2023-07-10 16:00:19] INFO root fetch - processPackages [awsibox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awsibox-0.8.7.tar.gz tmp/awsibox-0.8.8.tar.gz --markdown 20230710/a/awsibox/0.8.7-0.8.8/diff.md --exclude *.pyd
+[2023-07-10 16:00:19] INFO root fetch - processPackages [google-cloud-os-login]: Downloading https://files.pythonhosted.org/packages/81/87/153628aec06e4f1eb89fb656c4c687de068b5834ed159284acb8227ab02c/google-cloud-os-login-2.9.1.tar.gz
+[2023-07-10 16:00:19] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-07-10 16:00:19] INFO root fetch - processPackages [google-cloud-os-login]: executing diffoscope
+[2023-07-10 16:00:19] INFO root fetch - processPackages [google-cloud-os-login]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-os-login-2.9.0.tar.gz tmp/google-cloud-os-login-2.9.1.tar.gz --markdown 20230710/g/google-cloud-os-login/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-07-10 16:00:19] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-07-10 16:00:19] INFO root fetch - processPackages [ramodels]: Start processing: pytest-nhsd-apim
+[2023-07-10 16:00:19] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-07-10 16:00:19] INFO root fetch - processPackages [pytest-nhsd-apim]: New version: [3.3.3] Old Version: [3.3.2]
+[2023-07-10 16:00:20] INFO root fetch - processPackages [poetry-dynamic-versioning]: Downloading https://files.pythonhosted.org/packages/81/a2/81f8bcee29b28979952b5596f15e5e16b9d160ab3644e20c449a2f15ed29/poetry-dynamic-versioning-1.0.0b3.tar.gz
+[2023-07-10 16:00:20] INFO root fetch - processPackages [pytest-nhsd-apim]: Downloading https://files.pythonhosted.org/packages/04/e4/c19b76e05589e1db3766813539b0f29b9eda0c4ceac736b8deaefe86dcb6/pytest-nhsd-apim-3.3.2.tar.gz
+[2023-07-10 16:00:20] INFO root fetch - processPackages [poetry-dynamic-versioning]: executing diffoscope
+[2023-07-10 16:00:20] INFO root fetch - processPackages [poetry-dynamic-versioning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry-dynamic-versioning-1.0.0b2.tar.gz tmp/poetry-dynamic-versioning-1.0.0b3.tar.gz --markdown 20230710/p/poetry-dynamic-versioning/1.0.0b2-1.0.0b3/diff.md --exclude *.pyd
+[2023-07-10 16:00:20] INFO root fetch - processPackages [pytest-nhsd-apim]: Downloading https://files.pythonhosted.org/packages/72/39/775bb052f1137ecb94c3c70e31120683d3a5bbe2e875dce960653220da40/pytest-nhsd-apim-3.3.3.tar.gz
+[2023-07-10 16:00:20] INFO root fetch - processPackages [pytest-nhsd-apim]: executing diffoscope
+[2023-07-10 16:00:20] INFO root fetch - processPackages [pytest-nhsd-apim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-nhsd-apim-3.3.2.tar.gz tmp/pytest-nhsd-apim-3.3.3.tar.gz --markdown 20230710/p/pytest-nhsd-apim/3.3.2-3.3.3/diff.md --exclude *.pyd
+[2023-07-10 16:00:20] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.98.tar.gz]
+[2023-07-10 16:00:20] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.99.tar.gz]
+[2023-07-10 16:00:20] INFO root fetch - processPackages [lbt-honeybee]: Start processing: moosez
+[2023-07-10 16:00:20] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-07-10 16:00:20] INFO root fetch - processPackages [moosez]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-10 16:00:21] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/c2/b9/9ba3e44254ad29decd7b08760b84b94f2989dea3bc65cac9ae71ea9f0357/moosez-2.1.8.tar.gz
+[2023-07-10 16:00:21] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/56/ac/bc6012faf269fbaf5537a960e128eda0094dce0864f52bcb84ea8826d3cf/moosez-2.1.9.tar.gz
+[2023-07-10 16:00:21] INFO root fetch - processPackages [dv-utils]: Remove: archive file [/home/abi/fetcher/tmp/dv_utils-0.1.3.tar.gz]
+[2023-07-10 16:00:21] INFO root fetch - processPackages [dv-utils]: Remove: archive file [/home/abi/fetcher/tmp/dv_utils-0.1.4.tar.gz]
+[2023-07-10 16:00:21] INFO root fetch - processPackages [dv-utils]: Start processing: lbt-dragonfly
+[2023-07-10 16:00:21] INFO root fetch - main [MainThread]: End processing [dv-utils]: success
+[2023-07-10 16:00:21] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.tar.gz]
+[2023-07-10 16:00:21] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.0.1.tar.gz]
+[2023-07-10 16:00:21] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Start processing: cashoco
+[2023-07-10 16:00:21] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-stable-diffusion-diao]: success
+[2023-07-10 16:00:21] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-07-10 16:00:21] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-multilingual-3.0.6.tar.gz]
+[2023-07-10 16:00:21] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-multilingual-3.0.7.tar.gz]
+[2023-07-10 16:00:21] INFO root fetch - processPackages [oarepo-model-builder-multilingual]: Start processing: vectordb
+[2023-07-10 16:00:21] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder-multilingual]: success
+[2023-07-10 16:00:21] INFO root fetch - processPackages [moosez]: executing diffoscope
+[2023-07-10 16:00:21] INFO root fetch - processPackages [moosez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moosez-2.1.8.tar.gz tmp/moosez-2.1.9.tar.gz --markdown 20230710/m/moosez/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-10 16:00:21] INFO root fetch - processPackages [colemen-utils]: Remove: archive file [/home/abi/fetcher/tmp/colemen_utils-2.9.62.tar.gz]
+[2023-07-10 16:00:21] INFO root fetch - processPackages [colemen-utils]: Remove: archive file [/home/abi/fetcher/tmp/colemen_utils-2.9.63.tar.gz]
+[2023-07-10 16:00:21] INFO root fetch - processPackages [colemen-utils]: Start processing: gdal2numpy
+[2023-07-10 16:00:21] INFO root fetch - main [MainThread]: End processing [colemen-utils]: success
+[2023-07-10 16:00:21] WARNING root fetch - processPackages [cashoco]: Skipping, unable to determine old version
+[2023-07-10 16:00:21] INFO root fetch - processPackages [cashoco]: Start processing: lbt-honeybee
+[2023-07-10 16:00:21] INFO root fetch - main [MainThread]: End processing [cashoco] error
+[2023-07-10 16:00:21] INFO root fetch - processPackages [gdal2numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-10 16:00:21] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-10 16:00:21] INFO root fetch - processPackages [google-cloud-os-login]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-os-login-2.9.0.tar.gz]
+[2023-07-10 16:00:21] INFO root fetch - processPackages [google-cloud-os-login]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-os-login-2.9.1.tar.gz]
+[2023-07-10 16:00:21] INFO root fetch - processPackages [google-cloud-os-login]: Start processing: pycolouringsextV1
+[2023-07-10 16:00:21] INFO root fetch - main [MainThread]: End processing [google-cloud-os-login]: success
+[2023-07-10 16:00:21] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-07-10 16:00:21] INFO root fetch - processPackages [vectordb]: New version: [0.0.7.dev2] Old Version: [0.0.7]
+[2023-07-10 16:00:21] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/8b/c7/c38f143f5db75454a9df08f7ff287cb3de46fb5f10139def0fcb92a15404/gdal2numpy-0.0.98.tar.gz
+[2023-07-10 16:00:21] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/19/59/4901be09b4bc6b97917c58bf3279cb373aa222989b9501e53b4c43213a9e/lbt-honeybee-0.7.98.tar.gz
+[2023-07-10 16:00:21] INFO root fetch - processPackages [poetry-dynamic-versioning]: Remove: archive file [/home/abi/fetcher/tmp/poetry-dynamic-versioning-1.0.0b2.tar.gz]
+[2023-07-10 16:00:21] INFO root fetch - processPackages [poetry-dynamic-versioning]: Remove: archive file [/home/abi/fetcher/tmp/poetry-dynamic-versioning-1.0.0b3.tar.gz]
+[2023-07-10 16:00:21] INFO root fetch - processPackages [poetry-dynamic-versioning]: Start processing: vectordb
+[2023-07-10 16:00:21] INFO root fetch - main [MainThread]: End processing [poetry-dynamic-versioning]: success
+[2023-07-10 16:00:21] INFO root fetch - main [MainThread]: End processing [colemen-utils]: success
+[2023-07-10 16:00:21] ERROR root fetch - processPackages [pycolouringsextV1]: Unable to get metadata: No such project 'pycolouringsextV1'
+[2023-07-10 16:00:21] INFO root fetch - main [MainThread]: End processing [pycolouringsextV1] error
+[2023-07-10 16:00:21] INFO root fetch - processPackages [vectordb]: New version: [0.0.7.dev2] Old Version: [0.0.7]
+[2023-07-10 16:00:21] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/a2/24/156ec161f44515db7966a68d9cc8aa62da7475128d138541e64b86dd4487/lbt-honeybee-0.7.99.tar.gz
+[2023-07-10 16:00:21] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-07-10 16:00:21] INFO root fetch - processPackages [vectordb]: Downloading https://files.pythonhosted.org/packages/4b/ec/60530c33dcdd3b05ce38937e032a3e3a43944407142d7d5217604270ecdf/vectordb-0.0.7.tar.gz
+[2023-07-10 16:00:21] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/67/ee/9c755bd5249fc9dc6a1dd773cb241c19b8df83a94fc0674017b57bd19e20/gdal2numpy-0.0.99.tar.gz
+[2023-07-10 16:00:22] INFO root fetch - processPackages [pytest-nhsd-apim]: Remove: archive file [/home/abi/fetcher/tmp/pytest-nhsd-apim-3.3.2.tar.gz]
+[2023-07-10 16:00:22] INFO root fetch - processPackages [pytest-nhsd-apim]: Remove: archive file [/home/abi/fetcher/tmp/pytest-nhsd-apim-3.3.3.tar.gz]
+[2023-07-10 16:00:22] INFO root fetch - main [MainThread]: End processing [pytest-nhsd-apim]: success
+[2023-07-10 16:00:22] INFO root fetch - processPackages [vectordb]: Downloading https://files.pythonhosted.org/packages/4b/ec/60530c33dcdd3b05ce38937e032a3e3a43944407142d7d5217604270ecdf/vectordb-0.0.7.tar.gz
+[2023-07-10 16:00:22] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-07-10 16:00:22] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230710/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-07-10 16:00:22] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-07-10 16:00:22] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230710/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-10 16:00:22] INFO root fetch - processPackages [gdal2numpy]: executing diffoscope
+[2023-07-10 16:00:22] INFO root fetch - processPackages [gdal2numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdal2numpy-0.0.98.tar.gz tmp/gdal2numpy-0.0.99.tar.gz --markdown 20230710/g/gdal2numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-10 16:00:22] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.1.8.tar.gz]
+[2023-07-10 16:00:22] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.1.9.tar.gz]
+[2023-07-10 16:00:22] INFO root fetch - main [MainThread]: End processing [moosez]: success
+[2023-07-10 16:00:22] INFO root fetch - processPackages [vectordb]: Downloading https://files.pythonhosted.org/packages/1a/aa/d350da857a7e3fc7c736b1d52ee75ed42ab8296f3099cde0ecd850e24d25/vectordb-0.0.7.dev2.tar.gz
+[2023-07-10 16:00:22] INFO root fetch - processPackages [vectordb]: Downloading https://files.pythonhosted.org/packages/1a/aa/d350da857a7e3fc7c736b1d52ee75ed42ab8296f3099cde0ecd850e24d25/vectordb-0.0.7.dev2.tar.gz
+[2023-07-10 16:00:22] INFO root fetch - processPackages [vectordb]: executing diffoscope
+[2023-07-10 16:00:22] INFO root fetch - processPackages [vectordb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectordb-0.0.7.tar.gz tmp/vectordb-0.0.7.dev2.tar.gz --markdown 20230710/v/vectordb/0.0.7-0.0.7.dev2/diff.md --exclude *.pyd
+[2023-07-10 16:00:22] INFO root fetch - processPackages [vectordb]: executing diffoscope
+[2023-07-10 16:00:22] INFO root fetch - processPackages [vectordb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectordb-0.0.7.tar.gz tmp/vectordb-0.0.7.dev2.tar.gz --markdown 20230710/v/vectordb/0.0.7-0.0.7.dev2/diff.md --exclude *.pyd
+[2023-07-10 16:00:23] INFO root fetch - processPackages [awsibox]: Remove: archive file [/home/abi/fetcher/tmp/awsibox-0.8.7.tar.gz]
+[2023-07-10 16:00:23] INFO root fetch - processPackages [awsibox]: Remove: archive file [/home/abi/fetcher/tmp/awsibox-0.8.8.tar.gz]
+[2023-07-10 16:00:23] INFO root fetch - main [MainThread]: End processing [awsibox]: success
+[2023-07-10 16:00:23] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.98.tar.gz]
+[2023-07-10 16:00:23] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.99.tar.gz]
+[2023-07-10 16:00:23] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-07-10 16:00:23] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2023-07-10 16:00:23] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2023-07-10 16:00:23] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-07-10 16:00:23] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.98.tar.gz]
+[2023-07-10 16:00:23] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.99.tar.gz]
+[2023-07-10 16:00:23] INFO root fetch - main [MainThread]: End processing [gdal2numpy]: success
+[2023-07-10 16:00:23] INFO root fetch - processPackages [vectordb]: Remove: archive file [/home/abi/fetcher/tmp/vectordb-0.0.7.tar.gz]
+[2023-07-10 16:00:23] INFO root fetch - processPackages [vectordb]: Remove: archive file [/home/abi/fetcher/tmp/vectordb-0.0.7.dev2.tar.gz]
+[2023-07-10 16:00:23] INFO root fetch - main [MainThread]: End processing [vectordb]: success
+[2023-07-10 16:00:23] INFO root fetch - main [MainThread]: End processing [vectordb]: success
+[2023-07-10 16:00:23] INFO root fetch - main [MainThread]: Store serial: [18831512]
