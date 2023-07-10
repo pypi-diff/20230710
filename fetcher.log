@@ -9360,3 +9360,114 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 08:49:55] INFO root fetch - processPackages [cioseq]: Remove: archive file [/home/abi/fetcher/tmp/cioseq-0.3.0-py2.py3-none-any.whl.zip]
 [2023-07-10 08:49:55] INFO root fetch - main [MainThread]: End processing [cioseq]: success
 [2023-07-10 08:49:55] INFO root fetch - main [MainThread]: Store serial: [18827304]
+[2023-07-10 08:54:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18827304]
+[2023-07-10 08:55:04] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-10 08:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyxargs
+[2023-07-10 08:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hubotlibs
+[2023-07-10 08:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: appscommon
+[2023-07-10 08:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rqdatac
+[2023-07-10 08:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hds-stats
+[2023-07-10 08:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SwarAnuvad
+[2023-07-10 08:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: peelml
+[2023-07-10 08:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jabir
+[2023-07-10 08:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-nobahpicture
+[2023-07-10 08:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: briefcase
+[2023-07-10 08:55:04] INFO root fetch - processPackages [hubotlibs]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-10 08:55:05] INFO root fetch - processPackages [pyxargs]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-07-10 08:55:05] WARNING root fetch - processPackages [peelml]: Skipping, unable to determine old version
+[2023-07-10 08:55:05] INFO root fetch - processPackages [peelml]: Start processing: pontos
+[2023-07-10 08:55:05] INFO root fetch - main [MainThread]: End processing [peelml] error
+[2023-07-10 08:55:05] WARNING root fetch - processPackages [SwarAnuvad]: Skipping, unable to determine old version
+[2023-07-10 08:55:05] INFO root fetch - processPackages [SwarAnuvad]: Start processing: wtfutil
+[2023-07-10 08:55:05] INFO root fetch - main [MainThread]: End processing [SwarAnuvad] error
+[2023-07-10 08:55:05] WARNING root fetch - processPackages [jabir]: Skipping, unable to determine old version
+[2023-07-10 08:55:05] INFO root fetch - processPackages [hds-stats]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-10 08:55:05] INFO root fetch - processPackages [jabir]: Start processing: baysalt-christmas
+[2023-07-10 08:55:05] INFO root fetch - main [MainThread]: End processing [jabir] error
+[2023-07-10 08:55:05] INFO root fetch - processPackages [nonebot-plugin-nobahpicture]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-10 08:55:05] INFO root fetch - processPackages [appscommon]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-10 08:55:05] INFO root fetch - processPackages [briefcase]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-10 08:55:05] INFO root fetch - processPackages [rqdatac]: New version: [2.9.8] Old Version: [2.9.7]
+[2023-07-10 08:55:05] INFO root fetch - processPackages [wtfutil]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-10 08:55:05] INFO root fetch - processPackages [pontos]: New version: [23.7.6] Old Version: [23.7.5]
+[2023-07-10 08:55:05] INFO root fetch - processPackages [baysalt-christmas]: New version: [0.1.8.5] Old Version: [0.1.8.4]
+[2023-07-10 08:55:05] INFO root fetch - processPackages [hubotlibs]: Downloading https://files.pythonhosted.org/packages/99/aa/fe711501677c82a2cbc8935dcf9bf9629bd9230dddedde39a1589595e040/hubotlibs-0.3.3.tar.gz
+[2023-07-10 08:55:05] INFO root fetch - processPackages [hds-stats]: Downloading https://files.pythonhosted.org/packages/0a/b6/8eabea30671bf58fb9e4173bdea0be338914111bc162b64138600112a9cf/hds-stats-0.3.3.tar.gz
+[2023-07-10 08:55:05] INFO root fetch - processPackages [appscommon]: Downloading https://files.pythonhosted.org/packages/88/77/ee68487be6c9b28ef46ecece714a420a2f01b5d55a02a1da386fd845a27b/appscommon-0.0.1.tar.gz
+[2023-07-10 08:55:05] INFO root fetch - processPackages [pyxargs]: Downloading https://files.pythonhosted.org/packages/ca/d3/20c814faf81e8d4c98a92bf320986b943657063987d4c53e10773c797563/pyxargs-2.2.0.tar.gz
+[2023-07-10 08:55:05] INFO root fetch - processPackages [baysalt-christmas]: Downloading https://files.pythonhosted.org/packages/a0/ea/88bdf801b185167724b11d33e388adc1c3fa52364e3b701101ad74808dc9/baysalt_christmas-0.1.8.4.tar.gz
+[2023-07-10 08:55:05] INFO root fetch - processPackages [nonebot-plugin-nobahpicture]: Downloading https://files.pythonhosted.org/packages/ff/fc/c7aed15e91c11ad80d5a33f854af62bd93c0ebc0f7012d3a57c4c699dc7d/nonebot-plugin-nobahpicture-1.0.1.tar.gz
+[2023-07-10 08:55:05] INFO root fetch - processPackages [rqdatac]: Downloading https://files.pythonhosted.org/packages/90/b6/591b01b456b98874d6e034b98d6ec3812de60b8dc0e73b29d834f8b185ba/rqdatac-2.9.7-cp38-cp38-win_amd64.whl
+[2023-07-10 08:55:05] INFO root fetch - processPackages [pontos]: Downloading https://files.pythonhosted.org/packages/4c/0c/f9c483b10897ac913b189a43fed8508249f0dffadd60c0ca8a23f668e42d/pontos-23.7.5.tar.gz
+[2023-07-10 08:55:05] INFO root fetch - processPackages [wtfutil]: Downloading https://files.pythonhosted.org/packages/c8/7c/e552245f3f74a3b0ce79478c264c39b0b8f680465bf475f5858e0069fcfc/wtfutil-1.0.8-py2.py3-none-any.whl
+[2023-07-10 08:55:05] INFO root fetch - processPackages [briefcase]: Downloading https://files.pythonhosted.org/packages/b4/17/9c7079213d88de959b95a84562125d04df95c732d8a0bc6134355539536e/briefcase-0.3.8.tar.gz
+[2023-07-10 08:55:05] INFO root fetch - processPackages [hubotlibs]: Downloading https://files.pythonhosted.org/packages/04/3e/926fa222de86aec9d44b292fbb862a333b1399bcd39c15af94a4178709d2/hubotlibs-0.3.4.tar.gz
+[2023-07-10 08:55:05] INFO root fetch - processPackages [hds-stats]: Downloading https://files.pythonhosted.org/packages/5b/73/69d96bba9c5051d6a9e0cd32646fbdf4ac282f9a5f74116a2fa311bfc7db/hds-stats-0.3.4.tar.gz
+[2023-07-10 08:55:05] INFO root fetch - processPackages [pyxargs]: Downloading https://files.pythonhosted.org/packages/5f/dc/c969acf6ce48d46888927cf34c48b1eb6b5c535fc2ca77dc776c0196000b/pyxargs-2.3.0.tar.gz
+[2023-07-10 08:55:05] INFO root fetch - processPackages [appscommon]: Downloading https://files.pythonhosted.org/packages/f9/19/76c6cd2a05cd2e1b5d111805079dbc9457a85648adb57280f50fb28a9de2/appscommon-0.0.2.tar.gz
+[2023-07-10 08:55:05] INFO root fetch - processPackages [baysalt-christmas]: Downloading https://files.pythonhosted.org/packages/73/6e/f1890d67f78eb6c0a1230bdf7365f003753b32439b947de7d43baed6c014/baysalt_christmas-0.1.8.5.tar.gz
+[2023-07-10 08:55:05] INFO root fetch - processPackages [hubotlibs]: executing diffoscope
+[2023-07-10 08:55:05] INFO root fetch - processPackages [hubotlibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubotlibs-0.3.3.tar.gz tmp/hubotlibs-0.3.4.tar.gz --markdown 20230710/h/hubotlibs/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-10 08:55:05] INFO root fetch - processPackages [hds-stats]: executing diffoscope
+[2023-07-10 08:55:05] INFO root fetch - processPackages [hds-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hds-stats-0.3.3.tar.gz tmp/hds-stats-0.3.4.tar.gz --markdown 20230710/h/hds-stats/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-10 08:55:05] INFO root fetch - processPackages [pontos]: Downloading https://files.pythonhosted.org/packages/01/be/9b482b1d2766d948f98c4c0b174aa5e4caf0faa26ba4c4643526390dee0c/pontos-23.7.6.tar.gz
+[2023-07-10 08:55:06] INFO root fetch - processPackages [nonebot-plugin-nobahpicture]: Downloading https://files.pythonhosted.org/packages/4e/3f/1a9d16e6a1caa16c338b445a74f062bff0f3c79de24dadebcb65ce123f2f/nonebot-plugin-nobahpicture-1.0.2.tar.gz
+[2023-07-10 08:55:06] INFO root fetch - processPackages [pyxargs]: executing diffoscope
+[2023-07-10 08:55:06] INFO root fetch - processPackages [pyxargs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxargs-2.2.0.tar.gz tmp/pyxargs-2.3.0.tar.gz --markdown 20230710/p/pyxargs/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-07-10 08:55:06] INFO root fetch - processPackages [rqdatac]: Downloading https://files.pythonhosted.org/packages/d6/cf/51051b52cdbade7aa3c185f1d7fb144e327ff1c676a67ba8d842f933df4b/rqdatac-2.9.8-cp38-cp38-win_amd64.whl
+[2023-07-10 08:55:06] INFO root fetch - processPackages [baysalt-christmas]: executing diffoscope
+[2023-07-10 08:55:06] INFO root fetch - processPackages [baysalt-christmas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baysalt_christmas-0.1.8.4.tar.gz tmp/baysalt_christmas-0.1.8.5.tar.gz --markdown 20230710/b/baysalt-christmas/0.1.8.4-0.1.8.5/diff.md --exclude *.pyd
+[2023-07-10 08:55:06] INFO root fetch - processPackages [wtfutil]: Downloading https://files.pythonhosted.org/packages/7c/17/9753ffecedc6f31909b872005fdc062bfb889f54193d4a2cb1463cabc305/wtfutil-1.0.9-py2.py3-none-any.whl
+[2023-07-10 08:55:06] INFO root fetch - processPackages [nonebot-plugin-nobahpicture]: executing diffoscope
+[2023-07-10 08:55:06] INFO root fetch - processPackages [nonebot-plugin-nobahpicture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-nobahpicture-1.0.1.tar.gz tmp/nonebot-plugin-nobahpicture-1.0.2.tar.gz --markdown 20230710/n/nonebot-plugin-nobahpicture/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-10 08:55:06] INFO root fetch - processPackages [appscommon]: executing diffoscope
+[2023-07-10 08:55:06] INFO root fetch - processPackages [appscommon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appscommon-0.0.1.tar.gz tmp/appscommon-0.0.2.tar.gz --markdown 20230710/a/appscommon/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-10 08:55:06] INFO root fetch - processPackages [pontos]: executing diffoscope
+[2023-07-10 08:55:06] INFO root fetch - processPackages [pontos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pontos-23.7.5.tar.gz tmp/pontos-23.7.6.tar.gz --markdown 20230710/p/pontos/23.7.5-23.7.6/diff.md --exclude *.pyd
+[2023-07-10 08:55:06] INFO root fetch - processPackages [briefcase]: Downloading https://files.pythonhosted.org/packages/02/90/03029de48fcf59ea5a6898f1b8663516c6dfed92d1bf73a375471af255dd/briefcase-0.3.9.tar.gz
+[2023-07-10 08:55:06] INFO root fetch - processPackages [wtfutil]: executing diffoscope
+[2023-07-10 08:55:06] INFO root fetch - processPackages [wtfutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wtfutil-1.0.8-py2.py3-none-any.whl.zip tmp/wtfutil-1.0.9-py2.py3-none-any.whl.zip --markdown 20230710/w/wtfutil/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-10 08:55:06] INFO root fetch - processPackages [rqdatac]: executing diffoscope
+[2023-07-10 08:55:06] INFO root fetch - processPackages [rqdatac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rqdatac-2.9.7-cp38-cp38-win_amd64.whl.zip tmp/rqdatac-2.9.8-cp38-cp38-win_amd64.whl.zip --markdown 20230710/r/rqdatac/2.9.7-2.9.8/diff.md --exclude *.pyd
+[2023-07-10 08:55:06] INFO root fetch - processPackages [briefcase]: executing diffoscope
+[2023-07-10 08:55:06] INFO root fetch - processPackages [briefcase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/briefcase-0.3.8.tar.gz tmp/briefcase-0.3.9.tar.gz --markdown 20230710/b/briefcase/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-10 08:55:07] INFO root fetch - processPackages [pyxargs]: Remove: archive file [/home/abi/fetcher/tmp/pyxargs-2.2.0.tar.gz]
+[2023-07-10 08:55:07] INFO root fetch - processPackages [pyxargs]: Remove: archive file [/home/abi/fetcher/tmp/pyxargs-2.3.0.tar.gz]
+[2023-07-10 08:55:07] INFO root fetch - processPackages [pyxargs]: Start processing: kcli
+[2023-07-10 08:55:07] INFO root fetch - main [MainThread]: End processing [pyxargs]: success
+[2023-07-10 08:55:07] INFO root fetch - processPackages [hds-stats]: Remove: archive file [/home/abi/fetcher/tmp/hds-stats-0.3.3.tar.gz]
+[2023-07-10 08:55:07] INFO root fetch - processPackages [hds-stats]: Remove: archive file [/home/abi/fetcher/tmp/hds-stats-0.3.4.tar.gz]
+[2023-07-10 08:55:07] INFO root fetch - main [MainThread]: End processing [hds-stats]: success
+[2023-07-10 08:55:07] INFO root fetch - processPackages [baysalt-christmas]: Remove: archive file [/home/abi/fetcher/tmp/baysalt_christmas-0.1.8.4.tar.gz]
+[2023-07-10 08:55:07] INFO root fetch - processPackages [baysalt-christmas]: Remove: archive file [/home/abi/fetcher/tmp/baysalt_christmas-0.1.8.5.tar.gz]
+[2023-07-10 08:55:07] INFO root fetch - main [MainThread]: End processing [baysalt-christmas]: success
+[2023-07-10 08:55:07] INFO root fetch - processPackages [nonebot-plugin-nobahpicture]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-nobahpicture-1.0.1.tar.gz]
+[2023-07-10 08:55:07] INFO root fetch - processPackages [nonebot-plugin-nobahpicture]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-nobahpicture-1.0.2.tar.gz]
+[2023-07-10 08:55:07] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-nobahpicture]: success
+[2023-07-10 08:55:07] INFO root fetch - processPackages [hubotlibs]: Remove: archive file [/home/abi/fetcher/tmp/hubotlibs-0.3.3.tar.gz]
+[2023-07-10 08:55:07] INFO root fetch - processPackages [hubotlibs]: Remove: archive file [/home/abi/fetcher/tmp/hubotlibs-0.3.4.tar.gz]
+[2023-07-10 08:55:07] INFO root fetch - main [MainThread]: End processing [hubotlibs]: success
+[2023-07-10 08:55:08] INFO root fetch - processPackages [appscommon]: Remove: archive file [/home/abi/fetcher/tmp/appscommon-0.0.1.tar.gz]
+[2023-07-10 08:55:08] INFO root fetch - processPackages [appscommon]: Remove: archive file [/home/abi/fetcher/tmp/appscommon-0.0.2.tar.gz]
+[2023-07-10 08:55:08] INFO root fetch - main [MainThread]: End processing [appscommon]: success
+[2023-07-10 08:55:08] INFO root fetch - processPackages [wtfutil]: Remove: archive file [/home/abi/fetcher/tmp/wtfutil-1.0.8-py2.py3-none-any.whl.zip]
+[2023-07-10 08:55:08] INFO root fetch - processPackages [wtfutil]: Remove: archive file [/home/abi/fetcher/tmp/wtfutil-1.0.9-py2.py3-none-any.whl.zip]
+[2023-07-10 08:55:08] INFO root fetch - main [MainThread]: End processing [wtfutil]: success
+[2023-07-10 08:55:08] INFO root fetch - processPackages [kcli]: New version: [99.0.202307100654] Old Version: [99.0.202307071149]
+[2023-07-10 08:55:08] INFO root fetch - processPackages [rqdatac]: Remove: archive file [/home/abi/fetcher/tmp/rqdatac-2.9.7-cp38-cp38-win_amd64.whl.zip]
+[2023-07-10 08:55:08] INFO root fetch - processPackages [rqdatac]: Remove: archive file [/home/abi/fetcher/tmp/rqdatac-2.9.8-cp38-cp38-win_amd64.whl.zip]
+[2023-07-10 08:55:08] INFO root fetch - main [MainThread]: End processing [rqdatac]: success
+[2023-07-10 08:55:08] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/2d/5c/e6db0503cd0714b193a494258a5cd5e41eb3db10f8250a40eb47151ee57a/kcli-99.0.202307071149-py3-none-any.whl
+[2023-07-10 08:55:08] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/6f/39/8516d943e28c84668176706bf50898d3d9bae6e6330223ea44d87eb6acc6/kcli-99.0.202307100654-py3-none-any.whl
+[2023-07-10 08:55:08] INFO root fetch - processPackages [pontos]: Remove: archive file [/home/abi/fetcher/tmp/pontos-23.7.5.tar.gz]
+[2023-07-10 08:55:08] INFO root fetch - processPackages [pontos]: Remove: archive file [/home/abi/fetcher/tmp/pontos-23.7.6.tar.gz]
+[2023-07-10 08:55:08] INFO root fetch - main [MainThread]: End processing [pontos]: success
+[2023-07-10 08:55:09] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-10 08:55:09] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307071149-py3-none-any.whl.zip tmp/kcli-99.0.202307100654-py3-none-any.whl.zip --markdown 20230710/k/kcli/99.0.202307071149-99.0.202307100654/diff.md --exclude *.pyd
+[2023-07-10 08:55:10] INFO root fetch - processPackages [briefcase]: Remove: archive file [/home/abi/fetcher/tmp/briefcase-0.3.8.tar.gz]
+[2023-07-10 08:55:10] INFO root fetch - processPackages [briefcase]: Remove: archive file [/home/abi/fetcher/tmp/briefcase-0.3.9.tar.gz]
+[2023-07-10 08:55:10] INFO root fetch - main [MainThread]: End processing [briefcase]: success
+[2023-07-10 08:55:12] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307071149-py3-none-any.whl.zip]
+[2023-07-10 08:55:12] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307100654-py3-none-any.whl.zip]
+[2023-07-10 08:55:12] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-10 08:55:12] INFO root fetch - main [MainThread]: Store serial: [18827380]
