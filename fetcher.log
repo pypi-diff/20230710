@@ -8351,3 +8351,81 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 07:36:38] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.7.2.dev46.tar.gz]
 [2023-07-10 07:36:38] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2023-07-10 07:36:38] INFO root fetch - main [MainThread]: Store serial: [18826870]
+[2023-07-10 07:41:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18826870]
+[2023-07-10 07:41:47] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-10 07:41:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CircuitCalculator
+[2023-07-10 07:41:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: typetype
+[2023-07-10 07:41:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smoothcache
+[2023-07-10 07:41:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: embykeeper
+[2023-07-10 07:41:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gnssanalysis
+[2023-07-10 07:41:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SGtSNEpiPy
+[2023-07-10 07:41:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datahtml
+[2023-07-10 07:41:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: smw-music
+[2023-07-10 07:41:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: UniTok
+[2023-07-10 07:41:47] INFO root fetch - processPackages [embykeeper]: New version: [2.2.9] Old Version: [2.2.7]
+[2023-07-10 07:41:47] INFO root fetch - processPackages [SGtSNEpiPy]: New version: [2.0.0] Old Version: [1.0.1]
+[2023-07-10 07:41:47] INFO root fetch - processPackages [gnssanalysis]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 07:41:47] INFO root fetch - processPackages [smw-music]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-10 07:41:47] INFO root fetch - processPackages [datahtml]: New version: [0.4.0rc9] Old Version: [0.4.0rc8]
+[2023-07-10 07:41:47] INFO root fetch - processPackages [CircuitCalculator]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 07:41:47] INFO root fetch - processPackages [typetype]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-10 07:41:47] WARNING root fetch - processPackages [smoothcache]: Skipping, unable to determine old version
+[2023-07-10 07:41:47] INFO root fetch - main [MainThread]: End processing [smoothcache] error
+[2023-07-10 07:41:47] INFO root fetch - processPackages [UniTok]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-07-10 07:41:47] INFO root fetch - processPackages [embykeeper]: Downloading https://files.pythonhosted.org/packages/2f/e7/1d74c5658f775a0e79afbd26e241200c244778cb6ee0142cf27b0a03940d/embykeeper-2.2.7.tar.gz
+[2023-07-10 07:41:47] INFO root fetch - processPackages [UniTok]: Downloading https://files.pythonhosted.org/packages/e5/3e/2800a2e5e215a37ee109be01b4f808fc05026eca5cd5cb338fbaef10cefa/UniTok-3.1.8.tar.gz
+[2023-07-10 07:41:47] INFO root fetch - processPackages [gnssanalysis]: Downloading https://files.pythonhosted.org/packages/e0/2d/6e9b2e6b7338eb4ade3a80238c53fe3d7046af99576c4229b166e23c1a3a/gnssanalysis-0.0.8.tar.gz
+[2023-07-10 07:41:48] INFO root fetch - processPackages [SGtSNEpiPy]: Downloading https://files.pythonhosted.org/packages/58/64/781ba1db1f77ac7b40e2e18ff97269507215fc13cb3efd87e4bf33f33dd0/SGtSNEpiPy-1.0.1.tar.gz
+[2023-07-10 07:41:48] INFO root fetch - processPackages [typetype]: Downloading https://files.pythonhosted.org/packages/1a/d6/905e3299c7ce07172cd9029acf4d1160e0d72a1d8beeb608864ad415a2dd/typetype-1.0.0.tar.gz
+[2023-07-10 07:41:48] INFO root fetch - processPackages [datahtml]: Downloading https://files.pythonhosted.org/packages/3d/56/22ada13e1f8e72a448cb7c9efd2b8f7755ba2b45cdc9f986193471bd3b4f/datahtml-0.4.0rc8.tar.gz
+[2023-07-10 07:41:48] INFO root fetch - processPackages [CircuitCalculator]: Downloading https://files.pythonhosted.org/packages/bf/1f/61591bd6874775c2a603db5f2f5a8b3f266e9003b2a8738b62779b126602/CircuitCalculator-0.0.8.tar.gz
+[2023-07-10 07:41:48] INFO root fetch - processPackages [smw-music]: Downloading https://files.pythonhosted.org/packages/c6/7c/3f57d687eb74fa8863bebebd47e56261373a23324155328f62369afa6205/smw_music-0.3.8.tar.gz
+[2023-07-10 07:41:48] INFO root fetch - processPackages [gnssanalysis]: Downloading https://files.pythonhosted.org/packages/e1/ac/da507121836c683adba00ccb9f5f955063e24f97656ce240e4354a9cbe10/gnssanalysis-0.0.9.tar.gz
+[2023-07-10 07:41:48] INFO root fetch - processPackages [UniTok]: Downloading https://files.pythonhosted.org/packages/b2/d4/f20fbd6019882450b143faadda6d09bab3b3c90b140cd4ec436c97413dd6/UniTok-3.1.9.tar.gz
+[2023-07-10 07:41:48] INFO root fetch - processPackages [gnssanalysis]: executing diffoscope
+[2023-07-10 07:41:48] INFO root fetch - processPackages [gnssanalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnssanalysis-0.0.8.tar.gz tmp/gnssanalysis-0.0.9.tar.gz --markdown 20230710/g/gnssanalysis/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 07:41:48] INFO root fetch - processPackages [typetype]: Downloading https://files.pythonhosted.org/packages/48/08/1d8b9cd131a758e16537545ab2a517e8ab5ee5eeccd0b632b1dd519ca3bf/typetype-1.0.1.tar.gz
+[2023-07-10 07:41:48] INFO root fetch - processPackages [embykeeper]: Downloading https://files.pythonhosted.org/packages/aa/16/2179b87888646548433ff20e89b82e6c44f64a1f4a29ccfc82b499fa01ad/embykeeper-2.2.9.tar.gz
+[2023-07-10 07:41:48] INFO root fetch - processPackages [UniTok]: executing diffoscope
+[2023-07-10 07:41:48] INFO root fetch - processPackages [UniTok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UniTok-3.1.8.tar.gz tmp/UniTok-3.1.9.tar.gz --markdown 20230710/U/UniTok/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-07-10 07:41:48] INFO root fetch - processPackages [datahtml]: Downloading https://files.pythonhosted.org/packages/61/32/9dae453c5476be7de2ed987aaa37d0fbb7aa0f4035a0b0537963b2f2e50f/datahtml-0.4.0rc9.tar.gz
+[2023-07-10 07:41:48] INFO root fetch - processPackages [SGtSNEpiPy]: Downloading https://files.pythonhosted.org/packages/35/36/89c3a52dfc34abc0191e5c064155e607c3c0137d9515efb0f6588754785f/SGtSNEpiPy-2.0.0-py3-none-any.whl
+[2023-07-10 07:41:48] INFO root fetch - processPackages [typetype]: executing diffoscope
+[2023-07-10 07:41:48] INFO root fetch - processPackages [typetype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typetype-1.0.0.tar.gz tmp/typetype-1.0.1.tar.gz --markdown 20230710/t/typetype/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-10 07:41:48] INFO root fetch - processPackages [CircuitCalculator]: Downloading https://files.pythonhosted.org/packages/e9/6b/012f1855b3854bed914cfc1577b7852d1bbf3b9d8ef65de04bf67ea35775/CircuitCalculator-0.0.9.tar.gz
+[2023-07-10 07:41:48] INFO root fetch - processPackages [SGtSNEpiPy]: executing diffoscope
+[2023-07-10 07:41:48] INFO root fetch - processPackages [SGtSNEpiPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SGtSNEpiPy-1.0.1.tar.gz tmp/SGtSNEpiPy-2.0.0-py3-none-any.whl.zip --markdown 20230710/S/SGtSNEpiPy/1.0.1-2.0.0/diff.md --exclude *.pyd
+[2023-07-10 07:41:48] INFO root fetch - processPackages [CircuitCalculator]: executing diffoscope
+[2023-07-10 07:41:48] INFO root fetch - processPackages [CircuitCalculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CircuitCalculator-0.0.8.tar.gz tmp/CircuitCalculator-0.0.9.tar.gz --markdown 20230710/C/CircuitCalculator/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 07:41:48] INFO root fetch - processPackages [smw-music]: Downloading https://files.pythonhosted.org/packages/0b/de/b580813bc260ea9dc5ca2fb4bf1f892c4830adbfa2f5f4b1edaebebd98ce/smw_music-0.3.9.tar.gz
+[2023-07-10 07:41:48] INFO root fetch - processPackages [datahtml]: executing diffoscope
+[2023-07-10 07:41:48] INFO root fetch - processPackages [datahtml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datahtml-0.4.0rc8.tar.gz tmp/datahtml-0.4.0rc9.tar.gz --markdown 20230710/d/datahtml/0.4.0rc8-0.4.0rc9/diff.md --exclude *.pyd
+[2023-07-10 07:41:49] INFO root fetch - processPackages [smw-music]: executing diffoscope
+[2023-07-10 07:41:49] INFO root fetch - processPackages [smw-music]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smw_music-0.3.8.tar.gz tmp/smw_music-0.3.9.tar.gz --markdown 20230710/s/smw-music/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-10 07:41:49] INFO root fetch - processPackages [embykeeper]: executing diffoscope
+[2023-07-10 07:41:49] INFO root fetch - processPackages [embykeeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embykeeper-2.2.7.tar.gz tmp/embykeeper-2.2.9.tar.gz --markdown 20230710/e/embykeeper/2.2.7-2.2.9/diff.md --exclude *.pyd
+[2023-07-10 07:41:49] INFO root fetch - processPackages [UniTok]: Remove: archive file [/home/abi/fetcher/tmp/UniTok-3.1.8.tar.gz]
+[2023-07-10 07:41:49] INFO root fetch - processPackages [UniTok]: Remove: archive file [/home/abi/fetcher/tmp/UniTok-3.1.9.tar.gz]
+[2023-07-10 07:41:49] INFO root fetch - main [MainThread]: End processing [UniTok]: success
+[2023-07-10 07:41:49] INFO root fetch - processPackages [typetype]: Remove: archive file [/home/abi/fetcher/tmp/typetype-1.0.0.tar.gz]
+[2023-07-10 07:41:49] INFO root fetch - processPackages [typetype]: Remove: archive file [/home/abi/fetcher/tmp/typetype-1.0.1.tar.gz]
+[2023-07-10 07:41:49] INFO root fetch - main [MainThread]: End processing [typetype]: success
+[2023-07-10 07:41:49] INFO root fetch - processPackages [SGtSNEpiPy]: Remove: archive file [/home/abi/fetcher/tmp/SGtSNEpiPy-1.0.1.tar.gz]
+[2023-07-10 07:41:49] INFO root fetch - processPackages [SGtSNEpiPy]: Remove: archive file [/home/abi/fetcher/tmp/SGtSNEpiPy-2.0.0-py3-none-any.whl.zip]
+[2023-07-10 07:41:49] INFO root fetch - main [MainThread]: End processing [SGtSNEpiPy]: success
+[2023-07-10 07:41:50] INFO root fetch - processPackages [gnssanalysis]: Remove: archive file [/home/abi/fetcher/tmp/gnssanalysis-0.0.8.tar.gz]
+[2023-07-10 07:41:50] INFO root fetch - processPackages [gnssanalysis]: Remove: archive file [/home/abi/fetcher/tmp/gnssanalysis-0.0.9.tar.gz]
+[2023-07-10 07:41:50] INFO root fetch - main [MainThread]: End processing [gnssanalysis]: success
+[2023-07-10 07:41:50] INFO root fetch - processPackages [CircuitCalculator]: Remove: archive file [/home/abi/fetcher/tmp/CircuitCalculator-0.0.8.tar.gz]
+[2023-07-10 07:41:50] INFO root fetch - processPackages [CircuitCalculator]: Remove: archive file [/home/abi/fetcher/tmp/CircuitCalculator-0.0.9.tar.gz]
+[2023-07-10 07:41:50] INFO root fetch - main [MainThread]: End processing [CircuitCalculator]: success
+[2023-07-10 07:41:50] INFO root fetch - processPackages [datahtml]: Remove: archive file [/home/abi/fetcher/tmp/datahtml-0.4.0rc8.tar.gz]
+[2023-07-10 07:41:50] INFO root fetch - processPackages [datahtml]: Remove: archive file [/home/abi/fetcher/tmp/datahtml-0.4.0rc9.tar.gz]
+[2023-07-10 07:41:50] INFO root fetch - main [MainThread]: End processing [datahtml]: success
+[2023-07-10 07:41:50] INFO root fetch - processPackages [smw-music]: Remove: archive file [/home/abi/fetcher/tmp/smw_music-0.3.8.tar.gz]
+[2023-07-10 07:41:50] INFO root fetch - processPackages [smw-music]: Remove: archive file [/home/abi/fetcher/tmp/smw_music-0.3.9.tar.gz]
+[2023-07-10 07:41:50] INFO root fetch - main [MainThread]: End processing [smw-music]: success
+[2023-07-10 07:41:50] INFO root fetch - processPackages [embykeeper]: Remove: archive file [/home/abi/fetcher/tmp/embykeeper-2.2.7.tar.gz]
+[2023-07-10 07:41:50] INFO root fetch - processPackages [embykeeper]: Remove: archive file [/home/abi/fetcher/tmp/embykeeper-2.2.9.tar.gz]
+[2023-07-10 07:41:50] INFO root fetch - main [MainThread]: End processing [embykeeper]: success
+[2023-07-10 07:41:50] INFO root fetch - main [MainThread]: Store serial: [18826896]
