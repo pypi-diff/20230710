@@ -16587,3 +16587,87 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 14:02:47] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
 [2023-07-10 14:02:47] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2023-07-10 14:02:47] INFO root fetch - main [MainThread]: Store serial: [18830246]
+[2023-07-10 14:07:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18830246]
+[2023-07-10 14:07:56] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-10 14:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xorbits
+[2023-07-10 14:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MAVdataflash
+[2023-07-10 14:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mekab
+[2023-07-10 14:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-agents-nightly
+[2023-07-10 14:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ul-data-aggregator-sdk
+[2023-07-10 14:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-serving
+[2023-07-10 14:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cru-dse-utils
+[2023-07-10 14:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: AutoFeedback
+[2023-07-10 14:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dash-dataflow-components
+[2023-07-10 14:07:56] INFO root fetch - processPackages [MAVdataflash]: New version: [2.4.8] Old Version: [2.4.7]
+[2023-07-10 14:07:56] INFO root fetch - processPackages [AutoFeedback]: New version: [1.4] Old Version: [1.3]
+[2023-07-10 14:07:56] INFO root fetch - processPackages [cru-dse-utils]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-07-10 14:07:56] INFO root fetch - processPackages [ul-data-aggregator-sdk]: New version: [8.9.5] Old Version: [8.11.4]
+[2023-07-10 14:07:56] INFO root fetch - processPackages [mekab]: New version: [8.9.5] Old Version: [2.0.5]
+[2023-07-10 14:07:56] INFO root fetch - processPackages [xorbits]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-10 14:07:56] INFO root fetch - processPackages [tf-agents-nightly]: New version: [0.9.0.dev20210812] Old Version: [0.9.0.dev20210811]
+[2023-07-10 14:07:56] INFO root fetch - processPackages [dash-dataflow-components]: New version: [0.0.4] Old Version: [0.0.1]
+[2023-07-10 14:07:56] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230710] Old Version: [2.4.0b20230709]
+[2023-07-10 14:07:56] INFO root fetch - processPackages [MAVdataflash]: Downloading https://files.pythonhosted.org/packages/f5/7e/a83205dbe1682e7ab5088bbd1e521fdf92fb02a46abd7f6b289f1ee5e775/MAVdataflash-2.4.7.tar.gz
+[2023-07-10 14:07:56] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Downloading https://files.pythonhosted.org/packages/87/96/ed819de29214c25936707e0d94f0d9976c39fe85d53d02557378fc56f200/ul-data-aggregator-sdk-8.11.4.tar.gz
+[2023-07-10 14:07:56] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/2f/8e/5b1259fdcefcc564c90842a0c1206b58d6abfbb7914bcbd38710ba780d40/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl
+[2023-07-10 14:07:56] INFO root fetch - processPackages [cru-dse-utils]: Downloading https://files.pythonhosted.org/packages/36/a4/46ae6bbc2ebdaf18c7921d28f7c7be20ca57c4ce288c590eabdbc770a2b4/cru-dse-utils-0.1.1.tar.gz
+[2023-07-10 14:07:56] INFO root fetch - processPackages [AutoFeedback]: Downloading https://files.pythonhosted.org/packages/bf/a9/fb6fdbb3fb6f501da70e504085024fd697c59c606ee76e957f8e0b74b3f8/AutoFeedback-1.3.tar.gz
+[2023-07-10 14:07:56] INFO root fetch - processPackages [xorbits]: Downloading https://files.pythonhosted.org/packages/62/d9/12c0a370844067ba9a6ba1c5b8e8cfda3a4810706535c3991e3a28cd8bd7/xorbits-0.4.1.tar.gz
+[2023-07-10 14:07:56] INFO root fetch - processPackages [mekab]: Downloading https://files.pythonhosted.org/packages/a9/73/db96045339d3d0311343851c8ace200c28d44f4ccc98b9debc91d10b9a47/mekab-2.0.5.tar.gz
+[2023-07-10 14:07:56] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/0e/b3/c8c0969a030aad27a9d3d59409db74bd76abed6951de78bb5d88689fc759/bigdl_serving-2.4.0b20230709-py2.py3-none-any.whl
+[2023-07-10 14:07:56] INFO root fetch - processPackages [dash-dataflow-components]: Downloading https://files.pythonhosted.org/packages/c6/d4/efff79223917cb0f17633c853d72555621868fcff238518dabaef56dc83b/dash_dataflow_components-0.0.1.tar.gz
+[2023-07-10 14:07:56] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Downloading https://files.pythonhosted.org/packages/ae/cf/20ade1e77c7db14608e4ad73e7b31dd0bd4ee46d7222add34aa0ee1abaca/ul-data-aggregator-sdk-8.9.5.tar.gz
+[2023-07-10 14:07:56] INFO root fetch - processPackages [MAVdataflash]: Downloading https://files.pythonhosted.org/packages/13/eb/f9f385a1898939fa1c91471e95df02800dafcf0b7b4bcc424f81ac1f7b37/MAVdataflash-2.4.8.tar.gz
+[2023-07-10 14:07:57] INFO root fetch - processPackages [AutoFeedback]: Downloading https://files.pythonhosted.org/packages/1b/96/080ac761c08e0de3e1f50fb945ea7825ce09dfe91691bf5dbd76b7c280b7/AutoFeedback-1.4.tar.gz
+[2023-07-10 14:07:57] INFO root fetch - processPackages [ul-data-aggregator-sdk]: executing diffoscope
+[2023-07-10 14:07:57] INFO root fetch - processPackages [ul-data-aggregator-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ul-data-aggregator-sdk-8.11.4.tar.gz tmp/ul-data-aggregator-sdk-8.9.5.tar.gz --markdown 20230710/u/ul-data-aggregator-sdk/8.11.4-8.9.5/diff.md --exclude *.pyd
+[2023-07-10 14:07:57] INFO root fetch - processPackages [cru-dse-utils]: Downloading https://files.pythonhosted.org/packages/e8/06/bd6c3d3134d40b709ffae5409bbcd9005c7e25ae998ed748f1f9de03b0fc/cru-dse-utils-0.1.3.tar.gz
+[2023-07-10 14:07:57] INFO root fetch - processPackages [MAVdataflash]: executing diffoscope
+[2023-07-10 14:07:57] INFO root fetch - processPackages [MAVdataflash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MAVdataflash-2.4.7.tar.gz tmp/MAVdataflash-2.4.8.tar.gz --markdown 20230710/M/MAVdataflash/2.4.7-2.4.8/diff.md --exclude *.pyd
+[2023-07-10 14:07:57] INFO root fetch - processPackages [mekab]: Downloading https://files.pythonhosted.org/packages/dc/01/a2e38e7a1d437f6a61c7b80c9774edfbee7b4fdf4401f381d56aba7d9dda/mekab-8.9.5.tar.gz
+[2023-07-10 14:07:57] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/4e/cd/3616d15a10fdcc04d7709c54cc84e0d1b99a110f2b7675e493724d95ec75/bigdl_serving-2.4.0b20230710-py2.py3-none-any.whl
+[2023-07-10 14:07:57] INFO root fetch - processPackages [AutoFeedback]: executing diffoscope
+[2023-07-10 14:07:57] INFO root fetch - processPackages [AutoFeedback]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoFeedback-1.3.tar.gz tmp/AutoFeedback-1.4.tar.gz --markdown 20230710/A/AutoFeedback/1.3-1.4/diff.md --exclude *.pyd
+[2023-07-10 14:07:57] INFO root fetch - processPackages [xorbits]: Downloading https://files.pythonhosted.org/packages/21/0c/ef89db99d8a549bcb8a37eeae4b07d5f1654c8a8efefc1de018b8f2e587a/xorbits-0.4.2.tar.gz
+[2023-07-10 14:07:57] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/ae/8c/d1e1b7b8f7b6ceee69bbf569ab3bd6f79ffd9963ff66079303942550d03d/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl
+[2023-07-10 14:07:57] INFO root fetch - processPackages [cru-dse-utils]: executing diffoscope
+[2023-07-10 14:07:57] INFO root fetch - processPackages [cru-dse-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cru-dse-utils-0.1.1.tar.gz tmp/cru-dse-utils-0.1.3.tar.gz --markdown 20230710/c/cru-dse-utils/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-07-10 14:07:57] INFO root fetch - processPackages [mekab]: executing diffoscope
+[2023-07-10 14:07:57] INFO root fetch - processPackages [mekab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mekab-2.0.5.tar.gz tmp/mekab-8.9.5.tar.gz --markdown 20230710/m/mekab/2.0.5-8.9.5/diff.md --exclude *.pyd
+[2023-07-10 14:07:57] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-07-10 14:07:57] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230709-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230710-py2.py3-none-any.whl.zip --markdown 20230710/b/bigdl-serving/2.4.0b20230709-2.4.0b20230710/diff.md --exclude *.pyd
+[2023-07-10 14:07:57] INFO root fetch - processPackages [dash-dataflow-components]: Downloading https://files.pythonhosted.org/packages/96/c3/1a700febb057fe10256785e27bb7cf073a7a96bbd9b4e4bfe30a1a841bbb/dash_dataflow_components-0.0.4.tar.gz
+[2023-07-10 14:07:57] INFO root fetch - processPackages [xorbits]: executing diffoscope
+[2023-07-10 14:07:57] INFO root fetch - processPackages [xorbits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xorbits-0.4.1.tar.gz tmp/xorbits-0.4.2.tar.gz --markdown 20230710/x/xorbits/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-10 14:07:58] INFO root fetch - processPackages [tf-agents-nightly]: executing diffoscope
+[2023-07-10 14:07:58] INFO root fetch - processPackages [tf-agents-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip --markdown 20230710/t/tf-agents-nightly/0.9.0.dev20210811-0.9.0.dev20210812/diff.md --exclude *.pyd
+[2023-07-10 14:07:58] INFO root fetch - processPackages [dash-dataflow-components]: executing diffoscope
+[2023-07-10 14:07:58] INFO root fetch - processPackages [dash-dataflow-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_dataflow_components-0.0.1.tar.gz tmp/dash_dataflow_components-0.0.4.tar.gz --markdown 20230710/d/dash-dataflow-components/0.0.1-0.0.4/diff.md --exclude *.pyd
+[2023-07-10 14:07:58] INFO root fetch - processPackages [MAVdataflash]: Remove: archive file [/home/abi/fetcher/tmp/MAVdataflash-2.4.7.tar.gz]
+[2023-07-10 14:07:58] INFO root fetch - processPackages [MAVdataflash]: Remove: archive file [/home/abi/fetcher/tmp/MAVdataflash-2.4.8.tar.gz]
+[2023-07-10 14:07:58] INFO root fetch - main [MainThread]: End processing [MAVdataflash]: success
+[2023-07-10 14:07:58] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ul-data-aggregator-sdk-8.11.4.tar.gz]
+[2023-07-10 14:07:58] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ul-data-aggregator-sdk-8.9.5.tar.gz]
+[2023-07-10 14:07:58] INFO root fetch - main [MainThread]: End processing [ul-data-aggregator-sdk]: success
+[2023-07-10 14:07:58] INFO root fetch - processPackages [mekab]: Remove: archive file [/home/abi/fetcher/tmp/mekab-2.0.5.tar.gz]
+[2023-07-10 14:07:58] INFO root fetch - processPackages [mekab]: Remove: archive file [/home/abi/fetcher/tmp/mekab-8.9.5.tar.gz]
+[2023-07-10 14:07:58] INFO root fetch - main [MainThread]: End processing [mekab]: success
+[2023-07-10 14:07:58] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230709-py2.py3-none-any.whl.zip]
+[2023-07-10 14:07:58] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230710-py2.py3-none-any.whl.zip]
+[2023-07-10 14:07:58] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-07-10 14:07:58] INFO root fetch - processPackages [cru-dse-utils]: Remove: archive file [/home/abi/fetcher/tmp/cru-dse-utils-0.1.1.tar.gz]
+[2023-07-10 14:07:58] INFO root fetch - processPackages [cru-dse-utils]: Remove: archive file [/home/abi/fetcher/tmp/cru-dse-utils-0.1.3.tar.gz]
+[2023-07-10 14:07:58] INFO root fetch - main [MainThread]: End processing [cru-dse-utils]: success
+[2023-07-10 14:07:58] INFO root fetch - processPackages [AutoFeedback]: Remove: archive file [/home/abi/fetcher/tmp/AutoFeedback-1.3.tar.gz]
+[2023-07-10 14:07:58] INFO root fetch - processPackages [AutoFeedback]: Remove: archive file [/home/abi/fetcher/tmp/AutoFeedback-1.4.tar.gz]
+[2023-07-10 14:07:58] INFO root fetch - main [MainThread]: End processing [AutoFeedback]: success
+[2023-07-10 14:08:01] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip]
+[2023-07-10 14:08:01] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip]
+[2023-07-10 14:08:01] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
+[2023-07-10 14:08:05] INFO root fetch - processPackages [xorbits]: Remove: archive file [/home/abi/fetcher/tmp/xorbits-0.4.1.tar.gz]
+[2023-07-10 14:08:05] INFO root fetch - processPackages [xorbits]: Remove: archive file [/home/abi/fetcher/tmp/xorbits-0.4.2.tar.gz]
+[2023-07-10 14:08:05] INFO root fetch - main [MainThread]: End processing [xorbits]: success
+[2023-07-10 14:08:15] INFO root fetch - processPackages [dash-dataflow-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_dataflow_components-0.0.1.tar.gz]
+[2023-07-10 14:08:15] INFO root fetch - processPackages [dash-dataflow-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_dataflow_components-0.0.4.tar.gz]
+[2023-07-10 14:08:15] INFO root fetch - main [MainThread]: End processing [dash-dataflow-components]: success
+[2023-07-10 14:08:15] INFO root fetch - main [MainThread]: Store serial: [18830291]
