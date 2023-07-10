@@ -20214,3 +20214,144 @@ EOFError: EOF read where object expected
 [2023-07-10 16:19:04] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-38.1.8.tar.gz]
 [2023-07-10 16:19:04] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-07-10 16:19:04] INFO root fetch - main [MainThread]: Store serial: [18831767]
+[2023-07-10 16:24:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18831767]
+[2023-07-10 16:24:13] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-10 16:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: roblox-pyc
+[2023-07-10 16:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kadaster-kikinzage-client
+[2023-07-10 16:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytest-nhsd-apim
+[2023-07-10 16:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: irene-pro
+[2023-07-10 16:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: confme
+[2023-07-10 16:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flow360client
+[2023-07-10 16:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: recordclass
+[2023-07-10 16:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: geoslurp
+[2023-07-10 16:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: githubdata
+[2023-07-10 16:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: video2gif
+[2023-07-10 16:24:13] INFO root fetch - processPackages [githubdata]: New version: [9.1] Old Version: [9.0]
+[2023-07-10 16:24:13] INFO root fetch - processPackages [flow360client]: New version: [23.2.3.0] Old Version: [22.3.3.0]
+[2023-07-10 16:24:13] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-10 16:24:13] INFO root fetch - processPackages [pytest-nhsd-apim]: New version: [3.3.5] Old Version: [3.3.4]
+[2023-07-10 16:24:13] INFO root fetch - processPackages [geoslurp]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-07-10 16:24:13] INFO root fetch - processPackages [kadaster-kikinzage-client]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-10 16:24:13] INFO root fetch - processPackages [irene-pro]: New version: [0.0.95] Old Version: [0.0.94]
+[2023-07-10 16:24:13] INFO root fetch - processPackages [recordclass]: New version: [0.9] Old Version: [0.8.5]
+[2023-07-10 16:24:13] INFO root fetch - processPackages [confme]: New version: [2.0.0] Old Version: [1.3.4]
+[2023-07-10 16:24:13] WARNING root fetch - processPackages [video2gif]: Skipping, unable to determine old version
+[2023-07-10 16:24:13] INFO root fetch - processPackages [video2gif]: Start processing: tomaserial
+[2023-07-10 16:24:13] INFO root fetch - main [MainThread]: End processing [video2gif] error
+[2023-07-10 16:24:13] INFO root fetch - processPackages [githubdata]: Downloading https://files.pythonhosted.org/packages/38/80/a49fe4bedf74a16e2530a24ae926629588f3aaefa0dcb097c45b1d7e46a8/githubdata-9.0.tar.gz
+[2023-07-10 16:24:13] INFO root fetch - processPackages [tomaserial]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-10 16:24:13] INFO root fetch - processPackages [flow360client]: Downloading https://files.pythonhosted.org/packages/31/e4/0874c798c5ba89bf133105c817086954e12f371bdba2c043894770be0656/flow360client-22.3.3.0.tar.gz
+[2023-07-10 16:24:13] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/a2/1b/85ce69715f478ddbce43842fd2d4794ce1f5094ca7576c7935e72a259bf4/irene_pro-0.0.94.tar.gz
+[2023-07-10 16:24:14] INFO root fetch - processPackages [geoslurp]: Downloading https://files.pythonhosted.org/packages/8e/ef/85e073d2f8713a6fe53b823d56a04e37ae9f6243fdf59312f193b9aa22fc/geoslurp-2.2.0.tar.gz
+[2023-07-10 16:24:14] INFO root fetch - processPackages [pytest-nhsd-apim]: Downloading https://files.pythonhosted.org/packages/d2/ab/4bcdfed85efa4e657841acdedf70743d633ecb7e84c2fbef9c2333b214c8/pytest-nhsd-apim-3.3.4.tar.gz
+[2023-07-10 16:24:14] INFO root fetch - processPackages [kadaster-kikinzage-client]: Downloading https://files.pythonhosted.org/packages/b3/3b/08c4566cf977a331dc404d717cb05da8edf276f54f06b009028bf7d7644e/kadaster_kikinzage_client-0.2.0.tar.gz
+[2023-07-10 16:24:14] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-10 16:24:14] INFO root fetch - processPackages [confme]: Downloading https://files.pythonhosted.org/packages/1c/c5/2ccd80d37cb0dcd967fd84cb9f383b96702d0ba1522a072431123a38c2ff/confme-1.3.4.tar.gz
+[2023-07-10 16:24:14] INFO root fetch - processPackages [recordclass]: Downloading https://files.pythonhosted.org/packages/92/48/64ea5d4d0aa7266a4715411099bd0cfaa0e13e8f8e60592f9c8733dbdb44/recordclass-0.8.5.tar.gz
+[2023-07-10 16:24:14] INFO root fetch - processPackages [tomaserial]: Downloading https://files.pythonhosted.org/packages/45/26/fd8983c527556c94463386b76326fe39f450dfb96e6c632173080eb98865/tomaserial-0.1.1.tar.gz
+[2023-07-10 16:24:14] INFO root fetch - processPackages [githubdata]: Downloading https://files.pythonhosted.org/packages/8f/1f/f0ed70ea66e6782086b291c0f9219fb955c41ec19eef486c097aaa43344f/githubdata-9.1.tar.gz
+[2023-07-10 16:24:14] INFO root fetch - processPackages [flow360client]: Downloading https://files.pythonhosted.org/packages/57/4f/f98435f5e72493afc2a31c469a00af8a0c6ffc47748fd4ecae852332d208/flow360client-23.2.3.0.tar.gz
+[2023-07-10 16:24:14] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/2d/d6/47e66aea97adc562c8fba1bf0e223e6d52daee49b4d72cf3180fca85ec4c/irene_pro-0.0.95.tar.gz
+[2023-07-10 16:24:14] INFO root fetch - processPackages [geoslurp]: Downloading https://files.pythonhosted.org/packages/2e/43/d68936dd233d5b00338956ae0ed45dee1837c43afee6fa7e8570618e8a4e/geoslurp-2.2.1.tar.gz
+[2023-07-10 16:24:14] INFO root fetch - processPackages [githubdata]: executing diffoscope
+[2023-07-10 16:24:14] INFO root fetch - processPackages [githubdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/githubdata-9.0.tar.gz tmp/githubdata-9.1.tar.gz --markdown 20230710/g/githubdata/9.0-9.1/diff.md --exclude *.pyd
+[2023-07-10 16:24:14] INFO root fetch - processPackages [pytest-nhsd-apim]: Downloading https://files.pythonhosted.org/packages/1e/6f/4d939c6596cd311876dbaa2ef93199dbd15d60e8eb907b4c40fbfb5a644d/pytest-nhsd-apim-3.3.5.tar.gz
+[2023-07-10 16:24:14] INFO root fetch - processPackages [confme]: Downloading https://files.pythonhosted.org/packages/e5/6b/1d74e99365683ecc04642cae78935cad995c7237c7edc5c696ad4c6da24b/confme-2.0.0.tar.gz
+[2023-07-10 16:24:14] INFO root fetch - processPackages [kadaster-kikinzage-client]: Downloading https://files.pythonhosted.org/packages/54/cb/b058b68f35808979feec5deced8b842244d5a75a00b86dca544ab716370f/kadaster_kikinzage_client-0.3.0.tar.gz
+[2023-07-10 16:24:14] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-10 16:24:14] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-07-10 16:24:14] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.0.94.tar.gz tmp/irene_pro-0.0.95.tar.gz --markdown 20230710/i/irene-pro/0.0.94-0.0.95/diff.md --exclude *.pyd
+[2023-07-10 16:24:14] INFO root fetch - processPackages [flow360client]: executing diffoscope
+[2023-07-10 16:24:14] INFO root fetch - processPackages [flow360client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flow360client-22.3.3.0.tar.gz tmp/flow360client-23.2.3.0.tar.gz --markdown 20230710/f/flow360client/22.3.3.0-23.2.3.0/diff.md --exclude *.pyd
+[2023-07-10 16:24:14] INFO root fetch - processPackages [geoslurp]: executing diffoscope
+[2023-07-10 16:24:14] INFO root fetch - processPackages [geoslurp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geoslurp-2.2.0.tar.gz tmp/geoslurp-2.2.1.tar.gz --markdown 20230710/g/geoslurp/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-07-10 16:24:14] INFO root fetch - processPackages [confme]: executing diffoscope
+[2023-07-10 16:24:14] INFO root fetch - processPackages [confme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/confme-1.3.4.tar.gz tmp/confme-2.0.0.tar.gz --markdown 20230710/c/confme/1.3.4-2.0.0/diff.md --exclude *.pyd
+[2023-07-10 16:24:14] INFO root fetch - processPackages [recordclass]: Downloading https://files.pythonhosted.org/packages/54/4a/7b9e117feb363b7b795bf31c4516e1a53e8a1d22e996e1e5c733b5ffdfd6/recordclass-0.9.tar.gz
+[2023-07-10 16:24:14] INFO root fetch - processPackages [pytest-nhsd-apim]: executing diffoscope
+[2023-07-10 16:24:14] INFO root fetch - processPackages [kadaster-kikinzage-client]: executing diffoscope
+[2023-07-10 16:24:14] INFO root fetch - processPackages [kadaster-kikinzage-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kadaster_kikinzage_client-0.2.0.tar.gz tmp/kadaster_kikinzage_client-0.3.0.tar.gz --markdown 20230710/k/kadaster-kikinzage-client/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-10 16:24:14] INFO root fetch - processPackages [pytest-nhsd-apim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-nhsd-apim-3.3.4.tar.gz tmp/pytest-nhsd-apim-3.3.5.tar.gz --markdown 20230710/p/pytest-nhsd-apim/3.3.4-3.3.5/diff.md --exclude *.pyd
+[2023-07-10 16:24:15] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-10 16:24:15] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230710/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-10 16:24:15] INFO root fetch - processPackages [recordclass]: executing diffoscope
+[2023-07-10 16:24:15] INFO root fetch - processPackages [recordclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recordclass-0.8.5.tar.gz tmp/recordclass-0.9.tar.gz --markdown 20230710/r/recordclass/0.8.5-0.9/diff.md --exclude *.pyd
+[2023-07-10 16:24:15] INFO root fetch - processPackages [githubdata]: Remove: archive file [/home/abi/fetcher/tmp/githubdata-9.0.tar.gz]
+[2023-07-10 16:24:15] INFO root fetch - processPackages [githubdata]: Remove: archive file [/home/abi/fetcher/tmp/githubdata-9.1.tar.gz]
+[2023-07-10 16:24:15] INFO root fetch - processPackages [githubdata]: Start processing: narpyn
+[2023-07-10 16:24:15] INFO root fetch - main [MainThread]: End processing [githubdata]: success
+[2023-07-10 16:24:15] INFO root fetch - processPackages [narpyn]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-10 16:24:16] INFO root fetch - processPackages [narpyn]: Downloading https://files.pythonhosted.org/packages/17/ef/25e757d7ceb3b1d282f215ffe93de6983da3e0346ab462244ea4d4646ccd/narpyn-0.1.4.tar.gz
+[2023-07-10 16:24:16] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.94.tar.gz]
+[2023-07-10 16:24:16] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.95.tar.gz]
+[2023-07-10 16:24:16] INFO root fetch - processPackages [irene-pro]: Start processing: python-pbxonline
+[2023-07-10 16:24:16] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-07-10 16:24:16] INFO root fetch - processPackages [python-pbxonline]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-10 16:24:16] INFO root fetch - processPackages [python-pbxonline]: Downloading https://files.pythonhosted.org/packages/9c/75/3422edfbe1ace63e0a4a801cd835bbe5750942e1b0362e25e882e2e4e89c/python-pbxonline-0.1.1.tar.gz
+[2023-07-10 16:24:16] INFO root fetch - processPackages [tomaserial]: Downloading https://files.pythonhosted.org/packages/4e/f3/e14fda2d5660385262db7ed675ee1e9c8a059339a160ce74207988125f47/tomaserial-0.1.2.tar.gz
+[2023-07-10 16:24:16] INFO root fetch - processPackages [narpyn]: Downloading https://files.pythonhosted.org/packages/f9/76/8b554752b6bb2386091668ce372fe998c71394f01be03898fcec60953ee0/narpyn-0.1.5.tar.gz
+[2023-07-10 16:24:16] INFO root fetch - processPackages [confme]: Remove: archive file [/home/abi/fetcher/tmp/confme-1.3.4.tar.gz]
+[2023-07-10 16:24:16] INFO root fetch - processPackages [confme]: Remove: archive file [/home/abi/fetcher/tmp/confme-2.0.0.tar.gz]
+[2023-07-10 16:24:16] INFO root fetch - processPackages [confme]: Start processing: specklia
+[2023-07-10 16:24:16] INFO root fetch - main [MainThread]: End processing [confme]: success
+[2023-07-10 16:24:16] INFO root fetch - processPackages [flow360client]: Remove: archive file [/home/abi/fetcher/tmp/flow360client-22.3.3.0.tar.gz]
+[2023-07-10 16:24:16] INFO root fetch - processPackages [flow360client]: Remove: archive file [/home/abi/fetcher/tmp/flow360client-23.2.3.0.tar.gz]
+[2023-07-10 16:24:16] INFO root fetch - processPackages [flow360client]: Start processing: nvidia-dali-tf-plugin-nightly-cuda110
+[2023-07-10 16:24:16] INFO root fetch - main [MainThread]: End processing [flow360client]: success
+[2023-07-10 16:24:16] INFO root fetch - processPackages [pytest-nhsd-apim]: Remove: archive file [/home/abi/fetcher/tmp/pytest-nhsd-apim-3.3.4.tar.gz]
+[2023-07-10 16:24:16] INFO root fetch - processPackages [specklia]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-10 16:24:16] INFO root fetch - processPackages [pytest-nhsd-apim]: Remove: archive file [/home/abi/fetcher/tmp/pytest-nhsd-apim-3.3.5.tar.gz]
+[2023-07-10 16:24:16] INFO root fetch - processPackages [pytest-nhsd-apim]: Start processing: chsel
+[2023-07-10 16:24:16] INFO root fetch - main [MainThread]: End processing [pytest-nhsd-apim]: success
+[2023-07-10 16:24:16] INFO root fetch - processPackages [kadaster-kikinzage-client]: Remove: archive file [/home/abi/fetcher/tmp/kadaster_kikinzage_client-0.2.0.tar.gz]
+[2023-07-10 16:24:16] INFO root fetch - processPackages [kadaster-kikinzage-client]: Remove: archive file [/home/abi/fetcher/tmp/kadaster_kikinzage_client-0.3.0.tar.gz]
+[2023-07-10 16:24:16] INFO root fetch - main [MainThread]: End processing [kadaster-kikinzage-client]: success
+[2023-07-10 16:24:16] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/2a/bd/1379d90b6bd45442f7550556688400cbbbfc9ca64d3a7d78533565069eda/specklia-1.2.8.tar.gz
+[2023-07-10 16:24:16] INFO root fetch - processPackages [narpyn]: executing diffoscope
+[2023-07-10 16:24:16] INFO root fetch - processPackages [narpyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/narpyn-0.1.4.tar.gz tmp/narpyn-0.1.5.tar.gz --markdown 20230710/n/narpyn/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-10 16:24:16] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: New version: [1.28.0.dev20230707] Old Version: [1.28.0.dev20230706]
+[2023-07-10 16:24:16] INFO root fetch - processPackages [python-pbxonline]: Downloading https://files.pythonhosted.org/packages/e4/b5/37c01fcad8994e19225be38424f8e5f2fd65e799cdc3126732a3eed29dfe/python-pbxonline-0.1.2.tar.gz
+[2023-07-10 16:24:16] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-10 16:24:16] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-10 16:24:16] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-10 16:24:16] INFO root fetch - processPackages [chsel]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-10 16:24:16] INFO root fetch - processPackages [tomaserial]: executing diffoscope
+[2023-07-10 16:24:16] INFO root fetch - processPackages [tomaserial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomaserial-0.1.1.tar.gz tmp/tomaserial-0.1.2.tar.gz --markdown 20230710/t/tomaserial/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-10 16:24:16] INFO root fetch - processPackages [recordclass]: Remove: archive file [/home/abi/fetcher/tmp/recordclass-0.8.5.tar.gz]
+[2023-07-10 16:24:16] INFO root fetch - processPackages [recordclass]: Remove: archive file [/home/abi/fetcher/tmp/recordclass-0.9.tar.gz]
+[2023-07-10 16:24:16] INFO root fetch - main [MainThread]: End processing [recordclass]: success
+[2023-07-10 16:24:16] INFO root fetch - processPackages [python-pbxonline]: executing diffoscope
+[2023-07-10 16:24:16] INFO root fetch - processPackages [python-pbxonline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-pbxonline-0.1.1.tar.gz tmp/python-pbxonline-0.1.2.tar.gz --markdown 20230710/p/python-pbxonline/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-10 16:24:16] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/82/ab/63cdd26880b2cbe03073ca9cb599a0ed43a52df679f722fa5d3eaab6c4c5/specklia-1.2.9.tar.gz
+[2023-07-10 16:24:16] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/e7/f3/4c23538c528b2697eeaf9b51b6f7bee6b93c22c2f6afc43d687fdb8327b3/nvidia-dali-tf-plugin-nightly-cuda110-1.28.0.dev20230706.tar.gz
+[2023-07-10 16:24:16] INFO root fetch - processPackages [chsel]: Downloading https://files.pythonhosted.org/packages/7f/c8/f1d0ede6a2b2ab17f69435b1965ad671b95ba0ed25c7047e4477e64213a6/chsel-0.1.2.tar.gz
+[2023-07-10 16:24:17] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2023-07-10 16:24:17] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.2.8.tar.gz tmp/specklia-1.2.9.tar.gz --markdown 20230710/s/specklia/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-10 16:24:17] INFO root fetch - processPackages [geoslurp]: Remove: archive file [/home/abi/fetcher/tmp/geoslurp-2.2.0.tar.gz]
+[2023-07-10 16:24:17] INFO root fetch - processPackages [geoslurp]: Remove: archive file [/home/abi/fetcher/tmp/geoslurp-2.2.1.tar.gz]
+[2023-07-10 16:24:17] INFO root fetch - main [MainThread]: End processing [geoslurp]: success
+[2023-07-10 16:24:17] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/de/c2/e07127be9ca09dd09a265a7103263aa44a56eb591744e7af0677577e472c/nvidia-dali-tf-plugin-nightly-cuda110-1.28.0.dev20230707.tar.gz
+[2023-07-10 16:24:17] INFO root fetch - processPackages [chsel]: Downloading https://files.pythonhosted.org/packages/be/30/a1ba307ac926b468b9f76954a8948a6a8b090d1be5ed66c8b29ea9d69330/chsel-0.1.3.tar.gz
+[2023-07-10 16:24:17] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: executing diffoscope
+[2023-07-10 16:24:17] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.28.0.dev20230706.tar.gz tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.28.0.dev20230707.tar.gz --markdown 20230710/n/nvidia-dali-tf-plugin-nightly-cuda110/1.28.0.dev20230706-1.28.0.dev20230707/diff.md --exclude *.pyd
+[2023-07-10 16:24:17] INFO root fetch - processPackages [python-pbxonline]: Remove: archive file [/home/abi/fetcher/tmp/python-pbxonline-0.1.1.tar.gz]
+[2023-07-10 16:24:17] INFO root fetch - processPackages [python-pbxonline]: Remove: archive file [/home/abi/fetcher/tmp/python-pbxonline-0.1.2.tar.gz]
+[2023-07-10 16:24:17] INFO root fetch - main [MainThread]: End processing [python-pbxonline]: success
+[2023-07-10 16:24:17] INFO root fetch - processPackages [chsel]: executing diffoscope
+[2023-07-10 16:24:17] INFO root fetch - processPackages [chsel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chsel-0.1.2.tar.gz tmp/chsel-0.1.3.tar.gz --markdown 20230710/c/chsel/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-10 16:24:17] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.2.8.tar.gz]
+[2023-07-10 16:24:17] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.2.9.tar.gz]
+[2023-07-10 16:24:17] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2023-07-10 16:24:18] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.28.0.dev20230706.tar.gz]
+[2023-07-10 16:24:18] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.28.0.dev20230707.tar.gz]
+[2023-07-10 16:24:18] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda110]: success
+[2023-07-10 16:24:18] INFO root fetch - processPackages [narpyn]: Remove: archive file [/home/abi/fetcher/tmp/narpyn-0.1.4.tar.gz]
+[2023-07-10 16:24:18] INFO root fetch - processPackages [narpyn]: Remove: archive file [/home/abi/fetcher/tmp/narpyn-0.1.5.tar.gz]
+[2023-07-10 16:24:18] INFO root fetch - main [MainThread]: End processing [narpyn]: success
+[2023-07-10 16:24:18] INFO root fetch - processPackages [chsel]: Remove: archive file [/home/abi/fetcher/tmp/chsel-0.1.2.tar.gz]
+[2023-07-10 16:24:18] INFO root fetch - processPackages [chsel]: Remove: archive file [/home/abi/fetcher/tmp/chsel-0.1.3.tar.gz]
+[2023-07-10 16:24:18] INFO root fetch - main [MainThread]: End processing [chsel]: success
+[2023-07-10 16:24:30] INFO root fetch - processPackages [tomaserial]: Remove: archive file [/home/abi/fetcher/tmp/tomaserial-0.1.1.tar.gz]
+[2023-07-10 16:24:30] INFO root fetch - processPackages [tomaserial]: Remove: archive file [/home/abi/fetcher/tmp/tomaserial-0.1.2.tar.gz]
+[2023-07-10 16:24:30] INFO root fetch - main [MainThread]: End processing [tomaserial]: success
+[2023-07-10 16:24:30] INFO root fetch - main [MainThread]: Store serial: [18831838]
