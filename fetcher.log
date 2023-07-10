@@ -18115,3 +18115,161 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 15:15:03] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
 [2023-07-10 15:15:03] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-07-10 15:15:03] INFO root fetch - main [MainThread]: Store serial: [18830918]
+[2023-07-10 15:20:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18830918]
+[2023-07-10 15:20:14] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-10 15:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-coverage-plugin
+[2023-07-10 15:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyter-operator
+[2023-07-10 15:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Perfole
+[2023-07-10 15:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-pytorch
+[2023-07-10 15:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: academic-tracker
+[2023-07-10 15:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: geomagpy
+[2023-07-10 15:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-master
+[2023-07-10 15:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-scipy
+[2023-07-10 15:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: volstreet
+[2023-07-10 15:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: verticapy
+[2023-07-10 15:20:14] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230710.9.1.470895] Old Version: [20230710.13.15.936396]
+[2023-07-10 15:20:14] INFO root fetch - processPackages [django-coverage-plugin]: New version: [3.1.0] Old Version: [3.0.0]
+[2023-07-10 15:20:14] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-10 15:20:15] INFO root fetch - processPackages [academic-tracker]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-10 15:20:15] INFO root fetch - processPackages [volstreet]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-10 15:20:15] INFO root fetch - processPackages [geomagpy]: New version: [v0.3.93] Old Version: [v0.3.92]
+[2023-07-10 15:20:15] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-10 15:20:15] INFO root fetch - processPackages [verticapy]: New version: [1.0.0b2] Old Version: [1.0.0b1]
+[2023-07-10 15:20:15] INFO root fetch - processPackages [Perfole]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-10 15:20:15] INFO root fetch - processPackages [jupyter-operator]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-10 15:20:15] INFO root fetch - processPackages [django-coverage-plugin]: Downloading https://files.pythonhosted.org/packages/2f/33/11e6aa1bdeb4da936d50a14da069286c465a75e9debdeab1d415a534d9d8/django_coverage_plugin-3.0.0.tar.gz
+[2023-07-10 15:20:15] INFO root fetch - processPackages [academic-tracker]: Downloading https://files.pythonhosted.org/packages/01/90/dfd8cda26fded7a33102c2497407ae4c7067bda01fd00c5ee80630ec63b4/academic_tracker-1.0.4.tar.gz
+[2023-07-10 15:20:15] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-07-10 15:20:15] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-07-10 15:20:15] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/56/52/07f0221951aef3fa8be4ebe524e6e34d556e3d97f5ee6d1ca229c911b694/certora-cli-alpha-master-20230710.13.15.936396.tar.gz
+[2023-07-10 15:20:15] INFO root fetch - processPackages [geomagpy]: Downloading https://files.pythonhosted.org/packages/77/d0/d8eb1aee93304a36703de212a15ad0fe7aa3b58d798e2f4a670d09daf331/GeomagPy-v0.3.92.tar.gz
+[2023-07-10 15:20:15] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37464863>=10485760
+[2023-07-10 15:20:15] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: always-updates
+[2023-07-10 15:20:15] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-07-10 15:20:15] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/74/38/469197452247c662ac5ed0210d97840a89cd56b0c7bab9a6f6b0eab60a42/volstreet-0.9.8.tar.gz
+[2023-07-10 15:20:15] INFO root fetch - processPackages [Perfole]: Downloading https://files.pythonhosted.org/packages/4f/d0/ac359efffa92dd6aa01afb62d6b3bd6f478b5848a34c420b4af92b541dfe/Perfole-0.0.3.tar.gz
+[2023-07-10 15:20:15] INFO root fetch - processPackages [verticapy]: Downloading https://files.pythonhosted.org/packages/2f/ce/057611b98b7690fa680fe927f1c2d89c8a8a1df189c198c8c4dcfa814e47/verticapy-1.0.0b1.tar.gz
+[2023-07-10 15:20:15] INFO root fetch - processPackages [jupyter-operator]: Downloading https://files.pythonhosted.org/packages/9a/87/9f31d1ff9bf455336d71c14706164c41949f9a2edd2e6e356d4bbd3bb81f/jupyter_operator-0.0.3.tar.gz
+[2023-07-10 15:20:15] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-07-10 15:20:15] INFO root fetch - processPackages [django-coverage-plugin]: Downloading https://files.pythonhosted.org/packages/ba/d2/f37452482053e82c47c6ec2626370fe1a2cd81af31e510ad90bb2cb4a081/django_coverage_plugin-3.1.0.tar.gz
+[2023-07-10 15:20:15] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-07-10 15:20:15] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-07-10 15:20:15] INFO root fetch - processPackages [academic-tracker]: Downloading https://files.pythonhosted.org/packages/a5/07/5628f53e5d79c3302f97c079c44cacb1bb52237fa603e310741b5994551c/academic_tracker-1.0.5.tar.gz
+[2023-07-10 15:20:15] INFO root fetch - processPackages [django-coverage-plugin]: executing diffoscope
+[2023-07-10 15:20:15] INFO root fetch - processPackages [django-coverage-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_coverage_plugin-3.0.0.tar.gz tmp/django_coverage_plugin-3.1.0.tar.gz --markdown 20230710/d/django-coverage-plugin/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2023-07-10 15:20:15] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-07-10 15:20:15] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230710/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-10 15:20:15] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-07-10 15:20:15] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-07-10 15:20:15] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230710/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-10 15:20:15] INFO root fetch - processPackages [Perfole]: Downloading https://files.pythonhosted.org/packages/f5/0b/1da991401179c7f6129a7fab7d8d873befed9522c571866d0e8f798271d0/Perfole-0.0.4.tar.gz
+[2023-07-10 15:20:15] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/a5/69/6d1420893bf88a95ed704efafd8a06fb46a548122583cb93e4d6a4f085a0/volstreet-0.9.9.tar.gz
+[2023-07-10 15:20:16] INFO root fetch - processPackages [verticapy]: Downloading https://files.pythonhosted.org/packages/1f/bc/ee65219717c8cb9b7c6d848ffd118a680feff662cd0285dab10cc76a5467/verticapy-1.0.0b2.tar.gz
+[2023-07-10 15:20:16] INFO root fetch - processPackages [Perfole]: executing diffoscope
+[2023-07-10 15:20:16] INFO root fetch - processPackages [Perfole]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Perfole-0.0.3.tar.gz tmp/Perfole-0.0.4.tar.gz --markdown 20230710/P/Perfole/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-10 15:20:16] INFO root fetch - processPackages [jupyter-operator]: Downloading https://files.pythonhosted.org/packages/18/1d/fcae1598081aefa789f00db02e97d8f1473920b9459275d5a04bd48021ba/jupyter_operator-0.0.4.tar.gz
+[2023-07-10 15:20:16] INFO root fetch - processPackages [volstreet]: executing diffoscope
+[2023-07-10 15:20:16] INFO root fetch - processPackages [volstreet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volstreet-0.9.8.tar.gz tmp/volstreet-0.9.9.tar.gz --markdown 20230710/v/volstreet/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-10 15:20:16] INFO root fetch - processPackages [academic-tracker]: executing diffoscope
+[2023-07-10 15:20:16] INFO root fetch - processPackages [academic-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/academic_tracker-1.0.4.tar.gz tmp/academic_tracker-1.0.5.tar.gz --markdown 20230710/a/academic-tracker/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-10 15:20:16] INFO root fetch - processPackages [verticapy]: executing diffoscope
+[2023-07-10 15:20:16] INFO root fetch - processPackages [verticapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/verticapy-1.0.0b1.tar.gz tmp/verticapy-1.0.0b2.tar.gz --markdown 20230710/v/verticapy/1.0.0b1-1.0.0b2/diff.md --exclude *.pyd
+[2023-07-10 15:20:16] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-07-10 15:20:16] INFO root fetch - processPackages [jupyter-operator]: executing diffoscope
+[2023-07-10 15:20:16] INFO root fetch - processPackages [jupyter-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_operator-0.0.3.tar.gz tmp/jupyter_operator-0.0.4.tar.gz --markdown 20230710/j/jupyter-operator/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-10 15:20:16] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-07-10 15:20:16] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230710/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-07-10 15:20:17] INFO root fetch - processPackages [geomagpy]: Downloading https://files.pythonhosted.org/packages/f6/5c/a671546f60311c207c752e82f60875d2fa5f0f5c0fd684f3a9bd3b015398/GeomagPy-v0.3.93.tar.gz
+[2023-07-10 15:20:17] INFO root fetch - processPackages [django-coverage-plugin]: Remove: archive file [/home/abi/fetcher/tmp/django_coverage_plugin-3.0.0.tar.gz]
+[2023-07-10 15:20:17] INFO root fetch - processPackages [django-coverage-plugin]: Remove: archive file [/home/abi/fetcher/tmp/django_coverage_plugin-3.1.0.tar.gz]
+[2023-07-10 15:20:17] INFO root fetch - processPackages [django-coverage-plugin]: Start processing: nbdev-sphinx
+[2023-07-10 15:20:17] INFO root fetch - main [MainThread]: End processing [django-coverage-plugin]: success
+[2023-07-10 15:20:17] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-07-10 15:20:17] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-07-10 15:20:17] INFO root fetch - processPackages [nbdev-scipy]: Start processing: zalando-kubectl
+[2023-07-10 15:20:17] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-07-10 15:20:17] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-07-10 15:20:17] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-07-10 15:20:17] INFO root fetch - processPackages [nbdev-pytorch]: Start processing: labml
+[2023-07-10 15:20:17] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-07-10 15:20:17] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-10 15:20:17] INFO root fetch - processPackages [zalando-kubectl]: New version: [1.9.3.46] Old Version: [1.9.3.45]
+[2023-07-10 15:20:17] INFO root fetch - processPackages [Perfole]: Remove: archive file [/home/abi/fetcher/tmp/Perfole-0.0.3.tar.gz]
+[2023-07-10 15:20:17] INFO root fetch - processPackages [Perfole]: Remove: archive file [/home/abi/fetcher/tmp/Perfole-0.0.4.tar.gz]
+[2023-07-10 15:20:17] INFO root fetch - processPackages [Perfole]: Start processing: wideo
+[2023-07-10 15:20:17] INFO root fetch - main [MainThread]: End processing [Perfole]: success
+[2023-07-10 15:20:17] INFO root fetch - processPackages [labml]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-07-10 15:20:18] INFO root fetch - processPackages [wideo]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-10 15:20:18] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-07-10 15:20:18] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-0.9.8.tar.gz]
+[2023-07-10 15:20:18] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-0.9.9.tar.gz]
+[2023-07-10 15:20:18] INFO root fetch - processPackages [volstreet]: Start processing: snowflake-utilities
+[2023-07-10 15:20:18] INFO root fetch - main [MainThread]: End processing [volstreet]: success
+[2023-07-10 15:20:18] INFO root fetch - processPackages [labml]: Downloading https://files.pythonhosted.org/packages/ad/b0/2f629ab724eac107b099768a07fd8edd4da03b2de41b4f637073886003bc/labml-0.4.98.tar.gz
+[2023-07-10 15:20:18] INFO root fetch - processPackages [wideo]: Downloading https://files.pythonhosted.org/packages/4e/4e/e5f44ed1e477d8e9cccdafec3c9eb80d4ab9ada3ba22e2f373fc18359752/wideo-0.1.1.tar.gz
+[2023-07-10 15:20:18] INFO root fetch - processPackages [zalando-kubectl]: Downloading https://files.pythonhosted.org/packages/17/27/7c57e4bfb5742cdbbb539cdfb30cf6130058dfc614148341010c91c0ab38/zalando-kubectl-1.9.3.45.tar.gz
+[2023-07-10 15:20:18] WARNING root fetch - processPackages [snowflake-utilities]: Skipping, unable to determine old version
+[2023-07-10 15:20:18] INFO root fetch - processPackages [snowflake-utilities]: Start processing: jolli
+[2023-07-10 15:20:18] INFO root fetch - main [MainThread]: End processing [snowflake-utilities] error
+[2023-07-10 15:20:18] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-07-10 15:20:18] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-07-10 15:20:18] INFO root fetch - processPackages [always-updates]: Start processing: nbdev-django
+[2023-07-10 15:20:18] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-07-10 15:20:18] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-07-10 15:20:18] WARNING root fetch - processPackages [jolli]: Skipping, unable to determine old version
+[2023-07-10 15:20:18] INFO root fetch - processPackages [jolli]: Start processing: bridgecrew
+[2023-07-10 15:20:18] INFO root fetch - main [MainThread]: End processing [jolli] error
+[2023-07-10 15:20:18] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-10 15:20:18] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-10 15:20:18] INFO root fetch - processPackages [labml]: Downloading https://files.pythonhosted.org/packages/3e/a4/7ab7ac87bc2b361ae6b357a7f09b0ab612c1b3d7475eca5f8db578d3af7b/labml-0.4.99.tar.gz
+[2023-07-10 15:20:18] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-07-10 15:20:18] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230710/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-10 15:20:18] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-07-10 15:20:18] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-07-10 15:20:18] INFO root fetch - processPackages [labml]: executing diffoscope
+[2023-07-10 15:20:18] INFO root fetch - processPackages [labml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labml-0.4.98.tar.gz tmp/labml-0.4.99.tar.gz --markdown 20230710/l/labml/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-07-10 15:20:18] INFO root fetch - processPackages [wideo]: Downloading https://files.pythonhosted.org/packages/34/77/a85d35bee61238f45d3648a615bc829598517d99c00b94d9bd270dbdc498/wideo-0.2.0.tar.gz
+[2023-07-10 15:20:18] INFO root fetch - processPackages [zalando-kubectl]: Downloading https://files.pythonhosted.org/packages/b0/8c/40f48ac4d1bc22f066f2fd8ea893a31a7c6e03893deecec223d45e719377/zalando-kubectl-1.9.3.46.tar.gz
+[2023-07-10 15:20:18] INFO root fetch - processPackages [wideo]: executing diffoscope
+[2023-07-10 15:20:18] INFO root fetch - processPackages [wideo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wideo-0.1.1.tar.gz tmp/wideo-0.2.0.tar.gz --markdown 20230710/w/wideo/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-10 15:20:18] INFO root fetch - processPackages [zalando-kubectl]: executing diffoscope
+[2023-07-10 15:20:18] INFO root fetch - processPackages [zalando-kubectl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zalando-kubectl-1.9.3.45.tar.gz tmp/zalando-kubectl-1.9.3.46.tar.gz --markdown 20230710/z/zalando-kubectl/1.9.3.45-1.9.3.46/diff.md --exclude *.pyd
+[2023-07-10 15:20:18] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-07-10 15:20:18] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-07-10 15:20:19] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-07-10 15:20:19] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230710/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-10 15:20:19] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-07-10 15:20:19] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230710/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-10 15:20:19] INFO root fetch - processPackages [jupyter-operator]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_operator-0.0.3.tar.gz]
+[2023-07-10 15:20:19] INFO root fetch - processPackages [jupyter-operator]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_operator-0.0.4.tar.gz]
+[2023-07-10 15:20:19] INFO root fetch - main [MainThread]: End processing [jupyter-operator]: success
+[2023-07-10 15:20:19] INFO root fetch - processPackages [geomagpy]: executing diffoscope
+[2023-07-10 15:20:19] INFO root fetch - processPackages [geomagpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GeomagPy-v0.3.92.tar.gz tmp/GeomagPy-v0.3.93.tar.gz --markdown 20230710/g/geomagpy/v0.3.92-v0.3.93/diff.md --exclude *.pyd
+[2023-07-10 15:20:19] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-07-10 15:20:19] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-07-10 15:20:19] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-07-10 15:20:19] INFO root fetch - processPackages [academic-tracker]: Remove: archive file [/home/abi/fetcher/tmp/academic_tracker-1.0.4.tar.gz]
+[2023-07-10 15:20:19] INFO root fetch - processPackages [academic-tracker]: Remove: archive file [/home/abi/fetcher/tmp/academic_tracker-1.0.5.tar.gz]
+[2023-07-10 15:20:19] INFO root fetch - main [MainThread]: End processing [academic-tracker]: success
+[2023-07-10 15:20:20] INFO root fetch - processPackages [wideo]: Remove: archive file [/home/abi/fetcher/tmp/wideo-0.1.1.tar.gz]
+[2023-07-10 15:20:20] INFO root fetch - processPackages [wideo]: Remove: archive file [/home/abi/fetcher/tmp/wideo-0.2.0.tar.gz]
+[2023-07-10 15:20:20] INFO root fetch - main [MainThread]: End processing [wideo]: success
+[2023-07-10 15:20:20] INFO root fetch - processPackages [zalando-kubectl]: Remove: archive file [/home/abi/fetcher/tmp/zalando-kubectl-1.9.3.45.tar.gz]
+[2023-07-10 15:20:20] INFO root fetch - processPackages [zalando-kubectl]: Remove: archive file [/home/abi/fetcher/tmp/zalando-kubectl-1.9.3.46.tar.gz]
+[2023-07-10 15:20:20] INFO root fetch - main [MainThread]: End processing [zalando-kubectl]: success
+[2023-07-10 15:20:20] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-07-10 15:20:20] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-07-10 15:20:20] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-07-10 15:20:20] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-07-10 15:20:20] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-07-10 15:20:20] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-07-10 15:20:20] INFO root fetch - processPackages [labml]: Remove: archive file [/home/abi/fetcher/tmp/labml-0.4.98.tar.gz]
+[2023-07-10 15:20:20] INFO root fetch - processPackages [labml]: Remove: archive file [/home/abi/fetcher/tmp/labml-0.4.99.tar.gz]
+[2023-07-10 15:20:20] INFO root fetch - main [MainThread]: End processing [labml]: success
+[2023-07-10 15:20:21] INFO root fetch - processPackages [geomagpy]: Remove: archive file [/home/abi/fetcher/tmp/GeomagPy-v0.3.92.tar.gz]
+[2023-07-10 15:20:21] INFO root fetch - processPackages [geomagpy]: Remove: archive file [/home/abi/fetcher/tmp/GeomagPy-v0.3.93.tar.gz]
+[2023-07-10 15:20:21] INFO root fetch - main [MainThread]: End processing [geomagpy]: success
+[2023-07-10 15:20:22] INFO root fetch - processPackages [verticapy]: Remove: archive file [/home/abi/fetcher/tmp/verticapy-1.0.0b1.tar.gz]
+[2023-07-10 15:20:22] INFO root fetch - processPackages [verticapy]: Remove: archive file [/home/abi/fetcher/tmp/verticapy-1.0.0b2.tar.gz]
+[2023-07-10 15:20:22] INFO root fetch - main [MainThread]: End processing [verticapy]: success
+[2023-07-10 15:20:22] INFO root fetch - main [MainThread]: Store serial: [18830977]
