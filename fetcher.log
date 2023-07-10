@@ -10323,3 +10323,152 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 09:32:48] INFO root fetch - processPackages [jennifer-python]: Remove: archive file [/home/abi/fetcher/tmp/jennifer_python-5.6.1.9-py3-none-any.whl.zip]
 [2023-07-10 09:32:48] INFO root fetch - main [MainThread]: End processing [jennifer-python]: success
 [2023-07-10 09:32:48] INFO root fetch - main [MainThread]: Store serial: [18827739]
+[2023-07-10 09:38:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18827739]
+[2023-07-10 09:38:05] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-10 09:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: diz
+[2023-07-10 09:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ospd-openvas
+[2023-07-10 09:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: weconnect-cli
+[2023-07-10 09:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nowcasting-datamodel
+[2023-07-10 09:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: External-User-Local
+[2023-07-10 09:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: crowdsim
+[2023-07-10 09:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: warpzone-sdk
+[2023-07-10 09:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aesim.simba
+[2023-07-10 09:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ai2-kit
+[2023-07-10 09:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wetterdienst
+[2023-07-10 09:38:05] INFO root fetch - processPackages [weconnect-cli]: New version: [0.9.0.dev2] Old Version: [0.9.0.dev1]
+[2023-07-10 09:38:06] INFO root fetch - processPackages [warpzone-sdk]: New version: [8.2.1] Old Version: [8.2.0]
+[2023-07-10 09:38:06] INFO root fetch - processPackages [External-User-Local]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-10 09:38:06] INFO root fetch - processPackages [ospd-openvas]: New version: [22.5.2] Old Version: [22.5.1]
+[2023-07-10 09:38:06] INFO root fetch - processPackages [ai2-kit]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-10 09:38:06] INFO root fetch - processPackages [crowdsim]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-10 09:38:06] INFO root fetch - processPackages [diz]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 09:38:06] INFO root fetch - processPackages [aesim.simba]: New version: [23.5.5] Old Version: [2023.7.7a1]
+[2023-07-10 09:38:06] INFO root fetch - processPackages [nowcasting-datamodel]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-10 09:38:06] INFO root fetch - processPackages [wetterdienst]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-10 09:38:06] INFO root fetch - processPackages [External-User-Local]: Downloading https://files.pythonhosted.org/packages/bb/f3/463d3d86bbd55e9c04b071d7da9959141552f03b9a94d5b6f2d9c4ea46d3/External-User-Local-0.0.4.tar.gz
+[2023-07-10 09:38:06] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/eb/f4/ea38d8c9f78873edcbb17216f185baee2019ecb183cd80b334c593f2b1bc/ai2_kit-0.3.8.tar.gz
+[2023-07-10 09:38:06] INFO root fetch - processPackages [warpzone-sdk]: Downloading https://files.pythonhosted.org/packages/9a/5f/bbc77d2685d8f3f570d31eec704117da29eea2ddf31ae702b93a6ef044e1/warpzone_sdk-8.2.0.tar.gz
+[2023-07-10 09:38:06] INFO root fetch - processPackages [ospd-openvas]: Downloading https://files.pythonhosted.org/packages/fe/eb/bb0dc343fd3e4efcddd292d34c1934943e8884005c666232415eb6103b24/ospd_openvas-22.5.1.tar.gz
+[2023-07-10 09:38:06] INFO root fetch - processPackages [weconnect-cli]: Downloading https://files.pythonhosted.org/packages/d1/6e/05a5014a2d0da9ed5f2cadebffd97231fb4196c86bc9009358e3964e1075/weconnect-cli-0.9.0.dev1.tar.gz
+[2023-07-10 09:38:06] INFO root fetch - processPackages [crowdsim]: Downloading https://files.pythonhosted.org/packages/9e/45/4d0c0622f17d4cc3ff23716bc209292e1ab54e5c134c24435b6b99367581/crowdsim-0.1.4.tar.gz
+[2023-07-10 09:38:06] INFO root fetch - processPackages [aesim.simba]: Downloading https://files.pythonhosted.org/packages/99/c0/91f2d8ca1666c667c28916adb39658c714234a72dab1cb3a7e4632e1fd5b/aesim.simba-2023.7.7a1-py3-none-win_amd64.whl
+[2023-07-10 09:38:06] INFO root fetch - processPackages [diz]: Downloading https://files.pythonhosted.org/packages/2c/72/12a7394816bf86986c9e02996b7d1d253fafef170fc88ca0bf04519bf031/diz-0.0.8.tar.gz
+[2023-07-10 09:38:06] INFO root fetch - processPackages [nowcasting-datamodel]: Downloading https://files.pythonhosted.org/packages/01/ff/fb83ea8f39027c88f49407fb7ff4b1ac29409e608e02c6385c1de05f1bb9/nowcasting_datamodel-1.4.8.tar.gz
+[2023-07-10 09:38:06] WARNING root fetch - processPackages [aesim.simba]: Skipping package: exceeds size limit 70570174>=10485760
+[2023-07-10 09:38:06] INFO root fetch - processPackages [aesim.simba]: Start processing: dbsqlclone
+[2023-07-10 09:38:06] INFO root fetch - main [MainThread]: End processing [aesim.simba] error
+[2023-07-10 09:38:06] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/f8/ec/3044fde579418570279eb9f4c2d60facdbd573ed724ec7fa07e3a4c940aa/ai2_kit-0.3.9.tar.gz
+[2023-07-10 09:38:06] INFO root fetch - processPackages [dbsqlclone]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 09:38:06] INFO root fetch - processPackages [External-User-Local]: Downloading https://files.pythonhosted.org/packages/c9/f2/051fc8a3f6010f40990841c7f63d5cc6f26e9cecd3865592ce8ededbaf5e/External-User-Local-0.0.5.tar.gz
+[2023-07-10 09:38:06] INFO root fetch - processPackages [warpzone-sdk]: Downloading https://files.pythonhosted.org/packages/5a/9c/d18dc2acbbdf4f4989e35a6c48e3856591ee7e8f98e2c1bd0fd015fc60f2/warpzone_sdk-8.2.1.tar.gz
+[2023-07-10 09:38:06] INFO root fetch - processPackages [crowdsim]: Downloading https://files.pythonhosted.org/packages/7e/40/7055c5ac3b89023660e63cfcbeb8c19cbe2c15677869afa375bb0627ffe8/crowdsim-0.1.5.tar.gz
+[2023-07-10 09:38:06] INFO root fetch - processPackages [ospd-openvas]: Downloading https://files.pythonhosted.org/packages/4c/0b/3e5ed00a09a254ee243b5b5906caef81a61a409bc1679fc435788498e847/ospd_openvas-22.5.2.tar.gz
+[2023-07-10 09:38:06] INFO root fetch - processPackages [wetterdienst]: executing diffoscope
+[2023-07-10 09:38:06] INFO root fetch - processPackages [wetterdienst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wetterdienst-0.8.0.tar.gz tmp/wetterdienst-0.9.0.tar.gz --markdown 20230710/w/wetterdienst/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-10 09:38:06] INFO root fetch - processPackages [ai2-kit]: executing diffoscope
+[2023-07-10 09:38:06] INFO root fetch - processPackages [ai2-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai2_kit-0.3.8.tar.gz tmp/ai2_kit-0.3.9.tar.gz --markdown 20230710/a/ai2-kit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-10 09:38:06] INFO root fetch - processPackages [diz]: Downloading https://files.pythonhosted.org/packages/67/aa/8eeb7d6224fa76297103a5f16f04305940e6523da3639354f03769c5f4ef/diz-0.0.9.tar.gz
+[2023-07-10 09:38:06] INFO root fetch - processPackages [weconnect-cli]: Downloading https://files.pythonhosted.org/packages/bb/d1/2889dec463bc5bbc681fc28c3eb48428df0cd1ab05ad1d1d7376aca5b098/weconnect-cli-0.9.0.dev2.tar.gz
+[2023-07-10 09:38:06] INFO root fetch - processPackages [External-User-Local]: executing diffoscope
+[2023-07-10 09:38:06] INFO root fetch - processPackages [External-User-Local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/External-User-Local-0.0.4.tar.gz tmp/External-User-Local-0.0.5.tar.gz --markdown 20230710/E/External-User-Local/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-10 09:38:06] INFO root fetch - processPackages [nowcasting-datamodel]: Downloading https://files.pythonhosted.org/packages/54/88/f05a4b9ec0d6199779a67651f044b38cbfca8f5dd46185ffff5321580aa2/nowcasting_datamodel-1.4.9.tar.gz
+[2023-07-10 09:38:07] INFO root fetch - processPackages [dbsqlclone]: Downloading https://files.pythonhosted.org/packages/5c/3b/25d077adf5009895ff92187030733c4f9d9d67c733a8adf52441ed94deb9/dbsqlclone-0.1.8-py3-none-any.whl
+[2023-07-10 09:38:07] INFO root fetch - processPackages [crowdsim]: executing diffoscope
+[2023-07-10 09:38:07] INFO root fetch - processPackages [crowdsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crowdsim-0.1.4.tar.gz tmp/crowdsim-0.1.5.tar.gz --markdown 20230710/c/crowdsim/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-10 09:38:07] INFO root fetch - processPackages [ospd-openvas]: executing diffoscope
+[2023-07-10 09:38:07] INFO root fetch - processPackages [diz]: executing diffoscope
+[2023-07-10 09:38:07] INFO root fetch - processPackages [ospd-openvas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ospd_openvas-22.5.1.tar.gz tmp/ospd_openvas-22.5.2.tar.gz --markdown 20230710/o/ospd-openvas/22.5.1-22.5.2/diff.md --exclude *.pyd
+[2023-07-10 09:38:07] INFO root fetch - processPackages [diz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diz-0.0.8.tar.gz tmp/diz-0.0.9.tar.gz --markdown 20230710/d/diz/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 09:38:07] INFO root fetch - processPackages [warpzone-sdk]: executing diffoscope
+[2023-07-10 09:38:07] INFO root fetch - processPackages [warpzone-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/warpzone_sdk-8.2.0.tar.gz tmp/warpzone_sdk-8.2.1.tar.gz --markdown 20230710/w/warpzone-sdk/8.2.0-8.2.1/diff.md --exclude *.pyd
+[2023-07-10 09:38:07] INFO root fetch - processPackages [nowcasting-datamodel]: executing diffoscope
+[2023-07-10 09:38:07] INFO root fetch - processPackages [nowcasting-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nowcasting_datamodel-1.4.8.tar.gz tmp/nowcasting_datamodel-1.4.9.tar.gz --markdown 20230710/n/nowcasting-datamodel/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-10 09:38:07] INFO root fetch - processPackages [weconnect-cli]: executing diffoscope
+[2023-07-10 09:38:07] INFO root fetch - processPackages [weconnect-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weconnect-cli-0.9.0.dev1.tar.gz tmp/weconnect-cli-0.9.0.dev2.tar.gz --markdown 20230710/w/weconnect-cli/0.9.0.dev1-0.9.0.dev2/diff.md --exclude *.pyd
+[2023-07-10 09:38:07] INFO root fetch - processPackages [dbsqlclone]: Downloading https://files.pythonhosted.org/packages/97/66/ab70f5efb866ced4bd1cb01cad991391c38de6937f1f060ec3ab1791a180/dbsqlclone-0.1.9-py3-none-any.whl
+[2023-07-10 09:38:07] INFO root fetch - processPackages [dbsqlclone]: executing diffoscope
+[2023-07-10 09:38:07] INFO root fetch - processPackages [dbsqlclone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbsqlclone-0.1.8-py3-none-any.whl.zip tmp/dbsqlclone-0.1.9-py3-none-any.whl.zip --markdown 20230710/d/dbsqlclone/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 09:38:08] INFO root fetch - processPackages [wetterdienst]: Remove: archive file [/home/abi/fetcher/tmp/wetterdienst-0.8.0.tar.gz]
+[2023-07-10 09:38:08] INFO root fetch - processPackages [wetterdienst]: Remove: archive file [/home/abi/fetcher/tmp/wetterdienst-0.9.0.tar.gz]
+[2023-07-10 09:38:08] INFO root fetch - processPackages [wetterdienst]: Start processing: External-User-Local
+[2023-07-10 09:38:08] INFO root fetch - main [MainThread]: End processing [wetterdienst]: success
+[2023-07-10 09:38:08] INFO root fetch - processPackages [External-User-Local]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-10 09:38:08] INFO root fetch - processPackages [External-User-Local]: Remove: archive file [/home/abi/fetcher/tmp/External-User-Local-0.0.4.tar.gz]
+[2023-07-10 09:38:08] INFO root fetch - processPackages [External-User-Local]: Remove: archive file [/home/abi/fetcher/tmp/External-User-Local-0.0.5.tar.gz]
+[2023-07-10 09:38:08] INFO root fetch - processPackages [External-User-Local]: Start processing: katottglib
+[2023-07-10 09:38:08] INFO root fetch - main [MainThread]: End processing [External-User-Local]: success
+[2023-07-10 09:38:08] INFO root fetch - processPackages [External-User-Local]: Downloading https://files.pythonhosted.org/packages/c9/f2/051fc8a3f6010f40990841c7f63d5cc6f26e9cecd3865592ce8ededbaf5e/External-User-Local-0.0.5.tar.gz
+[2023-07-10 09:38:08] INFO root fetch - processPackages [katottglib]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-10 09:38:08] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.3.8.tar.gz]
+[2023-07-10 09:38:08] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.3.9.tar.gz]
+[2023-07-10 09:38:08] INFO root fetch - processPackages [ai2-kit]: Start processing: sdkit
+[2023-07-10 09:38:08] INFO root fetch - main [MainThread]: End processing [ai2-kit]: success
+[2023-07-10 09:38:08] INFO root fetch - processPackages [sdkit]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-10 09:38:08] INFO root fetch - processPackages [katottglib]: Downloading https://files.pythonhosted.org/packages/03/0a/9a3b0cace4aeab2d47162ad674b7255b8c1cfba675e522028119c3ea6cd9/katottglib-0.2.3.tar.gz
+[2023-07-10 09:38:08] INFO root fetch - processPackages [weconnect-cli]: Remove: archive file [/home/abi/fetcher/tmp/weconnect-cli-0.9.0.dev1.tar.gz]
+[2023-07-10 09:38:08] INFO root fetch - processPackages [weconnect-cli]: Remove: archive file [/home/abi/fetcher/tmp/weconnect-cli-0.9.0.dev2.tar.gz]
+[2023-07-10 09:38:08] INFO root fetch - processPackages [weconnect-cli]: Start processing: bookio-fetchfox
+[2023-07-10 09:38:08] INFO root fetch - main [MainThread]: End processing [weconnect-cli]: success
+[2023-07-10 09:38:09] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/d1/c1/f3e251106f7f4c022d55f8fe3a3c0eacdb5bfdf84ce4182f71368c4f3a5f/sdkit-1.0.98.tar.gz
+[2023-07-10 09:38:09] INFO root fetch - processPackages [crowdsim]: Remove: archive file [/home/abi/fetcher/tmp/crowdsim-0.1.4.tar.gz]
+[2023-07-10 09:38:09] INFO root fetch - processPackages [crowdsim]: Remove: archive file [/home/abi/fetcher/tmp/crowdsim-0.1.5.tar.gz]
+[2023-07-10 09:38:09] INFO root fetch - processPackages [crowdsim]: Start processing: cookiemilk
+[2023-07-10 09:38:09] INFO root fetch - main [MainThread]: End processing [crowdsim]: success
+[2023-07-10 09:38:09] INFO root fetch - processPackages [diz]: Remove: archive file [/home/abi/fetcher/tmp/diz-0.0.8.tar.gz]
+[2023-07-10 09:38:09] INFO root fetch - processPackages [diz]: Remove: archive file [/home/abi/fetcher/tmp/diz-0.0.9.tar.gz]
+[2023-07-10 09:38:09] INFO root fetch - processPackages [diz]: Start processing: weconnect-mqtt
+[2023-07-10 09:38:09] INFO root fetch - main [MainThread]: End processing [diz]: success
+[2023-07-10 09:38:09] INFO root fetch - processPackages [External-User-Local]: Downloading https://files.pythonhosted.org/packages/ee/d0/de7dd862836e60aaa643f11fc8fd311638f71800899ebd2a291712f00eb9/External-User-Local-0.0.6.tar.gz
+[2023-07-10 09:38:09] INFO root fetch - processPackages [katottglib]: executing diffoscope
+[2023-07-10 09:38:09] INFO root fetch - processPackages [katottglib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/katottglib-0.2.3.tar.gz tmp/katottglib-0.2.4.tar.gz --markdown 20230710/k/katottglib/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-10 09:38:09] INFO root fetch - processPackages [bookio-fetchfox]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-10 09:38:09] INFO root fetch - processPackages [cookiemilk]: New version: [0.1.0] Old Version: [0.0.8]
+[2023-07-10 09:38:09] INFO root fetch - processPackages [warpzone-sdk]: Remove: archive file [/home/abi/fetcher/tmp/warpzone_sdk-8.2.0.tar.gz]
+[2023-07-10 09:38:09] INFO root fetch - processPackages [warpzone-sdk]: Remove: archive file [/home/abi/fetcher/tmp/warpzone_sdk-8.2.1.tar.gz]
+[2023-07-10 09:38:09] INFO root fetch - main [MainThread]: End processing [warpzone-sdk]: success
+[2023-07-10 09:38:09] INFO root fetch - processPackages [weconnect-mqtt]: New version: [0.9.0.dev6] Old Version: [0.9.0.dev5]
+[2023-07-10 09:38:09] INFO root fetch - processPackages [nowcasting-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_datamodel-1.4.8.tar.gz]
+[2023-07-10 09:38:09] INFO root fetch - processPackages [nowcasting-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_datamodel-1.4.9.tar.gz]
+[2023-07-10 09:38:09] INFO root fetch - main [MainThread]: End processing [nowcasting-datamodel]: success
+[2023-07-10 09:38:09] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/7e/69/b60dd118fa3c33f9ff305ec5ce9de04303dfdfc9be5d286e20cbc1ee1e7b/sdkit-1.0.99.tar.gz
+[2023-07-10 09:38:09] INFO root fetch - processPackages [dbsqlclone]: Remove: archive file [/home/abi/fetcher/tmp/dbsqlclone-0.1.8-py3-none-any.whl.zip]
+[2023-07-10 09:38:09] INFO root fetch - processPackages [dbsqlclone]: Remove: archive file [/home/abi/fetcher/tmp/dbsqlclone-0.1.9-py3-none-any.whl.zip]
+[2023-07-10 09:38:09] INFO root fetch - main [MainThread]: End processing [dbsqlclone]: success
+[2023-07-10 09:38:09] INFO root fetch - processPackages [External-User-Local]: executing diffoscope
+[2023-07-10 09:38:09] INFO root fetch - processPackages [External-User-Local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/External-User-Local-0.0.5.tar.gz tmp/External-User-Local-0.0.6.tar.gz --markdown 20230710/E/External-User-Local/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-10 09:38:09] INFO root fetch - processPackages [bookio-fetchfox]: Downloading https://files.pythonhosted.org/packages/48/ba/fe131fd4808024281f0131e7b098d5774dcca4ae3bec36f87992e4816083/bookio_fetchfox-0.9.4.tar.gz
+[2023-07-10 09:38:09] INFO root fetch - processPackages [cookiemilk]: Downloading https://files.pythonhosted.org/packages/58/4a/0221ff0a6ed6f1a8c4d3857ecca3c6f8cc7429974508806817b13a2c7d86/cookiemilk-0.0.8.tar.gz
+[2023-07-10 09:38:09] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-07-10 09:38:09] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.98.tar.gz tmp/sdkit-1.0.99.tar.gz --markdown 20230710/s/sdkit/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-10 09:38:09] INFO root fetch - processPackages [weconnect-mqtt]: Downloading https://files.pythonhosted.org/packages/2e/d2/4f258e516258c22b847f2a003038f9ad0e3e0ccaf30061c4f76d5ad9c4ef/weconnect-mqtt-0.9.0.dev5.tar.gz
+[2023-07-10 09:38:09] INFO root fetch - processPackages [ospd-openvas]: Remove: archive file [/home/abi/fetcher/tmp/ospd_openvas-22.5.1.tar.gz]
+[2023-07-10 09:38:09] INFO root fetch - processPackages [ospd-openvas]: Remove: archive file [/home/abi/fetcher/tmp/ospd_openvas-22.5.2.tar.gz]
+[2023-07-10 09:38:09] INFO root fetch - main [MainThread]: End processing [ospd-openvas]: success
+[2023-07-10 09:38:09] INFO root fetch - processPackages [bookio-fetchfox]: Downloading https://files.pythonhosted.org/packages/75/ea/0ec148cecd1924c30e81ff63d276ade389cc674d2356eb6b5d1cad33da5a/bookio_fetchfox-0.9.5.tar.gz
+[2023-07-10 09:38:09] INFO root fetch - processPackages [cookiemilk]: Downloading https://files.pythonhosted.org/packages/19/8c/76f409b24f5376c5b3a0537afa8a4b5f308c2388dfbf966cbb1ebc3e5c99/cookiemilk-0.1.0.tar.gz
+[2023-07-10 09:38:09] INFO root fetch - processPackages [weconnect-mqtt]: Downloading https://files.pythonhosted.org/packages/5c/b8/26908f029bd8637cfc5ca40a4b8605fc3e7a651ed5ff373299b0e7289193/weconnect-mqtt-0.9.0.dev6.tar.gz
+[2023-07-10 09:38:09] INFO root fetch - processPackages [bookio-fetchfox]: executing diffoscope
+[2023-07-10 09:38:09] INFO root fetch - processPackages [bookio-fetchfox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bookio_fetchfox-0.9.4.tar.gz tmp/bookio_fetchfox-0.9.5.tar.gz --markdown 20230710/b/bookio-fetchfox/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-10 09:38:10] INFO root fetch - processPackages [cookiemilk]: executing diffoscope
+[2023-07-10 09:38:10] INFO root fetch - processPackages [cookiemilk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cookiemilk-0.0.8.tar.gz tmp/cookiemilk-0.1.0.tar.gz --markdown 20230710/c/cookiemilk/0.0.8-0.1.0/diff.md --exclude *.pyd
+[2023-07-10 09:38:10] INFO root fetch - processPackages [weconnect-mqtt]: executing diffoscope
+[2023-07-10 09:38:10] INFO root fetch - processPackages [weconnect-mqtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weconnect-mqtt-0.9.0.dev5.tar.gz tmp/weconnect-mqtt-0.9.0.dev6.tar.gz --markdown 20230710/w/weconnect-mqtt/0.9.0.dev5-0.9.0.dev6/diff.md --exclude *.pyd
+[2023-07-10 09:38:10] INFO root fetch - processPackages [katottglib]: Remove: archive file [/home/abi/fetcher/tmp/katottglib-0.2.3.tar.gz]
+[2023-07-10 09:38:10] INFO root fetch - processPackages [katottglib]: Remove: archive file [/home/abi/fetcher/tmp/katottglib-0.2.4.tar.gz]
+[2023-07-10 09:38:10] INFO root fetch - main [MainThread]: End processing [katottglib]: success
+[2023-07-10 09:38:10] INFO root fetch - processPackages [External-User-Local]: Remove: archive file [/home/abi/fetcher/tmp/External-User-Local-0.0.5.tar.gz]
+[2023-07-10 09:38:10] INFO root fetch - processPackages [External-User-Local]: Remove: archive file [/home/abi/fetcher/tmp/External-User-Local-0.0.6.tar.gz]
+[2023-07-10 09:38:10] INFO root fetch - main [MainThread]: End processing [External-User-Local]: success
+[2023-07-10 09:38:10] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.98.tar.gz]
+[2023-07-10 09:38:10] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.99.tar.gz]
+[2023-07-10 09:38:10] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-07-10 09:38:11] INFO root fetch - processPackages [weconnect-mqtt]: Remove: archive file [/home/abi/fetcher/tmp/weconnect-mqtt-0.9.0.dev5.tar.gz]
+[2023-07-10 09:38:11] INFO root fetch - processPackages [weconnect-mqtt]: Remove: archive file [/home/abi/fetcher/tmp/weconnect-mqtt-0.9.0.dev6.tar.gz]
+[2023-07-10 09:38:11] INFO root fetch - main [MainThread]: End processing [weconnect-mqtt]: success
+[2023-07-10 09:38:11] INFO root fetch - processPackages [cookiemilk]: Remove: archive file [/home/abi/fetcher/tmp/cookiemilk-0.0.8.tar.gz]
+[2023-07-10 09:38:11] INFO root fetch - processPackages [cookiemilk]: Remove: archive file [/home/abi/fetcher/tmp/cookiemilk-0.1.0.tar.gz]
+[2023-07-10 09:38:11] INFO root fetch - main [MainThread]: End processing [cookiemilk]: success
+[2023-07-10 09:38:11] INFO root fetch - processPackages [bookio-fetchfox]: Remove: archive file [/home/abi/fetcher/tmp/bookio_fetchfox-0.9.4.tar.gz]
+[2023-07-10 09:38:11] INFO root fetch - processPackages [bookio-fetchfox]: Remove: archive file [/home/abi/fetcher/tmp/bookio_fetchfox-0.9.5.tar.gz]
+[2023-07-10 09:38:11] INFO root fetch - main [MainThread]: End processing [bookio-fetchfox]: success
+[2023-07-10 09:38:11] INFO root fetch - main [MainThread]: Store serial: [18827787]
