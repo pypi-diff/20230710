@@ -18273,3 +18273,173 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 15:20:22] INFO root fetch - processPackages [verticapy]: Remove: archive file [/home/abi/fetcher/tmp/verticapy-1.0.0b2.tar.gz]
 [2023-07-10 15:20:22] INFO root fetch - main [MainThread]: End processing [verticapy]: success
 [2023-07-10 15:20:22] INFO root fetch - main [MainThread]: Store serial: [18830977]
+[2023-07-10 15:25:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18830977]
+[2023-07-10 15:25:31] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-10 15:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bridgecrew
+[2023-07-10 15:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gvec-to-python
+[2023-07-10 15:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypomes-scheduling
+[2023-07-10 15:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ursactl
+[2023-07-10 15:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gps-building-blocks
+[2023-07-10 15:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vectordb
+[2023-07-10 15:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-apl
+[2023-07-10 15:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: uagents-whatsapp-utility
+[2023-07-10 15:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vectordb
+[2023-07-10 15:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cumulus-library-covid
+[2023-07-10 15:25:31] WARNING root fetch - processPackages [pypomes-scheduling]: Skipping, unable to determine old version
+[2023-07-10 15:25:31] INFO root fetch - processPackages [pypomes-scheduling]: Start processing: eoshep
+[2023-07-10 15:25:31] INFO root fetch - main [MainThread]: End processing [pypomes-scheduling] error
+[2023-07-10 15:25:31] INFO root fetch - processPackages [vectordb]: New version: [0.0.6.dev2] Old Version: [0.0.6]
+[2023-07-10 15:25:31] INFO root fetch - processPackages [vectordb]: New version: [0.0.6.dev2] Old Version: [0.0.6]
+[2023-07-10 15:25:31] WARNING root fetch - processPackages [uagents-whatsapp-utility]: Skipping, unable to determine old version
+[2023-07-10 15:25:31] INFO root fetch - processPackages [uagents-whatsapp-utility]: Start processing: x-image
+[2023-07-10 15:25:31] INFO root fetch - main [MainThread]: End processing [uagents-whatsapp-utility] error
+[2023-07-10 15:25:31] INFO root fetch - processPackages [cumulus-library-covid]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-10 15:25:31] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.886] Old Version: [0.0.885]
+[2023-07-10 15:25:31] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-10 15:25:31] INFO root fetch - processPackages [gvec-to-python]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-10 15:25:31] WARNING root fetch - processPackages [ursactl]: Skipping, unable to determine old version
+[2023-07-10 15:25:31] INFO root fetch - processPackages [ursactl]: Start processing: nonebot-plugin-stable-diffusion-diao
+[2023-07-10 15:25:31] INFO root fetch - main [MainThread]: End processing [ursactl] error
+[2023-07-10 15:25:31] INFO root fetch - processPackages [gps-building-blocks]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-07-10 15:25:31] INFO root fetch - processPackages [eoshep]: New version: [1.0.9.dev1312] Old Version: [1.0.9.dev1308]
+[2023-07-10 15:25:31] INFO root fetch - processPackages [vectordb]: Downloading https://files.pythonhosted.org/packages/0c/88/fe609760b7c0f221b8c734fd753c4f494c4469a0f5a08803b60cd888477c/vectordb-0.0.6.tar.gz
+[2023-07-10 15:25:31] WARNING root fetch - processPackages [x-image]: Skipping, unable to determine old version
+[2023-07-10 15:25:31] INFO root fetch - processPackages [x-image]: Start processing: model-constructor
+[2023-07-10 15:25:31] INFO root fetch - main [MainThread]: End processing [x-image] error
+[2023-07-10 15:25:32] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-07-10 15:25:32] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/66/b4/83bce75386a2696848c13f1985ef24115ea544fc097268f3f7502ddf01aa/nbdev-apl-0.0.885.tar.gz
+[2023-07-10 15:25:32] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: New version: [0.3] Old Version: [0.2.3]
+[2023-07-10 15:25:32] INFO root fetch - processPackages [vectordb]: Downloading https://files.pythonhosted.org/packages/0c/88/fe609760b7c0f221b8c734fd753c4f494c4469a0f5a08803b60cd888477c/vectordb-0.0.6.tar.gz
+[2023-07-10 15:25:32] INFO root fetch - processPackages [cumulus-library-covid]: Downloading https://files.pythonhosted.org/packages/0e/a8/6c44bab0574f6d4772889ee4f899492b4a999ea8038c36ac2706bbf5e166/cumulus_library_covid-0.1.3.tar.gz
+[2023-07-10 15:25:32] INFO root fetch - processPackages [gvec-to-python]: Downloading https://files.pythonhosted.org/packages/04/34/fff2669e498e90575dd109d4961317543faf6cf1bdf61dad4cba7129a4e0/gvec-to-python-1.1.2.tar.gz
+[2023-07-10 15:25:32] INFO root fetch - processPackages [model-constructor]: New version: [0.4] Old Version: [0.3.2]
+[2023-07-10 15:25:32] INFO root fetch - processPackages [eoshep]: Downloading https://files.pythonhosted.org/packages/16/0b/b9f652e23b19b95de0a1481769406ac4cda97c898fb1e942ed2c691a078f/eoshep-1.0.9.dev1308-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-10 15:25:32] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-07-10 15:25:32] WARNING root fetch - processPackages [eoshep]: Skipping package: exceeds size limit 78063280>=10485760
+[2023-07-10 15:25:32] INFO root fetch - processPackages [eoshep]: Start processing: roxbot
+[2023-07-10 15:25:32] INFO root fetch - main [MainThread]: End processing [eoshep] error
+[2023-07-10 15:25:32] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/28/6e/6cb8bc0765c25169809b55f52932d5ca35264562d349b5efbac60d186f44/nonebot_plugin_stable_diffusion_diao-0.2.3.tar.gz
+[2023-07-10 15:25:32] INFO root fetch - processPackages [vectordb]: Downloading https://files.pythonhosted.org/packages/72/af/76fcc31f6cd9db9fd39f1dd037b403d39a9ee79da4879c8df48f3d22dfca/vectordb-0.0.6.dev2.tar.gz
+[2023-07-10 15:25:32] INFO root fetch - processPackages [roxbot]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-10 15:25:32] INFO root fetch - processPackages [vectordb]: Downloading https://files.pythonhosted.org/packages/72/af/76fcc31f6cd9db9fd39f1dd037b403d39a9ee79da4879c8df48f3d22dfca/vectordb-0.0.6.dev2.tar.gz
+[2023-07-10 15:25:32] INFO root fetch - processPackages [model-constructor]: Downloading https://files.pythonhosted.org/packages/d3/c2/fb12865be4c00cd34d1f42146cd59ed2b874405cc29617c1e4d2112ece96/model_constructor-0.3.2.tar.gz
+[2023-07-10 15:25:32] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/00/ca/19c31f2978bc32a1e1f66c2c24e6230cc1eabb83c94275929dd35d8ee46a/nbdev-apl-0.0.886.tar.gz
+[2023-07-10 15:25:32] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-07-10 15:25:32] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230710/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-10 15:25:32] INFO root fetch - processPackages [cumulus-library-covid]: Downloading https://files.pythonhosted.org/packages/7b/10/b4276c4d0983d409cbe35df17951b8af1a706eaa8db31841446844560fda/cumulus_library_covid-0.1.4.tar.gz
+[2023-07-10 15:25:32] INFO root fetch - processPackages [gps-building-blocks]: executing diffoscope
+[2023-07-10 15:25:32] INFO root fetch - processPackages [gps-building-blocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gps_building_blocks-1.98.0-py3-none-any.whl.zip tmp/gps_building_blocks-1.99.0-py3-none-any.whl.zip --markdown 20230710/g/gps-building-blocks/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-07-10 15:25:32] INFO root fetch - processPackages [roxbot]: Downloading https://files.pythonhosted.org/packages/44/e6/fab25b638f58f1bc9da1f7793559737246f0ed9a923a5d8b52360926c083/roxbot-0.9.0.tar.gz
+[2023-07-10 15:25:32] INFO root fetch - processPackages [vectordb]: executing diffoscope
+[2023-07-10 15:25:32] INFO root fetch - processPackages [vectordb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectordb-0.0.6.tar.gz tmp/vectordb-0.0.6.dev2.tar.gz --markdown 20230710/v/vectordb/0.0.6-0.0.6.dev2/diff.md --exclude *.pyd
+[2023-07-10 15:25:32] INFO root fetch - processPackages [gvec-to-python]: Downloading https://files.pythonhosted.org/packages/55/98/dcd97cb50be8b4396cfd59dbe581c868d9ea2dd3b594d83a4854f6a1ac2a/gvec-to-python-1.1.3.tar.gz
+[2023-07-10 15:25:32] INFO root fetch - processPackages [vectordb]: executing diffoscope
+[2023-07-10 15:25:32] INFO root fetch - processPackages [vectordb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectordb-0.0.6.tar.gz tmp/vectordb-0.0.6.dev2.tar.gz --markdown 20230710/v/vectordb/0.0.6-0.0.6.dev2/diff.md --exclude *.pyd
+[2023-07-10 15:25:32] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-07-10 15:25:32] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.885.tar.gz tmp/nbdev-apl-0.0.886.tar.gz --markdown 20230710/n/nbdev-apl/0.0.885-0.0.886/diff.md --exclude *.pyd
+[2023-07-10 15:25:32] INFO root fetch - processPackages [cumulus-library-covid]: executing diffoscope
+[2023-07-10 15:25:32] INFO root fetch - processPackages [cumulus-library-covid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cumulus_library_covid-0.1.3.tar.gz tmp/cumulus_library_covid-0.1.4.tar.gz --markdown 20230710/c/cumulus-library-covid/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-10 15:25:32] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/71/9b/b3881e9941f6ab4edd692fc196955939313affca7acbfd5c44ce8b3cb969/nonebot_plugin_stable_diffusion_diao-0.3.tar.gz
+[2023-07-10 15:25:32] INFO root fetch - processPackages [gvec-to-python]: executing diffoscope
+[2023-07-10 15:25:32] INFO root fetch - processPackages [gvec-to-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gvec-to-python-1.1.2.tar.gz tmp/gvec-to-python-1.1.3.tar.gz --markdown 20230710/g/gvec-to-python/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-10 15:25:33] INFO root fetch - processPackages [model-constructor]: Downloading https://files.pythonhosted.org/packages/31/29/547939f44de8f31321f89850f545bd0b44aa62d81d6ef0b0d2dc9c43c721/model_constructor-0.4.tar.gz
+[2023-07-10 15:25:33] INFO root fetch - processPackages [roxbot]: Downloading https://files.pythonhosted.org/packages/e3/3c/3148e805a07a05e6b50a8afeaaeb51d5e164f7e320700b3b3efa63692d73/roxbot-0.9.1.tar.gz
+[2023-07-10 15:25:33] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: executing diffoscope
+[2023-07-10 15:25:33] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_stable_diffusion_diao-0.2.3.tar.gz tmp/nonebot_plugin_stable_diffusion_diao-0.3.tar.gz --markdown 20230710/n/nonebot-plugin-stable-diffusion-diao/0.2.3-0.3/diff.md --exclude *.pyd
+[2023-07-10 15:25:33] INFO root fetch - processPackages [model-constructor]: executing diffoscope
+[2023-07-10 15:25:33] INFO root fetch - processPackages [model-constructor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_constructor-0.3.2.tar.gz tmp/model_constructor-0.4.tar.gz --markdown 20230710/m/model-constructor/0.3.2-0.4/diff.md --exclude *.pyd
+[2023-07-10 15:25:33] INFO root fetch - processPackages [roxbot]: executing diffoscope
+[2023-07-10 15:25:33] INFO root fetch - processPackages [roxbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roxbot-0.9.0.tar.gz tmp/roxbot-0.9.1.tar.gz --markdown 20230710/r/roxbot/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-10 15:25:34] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-07-10 15:25:34] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-07-10 15:25:34] INFO root fetch - processPackages [bridgecrew]: Start processing: optibar
+[2023-07-10 15:25:34] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-07-10 15:25:34] WARNING root fetch - processPackages [optibar]: Skipping, unable to determine old version
+[2023-07-10 15:25:34] INFO root fetch - processPackages [optibar]: Start processing: cellseg-models-pytorch
+[2023-07-10 15:25:34] INFO root fetch - main [MainThread]: End processing [optibar] error
+[2023-07-10 15:25:34] INFO root fetch - processPackages [vectordb]: Remove: archive file [/home/abi/fetcher/tmp/vectordb-0.0.6.tar.gz]
+[2023-07-10 15:25:34] INFO root fetch - processPackages [vectordb]: Remove: archive file [/home/abi/fetcher/tmp/vectordb-0.0.6.dev2.tar.gz]
+[2023-07-10 15:25:34] INFO root fetch - processPackages [vectordb]: Start processing: mujoco-dev
+[2023-07-10 15:25:34] INFO root fetch - main [MainThread]: End processing [vectordb]: success
+[2023-07-10 15:25:34] INFO root fetch - processPackages [cellseg-models-pytorch]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 15:25:34] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.885.tar.gz]
+[2023-07-10 15:25:34] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.886.tar.gz]
+[2023-07-10 15:25:34] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-07-10 15:25:34] INFO root fetch - main [MainThread]: End processing [vectordb]: success
+[2023-07-10 15:25:34] INFO root fetch - processPackages [mujoco-dev]: New version: [2.3.6.dev546849864] Old Version: [2.3.6.dev546252926]
+[2023-07-10 15:25:34] INFO root fetch - processPackages [cumulus-library-covid]: Remove: archive file [/home/abi/fetcher/tmp/cumulus_library_covid-0.1.3.tar.gz]
+[2023-07-10 15:25:34] INFO root fetch - processPackages [cumulus-library-covid]: Remove: archive file [/home/abi/fetcher/tmp/cumulus_library_covid-0.1.4.tar.gz]
+[2023-07-10 15:25:34] INFO root fetch - main [MainThread]: End processing [cumulus-library-covid]: success
+[2023-07-10 15:25:34] INFO root fetch - processPackages [cellseg-models-pytorch]: Downloading https://files.pythonhosted.org/packages/b6/ac/61535ca1f505b1d4e0566922f165e647ed8ebb0cf85683b9133051dec110/cellseg_models_pytorch-0.1.8.tar.gz
+[2023-07-10 15:25:34] INFO root fetch - processPackages [roxbot]: Remove: archive file [/home/abi/fetcher/tmp/roxbot-0.9.0.tar.gz]
+[2023-07-10 15:25:34] INFO root fetch - processPackages [roxbot]: Remove: archive file [/home/abi/fetcher/tmp/roxbot-0.9.1.tar.gz]
+[2023-07-10 15:25:34] INFO root fetch - main [MainThread]: End processing [roxbot]: success
+[2023-07-10 15:25:34] INFO root fetch - processPackages [mujoco-dev]: Downloading https://files.pythonhosted.org/packages/9d/dc/669a822ad61d6ac462095eb76d44190c25383c16cafd098fcb9f6cb7687d/mujoco_dev-2.3.6.dev546252926-cp39-cp39-win_amd64.whl
+[2023-07-10 15:25:34] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.2.3.tar.gz]
+[2023-07-10 15:25:34] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.tar.gz]
+[2023-07-10 15:25:34] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-stable-diffusion-diao]: success
+[2023-07-10 15:25:34] INFO root fetch - processPackages [model-constructor]: Remove: archive file [/home/abi/fetcher/tmp/model_constructor-0.3.2.tar.gz]
+[2023-07-10 15:25:34] INFO root fetch - processPackages [model-constructor]: Remove: archive file [/home/abi/fetcher/tmp/model_constructor-0.4.tar.gz]
+[2023-07-10 15:25:34] INFO root fetch - main [MainThread]: End processing [model-constructor]: success
+[2023-07-10 15:25:34] ERROR root fetch - processPackages [gps-building-blocks]: Diffoscope failed: time="2023-07-10T15:25:32+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+EOFError: EOF read where object expected
+
+[2023-07-10 15:25:34] INFO root fetch - main [MainThread]: End processing [gps-building-blocks] error
+[2023-07-10 15:25:35] INFO root fetch - processPackages [gvec-to-python]: Remove: archive file [/home/abi/fetcher/tmp/gvec-to-python-1.1.2.tar.gz]
+[2023-07-10 15:25:35] INFO root fetch - processPackages [gvec-to-python]: Remove: archive file [/home/abi/fetcher/tmp/gvec-to-python-1.1.3.tar.gz]
+[2023-07-10 15:25:35] INFO root fetch - main [MainThread]: End processing [gvec-to-python]: success
+[2023-07-10 15:25:35] INFO root fetch - processPackages [mujoco-dev]: Downloading https://files.pythonhosted.org/packages/21/5f/07dcd0bb32397e31bd739167caeecce3beda2c006014b4cc1c79b581f58e/mujoco_dev-2.3.6.dev546849864-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-10 15:25:36] INFO root fetch - processPackages [cellseg-models-pytorch]: Downloading https://files.pythonhosted.org/packages/54/43/a70050f7064fef58445e980a7bb4a6cb24bc8a908751431c7d906e1b3ece/cellseg_models_pytorch-0.1.9.tar.gz
+[2023-07-10 15:25:36] INFO root fetch - processPackages [mujoco-dev]: executing diffoscope
+[2023-07-10 15:25:36] INFO root fetch - processPackages [mujoco-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mujoco_dev-2.3.6.dev546252926-cp39-cp39-win_amd64.whl.zip tmp/mujoco_dev-2.3.6.dev546849864-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230710/m/mujoco-dev/2.3.6.dev546252926-2.3.6.dev546849864/diff.md --exclude *.pyd
+[2023-07-10 15:25:37] INFO root fetch - processPackages [cellseg-models-pytorch]: executing diffoscope
+[2023-07-10 15:25:37] INFO root fetch - processPackages [cellseg-models-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellseg_models_pytorch-0.1.8.tar.gz tmp/cellseg_models_pytorch-0.1.9.tar.gz --markdown 20230710/c/cellseg-models-pytorch/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 15:25:38] INFO root fetch - processPackages [mujoco-dev]: Remove: archive file [/home/abi/fetcher/tmp/mujoco_dev-2.3.6.dev546252926-cp39-cp39-win_amd64.whl.zip]
+[2023-07-10 15:25:38] INFO root fetch - processPackages [mujoco-dev]: Remove: archive file [/home/abi/fetcher/tmp/mujoco_dev-2.3.6.dev546849864-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-10 15:25:38] INFO root fetch - main [MainThread]: End processing [mujoco-dev]: success
+[2023-07-10 15:25:39] INFO root fetch - processPackages [cellseg-models-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cellseg_models_pytorch-0.1.8.tar.gz]
+[2023-07-10 15:25:39] INFO root fetch - processPackages [cellseg-models-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cellseg_models_pytorch-0.1.9.tar.gz]
+[2023-07-10 15:25:39] INFO root fetch - main [MainThread]: End processing [cellseg-models-pytorch]: success
+[2023-07-10 15:25:39] INFO root fetch - main [MainThread]: Store serial: [18831044]
