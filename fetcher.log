@@ -8459,3 +8459,60 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 07:47:02] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.2.0rc0.tar.gz]
 [2023-07-10 07:47:02] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
 [2023-07-10 07:47:02] INFO root fetch - main [MainThread]: Store serial: [18826910]
+[2023-07-10 07:52:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18826910]
+[2023-07-10 07:52:11] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-10 07:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sdss-lvmscp
+[2023-07-10 07:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-excel-serializer
+[2023-07-10 07:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flynt
+[2023-07-10 07:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: overhave
+[2023-07-10 07:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: typetype
+[2023-07-10 07:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bnlp-toolkit
+[2023-07-10 07:52:11] INFO root fetch - processPackages [flynt]: New version: [1.0.0] Old Version: [0.78]
+[2023-07-10 07:52:11] INFO root fetch - processPackages [django-excel-serializer]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-10 07:52:11] INFO root fetch - processPackages [sdss-lvmscp]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-10 07:52:11] INFO root fetch - processPackages [overhave]: New version: [4.1.0] Old Version: [4.0.5]
+[2023-07-10 07:52:11] INFO root fetch - processPackages [typetype]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-10 07:52:11] INFO root fetch - processPackages [bnlp-toolkit]: New version: [3.3.2] Old Version: [3.3.1]
+[2023-07-10 07:52:11] INFO root fetch - processPackages [typetype]: Downloading https://files.pythonhosted.org/packages/48/08/1d8b9cd131a758e16537545ab2a517e8ab5ee5eeccd0b632b1dd519ca3bf/typetype-1.0.1.tar.gz
+[2023-07-10 07:52:11] INFO root fetch - processPackages [flynt]: Downloading https://files.pythonhosted.org/packages/9f/7b/1a7d8be580d73882beaf05f452d72fc3f70f86b41a752a9e41cddae65c88/flynt-0.78.tar.gz
+[2023-07-10 07:52:12] INFO root fetch - processPackages [sdss-lvmscp]: Downloading https://files.pythonhosted.org/packages/4e/4a/d914eb2ad26bec20b7e79d0a8d1b8a9b1f08c65c86c43b2df0734aec109f/sdss_lvmscp-0.4.0.tar.gz
+[2023-07-10 07:52:12] INFO root fetch - processPackages [django-excel-serializer]: Downloading https://files.pythonhosted.org/packages/80/b6/0e71261512ab671230dd595279b83e1e653909d6fc39d52122544e49cc40/django-excel-serializer-2.0.0.tar.gz
+[2023-07-10 07:52:12] INFO root fetch - processPackages [overhave]: Downloading https://files.pythonhosted.org/packages/df/34/0375994ba1ba491cd7d91d760230a55e9dee6f2548bb9b5a7bc93914e939/overhave-4.0.5.tar.gz
+[2023-07-10 07:52:12] INFO root fetch - processPackages [bnlp-toolkit]: Downloading https://files.pythonhosted.org/packages/89/4b/f6513b55393bdb4b0fc1dd5f4a98d3445f1522f588bf1123d29dcc716155/bnlp_toolkit-3.3.1.tar.gz
+[2023-07-10 07:52:12] INFO root fetch - processPackages [django-excel-serializer]: Downloading https://files.pythonhosted.org/packages/77/93/42868af0b21dd8a2f8b2943eaacf8844f56926f2a9610ee27c0b4d605066/django-excel-serializer-2.0.1.tar.gz
+[2023-07-10 07:52:12] INFO root fetch - processPackages [typetype]: Downloading https://files.pythonhosted.org/packages/92/de/3aa6a4d20122ade98f742700c03a0f31c4e95aaaaa0fc334eed10cd756dd/typetype-1.0.2.tar.gz
+[2023-07-10 07:52:12] INFO root fetch - processPackages [flynt]: Downloading https://files.pythonhosted.org/packages/55/2c/99eb5109cba45d9b3ec7172029e3e9396cba5c458313fc61b833a125c646/flynt-1.0.0.tar.gz
+[2023-07-10 07:52:12] INFO root fetch - processPackages [overhave]: Downloading https://files.pythonhosted.org/packages/95/ef/96508f4366ebb89dd96836d35ac9ac60ce21cb2de66015f8f6b90a07c4ba/overhave-4.1.0.tar.gz
+[2023-07-10 07:52:12] INFO root fetch - processPackages [sdss-lvmscp]: Downloading https://files.pythonhosted.org/packages/ae/85/be6ee1165a4cf0fe297c33c2a99a19071413ff5c28373a9d7fcb49805d77/sdss_lvmscp-0.5.0.tar.gz
+[2023-07-10 07:52:12] INFO root fetch - processPackages [django-excel-serializer]: executing diffoscope
+[2023-07-10 07:52:12] INFO root fetch - processPackages [django-excel-serializer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-excel-serializer-2.0.0.tar.gz tmp/django-excel-serializer-2.0.1.tar.gz --markdown 20230710/d/django-excel-serializer/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-10 07:52:12] INFO root fetch - processPackages [bnlp-toolkit]: Downloading https://files.pythonhosted.org/packages/6d/5d/02d78757698f2dfeffd3b26925ce779cf37bb2d8c29a178c1a77974b555f/bnlp_toolkit-3.3.2.tar.gz
+[2023-07-10 07:52:12] INFO root fetch - processPackages [sdss-lvmscp]: executing diffoscope
+[2023-07-10 07:52:12] INFO root fetch - processPackages [sdss-lvmscp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdss_lvmscp-0.4.0.tar.gz tmp/sdss_lvmscp-0.5.0.tar.gz --markdown 20230710/s/sdss-lvmscp/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-10 07:52:12] INFO root fetch - processPackages [flynt]: executing diffoscope
+[2023-07-10 07:52:12] INFO root fetch - processPackages [flynt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flynt-0.78.tar.gz tmp/flynt-1.0.0.tar.gz --markdown 20230710/f/flynt/0.78-1.0.0/diff.md --exclude *.pyd
+[2023-07-10 07:52:12] INFO root fetch - processPackages [typetype]: executing diffoscope
+[2023-07-10 07:52:12] INFO root fetch - processPackages [typetype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typetype-1.0.1.tar.gz tmp/typetype-1.0.2.tar.gz --markdown 20230710/t/typetype/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-10 07:52:12] INFO root fetch - processPackages [overhave]: executing diffoscope
+[2023-07-10 07:52:12] INFO root fetch - processPackages [overhave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/overhave-4.0.5.tar.gz tmp/overhave-4.1.0.tar.gz --markdown 20230710/o/overhave/4.0.5-4.1.0/diff.md --exclude *.pyd
+[2023-07-10 07:52:12] INFO root fetch - processPackages [bnlp-toolkit]: executing diffoscope
+[2023-07-10 07:52:12] INFO root fetch - processPackages [bnlp-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bnlp_toolkit-3.3.1.tar.gz tmp/bnlp_toolkit-3.3.2.tar.gz --markdown 20230710/b/bnlp-toolkit/3.3.1-3.3.2/diff.md --exclude *.pyd
+[2023-07-10 07:52:13] INFO root fetch - processPackages [django-excel-serializer]: Remove: archive file [/home/abi/fetcher/tmp/django-excel-serializer-2.0.0.tar.gz]
+[2023-07-10 07:52:13] INFO root fetch - processPackages [django-excel-serializer]: Remove: archive file [/home/abi/fetcher/tmp/django-excel-serializer-2.0.1.tar.gz]
+[2023-07-10 07:52:13] INFO root fetch - main [MainThread]: End processing [django-excel-serializer]: success
+[2023-07-10 07:52:13] INFO root fetch - processPackages [typetype]: Remove: archive file [/home/abi/fetcher/tmp/typetype-1.0.1.tar.gz]
+[2023-07-10 07:52:13] INFO root fetch - processPackages [typetype]: Remove: archive file [/home/abi/fetcher/tmp/typetype-1.0.2.tar.gz]
+[2023-07-10 07:52:13] INFO root fetch - main [MainThread]: End processing [typetype]: success
+[2023-07-10 07:52:13] INFO root fetch - processPackages [flynt]: Remove: archive file [/home/abi/fetcher/tmp/flynt-0.78.tar.gz]
+[2023-07-10 07:52:13] INFO root fetch - processPackages [flynt]: Remove: archive file [/home/abi/fetcher/tmp/flynt-1.0.0.tar.gz]
+[2023-07-10 07:52:13] INFO root fetch - main [MainThread]: End processing [flynt]: success
+[2023-07-10 07:52:13] INFO root fetch - processPackages [bnlp-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/bnlp_toolkit-3.3.1.tar.gz]
+[2023-07-10 07:52:13] INFO root fetch - processPackages [bnlp-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/bnlp_toolkit-3.3.2.tar.gz]
+[2023-07-10 07:52:13] INFO root fetch - main [MainThread]: End processing [bnlp-toolkit]: success
+[2023-07-10 07:52:14] INFO root fetch - processPackages [sdss-lvmscp]: Remove: archive file [/home/abi/fetcher/tmp/sdss_lvmscp-0.4.0.tar.gz]
+[2023-07-10 07:52:14] INFO root fetch - processPackages [sdss-lvmscp]: Remove: archive file [/home/abi/fetcher/tmp/sdss_lvmscp-0.5.0.tar.gz]
+[2023-07-10 07:52:14] INFO root fetch - main [MainThread]: End processing [sdss-lvmscp]: success
+[2023-07-10 07:52:14] INFO root fetch - processPackages [overhave]: Remove: archive file [/home/abi/fetcher/tmp/overhave-4.0.5.tar.gz]
+[2023-07-10 07:52:14] INFO root fetch - processPackages [overhave]: Remove: archive file [/home/abi/fetcher/tmp/overhave-4.1.0.tar.gz]
+[2023-07-10 07:52:14] INFO root fetch - main [MainThread]: End processing [overhave]: success
+[2023-07-10 07:52:14] INFO root fetch - main [MainThread]: Store serial: [18826927]
