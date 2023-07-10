@@ -1390,3 +1390,145 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 02:04:54] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-07-10 02:04:54] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-07-10 02:04:54] INFO root fetch - main [MainThread]: Store serial: [18824301]
+[2023-07-10 02:09:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18824301]
+[2023-07-10 02:10:04] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-10 02:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mct-nightly
+[2023-07-10 02:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jaxkern-nightly
+[2023-07-10 02:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaxutils-nightly
+[2023-07-10 02:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deadpool-executor
+[2023-07-10 02:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: extended-json-schema-validator
+[2023-07-10 02:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: omnata-plugin-devkit
+[2023-07-10 02:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bb-dirtree
+[2023-07-10 02:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tja2fumen
+[2023-07-10 02:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ml-compiler-opt
+[2023-07-10 02:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ml-compiler-opt
+[2023-07-10 02:10:04] INFO root fetch - processPackages [extended-json-schema-validator]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-10 02:10:04] INFO root fetch - processPackages [deadpool-executor]: New version: [2023.7.2] Old Version: [2023.7.1]
+[2023-07-10 02:10:04] INFO root fetch - processPackages [ml-compiler-opt]: New version: [0.0.1.dev202307100008] Old Version: [0.0.1.dev202307100007]
+[2023-07-10 02:10:04] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230709] Old Version: [0.0.8.dev20230708]
+[2023-07-10 02:10:04] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 02:10:04] INFO root fetch - processPackages [bb-dirtree]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-10 02:10:04] INFO root fetch - processPackages [ml-compiler-opt]: New version: [0.0.1.dev202307100008] Old Version: [0.0.1.dev202307100007]
+[2023-07-10 02:10:04] INFO root fetch - processPackages [tja2fumen]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-07-10 02:10:04] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/c2/8c/a26f5fbc3c92b6077f85e1999c76898be4494c329bc181dfc224881723c7/jaxutils-nightly-0.0.8.dev20230708.tar.gz
+[2023-07-10 02:10:04] INFO root fetch - processPackages [mct-nightly]: New version: [1.9.0.20230710.post454] Old Version: [1.9.0.20230709.post509]
+[2023-07-10 02:10:04] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-07-10 02:10:04] INFO root fetch - processPackages [bb-dirtree]: Downloading https://files.pythonhosted.org/packages/6b/16/7a71f45326a83b358c23b8535f2f25edc9c578fd97524ff1cdc0636fd0dd/bb_dirtree-0.2.2.tar.gz
+[2023-07-10 02:10:04] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/9a/b1/3ea0d9f9eb4d47da98eb6b20b9a18f35e5d52cf4b2088917d813417e6dd6/ml-compiler-opt-0.0.1.dev202307100007.tar.gz
+[2023-07-10 02:10:04] INFO root fetch - processPackages [deadpool-executor]: Downloading https://files.pythonhosted.org/packages/30/a8/d5d018ee8fc73d96660a835d9c4d11d2c754ae475c9150c0530162240391/deadpool_executor-2023.7.1.tar.gz
+[2023-07-10 02:10:04] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/9a/b1/3ea0d9f9eb4d47da98eb6b20b9a18f35e5d52cf4b2088917d813417e6dd6/ml-compiler-opt-0.0.1.dev202307100007.tar.gz
+[2023-07-10 02:10:04] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/a6/03/037aa46c1c15ce197872a42c2494fcfb0dd6fd4c14cebaeaf6f9495b5cbf/omnata_plugin_devkit-0.1.8.tar.gz
+[2023-07-10 02:10:04] INFO root fetch - processPackages [tja2fumen]: Downloading https://files.pythonhosted.org/packages/48/0f/4870a937550fd2ecc85f5f2bfeea64b69238a35a1d4490d5f6d255b4abab/tja2fumen-0.4.1.tar.gz
+[2023-07-10 02:10:04] INFO root fetch - processPackages [extended-json-schema-validator]: Downloading https://files.pythonhosted.org/packages/19/f6/8d7fbd30c3f0713427a5eee4294b211a70c4a3ae176b733b2f2a2d6f99d7/extended_json_schema_validator-0.9.8.tar.gz
+[2023-07-10 02:10:04] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-07-10 02:10:04] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/b0/22/b60abac6706e0cc849edc9a90b6a57456197c7ad551236b6aec3ad1c09aa/mct-nightly-1.9.0.20230709.post509.tar.gz
+[2023-07-10 02:10:05] INFO root fetch - processPackages [bb-dirtree]: Downloading https://files.pythonhosted.org/packages/e7/d7/8f7331aecf0245a0b980675a302fde89bb8189c6c5ffbeea71b9272dade2/bb_dirtree-0.2.3.tar.gz
+[2023-07-10 02:10:05] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/38/8d/5f649b6d78ee99f7cfd1d38e16bee5d0f6543940aac254e1bf597dcea102/jaxutils-nightly-0.0.8.dev20230709.tar.gz
+[2023-07-10 02:10:05] INFO root fetch - processPackages [deadpool-executor]: Downloading https://files.pythonhosted.org/packages/77/4e/d16ee96cf0e9f4e2ae642f04a9b5cc29daa39532418ae651f1732970384b/deadpool_executor-2023.7.2.tar.gz
+[2023-07-10 02:10:05] INFO root fetch - processPackages [bb-dirtree]: executing diffoscope
+[2023-07-10 02:10:05] INFO root fetch - processPackages [bb-dirtree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bb_dirtree-0.2.2.tar.gz tmp/bb_dirtree-0.2.3.tar.gz --markdown 20230710/b/bb-dirtree/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-10 02:10:05] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/a2/96/9a9d0a0204009c77ffe7a86824085d2cdab97b2df3641320a0d4149de688/ml_compiler_opt-0.0.1.dev202307100008-py3-none-any.whl
+[2023-07-10 02:10:05] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/94/e1/5b8aa743f4bbe600dde3989489613981c39b2dfcd44174b9931cf0c42452/omnata_plugin_devkit-0.1.9.tar.gz
+[2023-07-10 02:10:05] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/a2/96/9a9d0a0204009c77ffe7a86824085d2cdab97b2df3641320a0d4149de688/ml_compiler_opt-0.0.1.dev202307100008-py3-none-any.whl
+[2023-07-10 02:10:05] INFO root fetch - processPackages [tja2fumen]: Downloading https://files.pythonhosted.org/packages/79/90/20226491e09909d01e2ebf93d8719a5ee75680829338270254564b928ea1/tja2fumen-0.5.0.tar.gz
+[2023-07-10 02:10:05] INFO root fetch - processPackages [extended-json-schema-validator]: Downloading https://files.pythonhosted.org/packages/86/b6/8ee34aeb63898e274bf584b708c63ec81e58590c59d606a4c9535f07b9d3/extended_json_schema_validator-0.9.9.tar.gz
+[2023-07-10 02:10:05] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-07-10 02:10:05] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230708.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230709.tar.gz --markdown 20230710/j/jaxutils-nightly/0.0.8.dev20230708-0.0.8.dev20230709/diff.md --exclude *.pyd
+[2023-07-10 02:10:05] INFO root fetch - processPackages [deadpool-executor]: executing diffoscope
+[2023-07-10 02:10:05] INFO root fetch - processPackages [deadpool-executor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deadpool_executor-2023.7.1.tar.gz tmp/deadpool_executor-2023.7.2.tar.gz --markdown 20230710/d/deadpool-executor/2023.7.1-2023.7.2/diff.md --exclude *.pyd
+[2023-07-10 02:10:05] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-07-10 02:10:05] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/38/eb/cc123e056a6f85b9ed05584a39cbf03d7727238e8931ee5c27025d7d3042/mct-nightly-1.9.0.20230710.post454.tar.gz
+[2023-07-10 02:10:05] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-07-10 02:10:05] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230710/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-07-10 02:10:05] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2023-07-10 02:10:05] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.1.8.tar.gz tmp/omnata_plugin_devkit-0.1.9.tar.gz --markdown 20230710/o/omnata-plugin-devkit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 02:10:05] INFO root fetch - processPackages [ml-compiler-opt]: executing diffoscope
+[2023-07-10 02:10:05] INFO root fetch - processPackages [tja2fumen]: executing diffoscope
+[2023-07-10 02:10:05] INFO root fetch - processPackages [tja2fumen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tja2fumen-0.4.1.tar.gz tmp/tja2fumen-0.5.0.tar.gz --markdown 20230710/t/tja2fumen/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-07-10 02:10:05] INFO root fetch - processPackages [ml-compiler-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-compiler-opt-0.0.1.dev202307100007.tar.gz tmp/ml_compiler_opt-0.0.1.dev202307100008-py3-none-any.whl.zip --markdown 20230710/m/ml-compiler-opt/0.0.1.dev202307100007-0.0.1.dev202307100008/diff.md --exclude *.pyd
+[2023-07-10 02:10:05] INFO root fetch - processPackages [ml-compiler-opt]: executing diffoscope
+[2023-07-10 02:10:05] INFO root fetch - processPackages [ml-compiler-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-compiler-opt-0.0.1.dev202307100007.tar.gz tmp/ml_compiler_opt-0.0.1.dev202307100008-py3-none-any.whl.zip --markdown 20230710/m/ml-compiler-opt/0.0.1.dev202307100007-0.0.1.dev202307100008/diff.md --exclude *.pyd
+[2023-07-10 02:10:05] INFO root fetch - processPackages [extended-json-schema-validator]: executing diffoscope
+[2023-07-10 02:10:05] INFO root fetch - processPackages [extended-json-schema-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extended_json_schema_validator-0.9.8.tar.gz tmp/extended_json_schema_validator-0.9.9.tar.gz --markdown 20230710/e/extended-json-schema-validator/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-10 02:10:05] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-07-10 02:10:05] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.9.0.20230709.post509.tar.gz tmp/mct-nightly-1.9.0.20230710.post454.tar.gz --markdown 20230710/m/mct-nightly/1.9.0.20230709.post509-1.9.0.20230710.post454/diff.md --exclude *.pyd
+[2023-07-10 02:10:06] INFO root fetch - processPackages [bb-dirtree]: Remove: archive file [/home/abi/fetcher/tmp/bb_dirtree-0.2.2.tar.gz]
+[2023-07-10 02:10:06] INFO root fetch - processPackages [bb-dirtree]: Remove: archive file [/home/abi/fetcher/tmp/bb_dirtree-0.2.3.tar.gz]
+[2023-07-10 02:10:06] INFO root fetch - processPackages [bb-dirtree]: Start processing: fastcvapp
+[2023-07-10 02:10:06] INFO root fetch - main [MainThread]: End processing [bb-dirtree]: success
+[2023-07-10 02:10:06] WARNING root fetch - processPackages [fastcvapp]: Skipping, unable to determine old version
+[2023-07-10 02:10:06] INFO root fetch - processPackages [fastcvapp]: Start processing: torchlayers-nightly
+[2023-07-10 02:10:06] INFO root fetch - main [MainThread]: End processing [fastcvapp] error
+[2023-07-10 02:10:06] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1688861361] Old Version: [1688774882]
+[2023-07-10 02:10:06] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/f3/1f/c005a40e35da11c0f9387084178947384996e54dc842df1fb0a9b5fe01b6/torchlayers-nightly-1688774882.tar.gz
+[2023-07-10 02:10:06] INFO root fetch - processPackages [deadpool-executor]: Remove: archive file [/home/abi/fetcher/tmp/deadpool_executor-2023.7.1.tar.gz]
+[2023-07-10 02:10:06] INFO root fetch - processPackages [deadpool-executor]: Remove: archive file [/home/abi/fetcher/tmp/deadpool_executor-2023.7.2.tar.gz]
+[2023-07-10 02:10:06] INFO root fetch - processPackages [deadpool-executor]: Start processing: tccli
+[2023-07-10 02:10:06] INFO root fetch - main [MainThread]: End processing [deadpool-executor]: success
+[2023-07-10 02:10:07] INFO root fetch - processPackages [tccli]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-07-10 02:10:07] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-07-10 02:10:07] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-07-10 02:10:07] INFO root fetch - processPackages [jaxkern-nightly]: Start processing: septem-circumstantiae
+[2023-07-10 02:10:07] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-07-10 02:10:07] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230708.tar.gz]
+[2023-07-10 02:10:07] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230709.tar.gz]
+[2023-07-10 02:10:07] INFO root fetch - processPackages [jaxutils-nightly]: Start processing: pybuilder
+[2023-07-10 02:10:07] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-07-10 02:10:07] WARNING root fetch - processPackages [septem-circumstantiae]: Skipping, unable to determine old version
+[2023-07-10 02:10:07] INFO root fetch - processPackages [septem-circumstantiae]: Start processing: cdk-aws-discord-notifiers
+[2023-07-10 02:10:07] INFO root fetch - main [MainThread]: End processing [septem-circumstantiae] error
+[2023-07-10 02:10:07] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/c0/65/9e778cc44fc89e2a6062d3bd06dfdc33d6a19e6f568f118238c99770ccb5/torchlayers-nightly-1688861361.tar.gz
+[2023-07-10 02:10:07] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202307100007.tar.gz]
+[2023-07-10 02:10:07] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml_compiler_opt-0.0.1.dev202307100008-py3-none-any.whl.zip]
+[2023-07-10 02:10:07] INFO root fetch - processPackages [ml-compiler-opt]: Start processing: cdk8s
+[2023-07-10 02:10:07] INFO root fetch - main [MainThread]: End processing [ml-compiler-opt]: success
+[2023-07-10 02:10:07] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-10 02:10:07] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/d5/c0/3ba1e7e48c25d80695e0216e1e772ed1492bdb76a0d81d9ddca3443d1353/tccli-3.0.98.1.tar.gz
+[2023-07-10 02:10:07] INFO root fetch - main [MainThread]: End processing [ml-compiler-opt]: success
+[2023-07-10 02:10:07] INFO root fetch - processPackages [pybuilder]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-10 02:10:07] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.8.tar.gz]
+[2023-07-10 02:10:07] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.9.tar.gz]
+[2023-07-10 02:10:07] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2023-07-10 02:10:07] INFO root fetch - processPackages [cdk8s]: New version: [2.7.98] Old Version: [2.7.97]
+[2023-07-10 02:10:07] INFO root fetch - processPackages [extended-json-schema-validator]: Remove: archive file [/home/abi/fetcher/tmp/extended_json_schema_validator-0.9.8.tar.gz]
+[2023-07-10 02:10:07] INFO root fetch - processPackages [extended-json-schema-validator]: Remove: archive file [/home/abi/fetcher/tmp/extended_json_schema_validator-0.9.9.tar.gz]
+[2023-07-10 02:10:07] INFO root fetch - main [MainThread]: End processing [extended-json-schema-validator]: success
+[2023-07-10 02:10:07] INFO root fetch - processPackages [tja2fumen]: Remove: archive file [/home/abi/fetcher/tmp/tja2fumen-0.4.1.tar.gz]
+[2023-07-10 02:10:07] INFO root fetch - processPackages [tja2fumen]: Remove: archive file [/home/abi/fetcher/tmp/tja2fumen-0.5.0.tar.gz]
+[2023-07-10 02:10:07] INFO root fetch - main [MainThread]: End processing [tja2fumen]: success
+[2023-07-10 02:10:07] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/56/53/6723a7c49bca58765247618ffc3edcd771eea50c77deafc133a9513dfcde/cdk-aws-discord-notifiers-0.0.98.tar.gz
+[2023-07-10 02:10:07] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-07-10 02:10:07] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1688774882.tar.gz tmp/torchlayers-nightly-1688861361.tar.gz --markdown 20230710/t/torchlayers-nightly/1688774882-1688861361/diff.md --exclude *.pyd
+[2023-07-10 02:10:07] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/5a/d7/24a3ef54eb1d05dd3bdada66527c0b12e3fab130bca4dd3ecb6de39fe432/cdk8s-2.7.97.tar.gz
+[2023-07-10 02:10:07] INFO root fetch - processPackages [pybuilder]: Downloading https://files.pythonhosted.org/packages/95/49/7b6e0cd23597ce94262fd70ed9872f0f92974f9da3c3b70b90ea9d2e9b6f/pybuilder-0.9.8.tar.gz
+[2023-07-10 02:10:07] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/f6/c1/6e489190b9983c2b5d4a0260a36bcfb8647ee614634e4992013766cbc5cc/tccli-3.0.99.1.tar.gz
+[2023-07-10 02:10:07] INFO root fetch - processPackages [tccli]: executing diffoscope
+[2023-07-10 02:10:07] INFO root fetch - processPackages [tccli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-3.0.98.1.tar.gz tmp/tccli-3.0.99.1.tar.gz --markdown 20230710/t/tccli/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-07-10 02:10:07] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/d8/60/774b00a08e1e8a1155f225bfc65207f11ae692dd4bd4cc19fc599853994a/cdk8s-2.7.98.tar.gz
+[2023-07-10 02:10:07] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/e9/77/7aafe1cb83c9a08a337fb161ed76fbd8ea0e22d81058ab1a2974adb0a1f9/cdk-aws-discord-notifiers-0.0.99.tar.gz
+[2023-07-10 02:10:08] INFO root fetch - processPackages [pybuilder]: Downloading https://files.pythonhosted.org/packages/9f/a1/a52e483de504d09a0dd16a38d52f4cfbb51f8272b5dfe89bba81d20f52d5/pybuilder-0.9.9.tar.gz
+[2023-07-10 02:10:08] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-07-10 02:10:08] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.7.97.tar.gz tmp/cdk8s-2.7.98.tar.gz --markdown 20230710/c/cdk8s/2.7.97-2.7.98/diff.md --exclude *.pyd
+[2023-07-10 02:10:08] INFO root fetch - processPackages [pybuilder]: executing diffoscope
+[2023-07-10 02:10:08] INFO root fetch - processPackages [pybuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybuilder-0.9.8.tar.gz tmp/pybuilder-0.9.9.tar.gz --markdown 20230710/p/pybuilder/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-10 02:10:08] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1688774882.tar.gz]
+[2023-07-10 02:10:08] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1688861361.tar.gz]
+[2023-07-10 02:10:08] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-07-10 02:10:08] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: executing diffoscope
+[2023-07-10 02:10:08] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aws-discord-notifiers-0.0.98.tar.gz tmp/cdk-aws-discord-notifiers-0.0.99.tar.gz --markdown 20230710/c/cdk-aws-discord-notifiers/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-10 02:10:09] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.97.tar.gz]
+[2023-07-10 02:10:09] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.98.tar.gz]
+[2023-07-10 02:10:09] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-07-10 02:10:09] INFO root fetch - processPackages [pybuilder]: Remove: archive file [/home/abi/fetcher/tmp/pybuilder-0.9.8.tar.gz]
+[2023-07-10 02:10:09] INFO root fetch - processPackages [pybuilder]: Remove: archive file [/home/abi/fetcher/tmp/pybuilder-0.9.9.tar.gz]
+[2023-07-10 02:10:09] INFO root fetch - main [MainThread]: End processing [pybuilder]: success
+[2023-07-10 02:10:09] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.98.tar.gz]
+[2023-07-10 02:10:09] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.99.tar.gz]
+[2023-07-10 02:10:09] INFO root fetch - main [MainThread]: End processing [cdk-aws-discord-notifiers]: success
+[2023-07-10 02:10:09] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230709.post509.tar.gz]
+[2023-07-10 02:10:09] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230710.post454.tar.gz]
+[2023-07-10 02:10:09] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-07-10 02:10:10] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.98.1.tar.gz]
+[2023-07-10 02:10:10] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.99.1.tar.gz]
+[2023-07-10 02:10:10] INFO root fetch - main [MainThread]: End processing [tccli]: success
+[2023-07-10 02:10:10] INFO root fetch - main [MainThread]: Store serial: [18824355]
