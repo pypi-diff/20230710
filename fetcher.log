@@ -16392,3 +16392,105 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 13:52:18] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230710-py3-none-win_amd64.whl.zip]
 [2023-07-10 13:52:18] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
 [2023-07-10 13:52:18] INFO root fetch - main [MainThread]: Store serial: [18830167]
+[2023-07-10 13:57:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18830167]
+[2023-07-10 13:57:26] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-10 13:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: napari-stpt
+[2023-07-10 13:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: glue-jupyterlab
+[2023-07-10 13:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: raga-testing-platform
+[2023-07-10 13:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: file-update-lib
+[2023-07-10 13:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: airtouch2
+[2023-07-10 13:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cartagen4py
+[2023-07-10 13:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: DynamicForms
+[2023-07-10 13:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: signxai
+[2023-07-10 13:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mypermobil
+[2023-07-10 13:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cstore
+[2023-07-10 13:57:27] INFO root fetch - processPackages [cstore]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-07-10 13:57:27] INFO root fetch - processPackages [signxai]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-10 13:57:27] INFO root fetch - processPackages [raga-testing-platform]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-10 13:57:27] INFO root fetch - processPackages [DynamicForms]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-10 13:57:27] WARNING root fetch - processPackages [file-update-lib]: Skipping, unable to determine old version
+[2023-07-10 13:57:27] INFO root fetch - processPackages [file-update-lib]: Start processing: tholol
+[2023-07-10 13:57:27] INFO root fetch - processPackages [cartagen4py]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 13:57:27] INFO root fetch - main [MainThread]: End processing [file-update-lib] error
+[2023-07-10 13:57:27] INFO root fetch - processPackages [airtouch2]: New version: [0.7.4] Old Version: [0.7.2]
+[2023-07-10 13:57:27] INFO root fetch - processPackages [glue-jupyterlab]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-10 13:57:27] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/cb/2b/5872c9c0e75b4ef4393e95963e7fa22ccf8c70b12d66a64c83dfec600b32/raga-testing-platform-1.0.8.tar.gz
+[2023-07-10 13:57:27] INFO root fetch - processPackages [mypermobil]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-10 13:57:27] INFO root fetch - processPackages [napari-stpt]: New version: [0.1.0.5] Old Version: [0.1.0.4]
+[2023-07-10 13:57:27] INFO root fetch - processPackages [signxai]: Downloading https://files.pythonhosted.org/packages/a9/e1/c22b884112e493d713fa21260bb7b7c7ac6c56d5b5d5bf0f13647293cbb7/signxai-0.0.4.tar.gz
+[2023-07-10 13:57:27] INFO root fetch - processPackages [cstore]: Downloading https://files.pythonhosted.org/packages/f0/df/68ea8b2ed2f48ee5aa9cff7850e8b31393de961d62b8b8d9d1dbb23b59f2/cstore-0.6.8.tar.gz
+[2023-07-10 13:57:27] INFO root fetch - processPackages [DynamicForms]: Downloading https://files.pythonhosted.org/packages/c1/a3/a9391b0a0ba21940c726b8e676f919e072e53da35bfe6fdc30f6cd4976ed/DynamicForms-0.9.8.tar.gz
+[2023-07-10 13:57:27] WARNING root fetch - processPackages [tholol]: Skipping, unable to determine old version
+[2023-07-10 13:57:27] INFO root fetch - processPackages [tholol]: Start processing: finbourne-access-sdk
+[2023-07-10 13:57:27] INFO root fetch - main [MainThread]: End processing [tholol] error
+[2023-07-10 13:57:27] INFO root fetch - processPackages [glue-jupyterlab]: Downloading https://files.pythonhosted.org/packages/a9/2d/476e2a0ab7fcd275d4694b379199a10ff83dc1909674542c6554c3f9d0c4/glue_jupyterlab-0.2.0.tar.gz
+[2023-07-10 13:57:27] INFO root fetch - processPackages [airtouch2]: Downloading https://files.pythonhosted.org/packages/4b/a3/2ec10ff2bd046fee483f103b6b4fdcbf48263f56bfbd7ee51063c1f35505/airtouch2-0.7.2.tar.gz
+[2023-07-10 13:57:27] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-07-10 13:57:27] INFO root fetch - processPackages [cartagen4py]: Downloading https://files.pythonhosted.org/packages/14/d8/3b4d6579ed642e37728f101a84fd51b225eb7532ac3e9dc9dfe46321de5e/cartagen4py-0.1.8.tar.gz
+[2023-07-10 13:57:27] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/23/a1/3de642a69a0d1253446d4f7bd1dd9d074e3fe635e84f3d430d001424a072/raga-testing-platform-1.0.9.tar.gz
+[2023-07-10 13:57:27] INFO root fetch - processPackages [mypermobil]: Downloading https://files.pythonhosted.org/packages/30/da/d79640260fa463851ccd9d3d255fb03d096b53c47af59ca0a9c37c0cd1d3/mypermobil-0.1.3.tar.gz
+[2023-07-10 13:57:27] INFO root fetch - processPackages [napari-stpt]: Downloading https://files.pythonhosted.org/packages/b2/00/34b6d4b169199457aed3901a6bc92e741b0c18a6a0967e5e1dc5c6c948bf/napari-stpt-0.1.0.4.tar.gz
+[2023-07-10 13:57:27] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/22/58/ee379caa00eba72b01ce5884996e3957e85f9db086b5f74209b445963467/finbourne-access-sdk-0.0.616.tar.gz
+[2023-07-10 13:57:27] INFO root fetch - processPackages [raga-testing-platform]: executing diffoscope
+[2023-07-10 13:57:27] INFO root fetch - processPackages [raga-testing-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-testing-platform-1.0.8.tar.gz tmp/raga-testing-platform-1.0.9.tar.gz --markdown 20230710/r/raga-testing-platform/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-10 13:57:28] INFO root fetch - processPackages [cstore]: Downloading https://files.pythonhosted.org/packages/9f/8c/c44845a8bc08335dbb4196f9d4482e3bda1930c8e31115d393e519a02823/cstore-0.6.9.tar.gz
+[2023-07-10 13:57:28] INFO root fetch - processPackages [airtouch2]: Downloading https://files.pythonhosted.org/packages/97/b3/7c9c60f46544fb19dd21742ee690d3d1a1d2005a3f1e70570b9db4e8f8c1/airtouch2-0.7.4.tar.gz
+[2023-07-10 13:57:28] INFO root fetch - processPackages [mypermobil]: Downloading https://files.pythonhosted.org/packages/50/e3/83b346ac1e39bf063a073e4c02b8eacce9d97b3d608e3d19f052c45e6e14/mypermobil-0.1.4.tar.gz
+[2023-07-10 13:57:28] INFO root fetch - processPackages [signxai]: Downloading https://files.pythonhosted.org/packages/be/a0/6bcaadd6fcf2abc2e3d14c299773e190ac34879ee06b499140e4e3c538a0/signxai-0.0.5.tar.gz
+[2023-07-10 13:57:28] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/f5/48/d40801e505892153d9eb9fea2de2f415455702ca8818dd23f14a3f88d813/finbourne-access-sdk-0.0.815.tar.gz
+[2023-07-10 13:57:28] INFO root fetch - processPackages [cartagen4py]: Downloading https://files.pythonhosted.org/packages/9d/6e/4dcddc662b3416010ada7231167661388162f5439f6745719197f1802573/cartagen4py-0.1.9.tar.gz
+[2023-07-10 13:57:28] INFO root fetch - processPackages [napari-stpt]: Downloading https://files.pythonhosted.org/packages/e4/b0/48ae1dfb88f9f3300685c89bafebffe5a2cfadab93c051233a493406ff84/napari-stpt-0.1.0.5.tar.gz
+[2023-07-10 13:57:28] INFO root fetch - processPackages [cstore]: executing diffoscope
+[2023-07-10 13:57:28] INFO root fetch - processPackages [cstore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cstore-0.6.8.tar.gz tmp/cstore-0.6.9.tar.gz --markdown 20230710/c/cstore/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-07-10 13:57:28] INFO root fetch - processPackages [DynamicForms]: Downloading https://files.pythonhosted.org/packages/17/92/2562c5f02d4953bc96c46e2b195343702ea6763233eceaed5091889f2ab8/DynamicForms-0.9.9.tar.gz
+[2023-07-10 13:57:28] INFO root fetch - processPackages [glue-jupyterlab]: Downloading https://files.pythonhosted.org/packages/55/7e/ebae0e8ac5eb26fe54d9aa7c5c2a97be6d095d29e0c16ff2c884068369e1/glue_jupyterlab-0.3.0.tar.gz
+[2023-07-10 13:57:28] INFO root fetch - processPackages [airtouch2]: executing diffoscope
+[2023-07-10 13:57:28] INFO root fetch - processPackages [airtouch2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airtouch2-0.7.2.tar.gz tmp/airtouch2-0.7.4.tar.gz --markdown 20230710/a/airtouch2/0.7.2-0.7.4/diff.md --exclude *.pyd
+[2023-07-10 13:57:28] INFO root fetch - processPackages [mypermobil]: executing diffoscope
+[2023-07-10 13:57:28] INFO root fetch - processPackages [mypermobil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypermobil-0.1.3.tar.gz tmp/mypermobil-0.1.4.tar.gz --markdown 20230710/m/mypermobil/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-10 13:57:28] INFO root fetch - processPackages [cartagen4py]: executing diffoscope
+[2023-07-10 13:57:28] INFO root fetch - processPackages [cartagen4py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cartagen4py-0.1.8.tar.gz tmp/cartagen4py-0.1.9.tar.gz --markdown 20230710/c/cartagen4py/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 13:57:28] INFO root fetch - processPackages [napari-stpt]: executing diffoscope
+[2023-07-10 13:57:28] INFO root fetch - processPackages [napari-stpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-stpt-0.1.0.4.tar.gz tmp/napari-stpt-0.1.0.5.tar.gz --markdown 20230710/n/napari-stpt/0.1.0.4-0.1.0.5/diff.md --exclude *.pyd
+[2023-07-10 13:57:28] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-07-10 13:57:28] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230710/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-07-10 13:57:28] INFO root fetch - processPackages [glue-jupyterlab]: executing diffoscope
+[2023-07-10 13:57:28] INFO root fetch - processPackages [glue-jupyterlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glue_jupyterlab-0.2.0.tar.gz tmp/glue_jupyterlab-0.3.0.tar.gz --markdown 20230710/g/glue-jupyterlab/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-10 13:57:28] INFO root fetch - processPackages [signxai]: executing diffoscope
+[2023-07-10 13:57:28] INFO root fetch - processPackages [signxai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signxai-0.0.4.tar.gz tmp/signxai-0.0.5.tar.gz --markdown 20230710/s/signxai/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-10 13:57:29] INFO root fetch - processPackages [DynamicForms]: executing diffoscope
+[2023-07-10 13:57:29] INFO root fetch - processPackages [DynamicForms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DynamicForms-0.9.8.tar.gz tmp/DynamicForms-0.9.9.tar.gz --markdown 20230710/D/DynamicForms/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-10 13:57:30] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.8.tar.gz]
+[2023-07-10 13:57:30] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.9.tar.gz]
+[2023-07-10 13:57:30] INFO root fetch - processPackages [raga-testing-platform]: Start processing: docraise
+[2023-07-10 13:57:30] INFO root fetch - main [MainThread]: End processing [raga-testing-platform]: success
+[2023-07-10 13:57:30] INFO root fetch - processPackages [cstore]: Remove: archive file [/home/abi/fetcher/tmp/cstore-0.6.8.tar.gz]
+[2023-07-10 13:57:30] INFO root fetch - processPackages [cstore]: Remove: archive file [/home/abi/fetcher/tmp/cstore-0.6.9.tar.gz]
+[2023-07-10 13:57:30] INFO root fetch - main [MainThread]: End processing [cstore]: success
+[2023-07-10 13:57:30] WARNING root fetch - processPackages [docraise]: Skipping, unable to determine old version
+[2023-07-10 13:57:30] INFO root fetch - main [MainThread]: End processing [docraise] error
+[2023-07-10 13:57:30] INFO root fetch - processPackages [mypermobil]: Remove: archive file [/home/abi/fetcher/tmp/mypermobil-0.1.3.tar.gz]
+[2023-07-10 13:57:30] INFO root fetch - processPackages [mypermobil]: Remove: archive file [/home/abi/fetcher/tmp/mypermobil-0.1.4.tar.gz]
+[2023-07-10 13:57:30] INFO root fetch - main [MainThread]: End processing [mypermobil]: success
+[2023-07-10 13:57:30] INFO root fetch - processPackages [airtouch2]: Remove: archive file [/home/abi/fetcher/tmp/airtouch2-0.7.2.tar.gz]
+[2023-07-10 13:57:30] INFO root fetch - processPackages [airtouch2]: Remove: archive file [/home/abi/fetcher/tmp/airtouch2-0.7.4.tar.gz]
+[2023-07-10 13:57:30] INFO root fetch - main [MainThread]: End processing [airtouch2]: success
+[2023-07-10 13:57:30] INFO root fetch - processPackages [napari-stpt]: Remove: archive file [/home/abi/fetcher/tmp/napari-stpt-0.1.0.4.tar.gz]
+[2023-07-10 13:57:30] INFO root fetch - processPackages [napari-stpt]: Remove: archive file [/home/abi/fetcher/tmp/napari-stpt-0.1.0.5.tar.gz]
+[2023-07-10 13:57:30] INFO root fetch - main [MainThread]: End processing [napari-stpt]: success
+[2023-07-10 13:57:30] INFO root fetch - processPackages [cartagen4py]: Remove: archive file [/home/abi/fetcher/tmp/cartagen4py-0.1.8.tar.gz]
+[2023-07-10 13:57:30] INFO root fetch - processPackages [cartagen4py]: Remove: archive file [/home/abi/fetcher/tmp/cartagen4py-0.1.9.tar.gz]
+[2023-07-10 13:57:30] INFO root fetch - main [MainThread]: End processing [cartagen4py]: success
+[2023-07-10 13:57:31] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.616.tar.gz]
+[2023-07-10 13:57:31] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.815.tar.gz]
+[2023-07-10 13:57:31] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-07-10 13:57:31] INFO root fetch - processPackages [signxai]: Remove: archive file [/home/abi/fetcher/tmp/signxai-0.0.4.tar.gz]
+[2023-07-10 13:57:31] INFO root fetch - processPackages [signxai]: Remove: archive file [/home/abi/fetcher/tmp/signxai-0.0.5.tar.gz]
+[2023-07-10 13:57:31] INFO root fetch - main [MainThread]: End processing [signxai]: success
+[2023-07-10 13:57:32] INFO root fetch - processPackages [DynamicForms]: Remove: archive file [/home/abi/fetcher/tmp/DynamicForms-0.9.8.tar.gz]
+[2023-07-10 13:57:32] INFO root fetch - processPackages [DynamicForms]: Remove: archive file [/home/abi/fetcher/tmp/DynamicForms-0.9.9.tar.gz]
+[2023-07-10 13:57:32] INFO root fetch - main [MainThread]: End processing [DynamicForms]: success
+[2023-07-10 13:57:32] INFO root fetch - processPackages [glue-jupyterlab]: Remove: archive file [/home/abi/fetcher/tmp/glue_jupyterlab-0.2.0.tar.gz]
+[2023-07-10 13:57:32] INFO root fetch - processPackages [glue-jupyterlab]: Remove: archive file [/home/abi/fetcher/tmp/glue_jupyterlab-0.3.0.tar.gz]
+[2023-07-10 13:57:32] INFO root fetch - main [MainThread]: End processing [glue-jupyterlab]: success
+[2023-07-10 13:57:32] INFO root fetch - main [MainThread]: Store serial: [18830210]
