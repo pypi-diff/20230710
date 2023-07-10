@@ -5893,3 +5893,48 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 04:50:23] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.99.tar.gz]
 [2023-07-10 04:50:23] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
 [2023-07-10 04:50:23] INFO root fetch - main [MainThread]: Store serial: [18825885]
+[2023-07-10 04:55:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18825885]
+[2023-07-10 04:55:32] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-10 04:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hyperparameter
+[2023-07-10 04:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seatalk-open-api
+[2023-07-10 04:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sj-tool
+[2023-07-10 04:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sea-dj-checks
+[2023-07-10 04:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: starred-repo-finder
+[2023-07-10 04:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: paper-qa
+[2023-07-10 04:55:32] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-10 04:55:32] INFO root fetch - processPackages [starred-repo-finder]: New version: [0.2.0] Old Version: [0.1]
+[2023-07-10 04:55:32] WARNING root fetch - processPackages [seatalk-open-api]: Skipping, unable to determine old version
+[2023-07-10 04:55:32] INFO root fetch - main [MainThread]: End processing [seatalk-open-api] error
+[2023-07-10 04:55:32] WARNING root fetch - processPackages [sea-dj-checks]: Skipping, unable to determine old version
+[2023-07-10 04:55:32] INFO root fetch - main [MainThread]: End processing [sea-dj-checks] error
+[2023-07-10 04:55:32] INFO root fetch - processPackages [hyperparameter]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-07-10 04:55:32] INFO root fetch - processPackages [paper-qa]: New version: [3.2.0] Old Version: [3.1.1]
+[2023-07-10 04:55:32] INFO root fetch - processPackages [starred-repo-finder]: Downloading https://files.pythonhosted.org/packages/84/5c/ba44bd6d949ca65b7dbab3dcf2fe419385ca8e39f3a8ac140f635561484d/starred_repo_finder-0.1.tar.gz
+[2023-07-10 04:55:32] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/8b/f9/2af667f18b77632259bbdac6a0db7f33f9cbea38a7a1baa7d9979d9060d3/sj_tool-1.0.8-py3-none-any.whl
+[2023-07-10 04:55:32] INFO root fetch - processPackages [hyperparameter]: Downloading https://files.pythonhosted.org/packages/99/c0/5762419d748dfda73b3b15f73ced145eb56e76816206716030f596a8cfbe/hyperparameter-0.5.5.tar.gz
+[2023-07-10 04:55:32] INFO root fetch - processPackages [paper-qa]: Downloading https://files.pythonhosted.org/packages/ae/ed/e73c871c4168a712bc08368b207dc9007546c9571e8c073693820fce5750/paper-qa-3.1.1.tar.gz
+[2023-07-10 04:55:32] INFO root fetch - processPackages [starred-repo-finder]: Downloading https://files.pythonhosted.org/packages/a4/ef/150d8a9516c3c9f502d2f68f5008145bf3592038195368e0870ec2d7260e/starred_repo_finder-0.2.0.tar.gz
+[2023-07-10 04:55:33] INFO root fetch - processPackages [hyperparameter]: Downloading https://files.pythonhosted.org/packages/d8/27/fe4555fe449bfa871525519b605ba6e4c034df3f3e71c8b91f64f2bc4437/hyperparameter-0.5.6.tar.gz
+[2023-07-10 04:55:33] INFO root fetch - processPackages [paper-qa]: Downloading https://files.pythonhosted.org/packages/6e/92/dc30094d92f0082f12001af30e095779584f1c950f85f235dd746bd07f1f/paper-qa-3.2.0.tar.gz
+[2023-07-10 04:55:33] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-07-10 04:55:33] INFO root fetch - processPackages [hyperparameter]: executing diffoscope
+[2023-07-10 04:55:33] INFO root fetch - processPackages [hyperparameter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperparameter-0.5.5.tar.gz tmp/hyperparameter-0.5.6.tar.gz --markdown 20230710/h/hyperparameter/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-07-10 04:55:33] INFO root fetch - processPackages [paper-qa]: executing diffoscope
+[2023-07-10 04:55:33] INFO root fetch - processPackages [paper-qa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paper-qa-3.1.1.tar.gz tmp/paper-qa-3.2.0.tar.gz --markdown 20230710/p/paper-qa/3.1.1-3.2.0/diff.md --exclude *.pyd
+[2023-07-10 04:55:33] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-07-10 04:55:33] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230710/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-10 04:55:33] INFO root fetch - processPackages [starred-repo-finder]: executing diffoscope
+[2023-07-10 04:55:33] INFO root fetch - processPackages [starred-repo-finder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starred_repo_finder-0.1.tar.gz tmp/starred_repo_finder-0.2.0.tar.gz --markdown 20230710/s/starred-repo-finder/0.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-10 04:55:34] INFO root fetch - processPackages [starred-repo-finder]: Remove: archive file [/home/abi/fetcher/tmp/starred_repo_finder-0.1.tar.gz]
+[2023-07-10 04:55:34] INFO root fetch - processPackages [starred-repo-finder]: Remove: archive file [/home/abi/fetcher/tmp/starred_repo_finder-0.2.0.tar.gz]
+[2023-07-10 04:55:34] INFO root fetch - main [MainThread]: End processing [starred-repo-finder]: success
+[2023-07-10 04:55:34] INFO root fetch - processPackages [paper-qa]: Remove: archive file [/home/abi/fetcher/tmp/paper-qa-3.1.1.tar.gz]
+[2023-07-10 04:55:34] INFO root fetch - processPackages [paper-qa]: Remove: archive file [/home/abi/fetcher/tmp/paper-qa-3.2.0.tar.gz]
+[2023-07-10 04:55:34] INFO root fetch - main [MainThread]: End processing [paper-qa]: success
+[2023-07-10 04:55:34] INFO root fetch - processPackages [hyperparameter]: Remove: archive file [/home/abi/fetcher/tmp/hyperparameter-0.5.5.tar.gz]
+[2023-07-10 04:55:34] INFO root fetch - processPackages [hyperparameter]: Remove: archive file [/home/abi/fetcher/tmp/hyperparameter-0.5.6.tar.gz]
+[2023-07-10 04:55:34] INFO root fetch - main [MainThread]: End processing [hyperparameter]: success
+[2023-07-10 04:55:34] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.8-py3-none-any.whl.zip]
+[2023-07-10 04:55:34] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.9-py3-none-any.whl.zip]
+[2023-07-10 04:55:34] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-07-10 04:55:34] INFO root fetch - main [MainThread]: Store serial: [18825907]
