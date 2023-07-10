@@ -9144,3 +9144,75 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 08:34:18] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev5504842108.tar.gz]
 [2023-07-10 08:34:18] INFO root fetch - main [MainThread]: End processing [th2-data-services]: success
 [2023-07-10 08:34:18] INFO root fetch - main [MainThread]: Store serial: [18827177]
+[2023-07-10 08:39:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18827177]
+[2023-07-10 08:39:27] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-10 08:39:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SwarAnuvad
+[2023-07-10 08:39:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: groupdocs-viewer-cloud
+[2023-07-10 08:39:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: safeway-coupons
+[2023-07-10 08:39:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: baysalt-christmas
+[2023-07-10 08:39:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datatransport
+[2023-07-10 08:39:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sparksampling
+[2023-07-10 08:39:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sphractal
+[2023-07-10 08:39:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nsqdriver
+[2023-07-10 08:39:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: azdev
+[2023-07-10 08:39:27] INFO root fetch - processPackages [nsqdriver]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-10 08:39:27] WARNING root fetch - processPackages [SwarAnuvad]: Skipping, unable to determine old version
+[2023-07-10 08:39:27] INFO root fetch - main [MainThread]: End processing [SwarAnuvad] error
+[2023-07-10 08:39:27] INFO root fetch - processPackages [groupdocs-viewer-cloud]: New version: [23.7] Old Version: [23.3]
+[2023-07-10 08:39:27] INFO root fetch - processPackages [sphractal]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-10 08:39:27] INFO root fetch - processPackages [baysalt-christmas]: New version: [0.1.8.4] Old Version: [0.1.8.3]
+[2023-07-10 08:39:27] INFO root fetch - processPackages [sparksampling]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-10 08:39:27] WARNING root fetch - processPackages [datatransport]: Skipping, unable to determine old version
+[2023-07-10 08:39:27] INFO root fetch - main [MainThread]: End processing [datatransport] error
+[2023-07-10 08:39:27] INFO root fetch - processPackages [azdev]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 08:39:27] INFO root fetch - processPackages [safeway-coupons]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-10 08:39:27] INFO root fetch - processPackages [azdev]: Downloading https://files.pythonhosted.org/packages/26/b3/e90a3d82517d0e67d66c68d4948f50df5460083d749b90620911ec3dcb94/azdev-0.1.8.tar.gz
+[2023-07-10 08:39:28] INFO root fetch - processPackages [safeway-coupons]: Downloading https://files.pythonhosted.org/packages/95/8a/f1f64d7094c407ecf8387dbc695dec111610d96f45203b4c2514d1c4ae3f/safeway_coupons-0.2.2.tar.gz
+[2023-07-10 08:39:28] INFO root fetch - processPackages [groupdocs-viewer-cloud]: Downloading https://files.pythonhosted.org/packages/b2/13/8ead4f89f85abbbff226c175b359cd3061968ba3ca49611d57af054929af/groupdocs-viewer-cloud-23.3.tar.gz
+[2023-07-10 08:39:28] INFO root fetch - processPackages [nsqdriver]: Downloading https://files.pythonhosted.org/packages/96/37/2e53e8cb1a93032b81b86f4ba8fe5055a92fb844b5140924da60c89cc659/nsqdriver-0.4.0-cp39-cp39-win_amd64.whl
+[2023-07-10 08:39:28] INFO root fetch - processPackages [baysalt-christmas]: Downloading https://files.pythonhosted.org/packages/3f/ed/5f238764f5bc185bc4a4d8a022fadeca90833b5801a661523e4258695366/baysalt_christmas-0.1.8.3.tar.gz
+[2023-07-10 08:39:28] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/10/ac/3528ae2ca27de17ba47023aea5f6ad1426b4acc8a027625bd2d30fd4d77f/sphractal-0.8.1.tar.gz
+[2023-07-10 08:39:28] INFO root fetch - processPackages [sparksampling]: Downloading https://files.pythonhosted.org/packages/0d/0c/389ea6212486094bdc16ce6c4672c371470b72d97a25c16a431fe3d6a1d6/sparksampling-0.3.0.tar.gz
+[2023-07-10 08:39:28] INFO root fetch - processPackages [azdev]: Downloading https://files.pythonhosted.org/packages/a8/bf/9cd7c2c31e25d929e85358027632a0d46d8e5d7f85c855a131905cb53218/azdev-0.1.9.tar.gz
+[2023-07-10 08:39:28] INFO root fetch - processPackages [safeway-coupons]: Downloading https://files.pythonhosted.org/packages/da/29/0d71053db01d48d58ec5370ededff885461a25c4e57dc5c504cb0a491695/safeway_coupons-0.2.3.tar.gz
+[2023-07-10 08:39:28] INFO root fetch - processPackages [groupdocs-viewer-cloud]: Downloading https://files.pythonhosted.org/packages/06/b0/61adca3a4a0a6b47b1d0743ba72c95bb717aa22fe38a0887e87fe1d4469e/groupdocs-viewer-cloud-23.7.tar.gz
+[2023-07-10 08:39:28] INFO root fetch - processPackages [azdev]: executing diffoscope
+[2023-07-10 08:39:28] INFO root fetch - processPackages [azdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azdev-0.1.8.tar.gz tmp/azdev-0.1.9.tar.gz --markdown 20230710/a/azdev/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 08:39:28] INFO root fetch - processPackages [baysalt-christmas]: Downloading https://files.pythonhosted.org/packages/a0/ea/88bdf801b185167724b11d33e388adc1c3fa52364e3b701101ad74808dc9/baysalt_christmas-0.1.8.4.tar.gz
+[2023-07-10 08:39:28] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/b1/6d/156256fa9e3fa7de2df2059d47e10f9622e16808846d88bf7a096397ad36/sphractal-0.9.0.tar.gz
+[2023-07-10 08:39:28] INFO root fetch - processPackages [nsqdriver]: Downloading https://files.pythonhosted.org/packages/d0/d9/7bb014e32663898c95376f160b88077cbd9e5240ea670815d96cd092eb40/nsqdriver-0.4.1-cp39-cp39-win_amd64.whl
+[2023-07-10 08:39:28] INFO root fetch - processPackages [safeway-coupons]: executing diffoscope
+[2023-07-10 08:39:28] INFO root fetch - processPackages [safeway-coupons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safeway_coupons-0.2.2.tar.gz tmp/safeway_coupons-0.2.3.tar.gz --markdown 20230710/s/safeway-coupons/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-10 08:39:28] INFO root fetch - processPackages [groupdocs-viewer-cloud]: executing diffoscope
+[2023-07-10 08:39:28] INFO root fetch - processPackages [groupdocs-viewer-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/groupdocs-viewer-cloud-23.3.tar.gz tmp/groupdocs-viewer-cloud-23.7.tar.gz --markdown 20230710/g/groupdocs-viewer-cloud/23.3-23.7/diff.md --exclude *.pyd
+[2023-07-10 08:39:28] INFO root fetch - processPackages [sparksampling]: Downloading https://files.pythonhosted.org/packages/70/c6/3479eaa5822eabd56ed40cefea0a2ecc7af4ebbff4d9a37e7cff7ac71597/sparksampling-0.3.1.tar.gz
+[2023-07-10 08:39:28] INFO root fetch - processPackages [baysalt-christmas]: executing diffoscope
+[2023-07-10 08:39:28] INFO root fetch - processPackages [baysalt-christmas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baysalt_christmas-0.1.8.3.tar.gz tmp/baysalt_christmas-0.1.8.4.tar.gz --markdown 20230710/b/baysalt-christmas/0.1.8.3-0.1.8.4/diff.md --exclude *.pyd
+[2023-07-10 08:39:28] INFO root fetch - processPackages [nsqdriver]: executing diffoscope
+[2023-07-10 08:39:28] INFO root fetch - processPackages [nsqdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsqdriver-0.4.0-cp39-cp39-win_amd64.whl.zip tmp/nsqdriver-0.4.1-cp39-cp39-win_amd64.whl.zip --markdown 20230710/n/nsqdriver/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-10 08:39:28] INFO root fetch - processPackages [sphractal]: executing diffoscope
+[2023-07-10 08:39:28] INFO root fetch - processPackages [sphractal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphractal-0.8.1.tar.gz tmp/sphractal-0.9.0.tar.gz --markdown 20230710/s/sphractal/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-10 08:39:29] INFO root fetch - processPackages [sparksampling]: executing diffoscope
+[2023-07-10 08:39:29] INFO root fetch - processPackages [sparksampling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparksampling-0.3.0.tar.gz tmp/sparksampling-0.3.1.tar.gz --markdown 20230710/s/sparksampling/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-10 08:39:29] INFO root fetch - processPackages [safeway-coupons]: Remove: archive file [/home/abi/fetcher/tmp/safeway_coupons-0.2.2.tar.gz]
+[2023-07-10 08:39:29] INFO root fetch - processPackages [safeway-coupons]: Remove: archive file [/home/abi/fetcher/tmp/safeway_coupons-0.2.3.tar.gz]
+[2023-07-10 08:39:29] INFO root fetch - main [MainThread]: End processing [safeway-coupons]: success
+[2023-07-10 08:39:30] INFO root fetch - processPackages [azdev]: Remove: archive file [/home/abi/fetcher/tmp/azdev-0.1.8.tar.gz]
+[2023-07-10 08:39:30] INFO root fetch - processPackages [azdev]: Remove: archive file [/home/abi/fetcher/tmp/azdev-0.1.9.tar.gz]
+[2023-07-10 08:39:30] INFO root fetch - main [MainThread]: End processing [azdev]: success
+[2023-07-10 08:39:30] INFO root fetch - processPackages [nsqdriver]: Remove: archive file [/home/abi/fetcher/tmp/nsqdriver-0.4.0-cp39-cp39-win_amd64.whl.zip]
+[2023-07-10 08:39:30] INFO root fetch - processPackages [nsqdriver]: Remove: archive file [/home/abi/fetcher/tmp/nsqdriver-0.4.1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-10 08:39:30] INFO root fetch - main [MainThread]: End processing [nsqdriver]: success
+[2023-07-10 08:39:30] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.8.1.tar.gz]
+[2023-07-10 08:39:30] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.9.0.tar.gz]
+[2023-07-10 08:39:30] INFO root fetch - main [MainThread]: End processing [sphractal]: success
+[2023-07-10 08:39:30] INFO root fetch - processPackages [groupdocs-viewer-cloud]: Remove: archive file [/home/abi/fetcher/tmp/groupdocs-viewer-cloud-23.3.tar.gz]
+[2023-07-10 08:39:30] INFO root fetch - processPackages [groupdocs-viewer-cloud]: Remove: archive file [/home/abi/fetcher/tmp/groupdocs-viewer-cloud-23.7.tar.gz]
+[2023-07-10 08:39:30] INFO root fetch - main [MainThread]: End processing [groupdocs-viewer-cloud]: success
+[2023-07-10 08:39:30] INFO root fetch - processPackages [baysalt-christmas]: Remove: archive file [/home/abi/fetcher/tmp/baysalt_christmas-0.1.8.3.tar.gz]
+[2023-07-10 08:39:30] INFO root fetch - processPackages [baysalt-christmas]: Remove: archive file [/home/abi/fetcher/tmp/baysalt_christmas-0.1.8.4.tar.gz]
+[2023-07-10 08:39:30] INFO root fetch - main [MainThread]: End processing [baysalt-christmas]: success
+[2023-07-10 08:39:30] INFO root fetch - processPackages [sparksampling]: Remove: archive file [/home/abi/fetcher/tmp/sparksampling-0.3.0.tar.gz]
+[2023-07-10 08:39:30] INFO root fetch - processPackages [sparksampling]: Remove: archive file [/home/abi/fetcher/tmp/sparksampling-0.3.1.tar.gz]
+[2023-07-10 08:39:30] INFO root fetch - main [MainThread]: End processing [sparksampling]: success
+[2023-07-10 08:39:30] INFO root fetch - main [MainThread]: Store serial: [18827231]
