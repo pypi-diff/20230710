@@ -17098,3 +17098,141 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 14:32:25] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.358.1.tar.gz]
 [2023-07-10 14:32:25] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-07-10 14:32:25] INFO root fetch - main [MainThread]: Store serial: [18830472]
+[2023-07-10 14:37:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18830472]
+[2023-07-10 14:37:34] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-10 14:37:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sherlibs
+[2023-07-10 14:37:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: uagents-whatsapp-utility
+[2023-07-10 14:37:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aspose-pdf-for-python-via-java
+[2023-07-10 14:37:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: govuk-frontend-django
+[2023-07-10 14:37:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sydeploy
+[2023-07-10 14:37:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: projen
+[2023-07-10 14:37:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cycode
+[2023-07-10 14:37:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-rich
+[2023-07-10 14:37:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aicli
+[2023-07-10 14:37:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-dllib
+[2023-07-10 14:37:34] INFO root fetch - processPackages [sherlibs]: New version: [3.0.0] Old Version: [2.2.9]
+[2023-07-10 14:37:34] INFO root fetch - processPackages [sydeploy]: New version: [0.2.97] Old Version: [0.2.96]
+[2023-07-10 14:37:34] INFO root fetch - processPackages [govuk-frontend-django]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-10 14:37:34] INFO root fetch - processPackages [django-rich]: New version: [1.7.0] Old Version: [1.6.0]
+[2023-07-10 14:37:34] INFO root fetch - processPackages [bigdl-dllib]: New version: [2.4.0b20230710] Old Version: [2.4.0b20230708]
+[2023-07-10 14:37:34] INFO root fetch - processPackages [projen]: New version: [0.71.99] Old Version: [0.71.98]
+[2023-07-10 14:37:34] INFO root fetch - processPackages [aspose-pdf-for-python-via-java]: New version: [23.6.1] Old Version: [23.6]
+[2023-07-10 14:37:34] ERROR root fetch - processPackages [uagents-whatsapp-utility]: Unable to get metadata: No such project 'uagents-whatsapp-utility'
+[2023-07-10 14:37:34] INFO root fetch - processPackages [uagents-whatsapp-utility]: Start processing: dvc
+[2023-07-10 14:37:34] INFO root fetch - main [MainThread]: End processing [uagents-whatsapp-utility] error
+[2023-07-10 14:37:34] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/2d/d2/ed845933ff7b6cab8b30061bc41cc7f73024d0a7f371d9f2fea1d3aedd59/sydeploy-0.2.96-py3-none-any.whl
+[2023-07-10 14:37:34] INFO root fetch - processPackages [cycode]: New version: [0.2.6.dev9] Old Version: [0.2.6.dev8]
+[2023-07-10 14:37:34] INFO root fetch - processPackages [aicli]: New version: [99.0.202307101234] Old Version: [99.0.202307050846]
+[2023-07-10 14:37:34] INFO root fetch - processPackages [dvc]: New version: [3.4.0] Old Version: [3.3.1]
+[2023-07-10 14:37:34] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/e6/32/7b9177419a0f336c70af7f165826714344a50cfd40e5990d888982c6ac99/projen-0.71.98.tar.gz
+[2023-07-10 14:37:34] INFO root fetch - processPackages [sherlibs]: Downloading https://files.pythonhosted.org/packages/bf/07/5b2bc8e455e8905cf91ea0f44d1b71ff58b9c5c182b65032b89b3ee2fbb2/sherlibs-2.2.9.tar.gz
+[2023-07-10 14:37:34] INFO root fetch - processPackages [govuk-frontend-django]: Downloading https://files.pythonhosted.org/packages/fe/e0/f1074311da6e7c320b45647d9529b8efc93c549bd6f4729006115d219a0f/govuk_frontend_django-0.3.8.tar.gz
+[2023-07-10 14:37:34] INFO root fetch - processPackages [django-rich]: Downloading https://files.pythonhosted.org/packages/60/82/e0fb105d9f866228a5baa6f090bbffefb5bb461df5127665fc3d7a943149/django_rich-1.6.0.tar.gz
+[2023-07-10 14:37:34] INFO root fetch - processPackages [bigdl-dllib]: Downloading https://files.pythonhosted.org/packages/ed/b5/33b19b2c294e7c6bff1a4ee4a7d92a8f65cf83ad60dabe60e2faf27d61eb/bigdl-dllib-2.4.0b20230708.tar.gz
+[2023-07-10 14:37:35] INFO root fetch - processPackages [aspose-pdf-for-python-via-java]: Downloading https://files.pythonhosted.org/packages/44/40/2a0eaa39f4d6574e11274d16cc8df99051bef32e14c3c89c115e48137baa/aspose-pdf-for-python-via-java-23.6.tar.gz
+[2023-07-10 14:37:35] WARNING root fetch - processPackages [bigdl-dllib]: Skipping package: exceeds size limit 53638737>=10485760
+[2023-07-10 14:37:35] INFO root fetch - processPackages [bigdl-dllib]: Start processing: opswork
+[2023-07-10 14:37:35] INFO root fetch - main [MainThread]: End processing [bigdl-dllib] error
+[2023-07-10 14:37:35] INFO root fetch - processPackages [aicli]: Downloading https://files.pythonhosted.org/packages/24/6f/cde6336e5ecacd6e1b94e953831cf7600a11ec3d6c5a6d84232c9f469d2d/aicli-99.0.202307050846-py3-none-any.whl
+[2023-07-10 14:37:35] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/40/cb/51280bbe25b1f60e412ee842e5db8968a9feb054f5ae158e200945dfb88b/cycode-0.2.6.dev8.tar.gz
+[2023-07-10 14:37:35] WARNING root fetch - processPackages [aspose-pdf-for-python-via-java]: Skipping package: exceeds size limit 68258170>=10485760
+[2023-07-10 14:37:35] INFO root fetch - processPackages [aspose-pdf-for-python-via-java]: Start processing: bigdl-orca
+[2023-07-10 14:37:35] INFO root fetch - main [MainThread]: End processing [aspose-pdf-for-python-via-java] error
+[2023-07-10 14:37:35] INFO root fetch - processPackages [dvc]: Downloading https://files.pythonhosted.org/packages/47/95/af3a434d4e37df3718c7cd47127e4c948eeed0247bedce8e80e6762d0887/dvc-3.3.1.tar.gz
+[2023-07-10 14:37:35] INFO root fetch - processPackages [opswork]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-10 14:37:35] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/46/43/1b058881cb418f803e1d38411f70f4c63b3bdef3cf8bb06d398dd9be4692/sydeploy-0.2.97-py3-none-any.whl
+[2023-07-10 14:37:35] INFO root fetch - processPackages [opswork]: Downloading https://files.pythonhosted.org/packages/d8/8e/3ee993de720d74f0d1cef88a8f2f893d4713cb43f539bc3757fbab1394cb/opswork-0.5.0.tar.gz
+[2023-07-10 14:37:35] INFO root fetch - processPackages [bigdl-orca]: New version: [2.4.0b20230710] Old Version: [2.4.0b20230708]
+[2023-07-10 14:37:35] INFO root fetch - processPackages [sherlibs]: Downloading https://files.pythonhosted.org/packages/24/2e/184a98b413285380d96d6076c2d6e4f13983557401e64c95ff8f5f3ed970/sherlibs-3.0.0.tar.gz
+[2023-07-10 14:37:35] INFO root fetch - processPackages [govuk-frontend-django]: Downloading https://files.pythonhosted.org/packages/47/69/e6cc0117cb469c2c9d3641479893255174e50eb5ae9a7ed2b8aa7f94b6c4/govuk_frontend_django-0.3.9.tar.gz
+[2023-07-10 14:37:35] INFO root fetch - processPackages [sydeploy]: executing diffoscope
+[2023-07-10 14:37:35] INFO root fetch - processPackages [sydeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sydeploy-0.2.96-py3-none-any.whl.zip tmp/sydeploy-0.2.97-py3-none-any.whl.zip --markdown 20230710/s/sydeploy/0.2.96-0.2.97/diff.md --exclude *.pyd
+[2023-07-10 14:37:35] INFO root fetch - processPackages [django-rich]: Downloading https://files.pythonhosted.org/packages/27/32/a410a38475a63a07a4f9936250bcb54b8a9a9f21b6d71e97782a28b85dfe/django_rich-1.7.0.tar.gz
+[2023-07-10 14:37:35] INFO root fetch - processPackages [bigdl-orca]: Downloading https://files.pythonhosted.org/packages/5f/c1/01e3cdea383b3f3fd505c7a57b46da0cdfd23b0eb80c5075bd3f97a343b4/bigdl_orca-2.4.0b20230708-py3-none-manylinux1_x86_64.whl
+[2023-07-10 14:37:35] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/21/a6/caf5451fda5ceed9de3dfadecf33e65b6279d0a5dfa4350206da3da20fac/projen-0.71.99.tar.gz
+[2023-07-10 14:37:35] WARNING root fetch - processPackages [bigdl-orca]: Skipping package: exceeds size limit 20369789>=10485760
+[2023-07-10 14:37:35] INFO root fetch - processPackages [bigdl-orca]: Start processing: bigdl-friesian
+[2023-07-10 14:37:35] INFO root fetch - main [MainThread]: End processing [bigdl-orca] error
+[2023-07-10 14:37:35] INFO root fetch - processPackages [sherlibs]: executing diffoscope
+[2023-07-10 14:37:35] INFO root fetch - processPackages [sherlibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sherlibs-2.2.9.tar.gz tmp/sherlibs-3.0.0.tar.gz --markdown 20230710/s/sherlibs/2.2.9-3.0.0/diff.md --exclude *.pyd
+[2023-07-10 14:37:35] INFO root fetch - processPackages [aicli]: Downloading https://files.pythonhosted.org/packages/7a/24/591b55ee393f6e180c6829e7806438100700d080d945a7b1bfb9d00bbaa3/aicli-99.0.202307101234-py3-none-any.whl
+[2023-07-10 14:37:35] INFO root fetch - processPackages [govuk-frontend-django]: executing diffoscope
+[2023-07-10 14:37:35] INFO root fetch - processPackages [govuk-frontend-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/govuk_frontend_django-0.3.8.tar.gz tmp/govuk_frontend_django-0.3.9.tar.gz --markdown 20230710/g/govuk-frontend-django/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-10 14:37:35] INFO root fetch - processPackages [django-rich]: executing diffoscope
+[2023-07-10 14:37:35] INFO root fetch - processPackages [django-rich]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_rich-1.6.0.tar.gz tmp/django_rich-1.7.0.tar.gz --markdown 20230710/d/django-rich/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2023-07-10 14:37:35] INFO root fetch - processPackages [dvc]: Downloading https://files.pythonhosted.org/packages/a2/58/cc1e9d46beff779228ab63aea6e1335e5e05ff721f2cb9ff4bc60f1c6748/dvc-3.4.0.tar.gz
+[2023-07-10 14:37:35] INFO root fetch - processPackages [bigdl-friesian]: New version: [2.4.0b20230710] Old Version: [2.4.0b20230708]
+[2023-07-10 14:37:35] INFO root fetch - processPackages [opswork]: Downloading https://files.pythonhosted.org/packages/50/20/df269cf947feb2c2722faf83923bd027dc2196dfe73c66a9f80a783f3af2/opswork-0.5.1.tar.gz
+[2023-07-10 14:37:35] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/43/8f/bc3f9b68e32f000f61eb48472d3882d83ee7f5529bfb88ef231e64e45b51/cycode-0.2.6.dev9.tar.gz
+[2023-07-10 14:37:35] INFO root fetch - processPackages [aicli]: executing diffoscope
+[2023-07-10 14:37:35] INFO root fetch - processPackages [aicli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicli-99.0.202307050846-py3-none-any.whl.zip tmp/aicli-99.0.202307101234-py3-none-any.whl.zip --markdown 20230710/a/aicli/99.0.202307050846-99.0.202307101234/diff.md --exclude *.pyd
+[2023-07-10 14:37:35] INFO root fetch - processPackages [dvc]: executing diffoscope
+[2023-07-10 14:37:35] INFO root fetch - processPackages [dvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-3.3.1.tar.gz tmp/dvc-3.4.0.tar.gz --markdown 20230710/d/dvc/3.3.1-3.4.0/diff.md --exclude *.pyd
+[2023-07-10 14:37:36] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-07-10 14:37:36] INFO root fetch - processPackages [opswork]: executing diffoscope
+[2023-07-10 14:37:36] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.98.tar.gz tmp/projen-0.71.99.tar.gz --markdown 20230710/p/projen/0.71.98-0.71.99/diff.md --exclude *.pyd
+[2023-07-10 14:37:36] INFO root fetch - processPackages [opswork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opswork-0.5.0.tar.gz tmp/opswork-0.5.1.tar.gz --markdown 20230710/o/opswork/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-10 14:37:36] INFO root fetch - processPackages [cycode]: executing diffoscope
+[2023-07-10 14:37:36] INFO root fetch - processPackages [cycode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycode-0.2.6.dev8.tar.gz tmp/cycode-0.2.6.dev9.tar.gz --markdown 20230710/c/cycode/0.2.6.dev8-0.2.6.dev9/diff.md --exclude *.pyd
+[2023-07-10 14:37:36] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/32/f3/d5b8e1a39dad3cc0c76efac0e251ea23e8a02317d69efc911488a984143e/bigdl_friesian-2.4.0b20230708-py3-none-manylinux1_x86_64.whl
+[2023-07-10 14:37:36] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/bb/dc/2db9d167c622bc621833ae7722176c72308e7c2b3c6d7503969673b5a71d/bigdl_friesian-2.4.0b20230710-py3-none-manylinux1_x86_64.whl
+[2023-07-10 14:37:36] INFO root fetch - processPackages [bigdl-friesian]: executing diffoscope
+[2023-07-10 14:37:36] INFO root fetch - processPackages [bigdl-friesian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian-2.4.0b20230708-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian-2.4.0b20230710-py3-none-manylinux1_x86_64.whl.zip --markdown 20230710/b/bigdl-friesian/2.4.0b20230708-2.4.0b20230710/diff.md --exclude *.pyd
+[2023-07-10 14:37:36] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.96-py3-none-any.whl.zip]
+[2023-07-10 14:37:36] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.97-py3-none-any.whl.zip]
+[2023-07-10 14:37:36] INFO root fetch - processPackages [sydeploy]: Start processing: franky-panda
+[2023-07-10 14:37:36] INFO root fetch - main [MainThread]: End processing [sydeploy]: success
+[2023-07-10 14:37:37] INFO root fetch - processPackages [franky-panda]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-10 14:37:37] INFO root fetch - processPackages [django-rich]: Remove: archive file [/home/abi/fetcher/tmp/django_rich-1.6.0.tar.gz]
+[2023-07-10 14:37:37] INFO root fetch - processPackages [django-rich]: Remove: archive file [/home/abi/fetcher/tmp/django_rich-1.7.0.tar.gz]
+[2023-07-10 14:37:37] INFO root fetch - processPackages [django-rich]: Start processing: docarray
+[2023-07-10 14:37:37] INFO root fetch - main [MainThread]: End processing [django-rich]: success
+[2023-07-10 14:37:37] INFO root fetch - processPackages [franky-panda]: Downloading https://files.pythonhosted.org/packages/d8/db/75ad20a1e46ef73ee3bee6c073447f3d27e9010f3a0ca49e9b1665008536/franky_panda-0.4.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-10 14:37:37] INFO root fetch - processPackages [govuk-frontend-django]: Remove: archive file [/home/abi/fetcher/tmp/govuk_frontend_django-0.3.8.tar.gz]
+[2023-07-10 14:37:37] INFO root fetch - processPackages [govuk-frontend-django]: Remove: archive file [/home/abi/fetcher/tmp/govuk_frontend_django-0.3.9.tar.gz]
+[2023-07-10 14:37:37] INFO root fetch - processPackages [govuk-frontend-django]: Start processing: bigdl
+[2023-07-10 14:37:37] INFO root fetch - main [MainThread]: End processing [govuk-frontend-django]: success
+[2023-07-10 14:37:37] INFO root fetch - processPackages [sherlibs]: Remove: archive file [/home/abi/fetcher/tmp/sherlibs-2.2.9.tar.gz]
+[2023-07-10 14:37:37] INFO root fetch - processPackages [sherlibs]: Remove: archive file [/home/abi/fetcher/tmp/sherlibs-3.0.0.tar.gz]
+[2023-07-10 14:37:37] INFO root fetch - main [MainThread]: End processing [sherlibs]: success
+[2023-07-10 14:37:37] INFO root fetch - processPackages [aicli]: Remove: archive file [/home/abi/fetcher/tmp/aicli-99.0.202307050846-py3-none-any.whl.zip]
+[2023-07-10 14:37:37] INFO root fetch - processPackages [aicli]: Remove: archive file [/home/abi/fetcher/tmp/aicli-99.0.202307101234-py3-none-any.whl.zip]
+[2023-07-10 14:37:37] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-07-10 14:37:37] INFO root fetch - main [MainThread]: End processing [aicli]: success
+[2023-07-10 14:37:37] INFO root fetch - processPackages [bigdl]: New version: [2.4.0b20230710] Old Version: [2.4.0b20230708]
+[2023-07-10 14:37:37] INFO root fetch - processPackages [opswork]: Remove: archive file [/home/abi/fetcher/tmp/opswork-0.5.0.tar.gz]
+[2023-07-10 14:37:37] INFO root fetch - processPackages [opswork]: Remove: archive file [/home/abi/fetcher/tmp/opswork-0.5.1.tar.gz]
+[2023-07-10 14:37:37] INFO root fetch - main [MainThread]: End processing [opswork]: success
+[2023-07-10 14:37:37] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-0.2.6.dev8.tar.gz]
+[2023-07-10 14:37:37] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-0.2.6.dev9.tar.gz]
+[2023-07-10 14:37:37] INFO root fetch - main [MainThread]: End processing [cycode]: success
+[2023-07-10 14:37:37] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/da/d0/4e039d9e7c4e19f30fbd831f0bd4670ae9aa6b5c8b29e21ed55f7886c9fe/docarray-0.9.9.dev4.tar.gz
+[2023-07-10 14:37:37] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/7c/e7/04d00810af73b9711564c29a0e72ae20ce4ebee17b5ee4590a2b2fe3c86a/bigdl-2.4.0b20230708-py3-none-manylinux1_x86_64.whl
+[2023-07-10 14:37:37] INFO root fetch - processPackages [franky-panda]: Downloading https://files.pythonhosted.org/packages/82/44/adbe24d7c520e1c7ca6d124278ec8a61f62830c391d7dcd159e1c79b2997/franky_panda-0.4.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-10 14:37:38] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.98.tar.gz]
+[2023-07-10 14:37:38] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.99.tar.gz]
+[2023-07-10 14:37:38] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-07-10 14:37:38] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/1e/08/a2f2ce83039506f66ba95a073827b484b012c0e23838fc236f21bcfac672/bigdl-2.4.0b20230710-py3-none-manylinux1_x86_64.whl
+[2023-07-10 14:37:38] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/2b/4f/53a641fcaefc8774128d5f48cb2a7b2e692c8adfce1e2afaf8d9260d8b2a/docarray-0.9.9.dev5.tar.gz
+[2023-07-10 14:37:38] INFO root fetch - processPackages [bigdl-friesian]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian-2.4.0b20230708-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-10 14:37:38] INFO root fetch - processPackages [bigdl-friesian]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian-2.4.0b20230710-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-10 14:37:38] INFO root fetch - main [MainThread]: End processing [bigdl-friesian]: success
+[2023-07-10 14:37:38] INFO root fetch - processPackages [franky-panda]: executing diffoscope
+[2023-07-10 14:37:38] INFO root fetch - processPackages [franky-panda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/franky_panda-0.4.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/franky_panda-0.4.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230710/f/franky-panda/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-10 14:37:38] INFO root fetch - processPackages [bigdl]: executing diffoscope
+[2023-07-10 14:37:38] INFO root fetch - processPackages [bigdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl-2.4.0b20230708-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl-2.4.0b20230710-py3-none-manylinux1_x86_64.whl.zip --markdown 20230710/b/bigdl/2.4.0b20230708-2.4.0b20230710/diff.md --exclude *.pyd
+[2023-07-10 14:37:38] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-07-10 14:37:38] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230710/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-07-10 14:37:39] INFO root fetch - processPackages [bigdl]: Remove: archive file [/home/abi/fetcher/tmp/bigdl-2.4.0b20230708-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-10 14:37:39] INFO root fetch - processPackages [bigdl]: Remove: archive file [/home/abi/fetcher/tmp/bigdl-2.4.0b20230710-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-10 14:37:39] INFO root fetch - main [MainThread]: End processing [bigdl]: success
+[2023-07-10 14:37:40] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev4.tar.gz]
+[2023-07-10 14:37:40] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev5.tar.gz]
+[2023-07-10 14:37:40] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-07-10 14:37:40] INFO root fetch - processPackages [dvc]: Remove: archive file [/home/abi/fetcher/tmp/dvc-3.3.1.tar.gz]
+[2023-07-10 14:37:40] INFO root fetch - processPackages [dvc]: Remove: archive file [/home/abi/fetcher/tmp/dvc-3.4.0.tar.gz]
+[2023-07-10 14:37:40] INFO root fetch - main [MainThread]: End processing [dvc]: success
+[2023-07-10 14:37:43] INFO root fetch - processPackages [franky-panda]: Remove: archive file [/home/abi/fetcher/tmp/franky_panda-0.4.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-10 14:37:43] INFO root fetch - processPackages [franky-panda]: Remove: archive file [/home/abi/fetcher/tmp/franky_panda-0.4.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-10 14:37:43] INFO root fetch - main [MainThread]: End processing [franky-panda]: success
+[2023-07-10 14:37:43] INFO root fetch - main [MainThread]: Store serial: [18830529]
