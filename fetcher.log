@@ -13742,3 +13742,90 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 11:45:22] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.1.0.3.tar.gz]
 [2023-07-10 11:45:22] INFO root fetch - main [MainThread]: End processing [rongdavbaaddins]: success
 [2023-07-10 11:45:22] INFO root fetch - main [MainThread]: Store serial: [18829138]
+[2023-07-10 11:50:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18829138]
+[2023-07-10 11:50:30] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-10 11:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rongdavbaaddins
+[2023-07-10 11:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sj-tool
+[2023-07-10 11:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: container-hub
+[2023-07-10 11:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: inspire-matcher
+[2023-07-10 11:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ats-case
+[2023-07-10 11:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: crypto-info
+[2023-07-10 11:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vallarisStreaming
+[2023-07-10 11:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: threads-net
+[2023-07-10 11:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: SGtSNEpiPy
+[2023-07-10 11:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: quantplay
+[2023-07-10 11:50:31] INFO root fetch - processPackages [rongdavbaaddins]: New version: [0.1.0.4] Old Version: [0.1.0.3]
+[2023-07-10 11:50:31] INFO root fetch - processPackages [container-hub]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 11:50:31] INFO root fetch - processPackages [SGtSNEpiPy]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-10 11:50:31] INFO root fetch - processPackages [ats-case]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-10 11:50:31] INFO root fetch - processPackages [crypto-info]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-10 11:50:31] INFO root fetch - processPackages [threads-net]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-10 11:50:31] WARNING root fetch - processPackages [vallarisStreaming]: Skipping, unable to determine old version
+[2023-07-10 11:50:31] INFO root fetch - main [MainThread]: End processing [vallarisStreaming] error
+[2023-07-10 11:50:31] INFO root fetch - processPackages [inspire-matcher]: New version: [9.0.9] Old Version: [9.0.8]
+[2023-07-10 11:50:31] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-10 11:50:31] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/a7/33/48d9e016baeb48eda24c5274a266f084452a530eee5b605128b7d8abd984/rongdavbaaddins-0.1.0.3.tar.gz
+[2023-07-10 11:50:31] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/04/da/b171ada6344192f8d804a421bc8808a47ee94e5d1f28c7daca14485ad4a7/ats_case-0.9.8.tar.gz
+[2023-07-10 11:50:31] INFO root fetch - processPackages [SGtSNEpiPy]: Downloading https://files.pythonhosted.org/packages/01/4f/cf9e3c5dab9515772f3dec5221717a51f2d40731f211bb0d7297c84f510b/SGtSNEpiPy-1.0.2.tar.gz
+[2023-07-10 11:50:31] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/11/ba/483f4770d7c413aff80cfdfd96da75d50912f6604255f4a04d7e8448a5a1/threads-net-0.0.7.tar.gz
+[2023-07-10 11:50:31] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/8b/f9/2af667f18b77632259bbdac6a0db7f33f9cbea38a7a1baa7d9979d9060d3/sj_tool-1.0.8-py3-none-any.whl
+[2023-07-10 11:50:31] INFO root fetch - processPackages [quantplay]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-10 11:50:31] INFO root fetch - processPackages [container-hub]: Downloading https://files.pythonhosted.org/packages/f5/89/65f2a9c9c6076e43c6a64bdb08dd504b55aac97b0eeab938daa21d23cdec/container_hub-0.1.8.tar.gz
+[2023-07-10 11:50:31] INFO root fetch - processPackages [inspire-matcher]: Downloading https://files.pythonhosted.org/packages/67/f2/08879e7de2f80f2f406079940733e9ac8b296a59a7ad850538d88cd8977c/inspire-matcher-9.0.8.tar.gz
+[2023-07-10 11:50:31] INFO root fetch - processPackages [crypto-info]: Downloading https://files.pythonhosted.org/packages/e8/c0/0aa339a9536429640579192e635cc31cae5d9be143c49916bc291e02135b/crypto-info-1.0.0.tar.gz
+[2023-07-10 11:50:31] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/7f/68/87f6eca1406e5f35351915c2062c1db2b77cdfcaebb646e255d7baf5e023/ats_case-0.9.9.tar.gz
+[2023-07-10 11:50:31] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/45/df/9dafdbe1d951b59dcb7dc8f02188b232f56f79298a06892f0e603becc389/quantplay-1.3.8.tar.gz
+[2023-07-10 11:50:31] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/de/bd/e372c12fe307c562ec3785151d74201431eddd2312171d55b8ee4ac81db6/threads-net-0.0.8.tar.gz
+[2023-07-10 11:50:31] INFO root fetch - processPackages [SGtSNEpiPy]: Downloading https://files.pythonhosted.org/packages/d0/98/6f11cf9bc04298e42b42966c70b68b1e320dbaf3bf67619b692b52118f40/SGtSNEpiPy-1.0.3.tar.gz
+[2023-07-10 11:50:31] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-07-10 11:50:31] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/21/3a/269c6bf486f0845d842e86cd1ef312aa6518e0bc31fcde1ade0c129e2139/rongdavbaaddins-0.1.0.4.tar.gz
+[2023-07-10 11:50:31] INFO root fetch - processPackages [ats-case]: executing diffoscope
+[2023-07-10 11:50:31] INFO root fetch - processPackages [ats-case]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ats_case-0.9.8.tar.gz tmp/ats_case-0.9.9.tar.gz --markdown 20230710/a/ats-case/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-10 11:50:31] INFO root fetch - processPackages [threads-net]: executing diffoscope
+[2023-07-10 11:50:31] INFO root fetch - processPackages [threads-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threads-net-0.0.7.tar.gz tmp/threads-net-0.0.8.tar.gz --markdown 20230710/t/threads-net/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-10 11:50:32] INFO root fetch - processPackages [SGtSNEpiPy]: executing diffoscope
+[2023-07-10 11:50:32] INFO root fetch - processPackages [SGtSNEpiPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SGtSNEpiPy-1.0.2.tar.gz tmp/SGtSNEpiPy-1.0.3.tar.gz --markdown 20230710/S/SGtSNEpiPy/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-10 11:50:32] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-07-10 11:50:32] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230710/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-10 11:50:32] INFO root fetch - processPackages [rongdavbaaddins]: executing diffoscope
+[2023-07-10 11:50:32] INFO root fetch - processPackages [rongdavbaaddins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rongdavbaaddins-0.1.0.3.tar.gz tmp/rongdavbaaddins-0.1.0.4.tar.gz --markdown 20230710/r/rongdavbaaddins/0.1.0.3-0.1.0.4/diff.md --exclude *.pyd
+[2023-07-10 11:50:32] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/ee/a5/18caaa36bc077cbd964b78406eed5d1840456172da7cdd1b6c18be824d06/quantplay-1.3.9.tar.gz
+[2023-07-10 11:50:32] INFO root fetch - processPackages [container-hub]: Downloading https://files.pythonhosted.org/packages/e6/9a/4b07acbd68e5b6bd5f7c235e010e0e6a0675214a64273c228fabeb952eef/container_hub-0.1.9.tar.gz
+[2023-07-10 11:50:32] INFO root fetch - processPackages [inspire-matcher]: Downloading https://files.pythonhosted.org/packages/5f/fc/b7b4438f22f28ecc302dba3d038b3e60c4e5fed5b66c2bf27a5af20e91f9/inspire-matcher-9.0.9.tar.gz
+[2023-07-10 11:50:32] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-07-10 11:50:32] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.3.8.tar.gz tmp/quantplay-1.3.9.tar.gz --markdown 20230710/q/quantplay/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-10 11:50:32] INFO root fetch - processPackages [container-hub]: executing diffoscope
+[2023-07-10 11:50:32] INFO root fetch - processPackages [container-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/container_hub-0.1.8.tar.gz tmp/container_hub-0.1.9.tar.gz --markdown 20230710/c/container-hub/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 11:50:32] INFO root fetch - processPackages [inspire-matcher]: executing diffoscope
+[2023-07-10 11:50:32] INFO root fetch - processPackages [inspire-matcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inspire-matcher-9.0.8.tar.gz tmp/inspire-matcher-9.0.9.tar.gz --markdown 20230710/i/inspire-matcher/9.0.8-9.0.9/diff.md --exclude *.pyd
+[2023-07-10 11:50:33] INFO root fetch - processPackages [crypto-info]: Downloading https://files.pythonhosted.org/packages/4a/a9/192090257584383b0cf5496f42bc0a2bc556a510d9411fde4d3d06eb052a/crypto-info-1.1.0.tar.gz
+[2023-07-10 11:50:33] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.9.8.tar.gz]
+[2023-07-10 11:50:33] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.9.9.tar.gz]
+[2023-07-10 11:50:33] INFO root fetch - main [MainThread]: End processing [ats-case]: success
+[2023-07-10 11:50:33] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.7.tar.gz]
+[2023-07-10 11:50:33] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.8.tar.gz]
+[2023-07-10 11:50:33] INFO root fetch - main [MainThread]: End processing [threads-net]: success
+[2023-07-10 11:50:33] INFO root fetch - processPackages [crypto-info]: executing diffoscope
+[2023-07-10 11:50:33] INFO root fetch - processPackages [crypto-info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-info-1.0.0.tar.gz tmp/crypto-info-1.1.0.tar.gz --markdown 20230710/c/crypto-info/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-10 11:50:33] INFO root fetch - processPackages [SGtSNEpiPy]: Remove: archive file [/home/abi/fetcher/tmp/SGtSNEpiPy-1.0.2.tar.gz]
+[2023-07-10 11:50:33] INFO root fetch - processPackages [SGtSNEpiPy]: Remove: archive file [/home/abi/fetcher/tmp/SGtSNEpiPy-1.0.3.tar.gz]
+[2023-07-10 11:50:33] INFO root fetch - main [MainThread]: End processing [SGtSNEpiPy]: success
+[2023-07-10 11:50:33] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.8-py3-none-any.whl.zip]
+[2023-07-10 11:50:33] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.9-py3-none-any.whl.zip]
+[2023-07-10 11:50:33] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-07-10 11:50:33] INFO root fetch - processPackages [inspire-matcher]: Remove: archive file [/home/abi/fetcher/tmp/inspire-matcher-9.0.8.tar.gz]
+[2023-07-10 11:50:33] INFO root fetch - processPackages [inspire-matcher]: Remove: archive file [/home/abi/fetcher/tmp/inspire-matcher-9.0.9.tar.gz]
+[2023-07-10 11:50:33] INFO root fetch - main [MainThread]: End processing [inspire-matcher]: success
+[2023-07-10 11:50:33] INFO root fetch - processPackages [container-hub]: Remove: archive file [/home/abi/fetcher/tmp/container_hub-0.1.8.tar.gz]
+[2023-07-10 11:50:33] INFO root fetch - processPackages [container-hub]: Remove: archive file [/home/abi/fetcher/tmp/container_hub-0.1.9.tar.gz]
+[2023-07-10 11:50:33] INFO root fetch - main [MainThread]: End processing [container-hub]: success
+[2023-07-10 11:50:33] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.3.8.tar.gz]
+[2023-07-10 11:50:33] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.3.9.tar.gz]
+[2023-07-10 11:50:33] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-07-10 11:50:34] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.1.0.3.tar.gz]
+[2023-07-10 11:50:34] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.1.0.4.tar.gz]
+[2023-07-10 11:50:34] INFO root fetch - main [MainThread]: End processing [rongdavbaaddins]: success
+[2023-07-10 11:50:46] INFO root fetch - processPackages [crypto-info]: Remove: archive file [/home/abi/fetcher/tmp/crypto-info-1.0.0.tar.gz]
+[2023-07-10 11:50:46] INFO root fetch - processPackages [crypto-info]: Remove: archive file [/home/abi/fetcher/tmp/crypto-info-1.1.0.tar.gz]
+[2023-07-10 11:50:46] INFO root fetch - main [MainThread]: End processing [crypto-info]: success
+[2023-07-10 11:50:46] INFO root fetch - main [MainThread]: Store serial: [18829171]
