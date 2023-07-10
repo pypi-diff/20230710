@@ -11387,3 +11387,182 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 10:20:22] INFO root fetch - processPackages [yet-another-wizz]: Remove: archive file [/home/abi/fetcher/tmp/yet_another_wizz-2.5.post0.tar.gz]
 [2023-07-10 10:20:22] INFO root fetch - main [MainThread]: End processing [yet-another-wizz]: success
 [2023-07-10 10:20:22] INFO root fetch - main [MainThread]: Store serial: [18828167]
+[2023-07-10 10:25:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18828167]
+[2023-07-10 10:25:31] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-10 10:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: buteo
+[2023-07-10 10:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: udata
+[2023-07-10 10:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiidalab-launch
+[2023-07-10 10:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: forestadmin-datasource-toolkit
+[2023-07-10 10:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dotfgen
+[2023-07-10 10:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: airunner
+[2023-07-10 10:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SRgenerator
+[2023-07-10 10:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: forestadmin-datasource-sqlalchemy
+[2023-07-10 10:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mistapi
+[2023-07-10 10:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spec2nii
+[2023-07-10 10:25:31] WARNING root fetch - processPackages [dotfgen]: Skipping, unable to determine old version
+[2023-07-10 10:25:31] INFO root fetch - processPackages [dotfgen]: Start processing: forestadmin-agent-toolkit
+[2023-07-10 10:25:31] INFO root fetch - main [MainThread]: End processing [dotfgen] error
+[2023-07-10 10:25:31] INFO root fetch - processPackages [buteo]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-10 10:25:31] INFO root fetch - processPackages [udata]: New version: [6.1.6.dev25633] Old Version: [6.1.6.dev25622]
+[2023-07-10 10:25:31] INFO root fetch - processPackages [SRgenerator]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-10 10:25:31] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-07-10 10:25:31] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-07-10 10:25:31] INFO root fetch - processPackages [aiidalab-launch]: New version: [2023.1019] Old Version: [2023.1018]
+[2023-07-10 10:25:31] INFO root fetch - processPackages [spec2nii]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-07-10 10:25:31] INFO root fetch - processPackages [mistapi]: New version: [0.41.9] Old Version: [0.41.8]
+[2023-07-10 10:25:31] INFO root fetch - processPackages [forestadmin-agent-toolkit]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-07-10 10:25:31] INFO root fetch - processPackages [airunner]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-07-10 10:25:32] INFO root fetch - processPackages [buteo]: Downloading https://files.pythonhosted.org/packages/30/1f/24a135d7a94d521f7525f83c54b3620b834740839a99f1cb107373bdbec4/buteo-0.9.8.tar.gz
+[2023-07-10 10:25:32] INFO root fetch - processPackages [SRgenerator]: Downloading https://files.pythonhosted.org/packages/89/a0/75e19a6694885006d03a8ae3386e75957785a60c05d66e4c2f7750e007a9/SRgenerator-0.0.4.tar.gz
+[2023-07-10 10:25:32] INFO root fetch - processPackages [aiidalab-launch]: Downloading https://files.pythonhosted.org/packages/72/4d/7ea8ccd42d341dc012b46c65c2b3efe1d002242d4f41a4efec71ad063865/aiidalab_launch-2023.1018.tar.gz
+[2023-07-10 10:25:32] INFO root fetch - processPackages [mistapi]: Downloading https://files.pythonhosted.org/packages/7c/7e/c80f4702c10dec7db81faaea2d584d96aa31fc91f05e2e141180faf6efd7/mistapi-0.41.8.tar.gz
+[2023-07-10 10:25:32] INFO root fetch - processPackages [airunner]: Downloading https://files.pythonhosted.org/packages/8f/f7/4e30406cd5555e123586ce80cdc6d73146c2c3666cb8a9f68f4f9cd4e953/airunner-2.0.4.tar.gz
+[2023-07-10 10:25:32] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: Downloading https://files.pythonhosted.org/packages/ad/37/aef0972f584a7ccd5a02b58b58449fee7cfc5e203219dbfd89ec8ffdf6c9/forestadmin_datasource_toolkit-0.1.0b8.tar.gz
+[2023-07-10 10:25:32] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/55/ec/8247e4e82a326de5c38702a86bb40c226be2e246beada914406074f12e31/forestadmin_datasource_sqlalchemy-0.1.0b8.tar.gz
+[2023-07-10 10:25:32] INFO root fetch - processPackages [forestadmin-agent-toolkit]: Downloading https://files.pythonhosted.org/packages/81/13/0c3fe634cf5d3e6712d4ec8d958264f0c031fc9a780b5218485b96f58641/forestadmin_agent_toolkit-0.1.0b8.tar.gz
+[2023-07-10 10:25:32] INFO root fetch - processPackages [spec2nii]: Downloading https://files.pythonhosted.org/packages/72/c7/c65751791c0fb530fb130219b2df375bcf2d09d63f10d0f6efaa02405a07/spec2nii-0.6.8.tar.gz
+[2023-07-10 10:25:32] INFO root fetch - processPackages [udata]: Downloading https://files.pythonhosted.org/packages/b9/97/0b46f6a42e1eb024fa4af1683e86246b380a088c41afb030954ea6892198/udata-6.1.6.dev25622-py2.py3-none-any.whl
+[2023-07-10 10:25:32] WARNING root fetch - processPackages [udata]: Skipping package: exceeds size limit 19609038>=10485760
+[2023-07-10 10:25:32] INFO root fetch - processPackages [udata]: Start processing: yplib
+[2023-07-10 10:25:32] INFO root fetch - main [MainThread]: End processing [udata] error
+[2023-07-10 10:25:32] INFO root fetch - processPackages [buteo]: Downloading https://files.pythonhosted.org/packages/ff/14/50e63a5bd644b443b28af3c2bbe6c1aa1cc7f3e7a03a92253919d541c3de/buteo-0.9.9.tar.gz
+[2023-07-10 10:25:32] INFO root fetch - processPackages [yplib]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-07-10 10:25:32] INFO root fetch - processPackages [mistapi]: Downloading https://files.pythonhosted.org/packages/80/d3/b266dd4edb93a3e8306915b9003b44b3217feb55cf5e562b2563675b50bf/mistapi-0.41.9.tar.gz
+[2023-07-10 10:25:32] INFO root fetch - processPackages [aiidalab-launch]: Downloading https://files.pythonhosted.org/packages/7b/af/75ff71ffaab98344bf2133529e8c879e166044b01383d5361cf7ccba069c/aiidalab_launch-2023.1019.tar.gz
+[2023-07-10 10:25:32] INFO root fetch - processPackages [SRgenerator]: Downloading https://files.pythonhosted.org/packages/7b/da/edfe421901f149e14495df38dac484ce9e435256ca5aafb4344758007328/SRgenerator-0.0.5.tar.gz
+[2023-07-10 10:25:32] INFO root fetch - processPackages [airunner]: Downloading https://files.pythonhosted.org/packages/2d/82/1bc9011700ca8a1463653256583a85a65be0089351b36cd2556bd70de9fc/airunner-2.0.5.tar.gz
+[2023-07-10 10:25:32] INFO root fetch - processPackages [buteo]: executing diffoscope
+[2023-07-10 10:25:32] INFO root fetch - processPackages [buteo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buteo-0.9.8.tar.gz tmp/buteo-0.9.9.tar.gz --markdown 20230710/b/buteo/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-10 10:25:32] INFO root fetch - processPackages [mistapi]: executing diffoscope
+[2023-07-10 10:25:32] INFO root fetch - processPackages [mistapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistapi-0.41.8.tar.gz tmp/mistapi-0.41.9.tar.gz --markdown 20230710/m/mistapi/0.41.8-0.41.9/diff.md --exclude *.pyd
+[2023-07-10 10:25:32] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: Downloading https://files.pythonhosted.org/packages/b7/9a/988eb6cd1dfc14a2b6ace6915c6966ba385d85c30d7547c85b9cf0fe2dd9/forestadmin_datasource_toolkit-0.1.0b9.tar.gz
+[2023-07-10 10:25:32] INFO root fetch - processPackages [aiidalab-launch]: executing diffoscope
+[2023-07-10 10:25:32] INFO root fetch - processPackages [aiidalab-launch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiidalab_launch-2023.1018.tar.gz tmp/aiidalab_launch-2023.1019.tar.gz --markdown 20230710/a/aiidalab-launch/2023.1018-2023.1019/diff.md --exclude *.pyd
+[2023-07-10 10:25:32] INFO root fetch - processPackages [SRgenerator]: executing diffoscope
+[2023-07-10 10:25:32] INFO root fetch - processPackages [SRgenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SRgenerator-0.0.4.tar.gz tmp/SRgenerator-0.0.5.tar.gz --markdown 20230710/S/SRgenerator/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-10 10:25:32] INFO root fetch - processPackages [spec2nii]: Downloading https://files.pythonhosted.org/packages/3a/84/98a24fb2a2fc6f474b77f0cb4c9e7a3a7afd02d8d04fdd146911985daf82/spec2nii-0.6.9.tar.gz
+[2023-07-10 10:25:32] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/e3/82/284d5a98e9849700b9bd0243463ae74bb810fb8f891ef63246ae48a9b25a/forestadmin_datasource_sqlalchemy-0.1.0b9.tar.gz
+[2023-07-10 10:25:32] INFO root fetch - processPackages [forestadmin-agent-toolkit]: Downloading https://files.pythonhosted.org/packages/b0/db/01961164568425eb2d6b5765179369ee253f7483d07942f3e15613dfc4c6/forestadmin_agent_toolkit-0.1.0b9.tar.gz
+[2023-07-10 10:25:32] INFO root fetch - processPackages [airunner]: executing diffoscope
+[2023-07-10 10:25:32] INFO root fetch - processPackages [airunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airunner-2.0.4.tar.gz tmp/airunner-2.0.5.tar.gz --markdown 20230710/a/airunner/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-07-10 10:25:33] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/2d/73/b5081c8c9ce397053cc11663560c1f84b7e60d1c6c9a79805273f3ba16ab/yplib-2.4.0.tar.gz
+[2023-07-10 10:25:33] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: executing diffoscope
+[2023-07-10 10:25:33] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_datasource_toolkit-0.1.0b8.tar.gz tmp/forestadmin_datasource_toolkit-0.1.0b9.tar.gz --markdown 20230710/f/forestadmin-datasource-toolkit/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-07-10 10:25:33] INFO root fetch - processPackages [spec2nii]: executing diffoscope
+[2023-07-10 10:25:33] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: executing diffoscope
+[2023-07-10 10:25:33] INFO root fetch - processPackages [spec2nii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spec2nii-0.6.8.tar.gz tmp/spec2nii-0.6.9.tar.gz --markdown 20230710/s/spec2nii/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-07-10 10:25:33] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_datasource_sqlalchemy-0.1.0b8.tar.gz tmp/forestadmin_datasource_sqlalchemy-0.1.0b9.tar.gz --markdown 20230710/f/forestadmin-datasource-sqlalchemy/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-07-10 10:25:33] INFO root fetch - processPackages [forestadmin-agent-toolkit]: executing diffoscope
+[2023-07-10 10:25:33] INFO root fetch - processPackages [forestadmin-agent-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_agent_toolkit-0.1.0b8.tar.gz tmp/forestadmin_agent_toolkit-0.1.0b9.tar.gz --markdown 20230710/f/forestadmin-agent-toolkit/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-07-10 10:25:33] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/1c/f1/fea761f1338b4408b24e1e22eadf6a04758eacfeefc4f984e3a55a4b0c37/yplib-2.4.1.tar.gz
+[2023-07-10 10:25:33] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-07-10 10:25:33] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-2.4.0.tar.gz tmp/yplib-2.4.1.tar.gz --markdown 20230710/y/yplib/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-07-10 10:25:34] INFO root fetch - processPackages [SRgenerator]: Remove: archive file [/home/abi/fetcher/tmp/SRgenerator-0.0.4.tar.gz]
+[2023-07-10 10:25:34] INFO root fetch - processPackages [SRgenerator]: Remove: archive file [/home/abi/fetcher/tmp/SRgenerator-0.0.5.tar.gz]
+[2023-07-10 10:25:34] INFO root fetch - processPackages [SRgenerator]: Start processing: forestadmin-agent-flask
+[2023-07-10 10:25:34] INFO root fetch - main [MainThread]: End processing [SRgenerator]: success
+[2023-07-10 10:25:34] INFO root fetch - processPackages [forestadmin-agent-flask]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-07-10 10:25:34] INFO root fetch - processPackages [aiidalab-launch]: Remove: archive file [/home/abi/fetcher/tmp/aiidalab_launch-2023.1018.tar.gz]
+[2023-07-10 10:25:34] INFO root fetch - processPackages [aiidalab-launch]: Remove: archive file [/home/abi/fetcher/tmp/aiidalab_launch-2023.1019.tar.gz]
+[2023-07-10 10:25:34] INFO root fetch - processPackages [aiidalab-launch]: Start processing: cg
+[2023-07-10 10:25:34] INFO root fetch - main [MainThread]: End processing [aiidalab-launch]: success
+[2023-07-10 10:25:34] INFO root fetch - processPackages [cg]: New version: [38.1.6] Old Version: [38.1.5]
+[2023-07-10 10:25:34] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_datasource_sqlalchemy-0.1.0b8.tar.gz]
+[2023-07-10 10:25:34] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_datasource_sqlalchemy-0.1.0b9.tar.gz]
+[2023-07-10 10:25:34] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: Start processing: django-htmx
+[2023-07-10 10:25:34] INFO root fetch - main [MainThread]: End processing [forestadmin-datasource-sqlalchemy]: success
+[2023-07-10 10:25:34] INFO root fetch - processPackages [forestadmin-agent-flask]: Downloading https://files.pythonhosted.org/packages/3e/f4/f6de754630a7c19c8ec4ce4d777e771d743b1e084b0ecf590ffcf9141d99/forestadmin_agent_flask-0.1.0b8.tar.gz
+[2023-07-10 10:25:34] INFO root fetch - processPackages [django-htmx]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-10 10:25:34] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/f0/b6/77e80fb44baed9664eee6d9bf2ddabe60743f4457a0a668f37a49fe092a8/cg-38.1.5.tar.gz
+[2023-07-10 10:25:34] INFO root fetch - processPackages [buteo]: Remove: archive file [/home/abi/fetcher/tmp/buteo-0.9.8.tar.gz]
+[2023-07-10 10:25:34] INFO root fetch - processPackages [buteo]: Remove: archive file [/home/abi/fetcher/tmp/buteo-0.9.9.tar.gz]
+[2023-07-10 10:25:34] INFO root fetch - processPackages [buteo]: Start processing: pulumi-aws-native
+[2023-07-10 10:25:34] INFO root fetch - main [MainThread]: End processing [buteo]: success
+[2023-07-10 10:25:35] INFO root fetch - processPackages [forestadmin-agent-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_agent_toolkit-0.1.0b8.tar.gz]
+[2023-07-10 10:25:35] INFO root fetch - processPackages [forestadmin-agent-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_agent_toolkit-0.1.0b9.tar.gz]
+[2023-07-10 10:25:35] INFO root fetch - processPackages [forestadmin-agent-toolkit]: Start processing: yplib
+[2023-07-10 10:25:35] INFO root fetch - main [MainThread]: End processing [forestadmin-agent-toolkit]: success
+[2023-07-10 10:25:35] INFO root fetch - processPackages [pulumi-aws-native]: New version: [0.9.1a1641826769] Old Version: [0.9.1a1641824984]
+[2023-07-10 10:25:35] INFO root fetch - processPackages [django-htmx]: Downloading https://files.pythonhosted.org/packages/57/39/3c0736ec9a58bbbfae49139bddc282c102d31049b3f1c2b28992fa56f43b/django-htmx-1.8.0.tar.gz
+[2023-07-10 10:25:35] INFO root fetch - processPackages [yplib]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-07-10 10:25:35] INFO root fetch - processPackages [airunner]: Remove: archive file [/home/abi/fetcher/tmp/airunner-2.0.4.tar.gz]
+[2023-07-10 10:25:35] INFO root fetch - processPackages [airunner]: Remove: archive file [/home/abi/fetcher/tmp/airunner-2.0.5.tar.gz]
+[2023-07-10 10:25:35] INFO root fetch - processPackages [airunner]: Start processing: MetaCalls
+[2023-07-10 10:25:35] INFO root fetch - main [MainThread]: End processing [airunner]: success
+[2023-07-10 10:25:35] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_datasource_toolkit-0.1.0b8.tar.gz]
+[2023-07-10 10:25:35] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_datasource_toolkit-0.1.0b9.tar.gz]
+[2023-07-10 10:25:35] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: Start processing: tcod
+[2023-07-10 10:25:35] INFO root fetch - main [MainThread]: End processing [forestadmin-datasource-toolkit]: success
+[2023-07-10 10:25:35] INFO root fetch - processPackages [MetaCalls]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-10 10:25:35] INFO root fetch - processPackages [tcod]: New version: [9.3.0] Old Version: [9.2.5]
+[2023-07-10 10:25:35] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.4.0.tar.gz]
+[2023-07-10 10:25:35] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.4.1.tar.gz]
+[2023-07-10 10:25:35] INFO root fetch - processPackages [yplib]: Start processing: rongdavbaaddins
+[2023-07-10 10:25:35] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-07-10 10:25:35] INFO root fetch - processPackages [spec2nii]: Remove: archive file [/home/abi/fetcher/tmp/spec2nii-0.6.8.tar.gz]
+[2023-07-10 10:25:35] INFO root fetch - processPackages [spec2nii]: Remove: archive file [/home/abi/fetcher/tmp/spec2nii-0.6.9.tar.gz]
+[2023-07-10 10:25:35] INFO root fetch - processPackages [spec2nii]: Start processing: ms-python-client
+[2023-07-10 10:25:35] INFO root fetch - main [MainThread]: End processing [spec2nii]: success
+[2023-07-10 10:25:35] INFO root fetch - processPackages [rongdavbaaddins]: New version: [0.1.0.1] Old Version: [0.1.0.0]
+[2023-07-10 10:25:35] INFO root fetch - processPackages [forestadmin-agent-flask]: Downloading https://files.pythonhosted.org/packages/16/5e/7c7f370b88a6f11719865650299ba7dd6f764570d0460a4859718445c239/forestadmin_agent_flask-0.1.0b9.tar.gz
+[2023-07-10 10:25:35] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/89/ce/96408f528e6ba1eda1aea4b6573d97640f6288eac90da3e79f8e64f86ba8/pulumi_aws_native-0.9.1a1641824984.tar.gz
+[2023-07-10 10:25:35] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/1c/f1/fea761f1338b4408b24e1e22eadf6a04758eacfeefc4f984e3a55a4b0c37/yplib-2.4.1.tar.gz
+[2023-07-10 10:25:35] INFO root fetch - processPackages [ms-python-client]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-10 10:25:35] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/ad/59/5df79967b02895a1b8041964a3facfa28752471f6a777fadde984e8892d8/cg-38.1.6.tar.gz
+[2023-07-10 10:25:35] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/3f/53/34bcbb5f0852d0df69bd24bc29da1f9961d0513923014b6be7d998567f32/rongdavbaaddins-0.1.0.0.tar.gz
+[2023-07-10 10:25:35] INFO root fetch - processPackages [MetaCalls]: Downloading https://files.pythonhosted.org/packages/aa/12/26a92608339d590a62c0c4ecba61c9c985e9cb6837ca1b33033426013b88/MetaCalls-0.0.3.tar.gz
+[2023-07-10 10:25:35] INFO root fetch - processPackages [forestadmin-agent-flask]: executing diffoscope
+[2023-07-10 10:25:35] INFO root fetch - processPackages [forestadmin-agent-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_agent_flask-0.1.0b8.tar.gz tmp/forestadmin_agent_flask-0.1.0b9.tar.gz --markdown 20230710/f/forestadmin-agent-flask/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-07-10 10:25:35] INFO root fetch - processPackages [tcod]: Downloading https://files.pythonhosted.org/packages/5f/39/3216d0ebbb1e8aa877f5431c9ddeac7ff06ccc1599bb732d7dc0be457f92/tcod-9.2.5.tar.gz
+[2023-07-10 10:25:35] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-07-10 10:25:35] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-2.4.0.tar.gz tmp/yplib-2.4.1.tar.gz --markdown 20230710/y/yplib/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-07-10 10:25:35] INFO root fetch - processPackages [django-htmx]: Downloading https://files.pythonhosted.org/packages/40/ba/41e96b1678c86b1b4e2830a5cb5f3abb571673e6ec8fb51530f8982e1082/django-htmx-1.9.0.tar.gz
+[2023-07-10 10:25:35] INFO root fetch - processPackages [ms-python-client]: Downloading https://files.pythonhosted.org/packages/0c/c5/9476aa6dad8a40c4862ced7faa196052581d03493c488b3afced008071c2/ms_python_client-0.2.0.tar.gz
+[2023-07-10 10:25:35] INFO root fetch - processPackages [django-htmx]: executing diffoscope
+[2023-07-10 10:25:35] INFO root fetch - processPackages [django-htmx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-htmx-1.8.0.tar.gz tmp/django-htmx-1.9.0.tar.gz --markdown 20230710/d/django-htmx/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-10 10:25:35] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-07-10 10:25:35] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-38.1.5.tar.gz tmp/cg-38.1.6.tar.gz --markdown 20230710/c/cg/38.1.5-38.1.6/diff.md --exclude *.pyd
+[2023-07-10 10:25:35] INFO root fetch - processPackages [MetaCalls]: Downloading https://files.pythonhosted.org/packages/4e/b5/daa92da4c54afe467cb91dc001557bc3d39d53949a275156f65a460b752f/MetaCalls-0.0.4-cp311-cp311-win_amd64.whl
+[2023-07-10 10:25:35] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/0a/09/67c64f9c371fed99dfeb8055f5dcc5c10b84fe1ca844081d8f72f0d9e703/rongdavbaaddins-0.1.0.1.tar.gz
+[2023-07-10 10:25:36] ERROR root fetch - processPackages [yplib]: Diffoscope failed: time="2023-07-10T10:25:35+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/yplib-2.4.0.tar.gz: No such file or directory
+
+[2023-07-10 10:25:36] INFO root fetch - main [MainThread]: End processing [yplib] error
+[2023-07-10 10:25:36] INFO root fetch - processPackages [rongdavbaaddins]: executing diffoscope
+[2023-07-10 10:25:36] INFO root fetch - processPackages [rongdavbaaddins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rongdavbaaddins-0.1.0.0.tar.gz tmp/rongdavbaaddins-0.1.0.1.tar.gz --markdown 20230710/r/rongdavbaaddins/0.1.0.0-0.1.0.1/diff.md --exclude *.pyd
+[2023-07-10 10:25:36] INFO root fetch - processPackages [ms-python-client]: Downloading https://files.pythonhosted.org/packages/e5/5b/e18d387bb22576636f2893cc782f6f8a1183e1842c4a8627ea8e5f1c7701/ms_python_client-0.2.1.tar.gz
+[2023-07-10 10:25:36] INFO root fetch - processPackages [tcod]: Downloading https://files.pythonhosted.org/packages/74/35/d1552bd3aed75544a87a58c47b29660281ecfc7c3e54438a4b9e9989079e/tcod-9.3.0.tar.gz
+[2023-07-10 10:25:36] WARNING root fetch - processPackages [MetaCalls]: Skipping package: exceeds size limit 17452942>=10485760
+[2023-07-10 10:25:36] INFO root fetch - main [MainThread]: End processing [MetaCalls] error
+[2023-07-10 10:25:36] INFO root fetch - processPackages [ms-python-client]: executing diffoscope
+[2023-07-10 10:25:36] INFO root fetch - processPackages [ms-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_python_client-0.2.0.tar.gz tmp/ms_python_client-0.2.1.tar.gz --markdown 20230710/m/ms-python-client/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-10 10:25:36] INFO root fetch - processPackages [tcod]: executing diffoscope
+[2023-07-10 10:25:36] INFO root fetch - processPackages [tcod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcod-9.2.5.tar.gz tmp/tcod-9.3.0.tar.gz --markdown 20230710/t/tcod/9.2.5-9.3.0/diff.md --exclude *.pyd
+[2023-07-10 10:25:36] INFO root fetch - processPackages [forestadmin-agent-flask]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_agent_flask-0.1.0b8.tar.gz]
+[2023-07-10 10:25:36] INFO root fetch - processPackages [forestadmin-agent-flask]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_agent_flask-0.1.0b9.tar.gz]
+[2023-07-10 10:25:36] INFO root fetch - main [MainThread]: End processing [forestadmin-agent-flask]: success
+[2023-07-10 10:25:36] INFO root fetch - processPackages [mistapi]: Remove: archive file [/home/abi/fetcher/tmp/mistapi-0.41.8.tar.gz]
+[2023-07-10 10:25:36] INFO root fetch - processPackages [mistapi]: Remove: archive file [/home/abi/fetcher/tmp/mistapi-0.41.9.tar.gz]
+[2023-07-10 10:25:36] INFO root fetch - main [MainThread]: End processing [mistapi]: success
+[2023-07-10 10:25:36] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/c5/18/9e8b8df236b81bb0bae9bd78ac3551ff235749974974287ab4dd99269408/pulumi_aws_native-0.9.1a1641826769.tar.gz
+[2023-07-10 10:25:36] INFO root fetch - processPackages [django-htmx]: Remove: archive file [/home/abi/fetcher/tmp/django-htmx-1.8.0.tar.gz]
+[2023-07-10 10:25:36] INFO root fetch - processPackages [django-htmx]: Remove: archive file [/home/abi/fetcher/tmp/django-htmx-1.9.0.tar.gz]
+[2023-07-10 10:25:36] INFO root fetch - main [MainThread]: End processing [django-htmx]: success
+[2023-07-10 10:25:37] INFO root fetch - processPackages [pulumi-aws-native]: executing diffoscope
+[2023-07-10 10:25:37] INFO root fetch - processPackages [pulumi-aws-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws_native-0.9.1a1641824984.tar.gz tmp/pulumi_aws_native-0.9.1a1641826769.tar.gz --markdown 20230710/p/pulumi-aws-native/0.9.1a1641824984-0.9.1a1641826769/diff.md --exclude *.pyd
+[2023-07-10 10:25:37] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.1.0.0.tar.gz]
+[2023-07-10 10:25:37] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.1.0.1.tar.gz]
+[2023-07-10 10:25:37] INFO root fetch - main [MainThread]: End processing [rongdavbaaddins]: success
+[2023-07-10 10:25:37] INFO root fetch - processPackages [ms-python-client]: Remove: archive file [/home/abi/fetcher/tmp/ms_python_client-0.2.0.tar.gz]
+[2023-07-10 10:25:37] INFO root fetch - processPackages [ms-python-client]: Remove: archive file [/home/abi/fetcher/tmp/ms_python_client-0.2.1.tar.gz]
+[2023-07-10 10:25:37] INFO root fetch - main [MainThread]: End processing [ms-python-client]: success
+[2023-07-10 10:25:40] INFO root fetch - processPackages [tcod]: Remove: archive file [/home/abi/fetcher/tmp/tcod-9.2.5.tar.gz]
+[2023-07-10 10:25:40] INFO root fetch - processPackages [tcod]: Remove: archive file [/home/abi/fetcher/tmp/tcod-9.3.0.tar.gz]
+[2023-07-10 10:25:40] INFO root fetch - main [MainThread]: End processing [tcod]: success
+[2023-07-10 10:25:42] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-38.1.5.tar.gz]
+[2023-07-10 10:25:42] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-38.1.6.tar.gz]
+[2023-07-10 10:25:42] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-07-10 10:25:48] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.9.1a1641824984.tar.gz]
+[2023-07-10 10:25:48] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.9.1a1641826769.tar.gz]
+[2023-07-10 10:25:48] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
+[2023-07-10 10:25:48] INFO root fetch - main [MainThread]: Store serial: [18828241]
