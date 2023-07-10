@@ -6419,3 +6419,112 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 05:42:20] INFO root fetch - processPackages [libcoveocds]: Remove: archive file [/home/abi/fetcher/tmp/libcoveocds-0.9.1.tar.gz]
 [2023-07-10 05:42:20] INFO root fetch - main [MainThread]: End processing [libcoveocds]: success
 [2023-07-10 05:42:20] INFO root fetch - main [MainThread]: Store serial: [18826113]
+[2023-07-10 05:47:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18826113]
+[2023-07-10 05:47:28] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-10 05:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bayes-mapvar
+[2023-07-10 05:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bayes-mapvar
+[2023-07-10 05:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sj-tool
+[2023-07-10 05:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rongdavbaaddins
+[2023-07-10 05:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: estival
+[2023-07-10 05:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-gpdb20160503
+[2023-07-10 05:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-gpdb20160503-py2
+[2023-07-10 05:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mercury-sync
+[2023-07-10 05:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hypermea
+[2023-07-10 05:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jdcloud-sdk
+[2023-07-10 05:47:29] INFO root fetch - processPackages [estival]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-10 05:47:29] INFO root fetch - processPackages [rongdavbaaddins]: New version: [0.1.0.0] Old Version: [0.0.2.3]
+[2023-07-10 05:47:29] INFO root fetch - processPackages [bayes-mapvar]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-10 05:47:29] INFO root fetch - processPackages [bayes-mapvar]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-10 05:47:29] INFO root fetch - processPackages [hypermea]: New version: [0.9.9] Old Version: [0.9.7]
+[2023-07-10 05:47:29] INFO root fetch - processPackages [alibabacloud-gpdb20160503-py2]: New version: [2.0.0] Old Version: [1.1.9]
+[2023-07-10 05:47:29] INFO root fetch - processPackages [alibabacloud-gpdb20160503]: New version: [2.0.0] Old Version: [1.1.9]
+[2023-07-10 05:47:29] INFO root fetch - processPackages [mercury-sync]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-10 05:47:29] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-10 05:47:29] INFO root fetch - processPackages [jdcloud-sdk]: New version: [1.6.99] Old Version: [1.6.98]
+[2023-07-10 05:47:29] INFO root fetch - processPackages [hypermea]: Downloading https://files.pythonhosted.org/packages/20/5b/2564b6dce1eedfef7069f5695d232032c437079ae6c553b2c5ed8349d3f2/hypermea-0.9.7-py3-none-any.whl
+[2023-07-10 05:47:29] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/8b/f9/2af667f18b77632259bbdac6a0db7f33f9cbea38a7a1baa7d9979d9060d3/sj_tool-1.0.8-py3-none-any.whl
+[2023-07-10 05:47:29] INFO root fetch - processPackages [bayes-mapvar]: Downloading https://files.pythonhosted.org/packages/5f/88/da7b579dc3665391c5406523fee7a5e873cf4d8fd5bf2624cde7739b8181/bayes_mapvar-0.0.1.tar.gz
+[2023-07-10 05:47:29] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/46/e4/83ccbd4b046d0b6d3bb32fbb922e1c5589a7053e79b57e8af1b29cf92014/mercury-sync-0.3.8.tar.gz
+[2023-07-10 05:47:29] INFO root fetch - processPackages [bayes-mapvar]: Downloading https://files.pythonhosted.org/packages/5f/88/da7b579dc3665391c5406523fee7a5e873cf4d8fd5bf2624cde7739b8181/bayes_mapvar-0.0.1.tar.gz
+[2023-07-10 05:47:29] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/4b/74/22b037806b61f59e1cb3d3fe225b73bba969110b14be24ccb131c8015082/rongdavbaaddins-0.0.2.3.tar.gz
+[2023-07-10 05:47:29] INFO root fetch - processPackages [estival]: Downloading https://files.pythonhosted.org/packages/43/44/acdd54b7c3553ca5236276442904d0fdca5f33005931f5a7192cfa8159c6/estival-0.3.1.tar.gz
+[2023-07-10 05:47:29] INFO root fetch - processPackages [alibabacloud-gpdb20160503-py2]: Downloading https://files.pythonhosted.org/packages/d3/78/cc909458713ae544978efcc1098b1ca03967b6383a994cd1eba8cf607f4a/alibabacloud_gpdb20160503_py2-1.1.9.tar.gz
+[2023-07-10 05:47:29] INFO root fetch - processPackages [jdcloud-sdk]: Downloading https://files.pythonhosted.org/packages/95/4f/825f3e2814e962db5d30b644c7fdfc01996a9bbe76c789866aeaf20d1d82/jdcloud_sdk-1.6.98.tar.gz
+[2023-07-10 05:47:29] INFO root fetch - processPackages [alibabacloud-gpdb20160503]: Downloading https://files.pythonhosted.org/packages/d0/0b/0e7d3fec70cebf330430f42b7727dcbdb5b0015db6e1c53623e3b4c5252f/alibabacloud_gpdb20160503-1.1.9.tar.gz
+[2023-07-10 05:47:29] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-07-10 05:47:29] INFO root fetch - processPackages [hypermea]: Downloading https://files.pythonhosted.org/packages/99/7e/cf6e6a1c9f576e7f34df531dda089047c00a693551f273d25607b425b2ac/hypermea-0.9.9-py3-none-any.whl
+[2023-07-10 05:47:29] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/52/5b/22b9f5a98c3db5cd9c110f77b7d9a30fd31021331f22b9c2b6c755ca5017/mercury-sync-0.3.9.tar.gz
+[2023-07-10 05:47:29] INFO root fetch - processPackages [bayes-mapvar]: Downloading https://files.pythonhosted.org/packages/10/69/cd0cb5faf7236a5bca81d7d0c24be3a0a4f4f0057b0a29c5855463e7f814/bayes_mapvar-0.0.2.tar.gz
+[2023-07-10 05:47:29] INFO root fetch - processPackages [bayes-mapvar]: Downloading https://files.pythonhosted.org/packages/10/69/cd0cb5faf7236a5bca81d7d0c24be3a0a4f4f0057b0a29c5855463e7f814/bayes_mapvar-0.0.2.tar.gz
+[2023-07-10 05:47:29] INFO root fetch - processPackages [estival]: Downloading https://files.pythonhosted.org/packages/71/3d/ddc6cb6abb9945330a51964d9e6fd4e784e163ac5319a45aa63bbf6e6f1c/estival-0.3.2.tar.gz
+[2023-07-10 05:47:30] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-07-10 05:47:30] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230710/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-10 05:47:30] INFO root fetch - processPackages [alibabacloud-gpdb20160503-py2]: Downloading https://files.pythonhosted.org/packages/f5/14/4f8d0cbf612d660a80e17d7a33a607680ec65303a3f0aa7563f421eb5414/alibabacloud_gpdb20160503_py2-2.0.0.tar.gz
+[2023-07-10 05:47:30] INFO root fetch - processPackages [alibabacloud-gpdb20160503]: Downloading https://files.pythonhosted.org/packages/a3/99/01ef1d65aa5959675bcf412364ab98950b3e00c49a60457491baa41f74c9/alibabacloud_gpdb20160503-2.0.0.tar.gz
+[2023-07-10 05:47:30] INFO root fetch - processPackages [hypermea]: executing diffoscope
+[2023-07-10 05:47:30] INFO root fetch - processPackages [hypermea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypermea-0.9.7-py3-none-any.whl.zip tmp/hypermea-0.9.9-py3-none-any.whl.zip --markdown 20230710/h/hypermea/0.9.7-0.9.9/diff.md --exclude *.pyd
+[2023-07-10 05:47:30] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/3f/53/34bcbb5f0852d0df69bd24bc29da1f9961d0513923014b6be7d998567f32/rongdavbaaddins-0.1.0.0.tar.gz
+[2023-07-10 05:47:30] INFO root fetch - processPackages [mercury-sync]: executing diffoscope
+[2023-07-10 05:47:30] INFO root fetch - processPackages [mercury-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-sync-0.3.8.tar.gz tmp/mercury-sync-0.3.9.tar.gz --markdown 20230710/m/mercury-sync/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-10 05:47:30] INFO root fetch - processPackages [bayes-mapvar]: executing diffoscope
+[2023-07-10 05:47:30] INFO root fetch - processPackages [bayes-mapvar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bayes_mapvar-0.0.1.tar.gz tmp/bayes_mapvar-0.0.2.tar.gz --markdown 20230710/b/bayes-mapvar/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-10 05:47:30] INFO root fetch - processPackages [bayes-mapvar]: executing diffoscope
+[2023-07-10 05:47:30] INFO root fetch - processPackages [bayes-mapvar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bayes_mapvar-0.0.1.tar.gz tmp/bayes_mapvar-0.0.2.tar.gz --markdown 20230710/b/bayes-mapvar/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-10 05:47:30] INFO root fetch - processPackages [estival]: executing diffoscope
+[2023-07-10 05:47:30] INFO root fetch - processPackages [estival]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/estival-0.3.1.tar.gz tmp/estival-0.3.2.tar.gz --markdown 20230710/e/estival/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-10 05:47:30] INFO root fetch - processPackages [alibabacloud-gpdb20160503-py2]: executing diffoscope
+[2023-07-10 05:47:30] INFO root fetch - processPackages [alibabacloud-gpdb20160503-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_gpdb20160503_py2-1.1.9.tar.gz tmp/alibabacloud_gpdb20160503_py2-2.0.0.tar.gz --markdown 20230710/a/alibabacloud-gpdb20160503-py2/1.1.9-2.0.0/diff.md --exclude *.pyd
+[2023-07-10 05:47:30] INFO root fetch - processPackages [jdcloud-sdk]: Downloading https://files.pythonhosted.org/packages/14/1e/7f5fff16d7e0e2793fdd72a4eb17de3ad540cf935be128a7c69d1ee161c0/jdcloud_sdk-1.6.99.tar.gz
+[2023-07-10 05:47:30] INFO root fetch - processPackages [alibabacloud-gpdb20160503]: executing diffoscope
+[2023-07-10 05:47:30] INFO root fetch - processPackages [alibabacloud-gpdb20160503]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_gpdb20160503-1.1.9.tar.gz tmp/alibabacloud_gpdb20160503-2.0.0.tar.gz --markdown 20230710/a/alibabacloud-gpdb20160503/1.1.9-2.0.0/diff.md --exclude *.pyd
+[2023-07-10 05:47:30] INFO root fetch - processPackages [jdcloud-sdk]: executing diffoscope
+[2023-07-10 05:47:30] INFO root fetch - processPackages [jdcloud-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jdcloud_sdk-1.6.98.tar.gz tmp/jdcloud_sdk-1.6.99.tar.gz --markdown 20230710/j/jdcloud-sdk/1.6.98-1.6.99/diff.md --exclude *.pyd
+[2023-07-10 05:47:31] INFO root fetch - processPackages [rongdavbaaddins]: executing diffoscope
+[2023-07-10 05:47:31] INFO root fetch - processPackages [rongdavbaaddins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rongdavbaaddins-0.0.2.3.tar.gz tmp/rongdavbaaddins-0.1.0.0.tar.gz --markdown 20230710/r/rongdavbaaddins/0.0.2.3-0.1.0.0/diff.md --exclude *.pyd
+[2023-07-10 05:47:31] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.8-py3-none-any.whl.zip]
+[2023-07-10 05:47:31] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.9-py3-none-any.whl.zip]
+[2023-07-10 05:47:31] INFO root fetch - processPackages [sj-tool]: Start processing: edc-dx
+[2023-07-10 05:47:31] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-07-10 05:47:31] INFO root fetch - processPackages [bayes-mapvar]: Remove: archive file [/home/abi/fetcher/tmp/bayes_mapvar-0.0.1.tar.gz]
+[2023-07-10 05:47:31] INFO root fetch - processPackages [bayes-mapvar]: Remove: archive file [/home/abi/fetcher/tmp/bayes_mapvar-0.0.2.tar.gz]
+[2023-07-10 05:47:31] INFO root fetch - processPackages [bayes-mapvar]: Start processing: diz
+[2023-07-10 05:47:31] INFO root fetch - main [MainThread]: End processing [bayes-mapvar]: success
+[2023-07-10 05:47:31] INFO root fetch - processPackages [edc-dx]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 05:47:31] INFO root fetch - processPackages [diz]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-10 05:47:31] INFO root fetch - processPackages [estival]: Remove: archive file [/home/abi/fetcher/tmp/estival-0.3.1.tar.gz]
+[2023-07-10 05:47:31] INFO root fetch - processPackages [estival]: Remove: archive file [/home/abi/fetcher/tmp/estival-0.3.2.tar.gz]
+[2023-07-10 05:47:31] INFO root fetch - main [MainThread]: End processing [estival]: success
+[2023-07-10 05:47:31] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.3.8.tar.gz]
+[2023-07-10 05:47:31] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.3.9.tar.gz]
+[2023-07-10 05:47:31] INFO root fetch - main [MainThread]: End processing [mercury-sync]: success
+[2023-07-10 05:47:31] INFO root fetch - processPackages [diz]: Downloading https://files.pythonhosted.org/packages/b1/d0/4822348813265cb801b22dde7a05c437ef1ee6b39afe98048e7199ae4e43/diz-0.0.2.tar.gz
+[2023-07-10 05:47:31] INFO root fetch - processPackages [alibabacloud-gpdb20160503]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_gpdb20160503-1.1.9.tar.gz]
+[2023-07-10 05:47:31] INFO root fetch - processPackages [alibabacloud-gpdb20160503]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_gpdb20160503-2.0.0.tar.gz]
+[2023-07-10 05:47:31] INFO root fetch - main [MainThread]: End processing [alibabacloud-gpdb20160503]: success
+[2023-07-10 05:47:31] INFO root fetch - processPackages [edc-dx]: Downloading https://files.pythonhosted.org/packages/68/c0/edc698e2d32e05844560fb0783b9a30821ac88a0a52c9585e771c70f08a3/edc-dx-0.1.8.tar.gz
+[2023-07-10 05:47:31] INFO root fetch - main [MainThread]: End processing [bayes-mapvar]: success
+[2023-07-10 05:47:31] INFO root fetch - processPackages [alibabacloud-gpdb20160503-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_gpdb20160503_py2-1.1.9.tar.gz]
+[2023-07-10 05:47:31] INFO root fetch - processPackages [alibabacloud-gpdb20160503-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_gpdb20160503_py2-2.0.0.tar.gz]
+[2023-07-10 05:47:31] INFO root fetch - main [MainThread]: End processing [alibabacloud-gpdb20160503-py2]: success
+[2023-07-10 05:47:32] INFO root fetch - processPackages [diz]: Downloading https://files.pythonhosted.org/packages/a5/ad/464a1fb0811e463bf8d7541df505314e7686be573859de1d7f8e7021ff84/diz-0.0.3.tar.gz
+[2023-07-10 05:47:32] INFO root fetch - processPackages [diz]: executing diffoscope
+[2023-07-10 05:47:32] INFO root fetch - processPackages [diz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diz-0.0.2.tar.gz tmp/diz-0.0.3.tar.gz --markdown 20230710/d/diz/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-10 05:47:32] INFO root fetch - processPackages [hypermea]: Remove: archive file [/home/abi/fetcher/tmp/hypermea-0.9.7-py3-none-any.whl.zip]
+[2023-07-10 05:47:32] INFO root fetch - processPackages [hypermea]: Remove: archive file [/home/abi/fetcher/tmp/hypermea-0.9.9-py3-none-any.whl.zip]
+[2023-07-10 05:47:32] INFO root fetch - main [MainThread]: End processing [hypermea]: success
+[2023-07-10 05:47:32] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.0.2.3.tar.gz]
+[2023-07-10 05:47:32] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.1.0.0.tar.gz]
+[2023-07-10 05:47:32] INFO root fetch - main [MainThread]: End processing [rongdavbaaddins]: success
+[2023-07-10 05:47:32] INFO root fetch - processPackages [edc-dx]: Downloading https://files.pythonhosted.org/packages/a0/87/5a42918cb811af1101d0b9aea1d7e5a950e2e2a4686a60ffa5aa4afba98a/edc-dx-0.1.9.tar.gz
+[2023-07-10 05:47:32] INFO root fetch - processPackages [edc-dx]: executing diffoscope
+[2023-07-10 05:47:32] INFO root fetch - processPackages [edc-dx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-dx-0.1.8.tar.gz tmp/edc-dx-0.1.9.tar.gz --markdown 20230710/e/edc-dx/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 05:47:32] INFO root fetch - processPackages [diz]: Remove: archive file [/home/abi/fetcher/tmp/diz-0.0.2.tar.gz]
+[2023-07-10 05:47:32] INFO root fetch - processPackages [diz]: Remove: archive file [/home/abi/fetcher/tmp/diz-0.0.3.tar.gz]
+[2023-07-10 05:47:32] INFO root fetch - main [MainThread]: End processing [diz]: success
+[2023-07-10 05:47:33] INFO root fetch - processPackages [edc-dx]: Remove: archive file [/home/abi/fetcher/tmp/edc-dx-0.1.8.tar.gz]
+[2023-07-10 05:47:33] INFO root fetch - processPackages [edc-dx]: Remove: archive file [/home/abi/fetcher/tmp/edc-dx-0.1.9.tar.gz]
+[2023-07-10 05:47:33] INFO root fetch - main [MainThread]: End processing [edc-dx]: success
+[2023-07-10 05:48:47] INFO root fetch - processPackages [jdcloud-sdk]: Remove: archive file [/home/abi/fetcher/tmp/jdcloud_sdk-1.6.98.tar.gz]
+[2023-07-10 05:48:47] INFO root fetch - processPackages [jdcloud-sdk]: Remove: archive file [/home/abi/fetcher/tmp/jdcloud_sdk-1.6.99.tar.gz]
+[2023-07-10 05:48:47] INFO root fetch - main [MainThread]: End processing [jdcloud-sdk]: success
+[2023-07-10 05:48:47] INFO root fetch - main [MainThread]: Store serial: [18826152]
