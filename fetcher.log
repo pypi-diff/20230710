@@ -5084,3 +5084,87 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 03:45:31] INFO root fetch - processPackages [ipylivebash]: Remove: archive file [/home/abi/fetcher/tmp/ipylivebash-0.2.0a1.tar.gz]
 [2023-07-10 03:45:31] INFO root fetch - main [MainThread]: End processing [ipylivebash]: success
 [2023-07-10 03:45:31] INFO root fetch - main [MainThread]: Store serial: [18825604]
+[2023-07-10 03:50:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18825604]
+[2023-07-10 03:50:41] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-10 03:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: proactive-jupyter-kernel
+[2023-07-10 03:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yowasp-runtime
+[2023-07-10 03:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-apl
+[2023-07-10 03:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TheSilent
+[2023-07-10 03:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bioregistry
+[2023-07-10 03:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scotthsieh-projen-statemachine
+[2023-07-10 03:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trendalation
+[2023-07-10 03:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pypdfe
+[2023-07-10 03:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aitemplates
+[2023-07-10 03:50:41] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-10 03:50:41] INFO root fetch - processPackages [trendalation]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-07-10 03:50:41] INFO root fetch - processPackages [pypdfe]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 03:50:41] INFO root fetch - processPackages [yowasp-runtime]: New version: [1.7] Old Version: [1.6]
+[2023-07-10 03:50:41] INFO root fetch - processPackages [aitemplates]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 03:50:41] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.885] Old Version: [0.0.884]
+[2023-07-10 03:50:41] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-07-10 03:50:41] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-10 03:50:41] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-10 03:50:41] INFO root fetch - processPackages [bioregistry]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-10 03:50:41] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Downloading https://files.pythonhosted.org/packages/75/2e/d50f8b081603ac850ec9b5d5d5206498a7d302b7a6ea31adbd59cb01a4ae/scotthsieh_projen_statemachine-2.0.98.tar.gz
+[2023-07-10 03:50:41] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/1c/53/cd0d8b3ce0825602862621b6820c1c980aca6049bb386302481babff1628/nbdev-apl-0.0.884.tar.gz
+[2023-07-10 03:50:41] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/4e/f6/973ccd4316a05888c3eb85264c9bad233e8f486e3bd1d3ed06d5c5e3504c/bioregistry-0.9.8.tar.gz
+[2023-07-10 03:50:42] INFO root fetch - processPackages [trendalation]: Downloading https://files.pythonhosted.org/packages/79/b6/961112525449ff725c3872b71e091c0a8ef58011d0356330d37bc90dd56e/trendalation-0.0.1.tar.gz
+[2023-07-10 03:50:42] INFO root fetch - processPackages [aitemplates]: Downloading https://files.pythonhosted.org/packages/c9/1f/c3b35e203e73c6562287311527c36798cf058f4542a1cc2012699e54c8f2/aitemplates-0.1.8.tar.gz
+[2023-07-10 03:50:42] INFO root fetch - processPackages [yowasp-runtime]: Downloading https://files.pythonhosted.org/packages/e7/a1/907e6e8a79a56a85a8042c852e6071070625366072275b2f016b73f070ad/yowasp_runtime-1.6-py3-none-any.whl
+[2023-07-10 03:50:42] INFO root fetch - processPackages [pypdfe]: Downloading https://files.pythonhosted.org/packages/d7/7b/fc7b6a476dedac0cb198574c6cd3284d66d0d58096771544f79bc432f259/pypdfe-0.1.8.tar.gz
+[2023-07-10 03:50:42] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/2f/bc/886004d2f6edca874f61f16aaba9985e6b38f5c62e3a9638165dad1ae89e/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip
+[2023-07-10 03:50:42] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-10 03:50:42] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-10 03:50:42] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230710/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-10 03:50:42] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/66/b4/83bce75386a2696848c13f1985ef24115ea544fc097268f3f7502ddf01aa/nbdev-apl-0.0.885.tar.gz
+[2023-07-10 03:50:42] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Downloading https://files.pythonhosted.org/packages/8d/5b/2a5beec8e0ad27c9cbe9feb5d73fadf98cf28ce1a01ad03f7abb00f14071/scotthsieh_projen_statemachine-2.0.99.tar.gz
+[2023-07-10 03:50:42] INFO root fetch - processPackages [trendalation]: Downloading https://files.pythonhosted.org/packages/86/29/b080cd28e23a229a09335c6996fcb402dd2ac0fcef4933f1daff25ced7a4/trendalation-1.0.0.tar.gz
+[2023-07-10 03:50:42] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-07-10 03:50:42] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.884.tar.gz tmp/nbdev-apl-0.0.885.tar.gz --markdown 20230710/n/nbdev-apl/0.0.884-0.0.885/diff.md --exclude *.pyd
+[2023-07-10 03:50:42] INFO root fetch - processPackages [yowasp-runtime]: Downloading https://files.pythonhosted.org/packages/3f/e9/90cb3e0e2773737c930d8192b0232e03eee71f9ae918620a47be7815f379/yowasp_runtime-1.7-py3-none-any.whl
+[2023-07-10 03:50:42] INFO root fetch - processPackages [trendalation]: executing diffoscope
+[2023-07-10 03:50:42] INFO root fetch - processPackages [trendalation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trendalation-0.0.1.tar.gz tmp/trendalation-1.0.0.tar.gz --markdown 20230710/t/trendalation/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-07-10 03:50:42] INFO root fetch - processPackages [pypdfe]: Downloading https://files.pythonhosted.org/packages/43/f0/f557d7789e790c4ca9eaa4fee3f4110f3bb7961c5c7835e2c206b280ace4/pypdfe-0.1.9.tar.gz
+[2023-07-10 03:50:42] INFO root fetch - processPackages [aitemplates]: Downloading https://files.pythonhosted.org/packages/31/8d/fec27aa91f72352e256e81460077515d340f93b087b2d5f555a95e17896a/aitemplates-0.1.9.tar.gz
+[2023-07-10 03:50:42] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: executing diffoscope
+[2023-07-10 03:50:42] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scotthsieh_projen_statemachine-2.0.98.tar.gz tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz --markdown 20230710/s/scotthsieh-projen-statemachine/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-10 03:50:42] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/b1/93/020f781eacfc72831423f0159f4e4e5afdb02a21db391853b68ce7631de6/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip
+[2023-07-10 03:50:42] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/5b/a2/66d69f3acb3d998356aaa7ccffe5395fb3221c2f99dd12100c6abf1826b4/bioregistry-0.9.9.tar.gz
+[2023-07-10 03:50:42] INFO root fetch - processPackages [yowasp-runtime]: executing diffoscope
+[2023-07-10 03:50:42] INFO root fetch - processPackages [yowasp-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yowasp_runtime-1.6-py3-none-any.whl.zip tmp/yowasp_runtime-1.7-py3-none-any.whl.zip --markdown 20230710/y/yowasp-runtime/1.6-1.7/diff.md --exclude *.pyd
+[2023-07-10 03:50:42] INFO root fetch - processPackages [aitemplates]: executing diffoscope
+[2023-07-10 03:50:42] INFO root fetch - processPackages [aitemplates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aitemplates-0.1.8.tar.gz tmp/aitemplates-0.1.9.tar.gz --markdown 20230710/a/aitemplates/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 03:50:42] INFO root fetch - processPackages [pypdfe]: executing diffoscope
+[2023-07-10 03:50:42] INFO root fetch - processPackages [pypdfe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypdfe-0.1.8.tar.gz tmp/pypdfe-0.1.9.tar.gz --markdown 20230710/p/pypdfe/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 03:50:42] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-07-10 03:50:42] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230710/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-07-10 03:50:43] INFO root fetch - processPackages [bioregistry]: executing diffoscope
+[2023-07-10 03:50:43] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.9.8.tar.gz tmp/bioregistry-0.9.9.tar.gz --markdown 20230710/b/bioregistry/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-10 03:50:43] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-10 03:50:43] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-10 03:50:43] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-10 03:50:43] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.884.tar.gz]
+[2023-07-10 03:50:43] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.885.tar.gz]
+[2023-07-10 03:50:43] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-07-10 03:50:43] INFO root fetch - processPackages [trendalation]: Remove: archive file [/home/abi/fetcher/tmp/trendalation-0.0.1.tar.gz]
+[2023-07-10 03:50:43] INFO root fetch - processPackages [trendalation]: Remove: archive file [/home/abi/fetcher/tmp/trendalation-1.0.0.tar.gz]
+[2023-07-10 03:50:43] INFO root fetch - main [MainThread]: End processing [trendalation]: success
+[2023-07-10 03:50:44] INFO root fetch - processPackages [yowasp-runtime]: Remove: archive file [/home/abi/fetcher/tmp/yowasp_runtime-1.6-py3-none-any.whl.zip]
+[2023-07-10 03:50:44] INFO root fetch - processPackages [yowasp-runtime]: Remove: archive file [/home/abi/fetcher/tmp/yowasp_runtime-1.7-py3-none-any.whl.zip]
+[2023-07-10 03:50:44] INFO root fetch - main [MainThread]: End processing [yowasp-runtime]: success
+[2023-07-10 03:50:44] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Remove: archive file [/home/abi/fetcher/tmp/scotthsieh_projen_statemachine-2.0.98.tar.gz]
+[2023-07-10 03:50:44] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Remove: archive file [/home/abi/fetcher/tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz]
+[2023-07-10 03:50:44] INFO root fetch - main [MainThread]: End processing [scotthsieh-projen-statemachine]: success
+[2023-07-10 03:50:44] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip]
+[2023-07-10 03:50:44] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip]
+[2023-07-10 03:50:44] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-07-10 03:50:44] INFO root fetch - processPackages [aitemplates]: Remove: archive file [/home/abi/fetcher/tmp/aitemplates-0.1.8.tar.gz]
+[2023-07-10 03:50:44] INFO root fetch - processPackages [aitemplates]: Remove: archive file [/home/abi/fetcher/tmp/aitemplates-0.1.9.tar.gz]
+[2023-07-10 03:50:44] INFO root fetch - main [MainThread]: End processing [aitemplates]: success
+[2023-07-10 03:50:44] INFO root fetch - processPackages [pypdfe]: Remove: archive file [/home/abi/fetcher/tmp/pypdfe-0.1.8.tar.gz]
+[2023-07-10 03:50:44] INFO root fetch - processPackages [pypdfe]: Remove: archive file [/home/abi/fetcher/tmp/pypdfe-0.1.9.tar.gz]
+[2023-07-10 03:50:44] INFO root fetch - main [MainThread]: End processing [pypdfe]: success
+[2023-07-10 03:52:41] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.8.tar.gz]
+[2023-07-10 03:52:41] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.9.tar.gz]
+[2023-07-10 03:52:41] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
+[2023-07-10 03:52:41] INFO root fetch - main [MainThread]: Store serial: [18825629]
