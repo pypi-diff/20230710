@@ -16798,3 +16798,50 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 14:13:31] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
 [2023-07-10 14:13:31] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2023-07-10 14:13:31] INFO root fetch - main [MainThread]: Store serial: [18830352]
+[2023-07-10 14:18:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18830352]
+[2023-07-10 14:18:41] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-10 14:18:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oking
+[2023-07-10 14:18:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moto-ext
+[2023-07-10 14:18:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: card91-python-package
+[2023-07-10 14:18:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sixth-python
+[2023-07-10 14:18:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opensesame-plugin-media-player-mpy
+[2023-07-10 14:18:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openvino-model-api
+[2023-07-10 14:18:41] INFO root fetch - processPackages [sixth-python]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-10 14:18:41] WARNING root fetch - processPackages [card91-python-package]: Skipping, unable to determine old version
+[2023-07-10 14:18:41] INFO root fetch - main [MainThread]: End processing [card91-python-package] error
+[2023-07-10 14:18:41] INFO root fetch - processPackages [opensesame-plugin-media-player-mpy]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-10 14:18:41] INFO root fetch - processPackages [moto-ext]: New version: [4.1.9.post1] Old Version: [4.1.8.post1]
+[2023-07-10 14:18:41] INFO root fetch - processPackages [sixth-python]: Downloading https://files.pythonhosted.org/packages/94/bf/08f259c23a7b2480a7a9172e457e642b724a6a6183154f74b1a5e3911675/sixth-python-0.1.2.tar.gz
+[2023-07-10 14:18:41] INFO root fetch - processPackages [oking]: New version: [4.1.188] Old Version: [4.1.187]
+[2023-07-10 14:18:41] INFO root fetch - processPackages [openvino-model-api]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-10 14:18:41] INFO root fetch - processPackages [opensesame-plugin-media-player-mpy]: Downloading https://files.pythonhosted.org/packages/26/12/ec054a26717ae45671732a0253e9f2d367394b4e7f90bfdefcd04b40d6c3/opensesame_plugin_media_player_mpy-0.2.1.tar.gz
+[2023-07-10 14:18:41] INFO root fetch - processPackages [moto-ext]: Downloading https://files.pythonhosted.org/packages/a2/e9/90d0a0ef27fc081d195aa7e083e10db0a80e96eaeb892b1ce2c3b114901b/moto-ext-4.1.8.post1.tar.gz
+[2023-07-10 14:18:41] INFO root fetch - processPackages [oking]: Downloading https://files.pythonhosted.org/packages/4f/5a/d1f4b209a8efa2eb5a32a68f8e1281fb56a4b34dbad743de7b6669c193ed/oking-4.1.187.tar.gz
+[2023-07-10 14:18:41] WARNING root fetch - processPackages [oking]: Skipping package: exceeds size limit 82501430>=10485760
+[2023-07-10 14:18:41] INFO root fetch - main [MainThread]: End processing [oking] error
+[2023-07-10 14:18:41] INFO root fetch - processPackages [openvino-model-api]: Downloading https://files.pythonhosted.org/packages/0b/0c/3de6681c8f64520443fe3a254e3aed66258c5769b1896cb12ff1b002af45/openvino_model_api-0.1.2.tar.gz
+[2023-07-10 14:18:41] INFO root fetch - processPackages [sixth-python]: Downloading https://files.pythonhosted.org/packages/58/83/d4035ad7541485bfe7feb2460d3b0ecb820a45eebe604758299d4e3c77d0/sixth-python-0.1.3.tar.gz
+[2023-07-10 14:18:42] INFO root fetch - processPackages [opensesame-plugin-media-player-mpy]: Downloading https://files.pythonhosted.org/packages/2e/64/a17265b7c19f2ff51209c9a72111126ed9e1d37bf87b2708ddcf98e5dd1e/opensesame_plugin_media_player_mpy-0.2.2.tar.gz
+[2023-07-10 14:18:42] INFO root fetch - processPackages [sixth-python]: executing diffoscope
+[2023-07-10 14:18:42] INFO root fetch - processPackages [sixth-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sixth-python-0.1.2.tar.gz tmp/sixth-python-0.1.3.tar.gz --markdown 20230710/s/sixth-python/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-10 14:18:42] INFO root fetch - processPackages [opensesame-plugin-media-player-mpy]: executing diffoscope
+[2023-07-10 14:18:42] INFO root fetch - processPackages [opensesame-plugin-media-player-mpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensesame_plugin_media_player_mpy-0.2.1.tar.gz tmp/opensesame_plugin_media_player_mpy-0.2.2.tar.gz --markdown 20230710/o/opensesame-plugin-media-player-mpy/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-10 14:18:42] INFO root fetch - processPackages [openvino-model-api]: Downloading https://files.pythonhosted.org/packages/af/3b/634e4c7856f12137ea38f9362d73bfe9ce04111e2d5239122635e10b7c5d/openvino_model_api-0.1.3.tar.gz
+[2023-07-10 14:18:42] INFO root fetch - processPackages [openvino-model-api]: executing diffoscope
+[2023-07-10 14:18:42] INFO root fetch - processPackages [openvino-model-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openvino_model_api-0.1.2.tar.gz tmp/openvino_model_api-0.1.3.tar.gz --markdown 20230710/o/openvino-model-api/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-10 14:18:42] INFO root fetch - processPackages [moto-ext]: Downloading https://files.pythonhosted.org/packages/a1/2c/103d5cb88114dc2ce6ed9a27dfbd66d1d31dca7b4a1fa2496bf3ae5ee96b/moto-ext-4.1.9.post1.tar.gz
+[2023-07-10 14:18:42] INFO root fetch - processPackages [sixth-python]: Remove: archive file [/home/abi/fetcher/tmp/sixth-python-0.1.2.tar.gz]
+[2023-07-10 14:18:42] INFO root fetch - processPackages [sixth-python]: Remove: archive file [/home/abi/fetcher/tmp/sixth-python-0.1.3.tar.gz]
+[2023-07-10 14:18:42] INFO root fetch - main [MainThread]: End processing [sixth-python]: success
+[2023-07-10 14:18:43] INFO root fetch - processPackages [opensesame-plugin-media-player-mpy]: Remove: archive file [/home/abi/fetcher/tmp/opensesame_plugin_media_player_mpy-0.2.1.tar.gz]
+[2023-07-10 14:18:43] INFO root fetch - processPackages [opensesame-plugin-media-player-mpy]: Remove: archive file [/home/abi/fetcher/tmp/opensesame_plugin_media_player_mpy-0.2.2.tar.gz]
+[2023-07-10 14:18:43] INFO root fetch - main [MainThread]: End processing [opensesame-plugin-media-player-mpy]: success
+[2023-07-10 14:18:43] INFO root fetch - processPackages [openvino-model-api]: Remove: archive file [/home/abi/fetcher/tmp/openvino_model_api-0.1.2.tar.gz]
+[2023-07-10 14:18:43] INFO root fetch - processPackages [openvino-model-api]: Remove: archive file [/home/abi/fetcher/tmp/openvino_model_api-0.1.3.tar.gz]
+[2023-07-10 14:18:43] INFO root fetch - main [MainThread]: End processing [openvino-model-api]: success
+[2023-07-10 14:18:43] INFO root fetch - processPackages [moto-ext]: executing diffoscope
+[2023-07-10 14:18:43] INFO root fetch - processPackages [moto-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-ext-4.1.8.post1.tar.gz tmp/moto-ext-4.1.9.post1.tar.gz --markdown 20230710/m/moto-ext/4.1.8.post1-4.1.9.post1/diff.md --exclude *.pyd
+[2023-07-10 14:21:28] INFO root fetch - processPackages [moto-ext]: Remove: archive file [/home/abi/fetcher/tmp/moto-ext-4.1.8.post1.tar.gz]
+[2023-07-10 14:21:28] INFO root fetch - processPackages [moto-ext]: Remove: archive file [/home/abi/fetcher/tmp/moto-ext-4.1.9.post1.tar.gz]
+[2023-07-10 14:21:28] INFO root fetch - main [MainThread]: End processing [moto-ext]: success
+[2023-07-10 14:21:28] INFO root fetch - main [MainThread]: Store serial: [18830375]
