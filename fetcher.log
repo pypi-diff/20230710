@@ -8738,3 +8738,117 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 08:13:15] INFO root fetch - processPackages [SAC-Tello]: Remove: archive file [/home/abi/fetcher/tmp/sac_tello-0.0.9.tar.gz]
 [2023-07-10 08:13:15] INFO root fetch - main [MainThread]: End processing [SAC-Tello]: success
 [2023-07-10 08:13:15] INFO root fetch - main [MainThread]: Store serial: [18827010]
+[2023-07-10 08:18:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18827010]
+[2023-07-10 08:18:23] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-10 08:18:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airflow-data-validation
+[2023-07-10 08:18:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyg-nightly
+[2023-07-10 08:18:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: XPER
+[2023-07-10 08:18:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-nobahpictrue
+[2023-07-10 08:18:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flgo
+[2023-07-10 08:18:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fa-models
+[2023-07-10 08:18:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyroscope-io
+[2023-07-10 08:18:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hds-stats
+[2023-07-10 08:18:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zope.app.zcmlfiles
+[2023-07-10 08:18:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: malawi-news-scraper
+[2023-07-10 08:18:24] INFO root fetch - processPackages [hds-stats]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-10 08:18:24] INFO root fetch - processPackages [zope.app.zcmlfiles]: New version: [5.0] Old Version: [4.1.0]
+[2023-07-10 08:18:24] INFO root fetch - processPackages [pyroscope-io]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-07-10 08:18:24] INFO root fetch - processPackages [airflow-data-validation]: New version: [4.0.6] Old Version: [4.0.5]
+[2023-07-10 08:18:24] INFO root fetch - processPackages [flgo]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-10 08:18:24] INFO root fetch - processPackages [malawi-news-scraper]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-07-10 08:18:24] INFO root fetch - processPackages [XPER]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 08:18:24] INFO root fetch - processPackages [nonebot-plugin-nobahpictrue]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-10 08:18:24] INFO root fetch - processPackages [fa-models]: New version: [1.0.75] Old Version: [1.0.74]
+[2023-07-10 08:18:24] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230709] Old Version: [2.4.0.dev20230708]
+[2023-07-10 08:18:24] INFO root fetch - processPackages [hds-stats]: Downloading https://files.pythonhosted.org/packages/be/80/527c1cce028009e5d90e1d0c6853e7b7b711c8a474682fdf8012acfef48c/hds-stats-0.3.0.tar.gz
+[2023-07-10 08:18:24] INFO root fetch - processPackages [XPER]: Downloading https://files.pythonhosted.org/packages/ae/2d/41457ff7ff4e5347b5ad44d430579e6720ff29b66a7d06d7754ec79fb011/XPER-0.0.8.tar.gz
+[2023-07-10 08:18:24] INFO root fetch - processPackages [airflow-data-validation]: Downloading https://files.pythonhosted.org/packages/45/c2/f8b2e05b37bb3599fc2a86094718c329c4e0b18626fe54e11031507eb004/airflow-data-validation-4.0.5.tar.gz
+[2023-07-10 08:18:24] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/f2/3f/5ddbd5d189149448beebf6a8380e926293c3eede47352956fe0a50faaea8/pyg_nightly-2.4.0.dev20230708.tar.gz
+[2023-07-10 08:18:24] INFO root fetch - processPackages [zope.app.zcmlfiles]: Downloading https://files.pythonhosted.org/packages/06/1e/1d92876d16722d661bb980b6bc5c53c3bc8fb19abd64da07868f6c785c15/zope.app.zcmlfiles-4.1.0.tar.gz
+[2023-07-10 08:18:24] INFO root fetch - processPackages [malawi-news-scraper]: Downloading https://files.pythonhosted.org/packages/06/6a/964d4471b40d906bec956988562b76621da544ed9151decdd3b884da15ec/malawi-news-scraper-1.1.1.tar.gz
+[2023-07-10 08:18:24] INFO root fetch - processPackages [pyroscope-io]: Downloading https://files.pythonhosted.org/packages/c1/89/22464d554ccb686a8c37ce215c0c10079bb3345a92caad3d155c67fb6ec8/pyroscope-io-0.8.4.tar.gz
+[2023-07-10 08:18:24] INFO root fetch - processPackages [nonebot-plugin-nobahpictrue]: Downloading https://files.pythonhosted.org/packages/06/90/90b50a55fb3eea4df2fc4b7ad39f9e3aa417ea8aef3e69b976ce7023b26b/nonebot-plugin-nobahpictrue-1.0.5.tar.gz
+[2023-07-10 08:18:24] INFO root fetch - processPackages [flgo]: Downloading https://files.pythonhosted.org/packages/d6/a1/2b6e7d316887a6a23703adbf92614de421a5d66bb58c35ad86d731be0bc5/flgo-0.0.3.tar.gz
+[2023-07-10 08:18:24] INFO root fetch - processPackages [fa-models]: Downloading https://files.pythonhosted.org/packages/dd/55/7cd4f9e353684ae65c6fae2d1625a80112b15830c60e230c54e29c87a9f0/fa-models-1.0.74.tar.gz
+[2023-07-10 08:18:24] INFO root fetch - processPackages [hds-stats]: Downloading https://files.pythonhosted.org/packages/9c/e5/33be7d65b3a612bf884888a05aa9a5f1b4f3850d6aa37f146579109d479d/hds-stats-0.3.1.tar.gz
+[2023-07-10 08:18:24] INFO root fetch - processPackages [airflow-data-validation]: Downloading https://files.pythonhosted.org/packages/3d/a6/743af581ec840cbf8ceaf1b07ce6c7e4f384828feebfea07b6a2d93a83bd/airflow-data-validation-4.0.6.tar.gz
+[2023-07-10 08:18:24] INFO root fetch - processPackages [XPER]: Downloading https://files.pythonhosted.org/packages/b3/4a/3e0a3cec66405593c7f44c1d2128bcd47efbd87eba31462db86569c8da19/XPER-0.0.9.tar.gz
+[2023-07-10 08:18:25] INFO root fetch - processPackages [malawi-news-scraper]: Downloading https://files.pythonhosted.org/packages/a8/13/1757d47599ed5706ceaeaf93dbf0add24dd5f9c1c25f8e820f1251fead88/malawi-news-scraper-1.2.0.tar.gz
+[2023-07-10 08:18:25] INFO root fetch - processPackages [fa-models]: Downloading https://files.pythonhosted.org/packages/1d/91/c28b7e99d0daeb380267a8641ce9c25d45352bad04a4c6d894b562675ec9/fa-models-1.0.75.tar.gz
+[2023-07-10 08:18:25] INFO root fetch - processPackages [hds-stats]: executing diffoscope
+[2023-07-10 08:18:25] INFO root fetch - processPackages [hds-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hds-stats-0.3.0.tar.gz tmp/hds-stats-0.3.1.tar.gz --markdown 20230710/h/hds-stats/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-10 08:18:25] INFO root fetch - processPackages [zope.app.zcmlfiles]: Downloading https://files.pythonhosted.org/packages/6e/8d/dfdcd4cfed129bff81e2d1dbe5efce28c031412c69a0d04d82ac9360337b/zope.app.zcmlfiles-5.0.tar.gz
+[2023-07-10 08:18:25] INFO root fetch - processPackages [nonebot-plugin-nobahpictrue]: Downloading https://files.pythonhosted.org/packages/5b/09/6aac39508d9ccec5300cd00b921f3d67d9a4051f18e0a55bf2e44f1332cf/nonebot-plugin-nobahpictrue-1.0.6.tar.gz
+[2023-07-10 08:18:25] INFO root fetch - processPackages [airflow-data-validation]: executing diffoscope
+[2023-07-10 08:18:25] INFO root fetch - processPackages [airflow-data-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow-data-validation-4.0.5.tar.gz tmp/airflow-data-validation-4.0.6.tar.gz --markdown 20230710/a/airflow-data-validation/4.0.5-4.0.6/diff.md --exclude *.pyd
+[2023-07-10 08:18:25] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/d7/c4/720d72ea8379b54efe5a30beb8ed31c53caf3dc9511a38cfa7e2e348727d/pyg_nightly-2.4.0.dev20230709.tar.gz
+[2023-07-10 08:18:25] INFO root fetch - processPackages [pyroscope-io]: Downloading https://files.pythonhosted.org/packages/89/c2/374bc9e8edfddb00c6da5374159a85d6ca99d31739023586f9c23c800363/pyroscope-io-0.8.5.tar.gz
+[2023-07-10 08:18:25] INFO root fetch - processPackages [malawi-news-scraper]: executing diffoscope
+[2023-07-10 08:18:25] INFO root fetch - processPackages [malawi-news-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/malawi-news-scraper-1.1.1.tar.gz tmp/malawi-news-scraper-1.2.0.tar.gz --markdown 20230710/m/malawi-news-scraper/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-07-10 08:18:25] INFO root fetch - processPackages [XPER]: executing diffoscope
+[2023-07-10 08:18:25] INFO root fetch - processPackages [XPER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XPER-0.0.8.tar.gz tmp/XPER-0.0.9.tar.gz --markdown 20230710/X/XPER/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 08:18:25] INFO root fetch - processPackages [fa-models]: executing diffoscope
+[2023-07-10 08:18:25] INFO root fetch - processPackages [fa-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fa-models-1.0.74.tar.gz tmp/fa-models-1.0.75.tar.gz --markdown 20230710/f/fa-models/1.0.74-1.0.75/diff.md --exclude *.pyd
+[2023-07-10 08:18:25] INFO root fetch - processPackages [nonebot-plugin-nobahpictrue]: executing diffoscope
+[2023-07-10 08:18:25] INFO root fetch - processPackages [nonebot-plugin-nobahpictrue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-nobahpictrue-1.0.5.tar.gz tmp/nonebot-plugin-nobahpictrue-1.0.6.tar.gz --markdown 20230710/n/nonebot-plugin-nobahpictrue/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-10 08:18:25] INFO root fetch - processPackages [zope.app.zcmlfiles]: executing diffoscope
+[2023-07-10 08:18:25] INFO root fetch - processPackages [zope.app.zcmlfiles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zope.app.zcmlfiles-4.1.0.tar.gz tmp/zope.app.zcmlfiles-5.0.tar.gz --markdown 20230710/z/zope.app.zcmlfiles/4.1.0-5.0/diff.md --exclude *.pyd
+[2023-07-10 08:18:25] INFO root fetch - processPackages [flgo]: Downloading https://files.pythonhosted.org/packages/e6/ee/3bf09e02d963e1fe9cbbec878c615000f37e0b0cd663682a067ce316f4bb/flgo-0.0.4.tar.gz
+[2023-07-10 08:18:25] INFO root fetch - processPackages [pyroscope-io]: executing diffoscope
+[2023-07-10 08:18:25] INFO root fetch - processPackages [pyroscope-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyroscope-io-0.8.4.tar.gz tmp/pyroscope-io-0.8.5.tar.gz --markdown 20230710/p/pyroscope-io/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-07-10 08:18:25] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-07-10 08:18:25] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230708.tar.gz tmp/pyg_nightly-2.4.0.dev20230709.tar.gz --markdown 20230710/p/pyg-nightly/2.4.0.dev20230708-2.4.0.dev20230709/diff.md --exclude *.pyd
+[2023-07-10 08:18:25] INFO root fetch - processPackages [flgo]: executing diffoscope
+[2023-07-10 08:18:25] INFO root fetch - processPackages [flgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flgo-0.0.3.tar.gz tmp/flgo-0.0.4.tar.gz --markdown 20230710/f/flgo/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-10 08:18:26] INFO root fetch - processPackages [airflow-data-validation]: Remove: archive file [/home/abi/fetcher/tmp/airflow-data-validation-4.0.5.tar.gz]
+[2023-07-10 08:18:26] INFO root fetch - processPackages [airflow-data-validation]: Remove: archive file [/home/abi/fetcher/tmp/airflow-data-validation-4.0.6.tar.gz]
+[2023-07-10 08:18:26] INFO root fetch - processPackages [airflow-data-validation]: Start processing: pretext
+[2023-07-10 08:18:26] INFO root fetch - main [MainThread]: End processing [airflow-data-validation]: success
+[2023-07-10 08:18:26] INFO root fetch - processPackages [pretext]: New version: [1.6.1.dev20230710] Old Version: [1.6.1.dev20230709]
+[2023-07-10 08:18:26] INFO root fetch - processPackages [hds-stats]: Remove: archive file [/home/abi/fetcher/tmp/hds-stats-0.3.0.tar.gz]
+[2023-07-10 08:18:26] INFO root fetch - processPackages [hds-stats]: Remove: archive file [/home/abi/fetcher/tmp/hds-stats-0.3.1.tar.gz]
+[2023-07-10 08:18:26] INFO root fetch - processPackages [hds-stats]: Start processing: pyno-logger
+[2023-07-10 08:18:26] INFO root fetch - main [MainThread]: End processing [hds-stats]: success
+[2023-07-10 08:18:26] INFO root fetch - processPackages [malawi-news-scraper]: Remove: archive file [/home/abi/fetcher/tmp/malawi-news-scraper-1.1.1.tar.gz]
+[2023-07-10 08:18:26] INFO root fetch - processPackages [malawi-news-scraper]: Remove: archive file [/home/abi/fetcher/tmp/malawi-news-scraper-1.2.0.tar.gz]
+[2023-07-10 08:18:26] INFO root fetch - processPackages [malawi-news-scraper]: Start processing: task-multiprocess
+[2023-07-10 08:18:26] INFO root fetch - main [MainThread]: End processing [malawi-news-scraper]: success
+[2023-07-10 08:18:26] INFO root fetch - processPackages [pyno-logger]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 08:18:27] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/28/58/ad740119396f7b66114ca8b1ac0c951047fb1e3b6b72d244f099f83e17ca/pretext-1.6.1.dev20230709.tar.gz
+[2023-07-10 08:18:27] WARNING root fetch - processPackages [task-multiprocess]: Skipping, unable to determine old version
+[2023-07-10 08:18:27] INFO root fetch - main [MainThread]: End processing [task-multiprocess] error
+[2023-07-10 08:18:27] INFO root fetch - processPackages [zope.app.zcmlfiles]: Remove: archive file [/home/abi/fetcher/tmp/zope.app.zcmlfiles-4.1.0.tar.gz]
+[2023-07-10 08:18:27] INFO root fetch - processPackages [zope.app.zcmlfiles]: Remove: archive file [/home/abi/fetcher/tmp/zope.app.zcmlfiles-5.0.tar.gz]
+[2023-07-10 08:18:27] INFO root fetch - main [MainThread]: End processing [zope.app.zcmlfiles]: success
+[2023-07-10 08:18:27] INFO root fetch - processPackages [nonebot-plugin-nobahpictrue]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-nobahpictrue-1.0.5.tar.gz]
+[2023-07-10 08:18:27] INFO root fetch - processPackages [nonebot-plugin-nobahpictrue]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-nobahpictrue-1.0.6.tar.gz]
+[2023-07-10 08:18:27] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-nobahpictrue]: success
+[2023-07-10 08:18:27] INFO root fetch - processPackages [pyno-logger]: Downloading https://files.pythonhosted.org/packages/7e/65/0b15131b1181e79997429b0d3b9e2292c7bd0e1d90759f15f9d357ab0e64/pyno_logger-0.0.8.tar.gz
+[2023-07-10 08:18:27] INFO root fetch - processPackages [fa-models]: Remove: archive file [/home/abi/fetcher/tmp/fa-models-1.0.74.tar.gz]
+[2023-07-10 08:18:27] INFO root fetch - processPackages [fa-models]: Remove: archive file [/home/abi/fetcher/tmp/fa-models-1.0.75.tar.gz]
+[2023-07-10 08:18:27] INFO root fetch - main [MainThread]: End processing [fa-models]: success
+[2023-07-10 08:18:27] INFO root fetch - processPackages [pyroscope-io]: Remove: archive file [/home/abi/fetcher/tmp/pyroscope-io-0.8.4.tar.gz]
+[2023-07-10 08:18:27] INFO root fetch - processPackages [pyroscope-io]: Remove: archive file [/home/abi/fetcher/tmp/pyroscope-io-0.8.5.tar.gz]
+[2023-07-10 08:18:27] INFO root fetch - main [MainThread]: End processing [pyroscope-io]: success
+[2023-07-10 08:18:27] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/f0/2d/0e8ea337ebd7a5bcfa97fc4803bdc4f94bde168261d41541610c2a42f634/pretext-1.6.1.dev20230710.tar.gz
+[2023-07-10 08:18:27] INFO root fetch - processPackages [pyno-logger]: Downloading https://files.pythonhosted.org/packages/64/96/8ae263b9da859afd65590b7781786cc397816f55be6fe118d2e1f1f4b79e/pyno_logger-0.0.9.tar.gz
+[2023-07-10 08:18:27] INFO root fetch - processPackages [pyno-logger]: executing diffoscope
+[2023-07-10 08:18:27] INFO root fetch - processPackages [pyno-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyno_logger-0.0.8.tar.gz tmp/pyno_logger-0.0.9.tar.gz --markdown 20230710/p/pyno-logger/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 08:18:27] INFO root fetch - processPackages [flgo]: Remove: archive file [/home/abi/fetcher/tmp/flgo-0.0.3.tar.gz]
+[2023-07-10 08:18:27] INFO root fetch - processPackages [flgo]: Remove: archive file [/home/abi/fetcher/tmp/flgo-0.0.4.tar.gz]
+[2023-07-10 08:18:27] INFO root fetch - main [MainThread]: End processing [flgo]: success
+[2023-07-10 08:18:27] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-07-10 08:18:27] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.6.1.dev20230709.tar.gz tmp/pretext-1.6.1.dev20230710.tar.gz --markdown 20230710/p/pretext/1.6.1.dev20230709-1.6.1.dev20230710/diff.md --exclude *.pyd
+[2023-07-10 08:18:28] INFO root fetch - processPackages [XPER]: Remove: archive file [/home/abi/fetcher/tmp/XPER-0.0.8.tar.gz]
+[2023-07-10 08:18:28] INFO root fetch - processPackages [XPER]: Remove: archive file [/home/abi/fetcher/tmp/XPER-0.0.9.tar.gz]
+[2023-07-10 08:18:28] INFO root fetch - main [MainThread]: End processing [XPER]: success
+[2023-07-10 08:18:28] INFO root fetch - processPackages [pyno-logger]: Remove: archive file [/home/abi/fetcher/tmp/pyno_logger-0.0.8.tar.gz]
+[2023-07-10 08:18:28] INFO root fetch - processPackages [pyno-logger]: Remove: archive file [/home/abi/fetcher/tmp/pyno_logger-0.0.9.tar.gz]
+[2023-07-10 08:18:28] INFO root fetch - main [MainThread]: End processing [pyno-logger]: success
+[2023-07-10 08:18:29] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230708.tar.gz]
+[2023-07-10 08:18:29] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230709.tar.gz]
+[2023-07-10 08:18:29] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-07-10 08:18:30] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230709.tar.gz]
+[2023-07-10 08:18:30] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230710.tar.gz]
+[2023-07-10 08:18:30] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-07-10 08:18:30] INFO root fetch - main [MainThread]: Store serial: [18827057]
