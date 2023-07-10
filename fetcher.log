@@ -8516,3 +8516,72 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 07:52:14] INFO root fetch - processPackages [overhave]: Remove: archive file [/home/abi/fetcher/tmp/overhave-4.1.0.tar.gz]
 [2023-07-10 07:52:14] INFO root fetch - main [MainThread]: End processing [overhave]: success
 [2023-07-10 07:52:14] INFO root fetch - main [MainThread]: Store serial: [18826927]
+[2023-07-10 07:57:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18826927]
+[2023-07-10 07:57:23] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-10 07:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uidom
+[2023-07-10 07:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inhandtest
+[2023-07-10 07:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Nuitka-winsvc
+[2023-07-10 07:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-mail-tracking
+[2023-07-10 07:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: open-gpt-torch
+[2023-07-10 07:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyezviz
+[2023-07-10 07:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: drf-json-api-atomic-operations
+[2023-07-10 07:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: SgtisnepiPy
+[2023-07-10 07:57:23] INFO root fetch - processPackages [drf-json-api-atomic-operations]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-10 07:57:23] INFO root fetch - processPackages [Nuitka-winsvc]: New version: [1.7.3] Old Version: [1.6.6]
+[2023-07-10 07:57:23] INFO root fetch - processPackages [odoo-addon-mail-tracking]: New version: [15.0.3.0.1] Old Version: [15.0.3.0.0]
+[2023-07-10 07:57:23] INFO root fetch - processPackages [pyezviz]: New version: [0.2.2.2] Old Version: [0.2.2.1]
+[2023-07-10 07:57:23] INFO root fetch - processPackages [inhandtest]: New version: [0.0.60] Old Version: [0.0.59]
+[2023-07-10 07:57:23] INFO root fetch - processPackages [open-gpt-torch]: New version: [0.0.8] Old Version: [0.0.7.dev3]
+[2023-07-10 07:57:23] INFO root fetch - processPackages [uidom]: New version: [0.3a3] Old Version: [0.3a2]
+[2023-07-10 07:57:23] WARNING root fetch - processPackages [SgtisnepiPy]: Skipping, unable to determine old version
+[2023-07-10 07:57:23] INFO root fetch - main [MainThread]: End processing [SgtisnepiPy] error
+[2023-07-10 07:57:23] INFO root fetch - processPackages [drf-json-api-atomic-operations]: Downloading https://files.pythonhosted.org/packages/f7/09/fd701a7d60971a3a1b7e18855102cbe9b95b5e0b01b54c0bc7744b94361b/drf-json-api-atomic-operations-0.2.0.tar.gz
+[2023-07-10 07:57:23] INFO root fetch - processPackages [Nuitka-winsvc]: Downloading https://files.pythonhosted.org/packages/30/41/1f5fb2e6f71d008540b1da7002df51bcf7d86d0b5c176d3ad3b5264c172b/Nuitka-winsvc-1.6.6.tar.gz
+[2023-07-10 07:57:23] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Downloading https://files.pythonhosted.org/packages/f9/5f/36344389ddf6c97ce3c35507567bfb52ce407b29020050e35e8e1e0366f0/odoo_addon_mail_tracking-15.0.3.0.0-py3-none-any.whl
+[2023-07-10 07:57:23] INFO root fetch - processPackages [pyezviz]: Downloading https://files.pythonhosted.org/packages/87/d0/2e4a8bdbf097b64dd1daaa0a59a4a90f7652173dd5da17c1c4aec43bd936/pyezviz-0.2.2.1.tar.gz
+[2023-07-10 07:57:24] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/9e/c3/f261c299c111c035046ed38419f44a28a7fbeb492267d7b28aa7a9b13298/inhandtest-0.0.59.tar.gz
+[2023-07-10 07:57:24] INFO root fetch - processPackages [open-gpt-torch]: Downloading https://files.pythonhosted.org/packages/a0/9d/fad147a311793c2fd3734c96cb300a980cab68e9bb4ee1f18f29d02047d9/open_gpt_torch-0.0.7.dev3.tar.gz
+[2023-07-10 07:57:24] INFO root fetch - processPackages [uidom]: Downloading https://files.pythonhosted.org/packages/ff/f9/5f223303e30e4ff832f522687397e7a5888d35907dfd237f38459534bc8b/uidom-0.3a2.tar.gz
+[2023-07-10 07:57:24] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/b5/0c/d6675b52e817285215d032e35fe7c50d1971da17019d23f91b45351e225e/inhandtest-0.0.60.tar.gz
+[2023-07-10 07:57:24] INFO root fetch - processPackages [pyezviz]: Downloading https://files.pythonhosted.org/packages/95/2c/5118b9dae2e940cc82f7b3de7c3916611ffcbcb57e8af6ebfc90f088955f/pyezviz-0.2.2.2.tar.gz
+[2023-07-10 07:57:24] INFO root fetch - processPackages [uidom]: Downloading https://files.pythonhosted.org/packages/cb/0d/231b0675a92a5c455d2f58f4e3f76e7f877c42100cf8b127e142e22fc4dd/uidom-0.3a3.tar.gz
+[2023-07-10 07:57:24] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Downloading https://files.pythonhosted.org/packages/29/d8/36ec64f31bbea15975f51a172f04d1c1f3413348c1bd093c142e46880189/odoo_addon_mail_tracking-15.0.3.0.1-py3-none-any.whl
+[2023-07-10 07:57:24] INFO root fetch - processPackages [open-gpt-torch]: Downloading https://files.pythonhosted.org/packages/90/04/0d02f3b5f05a5e00f2b8adc354fe4a631bb0deb7a248147df7d37f8c36e9/open_gpt_torch-0.0.8.tar.gz
+[2023-07-10 07:57:24] INFO root fetch - processPackages [pyezviz]: executing diffoscope
+[2023-07-10 07:57:24] INFO root fetch - processPackages [pyezviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyezviz-0.2.2.1.tar.gz tmp/pyezviz-0.2.2.2.tar.gz --markdown 20230710/p/pyezviz/0.2.2.1-0.2.2.2/diff.md --exclude *.pyd
+[2023-07-10 07:57:24] INFO root fetch - processPackages [inhandtest]: executing diffoscope
+[2023-07-10 07:57:24] INFO root fetch - processPackages [inhandtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inhandtest-0.0.59.tar.gz tmp/inhandtest-0.0.60.tar.gz --markdown 20230710/i/inhandtest/0.0.59-0.0.60/diff.md --exclude *.pyd
+[2023-07-10 07:57:24] INFO root fetch - processPackages [drf-json-api-atomic-operations]: Downloading https://files.pythonhosted.org/packages/9f/4e/450182af19539ffa0d3e28b0c7615bf453834547dc2ac45516fd93baabe6/drf-json-api-atomic-operations-0.3.0.tar.gz
+[2023-07-10 07:57:24] INFO root fetch - processPackages [open-gpt-torch]: executing diffoscope
+[2023-07-10 07:57:24] INFO root fetch - processPackages [open-gpt-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_gpt_torch-0.0.7.dev3.tar.gz tmp/open_gpt_torch-0.0.8.tar.gz --markdown 20230710/o/open-gpt-torch/0.0.7.dev3-0.0.8/diff.md --exclude *.pyd
+[2023-07-10 07:57:24] INFO root fetch - processPackages [odoo-addon-mail-tracking]: executing diffoscope
+[2023-07-10 07:57:24] INFO root fetch - processPackages [odoo-addon-mail-tracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_tracking-15.0.3.0.0-py3-none-any.whl.zip tmp/odoo_addon_mail_tracking-15.0.3.0.1-py3-none-any.whl.zip --markdown 20230710/o/odoo-addon-mail-tracking/15.0.3.0.0-15.0.3.0.1/diff.md --exclude *.pyd
+[2023-07-10 07:57:24] INFO root fetch - processPackages [uidom]: executing diffoscope
+[2023-07-10 07:57:24] INFO root fetch - processPackages [uidom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uidom-0.3a2.tar.gz tmp/uidom-0.3a3.tar.gz --markdown 20230710/u/uidom/0.3a2-0.3a3/diff.md --exclude *.pyd
+[2023-07-10 07:57:24] INFO root fetch - processPackages [Nuitka-winsvc]: Downloading https://files.pythonhosted.org/packages/6d/cd/2ee03a74d6d46c12700141147eb3973f827ea655eeb846bf66c9f91fedc3/Nuitka-winsvc-1.7.3.tar.gz
+[2023-07-10 07:57:24] INFO root fetch - processPackages [drf-json-api-atomic-operations]: executing diffoscope
+[2023-07-10 07:57:24] INFO root fetch - processPackages [drf-json-api-atomic-operations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-json-api-atomic-operations-0.2.0.tar.gz tmp/drf-json-api-atomic-operations-0.3.0.tar.gz --markdown 20230710/d/drf-json-api-atomic-operations/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-10 07:57:24] INFO root fetch - processPackages [Nuitka-winsvc]: executing diffoscope
+[2023-07-10 07:57:24] INFO root fetch - processPackages [Nuitka-winsvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Nuitka-winsvc-1.6.6.tar.gz tmp/Nuitka-winsvc-1.7.3.tar.gz --markdown 20230710/N/Nuitka-winsvc/1.6.6-1.7.3/diff.md --exclude *.pyd
+[2023-07-10 07:57:25] INFO root fetch - processPackages [pyezviz]: Remove: archive file [/home/abi/fetcher/tmp/pyezviz-0.2.2.1.tar.gz]
+[2023-07-10 07:57:25] INFO root fetch - processPackages [pyezviz]: Remove: archive file [/home/abi/fetcher/tmp/pyezviz-0.2.2.2.tar.gz]
+[2023-07-10 07:57:25] INFO root fetch - main [MainThread]: End processing [pyezviz]: success
+[2023-07-10 07:57:25] INFO root fetch - processPackages [drf-json-api-atomic-operations]: Remove: archive file [/home/abi/fetcher/tmp/drf-json-api-atomic-operations-0.2.0.tar.gz]
+[2023-07-10 07:57:25] INFO root fetch - processPackages [drf-json-api-atomic-operations]: Remove: archive file [/home/abi/fetcher/tmp/drf-json-api-atomic-operations-0.3.0.tar.gz]
+[2023-07-10 07:57:25] INFO root fetch - main [MainThread]: End processing [drf-json-api-atomic-operations]: success
+[2023-07-10 07:57:26] INFO root fetch - processPackages [open-gpt-torch]: Remove: archive file [/home/abi/fetcher/tmp/open_gpt_torch-0.0.7.dev3.tar.gz]
+[2023-07-10 07:57:26] INFO root fetch - processPackages [open-gpt-torch]: Remove: archive file [/home/abi/fetcher/tmp/open_gpt_torch-0.0.8.tar.gz]
+[2023-07-10 07:57:26] INFO root fetch - main [MainThread]: End processing [open-gpt-torch]: success
+[2023-07-10 07:57:26] INFO root fetch - processPackages [uidom]: Remove: archive file [/home/abi/fetcher/tmp/uidom-0.3a2.tar.gz]
+[2023-07-10 07:57:26] INFO root fetch - processPackages [uidom]: Remove: archive file [/home/abi/fetcher/tmp/uidom-0.3a3.tar.gz]
+[2023-07-10 07:57:26] INFO root fetch - main [MainThread]: End processing [uidom]: success
+[2023-07-10 07:57:26] INFO root fetch - processPackages [inhandtest]: Remove: archive file [/home/abi/fetcher/tmp/inhandtest-0.0.59.tar.gz]
+[2023-07-10 07:57:26] INFO root fetch - processPackages [inhandtest]: Remove: archive file [/home/abi/fetcher/tmp/inhandtest-0.0.60.tar.gz]
+[2023-07-10 07:57:26] INFO root fetch - main [MainThread]: End processing [inhandtest]: success
+[2023-07-10 07:57:26] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_tracking-15.0.3.0.0-py3-none-any.whl.zip]
+[2023-07-10 07:57:26] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_tracking-15.0.3.0.1-py3-none-any.whl.zip]
+[2023-07-10 07:57:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-tracking]: success
+[2023-07-10 07:57:38] INFO root fetch - processPackages [Nuitka-winsvc]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-winsvc-1.6.6.tar.gz]
+[2023-07-10 07:57:38] INFO root fetch - processPackages [Nuitka-winsvc]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-winsvc-1.7.3.tar.gz]
+[2023-07-10 07:57:38] INFO root fetch - main [MainThread]: End processing [Nuitka-winsvc]: success
+[2023-07-10 07:57:38] INFO root fetch - main [MainThread]: Store serial: [18826950]
