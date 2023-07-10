@@ -4833,3 +4833,87 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 03:24:32] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz]
 [2023-07-10 03:24:32] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
 [2023-07-10 03:24:32] INFO root fetch - main [MainThread]: Store serial: [18825520]
+[2023-07-10 03:29:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18825520]
+[2023-07-10 03:29:41] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-10 03:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-hugo-deploy
+[2023-07-10 03:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aihandler
+[2023-07-10 03:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-sops-secrets
+[2023-07-10 03:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: braintrust
+[2023-07-10 03:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TheSilent
+[2023-07-10 03:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: airunner
+[2023-07-10 03:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: heimdallm
+[2023-07-10 03:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pandera
+[2023-07-10 03:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ai2-kit
+[2023-07-10 03:29:41] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-10 03:29:41] INFO root fetch - processPackages [ai2-kit]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-10 03:29:41] INFO root fetch - processPackages [heimdallm]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-07-10 03:29:41] INFO root fetch - processPackages [pandera]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-10 03:29:41] INFO root fetch - processPackages [braintrust]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 03:29:41] INFO root fetch - processPackages [airunner]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-10 03:29:41] INFO root fetch - processPackages [aihandler]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-10 03:29:41] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-10 03:29:41] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-07-10 03:29:41] INFO root fetch - processPackages [heimdallm]: Downloading https://files.pythonhosted.org/packages/fc/77/f560967e9df81a015e219372131677ba6d979ccd92538b13f64de4480817/heimdallm-0.1.5.tar.gz
+[2023-07-10 03:29:41] INFO root fetch - processPackages [pandera]: Downloading https://files.pythonhosted.org/packages/b0/0e/d435a4c20c8ca9269ca2ccf44f3bb98ee85b9fc9fbfda8f1952cfc2b9c43/pandera-0.8.1.tar.gz
+[2023-07-10 03:29:41] INFO root fetch - processPackages [braintrust]: Downloading https://files.pythonhosted.org/packages/ea/49/6dafb427c97ea65cb6b2e479c00756df3abbea160d67859f033ac7667a61/braintrust-0.0.8.tar.gz
+[2023-07-10 03:29:41] INFO root fetch - processPackages [aihandler]: Downloading https://files.pythonhosted.org/packages/5f/59/0f3fec3d9c2165b2534eebc579ad40951d28dd76a141ee0517afca3f1a84/aihandler-1.9.8.tar.gz
+[2023-07-10 03:29:41] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/33/a0/02c1c61c08488072b10045f13351cac91a6dc5b3b289a3a38fb162ac9cfa/cdk-hugo-deploy-0.0.98.tar.gz
+[2023-07-10 03:29:41] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-07-10 03:29:41] INFO root fetch - processPackages [airunner]: Downloading https://files.pythonhosted.org/packages/f5/9b/d7db0f7bddf0850d1e74de0789a9e9f51d0257e96045f98c255493a91bcd/airunner-2.0.1.tar.gz
+[2023-07-10 03:29:41] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-10 03:29:41] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/eb/f4/ea38d8c9f78873edcbb17216f185baee2019ecb183cd80b334c593f2b1bc/ai2_kit-0.3.8.tar.gz
+[2023-07-10 03:29:41] INFO root fetch - processPackages [braintrust]: Downloading https://files.pythonhosted.org/packages/4e/3a/faf597cceac630ee3924d2d8dcf603fc90baec28bb6313aefcb9ee399668/braintrust-0.0.9.tar.gz
+[2023-07-10 03:29:42] INFO root fetch - processPackages [aihandler]: Downloading https://files.pythonhosted.org/packages/b3/c7/544c990d7d396289c416e3676f2fdf02804edee7d23e678081cc4c761c29/aihandler-1.9.9.tar.gz
+[2023-07-10 03:29:42] INFO root fetch - processPackages [heimdallm]: Downloading https://files.pythonhosted.org/packages/1c/e4/74b3409f6eca066da3d754156763a5df9fcac8b5fbd734c538c402bc3762/heimdallm-0.2.0.tar.gz
+[2023-07-10 03:29:42] INFO root fetch - processPackages [braintrust]: executing diffoscope
+[2023-07-10 03:29:42] INFO root fetch - processPackages [braintrust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/braintrust-0.0.8.tar.gz tmp/braintrust-0.0.9.tar.gz --markdown 20230710/b/braintrust/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 03:29:42] INFO root fetch - processPackages [airunner]: Downloading https://files.pythonhosted.org/packages/d1/ff/a7d5596f5e6355187e1d6d68d90a54ce1cf1998d27262d8f95ff921320f0/airunner-2.0.2.tar.gz
+[2023-07-10 03:29:42] INFO root fetch - processPackages [aihandler]: executing diffoscope
+[2023-07-10 03:29:42] INFO root fetch - processPackages [aihandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aihandler-1.9.8.tar.gz tmp/aihandler-1.9.9.tar.gz --markdown 20230710/a/aihandler/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-10 03:29:42] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/69/65/61cf4e2d01ce9f811649f2d5a9b579e9603a4b6257774c90a60bc13109ee/cdk-hugo-deploy-0.0.99.tar.gz
+[2023-07-10 03:29:42] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-10 03:29:42] INFO root fetch - processPackages [heimdallm]: executing diffoscope
+[2023-07-10 03:29:42] INFO root fetch - processPackages [heimdallm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heimdallm-0.1.5.tar.gz tmp/heimdallm-0.2.0.tar.gz --markdown 20230710/h/heimdallm/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-07-10 03:29:42] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/f8/ec/3044fde579418570279eb9f4c2d60facdbd573ed724ec7fa07e3a4c940aa/ai2_kit-0.3.9.tar.gz
+[2023-07-10 03:29:42] INFO root fetch - processPackages [pandera]: Downloading https://files.pythonhosted.org/packages/0b/8f/199b2d6886d40d20c9382c189d0b40c6118c2df6f0df21e9e78ab886aaea/pandera-0.9.0.tar.gz
+[2023-07-10 03:29:42] INFO root fetch - processPackages [airunner]: executing diffoscope
+[2023-07-10 03:29:42] INFO root fetch - processPackages [airunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airunner-2.0.1.tar.gz tmp/airunner-2.0.2.tar.gz --markdown 20230710/a/airunner/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-10 03:29:42] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-07-10 03:29:42] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230710/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-10 03:29:42] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-10 03:29:42] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230710/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-10 03:29:42] INFO root fetch - processPackages [ai2-kit]: executing diffoscope
+[2023-07-10 03:29:42] INFO root fetch - processPackages [ai2-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai2_kit-0.3.8.tar.gz tmp/ai2_kit-0.3.9.tar.gz --markdown 20230710/a/ai2-kit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-10 03:29:42] INFO root fetch - processPackages [pandera]: executing diffoscope
+[2023-07-10 03:29:42] INFO root fetch - processPackages [pandera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandera-0.8.1.tar.gz tmp/pandera-0.9.0.tar.gz --markdown 20230710/p/pandera/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-10 03:29:43] INFO root fetch - processPackages [braintrust]: Remove: archive file [/home/abi/fetcher/tmp/braintrust-0.0.8.tar.gz]
+[2023-07-10 03:29:43] INFO root fetch - processPackages [braintrust]: Remove: archive file [/home/abi/fetcher/tmp/braintrust-0.0.9.tar.gz]
+[2023-07-10 03:29:43] INFO root fetch - main [MainThread]: End processing [braintrust]: success
+[2023-07-10 03:29:43] INFO root fetch - processPackages [aihandler]: Remove: archive file [/home/abi/fetcher/tmp/aihandler-1.9.8.tar.gz]
+[2023-07-10 03:29:43] INFO root fetch - processPackages [aihandler]: Remove: archive file [/home/abi/fetcher/tmp/aihandler-1.9.9.tar.gz]
+[2023-07-10 03:29:43] INFO root fetch - main [MainThread]: End processing [aihandler]: success
+[2023-07-10 03:29:43] INFO root fetch - processPackages [heimdallm]: Remove: archive file [/home/abi/fetcher/tmp/heimdallm-0.1.5.tar.gz]
+[2023-07-10 03:29:43] INFO root fetch - processPackages [heimdallm]: Remove: archive file [/home/abi/fetcher/tmp/heimdallm-0.2.0.tar.gz]
+[2023-07-10 03:29:43] INFO root fetch - main [MainThread]: End processing [heimdallm]: success
+[2023-07-10 03:29:43] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.98.tar.gz]
+[2023-07-10 03:29:43] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
+[2023-07-10 03:29:43] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-07-10 03:29:43] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-10 03:29:43] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-10 03:29:43] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-10 03:29:43] INFO root fetch - processPackages [airunner]: Remove: archive file [/home/abi/fetcher/tmp/airunner-2.0.1.tar.gz]
+[2023-07-10 03:29:43] INFO root fetch - processPackages [airunner]: Remove: archive file [/home/abi/fetcher/tmp/airunner-2.0.2.tar.gz]
+[2023-07-10 03:29:43] INFO root fetch - main [MainThread]: End processing [airunner]: success
+[2023-07-10 03:29:43] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.3.8.tar.gz]
+[2023-07-10 03:29:43] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.3.9.tar.gz]
+[2023-07-10 03:29:43] INFO root fetch - main [MainThread]: End processing [ai2-kit]: success
+[2023-07-10 03:29:44] INFO root fetch - processPackages [pandera]: Remove: archive file [/home/abi/fetcher/tmp/pandera-0.8.1.tar.gz]
+[2023-07-10 03:29:44] INFO root fetch - processPackages [pandera]: Remove: archive file [/home/abi/fetcher/tmp/pandera-0.9.0.tar.gz]
+[2023-07-10 03:29:44] INFO root fetch - main [MainThread]: End processing [pandera]: success
+[2023-07-10 03:29:44] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-07-10 03:29:47] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-07-10 03:29:47] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230710/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-07-10 03:29:48] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-07-10 03:29:48] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-07-10 03:29:48] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-07-10 03:29:48] INFO root fetch - main [MainThread]: Store serial: [18825547]
