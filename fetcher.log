@@ -20840,3 +20840,128 @@ EOFError: EOF read where object expected
 [2023-07-10 16:40:52] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.98.tar.gz]
 [2023-07-10 16:40:52] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
 [2023-07-10 16:40:52] INFO root fetch - main [MainThread]: Store serial: [18832030]
+[2023-07-10 16:45:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18832030]
+[2023-07-10 16:46:01] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-10 16:46:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langchain-chatglm
+[2023-07-10 16:46:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyNyaaTa
+[2023-07-10 16:46:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gandai
+[2023-07-10 16:46:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dl2050utils
+[2023-07-10 16:46:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seaplane
+[2023-07-10 16:46:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dipson
+[2023-07-10 16:46:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spatial-transform
+[2023-07-10 16:46:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dknovautils
+[2023-07-10 16:46:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: web-2-album
+[2023-07-10 16:46:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mgtron
+[2023-07-10 16:46:02] INFO root fetch - processPackages [spatial-transform]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-10 16:46:02] INFO root fetch - processPackages [dknovautils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 16:46:02] INFO root fetch - processPackages [gandai]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-07-10 16:46:02] WARNING root fetch - processPackages [dipson]: Skipping, unable to determine old version
+[2023-07-10 16:46:02] INFO root fetch - processPackages [dipson]: Start processing: pg-bulk-ingest
+[2023-07-10 16:46:02] INFO root fetch - main [MainThread]: End processing [dipson] error
+[2023-07-10 16:46:02] INFO root fetch - processPackages [mgtron]: New version: [2.19.1] Old Version: [2.18.4]
+[2023-07-10 16:46:02] INFO root fetch - processPackages [PyNyaaTa]: New version: [202307101440] Old Version: [202307080954]
+[2023-07-10 16:46:02] INFO root fetch - processPackages [pg-bulk-ingest]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 16:46:02] INFO root fetch - processPackages [seaplane]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-10 16:46:02] INFO root fetch - processPackages [dl2050utils]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-10 16:46:02] INFO root fetch - processPackages [dknovautils]: Downloading https://files.pythonhosted.org/packages/43/90/9530dbd8dc28262f9ad2bc828e11be41c7ccc70719b738b38b110a57d47f/dknovautils-0.1.8.tar.gz
+[2023-07-10 16:46:02] INFO root fetch - processPackages [langchain-chatglm]: New version: [0.0.9] Old Version: [0.0.13]
+[2023-07-10 16:46:02] INFO root fetch - processPackages [web-2-album]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 16:46:02] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/e7/61/c864ce95e15abf9ad2a76809ae1db8bd46564cb3bfcf2cf7b76a1221faf8/seaplane-0.3.8.tar.gz
+[2023-07-10 16:46:02] INFO root fetch - processPackages [pg-bulk-ingest]: Downloading https://files.pythonhosted.org/packages/e7/4c/79370bd20a6c816fde6c364043a829acf317c47786fa13893e26ccd005f6/pg_bulk_ingest-0.0.8.tar.gz
+[2023-07-10 16:46:02] INFO root fetch - processPackages [spatial-transform]: Downloading https://files.pythonhosted.org/packages/8d/59/6049d9c8932c9ec99b193f29de23d65f8ee0b5e33127fe854b064e6a31cc/spatial_transform-1.2.8.tar.gz
+[2023-07-10 16:46:02] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/a5/47/279c85f2c70b577548880cf5a21581fdb8ca728dc0f6679604ff1042c2f5/gandai-1.1.9.tar.gz
+[2023-07-10 16:46:02] INFO root fetch - processPackages [PyNyaaTa]: Downloading https://files.pythonhosted.org/packages/37/2f/002de4c831febb44fcd9667de64ed4961fb3a5769f5a7159c915aa27f04d/PyNyaaTa-202307080954.tar.gz
+[2023-07-10 16:46:02] INFO root fetch - processPackages [dl2050utils]: Downloading https://files.pythonhosted.org/packages/c2/11/20896420a2b6842cdae9b98b4642b86f62277734141db689849e79713875/dl2050utils-1.0.98.tar.gz
+[2023-07-10 16:46:02] INFO root fetch - processPackages [langchain-chatglm]: Downloading https://files.pythonhosted.org/packages/02/0e/a86cef71c38d8c3db7eeb1dbc4c895a664cf2d8af5146b16e20b3adc1a8e/langchain-chatglm-0.0.13.tar.gz
+[2023-07-10 16:46:02] INFO root fetch - processPackages [web-2-album]: Downloading https://files.pythonhosted.org/packages/e2/56/6ad41e27a2b4cb22151449f4c371edca14b0ded11c1a30023e8768e5bb51/web_2_album-0.0.8.tar.gz
+[2023-07-10 16:46:02] INFO root fetch - processPackages [dknovautils]: Downloading https://files.pythonhosted.org/packages/10/9d/6520e40a8f0d6aa1bb89652ccbcb7ac1403145e473f26eaeff0f0a09a866/dknovautils-0.1.9.tar.gz
+[2023-07-10 16:46:02] INFO root fetch - processPackages [mgtron]: Downloading https://files.pythonhosted.org/packages/b6/56/a6916c3e5b2697a3e80ce58cfa84741dddb4018204da38ea2b8996059241/mgtron-2.19.1.tar.gz
+[2023-07-10 16:46:02] INFO root fetch - processPackages [pg-bulk-ingest]: Downloading https://files.pythonhosted.org/packages/db/bb/df7525f74975aacf76789085425bed157db43bb21c9d69e39c9e4bedd944/pg_bulk_ingest-0.0.9.tar.gz
+[2023-07-10 16:46:02] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/f7/af/2f29681bd0dce058b9d26f46481537dde0fcdbe0e5d6d80d9e4622dc52b8/seaplane-0.3.9.tar.gz
+[2023-07-10 16:46:02] INFO root fetch - processPackages [dknovautils]: executing diffoscope
+[2023-07-10 16:46:02] INFO root fetch - processPackages [dknovautils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dknovautils-0.1.8.tar.gz tmp/dknovautils-0.1.9.tar.gz --markdown 20230710/d/dknovautils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 16:46:03] INFO root fetch - processPackages [pg-bulk-ingest]: executing diffoscope
+[2023-07-10 16:46:03] INFO root fetch - processPackages [pg-bulk-ingest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_bulk_ingest-0.0.8.tar.gz tmp/pg_bulk_ingest-0.0.9.tar.gz --markdown 20230710/p/pg-bulk-ingest/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 16:46:03] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/f2/96/bb2ba0b436ed442fb5cfdc3375ae397c22412ef992d35981d8abb04d2b3e/gandai-1.2.0.tar.gz
+[2023-07-10 16:46:03] INFO root fetch - processPackages [spatial-transform]: Downloading https://files.pythonhosted.org/packages/eb/8a/802dd415945c675d012e6a29b9fa19993a7c18917007954013b350e838a9/spatial_transform-1.2.9.tar.gz
+[2023-07-10 16:46:03] INFO root fetch - processPackages [PyNyaaTa]: Downloading https://files.pythonhosted.org/packages/bb/c8/3429d7159f5c6f2a090c5ba05b0124088e2b9fe7303caf09c8618ac95248/PyNyaaTa-202307101440.tar.gz
+[2023-07-10 16:46:03] INFO root fetch - processPackages [dl2050utils]: Downloading https://files.pythonhosted.org/packages/c9/17/6752cfb2e56bf2902e5a751d8b67ff3c1642fb0d69b3207b81fb5c311ea5/dl2050utils-1.0.99.tar.gz
+[2023-07-10 16:46:03] INFO root fetch - processPackages [langchain-chatglm]: Downloading https://files.pythonhosted.org/packages/1f/20/5b12aa1c2cefff4376c344cde18bc4a79d22b3b5851ee663c4c4ac42927a/langchain-chatglm-0.0.9.tar.gz
+[2023-07-10 16:46:03] INFO root fetch - processPackages [seaplane]: executing diffoscope
+[2023-07-10 16:46:03] INFO root fetch - processPackages [seaplane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaplane-0.3.8.tar.gz tmp/seaplane-0.3.9.tar.gz --markdown 20230710/s/seaplane/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-10 16:46:03] INFO root fetch - processPackages [gandai]: executing diffoscope
+[2023-07-10 16:46:03] INFO root fetch - processPackages [gandai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gandai-1.1.9.tar.gz tmp/gandai-1.2.0.tar.gz --markdown 20230710/g/gandai/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-07-10 16:46:03] INFO root fetch - processPackages [web-2-album]: Downloading https://files.pythonhosted.org/packages/3c/b4/db33274effe3dedf1f115b7cc172b70792edc416c89b0a0bc5c1ee85078f/web_2_album-0.0.9.tar.gz
+[2023-07-10 16:46:03] INFO root fetch - processPackages [langchain-chatglm]: executing diffoscope
+[2023-07-10 16:46:03] INFO root fetch - processPackages [langchain-chatglm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-chatglm-0.0.13.tar.gz tmp/langchain-chatglm-0.0.9.tar.gz --markdown 20230710/l/langchain-chatglm/0.0.13-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 16:46:03] INFO root fetch - processPackages [spatial-transform]: executing diffoscope
+[2023-07-10 16:46:03] INFO root fetch - processPackages [spatial-transform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spatial_transform-1.2.8.tar.gz tmp/spatial_transform-1.2.9.tar.gz --markdown 20230710/s/spatial-transform/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-10 16:46:03] INFO root fetch - processPackages [dl2050utils]: executing diffoscope
+[2023-07-10 16:46:03] INFO root fetch - processPackages [dl2050utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dl2050utils-1.0.98.tar.gz tmp/dl2050utils-1.0.99.tar.gz --markdown 20230710/d/dl2050utils/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-10 16:46:03] INFO root fetch - processPackages [mgtron]: executing diffoscope
+[2023-07-10 16:46:03] INFO root fetch - processPackages [mgtron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mgtron-2.18.4.tar.gz tmp/mgtron-2.19.1.tar.gz --markdown 20230710/m/mgtron/2.18.4-2.19.1/diff.md --exclude *.pyd
+[2023-07-10 16:46:03] INFO root fetch - processPackages [PyNyaaTa]: executing diffoscope
+[2023-07-10 16:46:03] INFO root fetch - processPackages [PyNyaaTa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyNyaaTa-202307080954.tar.gz tmp/PyNyaaTa-202307101440.tar.gz --markdown 20230710/P/PyNyaaTa/202307080954-202307101440/diff.md --exclude *.pyd
+[2023-07-10 16:46:03] INFO root fetch - processPackages [web-2-album]: executing diffoscope
+[2023-07-10 16:46:03] INFO root fetch - processPackages [web-2-album]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web_2_album-0.0.8.tar.gz tmp/web_2_album-0.0.9.tar.gz --markdown 20230710/w/web-2-album/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 16:46:04] INFO root fetch - processPackages [dknovautils]: Remove: archive file [/home/abi/fetcher/tmp/dknovautils-0.1.8.tar.gz]
+[2023-07-10 16:46:04] INFO root fetch - processPackages [dknovautils]: Remove: archive file [/home/abi/fetcher/tmp/dknovautils-0.1.9.tar.gz]
+[2023-07-10 16:46:04] INFO root fetch - processPackages [dknovautils]: Start processing: ScopeSim
+[2023-07-10 16:46:04] INFO root fetch - main [MainThread]: End processing [dknovautils]: success
+[2023-07-10 16:46:04] INFO root fetch - processPackages [ScopeSim]: New version: [0.6.0] Old Version: [0.5.6]
+[2023-07-10 16:46:04] INFO root fetch - processPackages [pg-bulk-ingest]: Remove: archive file [/home/abi/fetcher/tmp/pg_bulk_ingest-0.0.8.tar.gz]
+[2023-07-10 16:46:04] INFO root fetch - processPackages [pg-bulk-ingest]: Remove: archive file [/home/abi/fetcher/tmp/pg_bulk_ingest-0.0.9.tar.gz]
+[2023-07-10 16:46:04] INFO root fetch - processPackages [pg-bulk-ingest]: Start processing: modsys
+[2023-07-10 16:46:04] INFO root fetch - main [MainThread]: End processing [pg-bulk-ingest]: success
+[2023-07-10 16:46:04] INFO root fetch - processPackages [langchain-chatglm]: Remove: archive file [/home/abi/fetcher/tmp/langchain-chatglm-0.0.13.tar.gz]
+[2023-07-10 16:46:04] INFO root fetch - processPackages [langchain-chatglm]: Remove: archive file [/home/abi/fetcher/tmp/langchain-chatglm-0.0.9.tar.gz]
+[2023-07-10 16:46:04] INFO root fetch - processPackages [langchain-chatglm]: Start processing: xeus-python-shell
+[2023-07-10 16:46:04] INFO root fetch - main [MainThread]: End processing [langchain-chatglm]: success
+[2023-07-10 16:46:04] WARNING root fetch - processPackages [modsys]: Skipping, unable to determine old version
+[2023-07-10 16:46:04] INFO root fetch - processPackages [modsys]: Start processing: wordle-helper-uc
+[2023-07-10 16:46:04] INFO root fetch - main [MainThread]: End processing [modsys] error
+[2023-07-10 16:46:04] INFO root fetch - processPackages [xeus-python-shell]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-10 16:46:04] INFO root fetch - processPackages [ScopeSim]: Downloading https://files.pythonhosted.org/packages/ca/d7/17ecb913912ca0573856f4d25304c7d9eb5903b8193d49db1e505b4b0f8d/ScopeSim-0.5.6.tar.gz
+[2023-07-10 16:46:04] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.8.tar.gz]
+[2023-07-10 16:46:04] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.9.tar.gz]
+[2023-07-10 16:46:04] INFO root fetch - main [MainThread]: End processing [seaplane]: success
+[2023-07-10 16:46:04] INFO root fetch - processPackages [wordle-helper-uc]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-10 16:46:04] INFO root fetch - processPackages [spatial-transform]: Remove: archive file [/home/abi/fetcher/tmp/spatial_transform-1.2.8.tar.gz]
+[2023-07-10 16:46:04] INFO root fetch - processPackages [spatial-transform]: Remove: archive file [/home/abi/fetcher/tmp/spatial_transform-1.2.9.tar.gz]
+[2023-07-10 16:46:04] INFO root fetch - main [MainThread]: End processing [spatial-transform]: success
+[2023-07-10 16:46:05] INFO root fetch - processPackages [web-2-album]: Remove: archive file [/home/abi/fetcher/tmp/web_2_album-0.0.8.tar.gz]
+[2023-07-10 16:46:05] INFO root fetch - processPackages [web-2-album]: Remove: archive file [/home/abi/fetcher/tmp/web_2_album-0.0.9.tar.gz]
+[2023-07-10 16:46:05] INFO root fetch - main [MainThread]: End processing [web-2-album]: success
+[2023-07-10 16:46:05] INFO root fetch - processPackages [xeus-python-shell]: Downloading https://files.pythonhosted.org/packages/96/c6/63cb16dade2694d6a65260f3a0bd969edb1c2c9b0b6f0d512dde2e9907f4/xeus-python-shell-0.5.0.tar.gz
+[2023-07-10 16:46:05] INFO root fetch - processPackages [dl2050utils]: Remove: archive file [/home/abi/fetcher/tmp/dl2050utils-1.0.98.tar.gz]
+[2023-07-10 16:46:05] INFO root fetch - processPackages [dl2050utils]: Remove: archive file [/home/abi/fetcher/tmp/dl2050utils-1.0.99.tar.gz]
+[2023-07-10 16:46:05] INFO root fetch - main [MainThread]: End processing [dl2050utils]: success
+[2023-07-10 16:46:05] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.1.9.tar.gz]
+[2023-07-10 16:46:05] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.2.0.tar.gz]
+[2023-07-10 16:46:05] INFO root fetch - main [MainThread]: End processing [gandai]: success
+[2023-07-10 16:46:05] INFO root fetch - processPackages [PyNyaaTa]: Remove: archive file [/home/abi/fetcher/tmp/PyNyaaTa-202307080954.tar.gz]
+[2023-07-10 16:46:05] INFO root fetch - processPackages [PyNyaaTa]: Remove: archive file [/home/abi/fetcher/tmp/PyNyaaTa-202307101440.tar.gz]
+[2023-07-10 16:46:05] INFO root fetch - main [MainThread]: End processing [PyNyaaTa]: success
+[2023-07-10 16:46:05] INFO root fetch - processPackages [wordle-helper-uc]: Downloading https://files.pythonhosted.org/packages/75/20/282b89858c919457afafbf258782d752a370edf45bbdc3c6ade1fa48b4a3/wordle_helper_uc-0.1.2.tar.gz
+[2023-07-10 16:46:05] INFO root fetch - processPackages [ScopeSim]: Downloading https://files.pythonhosted.org/packages/07/d9/16b587906bc0b67de949d0043d28d2210f506e795bde5196b3dde7c2aed5/ScopeSim-0.6.0.tar.gz
+[2023-07-10 16:46:05] INFO root fetch - processPackages [ScopeSim]: executing diffoscope
+[2023-07-10 16:46:05] INFO root fetch - processPackages [ScopeSim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ScopeSim-0.5.6.tar.gz tmp/ScopeSim-0.6.0.tar.gz --markdown 20230710/S/ScopeSim/0.5.6-0.6.0/diff.md --exclude *.pyd
+[2023-07-10 16:46:05] INFO root fetch - processPackages [xeus-python-shell]: Downloading https://files.pythonhosted.org/packages/fb/0f/1849441c39d4fd2a5a792a5a2021c2bc3566e6502d9ecb3d8ebd957e0edd/xeus-python-shell-0.6.0.tar.gz
+[2023-07-10 16:46:05] INFO root fetch - processPackages [wordle-helper-uc]: Downloading https://files.pythonhosted.org/packages/7b/46/975711ee08cb2d42897026813e511c632cce7d55c7dee5f046e2d6833644/wordle_helper_uc-0.2.0.tar.gz
+[2023-07-10 16:46:05] INFO root fetch - processPackages [xeus-python-shell]: executing diffoscope
+[2023-07-10 16:46:05] INFO root fetch - processPackages [xeus-python-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xeus-python-shell-0.5.0.tar.gz tmp/xeus-python-shell-0.6.0.tar.gz --markdown 20230710/x/xeus-python-shell/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-10 16:46:05] INFO root fetch - processPackages [wordle-helper-uc]: executing diffoscope
+[2023-07-10 16:46:05] INFO root fetch - processPackages [wordle-helper-uc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wordle_helper_uc-0.1.2.tar.gz tmp/wordle_helper_uc-0.2.0.tar.gz --markdown 20230710/w/wordle-helper-uc/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-10 16:46:06] INFO root fetch - processPackages [mgtron]: Remove: archive file [/home/abi/fetcher/tmp/mgtron-2.18.4.tar.gz]
+[2023-07-10 16:46:06] INFO root fetch - processPackages [mgtron]: Remove: archive file [/home/abi/fetcher/tmp/mgtron-2.19.1.tar.gz]
+[2023-07-10 16:46:06] INFO root fetch - main [MainThread]: End processing [mgtron]: success
+[2023-07-10 16:46:06] INFO root fetch - processPackages [xeus-python-shell]: Remove: archive file [/home/abi/fetcher/tmp/xeus-python-shell-0.5.0.tar.gz]
+[2023-07-10 16:46:06] INFO root fetch - processPackages [xeus-python-shell]: Remove: archive file [/home/abi/fetcher/tmp/xeus-python-shell-0.6.0.tar.gz]
+[2023-07-10 16:46:06] INFO root fetch - main [MainThread]: End processing [xeus-python-shell]: success
+[2023-07-10 16:46:06] INFO root fetch - processPackages [wordle-helper-uc]: Remove: archive file [/home/abi/fetcher/tmp/wordle_helper_uc-0.1.2.tar.gz]
+[2023-07-10 16:46:06] INFO root fetch - processPackages [wordle-helper-uc]: Remove: archive file [/home/abi/fetcher/tmp/wordle_helper_uc-0.2.0.tar.gz]
+[2023-07-10 16:46:06] INFO root fetch - main [MainThread]: End processing [wordle-helper-uc]: success
+[2023-07-10 16:46:08] INFO root fetch - processPackages [ScopeSim]: Remove: archive file [/home/abi/fetcher/tmp/ScopeSim-0.5.6.tar.gz]
+[2023-07-10 16:46:08] INFO root fetch - processPackages [ScopeSim]: Remove: archive file [/home/abi/fetcher/tmp/ScopeSim-0.6.0.tar.gz]
+[2023-07-10 16:46:08] INFO root fetch - main [MainThread]: End processing [ScopeSim]: success
+[2023-07-10 16:46:08] INFO root fetch - main [MainThread]: Store serial: [18832092]
