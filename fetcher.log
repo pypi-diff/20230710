@@ -10472,3 +10472,115 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 09:38:11] INFO root fetch - processPackages [bookio-fetchfox]: Remove: archive file [/home/abi/fetcher/tmp/bookio_fetchfox-0.9.5.tar.gz]
 [2023-07-10 09:38:11] INFO root fetch - main [MainThread]: End processing [bookio-fetchfox]: success
 [2023-07-10 09:38:11] INFO root fetch - main [MainThread]: Store serial: [18827787]
+[2023-07-10 09:43:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18827787]
+[2023-07-10 09:43:19] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-10 09:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MetaCalls
+[2023-07-10 09:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ragas
+[2023-07-10 09:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: classiq
+[2023-07-10 09:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RoboCam
+[2023-07-10 09:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cg
+[2023-07-10 09:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mistapi
+[2023-07-10 09:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ansys-templates
+[2023-07-10 09:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyrsm
+[2023-07-10 09:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aliyun-python-sdk-rds
+[2023-07-10 09:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qontract-reconcile
+[2023-07-10 09:43:20] INFO root fetch - processPackages [MetaCalls]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-10 09:43:20] INFO root fetch - processPackages [ragas]: New version: [0.0.4] Old Version: [0.0.3rc1]
+[2023-07-10 09:43:20] INFO root fetch - processPackages [cg]: New version: [38.1.5] Old Version: [38.1.4]
+[2023-07-10 09:43:20] INFO root fetch - processPackages [classiq]: New version: [0.9.3] Old Version: [0.9.1]
+[2023-07-10 09:43:20] INFO root fetch - processPackages [mistapi]: New version: [0.41.9] Old Version: [0.41.8]
+[2023-07-10 09:43:20] INFO root fetch - processPackages [ansys-templates]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-07-10 09:43:20] INFO root fetch - processPackages [RoboCam]: New version: [1.0.0.9] Old Version: [1.0.0.8]
+[2023-07-10 09:43:20] INFO root fetch - processPackages [aliyun-python-sdk-rds]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-07-10 09:43:20] INFO root fetch - processPackages [pyrsm]: New version: [0.8.5] Old Version: [0.8.4.1]
+[2023-07-10 09:43:20] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-07-10 09:43:20] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/68/3a/51edb3f7c01afaf6e4f30e33973a609f2e4a912a7735e9c878f4c1ca1b1b/cg-38.1.4.tar.gz
+[2023-07-10 09:43:20] INFO root fetch - processPackages [MetaCalls]: Downloading https://files.pythonhosted.org/packages/c8/db/d1a675d92a6d0aaa575a35d446ccff9f6bc2ee3e8284ae1e4729764040ed/MetaCalls-0.0.2-cp39-cp39-win_amd64.whl
+[2023-07-10 09:43:20] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-07-10 09:43:20] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Downloading https://files.pythonhosted.org/packages/86/16/e429481b48c8e39fd99916cf0d5537d596ff8a08c15cde79f3fa9f8b822b/aliyun-python-sdk-rds-2.7.8.tar.gz
+[2023-07-10 09:43:20] WARNING root fetch - processPackages [MetaCalls]: Skipping package: exceeds size limit 17452965>=10485760
+[2023-07-10 09:43:20] INFO root fetch - processPackages [MetaCalls]: Start processing: git-reviewers
+[2023-07-10 09:43:20] INFO root fetch - main [MainThread]: End processing [MetaCalls] error
+[2023-07-10 09:43:20] INFO root fetch - processPackages [ragas]: Downloading https://files.pythonhosted.org/packages/75/46/9d4af42ff6c45a26e57a59323dc2404bb2ba5b782b11c5b724d12f1d2113/ragas-0.0.3rc1.tar.gz
+[2023-07-10 09:43:20] INFO root fetch - processPackages [classiq]: Downloading https://files.pythonhosted.org/packages/62/bd/a743e4141094b0e9dc17aeac1cedfe15efc910502e7411611d5cdf9d1878/classiq-0.9.1-py3-none-any.whl
+[2023-07-10 09:43:20] INFO root fetch - processPackages [git-reviewers]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-10 09:43:20] INFO root fetch - processPackages [mistapi]: Downloading https://files.pythonhosted.org/packages/7c/7e/c80f4702c10dec7db81faaea2d584d96aa31fc91f05e2e141180faf6efd7/mistapi-0.41.8.tar.gz
+[2023-07-10 09:43:20] INFO root fetch - processPackages [RoboCam]: Downloading https://files.pythonhosted.org/packages/96/2f/3f30b893f6deb99edff4e71aa8492a5f129f3779e68c0f214f0a08c60013/RoboCam-1.0.0.8-py3-none-any.whl
+[2023-07-10 09:43:20] INFO root fetch - processPackages [ansys-templates]: Downloading https://files.pythonhosted.org/packages/21/75/6f63427f38b8f70d9b9f04209f75d4586f387d638d1bfb0fc7542a3a2523/ansys_templates-1.0.2.tar.gz
+[2023-07-10 09:43:20] INFO root fetch - processPackages [pyrsm]: Downloading https://files.pythonhosted.org/packages/46/4d/1f8f3102621aab53f5ce75d994a669143f00042142ba483ae54c67b3c597/pyrsm-0.8.4.1.tar.gz
+[2023-07-10 09:43:20] WARNING root fetch - processPackages [RoboCam]: Skipping package: exceeds size limit 12849904>=10485760
+[2023-07-10 09:43:20] INFO root fetch - processPackages [RoboCam]: Start processing: aioworkers
+[2023-07-10 09:43:20] INFO root fetch - main [MainThread]: End processing [RoboCam] error
+[2023-07-10 09:43:20] INFO root fetch - processPackages [aioworkers]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-10 09:43:20] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Downloading https://files.pythonhosted.org/packages/49/c8/97bd9925e2aab8e2fb90f2bd5952e96c8793dbb73634161c2b81b93690bb/aliyun-python-sdk-rds-2.7.9.tar.gz
+[2023-07-10 09:43:20] INFO root fetch - processPackages [git-reviewers]: Downloading https://files.pythonhosted.org/packages/ff/72/9115640cd00862e4e6f79eaf228cab591a0bf31b76f9c3119b7158175eaa/git-reviewers-0.8.0.tar.gz
+[2023-07-10 09:43:20] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-07-10 09:43:21] INFO root fetch - processPackages [aioworkers]: Downloading https://files.pythonhosted.org/packages/51/13/4f8acd78cd8ef30fb17e090e59a02c8737d16c94c010611c4d5347e24c76/aioworkers-0.9.2.tar.gz
+[2023-07-10 09:43:21] INFO root fetch - processPackages [aliyun-python-sdk-rds]: executing diffoscope
+[2023-07-10 09:43:21] INFO root fetch - processPackages [aliyun-python-sdk-rds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-rds-2.7.8.tar.gz tmp/aliyun-python-sdk-rds-2.7.9.tar.gz --markdown 20230710/a/aliyun-python-sdk-rds/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-07-10 09:43:21] INFO root fetch - processPackages [mistapi]: Downloading https://files.pythonhosted.org/packages/80/d3/b266dd4edb93a3e8306915b9003b44b3217feb55cf5e562b2563675b50bf/mistapi-0.41.9.tar.gz
+[2023-07-10 09:43:21] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/f0/b6/77e80fb44baed9664eee6d9bf2ddabe60743f4457a0a668f37a49fe092a8/cg-38.1.5.tar.gz
+[2023-07-10 09:43:21] INFO root fetch - processPackages [ragas]: Downloading https://files.pythonhosted.org/packages/b7/06/5defc929492ab90c42663fdf57b60d1df6421983ea62f00be46ed47944a9/ragas-0.0.4.tar.gz
+[2023-07-10 09:43:21] INFO root fetch - processPackages [classiq]: Downloading https://files.pythonhosted.org/packages/e5/eb/9b39365fd2d7c2027f6610a884229059149ab9a3395be331767306762c07/classiq-0.9.3-py3-none-any.whl
+[2023-07-10 09:43:21] INFO root fetch - processPackages [pyrsm]: Downloading https://files.pythonhosted.org/packages/7c/fe/9d2e0609844492bc3ea2f233c3bdb46b4cc74ba7de81117c74ae7d532394/pyrsm-0.8.5.tar.gz
+[2023-07-10 09:43:21] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-07-10 09:43:21] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230710/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-07-10 09:43:21] INFO root fetch - processPackages [ansys-templates]: Downloading https://files.pythonhosted.org/packages/4d/31/b1793e68c909500b060320456b2fc1660b9c92201e405428bbde6c6dc0a1/ansys_templates-1.1.0.tar.gz
+[2023-07-10 09:43:21] INFO root fetch - processPackages [ragas]: executing diffoscope
+[2023-07-10 09:43:21] INFO root fetch - processPackages [ragas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragas-0.0.3rc1.tar.gz tmp/ragas-0.0.4.tar.gz --markdown 20230710/r/ragas/0.0.3rc1-0.0.4/diff.md --exclude *.pyd
+[2023-07-10 09:43:21] INFO root fetch - processPackages [classiq]: executing diffoscope
+[2023-07-10 09:43:21] INFO root fetch - processPackages [classiq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/classiq-0.9.1-py3-none-any.whl.zip tmp/classiq-0.9.3-py3-none-any.whl.zip --markdown 20230710/c/classiq/0.9.1-0.9.3/diff.md --exclude *.pyd
+[2023-07-10 09:43:21] INFO root fetch - processPackages [mistapi]: executing diffoscope
+[2023-07-10 09:43:21] INFO root fetch - processPackages [mistapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistapi-0.41.8.tar.gz tmp/mistapi-0.41.9.tar.gz --markdown 20230710/m/mistapi/0.41.8-0.41.9/diff.md --exclude *.pyd
+[2023-07-10 09:43:21] INFO root fetch - processPackages [git-reviewers]: Downloading https://files.pythonhosted.org/packages/d4/1c/ba44359dc3cd19b496b684de7d9ad0828772d6918119691fda186247ac00/git-reviewers-0.9.0.tar.gz
+[2023-07-10 09:43:21] INFO root fetch - processPackages [pyrsm]: executing diffoscope
+[2023-07-10 09:43:21] INFO root fetch - processPackages [pyrsm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrsm-0.8.4.1.tar.gz tmp/pyrsm-0.8.5.tar.gz --markdown 20230710/p/pyrsm/0.8.4.1-0.8.5/diff.md --exclude *.pyd
+[2023-07-10 09:43:21] INFO root fetch - processPackages [aioworkers]: Downloading https://files.pythonhosted.org/packages/3b/d7/3d647a5afd65c18e4efed2b8ffef65dc170d7749491f9fd3c93bd259e6b7/aioworkers-0.9.3.tar.gz
+[2023-07-10 09:43:21] INFO root fetch - processPackages [git-reviewers]: executing diffoscope
+[2023-07-10 09:43:21] INFO root fetch - processPackages [git-reviewers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git-reviewers-0.8.0.tar.gz tmp/git-reviewers-0.9.0.tar.gz --markdown 20230710/g/git-reviewers/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-10 09:43:21] INFO root fetch - processPackages [ansys-templates]: executing diffoscope
+[2023-07-10 09:43:21] INFO root fetch - processPackages [ansys-templates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_templates-1.0.2.tar.gz tmp/ansys_templates-1.1.0.tar.gz --markdown 20230710/a/ansys-templates/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-07-10 09:43:21] INFO root fetch - processPackages [aioworkers]: executing diffoscope
+[2023-07-10 09:43:21] INFO root fetch - processPackages [aioworkers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioworkers-0.9.2.tar.gz tmp/aioworkers-0.9.3.tar.gz --markdown 20230710/a/aioworkers/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-10 09:43:21] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-07-10 09:43:21] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-38.1.4.tar.gz tmp/cg-38.1.5.tar.gz --markdown 20230710/c/cg/38.1.4-38.1.5/diff.md --exclude *.pyd
+[2023-07-10 09:43:23] INFO root fetch - processPackages [git-reviewers]: Remove: archive file [/home/abi/fetcher/tmp/git-reviewers-0.8.0.tar.gz]
+[2023-07-10 09:43:23] INFO root fetch - processPackages [git-reviewers]: Remove: archive file [/home/abi/fetcher/tmp/git-reviewers-0.9.0.tar.gz]
+[2023-07-10 09:43:23] INFO root fetch - processPackages [git-reviewers]: Start processing: pyMapVBVD
+[2023-07-10 09:43:23] INFO root fetch - main [MainThread]: End processing [git-reviewers]: success
+[2023-07-10 09:43:23] INFO root fetch - processPackages [pyMapVBVD]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-07-10 09:43:23] INFO root fetch - processPackages [aioworkers]: Remove: archive file [/home/abi/fetcher/tmp/aioworkers-0.9.2.tar.gz]
+[2023-07-10 09:43:23] INFO root fetch - processPackages [aioworkers]: Remove: archive file [/home/abi/fetcher/tmp/aioworkers-0.9.3.tar.gz]
+[2023-07-10 09:43:23] INFO root fetch - main [MainThread]: End processing [aioworkers]: success
+[2023-07-10 09:43:23] INFO root fetch - processPackages [pyMapVBVD]: Downloading https://files.pythonhosted.org/packages/7d/e1/ffb54ed94d162f87d172fd0ff941c32736a023b85e1ccf4cd2ea0d61daa0/pyMapVBVD-0.5.3.tar.gz
+[2023-07-10 09:43:23] INFO root fetch - processPackages [pyrsm]: Remove: archive file [/home/abi/fetcher/tmp/pyrsm-0.8.4.1.tar.gz]
+[2023-07-10 09:43:23] INFO root fetch - processPackages [pyrsm]: Remove: archive file [/home/abi/fetcher/tmp/pyrsm-0.8.5.tar.gz]
+[2023-07-10 09:43:23] INFO root fetch - main [MainThread]: End processing [pyrsm]: success
+[2023-07-10 09:43:24] INFO root fetch - processPackages [pyMapVBVD]: Downloading https://files.pythonhosted.org/packages/54/1b/b75ac791825c71222c5e5bbbce6fce534a3b087d1cb83e65dae92efc54e6/pyMapVBVD-0.5.4.tar.gz
+[2023-07-10 09:43:24] INFO root fetch - processPackages [classiq]: Remove: archive file [/home/abi/fetcher/tmp/classiq-0.9.1-py3-none-any.whl.zip]
+[2023-07-10 09:43:24] INFO root fetch - processPackages [classiq]: Remove: archive file [/home/abi/fetcher/tmp/classiq-0.9.3-py3-none-any.whl.zip]
+[2023-07-10 09:43:24] INFO root fetch - main [MainThread]: End processing [classiq]: success
+[2023-07-10 09:43:24] INFO root fetch - processPackages [ragas]: Remove: archive file [/home/abi/fetcher/tmp/ragas-0.0.3rc1.tar.gz]
+[2023-07-10 09:43:24] INFO root fetch - processPackages [ragas]: Remove: archive file [/home/abi/fetcher/tmp/ragas-0.0.4.tar.gz]
+[2023-07-10 09:43:24] INFO root fetch - main [MainThread]: End processing [ragas]: success
+[2023-07-10 09:43:24] INFO root fetch - processPackages [pyMapVBVD]: executing diffoscope
+[2023-07-10 09:43:24] INFO root fetch - processPackages [pyMapVBVD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyMapVBVD-0.5.3.tar.gz tmp/pyMapVBVD-0.5.4.tar.gz --markdown 20230710/p/pyMapVBVD/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-07-10 09:43:24] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-rds-2.7.8.tar.gz]
+[2023-07-10 09:43:24] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-rds-2.7.9.tar.gz]
+[2023-07-10 09:43:24] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-rds]: success
+[2023-07-10 09:43:24] INFO root fetch - processPackages [ansys-templates]: Remove: archive file [/home/abi/fetcher/tmp/ansys_templates-1.0.2.tar.gz]
+[2023-07-10 09:43:24] INFO root fetch - processPackages [ansys-templates]: Remove: archive file [/home/abi/fetcher/tmp/ansys_templates-1.1.0.tar.gz]
+[2023-07-10 09:43:24] INFO root fetch - main [MainThread]: End processing [ansys-templates]: success
+[2023-07-10 09:43:25] INFO root fetch - processPackages [pyMapVBVD]: Remove: archive file [/home/abi/fetcher/tmp/pyMapVBVD-0.5.3.tar.gz]
+[2023-07-10 09:43:25] INFO root fetch - processPackages [pyMapVBVD]: Remove: archive file [/home/abi/fetcher/tmp/pyMapVBVD-0.5.4.tar.gz]
+[2023-07-10 09:43:25] INFO root fetch - main [MainThread]: End processing [pyMapVBVD]: success
+[2023-07-10 09:43:25] INFO root fetch - processPackages [mistapi]: Remove: archive file [/home/abi/fetcher/tmp/mistapi-0.41.8.tar.gz]
+[2023-07-10 09:43:25] INFO root fetch - processPackages [mistapi]: Remove: archive file [/home/abi/fetcher/tmp/mistapi-0.41.9.tar.gz]
+[2023-07-10 09:43:25] INFO root fetch - main [MainThread]: End processing [mistapi]: success
+[2023-07-10 09:43:26] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-07-10 09:43:26] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-07-10 09:43:26] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-07-10 09:43:29] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-38.1.4.tar.gz]
+[2023-07-10 09:43:29] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-38.1.5.tar.gz]
+[2023-07-10 09:43:29] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-07-10 09:43:29] INFO root fetch - main [MainThread]: Store serial: [18827831]
