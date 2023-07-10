@@ -8249,3 +8249,105 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 07:31:23] ERROR root fetch - processPackages [circt]: Timeout during execution of pkgdiff
 [2023-07-10 07:31:23] INFO root fetch - main [MainThread]: End processing [circt] error
 [2023-07-10 07:31:23] INFO root fetch - main [MainThread]: Store serial: [18826838]
+[2023-07-10 07:36:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18826838]
+[2023-07-10 07:36:33] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-10 07:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: elytra-ms
+[2023-07-10 07:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: paaster
+[2023-07-10 07:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: UniTok
+[2023-07-10 07:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ecr-scan-notifier
+[2023-07-10 07:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: halmos
+[2023-07-10 07:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: LolzteamApi
+[2023-07-10 07:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: crazy-thursday
+[2023-07-10 07:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hds-stats
+[2023-07-10 07:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openhab-pythonrule-engine
+[2023-07-10 07:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sydeploy
+[2023-07-10 07:36:33] INFO root fetch - processPackages [hds-stats]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-07-10 07:36:33] INFO root fetch - processPackages [elytra-ms]: New version: [0.0.2.1] Old Version: [0.0.2]
+[2023-07-10 07:36:33] INFO root fetch - processPackages [ecr-scan-notifier]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-10 07:36:33] INFO root fetch - processPackages [UniTok]: New version: [3.1.8] Old Version: [3.1.7]
+[2023-07-10 07:36:33] INFO root fetch - processPackages [LolzteamApi]: New version: [1.0.18] Old Version: [1.0.17]
+[2023-07-10 07:36:33] INFO root fetch - processPackages [openhab-pythonrule-engine]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-07-10 07:36:33] INFO root fetch - processPackages [paaster]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-10 07:36:33] INFO root fetch - processPackages [sydeploy]: New version: [0.2.97] Old Version: [0.2.96]
+[2023-07-10 07:36:33] INFO root fetch - processPackages [halmos]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 07:36:33] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.7.9.1] Old Version: [2023.7.9.0]
+[2023-07-10 07:36:33] INFO root fetch - processPackages [elytra-ms]: Downloading https://files.pythonhosted.org/packages/f0/c5/d15dd84920c635a4f27fe0cf59697fb432e750854da0058f8356525bccbd/elytra_ms-0.0.2.tar.gz
+[2023-07-10 07:36:33] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/2d/d2/ed845933ff7b6cab8b30061bc41cc7f73024d0a7f371d9f2fea1d3aedd59/sydeploy-0.2.96-py3-none-any.whl
+[2023-07-10 07:36:34] INFO root fetch - processPackages [hds-stats]: Downloading https://files.pythonhosted.org/packages/ae/a3/03b4c08aac80aa518895d8419e1c89178e7116e86df9825ff5dabbb5d9f0/hds-stats-0.2.3.tar.gz
+[2023-07-10 07:36:34] INFO root fetch - processPackages [paaster]: Downloading https://files.pythonhosted.org/packages/7d/d7/e7d230068f9c377a5749752535cc0e24ff41ccdb5715d92cdffb6847e494/paaster-1.0.4.tar.gz
+[2023-07-10 07:36:34] INFO root fetch - processPackages [UniTok]: Downloading https://files.pythonhosted.org/packages/8a/64/1982ef48f26e87c846dea5f6679d532f3edd07b8f0858cd5c70080c4f89c/UniTok-3.1.7.tar.gz
+[2023-07-10 07:36:34] INFO root fetch - processPackages [ecr-scan-notifier]: Downloading https://files.pythonhosted.org/packages/25/dd/ccedf89f8814cb7040661652c00d47f2922a4413064d59b655881dfd1664/ecr-scan-notifier-0.0.5.tar.gz
+[2023-07-10 07:36:34] INFO root fetch - processPackages [LolzteamApi]: Downloading https://files.pythonhosted.org/packages/31/d9/4c0a21891b6a62a2d9e82d2bc7ab23877f0ee7b4b1ea6b80ef63d97e0ddf/LolzteamApi-1.0.17.tar.gz
+[2023-07-10 07:36:34] INFO root fetch - processPackages [halmos]: Downloading https://files.pythonhosted.org/packages/68/4c/fe80dae1007589b7b91b828e1087eb97a8fcb6c5e9a4384c95bddf6fe1f6/halmos-0.0.8.tar.gz
+[2023-07-10 07:36:34] INFO root fetch - processPackages [openhab-pythonrule-engine]: Downloading https://files.pythonhosted.org/packages/1b/0a/e52241e767752cebdb61146d8c9d4151b7cdd5a1b4c1d8234193fcde1b20/openhab_pythonrule_engine-1.1.9.tar.gz
+[2023-07-10 07:36:34] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/6a/c9/15f9add630932cf1d361c73bada17a4fe2e962fe6ae5ac9e61297aedec22/crazy-thursday-2023.7.9.0.tar.gz
+[2023-07-10 07:36:34] INFO root fetch - processPackages [elytra-ms]: Downloading https://files.pythonhosted.org/packages/98/61/75f581ddb9e7a820fca60c321e44c96ea51e961f0128a380fa31b20a5495/elytra_ms-0.0.2.1.tar.gz
+[2023-07-10 07:36:34] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/46/43/1b058881cb418f803e1d38411f70f4c63b3bdef3cf8bb06d398dd9be4692/sydeploy-0.2.97-py3-none-any.whl
+[2023-07-10 07:36:34] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/8d/ea/65adb6d9f2ff058a84add9a25d8423ef870914ed904a071fcd26e8e9ba74/crazy-thursday-2023.7.9.1.tar.gz
+[2023-07-10 07:36:34] INFO root fetch - processPackages [ecr-scan-notifier]: Downloading https://files.pythonhosted.org/packages/a8/d4/ee4fdcbca3817a2643becd2914b3c2b5e9cd2a432b02546109185c5b3073/ecr-scan-notifier-0.0.6.tar.gz
+[2023-07-10 07:36:34] INFO root fetch - processPackages [hds-stats]: Downloading https://files.pythonhosted.org/packages/be/80/527c1cce028009e5d90e1d0c6853e7b7b711c8a474682fdf8012acfef48c/hds-stats-0.3.0.tar.gz
+[2023-07-10 07:36:34] INFO root fetch - processPackages [paaster]: Downloading https://files.pythonhosted.org/packages/ee/9d/94feb9b72911ecbf255cfd6414631461e9075020a69a0abb61ebc195d316/paaster-1.0.5.tar.gz
+[2023-07-10 07:36:34] INFO root fetch - processPackages [UniTok]: Downloading https://files.pythonhosted.org/packages/e5/3e/2800a2e5e215a37ee109be01b4f808fc05026eca5cd5cb338fbaef10cefa/UniTok-3.1.8.tar.gz
+[2023-07-10 07:36:34] INFO root fetch - processPackages [openhab-pythonrule-engine]: Downloading https://files.pythonhosted.org/packages/15/5e/40f0554478b02327c3bfbab14da3bcb438edd9e45ab70a429ca87dddd1d3/openhab_pythonrule_engine-1.2.0.tar.gz
+[2023-07-10 07:36:34] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-07-10 07:36:34] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.7.9.0.tar.gz tmp/crazy-thursday-2023.7.9.1.tar.gz --markdown 20230710/c/crazy-thursday/2023.7.9.0-2023.7.9.1/diff.md --exclude *.pyd
+[2023-07-10 07:36:34] INFO root fetch - processPackages [halmos]: Downloading https://files.pythonhosted.org/packages/24/74/cd36c3ecd08cb9da2a27759dccfa646543ec0397f5d32595205ad420c22b/halmos-0.0.9.tar.gz
+[2023-07-10 07:36:34] INFO root fetch - processPackages [ecr-scan-notifier]: executing diffoscope
+[2023-07-10 07:36:34] INFO root fetch - processPackages [ecr-scan-notifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecr-scan-notifier-0.0.5.tar.gz tmp/ecr-scan-notifier-0.0.6.tar.gz --markdown 20230710/e/ecr-scan-notifier/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-10 07:36:34] INFO root fetch - processPackages [LolzteamApi]: Downloading https://files.pythonhosted.org/packages/24/b9/add45d78777cf88996e365e13180249eb5462cf2f180520428ee91dea7a7/LolzteamApi-1.0.18.tar.gz
+[2023-07-10 07:36:34] INFO root fetch - processPackages [elytra-ms]: executing diffoscope
+[2023-07-10 07:36:34] INFO root fetch - processPackages [elytra-ms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elytra_ms-0.0.2.tar.gz tmp/elytra_ms-0.0.2.1.tar.gz --markdown 20230710/e/elytra-ms/0.0.2-0.0.2.1/diff.md --exclude *.pyd
+[2023-07-10 07:36:34] INFO root fetch - processPackages [sydeploy]: executing diffoscope
+[2023-07-10 07:36:34] INFO root fetch - processPackages [sydeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sydeploy-0.2.96-py3-none-any.whl.zip tmp/sydeploy-0.2.97-py3-none-any.whl.zip --markdown 20230710/s/sydeploy/0.2.96-0.2.97/diff.md --exclude *.pyd
+[2023-07-10 07:36:34] INFO root fetch - processPackages [hds-stats]: executing diffoscope
+[2023-07-10 07:36:34] INFO root fetch - processPackages [hds-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hds-stats-0.2.3.tar.gz tmp/hds-stats-0.3.0.tar.gz --markdown 20230710/h/hds-stats/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-07-10 07:36:34] INFO root fetch - processPackages [paaster]: executing diffoscope
+[2023-07-10 07:36:34] INFO root fetch - processPackages [paaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paaster-1.0.4.tar.gz tmp/paaster-1.0.5.tar.gz --markdown 20230710/p/paaster/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-10 07:36:34] INFO root fetch - processPackages [UniTok]: executing diffoscope
+[2023-07-10 07:36:34] INFO root fetch - processPackages [UniTok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UniTok-3.1.7.tar.gz tmp/UniTok-3.1.8.tar.gz --markdown 20230710/U/UniTok/3.1.7-3.1.8/diff.md --exclude *.pyd
+[2023-07-10 07:36:34] INFO root fetch - processPackages [LolzteamApi]: executing diffoscope
+[2023-07-10 07:36:34] INFO root fetch - processPackages [LolzteamApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LolzteamApi-1.0.17.tar.gz tmp/LolzteamApi-1.0.18.tar.gz --markdown 20230710/L/LolzteamApi/1.0.17-1.0.18/diff.md --exclude *.pyd
+[2023-07-10 07:36:34] INFO root fetch - processPackages [halmos]: executing diffoscope
+[2023-07-10 07:36:34] INFO root fetch - processPackages [halmos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/halmos-0.0.8.tar.gz tmp/halmos-0.0.9.tar.gz --markdown 20230710/h/halmos/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 07:36:34] INFO root fetch - processPackages [openhab-pythonrule-engine]: executing diffoscope
+[2023-07-10 07:36:34] INFO root fetch - processPackages [openhab-pythonrule-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openhab_pythonrule_engine-1.1.9.tar.gz tmp/openhab_pythonrule_engine-1.2.0.tar.gz --markdown 20230710/o/openhab-pythonrule-engine/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-07-10 07:36:36] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.9.0.tar.gz]
+[2023-07-10 07:36:36] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.9.1.tar.gz]
+[2023-07-10 07:36:36] INFO root fetch - processPackages [crazy-thursday]: Start processing: khoj-assistant
+[2023-07-10 07:36:36] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-07-10 07:36:36] INFO root fetch - processPackages [khoj-assistant]: New version: [0.7.2.dev46] Old Version: [0.7.2.dev45]
+[2023-07-10 07:36:36] INFO root fetch - processPackages [elytra-ms]: Remove: archive file [/home/abi/fetcher/tmp/elytra_ms-0.0.2.tar.gz]
+[2023-07-10 07:36:36] INFO root fetch - processPackages [elytra-ms]: Remove: archive file [/home/abi/fetcher/tmp/elytra_ms-0.0.2.1.tar.gz]
+[2023-07-10 07:36:36] INFO root fetch - main [MainThread]: End processing [elytra-ms]: success
+[2023-07-10 07:36:36] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/37/38/cee1d3e6738a8ce7dc9e7d5f71f127beeba95cc1311f8a65bff245da0654/khoj_assistant-0.7.2.dev45.tar.gz
+[2023-07-10 07:36:36] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.96-py3-none-any.whl.zip]
+[2023-07-10 07:36:36] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.97-py3-none-any.whl.zip]
+[2023-07-10 07:36:36] INFO root fetch - main [MainThread]: End processing [sydeploy]: success
+[2023-07-10 07:36:36] INFO root fetch - processPackages [paaster]: Remove: archive file [/home/abi/fetcher/tmp/paaster-1.0.4.tar.gz]
+[2023-07-10 07:36:36] INFO root fetch - processPackages [paaster]: Remove: archive file [/home/abi/fetcher/tmp/paaster-1.0.5.tar.gz]
+[2023-07-10 07:36:36] INFO root fetch - main [MainThread]: End processing [paaster]: success
+[2023-07-10 07:36:36] INFO root fetch - processPackages [openhab-pythonrule-engine]: Remove: archive file [/home/abi/fetcher/tmp/openhab_pythonrule_engine-1.1.9.tar.gz]
+[2023-07-10 07:36:36] INFO root fetch - processPackages [openhab-pythonrule-engine]: Remove: archive file [/home/abi/fetcher/tmp/openhab_pythonrule_engine-1.2.0.tar.gz]
+[2023-07-10 07:36:36] INFO root fetch - main [MainThread]: End processing [openhab-pythonrule-engine]: success
+[2023-07-10 07:36:36] INFO root fetch - processPackages [ecr-scan-notifier]: Remove: archive file [/home/abi/fetcher/tmp/ecr-scan-notifier-0.0.5.tar.gz]
+[2023-07-10 07:36:36] INFO root fetch - processPackages [ecr-scan-notifier]: Remove: archive file [/home/abi/fetcher/tmp/ecr-scan-notifier-0.0.6.tar.gz]
+[2023-07-10 07:36:36] INFO root fetch - main [MainThread]: End processing [ecr-scan-notifier]: success
+[2023-07-10 07:36:36] INFO root fetch - processPackages [UniTok]: Remove: archive file [/home/abi/fetcher/tmp/UniTok-3.1.7.tar.gz]
+[2023-07-10 07:36:36] INFO root fetch - processPackages [UniTok]: Remove: archive file [/home/abi/fetcher/tmp/UniTok-3.1.8.tar.gz]
+[2023-07-10 07:36:36] INFO root fetch - main [MainThread]: End processing [UniTok]: success
+[2023-07-10 07:36:36] INFO root fetch - processPackages [LolzteamApi]: Remove: archive file [/home/abi/fetcher/tmp/LolzteamApi-1.0.17.tar.gz]
+[2023-07-10 07:36:36] INFO root fetch - processPackages [LolzteamApi]: Remove: archive file [/home/abi/fetcher/tmp/LolzteamApi-1.0.18.tar.gz]
+[2023-07-10 07:36:36] INFO root fetch - main [MainThread]: End processing [LolzteamApi]: success
+[2023-07-10 07:36:36] INFO root fetch - processPackages [halmos]: Remove: archive file [/home/abi/fetcher/tmp/halmos-0.0.8.tar.gz]
+[2023-07-10 07:36:36] INFO root fetch - processPackages [halmos]: Remove: archive file [/home/abi/fetcher/tmp/halmos-0.0.9.tar.gz]
+[2023-07-10 07:36:36] INFO root fetch - main [MainThread]: End processing [halmos]: success
+[2023-07-10 07:36:36] INFO root fetch - processPackages [hds-stats]: Remove: archive file [/home/abi/fetcher/tmp/hds-stats-0.2.3.tar.gz]
+[2023-07-10 07:36:36] INFO root fetch - processPackages [hds-stats]: Remove: archive file [/home/abi/fetcher/tmp/hds-stats-0.3.0.tar.gz]
+[2023-07-10 07:36:36] INFO root fetch - main [MainThread]: End processing [hds-stats]: success
+[2023-07-10 07:36:37] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/6d/61/efdcd4fdc134f838747f5c45b4e304d96ecc8ad2bd3e875042586ee8c54f/khoj_assistant-0.7.2.dev46.tar.gz
+[2023-07-10 07:36:37] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-07-10 07:36:37] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.7.2.dev45.tar.gz tmp/khoj_assistant-0.7.2.dev46.tar.gz --markdown 20230710/k/khoj-assistant/0.7.2.dev45-0.7.2.dev46/diff.md --exclude *.pyd
+[2023-07-10 07:36:38] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.7.2.dev45.tar.gz]
+[2023-07-10 07:36:38] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.7.2.dev46.tar.gz]
+[2023-07-10 07:36:38] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-07-10 07:36:38] INFO root fetch - main [MainThread]: Store serial: [18826870]
