@@ -5629,3 +5629,65 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 04:29:27] INFO root fetch - processPackages [mitosheet3]: Remove: archive file [/home/abi/fetcher/tmp/mitosheet3-0.3.92.tar.gz]
 [2023-07-10 04:29:27] INFO root fetch - main [MainThread]: End processing [mitosheet3]: success
 [2023-07-10 04:29:27] INFO root fetch - main [MainThread]: Store serial: [18825792]
+[2023-07-10 04:34:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18825792]
+[2023-07-10 04:34:36] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-10 04:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dronecan
+[2023-07-10 04:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mitoinstaller
+[2023-07-10 04:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: retrotype
+[2023-07-10 04:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mitosheet3
+[2023-07-10 04:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mitosheet
+[2023-07-10 04:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dockery
+[2023-07-10 04:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eons
+[2023-07-10 04:34:36] INFO root fetch - processPackages [retrotype]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-10 04:34:36] INFO root fetch - processPackages [dockery]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-07-10 04:34:36] INFO root fetch - processPackages [mitoinstaller]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-10 04:34:36] INFO root fetch - processPackages [mitosheet3]: New version: [0.3.92] Old Version: [0.3.91]
+[2023-07-10 04:34:36] INFO root fetch - processPackages [dronecan]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-10 04:34:36] INFO root fetch - processPackages [eons]: New version: [2.6.6] Old Version: [2.6.5]
+[2023-07-10 04:34:36] INFO root fetch - processPackages [mitosheet]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-10 04:34:37] INFO root fetch - processPackages [mitoinstaller]: Downloading https://files.pythonhosted.org/packages/a9/cc/efea247a930bcdd3371e2847677b40c385cbf35a56d638639d1e8b121847/mitoinstaller-0.0.98.tar.gz
+[2023-07-10 04:34:37] INFO root fetch - processPackages [dockery]: Downloading https://files.pythonhosted.org/packages/16/07/469db2d96fc522c81bda14ad4eeb5f822c4281b805e8de4eace5b0e8aa23/dockery-0.6.1.tar.gz
+[2023-07-10 04:34:37] INFO root fetch - processPackages [mitosheet3]: Downloading https://files.pythonhosted.org/packages/6f/3c/6539541f7e98b9657a8e2532e70845cda53ecb7a601e5c97042db4d828bd/mitosheet3-0.3.91.tar.gz
+[2023-07-10 04:34:37] INFO root fetch - processPackages [retrotype]: Downloading https://files.pythonhosted.org/packages/83/f0/efbbc9cc16371ead7435f8c3395347c928bd8d1ddf4ac01bb40b5dc478da/retrotype-1.0.0.tar.gz
+[2023-07-10 04:34:37] INFO root fetch - processPackages [mitosheet]: Downloading https://files.pythonhosted.org/packages/8f/ca/cfa5a04a8bad41705bac5f84cf0c0a38c2e86f34a87c85d097c82dd321da/mitosheet-0.1.98.tar.gz
+[2023-07-10 04:34:37] INFO root fetch - processPackages [eons]: Downloading https://files.pythonhosted.org/packages/bc/ec/6fbd8f34ef0145e0ebe1e4450bd51641d0dc09459aefe4f71634f395b7c2/eons-2.6.5.tar.gz
+[2023-07-10 04:34:37] INFO root fetch - processPackages [dronecan]: Downloading https://files.pythonhosted.org/packages/92/85/be287416afa29b1a92951d2cd0fd23debf48e587800c1d5e55477fe19917/dronecan-1.0.8.tar.gz
+[2023-07-10 04:34:37] WARNING root fetch - processPackages [mitosheet]: Skipping package: exceeds size limit 14622615>=10485760
+[2023-07-10 04:34:37] INFO root fetch - main [MainThread]: End processing [mitosheet] error
+[2023-07-10 04:34:37] INFO root fetch - processPackages [dockery]: Downloading https://files.pythonhosted.org/packages/0a/df/6c67f99fea7546d90994e4e3d8d3ed31f3327455afd4358c7e2911f67074/dockery-0.7.0.tar.gz
+[2023-07-10 04:34:37] INFO root fetch - processPackages [mitosheet3]: Downloading https://files.pythonhosted.org/packages/40/75/fd3d6e8ade06ccff505fe1fdb297fcc61956799b01527fb587f77f52ef6f/mitosheet3-0.3.92.tar.gz
+[2023-07-10 04:34:37] INFO root fetch - processPackages [mitoinstaller]: Downloading https://files.pythonhosted.org/packages/90/7c/46b1dcf5bb93cdb5baf1650e82750b20b76439dbb6550a8596d1d373443a/mitoinstaller-0.0.99.tar.gz
+[2023-07-10 04:34:37] INFO root fetch - processPackages [mitosheet3]: executing diffoscope
+[2023-07-10 04:34:37] INFO root fetch - processPackages [mitosheet3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitosheet3-0.3.91.tar.gz tmp/mitosheet3-0.3.92.tar.gz --markdown 20230710/m/mitosheet3/0.3.91-0.3.92/diff.md --exclude *.pyd
+[2023-07-10 04:34:37] INFO root fetch - processPackages [retrotype]: Downloading https://files.pythonhosted.org/packages/4d/7c/91482a66ee1b169280c5e1abaf4e5adb8f5a56ca8d156b7689b142b8265c/retrotype-1.1.0.tar.gz
+[2023-07-10 04:34:37] INFO root fetch - processPackages [dockery]: executing diffoscope
+[2023-07-10 04:34:37] INFO root fetch - processPackages [dockery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dockery-0.6.1.tar.gz tmp/dockery-0.7.0.tar.gz --markdown 20230710/d/dockery/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-07-10 04:34:37] INFO root fetch - processPackages [mitoinstaller]: executing diffoscope
+[2023-07-10 04:34:37] INFO root fetch - processPackages [mitoinstaller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitoinstaller-0.0.98.tar.gz tmp/mitoinstaller-0.0.99.tar.gz --markdown 20230710/m/mitoinstaller/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-10 04:34:37] INFO root fetch - processPackages [dronecan]: Downloading https://files.pythonhosted.org/packages/96/09/6b038bd9e4dcad3f704ba680abb36e853e9de53060d94d50e6ab7aef9f59/dronecan-1.0.9.tar.gz
+[2023-07-10 04:34:37] INFO root fetch - processPackages [eons]: Downloading https://files.pythonhosted.org/packages/ad/b3/8a8cdccc8425edd72f836960dd631fab25ec3694fabac2b57ed148d72f68/eons-2.6.6.tar.gz
+[2023-07-10 04:34:37] INFO root fetch - processPackages [retrotype]: executing diffoscope
+[2023-07-10 04:34:37] INFO root fetch - processPackages [retrotype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retrotype-1.0.0.tar.gz tmp/retrotype-1.1.0.tar.gz --markdown 20230710/r/retrotype/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-10 04:34:37] INFO root fetch - processPackages [dronecan]: executing diffoscope
+[2023-07-10 04:34:37] INFO root fetch - processPackages [dronecan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dronecan-1.0.8.tar.gz tmp/dronecan-1.0.9.tar.gz --markdown 20230710/d/dronecan/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-10 04:34:37] INFO root fetch - processPackages [eons]: executing diffoscope
+[2023-07-10 04:34:37] INFO root fetch - processPackages [eons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eons-2.6.5.tar.gz tmp/eons-2.6.6.tar.gz --markdown 20230710/e/eons/2.6.5-2.6.6/diff.md --exclude *.pyd
+[2023-07-10 04:34:38] INFO root fetch - processPackages [dockery]: Remove: archive file [/home/abi/fetcher/tmp/dockery-0.6.1.tar.gz]
+[2023-07-10 04:34:38] INFO root fetch - processPackages [dockery]: Remove: archive file [/home/abi/fetcher/tmp/dockery-0.7.0.tar.gz]
+[2023-07-10 04:34:38] INFO root fetch - main [MainThread]: End processing [dockery]: success
+[2023-07-10 04:34:38] INFO root fetch - processPackages [mitoinstaller]: Remove: archive file [/home/abi/fetcher/tmp/mitoinstaller-0.0.98.tar.gz]
+[2023-07-10 04:34:38] INFO root fetch - processPackages [mitoinstaller]: Remove: archive file [/home/abi/fetcher/tmp/mitoinstaller-0.0.99.tar.gz]
+[2023-07-10 04:34:38] INFO root fetch - main [MainThread]: End processing [mitoinstaller]: success
+[2023-07-10 04:34:38] INFO root fetch - processPackages [retrotype]: Remove: archive file [/home/abi/fetcher/tmp/retrotype-1.0.0.tar.gz]
+[2023-07-10 04:34:38] INFO root fetch - processPackages [retrotype]: Remove: archive file [/home/abi/fetcher/tmp/retrotype-1.1.0.tar.gz]
+[2023-07-10 04:34:38] INFO root fetch - main [MainThread]: End processing [retrotype]: success
+[2023-07-10 04:34:38] INFO root fetch - processPackages [eons]: Remove: archive file [/home/abi/fetcher/tmp/eons-2.6.5.tar.gz]
+[2023-07-10 04:34:38] INFO root fetch - processPackages [eons]: Remove: archive file [/home/abi/fetcher/tmp/eons-2.6.6.tar.gz]
+[2023-07-10 04:34:38] INFO root fetch - main [MainThread]: End processing [eons]: success
+[2023-07-10 04:34:39] INFO root fetch - processPackages [dronecan]: Remove: archive file [/home/abi/fetcher/tmp/dronecan-1.0.8.tar.gz]
+[2023-07-10 04:34:39] INFO root fetch - processPackages [dronecan]: Remove: archive file [/home/abi/fetcher/tmp/dronecan-1.0.9.tar.gz]
+[2023-07-10 04:34:39] INFO root fetch - main [MainThread]: End processing [dronecan]: success
+[2023-07-10 04:34:40] INFO root fetch - processPackages [mitosheet3]: Remove: archive file [/home/abi/fetcher/tmp/mitosheet3-0.3.91.tar.gz]
+[2023-07-10 04:34:40] INFO root fetch - processPackages [mitosheet3]: Remove: archive file [/home/abi/fetcher/tmp/mitosheet3-0.3.92.tar.gz]
+[2023-07-10 04:34:40] INFO root fetch - main [MainThread]: End processing [mitosheet3]: success
+[2023-07-10 04:34:40] INFO root fetch - main [MainThread]: Store serial: [18825812]
