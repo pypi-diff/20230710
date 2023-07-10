@@ -16320,3 +16320,75 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 13:47:05] INFO root fetch - processPackages [bibleit]: Remove: archive file [/home/abi/fetcher/tmp/bibleit-0.0.9.tar.gz]
 [2023-07-10 13:47:05] INFO root fetch - main [MainThread]: End processing [bibleit]: success
 [2023-07-10 13:47:05] INFO root fetch - main [MainThread]: Store serial: [18830135]
+[2023-07-10 13:52:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18830135]
+[2023-07-10 13:52:14] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-10 13:52:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-llm
+[2023-07-10 13:52:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-chronos
+[2023-07-10 13:52:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-ddmrp
+[2023-07-10 13:52:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simdec
+[2023-07-10 13:52:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: context-probing
+[2023-07-10 13:52:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ML-Toolkits
+[2023-07-10 13:52:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: manabi
+[2023-07-10 13:52:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: influxdb3-python
+[2023-07-10 13:52:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oidc-drf
+[2023-07-10 13:52:15] WARNING root fetch - processPackages [ML-Toolkits]: Skipping, unable to determine old version
+[2023-07-10 13:52:15] INFO root fetch - main [MainThread]: End processing [ML-Toolkits] error
+[2023-07-10 13:52:15] INFO root fetch - processPackages [simdec]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-07-10 13:52:15] INFO root fetch - processPackages [manabi]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-10 13:52:15] WARNING root fetch - processPackages [context-probing]: Skipping, unable to determine old version
+[2023-07-10 13:52:15] INFO root fetch - main [MainThread]: End processing [context-probing] error
+[2023-07-10 13:52:15] INFO root fetch - processPackages [oidc-drf]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-10 13:52:15] INFO root fetch - processPackages [bigdl-llm]: New version: [2.4.0b20230710] Old Version: [2.4.0b20230709]
+[2023-07-10 13:52:15] INFO root fetch - processPackages [influxdb3-python]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-10 13:52:15] INFO root fetch - processPackages [odoo14-addon-ddmrp]: New version: [14.0.1.9.1.dev1] Old Version: [14.0.1.9.0]
+[2023-07-10 13:52:15] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230710] Old Version: [2.4.0b20230709]
+[2023-07-10 13:52:15] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/76/d6/71d7071e156d7be25ca57300b4ece7d773797522ab3a8cecec226ba58c83/oidc_drf-1.3.0.tar.gz
+[2023-07-10 13:52:15] INFO root fetch - processPackages [simdec]: Downloading https://files.pythonhosted.org/packages/41/88/118e4d00d4dc53a589e4daf1144ad23e220555e1aa273e26d83cc31411ec/simdec-0.0.1.tar.gz
+[2023-07-10 13:52:15] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/dc/0e/2a2de847a6ae91d9cae8e1df5b1675733a642ad1a851755573b1363228b4/bigdl_llm-2.4.0b20230709-py3-none-win_amd64.whl
+[2023-07-10 13:52:15] INFO root fetch - processPackages [manabi]: Downloading https://files.pythonhosted.org/packages/93/0c/9fca86e31c70c7fc91786cb852b1dfb733d846e5e353bf35b4177c78d32f/manabi-1.1.0.tar.gz
+[2023-07-10 13:52:15] INFO root fetch - processPackages [influxdb3-python]: Downloading https://files.pythonhosted.org/packages/61/f2/6bd2820ceae50411c03769de51113998966926f47112123c874e17be2fa7/influxdb3-python-0.1.5.tar.gz
+[2023-07-10 13:52:15] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/92/c5/5cc91e541a0dfd7e1a564e2754c43b3bf8dad8a3f510617e8a7c737dd29e/odoo14_addon_ddmrp-14.0.1.9.0-py3-none-any.whl
+[2023-07-10 13:52:15] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/da/4d/9467f66f97ea103bb82dc197b2d82743ce8e4197c0aae9ebe472cff371eb/bigdl_chronos-2.4.0b20230709-py3-none-win_amd64.whl
+[2023-07-10 13:52:15] INFO root fetch - processPackages [simdec]: Downloading https://files.pythonhosted.org/packages/c0/5e/37640707771ae50df05a07696a7dec26b6e1de9d5dcb52270c733dc50917/simdec-1.0.0.tar.gz
+[2023-07-10 13:52:15] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/78/ec/18530bf83cb9246be1b48b922f70b4cc2c60546f77efb2b235c0d522d582/oidc_drf-1.3.1.tar.gz
+[2023-07-10 13:52:15] INFO root fetch - processPackages [manabi]: Downloading https://files.pythonhosted.org/packages/f8/21/76ca17798fe1958d12cc75ca33fb02c9d3396276e01457fdfdb6aa372284/manabi-1.2.0.tar.gz
+[2023-07-10 13:52:15] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/47/ef/92f082c955236c0b4ec84ba6f9e93d400901d2b87e31d1399f2d4e310029/odoo14_addon_ddmrp-14.0.1.9.1.dev1-py3-none-any.whl
+[2023-07-10 13:52:15] INFO root fetch - processPackages [simdec]: executing diffoscope
+[2023-07-10 13:52:15] INFO root fetch - processPackages [simdec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simdec-0.0.1.tar.gz tmp/simdec-1.0.0.tar.gz --markdown 20230710/s/simdec/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-07-10 13:52:15] INFO root fetch - processPackages [influxdb3-python]: Downloading https://files.pythonhosted.org/packages/7b/71/2011d78324c0e2c63d45d40c21d3c9aba6829ebf71342aa9dc9524a2d497/influxdb3-python-0.1.6.tar.gz
+[2023-07-10 13:52:15] INFO root fetch - processPackages [oidc-drf]: executing diffoscope
+[2023-07-10 13:52:15] INFO root fetch - processPackages [oidc-drf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oidc_drf-1.3.0.tar.gz tmp/oidc_drf-1.3.1.tar.gz --markdown 20230710/o/oidc-drf/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-10 13:52:15] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/a8/1b/f16fdda7ac261eb7ccec9af4b8ece93fd3a9cd8b297c30f85846c62a8a7e/bigdl_chronos-2.4.0b20230710-py3-none-win_amd64.whl
+[2023-07-10 13:52:15] INFO root fetch - processPackages [manabi]: executing diffoscope
+[2023-07-10 13:52:15] INFO root fetch - processPackages [manabi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manabi-1.1.0.tar.gz tmp/manabi-1.2.0.tar.gz --markdown 20230710/m/manabi/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-10 13:52:16] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/92/4f/ca380728cd6edb06119f6e0258e4dbb8592a52fc6e2c0353108484100c9e/bigdl_llm-2.4.0b20230710-py3-none-win_amd64.whl
+[2023-07-10 13:52:16] INFO root fetch - processPackages [influxdb3-python]: executing diffoscope
+[2023-07-10 13:52:16] INFO root fetch - processPackages [influxdb3-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/influxdb3-python-0.1.5.tar.gz tmp/influxdb3-python-0.1.6.tar.gz --markdown 20230710/i/influxdb3-python/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-10 13:52:16] INFO root fetch - processPackages [odoo14-addon-ddmrp]: executing diffoscope
+[2023-07-10 13:52:16] INFO root fetch - processPackages [odoo14-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ddmrp-14.0.1.9.0-py3-none-any.whl.zip tmp/odoo14_addon_ddmrp-14.0.1.9.1.dev1-py3-none-any.whl.zip --markdown 20230710/o/odoo14-addon-ddmrp/14.0.1.9.0-14.0.1.9.1.dev1/diff.md --exclude *.pyd
+[2023-07-10 13:52:16] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-07-10 13:52:16] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230709-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230710-py3-none-win_amd64.whl.zip --markdown 20230710/b/bigdl-chronos/2.4.0b20230709-2.4.0b20230710/diff.md --exclude *.pyd
+[2023-07-10 13:52:16] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2023-07-10 13:52:16] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.4.0b20230709-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.4.0b20230710-py3-none-win_amd64.whl.zip --markdown 20230710/b/bigdl-llm/2.4.0b20230709-2.4.0b20230710/diff.md --exclude *.pyd
+[2023-07-10 13:52:17] INFO root fetch - processPackages [simdec]: Remove: archive file [/home/abi/fetcher/tmp/simdec-0.0.1.tar.gz]
+[2023-07-10 13:52:17] INFO root fetch - processPackages [simdec]: Remove: archive file [/home/abi/fetcher/tmp/simdec-1.0.0.tar.gz]
+[2023-07-10 13:52:17] INFO root fetch - main [MainThread]: End processing [simdec]: success
+[2023-07-10 13:52:17] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.3.0.tar.gz]
+[2023-07-10 13:52:17] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.3.1.tar.gz]
+[2023-07-10 13:52:17] INFO root fetch - main [MainThread]: End processing [oidc-drf]: success
+[2023-07-10 13:52:17] INFO root fetch - processPackages [influxdb3-python]: Remove: archive file [/home/abi/fetcher/tmp/influxdb3-python-0.1.5.tar.gz]
+[2023-07-10 13:52:17] INFO root fetch - processPackages [influxdb3-python]: Remove: archive file [/home/abi/fetcher/tmp/influxdb3-python-0.1.6.tar.gz]
+[2023-07-10 13:52:17] INFO root fetch - main [MainThread]: End processing [influxdb3-python]: success
+[2023-07-10 13:52:17] INFO root fetch - processPackages [manabi]: Remove: archive file [/home/abi/fetcher/tmp/manabi-1.1.0.tar.gz]
+[2023-07-10 13:52:17] INFO root fetch - processPackages [manabi]: Remove: archive file [/home/abi/fetcher/tmp/manabi-1.2.0.tar.gz]
+[2023-07-10 13:52:17] INFO root fetch - main [MainThread]: End processing [manabi]: success
+[2023-07-10 13:52:17] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ddmrp-14.0.1.9.0-py3-none-any.whl.zip]
+[2023-07-10 13:52:17] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ddmrp-14.0.1.9.1.dev1-py3-none-any.whl.zip]
+[2023-07-10 13:52:17] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ddmrp]: success
+[2023-07-10 13:52:18] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230709-py3-none-win_amd64.whl.zip]
+[2023-07-10 13:52:18] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230710-py3-none-win_amd64.whl.zip]
+[2023-07-10 13:52:18] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-07-10 13:52:18] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230709-py3-none-win_amd64.whl.zip]
+[2023-07-10 13:52:18] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230710-py3-none-win_amd64.whl.zip]
+[2023-07-10 13:52:18] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2023-07-10 13:52:18] INFO root fetch - main [MainThread]: Store serial: [18830167]
