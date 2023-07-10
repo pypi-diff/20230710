@@ -6602,3 +6602,87 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 05:54:01] INFO root fetch - processPackages [pydaa]: Remove: archive file [/home/abi/fetcher/tmp/pydaa-1.7.2-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-10 05:54:01] INFO root fetch - main [MainThread]: End processing [pydaa]: success
 [2023-07-10 05:54:01] INFO root fetch - main [MainThread]: Store serial: [18826196]
+[2023-07-10 05:59:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18826196]
+[2023-07-10 05:59:11] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-10 05:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sydeploy
+[2023-07-10 05:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: XPER
+[2023-07-10 05:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spatial-summarize-within
+[2023-07-10 05:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: performancetest
+[2023-07-10 05:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: summerepi2
+[2023-07-10 05:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: diz
+[2023-07-10 05:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: safeway-coupons
+[2023-07-10 05:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: antchain-ak-8146025f0aa2474a88d81f508253e029
+[2023-07-10 05:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: estival
+[2023-07-10 05:59:11] INFO root fetch - processPackages [summerepi2]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-07-10 05:59:11] INFO root fetch - processPackages [performancetest]: New version: [0.0.16] Old Version: [0.0.15]
+[2023-07-10 05:59:11] INFO root fetch - processPackages [diz]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-10 05:59:11] INFO root fetch - processPackages [XPER]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 05:59:11] INFO root fetch - processPackages [estival]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-10 05:59:11] INFO root fetch - processPackages [spatial-summarize-within]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-10 05:59:11] INFO root fetch - processPackages [antchain-ak-8146025f0aa2474a88d81f508253e029]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-10 05:59:11] INFO root fetch - processPackages [sydeploy]: New version: [0.2.91] Old Version: [0.2.9]
+[2023-07-10 05:59:11] INFO root fetch - processPackages [safeway-coupons]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-10 05:59:11] INFO root fetch - processPackages [estival]: Downloading https://files.pythonhosted.org/packages/43/44/acdd54b7c3553ca5236276442904d0fdca5f33005931f5a7192cfa8159c6/estival-0.3.1.tar.gz
+[2023-07-10 05:59:11] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/cc/3a/ade23a174e4194ca6a2faef50394f37b84a3bc0b742c0fc2ef4b2e2094be/sydeploy-0.2.9-py3-none-any.whl
+[2023-07-10 05:59:11] INFO root fetch - processPackages [summerepi2]: Downloading https://files.pythonhosted.org/packages/22/9f/bc32ba64d514ac1457f283b9492bc268c48015ac990a657094106d34c6cb/summerepi2-1.2.5.tar.gz
+[2023-07-10 05:59:11] INFO root fetch - processPackages [XPER]: Downloading https://files.pythonhosted.org/packages/ae/2d/41457ff7ff4e5347b5ad44d430579e6720ff29b66a7d06d7754ec79fb011/XPER-0.0.8.tar.gz
+[2023-07-10 05:59:11] INFO root fetch - processPackages [diz]: Downloading https://files.pythonhosted.org/packages/52/0a/7a0f3dcf5950d9723914894dc97c5a25f1a0705e401d6b5f46c07d8a8a22/diz-0.0.4.tar.gz
+[2023-07-10 05:59:11] INFO root fetch - processPackages [spatial-summarize-within]: Downloading https://files.pythonhosted.org/packages/64/fd/d33585dd4540e2e2aa7082f3e76edea504bc4352923c8525fc5e0db67203/spatial_summarize_within-1.0.2.tar.gz
+[2023-07-10 05:59:11] INFO root fetch - processPackages [performancetest]: Downloading https://files.pythonhosted.org/packages/f2/aa/665562b9906d06edf40c4b5617fad7e4b3e1709fe95c478e76e635774b09/performancetest-0.0.15.tar.gz
+[2023-07-10 05:59:11] INFO root fetch - processPackages [antchain-ak-8146025f0aa2474a88d81f508253e029]: Downloading https://files.pythonhosted.org/packages/c4/4f/c556830ec877a887c427420ba42542a4ef8cb2eabaa11091149c20fb4f32/antchain_ak_8146025f0aa2474a88d81f508253e029-1.0.1.tar.gz
+[2023-07-10 05:59:11] INFO root fetch - processPackages [safeway-coupons]: Downloading https://files.pythonhosted.org/packages/d7/af/ed18474ee5f15e91e8dd17c9a7737323093698bdef8d47e171debf58ddef/safeway_coupons-0.1.9.tar.gz
+[2023-07-10 05:59:12] INFO root fetch - processPackages [estival]: Downloading https://files.pythonhosted.org/packages/71/3d/ddc6cb6abb9945330a51964d9e6fd4e784e163ac5319a45aa63bbf6e6f1c/estival-0.3.2.tar.gz
+[2023-07-10 05:59:12] INFO root fetch - processPackages [summerepi2]: Downloading https://files.pythonhosted.org/packages/cd/f7/f5338f227856dd4fa55411528fa9858b4833bdf89454e94e700174eb3b4a/summerepi2-1.2.6.tar.gz
+[2023-07-10 05:59:12] INFO root fetch - processPackages [spatial-summarize-within]: Downloading https://files.pythonhosted.org/packages/f5/36/52ccefdad21d18e479dd215709f8314f1547ca72837b144f8f9de9f495e2/spatial_summarize_within-1.0.3.tar.gz
+[2023-07-10 05:59:12] INFO root fetch - processPackages [diz]: Downloading https://files.pythonhosted.org/packages/b1/c0/7638a3b2da03929f199cd7ce115e0a489dd36fdf700bf2c7a951ad6968ad/diz-0.0.5.tar.gz
+[2023-07-10 05:59:12] INFO root fetch - processPackages [estival]: executing diffoscope
+[2023-07-10 05:59:12] INFO root fetch - processPackages [estival]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/estival-0.3.1.tar.gz tmp/estival-0.3.2.tar.gz --markdown 20230710/e/estival/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-10 05:59:12] INFO root fetch - processPackages [XPER]: Downloading https://files.pythonhosted.org/packages/b3/4a/3e0a3cec66405593c7f44c1d2128bcd47efbd87eba31462db86569c8da19/XPER-0.0.9.tar.gz
+[2023-07-10 05:59:12] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/8a/62/ec3c69e8b010e52ee78fe93ec39627531938d50668f2092e6b9f25e421e2/sydeploy-0.2.91-py3-none-any.whl
+[2023-07-10 05:59:12] INFO root fetch - processPackages [performancetest]: Downloading https://files.pythonhosted.org/packages/09/8b/2ad82b3c6dfb6c69af3fc350af1d30313f75bad6231a932fb3634da28f08/performancetest-0.0.16.tar.gz
+[2023-07-10 05:59:12] INFO root fetch - processPackages [antchain-ak-8146025f0aa2474a88d81f508253e029]: Downloading https://files.pythonhosted.org/packages/d2/c8/0f58af19ebea5e2549ca893809fbad46571330f820742cf2b0208c533f40/antchain_ak_8146025f0aa2474a88d81f508253e029-1.0.2.tar.gz
+[2023-07-10 05:59:12] INFO root fetch - processPackages [spatial-summarize-within]: executing diffoscope
+[2023-07-10 05:59:12] INFO root fetch - processPackages [spatial-summarize-within]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spatial_summarize_within-1.0.2.tar.gz tmp/spatial_summarize_within-1.0.3.tar.gz --markdown 20230710/s/spatial-summarize-within/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-10 05:59:12] INFO root fetch - processPackages [summerepi2]: executing diffoscope
+[2023-07-10 05:59:12] INFO root fetch - processPackages [summerepi2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/summerepi2-1.2.5.tar.gz tmp/summerepi2-1.2.6.tar.gz --markdown 20230710/s/summerepi2/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-07-10 05:59:12] INFO root fetch - processPackages [safeway-coupons]: Downloading https://files.pythonhosted.org/packages/9d/bf/a299db3d34457d88ebfc1897d66f3d8f28ef83380efd242b373eeb6af836/safeway_coupons-0.2.0.tar.gz
+[2023-07-10 05:59:12] INFO root fetch - processPackages [diz]: executing diffoscope
+[2023-07-10 05:59:12] INFO root fetch - processPackages [diz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diz-0.0.4.tar.gz tmp/diz-0.0.5.tar.gz --markdown 20230710/d/diz/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-10 05:59:12] INFO root fetch - processPackages [antchain-ak-8146025f0aa2474a88d81f508253e029]: executing diffoscope
+[2023-07-10 05:59:12] INFO root fetch - processPackages [antchain-ak-8146025f0aa2474a88d81f508253e029]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_ak_8146025f0aa2474a88d81f508253e029-1.0.1.tar.gz tmp/antchain_ak_8146025f0aa2474a88d81f508253e029-1.0.2.tar.gz --markdown 20230710/a/antchain-ak-8146025f0aa2474a88d81f508253e029/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-10 05:59:12] INFO root fetch - processPackages [sydeploy]: executing diffoscope
+[2023-07-10 05:59:12] INFO root fetch - processPackages [sydeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sydeploy-0.2.9-py3-none-any.whl.zip tmp/sydeploy-0.2.91-py3-none-any.whl.zip --markdown 20230710/s/sydeploy/0.2.9-0.2.91/diff.md --exclude *.pyd
+[2023-07-10 05:59:12] INFO root fetch - processPackages [performancetest]: executing diffoscope
+[2023-07-10 05:59:12] INFO root fetch - processPackages [performancetest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/performancetest-0.0.15.tar.gz tmp/performancetest-0.0.16.tar.gz --markdown 20230710/p/performancetest/0.0.15-0.0.16/diff.md --exclude *.pyd
+[2023-07-10 05:59:12] INFO root fetch - processPackages [safeway-coupons]: executing diffoscope
+[2023-07-10 05:59:12] INFO root fetch - processPackages [safeway-coupons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safeway_coupons-0.1.9.tar.gz tmp/safeway_coupons-0.2.0.tar.gz --markdown 20230710/s/safeway-coupons/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-10 05:59:12] INFO root fetch - processPackages [XPER]: executing diffoscope
+[2023-07-10 05:59:12] INFO root fetch - processPackages [XPER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XPER-0.0.8.tar.gz tmp/XPER-0.0.9.tar.gz --markdown 20230710/X/XPER/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 05:59:13] INFO root fetch - processPackages [estival]: Remove: archive file [/home/abi/fetcher/tmp/estival-0.3.1.tar.gz]
+[2023-07-10 05:59:13] INFO root fetch - processPackages [estival]: Remove: archive file [/home/abi/fetcher/tmp/estival-0.3.2.tar.gz]
+[2023-07-10 05:59:13] INFO root fetch - main [MainThread]: End processing [estival]: success
+[2023-07-10 05:59:13] INFO root fetch - processPackages [diz]: Remove: archive file [/home/abi/fetcher/tmp/diz-0.0.4.tar.gz]
+[2023-07-10 05:59:13] INFO root fetch - processPackages [diz]: Remove: archive file [/home/abi/fetcher/tmp/diz-0.0.5.tar.gz]
+[2023-07-10 05:59:13] INFO root fetch - main [MainThread]: End processing [diz]: success
+[2023-07-10 05:59:13] INFO root fetch - processPackages [spatial-summarize-within]: Remove: archive file [/home/abi/fetcher/tmp/spatial_summarize_within-1.0.2.tar.gz]
+[2023-07-10 05:59:13] INFO root fetch - processPackages [spatial-summarize-within]: Remove: archive file [/home/abi/fetcher/tmp/spatial_summarize_within-1.0.3.tar.gz]
+[2023-07-10 05:59:13] INFO root fetch - main [MainThread]: End processing [spatial-summarize-within]: success
+[2023-07-10 05:59:13] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.9-py3-none-any.whl.zip]
+[2023-07-10 05:59:13] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.91-py3-none-any.whl.zip]
+[2023-07-10 05:59:13] INFO root fetch - main [MainThread]: End processing [sydeploy]: success
+[2023-07-10 05:59:14] INFO root fetch - processPackages [summerepi2]: Remove: archive file [/home/abi/fetcher/tmp/summerepi2-1.2.5.tar.gz]
+[2023-07-10 05:59:14] INFO root fetch - processPackages [summerepi2]: Remove: archive file [/home/abi/fetcher/tmp/summerepi2-1.2.6.tar.gz]
+[2023-07-10 05:59:14] INFO root fetch - main [MainThread]: End processing [summerepi2]: success
+[2023-07-10 05:59:14] INFO root fetch - processPackages [performancetest]: Remove: archive file [/home/abi/fetcher/tmp/performancetest-0.0.15.tar.gz]
+[2023-07-10 05:59:14] INFO root fetch - processPackages [performancetest]: Remove: archive file [/home/abi/fetcher/tmp/performancetest-0.0.16.tar.gz]
+[2023-07-10 05:59:14] INFO root fetch - main [MainThread]: End processing [performancetest]: success
+[2023-07-10 05:59:14] INFO root fetch - processPackages [antchain-ak-8146025f0aa2474a88d81f508253e029]: Remove: archive file [/home/abi/fetcher/tmp/antchain_ak_8146025f0aa2474a88d81f508253e029-1.0.1.tar.gz]
+[2023-07-10 05:59:14] INFO root fetch - processPackages [antchain-ak-8146025f0aa2474a88d81f508253e029]: Remove: archive file [/home/abi/fetcher/tmp/antchain_ak_8146025f0aa2474a88d81f508253e029-1.0.2.tar.gz]
+[2023-07-10 05:59:14] INFO root fetch - main [MainThread]: End processing [antchain-ak-8146025f0aa2474a88d81f508253e029]: success
+[2023-07-10 05:59:14] INFO root fetch - processPackages [safeway-coupons]: Remove: archive file [/home/abi/fetcher/tmp/safeway_coupons-0.1.9.tar.gz]
+[2023-07-10 05:59:14] INFO root fetch - processPackages [safeway-coupons]: Remove: archive file [/home/abi/fetcher/tmp/safeway_coupons-0.2.0.tar.gz]
+[2023-07-10 05:59:14] INFO root fetch - main [MainThread]: End processing [safeway-coupons]: success
+[2023-07-10 05:59:14] INFO root fetch - processPackages [XPER]: Remove: archive file [/home/abi/fetcher/tmp/XPER-0.0.8.tar.gz]
+[2023-07-10 05:59:14] INFO root fetch - processPackages [XPER]: Remove: archive file [/home/abi/fetcher/tmp/XPER-0.0.9.tar.gz]
+[2023-07-10 05:59:14] INFO root fetch - main [MainThread]: End processing [XPER]: success
+[2023-07-10 05:59:14] INFO root fetch - main [MainThread]: Store serial: [18826222]
