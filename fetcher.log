@@ -8429,3 +8429,33 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 07:41:50] INFO root fetch - processPackages [embykeeper]: Remove: archive file [/home/abi/fetcher/tmp/embykeeper-2.2.9.tar.gz]
 [2023-07-10 07:41:50] INFO root fetch - main [MainThread]: End processing [embykeeper]: success
 [2023-07-10 07:41:50] INFO root fetch - main [MainThread]: Store serial: [18826896]
+[2023-07-10 07:46:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18826896]
+[2023-07-10 07:46:59] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-10 07:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openhab-pythonrule-engine
+[2023-07-10 07:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gdocsync
+[2023-07-10 07:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rime-sdk
+[2023-07-10 07:46:59] INFO root fetch - processPackages [gdocsync]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-10 07:46:59] INFO root fetch - processPackages [openhab-pythonrule-engine]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-10 07:46:59] INFO root fetch - processPackages [rime-sdk]: New version: [2.2.0rc0] Old Version: [2.1.5]
+[2023-07-10 07:46:59] INFO root fetch - processPackages [gdocsync]: Downloading https://files.pythonhosted.org/packages/ce/4f/9786f76409349a004b989831cb5640b4f3f68b7e2fd2be3daf580e69993d/gdocsync-0.0.2.tar.gz
+[2023-07-10 07:46:59] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/36/c6/fbada3e670ae565661c9f111322b58ef3ce88b5363eef3472997552436f0/rime_sdk-2.1.5.tar.gz
+[2023-07-10 07:46:59] INFO root fetch - processPackages [openhab-pythonrule-engine]: Downloading https://files.pythonhosted.org/packages/15/5e/40f0554478b02327c3bfbab14da3bcb438edd9e45ab70a429ca87dddd1d3/openhab_pythonrule_engine-1.2.0.tar.gz
+[2023-07-10 07:46:59] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/d0/ff/90f672abf82ab98ec061a87b3397a46e00f723b3ba96708bc7c3faeb163a/rime_sdk-2.2.0rc0.tar.gz
+[2023-07-10 07:46:59] INFO root fetch - processPackages [gdocsync]: Downloading https://files.pythonhosted.org/packages/81/d8/db0e2fd5b760303265c2b5afd92319e64d23fe6a352e8d98c13357dbcf69/gdocsync-0.0.3.tar.gz
+[2023-07-10 07:47:00] INFO root fetch - processPackages [openhab-pythonrule-engine]: Downloading https://files.pythonhosted.org/packages/f4/78/dcb9b1ef7dda76f8fa4d9c0a376f68c04875885097d8d2161d20cdb29445/openhab_pythonrule_engine-1.2.1.tar.gz
+[2023-07-10 07:47:00] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2023-07-10 07:47:00] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.1.5.tar.gz tmp/rime_sdk-2.2.0rc0.tar.gz --markdown 20230710/r/rime-sdk/2.1.5-2.2.0rc0/diff.md --exclude *.pyd
+[2023-07-10 07:47:00] INFO root fetch - processPackages [gdocsync]: executing diffoscope
+[2023-07-10 07:47:00] INFO root fetch - processPackages [gdocsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdocsync-0.0.2.tar.gz tmp/gdocsync-0.0.3.tar.gz --markdown 20230710/g/gdocsync/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-10 07:47:00] INFO root fetch - processPackages [openhab-pythonrule-engine]: executing diffoscope
+[2023-07-10 07:47:00] INFO root fetch - processPackages [openhab-pythonrule-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openhab_pythonrule_engine-1.2.0.tar.gz tmp/openhab_pythonrule_engine-1.2.1.tar.gz --markdown 20230710/o/openhab-pythonrule-engine/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-10 07:47:00] INFO root fetch - processPackages [gdocsync]: Remove: archive file [/home/abi/fetcher/tmp/gdocsync-0.0.2.tar.gz]
+[2023-07-10 07:47:00] INFO root fetch - processPackages [gdocsync]: Remove: archive file [/home/abi/fetcher/tmp/gdocsync-0.0.3.tar.gz]
+[2023-07-10 07:47:00] INFO root fetch - main [MainThread]: End processing [gdocsync]: success
+[2023-07-10 07:47:01] INFO root fetch - processPackages [openhab-pythonrule-engine]: Remove: archive file [/home/abi/fetcher/tmp/openhab_pythonrule_engine-1.2.0.tar.gz]
+[2023-07-10 07:47:01] INFO root fetch - processPackages [openhab-pythonrule-engine]: Remove: archive file [/home/abi/fetcher/tmp/openhab_pythonrule_engine-1.2.1.tar.gz]
+[2023-07-10 07:47:01] INFO root fetch - main [MainThread]: End processing [openhab-pythonrule-engine]: success
+[2023-07-10 07:47:02] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.1.5.tar.gz]
+[2023-07-10 07:47:02] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.2.0rc0.tar.gz]
+[2023-07-10 07:47:02] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2023-07-10 07:47:02] INFO root fetch - main [MainThread]: Store serial: [18826910]
