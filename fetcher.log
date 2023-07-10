@@ -20965,3 +20965,156 @@ EOFError: EOF read where object expected
 [2023-07-10 16:46:08] INFO root fetch - processPackages [ScopeSim]: Remove: archive file [/home/abi/fetcher/tmp/ScopeSim-0.6.0.tar.gz]
 [2023-07-10 16:46:08] INFO root fetch - main [MainThread]: End processing [ScopeSim]: success
 [2023-07-10 16:46:08] INFO root fetch - main [MainThread]: Store serial: [18832092]
+[2023-07-10 16:51:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18832092]
+[2023-07-10 16:51:25] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-10 16:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kappadata
+[2023-07-10 16:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: human-protocol-sdk
+[2023-07-10 16:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scalable-pypeline
+[2023-07-10 16:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: feffery-leaflet-components
+[2023-07-10 16:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: clear-skies
+[2023-07-10 16:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cvxsimulator
+[2023-07-10 16:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mathbib
+[2023-07-10 16:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: template-pypackage-tool
+[2023-07-10 16:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: webargs
+[2023-07-10 16:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: offlinesec-client
+[2023-07-10 16:51:25] INFO root fetch - processPackages [kappadata]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-10 16:51:25] INFO root fetch - processPackages [feffery-leaflet-components]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-07-10 16:51:25] INFO root fetch - processPackages [cvxsimulator]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-10 16:51:25] WARNING root fetch - processPackages [template-pypackage-tool]: Skipping, unable to determine old version
+[2023-07-10 16:51:25] INFO root fetch - processPackages [template-pypackage-tool]: Start processing: bvhio
+[2023-07-10 16:51:25] INFO root fetch - main [MainThread]: End processing [template-pypackage-tool] error
+[2023-07-10 16:51:25] INFO root fetch - processPackages [mathbib]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-07-10 16:51:26] INFO root fetch - processPackages [scalable-pypeline]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-10 16:51:26] INFO root fetch - processPackages [offlinesec-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-10 16:51:26] INFO root fetch - processPackages [human-protocol-sdk]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-07-10 16:51:26] INFO root fetch - processPackages [clear-skies]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-10 16:51:26] INFO root fetch - processPackages [webargs]: New version: [8.3.0] Old Version: [8.2.0]
+[2023-07-10 16:51:26] INFO root fetch - processPackages [bvhio]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-10 16:51:26] INFO root fetch - processPackages [cvxsimulator]: Downloading https://files.pythonhosted.org/packages/36/42/bf732031bacb62c2e2ab6c4c582ac036f47958e9ad5e88d79d439510bb29/cvxsimulator-0.5.1.tar.gz
+[2023-07-10 16:51:26] INFO root fetch - processPackages [feffery-leaflet-components]: Downloading https://files.pythonhosted.org/packages/85/8d/beb569c772cec6651749b9372835d2fe49268ac3f8665b5546ae920a0ddf/feffery_leaflet_components-0.0.1a8.tar.gz
+[2023-07-10 16:51:26] INFO root fetch - processPackages [kappadata]: Downloading https://files.pythonhosted.org/packages/6b/10/890db484253936daa081f895376e8a4635be240d723753742627e0aa4b91/kappadata-1.3.0.tar.gz
+[2023-07-10 16:51:26] INFO root fetch - processPackages [mathbib]: Downloading https://files.pythonhosted.org/packages/61/12/99a60e1af21ff38022a0f87a4ed33753b2d5e59fb4a1448b5ac235404b79/mathbib-0.7.2.tar.gz
+[2023-07-10 16:51:26] INFO root fetch - processPackages [human-protocol-sdk]: Downloading https://files.pythonhosted.org/packages/77/18/a61675919af2e7e29e9dd0d349e9698a896071b73c4e1a8f1d2445455200/human-protocol-sdk-1.1.5.tar.gz
+[2023-07-10 16:51:26] INFO root fetch - processPackages [offlinesec-client]: Downloading https://files.pythonhosted.org/packages/41/97/ec93622565a5d91ba6b33cce290f57d0078bc58f10398db70c467801fd87/offlinesec_client-1.0.8.tar.gz
+[2023-07-10 16:51:26] INFO root fetch - processPackages [scalable-pypeline]: Downloading https://files.pythonhosted.org/packages/90/c8/0541e6a4c4b274d98ddb1d783248924f8b58e5a2af86eb52de66157b4192/scalable-pypeline-1.2.0.tar.gz
+[2023-07-10 16:51:26] INFO root fetch - processPackages [webargs]: Downloading https://files.pythonhosted.org/packages/4b/7d/fece8e6547b3edde8953b1c84a63da02e1a88efcb9d7d485e4d1b25d9c47/webargs-8.2.0.tar.gz
+[2023-07-10 16:51:26] INFO root fetch - processPackages [clear-skies]: Downloading https://files.pythonhosted.org/packages/86/c6/5fc7f98d0b986c1fc7be0ee2f9821c93bff9852a85fc1b812fd0d36b5902/clear-skies-1.8.0.tar.gz
+[2023-07-10 16:51:26] INFO root fetch - processPackages [bvhio]: Downloading https://files.pythonhosted.org/packages/24/b7/e63796a061858664990be71d7323988c90437451d8fd49cc6373ba9f3eea/bvhio-1.3.2.tar.gz
+[2023-07-10 16:51:26] INFO root fetch - processPackages [cvxsimulator]: Downloading https://files.pythonhosted.org/packages/da/88/a183cc7b8417762a414ee4bbecb3ddd570adb942998d9241822a151213ff/cvxsimulator-0.5.2.tar.gz
+[2023-07-10 16:51:26] INFO root fetch - processPackages [kappadata]: Downloading https://files.pythonhosted.org/packages/11/08/7e4b9b27ff41bc92bceb812124a12d3f2ffde285fb18e3cbf740eb88e551/kappadata-1.3.1.tar.gz
+[2023-07-10 16:51:26] INFO root fetch - processPackages [mathbib]: Downloading https://files.pythonhosted.org/packages/90/e3/a0eb8ba24f9534a460138fcd5e71a0231248a3fa30ef31447237ec607f94/mathbib-0.7.3.tar.gz
+[2023-07-10 16:51:26] INFO root fetch - processPackages [offlinesec-client]: Downloading https://files.pythonhosted.org/packages/16/f1/b37b88fa2af3d9759c4f85a7fe202d54f9a09f2b50b37753be30aba74317/offlinesec_client-1.0.9.tar.gz
+[2023-07-10 16:51:26] INFO root fetch - processPackages [feffery-leaflet-components]: Downloading https://files.pythonhosted.org/packages/54/b8/274531017bcea1a6859a25bcffb71d845ea619498d608b404aca175514a4/feffery_leaflet_components-0.0.1a9.tar.gz
+[2023-07-10 16:51:26] INFO root fetch - processPackages [cvxsimulator]: executing diffoscope
+[2023-07-10 16:51:26] INFO root fetch - processPackages [cvxsimulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvxsimulator-0.5.1.tar.gz tmp/cvxsimulator-0.5.2.tar.gz --markdown 20230710/c/cvxsimulator/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-10 16:51:26] INFO root fetch - processPackages [kappadata]: executing diffoscope
+[2023-07-10 16:51:26] INFO root fetch - processPackages [kappadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kappadata-1.3.0.tar.gz tmp/kappadata-1.3.1.tar.gz --markdown 20230710/k/kappadata/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-10 16:51:26] INFO root fetch - processPackages [bvhio]: Downloading https://files.pythonhosted.org/packages/97/41/2bac8f9f071c5eace2ac91da1966fe183d1df7ffde4a86b85a76bab31e90/bvhio-1.3.3.tar.gz
+[2023-07-10 16:51:26] INFO root fetch - processPackages [human-protocol-sdk]: Downloading https://files.pythonhosted.org/packages/f2/90/2d155dc1d0427752b5fd28924a201e1dc8013611b472bd68c185668617d1/human-protocol-sdk-1.1.6.tar.gz
+[2023-07-10 16:51:26] INFO root fetch - processPackages [webargs]: Downloading https://files.pythonhosted.org/packages/42/e7/f85cb152fcb429594f26850450c402a8cb06a6b0342f62f520e2238cd721/webargs-8.3.0.tar.gz
+[2023-07-10 16:51:26] INFO root fetch - processPackages [clear-skies]: Downloading https://files.pythonhosted.org/packages/46/ff/38dd0872e0df49c2ac34c7256f311d26a829dd84c6f09be6ed0215107767/clear-skies-1.9.0.tar.gz
+[2023-07-10 16:51:27] INFO root fetch - processPackages [offlinesec-client]: executing diffoscope
+[2023-07-10 16:51:27] INFO root fetch - processPackages [offlinesec-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/offlinesec_client-1.0.8.tar.gz tmp/offlinesec_client-1.0.9.tar.gz --markdown 20230710/o/offlinesec-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-10 16:51:27] INFO root fetch - processPackages [feffery-leaflet-components]: executing diffoscope
+[2023-07-10 16:51:27] INFO root fetch - processPackages [feffery-leaflet-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feffery_leaflet_components-0.0.1a8.tar.gz tmp/feffery_leaflet_components-0.0.1a9.tar.gz --markdown 20230710/f/feffery-leaflet-components/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-07-10 16:51:27] INFO root fetch - processPackages [scalable-pypeline]: Downloading https://files.pythonhosted.org/packages/08/46/fa09804488bba016870510a410b04430f7a44cbe42af57b888e3b947fb66/scalable-pypeline-1.2.1.tar.gz
+[2023-07-10 16:51:27] INFO root fetch - processPackages [mathbib]: executing diffoscope
+[2023-07-10 16:51:27] INFO root fetch - processPackages [mathbib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathbib-0.7.2.tar.gz tmp/mathbib-0.7.3.tar.gz --markdown 20230710/m/mathbib/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-07-10 16:51:27] INFO root fetch - processPackages [bvhio]: executing diffoscope
+[2023-07-10 16:51:27] INFO root fetch - processPackages [bvhio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bvhio-1.3.2.tar.gz tmp/bvhio-1.3.3.tar.gz --markdown 20230710/b/bvhio/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-10 16:51:27] INFO root fetch - processPackages [webargs]: executing diffoscope
+[2023-07-10 16:51:27] INFO root fetch - processPackages [webargs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webargs-8.2.0.tar.gz tmp/webargs-8.3.0.tar.gz --markdown 20230710/w/webargs/8.2.0-8.3.0/diff.md --exclude *.pyd
+[2023-07-10 16:51:27] INFO root fetch - processPackages [clear-skies]: executing diffoscope
+[2023-07-10 16:51:27] INFO root fetch - processPackages [clear-skies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clear-skies-1.8.0.tar.gz tmp/clear-skies-1.9.0.tar.gz --markdown 20230710/c/clear-skies/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-10 16:51:27] INFO root fetch - processPackages [human-protocol-sdk]: executing diffoscope
+[2023-07-10 16:51:27] INFO root fetch - processPackages [human-protocol-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/human-protocol-sdk-1.1.5.tar.gz tmp/human-protocol-sdk-1.1.6.tar.gz --markdown 20230710/h/human-protocol-sdk/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-07-10 16:51:27] INFO root fetch - processPackages [scalable-pypeline]: executing diffoscope
+[2023-07-10 16:51:27] INFO root fetch - processPackages [scalable-pypeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalable-pypeline-1.2.0.tar.gz tmp/scalable-pypeline-1.2.1.tar.gz --markdown 20230710/s/scalable-pypeline/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-10 16:51:28] INFO root fetch - processPackages [cvxsimulator]: Remove: archive file [/home/abi/fetcher/tmp/cvxsimulator-0.5.1.tar.gz]
+[2023-07-10 16:51:28] INFO root fetch - processPackages [cvxsimulator]: Remove: archive file [/home/abi/fetcher/tmp/cvxsimulator-0.5.2.tar.gz]
+[2023-07-10 16:51:28] INFO root fetch - processPackages [cvxsimulator]: Start processing: yellowbox
+[2023-07-10 16:51:28] INFO root fetch - main [MainThread]: End processing [cvxsimulator]: success
+[2023-07-10 16:51:28] INFO root fetch - processPackages [offlinesec-client]: Remove: archive file [/home/abi/fetcher/tmp/offlinesec_client-1.0.8.tar.gz]
+[2023-07-10 16:51:28] INFO root fetch - processPackages [offlinesec-client]: Remove: archive file [/home/abi/fetcher/tmp/offlinesec_client-1.0.9.tar.gz]
+[2023-07-10 16:51:28] INFO root fetch - processPackages [offlinesec-client]: Start processing: omobono
+[2023-07-10 16:51:28] INFO root fetch - main [MainThread]: End processing [offlinesec-client]: success
+[2023-07-10 16:51:28] WARNING root fetch - processPackages [omobono]: Skipping, unable to determine old version
+[2023-07-10 16:51:28] INFO root fetch - processPackages [omobono]: Start processing: logzio-python-handler
+[2023-07-10 16:51:28] INFO root fetch - main [MainThread]: End processing [omobono] error
+[2023-07-10 16:51:28] INFO root fetch - processPackages [mathbib]: Remove: archive file [/home/abi/fetcher/tmp/mathbib-0.7.2.tar.gz]
+[2023-07-10 16:51:28] INFO root fetch - processPackages [mathbib]: Remove: archive file [/home/abi/fetcher/tmp/mathbib-0.7.3.tar.gz]
+[2023-07-10 16:51:28] INFO root fetch - processPackages [mathbib]: Start processing: atomicshop
+[2023-07-10 16:51:28] INFO root fetch - main [MainThread]: End processing [mathbib]: success
+[2023-07-10 16:51:28] INFO root fetch - processPackages [logzio-python-handler]: New version: [4.1.0] Old Version: [4.0.2]
+[2023-07-10 16:51:28] INFO root fetch - processPackages [atomicshop]: New version: [1.8.4] Old Version: [1.8.3]
+[2023-07-10 16:51:28] INFO root fetch - processPackages [yellowbox]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-07-10 16:51:28] INFO root fetch - processPackages [bvhio]: Remove: archive file [/home/abi/fetcher/tmp/bvhio-1.3.2.tar.gz]
+[2023-07-10 16:51:28] INFO root fetch - processPackages [bvhio]: Remove: archive file [/home/abi/fetcher/tmp/bvhio-1.3.3.tar.gz]
+[2023-07-10 16:51:28] INFO root fetch - processPackages [bvhio]: Start processing: imephu
+[2023-07-10 16:51:28] INFO root fetch - main [MainThread]: End processing [bvhio]: success
+[2023-07-10 16:51:28] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/43/f1/ee5dfbfdc6c0a6e4189d0f567357a3fc625cc86485c84ccca647ba2be1c8/atomicshop-1.8.3-py3-none-any.whl
+[2023-07-10 16:51:28] INFO root fetch - processPackages [imephu]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-10 16:51:28] INFO root fetch - processPackages [scalable-pypeline]: Remove: archive file [/home/abi/fetcher/tmp/scalable-pypeline-1.2.0.tar.gz]
+[2023-07-10 16:51:28] INFO root fetch - processPackages [scalable-pypeline]: Remove: archive file [/home/abi/fetcher/tmp/scalable-pypeline-1.2.1.tar.gz]
+[2023-07-10 16:51:28] INFO root fetch - processPackages [scalable-pypeline]: Start processing: dknovautils
+[2023-07-10 16:51:28] INFO root fetch - main [MainThread]: End processing [scalable-pypeline]: success
+[2023-07-10 16:51:28] INFO root fetch - processPackages [logzio-python-handler]: Downloading https://files.pythonhosted.org/packages/af/04/3c7aed3e0ec95045d6837d28954430d324f886ab2db48cad723b064d3ee3/logzio-python-handler-4.0.2.tar.gz
+[2023-07-10 16:51:29] INFO root fetch - processPackages [dknovautils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 16:51:29] INFO root fetch - processPackages [yellowbox]: Downloading https://files.pythonhosted.org/packages/be/61/a04dd0eff50533523ba6bfb65ce77e5a520155b946ddd21a6c02295ca293/yellowbox-0.8.3.tar.gz
+[2023-07-10 16:51:29] INFO root fetch - processPackages [kappadata]: Remove: archive file [/home/abi/fetcher/tmp/kappadata-1.3.0.tar.gz]
+[2023-07-10 16:51:29] INFO root fetch - processPackages [kappadata]: Remove: archive file [/home/abi/fetcher/tmp/kappadata-1.3.1.tar.gz]
+[2023-07-10 16:51:29] INFO root fetch - processPackages [kappadata]: Start processing: pytest-flake8-path
+[2023-07-10 16:51:29] INFO root fetch - main [MainThread]: End processing [kappadata]: success
+[2023-07-10 16:51:29] INFO root fetch - processPackages [dknovautils]: Downloading https://files.pythonhosted.org/packages/43/90/9530dbd8dc28262f9ad2bc828e11be41c7ccc70719b738b38b110a57d47f/dknovautils-0.1.8.tar.gz
+[2023-07-10 16:51:29] INFO root fetch - processPackages [webargs]: Remove: archive file [/home/abi/fetcher/tmp/webargs-8.2.0.tar.gz]
+[2023-07-10 16:51:29] INFO root fetch - processPackages [webargs]: Remove: archive file [/home/abi/fetcher/tmp/webargs-8.3.0.tar.gz]
+[2023-07-10 16:51:29] INFO root fetch - main [MainThread]: End processing [webargs]: success
+[2023-07-10 16:51:29] INFO root fetch - processPackages [imephu]: Downloading https://files.pythonhosted.org/packages/18/f7/981d05225ef53d045005bb1b36a397823f4caf74440e6343b766f6920ee1/imephu-0.2.0.tar.gz
+[2023-07-10 16:51:29] INFO root fetch - processPackages [pytest-flake8-path]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-07-10 16:51:29] INFO root fetch - processPackages [clear-skies]: Remove: archive file [/home/abi/fetcher/tmp/clear-skies-1.8.0.tar.gz]
+[2023-07-10 16:51:29] INFO root fetch - processPackages [clear-skies]: Remove: archive file [/home/abi/fetcher/tmp/clear-skies-1.9.0.tar.gz]
+[2023-07-10 16:51:29] INFO root fetch - main [MainThread]: End processing [clear-skies]: success
+[2023-07-10 16:51:29] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/3c/52/ec14301037d62305cf14612d9fe7551fcca4601af5d6ce51168b761cc908/atomicshop-1.8.4-py3-none-any.whl
+[2023-07-10 16:51:29] INFO root fetch - processPackages [logzio-python-handler]: Downloading https://files.pythonhosted.org/packages/7a/05/1109abafe4e8aede67902c5be6189209d5b02280694792cfb90f3e5342fb/logzio-python-handler-4.1.0.tar.gz
+[2023-07-10 16:51:29] INFO root fetch - processPackages [dknovautils]: Downloading https://files.pythonhosted.org/packages/10/9d/6520e40a8f0d6aa1bb89652ccbcb7ac1403145e473f26eaeff0f0a09a866/dknovautils-0.1.9.tar.gz
+[2023-07-10 16:51:29] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2023-07-10 16:51:29] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-1.8.3-py3-none-any.whl.zip tmp/atomicshop-1.8.4-py3-none-any.whl.zip --markdown 20230710/a/atomicshop/1.8.3-1.8.4/diff.md --exclude *.pyd
+[2023-07-10 16:51:29] INFO root fetch - processPackages [yellowbox]: Downloading https://files.pythonhosted.org/packages/ba/57/5a49db21493cc7646a192de97726b143177d6474582ae1ea3f67ba06965a/yellowbox-0.8.4.tar.gz
+[2023-07-10 16:51:29] INFO root fetch - processPackages [pytest-flake8-path]: Downloading https://files.pythonhosted.org/packages/92/14/a237b5d7c5ea042bd6c23b1a0f2647454ba2d4cf21788cecb3885a95ec73/pytest_flake8_path-1.4.0.tar.gz
+[2023-07-10 16:51:29] INFO root fetch - processPackages [dknovautils]: executing diffoscope
+[2023-07-10 16:51:29] INFO root fetch - processPackages [dknovautils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dknovautils-0.1.8.tar.gz tmp/dknovautils-0.1.9.tar.gz --markdown 20230710/d/dknovautils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 16:51:29] INFO root fetch - processPackages [logzio-python-handler]: executing diffoscope
+[2023-07-10 16:51:29] INFO root fetch - processPackages [logzio-python-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logzio-python-handler-4.0.2.tar.gz tmp/logzio-python-handler-4.1.0.tar.gz --markdown 20230710/l/logzio-python-handler/4.0.2-4.1.0/diff.md --exclude *.pyd
+[2023-07-10 16:51:29] INFO root fetch - processPackages [yellowbox]: executing diffoscope
+[2023-07-10 16:51:29] INFO root fetch - processPackages [yellowbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yellowbox-0.8.3.tar.gz tmp/yellowbox-0.8.4.tar.gz --markdown 20230710/y/yellowbox/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-07-10 16:51:29] INFO root fetch - processPackages [imephu]: Downloading https://files.pythonhosted.org/packages/66/4b/d8db0cdf0b2815c0954eb5118e4b2210f3395c33a6cccc0f3b6c161cf3b2/imephu-0.2.1.tar.gz
+[2023-07-10 16:51:29] INFO root fetch - processPackages [imephu]: executing diffoscope
+[2023-07-10 16:51:29] INFO root fetch - processPackages [imephu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imephu-0.2.0.tar.gz tmp/imephu-0.2.1.tar.gz --markdown 20230710/i/imephu/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-10 16:51:29] INFO root fetch - processPackages [pytest-flake8-path]: Downloading https://files.pythonhosted.org/packages/e3/ad/202b5e890310eb7d1c4389949bb8c29dd0b2fbd8a7d34547dc6c3b1e9dad/pytest_flake8_path-1.5.0.tar.gz
+[2023-07-10 16:51:30] INFO root fetch - processPackages [pytest-flake8-path]: executing diffoscope
+[2023-07-10 16:51:30] INFO root fetch - processPackages [pytest-flake8-path]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_flake8_path-1.4.0.tar.gz tmp/pytest_flake8_path-1.5.0.tar.gz --markdown 20230710/p/pytest-flake8-path/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-07-10 16:51:30] INFO root fetch - processPackages [dknovautils]: Remove: archive file [/home/abi/fetcher/tmp/dknovautils-0.1.8.tar.gz]
+[2023-07-10 16:51:30] INFO root fetch - processPackages [dknovautils]: Remove: archive file [/home/abi/fetcher/tmp/dknovautils-0.1.9.tar.gz]
+[2023-07-10 16:51:30] INFO root fetch - main [MainThread]: End processing [dknovautils]: success
+[2023-07-10 16:51:30] INFO root fetch - processPackages [logzio-python-handler]: Remove: archive file [/home/abi/fetcher/tmp/logzio-python-handler-4.0.2.tar.gz]
+[2023-07-10 16:51:30] INFO root fetch - processPackages [logzio-python-handler]: Remove: archive file [/home/abi/fetcher/tmp/logzio-python-handler-4.1.0.tar.gz]
+[2023-07-10 16:51:30] INFO root fetch - main [MainThread]: End processing [logzio-python-handler]: success
+[2023-07-10 16:51:31] INFO root fetch - processPackages [yellowbox]: Remove: archive file [/home/abi/fetcher/tmp/yellowbox-0.8.3.tar.gz]
+[2023-07-10 16:51:31] INFO root fetch - processPackages [yellowbox]: Remove: archive file [/home/abi/fetcher/tmp/yellowbox-0.8.4.tar.gz]
+[2023-07-10 16:51:31] INFO root fetch - main [MainThread]: End processing [yellowbox]: success
+[2023-07-10 16:51:31] INFO root fetch - processPackages [pytest-flake8-path]: Remove: archive file [/home/abi/fetcher/tmp/pytest_flake8_path-1.4.0.tar.gz]
+[2023-07-10 16:51:31] INFO root fetch - processPackages [pytest-flake8-path]: Remove: archive file [/home/abi/fetcher/tmp/pytest_flake8_path-1.5.0.tar.gz]
+[2023-07-10 16:51:31] INFO root fetch - main [MainThread]: End processing [pytest-flake8-path]: success
+[2023-07-10 16:51:31] INFO root fetch - processPackages [imephu]: Remove: archive file [/home/abi/fetcher/tmp/imephu-0.2.0.tar.gz]
+[2023-07-10 16:51:31] INFO root fetch - processPackages [imephu]: Remove: archive file [/home/abi/fetcher/tmp/imephu-0.2.1.tar.gz]
+[2023-07-10 16:51:31] INFO root fetch - main [MainThread]: End processing [imephu]: success
+[2023-07-10 16:51:31] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-1.8.3-py3-none-any.whl.zip]
+[2023-07-10 16:51:31] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-1.8.4-py3-none-any.whl.zip]
+[2023-07-10 16:51:31] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2023-07-10 16:51:35] INFO root fetch - processPackages [feffery-leaflet-components]: Remove: archive file [/home/abi/fetcher/tmp/feffery_leaflet_components-0.0.1a8.tar.gz]
+[2023-07-10 16:51:35] INFO root fetch - processPackages [feffery-leaflet-components]: Remove: archive file [/home/abi/fetcher/tmp/feffery_leaflet_components-0.0.1a9.tar.gz]
+[2023-07-10 16:51:35] INFO root fetch - main [MainThread]: End processing [feffery-leaflet-components]: success
+[2023-07-10 16:52:06] INFO root fetch - processPackages [human-protocol-sdk]: Remove: archive file [/home/abi/fetcher/tmp/human-protocol-sdk-1.1.5.tar.gz]
+[2023-07-10 16:52:06] INFO root fetch - processPackages [human-protocol-sdk]: Remove: archive file [/home/abi/fetcher/tmp/human-protocol-sdk-1.1.6.tar.gz]
+[2023-07-10 16:52:06] INFO root fetch - main [MainThread]: End processing [human-protocol-sdk]: success
+[2023-07-10 16:52:06] INFO root fetch - main [MainThread]: Store serial: [18832158]
