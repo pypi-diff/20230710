@@ -5691,3 +5691,88 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 04:34:40] INFO root fetch - processPackages [mitosheet3]: Remove: archive file [/home/abi/fetcher/tmp/mitosheet3-0.3.92.tar.gz]
 [2023-07-10 04:34:40] INFO root fetch - main [MainThread]: End processing [mitosheet3]: success
 [2023-07-10 04:34:40] INFO root fetch - main [MainThread]: Store serial: [18825812]
+[2023-07-10 04:39:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18825812]
+[2023-07-10 04:39:49] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-10 04:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dronecan-gui-tool
+[2023-07-10 04:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: domain-admin
+[2023-07-10 04:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nanopb
+[2023-07-10 04:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airunner
+[2023-07-10 04:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-l4d2-server
+[2023-07-10 04:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mozartpy
+[2023-07-10 04:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: westat
+[2023-07-10 04:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pip_and_pip_tools
+[2023-07-10 04:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spotify-to-musi
+[2023-07-10 04:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aitemplates
+[2023-07-10 04:39:49] INFO root fetch - processPackages [dronecan-gui-tool]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-07-10 04:39:49] INFO root fetch - processPackages [aitemplates]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 04:39:49] INFO root fetch - processPackages [nanopb]: New version: [0.4.8.dev1411] Old Version: [0.4.8.dev1410]
+[2023-07-10 04:39:49] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: New version: [0.5.9.1] Old Version: [0.5.9]
+[2023-07-10 04:39:49] INFO root fetch - processPackages [mozartpy]: New version: [1.0.0rc2] Old Version: [1.0.0rc1]
+[2023-07-10 04:39:49] INFO root fetch - processPackages [pip_and_pip_tools]: New version: [6.6.2] Old Version: [6.14.0]
+[2023-07-10 04:39:49] INFO root fetch - processPackages [westat]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-10 04:39:49] INFO root fetch - processPackages [airunner]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-07-10 04:39:49] INFO root fetch - processPackages [domain-admin]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-10 04:39:49] INFO root fetch - processPackages [spotify-to-musi]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-10 04:39:49] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Downloading https://files.pythonhosted.org/packages/84/cc/3ee4dace8b8cf31958a53d4a6231c05dcb59dafc111337002ccf4f6985d2/nonebot_plugin_l4d2_server-0.5.9.tar.gz
+[2023-07-10 04:39:50] INFO root fetch - processPackages [dronecan-gui-tool]: Downloading https://files.pythonhosted.org/packages/39/bd/be845733ee143d721d902392777220c11c4d776f137eaa6bbe9f99f51d1d/dronecan_gui_tool-1.2.7.tar.gz
+[2023-07-10 04:39:50] INFO root fetch - processPackages [aitemplates]: Downloading https://files.pythonhosted.org/packages/c9/1f/c3b35e203e73c6562287311527c36798cf058f4542a1cc2012699e54c8f2/aitemplates-0.1.8.tar.gz
+[2023-07-10 04:39:50] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/3a/f2/23400df41503073b93b342c8dcf715e54b76978a0ee3202a010a8c6a2fe7/domain-admin-1.4.8.tar.gz
+[2023-07-10 04:39:50] INFO root fetch - processPackages [airunner]: Downloading https://files.pythonhosted.org/packages/d1/ff/a7d5596f5e6355187e1d6d68d90a54ce1cf1998d27262d8f95ff921320f0/airunner-2.0.2.tar.gz
+[2023-07-10 04:39:50] INFO root fetch - processPackages [nanopb]: Downloading https://files.pythonhosted.org/packages/5b/5c/0a75cb131afdf3eadb27f35bcc0289d899b618a12e1414d5126b300a9bb2/nanopb-0.4.8.dev1410.tar.gz
+[2023-07-10 04:39:50] INFO root fetch - processPackages [pip_and_pip_tools]: Downloading https://files.pythonhosted.org/packages/f6/13/30eee04dcb74c5193428c9c1121173be8663d02194cac989b28fc245106e/pip_and_pip_tools-6.14.0.tar.gz
+[2023-07-10 04:39:50] INFO root fetch - processPackages [westat]: Downloading https://files.pythonhosted.org/packages/96/4c/cff64548f28c85e8b48b8f7b917c0d1318edfd53ba6f8f3a28b0414de6dc/westat-0.2.4.tar.gz
+[2023-07-10 04:39:50] INFO root fetch - processPackages [spotify-to-musi]: Downloading https://files.pythonhosted.org/packages/e7/98/4b01c10713dba01dee98df97e831167274c05117bc39e8d222c949b30c78/spotify_to_musi-2.0.0.tar.gz
+[2023-07-10 04:39:50] INFO root fetch - processPackages [mozartpy]: Downloading https://files.pythonhosted.org/packages/c4/2f/8f55299afffaddda66ae4e2317a6c2c5c1e1e3579d069bee951baeaffaaf/mozartpy-1.0.0rc1-py3-none-any.whl
+[2023-07-10 04:39:50] WARNING root fetch - processPackages [westat]: Skipping package: exceeds size limit 15368555>=10485760
+[2023-07-10 04:39:50] INFO root fetch - main [MainThread]: End processing [westat] error
+[2023-07-10 04:39:50] WARNING root fetch - processPackages [mozartpy]: Skipping package: exceeds size limit 49116878>=10485760
+[2023-07-10 04:39:50] INFO root fetch - main [MainThread]: End processing [mozartpy] error
+[2023-07-10 04:39:50] INFO root fetch - processPackages [aitemplates]: Downloading https://files.pythonhosted.org/packages/31/8d/fec27aa91f72352e256e81460077515d340f93b087b2d5f555a95e17896a/aitemplates-0.1.9.tar.gz
+[2023-07-10 04:39:50] INFO root fetch - processPackages [dronecan-gui-tool]: Downloading https://files.pythonhosted.org/packages/76/95/575838ff4802232d228ab222765c6d97e957610b9b451616d619d2b461d3/dronecan_gui_tool-1.2.8.tar.gz
+[2023-07-10 04:39:50] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/c8/72/cfb118e14c007a151e3448decdf03d9f857f769cf0e5fce80f46281b8de5/domain-admin-1.4.9.tar.gz
+[2023-07-10 04:39:50] INFO root fetch - processPackages [aitemplates]: executing diffoscope
+[2023-07-10 04:39:50] INFO root fetch - processPackages [aitemplates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aitemplates-0.1.8.tar.gz tmp/aitemplates-0.1.9.tar.gz --markdown 20230710/a/aitemplates/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 04:39:50] INFO root fetch - processPackages [nanopb]: Downloading https://files.pythonhosted.org/packages/9b/8a/9bac52312c1d49367ef3b7c903eeb2f1ada31a7a3312aed6a7d60824a788/nanopb-0.4.8.dev1411.tar.gz
+[2023-07-10 04:39:50] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Downloading https://files.pythonhosted.org/packages/0b/79/3571f78bd2670c0f4a509e1795202ea8753219df2ed396e6caee42936bc6/nonebot_plugin_l4d2_server-0.5.9.1.tar.gz
+[2023-07-10 04:39:50] INFO root fetch - processPackages [airunner]: Downloading https://files.pythonhosted.org/packages/0f/28/5d6eb195531dae307a9e84b7fe1e183dd82e76c124ecaaf38cb3ceac37a2/airunner-2.0.3.tar.gz
+[2023-07-10 04:39:50] INFO root fetch - processPackages [dronecan-gui-tool]: executing diffoscope
+[2023-07-10 04:39:50] INFO root fetch - processPackages [dronecan-gui-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dronecan_gui_tool-1.2.7.tar.gz tmp/dronecan_gui_tool-1.2.8.tar.gz --markdown 20230710/d/dronecan-gui-tool/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-07-10 04:39:50] INFO root fetch - processPackages [spotify-to-musi]: Downloading https://files.pythonhosted.org/packages/6d/a7/d3a6ee40afa7626b702921e474e03809a1aa4f07d7f9596cd271c62ce7ca/spotify_to_musi-2.0.1.tar.gz
+[2023-07-10 04:39:50] INFO root fetch - processPackages [pip_and_pip_tools]: Downloading https://files.pythonhosted.org/packages/d1/ab/e5892c23c17dc2c55392186e0cb21a71f1b3acb0d8210ab5575daaf5d532/pip_and_pip_tools-6.6.2.tar.gz
+[2023-07-10 04:39:50] INFO root fetch - processPackages [nanopb]: executing diffoscope
+[2023-07-10 04:39:50] INFO root fetch - processPackages [nanopb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanopb-0.4.8.dev1410.tar.gz tmp/nanopb-0.4.8.dev1411.tar.gz --markdown 20230710/n/nanopb/0.4.8.dev1410-0.4.8.dev1411/diff.md --exclude *.pyd
+[2023-07-10 04:39:50] INFO root fetch - processPackages [airunner]: executing diffoscope
+[2023-07-10 04:39:50] INFO root fetch - processPackages [airunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airunner-2.0.2.tar.gz tmp/airunner-2.0.3.tar.gz --markdown 20230710/a/airunner/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-07-10 04:39:50] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-07-10 04:39:50] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.4.8.tar.gz tmp/domain-admin-1.4.9.tar.gz --markdown 20230710/d/domain-admin/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-10 04:39:50] INFO root fetch - processPackages [pip_and_pip_tools]: executing diffoscope
+[2023-07-10 04:39:50] INFO root fetch - processPackages [pip_and_pip_tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip_and_pip_tools-6.14.0.tar.gz tmp/pip_and_pip_tools-6.6.2.tar.gz --markdown 20230710/p/pip_and_pip_tools/6.14.0-6.6.2/diff.md --exclude *.pyd
+[2023-07-10 04:39:50] INFO root fetch - processPackages [spotify-to-musi]: executing diffoscope
+[2023-07-10 04:39:50] INFO root fetch - processPackages [spotify-to-musi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotify_to_musi-2.0.0.tar.gz tmp/spotify_to_musi-2.0.1.tar.gz --markdown 20230710/s/spotify-to-musi/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-10 04:39:51] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: executing diffoscope
+[2023-07-10 04:39:51] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_l4d2_server-0.5.9.tar.gz tmp/nonebot_plugin_l4d2_server-0.5.9.1.tar.gz --markdown 20230710/n/nonebot-plugin-l4d2-server/0.5.9-0.5.9.1/diff.md --exclude *.pyd
+[2023-07-10 04:39:51] INFO root fetch - processPackages [aitemplates]: Remove: archive file [/home/abi/fetcher/tmp/aitemplates-0.1.8.tar.gz]
+[2023-07-10 04:39:51] INFO root fetch - processPackages [aitemplates]: Remove: archive file [/home/abi/fetcher/tmp/aitemplates-0.1.9.tar.gz]
+[2023-07-10 04:39:51] INFO root fetch - main [MainThread]: End processing [aitemplates]: success
+[2023-07-10 04:39:52] INFO root fetch - processPackages [pip_and_pip_tools]: Remove: archive file [/home/abi/fetcher/tmp/pip_and_pip_tools-6.14.0.tar.gz]
+[2023-07-10 04:39:52] INFO root fetch - processPackages [pip_and_pip_tools]: Remove: archive file [/home/abi/fetcher/tmp/pip_and_pip_tools-6.6.2.tar.gz]
+[2023-07-10 04:39:52] INFO root fetch - main [MainThread]: End processing [pip_and_pip_tools]: success
+[2023-07-10 04:39:52] INFO root fetch - processPackages [spotify-to-musi]: Remove: archive file [/home/abi/fetcher/tmp/spotify_to_musi-2.0.0.tar.gz]
+[2023-07-10 04:39:52] INFO root fetch - processPackages [spotify-to-musi]: Remove: archive file [/home/abi/fetcher/tmp/spotify_to_musi-2.0.1.tar.gz]
+[2023-07-10 04:39:52] INFO root fetch - main [MainThread]: End processing [spotify-to-musi]: success
+[2023-07-10 04:39:52] INFO root fetch - processPackages [nanopb]: Remove: archive file [/home/abi/fetcher/tmp/nanopb-0.4.8.dev1410.tar.gz]
+[2023-07-10 04:39:52] INFO root fetch - processPackages [nanopb]: Remove: archive file [/home/abi/fetcher/tmp/nanopb-0.4.8.dev1411.tar.gz]
+[2023-07-10 04:39:52] INFO root fetch - main [MainThread]: End processing [nanopb]: success
+[2023-07-10 04:39:52] INFO root fetch - processPackages [airunner]: Remove: archive file [/home/abi/fetcher/tmp/airunner-2.0.2.tar.gz]
+[2023-07-10 04:39:52] INFO root fetch - processPackages [airunner]: Remove: archive file [/home/abi/fetcher/tmp/airunner-2.0.3.tar.gz]
+[2023-07-10 04:39:52] INFO root fetch - main [MainThread]: End processing [airunner]: success
+[2023-07-10 04:39:52] INFO root fetch - processPackages [dronecan-gui-tool]: Remove: archive file [/home/abi/fetcher/tmp/dronecan_gui_tool-1.2.7.tar.gz]
+[2023-07-10 04:39:52] INFO root fetch - processPackages [dronecan-gui-tool]: Remove: archive file [/home/abi/fetcher/tmp/dronecan_gui_tool-1.2.8.tar.gz]
+[2023-07-10 04:39:52] INFO root fetch - main [MainThread]: End processing [dronecan-gui-tool]: success
+[2023-07-10 04:39:52] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_l4d2_server-0.5.9.tar.gz]
+[2023-07-10 04:39:52] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_l4d2_server-0.5.9.1.tar.gz]
+[2023-07-10 04:39:52] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-l4d2-server]: success
+[2023-07-10 04:39:59] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.8.tar.gz]
+[2023-07-10 04:39:59] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.9.tar.gz]
+[2023-07-10 04:39:59] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-07-10 04:39:59] INFO root fetch - main [MainThread]: Store serial: [18825843]
