@@ -22963,3 +22963,126 @@ EOFError: EOF read where object expected
 [2023-07-10 17:48:14] INFO root fetch - processPackages [zou]: Remove: archive file [/home/abi/fetcher/tmp/zou-0.9.9-py2.py3-none-any.whl.zip]
 [2023-07-10 17:48:14] INFO root fetch - main [MainThread]: End processing [zou]: success
 [2023-07-10 17:48:14] INFO root fetch - main [MainThread]: Store serial: [18832965]
+[2023-07-10 17:53:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18832965]
+[2023-07-10 17:53:23] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-10 17:53:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-pipelines-github
+[2023-07-10 17:53:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ordotools
+[2023-07-10 17:53:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: garden-ai
+[2023-07-10 17:53:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-cp-broadcast
+[2023-07-10 17:53:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: google-cloud-datacatalog
+[2023-07-10 17:53:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ectool
+[2023-07-10 17:53:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dinamis-sdk
+[2023-07-10 17:53:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: keras-bcr
+[2023-07-10 17:53:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-blocker
+[2023-07-10 17:53:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: eummd
+[2023-07-10 17:53:23] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-10 17:53:23] INFO root fetch - processPackages [nonebot-plugin-blocker]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-10 17:53:23] INFO root fetch - processPackages [garden-ai]: New version: [0.5.0] Old Version: [0.4.4]
+[2023-07-10 17:53:23] INFO root fetch - processPackages [ordotools]: New version: [0.0.9] Old Version: [0.0.6]
+[2023-07-10 17:53:23] INFO root fetch - processPackages [keras-bcr]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-10 17:53:23] INFO root fetch - processPackages [ectool]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-07-10 17:53:23] INFO root fetch - processPackages [nonebot-plugin-blocker]: Downloading https://files.pythonhosted.org/packages/6c/1a/6dfb53b5d288ebace08b68d5f222c4bb9804f088835b49e8664f11b72b20/nonebot-plugin-blocker-0.1.1.tar.gz
+[2023-07-10 17:53:23] INFO root fetch - processPackages [google-cloud-datacatalog]: New version: [3.9.3] Old Version: [3.9.2]
+[2023-07-10 17:53:23] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: Downloading https://files.pythonhosted.org/packages/59/11/4bc7b6bca46b02203852a8006e0bfdf8012aee892bdda0fe027e36b430b4/nonebot_plugin_cp_broadcast-0.2.1.tar.gz
+[2023-07-10 17:53:23] INFO root fetch - processPackages [dinamis-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 17:53:23] WARNING root fetch - processPackages [eummd]: Skipping, unable to determine old version
+[2023-07-10 17:53:23] INFO root fetch - processPackages [eummd]: Start processing: robotcode
+[2023-07-10 17:53:23] INFO root fetch - main [MainThread]: End processing [eummd] error
+[2023-07-10 17:53:23] INFO root fetch - processPackages [garden-ai]: Downloading https://files.pythonhosted.org/packages/aa/41/f67dab7b334b9b3cb059fc2535fdfa5cd8a1cfd4717385af3074667e83b4/garden_ai-0.4.4.tar.gz
+[2023-07-10 17:53:23] INFO root fetch - processPackages [cdk-pipelines-github]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-07-10 17:53:23] INFO root fetch - processPackages [robotcode]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-10 17:53:23] INFO root fetch - processPackages [ordotools]: Downloading https://files.pythonhosted.org/packages/c1/3b/1c77a37917843f29c2dce0c870193404fbcfc4ccc45f19a7b11a2f3ff732/ordotools-0.0.6.tar.gz
+[2023-07-10 17:53:23] INFO root fetch - processPackages [robotcode]: Downloading https://files.pythonhosted.org/packages/e2/7e/d5a5aab3562b4e784a46b9a19878b348e6684bdc581650800581a7a198b8/robotcode-0.9.5.tar.gz
+[2023-07-10 17:53:23] INFO root fetch - processPackages [google-cloud-datacatalog]: Downloading https://files.pythonhosted.org/packages/a7/34/f899e7baafe26a1aa31573952853729237605b433e681cfd5db47bccb86f/google-cloud-datacatalog-3.9.2.tar.gz
+[2023-07-10 17:53:23] INFO root fetch - processPackages [keras-bcr]: Downloading https://files.pythonhosted.org/packages/12/af/76ac6333e017ce48dbdde28ce83ea0c2495083768e4522a02ea2359987bd/keras-bcr-0.2.0.tar.gz
+[2023-07-10 17:53:23] INFO root fetch - processPackages [garden-ai]: Downloading https://files.pythonhosted.org/packages/99/87/3a8a1e92a2dc8cf948878c4e9fff56a7df8649d69346ce305200c8984cd7/garden_ai-0.5.0.tar.gz
+[2023-07-10 17:53:23] INFO root fetch - processPackages [ectool]: Downloading https://files.pythonhosted.org/packages/a9/b4/e64b71886d025124d7307e9131696741d218d0d46a606dada74543a341f5/ectool-1.1.5.tar.gz
+[2023-07-10 17:53:24] INFO root fetch - processPackages [dinamis-sdk]: Downloading https://files.pythonhosted.org/packages/f4/05/802fa81e5b2dc455bb7d27c463cdaec469477ffa53555ac8b685b09dfd1d/dinamis-sdk-0.0.8.tar.gz
+[2023-07-10 17:53:24] INFO root fetch - processPackages [cdk-pipelines-github]: Downloading https://files.pythonhosted.org/packages/08/86/5ebbf404d98bafd9d0b9e06d35fc4a1997cade73d46bd14dea656afdbaa3/cdk-pipelines-github-0.4.98.tar.gz
+[2023-07-10 17:53:24] INFO root fetch - processPackages [nonebot-plugin-blocker]: Downloading https://files.pythonhosted.org/packages/7f/91/24ef9640698b13041563f502f90850070795f319d4bb86e9fb81cc813568/nonebot-plugin-blocker-0.1.2.tar.gz
+[2023-07-10 17:53:24] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: Downloading https://files.pythonhosted.org/packages/7c/94/d166fd1a40dc5c731dbb1da0dee170bd43287f52ed0a865dde9dca01e235/nonebot_plugin_cp_broadcast-0.2.2.tar.gz
+[2023-07-10 17:53:24] INFO root fetch - processPackages [ordotools]: Downloading https://files.pythonhosted.org/packages/01/db/6a489501f8c0e7ade876273a94a639d070a95fe91102e634e254e318bb3e/ordotools-0.0.9.tar.gz
+[2023-07-10 17:53:24] INFO root fetch - processPackages [robotcode]: Downloading https://files.pythonhosted.org/packages/b7/ab/96637a51c1fdfc4ddca0c75fb12ea6dca9295477c4f8a80f501ee7c3b2ec/robotcode-0.9.6.tar.gz
+[2023-07-10 17:53:24] INFO root fetch - processPackages [garden-ai]: executing diffoscope
+[2023-07-10 17:53:24] INFO root fetch - processPackages [garden-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garden_ai-0.4.4.tar.gz tmp/garden_ai-0.5.0.tar.gz --markdown 20230710/g/garden-ai/0.4.4-0.5.0/diff.md --exclude *.pyd
+[2023-07-10 17:53:24] INFO root fetch - processPackages [nonebot-plugin-blocker]: executing diffoscope
+[2023-07-10 17:53:24] INFO root fetch - processPackages [nonebot-plugin-blocker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-blocker-0.1.1.tar.gz tmp/nonebot-plugin-blocker-0.1.2.tar.gz --markdown 20230710/n/nonebot-plugin-blocker/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-10 17:53:24] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: executing diffoscope
+[2023-07-10 17:53:24] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_cp_broadcast-0.2.1.tar.gz tmp/nonebot_plugin_cp_broadcast-0.2.2.tar.gz --markdown 20230710/n/nonebot-plugin-cp-broadcast/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-10 17:53:24] INFO root fetch - processPackages [ordotools]: executing diffoscope
+[2023-07-10 17:53:24] INFO root fetch - processPackages [ordotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ordotools-0.0.6.tar.gz tmp/ordotools-0.0.9.tar.gz --markdown 20230710/o/ordotools/0.0.6-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 17:53:24] INFO root fetch - processPackages [robotcode]: executing diffoscope
+[2023-07-10 17:53:24] INFO root fetch - processPackages [robotcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode-0.9.5.tar.gz tmp/robotcode-0.9.6.tar.gz --markdown 20230710/r/robotcode/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-10 17:53:24] INFO root fetch - processPackages [ectool]: Downloading https://files.pythonhosted.org/packages/93/00/ae9e438270d25e73b2388b8910eb4df3219346b7dea805ba3065a9fee0aa/ectool-1.1.6.tar.gz
+[2023-07-10 17:53:24] INFO root fetch - processPackages [google-cloud-datacatalog]: Downloading https://files.pythonhosted.org/packages/02/de/ec6cb7fdfff4b045e05def132653c63d5e9a19cf2db85b4be7dfcc66ea60/google-cloud-datacatalog-3.9.3.tar.gz
+[2023-07-10 17:53:24] INFO root fetch - processPackages [keras-bcr]: Downloading https://files.pythonhosted.org/packages/c6/f6/c07d2e1e3f0d147571d27406b7999a256082bbcfe02642d2afa72656a8f9/keras-bcr-0.3.0.tar.gz
+[2023-07-10 17:53:24] INFO root fetch - processPackages [cdk-pipelines-github]: Downloading https://files.pythonhosted.org/packages/3f/a0/fc461f8c3f909eb20752a857e11eb54b903a8cc395cdeba4fa844b53d741/cdk-pipelines-github-0.4.99.tar.gz
+[2023-07-10 17:53:24] INFO root fetch - processPackages [dinamis-sdk]: Downloading https://files.pythonhosted.org/packages/82/c5/c0226478e0a4911853335a789765c4b0ebe2533108d4c20ca4ab6e5463a1/dinamis-sdk-0.0.9.tar.gz
+[2023-07-10 17:53:24] INFO root fetch - processPackages [google-cloud-datacatalog]: executing diffoscope
+[2023-07-10 17:53:24] INFO root fetch - processPackages [google-cloud-datacatalog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-datacatalog-3.9.2.tar.gz tmp/google-cloud-datacatalog-3.9.3.tar.gz --markdown 20230710/g/google-cloud-datacatalog/3.9.2-3.9.3/diff.md --exclude *.pyd
+[2023-07-10 17:53:24] INFO root fetch - processPackages [ectool]: executing diffoscope
+[2023-07-10 17:53:24] INFO root fetch - processPackages [ectool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ectool-1.1.5.tar.gz tmp/ectool-1.1.6.tar.gz --markdown 20230710/e/ectool/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-07-10 17:53:24] INFO root fetch - processPackages [cdk-pipelines-github]: executing diffoscope
+[2023-07-10 17:53:24] INFO root fetch - processPackages [cdk-pipelines-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-pipelines-github-0.4.98.tar.gz tmp/cdk-pipelines-github-0.4.99.tar.gz --markdown 20230710/c/cdk-pipelines-github/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-07-10 17:53:24] INFO root fetch - processPackages [keras-bcr]: executing diffoscope
+[2023-07-10 17:53:24] INFO root fetch - processPackages [keras-bcr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-bcr-0.2.0.tar.gz tmp/keras-bcr-0.3.0.tar.gz --markdown 20230710/k/keras-bcr/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-10 17:53:24] INFO root fetch - processPackages [dinamis-sdk]: executing diffoscope
+[2023-07-10 17:53:24] INFO root fetch - processPackages [dinamis-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dinamis-sdk-0.0.8.tar.gz tmp/dinamis-sdk-0.0.9.tar.gz --markdown 20230710/d/dinamis-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 17:53:25] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_cp_broadcast-0.2.1.tar.gz]
+[2023-07-10 17:53:25] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_cp_broadcast-0.2.2.tar.gz]
+[2023-07-10 17:53:25] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: Start processing: robotcode-core
+[2023-07-10 17:53:25] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-cp-broadcast]: success
+[2023-07-10 17:53:25] INFO root fetch - processPackages [robotcode-core]: New version: [0.47.0] Old Version: [0.46.0]
+[2023-07-10 17:53:25] INFO root fetch - processPackages [garden-ai]: Remove: archive file [/home/abi/fetcher/tmp/garden_ai-0.4.4.tar.gz]
+[2023-07-10 17:53:25] INFO root fetch - processPackages [garden-ai]: Remove: archive file [/home/abi/fetcher/tmp/garden_ai-0.5.0.tar.gz]
+[2023-07-10 17:53:25] INFO root fetch - processPackages [garden-ai]: Start processing: robotcode-plugin
+[2023-07-10 17:53:25] INFO root fetch - main [MainThread]: End processing [garden-ai]: success
+[2023-07-10 17:53:25] INFO root fetch - processPackages [robotcode-plugin]: New version: [0.47.0] Old Version: [0.46.0]
+[2023-07-10 17:53:25] INFO root fetch - processPackages [robotcode-core]: Downloading https://files.pythonhosted.org/packages/5e/c0/0f05264101872057ca46c3094e155d838432915e1f7faf52d3f5906160c1/robotcode_core-0.46.0.tar.gz
+[2023-07-10 17:53:25] INFO root fetch - processPackages [ordotools]: Remove: archive file [/home/abi/fetcher/tmp/ordotools-0.0.6.tar.gz]
+[2023-07-10 17:53:26] INFO root fetch - processPackages [ordotools]: Remove: archive file [/home/abi/fetcher/tmp/ordotools-0.0.9.tar.gz]
+[2023-07-10 17:53:26] INFO root fetch - processPackages [ordotools]: Start processing: robotcode-modifiers
+[2023-07-10 17:53:26] INFO root fetch - main [MainThread]: End processing [ordotools]: success
+[2023-07-10 17:53:26] INFO root fetch - processPackages [nonebot-plugin-blocker]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-blocker-0.1.1.tar.gz]
+[2023-07-10 17:53:26] INFO root fetch - processPackages [nonebot-plugin-blocker]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-blocker-0.1.2.tar.gz]
+[2023-07-10 17:53:26] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-blocker]: success
+[2023-07-10 17:53:26] INFO root fetch - processPackages [robotcode-modifiers]: New version: [0.47.0] Old Version: [0.46.0]
+[2023-07-10 17:53:26] INFO root fetch - processPackages [robotcode-plugin]: Downloading https://files.pythonhosted.org/packages/d9/14/a18e5bde99cc7d883905f1922b059a6700efd624c7f9b73a137790c9153e/robotcode_plugin-0.46.0.tar.gz
+[2023-07-10 17:53:26] INFO root fetch - processPackages [robotcode-modifiers]: Downloading https://files.pythonhosted.org/packages/90/ba/e51cdf1de11747fc891b2190f1548ede70f12dce306d6b941d4939588c7f/robotcode_modifiers-0.46.0.tar.gz
+[2023-07-10 17:53:26] INFO root fetch - processPackages [ectool]: Remove: archive file [/home/abi/fetcher/tmp/ectool-1.1.5.tar.gz]
+[2023-07-10 17:53:26] INFO root fetch - processPackages [ectool]: Remove: archive file [/home/abi/fetcher/tmp/ectool-1.1.6.tar.gz]
+[2023-07-10 17:53:26] INFO root fetch - main [MainThread]: End processing [ectool]: success
+[2023-07-10 17:53:26] INFO root fetch - processPackages [robotcode-core]: Downloading https://files.pythonhosted.org/packages/72/ca/d0f7ad7843df85c6edd7b7b88e0fbc638d8945319e02a3985f98ed1e0cab/robotcode_core-0.47.0.tar.gz
+[2023-07-10 17:53:26] INFO root fetch - processPackages [dinamis-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dinamis-sdk-0.0.8.tar.gz]
+[2023-07-10 17:53:26] INFO root fetch - processPackages [dinamis-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dinamis-sdk-0.0.9.tar.gz]
+[2023-07-10 17:53:26] INFO root fetch - main [MainThread]: End processing [dinamis-sdk]: success
+[2023-07-10 17:53:26] INFO root fetch - processPackages [robotcode-plugin]: Downloading https://files.pythonhosted.org/packages/7c/3b/96bc96f293cd3873149d86cabdd551bee2ef00a2640407fe1cdb42536bc3/robotcode_plugin-0.47.0.tar.gz
+[2023-07-10 17:53:26] INFO root fetch - processPackages [robotcode-core]: executing diffoscope
+[2023-07-10 17:53:26] INFO root fetch - processPackages [robotcode-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_core-0.46.0.tar.gz tmp/robotcode_core-0.47.0.tar.gz --markdown 20230710/r/robotcode-core/0.46.0-0.47.0/diff.md --exclude *.pyd
+[2023-07-10 17:53:26] INFO root fetch - processPackages [keras-bcr]: Remove: archive file [/home/abi/fetcher/tmp/keras-bcr-0.2.0.tar.gz]
+[2023-07-10 17:53:26] INFO root fetch - processPackages [keras-bcr]: Remove: archive file [/home/abi/fetcher/tmp/keras-bcr-0.3.0.tar.gz]
+[2023-07-10 17:53:26] INFO root fetch - main [MainThread]: End processing [keras-bcr]: success
+[2023-07-10 17:53:26] INFO root fetch - processPackages [robotcode-modifiers]: Downloading https://files.pythonhosted.org/packages/f1/db/333466b74a1f0e04173044b17f127536a85fd48530e48b7f384c86603426/robotcode_modifiers-0.47.0.tar.gz
+[2023-07-10 17:53:26] INFO root fetch - processPackages [robotcode-plugin]: executing diffoscope
+[2023-07-10 17:53:26] INFO root fetch - processPackages [robotcode-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_plugin-0.46.0.tar.gz tmp/robotcode_plugin-0.47.0.tar.gz --markdown 20230710/r/robotcode-plugin/0.46.0-0.47.0/diff.md --exclude *.pyd
+[2023-07-10 17:53:26] INFO root fetch - processPackages [cdk-pipelines-github]: Remove: archive file [/home/abi/fetcher/tmp/cdk-pipelines-github-0.4.98.tar.gz]
+[2023-07-10 17:53:26] INFO root fetch - processPackages [cdk-pipelines-github]: Remove: archive file [/home/abi/fetcher/tmp/cdk-pipelines-github-0.4.99.tar.gz]
+[2023-07-10 17:53:26] INFO root fetch - main [MainThread]: End processing [cdk-pipelines-github]: success
+[2023-07-10 17:53:26] INFO root fetch - processPackages [robotcode-modifiers]: executing diffoscope
+[2023-07-10 17:53:26] INFO root fetch - processPackages [robotcode-modifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_modifiers-0.46.0.tar.gz tmp/robotcode_modifiers-0.47.0.tar.gz --markdown 20230710/r/robotcode-modifiers/0.46.0-0.47.0/diff.md --exclude *.pyd
+[2023-07-10 17:53:26] INFO root fetch - processPackages [robotcode]: Remove: archive file [/home/abi/fetcher/tmp/robotcode-0.9.5.tar.gz]
+[2023-07-10 17:53:26] INFO root fetch - processPackages [robotcode]: Remove: archive file [/home/abi/fetcher/tmp/robotcode-0.9.6.tar.gz]
+[2023-07-10 17:53:26] INFO root fetch - main [MainThread]: End processing [robotcode]: success
+[2023-07-10 17:53:27] INFO root fetch - processPackages [google-cloud-datacatalog]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-datacatalog-3.9.2.tar.gz]
+[2023-07-10 17:53:27] INFO root fetch - processPackages [google-cloud-datacatalog]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-datacatalog-3.9.3.tar.gz]
+[2023-07-10 17:53:27] INFO root fetch - main [MainThread]: End processing [google-cloud-datacatalog]: success
+[2023-07-10 17:53:27] INFO root fetch - processPackages [robotcode-modifiers]: Remove: archive file [/home/abi/fetcher/tmp/robotcode_modifiers-0.46.0.tar.gz]
+[2023-07-10 17:53:27] INFO root fetch - processPackages [robotcode-modifiers]: Remove: archive file [/home/abi/fetcher/tmp/robotcode_modifiers-0.47.0.tar.gz]
+[2023-07-10 17:53:27] INFO root fetch - main [MainThread]: End processing [robotcode-modifiers]: success
+[2023-07-10 17:53:27] INFO root fetch - processPackages [robotcode-core]: Remove: archive file [/home/abi/fetcher/tmp/robotcode_core-0.46.0.tar.gz]
+[2023-07-10 17:53:27] INFO root fetch - processPackages [robotcode-core]: Remove: archive file [/home/abi/fetcher/tmp/robotcode_core-0.47.0.tar.gz]
+[2023-07-10 17:53:27] INFO root fetch - main [MainThread]: End processing [robotcode-core]: success
+[2023-07-10 17:53:27] INFO root fetch - processPackages [robotcode-plugin]: Remove: archive file [/home/abi/fetcher/tmp/robotcode_plugin-0.46.0.tar.gz]
+[2023-07-10 17:53:27] INFO root fetch - processPackages [robotcode-plugin]: Remove: archive file [/home/abi/fetcher/tmp/robotcode_plugin-0.47.0.tar.gz]
+[2023-07-10 17:53:27] INFO root fetch - main [MainThread]: End processing [robotcode-plugin]: success
+[2023-07-10 17:53:27] INFO root fetch - main [MainThread]: Store serial: [18833028]
