@@ -13036,3 +13036,154 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 11:18:38] INFO root fetch - processPackages [gnssrefl]: Remove: archive file [/home/abi/fetcher/tmp/gnssrefl-1.4.2.tar.gz]
 [2023-07-10 11:18:38] INFO root fetch - main [MainThread]: End processing [gnssrefl]: success
 [2023-07-10 11:18:38] INFO root fetch - main [MainThread]: Store serial: [18828839]
+[2023-07-10 11:23:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18828839]
+[2023-07-10 11:23:47] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-10 11:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datadog-checks-base
+[2023-07-10 11:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cyc-gbm
+[2023-07-10 11:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ogc-na
+[2023-07-10 11:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: curcheck-manager
+[2023-07-10 11:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datadog-checks-base
+[2023-07-10 11:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datadog-checks-dev
+[2023-07-10 11:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ytdlp-auf1
+[2023-07-10 11:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pymetagen-datalabupo
+[2023-07-10 11:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyreference
+[2023-07-10 11:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-read-only
+[2023-07-10 11:23:47] WARNING root fetch - processPackages [pymetagen-datalabupo]: Skipping, unable to determine old version
+[2023-07-10 11:23:47] INFO root fetch - processPackages [pymetagen-datalabupo]: Start processing: widgetastic.patternfly4
+[2023-07-10 11:23:47] INFO root fetch - main [MainThread]: End processing [pymetagen-datalabupo] error
+[2023-07-10 11:23:47] INFO root fetch - processPackages [datadog-checks-base]: New version: [9.6.0] Old Version: [9.5.0]
+[2023-07-10 11:23:47] INFO root fetch - processPackages [cyc-gbm]: New version: [0.0.31] Old Version: [0.0.3]
+[2023-07-10 11:23:47] INFO root fetch - processPackages [pyreference]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-07-10 11:23:47] INFO root fetch - processPackages [datadog-checks-dev]: New version: [9.4.1] Old Version: [9.4.0]
+[2023-07-10 11:23:47] INFO root fetch - processPackages [ytdlp-auf1]: New version: [2023.7.10] Old Version: [2023.1.5]
+[2023-07-10 11:23:47] INFO root fetch - processPackages [django-read-only]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-10 11:23:47] INFO root fetch - processPackages [curcheck-manager]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-10 11:23:47] INFO root fetch - processPackages [datadog-checks-base]: New version: [9.6.0] Old Version: [9.5.0]
+[2023-07-10 11:23:47] INFO root fetch - processPackages [ogc-na]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-10 11:23:47] INFO root fetch - processPackages [widgetastic.patternfly4]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-07-10 11:23:48] INFO root fetch - processPackages [pyreference]: Downloading https://files.pythonhosted.org/packages/20/41/b8fdf175aeb99410dc6495e30468f06d5222196555ae96332142fe4d5fba/pyreference-0.7.4.tar.gz
+[2023-07-10 11:23:48] INFO root fetch - processPackages [datadog-checks-base]: Downloading https://files.pythonhosted.org/packages/43/33/0058df29cd2f889d75fd3b628c22d38554e17b2fe2867f0de729b045318d/datadog_checks_base-9.5.0-py2.py3-none-any.whl
+[2023-07-10 11:23:48] INFO root fetch - processPackages [datadog-checks-base]: Downloading https://files.pythonhosted.org/packages/43/33/0058df29cd2f889d75fd3b628c22d38554e17b2fe2867f0de729b045318d/datadog_checks_base-9.5.0-py2.py3-none-any.whl
+[2023-07-10 11:23:48] INFO root fetch - processPackages [cyc-gbm]: Downloading https://files.pythonhosted.org/packages/a4/d6/7b686665c3c4860d4a87e2c83d5d6f0eb9bfdf89fc176f138330cdc4b273/cyc_gbm-0.0.3-py3-none-any.whl
+[2023-07-10 11:23:48] INFO root fetch - processPackages [django-read-only]: Downloading https://files.pythonhosted.org/packages/6a/78/de92d6bd85501ac1217b548864a5f008be0b758718beced7e755a330d83d/django-read-only-1.8.0.tar.gz
+[2023-07-10 11:23:48] INFO root fetch - processPackages [curcheck-manager]: Downloading https://files.pythonhosted.org/packages/2c/cd/9561dd148865d7cb6ec1af1bdc7198ab692092106a65eeab87922af4ecaf/curcheck_manager-1.0.2.tar.gz
+[2023-07-10 11:23:48] INFO root fetch - processPackages [ogc-na]: Downloading https://files.pythonhosted.org/packages/6f/1b/a35ac17c9749cc1cf599391bfd4eab6ac44746f5fbff779a67e85b5af2bb/ogc_na-0.2.8.tar.gz
+[2023-07-10 11:23:48] INFO root fetch - processPackages [widgetastic.patternfly4]: Downloading https://files.pythonhosted.org/packages/53/07/cc2f077df4a78960147d3dd3d38a023f01c232c7f0f03810f2696895cefc/widgetastic.patternfly4-1.2.4-py3-none-any.whl
+[2023-07-10 11:23:48] INFO root fetch - processPackages [ytdlp-auf1]: Downloading https://files.pythonhosted.org/packages/ef/06/3c3c93abd41eb7c19a845a12a89965343c3b2c133b5db840ec4ea2168a96/ytdlp_auf1-2023.1.5-py3-none-any.whl
+[2023-07-10 11:23:48] INFO root fetch - processPackages [datadog-checks-dev]: Downloading https://files.pythonhosted.org/packages/49/26/6bd1e17b0680c12cae52b0ff8ea392e8f7778df02dbb988c0eb5f2125734/datadog_checks_dev-9.4.0-py2.py3-none-any.whl
+[2023-07-10 11:23:48] INFO root fetch - processPackages [pyreference]: Downloading https://files.pythonhosted.org/packages/97/55/dc03590e6b34c0fa3c1db137e4df4d5ac9a7573ccc572bf57e6b8c6b1159/pyreference-0.7.5.tar.gz
+[2023-07-10 11:23:48] INFO root fetch - processPackages [cyc-gbm]: Downloading https://files.pythonhosted.org/packages/5e/90/889cff56940995173889cdeba27e93069109a2ef5d9e66ad1a004c4b8a36/cyc-gbm-0.0.31.tar.gz
+[2023-07-10 11:23:48] INFO root fetch - processPackages [widgetastic.patternfly4]: Downloading https://files.pythonhosted.org/packages/08/9f/8137cda11491657ca25fdecb4815fa6ef3158bb1bd98f9c79e12cd8a91e3/widgetastic.patternfly4-1.2.5-py3-none-any.whl
+[2023-07-10 11:23:48] INFO root fetch - processPackages [pyreference]: executing diffoscope
+[2023-07-10 11:23:48] INFO root fetch - processPackages [pyreference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyreference-0.7.4.tar.gz tmp/pyreference-0.7.5.tar.gz --markdown 20230710/p/pyreference/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-07-10 11:23:48] INFO root fetch - processPackages [datadog-checks-base]: Downloading https://files.pythonhosted.org/packages/85/a5/da8ded74bcfc838d21b13ba266ea5256690703a778c52ecefea6536ae83e/datadog_checks_base-9.6.0-py2.py3-none-any.whl
+[2023-07-10 11:23:48] INFO root fetch - processPackages [datadog-checks-base]: Downloading https://files.pythonhosted.org/packages/85/a5/da8ded74bcfc838d21b13ba266ea5256690703a778c52ecefea6536ae83e/datadog_checks_base-9.6.0-py2.py3-none-any.whl
+[2023-07-10 11:23:48] INFO root fetch - processPackages [curcheck-manager]: Downloading https://files.pythonhosted.org/packages/7a/2c/c0bf670cf0745de5ca4ccdf52e5d3d0edc427e2e8e528ee8c7c4f2c331ef/curcheck_manager-1.0.3.tar.gz
+[2023-07-10 11:23:48] INFO root fetch - processPackages [django-read-only]: Downloading https://files.pythonhosted.org/packages/d7/c3/bc05aa5961f1cfe17f0ad0272b9b63d45253344f6b08beef4e4b3a792bae/django-read-only-1.9.0.tar.gz
+[2023-07-10 11:23:48] INFO root fetch - processPackages [ytdlp-auf1]: Downloading https://files.pythonhosted.org/packages/1b/e5/b74f4dec674445b66d1edf1001506667feb73147e946c81416060a117415/ytdlp_auf1-2023.7.10-py3-none-any.whl
+[2023-07-10 11:23:48] INFO root fetch - processPackages [cyc-gbm]: executing diffoscope
+[2023-07-10 11:23:48] INFO root fetch - processPackages [cyc-gbm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyc_gbm-0.0.3-py3-none-any.whl.zip tmp/cyc-gbm-0.0.31.tar.gz --markdown 20230710/c/cyc-gbm/0.0.3-0.0.31/diff.md --exclude *.pyd
+[2023-07-10 11:23:48] INFO root fetch - processPackages [widgetastic.patternfly4]: executing diffoscope
+[2023-07-10 11:23:48] INFO root fetch - processPackages [widgetastic.patternfly4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/widgetastic.patternfly4-1.2.4-py3-none-any.whl.zip tmp/widgetastic.patternfly4-1.2.5-py3-none-any.whl.zip --markdown 20230710/w/widgetastic.patternfly4/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-07-10 11:23:48] INFO root fetch - processPackages [ogc-na]: Downloading https://files.pythonhosted.org/packages/08/7b/d1a326265898c9d52f3a526697d9f0f458664b7dd04889cf4b95fcae2b5a/ogc_na-0.2.9.tar.gz
+[2023-07-10 11:23:48] INFO root fetch - processPackages [curcheck-manager]: executing diffoscope
+[2023-07-10 11:23:48] INFO root fetch - processPackages [curcheck-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curcheck_manager-1.0.2.tar.gz tmp/curcheck_manager-1.0.3.tar.gz --markdown 20230710/c/curcheck-manager/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-10 11:23:48] INFO root fetch - processPackages [django-read-only]: executing diffoscope
+[2023-07-10 11:23:48] INFO root fetch - processPackages [django-read-only]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-read-only-1.8.0.tar.gz tmp/django-read-only-1.9.0.tar.gz --markdown 20230710/d/django-read-only/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-10 11:23:48] INFO root fetch - processPackages [datadog-checks-dev]: Downloading https://files.pythonhosted.org/packages/67/9e/cf9e6904ffda90c88e214ca332598c1da496273af8dcee0e340655723cbd/datadog_checks_dev-9.4.1-py2.py3-none-any.whl
+[2023-07-10 11:23:48] INFO root fetch - processPackages [datadog-checks-base]: executing diffoscope
+[2023-07-10 11:23:48] INFO root fetch - processPackages [datadog-checks-base]: executing diffoscope
+[2023-07-10 11:23:48] INFO root fetch - processPackages [datadog-checks-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datadog_checks_base-9.5.0-py2.py3-none-any.whl.zip tmp/datadog_checks_base-9.6.0-py2.py3-none-any.whl.zip --markdown 20230710/d/datadog-checks-base/9.5.0-9.6.0/diff.md --exclude *.pyd
+[2023-07-10 11:23:48] INFO root fetch - processPackages [datadog-checks-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datadog_checks_base-9.5.0-py2.py3-none-any.whl.zip tmp/datadog_checks_base-9.6.0-py2.py3-none-any.whl.zip --markdown 20230710/d/datadog-checks-base/9.5.0-9.6.0/diff.md --exclude *.pyd
+[2023-07-10 11:23:48] INFO root fetch - processPackages [ytdlp-auf1]: executing diffoscope
+[2023-07-10 11:23:48] INFO root fetch - processPackages [ytdlp-auf1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytdlp_auf1-2023.1.5-py3-none-any.whl.zip tmp/ytdlp_auf1-2023.7.10-py3-none-any.whl.zip --markdown 20230710/y/ytdlp-auf1/2023.1.5-2023.7.10/diff.md --exclude *.pyd
+[2023-07-10 11:23:49] INFO root fetch - processPackages [ogc-na]: executing diffoscope
+[2023-07-10 11:23:49] INFO root fetch - processPackages [ogc-na]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ogc_na-0.2.8.tar.gz tmp/ogc_na-0.2.9.tar.gz --markdown 20230710/o/ogc-na/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-10 11:23:49] INFO root fetch - processPackages [datadog-checks-dev]: executing diffoscope
+[2023-07-10 11:23:49] INFO root fetch - processPackages [datadog-checks-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datadog_checks_dev-9.4.0-py2.py3-none-any.whl.zip tmp/datadog_checks_dev-9.4.1-py2.py3-none-any.whl.zip --markdown 20230710/d/datadog-checks-dev/9.4.0-9.4.1/diff.md --exclude *.pyd
+[2023-07-10 11:23:50] INFO root fetch - processPackages [cyc-gbm]: Remove: archive file [/home/abi/fetcher/tmp/cyc_gbm-0.0.3-py3-none-any.whl.zip]
+[2023-07-10 11:23:50] INFO root fetch - processPackages [cyc-gbm]: Remove: archive file [/home/abi/fetcher/tmp/cyc-gbm-0.0.31.tar.gz]
+[2023-07-10 11:23:50] INFO root fetch - processPackages [cyc-gbm]: Start processing: odoo14-addon-contract-payment-mode
+[2023-07-10 11:23:50] INFO root fetch - main [MainThread]: End processing [cyc-gbm]: success
+[2023-07-10 11:23:50] INFO root fetch - processPackages [odoo14-addon-contract-payment-mode]: New version: [14.0.1.1.2] Old Version: [14.0.1.1.1]
+[2023-07-10 11:23:50] INFO root fetch - processPackages [pyreference]: Remove: archive file [/home/abi/fetcher/tmp/pyreference-0.7.4.tar.gz]
+[2023-07-10 11:23:50] INFO root fetch - processPackages [pyreference]: Remove: archive file [/home/abi/fetcher/tmp/pyreference-0.7.5.tar.gz]
+[2023-07-10 11:23:50] INFO root fetch - processPackages [pyreference]: Start processing: odoo14-addon-contract
+[2023-07-10 11:23:50] INFO root fetch - main [MainThread]: End processing [pyreference]: success
+[2023-07-10 11:23:50] INFO root fetch - processPackages [odoo14-addon-contract]: New version: [14.0.2.9.6.dev2] Old Version: [14.0.2.9.5.dev2]
+[2023-07-10 11:23:50] INFO root fetch - processPackages [odoo14-addon-contract-payment-mode]: Downloading https://files.pythonhosted.org/packages/64/60/a8fc52a69a26d3ed0b136f68edcf6d4d7ddf830a04ab6c545a6dd50aeef9/odoo14_addon_contract_payment_mode-14.0.1.1.1-py3-none-any.whl
+[2023-07-10 11:23:50] INFO root fetch - processPackages [odoo14-addon-contract]: Downloading https://files.pythonhosted.org/packages/85/80/fa2b3f96da4d6346224a003ef95545165051c2cc98d411b8865efbad54c8/odoo14_addon_contract-14.0.2.9.5.dev2-py3-none-any.whl
+[2023-07-10 11:23:50] INFO root fetch - processPackages [curcheck-manager]: Remove: archive file [/home/abi/fetcher/tmp/curcheck_manager-1.0.2.tar.gz]
+[2023-07-10 11:23:50] INFO root fetch - processPackages [curcheck-manager]: Remove: archive file [/home/abi/fetcher/tmp/curcheck_manager-1.0.3.tar.gz]
+[2023-07-10 11:23:50] INFO root fetch - processPackages [curcheck-manager]: Start processing: odoo14-addon-contract-mandate
+[2023-07-10 11:23:50] INFO root fetch - main [MainThread]: End processing [curcheck-manager]: success
+[2023-07-10 11:23:50] INFO root fetch - processPackages [ytdlp-auf1]: Remove: archive file [/home/abi/fetcher/tmp/ytdlp_auf1-2023.1.5-py3-none-any.whl.zip]
+[2023-07-10 11:23:50] INFO root fetch - processPackages [ytdlp-auf1]: Remove: archive file [/home/abi/fetcher/tmp/ytdlp_auf1-2023.7.10-py3-none-any.whl.zip]
+[2023-07-10 11:23:50] INFO root fetch - processPackages [ytdlp-auf1]: Start processing: ccdt
+[2023-07-10 11:23:50] INFO root fetch - main [MainThread]: End processing [ytdlp-auf1]: success
+[2023-07-10 11:23:50] INFO root fetch - processPackages [odoo14-addon-contract-mandate]: New version: [14.0.1.0.1.dev6] Old Version: [14.0.1.0.1.dev5]
+[2023-07-10 11:23:50] INFO root fetch - processPackages [widgetastic.patternfly4]: Remove: archive file [/home/abi/fetcher/tmp/widgetastic.patternfly4-1.2.4-py3-none-any.whl.zip]
+[2023-07-10 11:23:50] INFO root fetch - processPackages [widgetastic.patternfly4]: Remove: archive file [/home/abi/fetcher/tmp/widgetastic.patternfly4-1.2.5-py3-none-any.whl.zip]
+[2023-07-10 11:23:50] INFO root fetch - processPackages [widgetastic.patternfly4]: Start processing: django-twilio-access-token
+[2023-07-10 11:23:50] INFO root fetch - main [MainThread]: End processing [widgetastic.patternfly4]: success
+[2023-07-10 11:23:50] INFO root fetch - processPackages [ccdt]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-10 11:23:50] INFO root fetch - processPackages [django-read-only]: Remove: archive file [/home/abi/fetcher/tmp/django-read-only-1.8.0.tar.gz]
+[2023-07-10 11:23:50] INFO root fetch - processPackages [django-read-only]: Remove: archive file [/home/abi/fetcher/tmp/django-read-only-1.9.0.tar.gz]
+[2023-07-10 11:23:50] INFO root fetch - processPackages [django-read-only]: Start processing: minimus
+[2023-07-10 11:23:50] INFO root fetch - main [MainThread]: End processing [django-read-only]: success
+[2023-07-10 11:23:50] INFO root fetch - processPackages [ogc-na]: Remove: archive file [/home/abi/fetcher/tmp/ogc_na-0.2.8.tar.gz]
+[2023-07-10 11:23:50] INFO root fetch - processPackages [ogc-na]: Remove: archive file [/home/abi/fetcher/tmp/ogc_na-0.2.9.tar.gz]
+[2023-07-10 11:23:50] INFO root fetch - processPackages [odoo14-addon-contract-payment-mode]: Downloading https://files.pythonhosted.org/packages/a8/46/9556dead599e19db3736dcc9a828eab1e7e307b519c87a336e1463d88571/odoo14_addon_contract_payment_mode-14.0.1.1.2-py3-none-any.whl
+[2023-07-10 11:23:50] INFO root fetch - processPackages [ogc-na]: Start processing: c2cciutils
+[2023-07-10 11:23:50] INFO root fetch - main [MainThread]: End processing [ogc-na]: success
+[2023-07-10 11:23:50] INFO root fetch - processPackages [django-twilio-access-token]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-10 11:23:50] WARNING root fetch - processPackages [minimus]: Skipping, unable to determine old version
+[2023-07-10 11:23:50] INFO root fetch - main [MainThread]: End processing [minimus] error
+[2023-07-10 11:23:51] INFO root fetch - processPackages [odoo14-addon-contract-payment-mode]: executing diffoscope
+[2023-07-10 11:23:51] INFO root fetch - processPackages [odoo14-addon-contract-payment-mode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_contract_payment_mode-14.0.1.1.1-py3-none-any.whl.zip tmp/odoo14_addon_contract_payment_mode-14.0.1.1.2-py3-none-any.whl.zip --markdown 20230710/o/odoo14-addon-contract-payment-mode/14.0.1.1.1-14.0.1.1.2/diff.md --exclude *.pyd
+[2023-07-10 11:23:51] INFO root fetch - processPackages [odoo14-addon-contract-mandate]: Downloading https://files.pythonhosted.org/packages/9a/7f/383958e84efe7d20e077e2494c39413671ac0cb4fd89b5f683a70629fcbd/odoo14_addon_contract_mandate-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-07-10 11:23:51] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-07-10 11:23:51] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/4b/74/4580a005cbe4f6dc4e16ce3a9feb5716c4cf901b4839d048dfff2001ee3d/ccdt-2.1.8.tar.gz
+[2023-07-10 11:23:51] INFO root fetch - processPackages [django-twilio-access-token]: Downloading https://files.pythonhosted.org/packages/97/3d/78f6d06abc13959d7697cb9ee751f6b25b73089956fd43ed21026469bbe7/django-twilio-access-token-0.0.4.tar.gz
+[2023-07-10 11:23:51] INFO root fetch - processPackages [datadog-checks-base]: Remove: archive file [/home/abi/fetcher/tmp/datadog_checks_base-9.5.0-py2.py3-none-any.whl.zip]
+[2023-07-10 11:23:51] INFO root fetch - processPackages [datadog-checks-base]: Remove: archive file [/home/abi/fetcher/tmp/datadog_checks_base-9.6.0-py2.py3-none-any.whl.zip]
+[2023-07-10 11:23:51] INFO root fetch - main [MainThread]: End processing [datadog-checks-base]: success
+[2023-07-10 11:23:51] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/a1/2b/1d6a9f2a49b1cf5d42f9fe6f8498218d1aa03ad4f83547e435c82985bf79/c2cciutils-1.6.0.dev98.tar.gz
+[2023-07-10 11:23:51] INFO root fetch - main [MainThread]: End processing [datadog-checks-base]: success
+[2023-07-10 11:23:51] INFO root fetch - processPackages [odoo14-addon-contract]: Downloading https://files.pythonhosted.org/packages/4a/2f/b3078b338fe555715925883d6240b40dd6e3948466f24e9693b5bbf985c6/odoo14_addon_contract-14.0.2.9.6.dev2-py3-none-any.whl
+[2023-07-10 11:23:51] INFO root fetch - processPackages [django-twilio-access-token]: Downloading https://files.pythonhosted.org/packages/97/51/3c8c77641e7cb5637172e159a2e8491a198fef35105fb1f661138a935df2/django-twilio-access-token-0.0.5.tar.gz
+[2023-07-10 11:23:51] INFO root fetch - processPackages [odoo14-addon-contract-mandate]: Downloading https://files.pythonhosted.org/packages/4a/9c/94203766871030935d2548eb6ad8a0d5e382a9bd256680f8fb5ff6dbb0e7/odoo14_addon_contract_mandate-14.0.1.0.1.dev6-py3-none-any.whl
+[2023-07-10 11:23:51] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/d5/f2/7926d58fa933cd6e8d4ce55e92df2097043f323dba456534345b8dd248c1/ccdt-2.1.9.tar.gz
+[2023-07-10 11:23:51] INFO root fetch - processPackages [odoo14-addon-contract]: executing diffoscope
+[2023-07-10 11:23:51] INFO root fetch - processPackages [odoo14-addon-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_contract-14.0.2.9.5.dev2-py3-none-any.whl.zip tmp/odoo14_addon_contract-14.0.2.9.6.dev2-py3-none-any.whl.zip --markdown 20230710/o/odoo14-addon-contract/14.0.2.9.5.dev2-14.0.2.9.6.dev2/diff.md --exclude *.pyd
+[2023-07-10 11:23:51] INFO root fetch - processPackages [ccdt]: executing diffoscope
+[2023-07-10 11:23:51] INFO root fetch - processPackages [ccdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdt-2.1.8.tar.gz tmp/ccdt-2.1.9.tar.gz --markdown 20230710/c/ccdt/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-10 11:23:51] INFO root fetch - processPackages [django-twilio-access-token]: executing diffoscope
+[2023-07-10 11:23:51] INFO root fetch - processPackages [django-twilio-access-token]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-twilio-access-token-0.0.4.tar.gz tmp/django-twilio-access-token-0.0.5.tar.gz --markdown 20230710/d/django-twilio-access-token/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-10 11:23:51] INFO root fetch - processPackages [odoo14-addon-contract-mandate]: executing diffoscope
+[2023-07-10 11:23:51] INFO root fetch - processPackages [odoo14-addon-contract-mandate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_contract_mandate-14.0.1.0.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_contract_mandate-14.0.1.0.1.dev6-py3-none-any.whl.zip --markdown 20230710/o/odoo14-addon-contract-mandate/14.0.1.0.1.dev5-14.0.1.0.1.dev6/diff.md --exclude *.pyd
+[2023-07-10 11:23:52] INFO root fetch - processPackages [odoo14-addon-contract-payment-mode]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_contract_payment_mode-14.0.1.1.1-py3-none-any.whl.zip]
+[2023-07-10 11:23:52] INFO root fetch - processPackages [odoo14-addon-contract-payment-mode]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_contract_payment_mode-14.0.1.1.2-py3-none-any.whl.zip]
+[2023-07-10 11:23:52] INFO root fetch - main [MainThread]: End processing [odoo14-addon-contract-payment-mode]: success
+[2023-07-10 11:23:52] INFO root fetch - processPackages [datadog-checks-dev]: Remove: archive file [/home/abi/fetcher/tmp/datadog_checks_dev-9.4.0-py2.py3-none-any.whl.zip]
+[2023-07-10 11:23:52] INFO root fetch - processPackages [datadog-checks-dev]: Remove: archive file [/home/abi/fetcher/tmp/datadog_checks_dev-9.4.1-py2.py3-none-any.whl.zip]
+[2023-07-10 11:23:52] INFO root fetch - main [MainThread]: End processing [datadog-checks-dev]: success
+[2023-07-10 11:23:52] INFO root fetch - processPackages [django-twilio-access-token]: Remove: archive file [/home/abi/fetcher/tmp/django-twilio-access-token-0.0.4.tar.gz]
+[2023-07-10 11:23:52] INFO root fetch - processPackages [django-twilio-access-token]: Remove: archive file [/home/abi/fetcher/tmp/django-twilio-access-token-0.0.5.tar.gz]
+[2023-07-10 11:23:52] INFO root fetch - main [MainThread]: End processing [django-twilio-access-token]: success
+[2023-07-10 11:23:52] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.8.tar.gz]
+[2023-07-10 11:23:52] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.9.tar.gz]
+[2023-07-10 11:23:52] INFO root fetch - main [MainThread]: End processing [ccdt]: success
+[2023-07-10 11:23:52] INFO root fetch - processPackages [odoo14-addon-contract-mandate]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_contract_mandate-14.0.1.0.1.dev5-py3-none-any.whl.zip]
+[2023-07-10 11:23:52] INFO root fetch - processPackages [odoo14-addon-contract-mandate]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_contract_mandate-14.0.1.0.1.dev6-py3-none-any.whl.zip]
+[2023-07-10 11:23:52] INFO root fetch - main [MainThread]: End processing [odoo14-addon-contract-mandate]: success
+[2023-07-10 11:23:53] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/60/cb/aa51be69fbd8a1ba783878ebc042a12a61ad083b26d90280d1164ab692f5/c2cciutils-1.6.0.dev99.tar.gz
+[2023-07-10 11:23:53] INFO root fetch - processPackages [odoo14-addon-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_contract-14.0.2.9.5.dev2-py3-none-any.whl.zip]
+[2023-07-10 11:23:53] INFO root fetch - processPackages [odoo14-addon-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_contract-14.0.2.9.6.dev2-py3-none-any.whl.zip]
+[2023-07-10 11:23:53] INFO root fetch - main [MainThread]: End processing [odoo14-addon-contract]: success
+[2023-07-10 11:23:53] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-07-10 11:23:53] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230710/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-07-10 11:23:57] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev98.tar.gz]
+[2023-07-10 11:23:57] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
+[2023-07-10 11:23:57] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-07-10 11:23:57] INFO root fetch - main [MainThread]: Store serial: [18828897]
