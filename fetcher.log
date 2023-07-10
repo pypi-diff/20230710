@@ -16118,3 +16118,124 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 13:36:36] INFO root fetch - processPackages [pg-bulk-ingest]: Remove: archive file [/home/abi/fetcher/tmp/pg_bulk_ingest-0.0.9.tar.gz]
 [2023-07-10 13:36:36] INFO root fetch - main [MainThread]: End processing [pg-bulk-ingest]: success
 [2023-07-10 13:36:36] INFO root fetch - main [MainThread]: Store serial: [18830052]
+[2023-07-10 13:41:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18830052]
+[2023-07-10 13:41:45] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-10 13:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ul-py-tool
+[2023-07-10 13:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-nano
+[2023-07-10 13:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: netbox-topology-views
+[2023-07-10 13:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: robotframework-pythonlibcore
+[2023-07-10 13:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: maud-metabolic-models
+[2023-07-10 13:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ignf_gpf_api
+[2023-07-10 13:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyre-check-nightly
+[2023-07-10 13:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spaceone-repository
+[2023-07-10 13:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cstore
+[2023-07-10 13:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: scisuit
+[2023-07-10 13:41:45] INFO root fetch - processPackages [robotframework-pythonlibcore]: New version: [4.2.0] Old Version: [4.1.2]
+[2023-07-10 13:41:45] INFO root fetch - processPackages [cstore]: New version: [0.6.8] Old Version: [0.6.7]
+[2023-07-10 13:41:45] INFO root fetch - processPackages [ignf_gpf_api]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 13:41:45] INFO root fetch - processPackages [netbox-topology-views]: New version: [3.6.0b2] Old Version: [3.6.0b1]
+[2023-07-10 13:41:45] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230710] Old Version: [2.4.0b20230709]
+[2023-07-10 13:41:45] INFO root fetch - processPackages [maud-metabolic-models]: New version: [0.5.1.1] Old Version: [0.5.0.1]
+[2023-07-10 13:41:45] WARNING root fetch - processPackages [scisuit]: Skipping, unable to determine old version
+[2023-07-10 13:41:45] INFO root fetch - processPackages [scisuit]: Start processing: ul-data-aggregator-sdk
+[2023-07-10 13:41:45] INFO root fetch - main [MainThread]: End processing [scisuit] error
+[2023-07-10 13:41:45] INFO root fetch - processPackages [ul-py-tool]: New version: [1.15.21] Old Version: [1.15.20]
+[2023-07-10 13:41:45] INFO root fetch - processPackages [spaceone-repository]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-07-10 13:41:45] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101688987538] Old Version: [0.0.101688901386]
+[2023-07-10 13:41:45] INFO root fetch - processPackages [cstore]: Downloading https://files.pythonhosted.org/packages/77/6f/e1a91c126976ede9a8df3929dfd9875401ca03b6bba2cef7e7837275a59d/cstore-0.6.7.tar.gz
+[2023-07-10 13:41:45] INFO root fetch - processPackages [ul-data-aggregator-sdk]: New version: [8.9.5] Old Version: [8.11.3]
+[2023-07-10 13:41:45] INFO root fetch - processPackages [robotframework-pythonlibcore]: Downloading https://files.pythonhosted.org/packages/a2/f2/a25d9dd39982dff049c95bee52b8fb0be7ef4f3542f4e398127f25a9e4a1/robotframework-pythonlibcore-4.1.2.tar.gz
+[2023-07-10 13:41:46] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/71/b2/8f155e78da99fa618b00de702e61b07ad2766689623ee49e18e9e0f484b0/bigdl_nano-2.4.0b20230709-py3-none-win_amd64.whl
+[2023-07-10 13:41:46] INFO root fetch - processPackages [ignf_gpf_api]: Downloading https://files.pythonhosted.org/packages/be/23/0023d811927403ac054e24f73aca2f3cc07d717770a94b4770dfe960be74/ignf_gpf_api-0.1.8.tar.gz
+[2023-07-10 13:41:46] INFO root fetch - processPackages [maud-metabolic-models]: Downloading https://files.pythonhosted.org/packages/c4/bf/d1dafdcf54249e881c47ac32323dbb90d3dc2e08f48d4d8ec4c303c3f83c/maud-metabolic-models-0.5.0.1.tar.gz
+[2023-07-10 13:41:46] INFO root fetch - processPackages [netbox-topology-views]: Downloading https://files.pythonhosted.org/packages/51/7c/4c1b7b6671030bf3b3396ba5728dd17d1f27e2aaff9cd89be26d5eb71be0/netbox-topology-views-3.6.0b1.tar.gz
+[2023-07-10 13:41:46] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Downloading https://files.pythonhosted.org/packages/1c/1f/5c064f7cda53b94dd5e63d1b272ada459fa30f1c462d984cf73976294bc7/ul-data-aggregator-sdk-8.11.3.tar.gz
+[2023-07-10 13:41:46] INFO root fetch - processPackages [ul-py-tool]: Downloading https://files.pythonhosted.org/packages/50/55/382c10d7081173f5d62dc3b67bde7497c889384f1104b786b8e4855e78e0/ul-py-tool-1.15.20.tar.gz
+[2023-07-10 13:41:46] INFO root fetch - processPackages [spaceone-repository]: Downloading https://files.pythonhosted.org/packages/0c/5b/3ef4abc3acb2fefb7705a1bb9afca1085b0b831ddaf9156ca2a8be0c2e87/spaceone_repository-1.9.7.1-py3-none-any.whl
+[2023-07-10 13:41:46] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/a8/f5/0a05711410822373b9aab2ec200be54f193fb4526580253d19f76ad7be41/pyre-check-nightly-0.0.101688901386.tar.gz
+[2023-07-10 13:41:46] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23764961>=10485760
+[2023-07-10 13:41:46] INFO root fetch - processPackages [pyre-check-nightly]: Start processing: signxai
+[2023-07-10 13:41:46] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-07-10 13:41:46] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Downloading https://files.pythonhosted.org/packages/ae/cf/20ade1e77c7db14608e4ad73e7b31dd0bd4ee46d7222add34aa0ee1abaca/ul-data-aggregator-sdk-8.9.5.tar.gz
+[2023-07-10 13:41:46] INFO root fetch - processPackages [cstore]: Downloading https://files.pythonhosted.org/packages/f0/df/68ea8b2ed2f48ee5aa9cff7850e8b31393de961d62b8b8d9d1dbb23b59f2/cstore-0.6.8.tar.gz
+[2023-07-10 13:41:46] INFO root fetch - processPackages [signxai]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-10 13:41:46] INFO root fetch - processPackages [robotframework-pythonlibcore]: Downloading https://files.pythonhosted.org/packages/11/95/1f2cb678b7dc17f7eef1fe7ac42f55ba8e16be2cb897d04ae744c765977a/robotframework-pythonlibcore-4.2.0.tar.gz
+[2023-07-10 13:41:46] INFO root fetch - processPackages [maud-metabolic-models]: Downloading https://files.pythonhosted.org/packages/77/3f/eff91810c13398714da8bc0a4c21b293cfa206973eddf42716472d874293/maud-metabolic-models-0.5.1.1.tar.gz
+[2023-07-10 13:41:46] INFO root fetch - processPackages [cstore]: executing diffoscope
+[2023-07-10 13:41:46] INFO root fetch - processPackages [cstore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cstore-0.6.7.tar.gz tmp/cstore-0.6.8.tar.gz --markdown 20230710/c/cstore/0.6.7-0.6.8/diff.md --exclude *.pyd
+[2023-07-10 13:41:46] INFO root fetch - processPackages [ul-data-aggregator-sdk]: executing diffoscope
+[2023-07-10 13:41:46] INFO root fetch - processPackages [ul-data-aggregator-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ul-data-aggregator-sdk-8.11.3.tar.gz tmp/ul-data-aggregator-sdk-8.9.5.tar.gz --markdown 20230710/u/ul-data-aggregator-sdk/8.11.3-8.9.5/diff.md --exclude *.pyd
+[2023-07-10 13:41:46] INFO root fetch - processPackages [netbox-topology-views]: Downloading https://files.pythonhosted.org/packages/22/35/e2261ee92210da1b893811bc20b8cc2e29baf56554d18b550e71159955d9/netbox-topology-views-3.6.0b2.tar.gz
+[2023-07-10 13:41:46] INFO root fetch - processPackages [signxai]: Downloading https://files.pythonhosted.org/packages/dd/2d/2ba9069009552ef30db243ffb1d6eefaf1bbff723e41660eaf4d8534fb37/signxai-0.0.3.tar.gz
+[2023-07-10 13:41:46] INFO root fetch - processPackages [ul-py-tool]: Downloading https://files.pythonhosted.org/packages/d3/00/55c4d484710937b68f428a1f84601a63177f9bedf5bc157a359aa38f4f81/ul-py-tool-1.15.21.tar.gz
+[2023-07-10 13:41:46] INFO root fetch - processPackages [robotframework-pythonlibcore]: executing diffoscope
+[2023-07-10 13:41:46] INFO root fetch - processPackages [robotframework-pythonlibcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-pythonlibcore-4.1.2.tar.gz tmp/robotframework-pythonlibcore-4.2.0.tar.gz --markdown 20230710/r/robotframework-pythonlibcore/4.1.2-4.2.0/diff.md --exclude *.pyd
+[2023-07-10 13:41:46] INFO root fetch - processPackages [spaceone-repository]: Downloading https://files.pythonhosted.org/packages/15/4a/2de661da258ab7143f3a7e26a6226f76f03b84a178b745fcf9f33209acc3/spaceone_repository-1.9.7rc1-py3-none-any.whl
+[2023-07-10 13:41:46] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/64/7f/4dad8d8da3f121ee839108ad10ae5886787b0f283addf80e30f0b8ff8645/bigdl_nano-2.4.0b20230710-py3-none-win_amd64.whl
+[2023-07-10 13:41:46] INFO root fetch - processPackages [maud-metabolic-models]: executing diffoscope
+[2023-07-10 13:41:46] INFO root fetch - processPackages [maud-metabolic-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maud-metabolic-models-0.5.0.1.tar.gz tmp/maud-metabolic-models-0.5.1.1.tar.gz --markdown 20230710/m/maud-metabolic-models/0.5.0.1-0.5.1.1/diff.md --exclude *.pyd
+[2023-07-10 13:41:46] INFO root fetch - processPackages [netbox-topology-views]: executing diffoscope
+[2023-07-10 13:41:46] INFO root fetch - processPackages [netbox-topology-views]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-topology-views-3.6.0b1.tar.gz tmp/netbox-topology-views-3.6.0b2.tar.gz --markdown 20230710/n/netbox-topology-views/3.6.0b1-3.6.0b2/diff.md --exclude *.pyd
+[2023-07-10 13:41:46] INFO root fetch - processPackages [ul-py-tool]: executing diffoscope
+[2023-07-10 13:41:46] INFO root fetch - processPackages [ul-py-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ul-py-tool-1.15.20.tar.gz tmp/ul-py-tool-1.15.21.tar.gz --markdown 20230710/u/ul-py-tool/1.15.20-1.15.21/diff.md --exclude *.pyd
+[2023-07-10 13:41:47] INFO root fetch - processPackages [spaceone-repository]: executing diffoscope
+[2023-07-10 13:41:47] INFO root fetch - processPackages [spaceone-repository]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_repository-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_repository-1.9.7rc1-py3-none-any.whl.zip --markdown 20230710/s/spaceone-repository/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-07-10 13:41:47] INFO root fetch - processPackages [signxai]: Downloading https://files.pythonhosted.org/packages/a9/e1/c22b884112e493d713fa21260bb7b7c7ac6c56d5b5d5bf0f13647293cbb7/signxai-0.0.4.tar.gz
+[2023-07-10 13:41:47] INFO root fetch - processPackages [ignf_gpf_api]: Downloading https://files.pythonhosted.org/packages/ab/be/22d056e6e233dc04ef013ed5a469d64554cc4bdf2562565885aa671bd194/ignf_gpf_api-0.1.9.tar.gz
+[2023-07-10 13:41:47] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-07-10 13:41:47] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230709-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230710-py3-none-win_amd64.whl.zip --markdown 20230710/b/bigdl-nano/2.4.0b20230709-2.4.0b20230710/diff.md --exclude *.pyd
+[2023-07-10 13:41:47] INFO root fetch - processPackages [ignf_gpf_api]: executing diffoscope
+[2023-07-10 13:41:47] INFO root fetch - processPackages [ignf_gpf_api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ignf_gpf_api-0.1.8.tar.gz tmp/ignf_gpf_api-0.1.9.tar.gz --markdown 20230710/i/ignf_gpf_api/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 13:41:48] INFO root fetch - processPackages [cstore]: Remove: archive file [/home/abi/fetcher/tmp/cstore-0.6.7.tar.gz]
+[2023-07-10 13:41:48] INFO root fetch - processPackages [cstore]: Remove: archive file [/home/abi/fetcher/tmp/cstore-0.6.8.tar.gz]
+[2023-07-10 13:41:48] INFO root fetch - processPackages [cstore]: Start processing: yokkaichi
+[2023-07-10 13:41:48] INFO root fetch - main [MainThread]: End processing [cstore]: success
+[2023-07-10 13:41:48] INFO root fetch - processPackages [signxai]: executing diffoscope
+[2023-07-10 13:41:48] INFO root fetch - processPackages [signxai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signxai-0.0.3.tar.gz tmp/signxai-0.0.4.tar.gz --markdown 20230710/s/signxai/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-10 13:41:48] INFO root fetch - processPackages [yokkaichi]: New version: [1.5.1] Old Version: [1.5]
+[2023-07-10 13:41:48] INFO root fetch - processPackages [yokkaichi]: Downloading https://files.pythonhosted.org/packages/c3/d7/b857c6489978942f8fa103d2f133bfece44cc3eb189a4d38bda34e86365c/yokkaichi-1.5.tar.gz
+[2023-07-10 13:41:48] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ul-data-aggregator-sdk-8.11.3.tar.gz]
+[2023-07-10 13:41:48] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ul-data-aggregator-sdk-8.9.5.tar.gz]
+[2023-07-10 13:41:48] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Start processing: tigerblog
+[2023-07-10 13:41:48] INFO root fetch - main [MainThread]: End processing [ul-data-aggregator-sdk]: success
+[2023-07-10 13:41:48] INFO root fetch - processPackages [robotframework-pythonlibcore]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-pythonlibcore-4.1.2.tar.gz]
+[2023-07-10 13:41:48] INFO root fetch - processPackages [robotframework-pythonlibcore]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-pythonlibcore-4.2.0.tar.gz]
+[2023-07-10 13:41:48] INFO root fetch - processPackages [robotframework-pythonlibcore]: Start processing: ML-Code
+[2023-07-10 13:41:48] INFO root fetch - main [MainThread]: End processing [robotframework-pythonlibcore]: success
+[2023-07-10 13:41:48] INFO root fetch - processPackages [yokkaichi]: executing diffoscope
+[2023-07-10 13:41:48] INFO root fetch - processPackages [yokkaichi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yokkaichi-1.5.tar.gz tmp/yokkaichi-1.5.1.tar.gz --markdown 20230710/y/yokkaichi/1.5-1.5.1/diff.md --exclude *.pyd
+[2023-07-10 13:41:48] WARNING root fetch - processPackages [ML-Code]: Skipping, unable to determine old version
+[2023-07-10 13:41:48] INFO root fetch - main [MainThread]: End processing [ML-Code] error
+[2023-07-10 13:41:48] INFO root fetch - processPackages [tigerblog]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 13:41:48] INFO root fetch - processPackages [ul-py-tool]: Remove: archive file [/home/abi/fetcher/tmp/ul-py-tool-1.15.20.tar.gz]
+[2023-07-10 13:41:48] INFO root fetch - processPackages [ul-py-tool]: Remove: archive file [/home/abi/fetcher/tmp/ul-py-tool-1.15.21.tar.gz]
+[2023-07-10 13:41:48] INFO root fetch - main [MainThread]: End processing [ul-py-tool]: success
+[2023-07-10 13:41:48] INFO root fetch - processPackages [maud-metabolic-models]: Remove: archive file [/home/abi/fetcher/tmp/maud-metabolic-models-0.5.0.1.tar.gz]
+[2023-07-10 13:41:48] INFO root fetch - processPackages [maud-metabolic-models]: Remove: archive file [/home/abi/fetcher/tmp/maud-metabolic-models-0.5.1.1.tar.gz]
+[2023-07-10 13:41:48] INFO root fetch - main [MainThread]: End processing [maud-metabolic-models]: success
+[2023-07-10 13:41:48] INFO root fetch - processPackages [spaceone-repository]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_repository-1.9.7.1-py3-none-any.whl.zip]
+[2023-07-10 13:41:48] INFO root fetch - processPackages [spaceone-repository]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_repository-1.9.7rc1-py3-none-any.whl.zip]
+[2023-07-10 13:41:48] INFO root fetch - main [MainThread]: End processing [spaceone-repository]: success
+[2023-07-10 13:41:48] INFO root fetch - processPackages [tigerblog]: Downloading https://files.pythonhosted.org/packages/b6/1f/99d7e75f9b78c86b5f90c83a64054f3b34b5ed82c7a78bf51fd86095cdba/tigerblog-0.1.8.tar.gz
+[2023-07-10 13:41:49] INFO root fetch - processPackages [tigerblog]: Downloading https://files.pythonhosted.org/packages/23/0f/6a0fec4b0cafdb4c1a9f42e93a456ba31cc0b1f03240d001db6df1ee282d/tigerblog-0.1.9.tar.gz
+[2023-07-10 13:41:49] INFO root fetch - processPackages [tigerblog]: executing diffoscope
+[2023-07-10 13:41:49] INFO root fetch - processPackages [tigerblog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tigerblog-0.1.8.tar.gz tmp/tigerblog-0.1.9.tar.gz --markdown 20230710/t/tigerblog/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 13:41:49] INFO root fetch - processPackages [yokkaichi]: Remove: archive file [/home/abi/fetcher/tmp/yokkaichi-1.5.tar.gz]
+[2023-07-10 13:41:49] INFO root fetch - processPackages [yokkaichi]: Remove: archive file [/home/abi/fetcher/tmp/yokkaichi-1.5.1.tar.gz]
+[2023-07-10 13:41:49] INFO root fetch - main [MainThread]: End processing [yokkaichi]: success
+[2023-07-10 13:41:50] INFO root fetch - processPackages [signxai]: Remove: archive file [/home/abi/fetcher/tmp/signxai-0.0.3.tar.gz]
+[2023-07-10 13:41:50] INFO root fetch - processPackages [signxai]: Remove: archive file [/home/abi/fetcher/tmp/signxai-0.0.4.tar.gz]
+[2023-07-10 13:41:50] INFO root fetch - main [MainThread]: End processing [signxai]: success
+[2023-07-10 13:41:50] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230709-py3-none-win_amd64.whl.zip]
+[2023-07-10 13:41:50] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230710-py3-none-win_amd64.whl.zip]
+[2023-07-10 13:41:50] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-07-10 13:41:50] INFO root fetch - processPackages [ignf_gpf_api]: Remove: archive file [/home/abi/fetcher/tmp/ignf_gpf_api-0.1.8.tar.gz]
+[2023-07-10 13:41:50] INFO root fetch - processPackages [ignf_gpf_api]: Remove: archive file [/home/abi/fetcher/tmp/ignf_gpf_api-0.1.9.tar.gz]
+[2023-07-10 13:41:50] INFO root fetch - main [MainThread]: End processing [ignf_gpf_api]: success
+[2023-07-10 13:41:50] INFO root fetch - processPackages [tigerblog]: Remove: archive file [/home/abi/fetcher/tmp/tigerblog-0.1.8.tar.gz]
+[2023-07-10 13:41:50] INFO root fetch - processPackages [tigerblog]: Remove: archive file [/home/abi/fetcher/tmp/tigerblog-0.1.9.tar.gz]
+[2023-07-10 13:41:50] INFO root fetch - main [MainThread]: End processing [tigerblog]: success
+[2023-07-10 13:41:52] INFO root fetch - processPackages [netbox-topology-views]: Remove: archive file [/home/abi/fetcher/tmp/netbox-topology-views-3.6.0b1.tar.gz]
+[2023-07-10 13:41:52] INFO root fetch - processPackages [netbox-topology-views]: Remove: archive file [/home/abi/fetcher/tmp/netbox-topology-views-3.6.0b2.tar.gz]
+[2023-07-10 13:41:52] INFO root fetch - main [MainThread]: End processing [netbox-topology-views]: success
+[2023-07-10 13:41:52] INFO root fetch - main [MainThread]: Store serial: [18830104]
