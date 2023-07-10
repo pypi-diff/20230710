@@ -11178,3 +11178,65 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 10:09:54] INFO root fetch - processPackages [tungstenkit]: Remove: archive file [/home/abi/fetcher/tmp/tungstenkit-0.1.2.post6.tar.gz]
 [2023-07-10 10:09:54] INFO root fetch - main [MainThread]: End processing [tungstenkit]: success
 [2023-07-10 10:09:54] INFO root fetch - main [MainThread]: Store serial: [18828055]
+[2023-07-10 10:14:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18828055]
+[2023-07-10 10:15:04] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-10 10:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lyhapi-autotest
+[2023-07-10 10:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: androtools
+[2023-07-10 10:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SRgenerator
+[2023-07-10 10:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: frontegg
+[2023-07-10 10:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: keras-hrp
+[2023-07-10 10:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dingtalk-stream
+[2023-07-10 10:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: junoplatform
+[2023-07-10 10:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zenroom
+[2023-07-10 10:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: weaviate-client
+[2023-07-10 10:15:04] INFO root fetch - processPackages [frontegg]: New version: [2.1.7] Old Version: [2.1.6]
+[2023-07-10 10:15:05] INFO root fetch - processPackages [androtools]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-10 10:15:05] INFO root fetch - processPackages [keras-hrp]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-10 10:15:05] INFO root fetch - processPackages [dingtalk-stream]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-10 10:15:05] WARNING root fetch - processPackages [SRgenerator]: Skipping, unable to determine old version
+[2023-07-10 10:15:05] INFO root fetch - main [MainThread]: End processing [SRgenerator] error
+[2023-07-10 10:15:05] INFO root fetch - processPackages [weaviate-client]: New version: [3.9.0b0] Old Version: [3.9.0.dev2]
+[2023-07-10 10:15:05] WARNING root fetch - processPackages [junoplatform]: Skipping, unable to determine old version
+[2023-07-10 10:15:05] INFO root fetch - main [MainThread]: End processing [junoplatform] error
+[2023-07-10 10:15:05] WARNING root fetch - processPackages [lyhapi-autotest]: Skipping, unable to determine old version
+[2023-07-10 10:15:05] INFO root fetch - main [MainThread]: End processing [lyhapi-autotest] error
+[2023-07-10 10:15:05] INFO root fetch - processPackages [androtools]: Downloading https://files.pythonhosted.org/packages/a0/7d/c3242cd0bed3b5a652c71c4ab80e4414a40367154ab96ff9147f398284b7/androtools-0.1.6.tar.gz
+[2023-07-10 10:15:05] INFO root fetch - processPackages [keras-hrp]: Downloading https://files.pythonhosted.org/packages/c7/b9/a07cab5d7924552b1a33eb0dea7fd06c7b0948b8d9a88ee19f3115f9600c/keras-hrp-0.1.0.tar.gz
+[2023-07-10 10:15:05] INFO root fetch - processPackages [frontegg]: Downloading https://files.pythonhosted.org/packages/77/e2/d99fd10835f6513c2c0a062be7c4fffc2f2f3cba4ef33993e797bd94cc86/frontegg-2.1.6.tar.gz
+[2023-07-10 10:15:05] INFO root fetch - processPackages [dingtalk-stream]: Downloading https://files.pythonhosted.org/packages/8a/de/ecb9bcdcbf027d10c99a9e08f3575bc04ed96db73048af0dd530431e0cfa/dingtalk-stream-0.6.1.tar.gz
+[2023-07-10 10:15:05] INFO root fetch - processPackages [weaviate-client]: Downloading https://files.pythonhosted.org/packages/a8/cb/8ca3061906481a9a6997baefa6ecc800dcaed0f08e1c84c55c609182fe2b/weaviate-client-3.9.0.dev2.tar.gz
+[2023-07-10 10:15:05] INFO root fetch - processPackages [zenroom]: New version: [3.9.1] Old Version: [3.8.0]
+[2023-07-10 10:15:05] INFO root fetch - processPackages [androtools]: Downloading https://files.pythonhosted.org/packages/81/8a/7c22749ab22898434f02e06484671cb6c3e4657051d48e0b13fcc85bc59c/androtools-0.1.7.tar.gz
+[2023-07-10 10:15:05] INFO root fetch - processPackages [keras-hrp]: Downloading https://files.pythonhosted.org/packages/21/89/3a3290e28f3c2d2d7b7b60db92367a7b25e84ac6ff94ecfb835307d3fb8e/keras-hrp-0.2.0.tar.gz
+[2023-07-10 10:15:05] INFO root fetch - processPackages [frontegg]: Downloading https://files.pythonhosted.org/packages/b9/4a/a73371bc223f8ede5fa89903716f468fff80655decbdb807c93e6d37e00f/frontegg-2.1.7.tar.gz
+[2023-07-10 10:15:05] INFO root fetch - processPackages [dingtalk-stream]: Downloading https://files.pythonhosted.org/packages/f9/16/e46b7f64d37bcc3cd9974693c337f482acb221c8814146cb580ee8f83e6b/dingtalk-stream-0.6.2.tar.gz
+[2023-07-10 10:15:05] INFO root fetch - processPackages [androtools]: executing diffoscope
+[2023-07-10 10:15:05] INFO root fetch - processPackages [androtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/androtools-0.1.6.tar.gz tmp/androtools-0.1.7.tar.gz --markdown 20230710/a/androtools/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-10 10:15:05] INFO root fetch - processPackages [zenroom]: Downloading https://files.pythonhosted.org/packages/f3/9a/338abeb4a3c4ac5e251366dea7d38d8c492fee014147c2239dc1fe4f21fa/zenroom-3.8.0.tar.gz
+[2023-07-10 10:15:05] INFO root fetch - processPackages [weaviate-client]: Downloading https://files.pythonhosted.org/packages/10/6b/0e242b95dd9ee12ed89f4af97e7bd0c82317c708e5a1de27406f7832d4e2/weaviate-client-3.9.0b0.tar.gz
+[2023-07-10 10:15:05] INFO root fetch - processPackages [keras-hrp]: executing diffoscope
+[2023-07-10 10:15:05] INFO root fetch - processPackages [keras-hrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-hrp-0.1.0.tar.gz tmp/keras-hrp-0.2.0.tar.gz --markdown 20230710/k/keras-hrp/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-10 10:15:05] INFO root fetch - processPackages [dingtalk-stream]: executing diffoscope
+[2023-07-10 10:15:05] INFO root fetch - processPackages [dingtalk-stream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dingtalk-stream-0.6.1.tar.gz tmp/dingtalk-stream-0.6.2.tar.gz --markdown 20230710/d/dingtalk-stream/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-10 10:15:05] INFO root fetch - processPackages [weaviate-client]: executing diffoscope
+[2023-07-10 10:15:05] INFO root fetch - processPackages [weaviate-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weaviate-client-3.9.0.dev2.tar.gz tmp/weaviate-client-3.9.0b0.tar.gz --markdown 20230710/w/weaviate-client/3.9.0.dev2-3.9.0b0/diff.md --exclude *.pyd
+[2023-07-10 10:15:05] INFO root fetch - processPackages [frontegg]: executing diffoscope
+[2023-07-10 10:15:05] INFO root fetch - processPackages [frontegg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontegg-2.1.6.tar.gz tmp/frontegg-2.1.7.tar.gz --markdown 20230710/f/frontegg/2.1.6-2.1.7/diff.md --exclude *.pyd
+[2023-07-10 10:15:06] WARNING root fetch - processPackages [zenroom]: Skipping package: exceeds size limit 25654205>=10485760
+[2023-07-10 10:15:06] INFO root fetch - main [MainThread]: End processing [zenroom] error
+[2023-07-10 10:15:06] INFO root fetch - processPackages [androtools]: Remove: archive file [/home/abi/fetcher/tmp/androtools-0.1.6.tar.gz]
+[2023-07-10 10:15:06] INFO root fetch - processPackages [androtools]: Remove: archive file [/home/abi/fetcher/tmp/androtools-0.1.7.tar.gz]
+[2023-07-10 10:15:06] INFO root fetch - main [MainThread]: End processing [androtools]: success
+[2023-07-10 10:15:07] INFO root fetch - processPackages [dingtalk-stream]: Remove: archive file [/home/abi/fetcher/tmp/dingtalk-stream-0.6.1.tar.gz]
+[2023-07-10 10:15:07] INFO root fetch - processPackages [dingtalk-stream]: Remove: archive file [/home/abi/fetcher/tmp/dingtalk-stream-0.6.2.tar.gz]
+[2023-07-10 10:15:07] INFO root fetch - main [MainThread]: End processing [dingtalk-stream]: success
+[2023-07-10 10:15:07] INFO root fetch - processPackages [keras-hrp]: Remove: archive file [/home/abi/fetcher/tmp/keras-hrp-0.1.0.tar.gz]
+[2023-07-10 10:15:07] INFO root fetch - processPackages [keras-hrp]: Remove: archive file [/home/abi/fetcher/tmp/keras-hrp-0.2.0.tar.gz]
+[2023-07-10 10:15:07] INFO root fetch - main [MainThread]: End processing [keras-hrp]: success
+[2023-07-10 10:15:07] INFO root fetch - processPackages [frontegg]: Remove: archive file [/home/abi/fetcher/tmp/frontegg-2.1.6.tar.gz]
+[2023-07-10 10:15:07] INFO root fetch - processPackages [frontegg]: Remove: archive file [/home/abi/fetcher/tmp/frontegg-2.1.7.tar.gz]
+[2023-07-10 10:15:07] INFO root fetch - main [MainThread]: End processing [frontegg]: success
+[2023-07-10 10:15:07] INFO root fetch - processPackages [weaviate-client]: Remove: archive file [/home/abi/fetcher/tmp/weaviate-client-3.9.0.dev2.tar.gz]
+[2023-07-10 10:15:07] INFO root fetch - processPackages [weaviate-client]: Remove: archive file [/home/abi/fetcher/tmp/weaviate-client-3.9.0b0.tar.gz]
+[2023-07-10 10:15:07] INFO root fetch - main [MainThread]: End processing [weaviate-client]: success
+[2023-07-10 10:15:07] INFO root fetch - main [MainThread]: Store serial: [18828087]
