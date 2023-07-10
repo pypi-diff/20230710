@@ -13616,3 +13616,129 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 11:40:06] INFO root fetch - processPackages [robotslacker-testcli]: Remove: archive file [/home/abi/fetcher/tmp/robotslacker-testcli-0.0.9.tar.gz]
 [2023-07-10 11:40:06] INFO root fetch - main [MainThread]: End processing [robotslacker-testcli]: success
 [2023-07-10 11:40:06] INFO root fetch - main [MainThread]: Store serial: [18829090]
+[2023-07-10 11:45:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18829090]
+[2023-07-10 11:45:16] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-10 11:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: upstash-redis
+[2023-07-10 11:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: funding-service-design-utils
+[2023-07-10 11:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rankfmc
+[2023-07-10 11:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: NoomSmartKeyboard
+[2023-07-10 11:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ats-case
+[2023-07-10 11:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: unigui
+[2023-07-10 11:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: documentdataextraction
+[2023-07-10 11:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vcsc-data-common
+[2023-07-10 11:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ddev
+[2023-07-10 11:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: typefit
+[2023-07-10 11:45:16] WARNING root fetch - processPackages [rankfmc]: Skipping, unable to determine old version
+[2023-07-10 11:45:16] INFO root fetch - processPackages [rankfmc]: Start processing: aistudio-cognition
+[2023-07-10 11:45:16] INFO root fetch - main [MainThread]: End processing [rankfmc] error
+[2023-07-10 11:45:16] INFO root fetch - processPackages [ddev]: New version: [3.2.1] Old Version: [3.1.0]
+[2023-07-10 11:45:16] INFO root fetch - processPackages [NoomSmartKeyboard]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-10 11:45:16] INFO root fetch - processPackages [documentdataextraction]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 11:45:16] INFO root fetch - processPackages [vcsc-data-common]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-10 11:45:16] INFO root fetch - processPackages [typefit]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-07-10 11:45:16] INFO root fetch - processPackages [funding-service-design-utils]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-10 11:45:16] INFO root fetch - processPackages [upstash-redis]: New version: [0.15.0] Old Version: [0.14.5]
+[2023-07-10 11:45:16] INFO root fetch - processPackages [unigui]: New version: [1.7.2] Old Version: [1.7.1]
+[2023-07-10 11:45:16] INFO root fetch - processPackages [ats-case]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-10 11:45:16] WARNING root fetch - processPackages [aistudio-cognition]: Skipping, unable to determine old version
+[2023-07-10 11:45:16] INFO root fetch - processPackages [aistudio-cognition]: Start processing: sdss-lvmieb
+[2023-07-10 11:45:16] INFO root fetch - main [MainThread]: End processing [aistudio-cognition] error
+[2023-07-10 11:45:16] INFO root fetch - processPackages [sdss-lvmieb]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-10 11:45:16] INFO root fetch - processPackages [documentdataextraction]: Downloading https://files.pythonhosted.org/packages/1a/e4/1e85519ce247c6ed7c20e6c47ef38f5c09cf919ff231bf453cc23a1f0ba0/documentdataextraction-0.0.8-py3-none-any.whl
+[2023-07-10 11:45:16] INFO root fetch - processPackages [NoomSmartKeyboard]: Downloading https://files.pythonhosted.org/packages/8d/e1/7dcc641e2d2d2521639cabfdffd70b037d29e34c434a78470868e9f2f5f2/NoomSmartKeyboard-0.1.0.tar.gz
+[2023-07-10 11:45:17] INFO root fetch - processPackages [ddev]: Downloading https://files.pythonhosted.org/packages/f6/1d/f15df78225902e46fe0fbc94ecb411cd2cb7a7350208910b0b939852ebe4/ddev-3.1.0.tar.gz
+[2023-07-10 11:45:17] INFO root fetch - processPackages [typefit]: Downloading https://files.pythonhosted.org/packages/d7/f5/917b3d77bd76ad08fc4cbe4b0348c370843e715322adc31d758091d9876e/typefit-0.5.3.tar.gz
+[2023-07-10 11:45:17] INFO root fetch - processPackages [unigui]: Downloading https://files.pythonhosted.org/packages/69/77/36f9f60179038d67ce03f73c0db9aeb0572dcb86ddac8447970a9c0187fc/unigui-1.7.1.tar.gz
+[2023-07-10 11:45:17] INFO root fetch - processPackages [upstash-redis]: Downloading https://files.pythonhosted.org/packages/b8/6f/960b202c9c0785d6894e7a049079f90d44a4d91d4290eeb0e05608b17101/upstash_redis-0.14.5.tar.gz
+[2023-07-10 11:45:17] INFO root fetch - processPackages [funding-service-design-utils]: Downloading https://files.pythonhosted.org/packages/fc/05/ebfd1361ff3bd9a9b0a15e036dfd215e147713cb058c15778765feded45b/funding-service-design-utils-2.0.8.tar.gz
+[2023-07-10 11:45:17] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/04/da/b171ada6344192f8d804a421bc8808a47ee94e5d1f28c7daca14485ad4a7/ats_case-0.9.8.tar.gz
+[2023-07-10 11:45:17] INFO root fetch - processPackages [vcsc-data-common]: Downloading https://files.pythonhosted.org/packages/1e/91/07deb6c6cf0ea61f0734fba9acd8497c3f3abeda67a41bbe4ac5489f2680/vcsc_data_common-0.2.1.tar.gz
+[2023-07-10 11:45:17] INFO root fetch - processPackages [sdss-lvmieb]: Downloading https://files.pythonhosted.org/packages/0b/01/056feaa871c272680a420b4c0922b3d791ed14f4bce53c88eb8ee9a00583/sdss-lvmieb-0.4.0.tar.gz
+[2023-07-10 11:45:17] INFO root fetch - processPackages [documentdataextraction]: Downloading https://files.pythonhosted.org/packages/b3/ec/eb9901e48d02bee04847cd1afe0c6b8ca7231d1a8b133261a63ae052f777/documentdataextraction-0.0.9-py3-none-any.whl
+[2023-07-10 11:45:17] INFO root fetch - processPackages [documentdataextraction]: executing diffoscope
+[2023-07-10 11:45:17] INFO root fetch - processPackages [documentdataextraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/documentdataextraction-0.0.8-py3-none-any.whl.zip tmp/documentdataextraction-0.0.9-py3-none-any.whl.zip --markdown 20230710/d/documentdataextraction/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 11:45:17] INFO root fetch - processPackages [NoomSmartKeyboard]: Downloading https://files.pythonhosted.org/packages/2e/cd/17c2b8a9f5052430542f7eab25dc0ee52b7247009c2002c67883f029af7c/NoomSmartKeyboard-0.1.1.tar.gz
+[2023-07-10 11:45:17] INFO root fetch - processPackages [typefit]: Downloading https://files.pythonhosted.org/packages/f8/96/7af6b96f6ab1cd4aa0c2062453e448f5b6926acfe37048c577c4788c5133/typefit-0.5.4.tar.gz
+[2023-07-10 11:45:17] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/7f/68/87f6eca1406e5f35351915c2062c1db2b77cdfcaebb646e255d7baf5e023/ats_case-0.9.9.tar.gz
+[2023-07-10 11:45:17] INFO root fetch - processPackages [ddev]: Downloading https://files.pythonhosted.org/packages/35/2b/30aaeda70671f43fedde226df352f41d9c2a8f52445ba0be92ab6bbe9929/ddev-3.2.1.tar.gz
+[2023-07-10 11:45:17] INFO root fetch - processPackages [funding-service-design-utils]: Downloading https://files.pythonhosted.org/packages/64/dd/5468aa90577e921b62adb3b2a2ce40bcdbcbdf4133e3ffe35bab68233cc6/funding-service-design-utils-2.0.9.tar.gz
+[2023-07-10 11:45:17] INFO root fetch - processPackages [vcsc-data-common]: Downloading https://files.pythonhosted.org/packages/12/10/b4c5f837a8b2650eda452dba16aa6cf804873fbbddeb4b6e76fc36565545/vcsc_data_common-0.2.2.tar.gz
+[2023-07-10 11:45:17] INFO root fetch - processPackages [ats-case]: executing diffoscope
+[2023-07-10 11:45:17] INFO root fetch - processPackages [ats-case]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ats_case-0.9.8.tar.gz tmp/ats_case-0.9.9.tar.gz --markdown 20230710/a/ats-case/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-10 11:45:17] INFO root fetch - processPackages [NoomSmartKeyboard]: executing diffoscope
+[2023-07-10 11:45:17] INFO root fetch - processPackages [NoomSmartKeyboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NoomSmartKeyboard-0.1.0.tar.gz tmp/NoomSmartKeyboard-0.1.1.tar.gz --markdown 20230710/N/NoomSmartKeyboard/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-10 11:45:17] INFO root fetch - processPackages [sdss-lvmieb]: Downloading https://files.pythonhosted.org/packages/5c/fb/5558721028c1795eeb722d3d469bb465794495d9112a7959a761230fb219/sdss_lvmieb-0.5.0.tar.gz
+[2023-07-10 11:45:17] INFO root fetch - processPackages [unigui]: Downloading https://files.pythonhosted.org/packages/26/3d/f4074b2cb9246176fe56336fff6d7f03c95e01088d9a5374446185877388/unigui-1.7.2.tar.gz
+[2023-07-10 11:45:17] INFO root fetch - processPackages [upstash-redis]: Downloading https://files.pythonhosted.org/packages/10/11/eb144175d735c0e882b14967834c530477a938396935348784c6db0e8625/upstash_redis-0.15.0.tar.gz
+[2023-07-10 11:45:17] INFO root fetch - processPackages [funding-service-design-utils]: executing diffoscope
+[2023-07-10 11:45:17] INFO root fetch - processPackages [funding-service-design-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funding-service-design-utils-2.0.8.tar.gz tmp/funding-service-design-utils-2.0.9.tar.gz --markdown 20230710/f/funding-service-design-utils/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-10 11:45:17] INFO root fetch - processPackages [typefit]: executing diffoscope
+[2023-07-10 11:45:17] INFO root fetch - processPackages [typefit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typefit-0.5.3.tar.gz tmp/typefit-0.5.4.tar.gz --markdown 20230710/t/typefit/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-07-10 11:45:17] INFO root fetch - processPackages [ddev]: executing diffoscope
+[2023-07-10 11:45:17] INFO root fetch - processPackages [ddev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddev-3.1.0.tar.gz tmp/ddev-3.2.1.tar.gz --markdown 20230710/d/ddev/3.1.0-3.2.1/diff.md --exclude *.pyd
+[2023-07-10 11:45:17] INFO root fetch - processPackages [upstash-redis]: executing diffoscope
+[2023-07-10 11:45:17] INFO root fetch - processPackages [upstash-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upstash_redis-0.14.5.tar.gz tmp/upstash_redis-0.15.0.tar.gz --markdown 20230710/u/upstash-redis/0.14.5-0.15.0/diff.md --exclude *.pyd
+[2023-07-10 11:45:18] INFO root fetch - processPackages [vcsc-data-common]: executing diffoscope
+[2023-07-10 11:45:18] INFO root fetch - processPackages [vcsc-data-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcsc_data_common-0.2.1.tar.gz tmp/vcsc_data_common-0.2.2.tar.gz --markdown 20230710/v/vcsc-data-common/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-10 11:45:18] INFO root fetch - processPackages [sdss-lvmieb]: executing diffoscope
+[2023-07-10 11:45:18] INFO root fetch - processPackages [sdss-lvmieb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdss-lvmieb-0.4.0.tar.gz tmp/sdss_lvmieb-0.5.0.tar.gz --markdown 20230710/s/sdss-lvmieb/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-10 11:45:18] INFO root fetch - processPackages [unigui]: executing diffoscope
+[2023-07-10 11:45:18] INFO root fetch - processPackages [unigui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unigui-1.7.1.tar.gz tmp/unigui-1.7.2.tar.gz --markdown 20230710/u/unigui/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2023-07-10 11:45:18] INFO root fetch - processPackages [documentdataextraction]: Remove: archive file [/home/abi/fetcher/tmp/documentdataextraction-0.0.8-py3-none-any.whl.zip]
+[2023-07-10 11:45:18] INFO root fetch - processPackages [documentdataextraction]: Remove: archive file [/home/abi/fetcher/tmp/documentdataextraction-0.0.9-py3-none-any.whl.zip]
+[2023-07-10 11:45:18] INFO root fetch - processPackages [documentdataextraction]: Start processing: bowtie-json-schema
+[2023-07-10 11:45:18] INFO root fetch - main [MainThread]: End processing [documentdataextraction]: success
+[2023-07-10 11:45:18] INFO root fetch - processPackages [bowtie-json-schema]: New version: [2023.7.3] Old Version: [2023.7.2]
+[2023-07-10 11:45:19] INFO root fetch - processPackages [bowtie-json-schema]: Downloading https://files.pythonhosted.org/packages/6b/e0/f13bec18c6bea80add4200264347db56b590a3db3507b1d8a01466a1347f/bowtie_json_schema-2023.7.2.tar.gz
+[2023-07-10 11:45:19] INFO root fetch - processPackages [bowtie-json-schema]: Downloading https://files.pythonhosted.org/packages/ee/9b/60ab4083b474559ee99365c6bcdfda3c176e3468eb88774d99962e6bc054/bowtie_json_schema-2023.7.3.tar.gz
+[2023-07-10 11:45:19] INFO root fetch - processPackages [bowtie-json-schema]: executing diffoscope
+[2023-07-10 11:45:19] INFO root fetch - processPackages [bowtie-json-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bowtie_json_schema-2023.7.2.tar.gz tmp/bowtie_json_schema-2023.7.3.tar.gz --markdown 20230710/b/bowtie-json-schema/2023.7.2-2023.7.3/diff.md --exclude *.pyd
+[2023-07-10 11:45:19] INFO root fetch - processPackages [NoomSmartKeyboard]: Remove: archive file [/home/abi/fetcher/tmp/NoomSmartKeyboard-0.1.0.tar.gz]
+[2023-07-10 11:45:19] INFO root fetch - processPackages [NoomSmartKeyboard]: Remove: archive file [/home/abi/fetcher/tmp/NoomSmartKeyboard-0.1.1.tar.gz]
+[2023-07-10 11:45:19] INFO root fetch - processPackages [NoomSmartKeyboard]: Start processing: quao
+[2023-07-10 11:45:19] INFO root fetch - main [MainThread]: End processing [NoomSmartKeyboard]: success
+[2023-07-10 11:45:19] INFO root fetch - processPackages [typefit]: Remove: archive file [/home/abi/fetcher/tmp/typefit-0.5.3.tar.gz]
+[2023-07-10 11:45:19] INFO root fetch - processPackages [typefit]: Remove: archive file [/home/abi/fetcher/tmp/typefit-0.5.4.tar.gz]
+[2023-07-10 11:45:19] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.9.8.tar.gz]
+[2023-07-10 11:45:19] INFO root fetch - processPackages [typefit]: Start processing: rongdavbaaddins
+[2023-07-10 11:45:19] INFO root fetch - main [MainThread]: End processing [typefit]: success
+[2023-07-10 11:45:19] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.9.9.tar.gz]
+[2023-07-10 11:45:19] INFO root fetch - main [MainThread]: End processing [ats-case]: success
+[2023-07-10 11:45:19] INFO root fetch - processPackages [rongdavbaaddins]: New version: [0.1.0.3] Old Version: [0.1.0.2]
+[2023-07-10 11:45:19] INFO root fetch - processPackages [quao]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-10 11:45:19] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/54/10/58baac6ba30f38a873da98bd2bc86bb56699c24a3a4a54b6b119a23cd0b8/rongdavbaaddins-0.1.0.2.tar.gz
+[2023-07-10 11:45:19] INFO root fetch - processPackages [vcsc-data-common]: Remove: archive file [/home/abi/fetcher/tmp/vcsc_data_common-0.2.1.tar.gz]
+[2023-07-10 11:45:19] INFO root fetch - processPackages [vcsc-data-common]: Remove: archive file [/home/abi/fetcher/tmp/vcsc_data_common-0.2.2.tar.gz]
+[2023-07-10 11:45:19] INFO root fetch - main [MainThread]: End processing [vcsc-data-common]: success
+[2023-07-10 11:45:19] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/00/a0/820dd62b9ef8233a40ce1fc9f928bae61cb1a92a54db8058c2910b1219f8/quao-0.2.8.tar.gz
+[2023-07-10 11:45:19] INFO root fetch - processPackages [funding-service-design-utils]: Remove: archive file [/home/abi/fetcher/tmp/funding-service-design-utils-2.0.8.tar.gz]
+[2023-07-10 11:45:19] INFO root fetch - processPackages [funding-service-design-utils]: Remove: archive file [/home/abi/fetcher/tmp/funding-service-design-utils-2.0.9.tar.gz]
+[2023-07-10 11:45:19] INFO root fetch - main [MainThread]: End processing [funding-service-design-utils]: success
+[2023-07-10 11:45:19] INFO root fetch - processPackages [upstash-redis]: Remove: archive file [/home/abi/fetcher/tmp/upstash_redis-0.14.5.tar.gz]
+[2023-07-10 11:45:19] INFO root fetch - processPackages [upstash-redis]: Remove: archive file [/home/abi/fetcher/tmp/upstash_redis-0.15.0.tar.gz]
+[2023-07-10 11:45:19] INFO root fetch - main [MainThread]: End processing [upstash-redis]: success
+[2023-07-10 11:45:19] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/a7/33/48d9e016baeb48eda24c5274a266f084452a530eee5b605128b7d8abd984/rongdavbaaddins-0.1.0.3.tar.gz
+[2023-07-10 11:45:20] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/71/09/bd8cda58d91a73371f9e83c0e98473af677f6309c58284adcb968c002aa8/quao-0.2.9.tar.gz
+[2023-07-10 11:45:20] INFO root fetch - processPackages [ddev]: Remove: archive file [/home/abi/fetcher/tmp/ddev-3.1.0.tar.gz]
+[2023-07-10 11:45:20] INFO root fetch - processPackages [ddev]: Remove: archive file [/home/abi/fetcher/tmp/ddev-3.2.1.tar.gz]
+[2023-07-10 11:45:20] INFO root fetch - main [MainThread]: End processing [ddev]: success
+[2023-07-10 11:45:20] INFO root fetch - processPackages [sdss-lvmieb]: Remove: archive file [/home/abi/fetcher/tmp/sdss-lvmieb-0.4.0.tar.gz]
+[2023-07-10 11:45:20] INFO root fetch - processPackages [sdss-lvmieb]: Remove: archive file [/home/abi/fetcher/tmp/sdss_lvmieb-0.5.0.tar.gz]
+[2023-07-10 11:45:20] INFO root fetch - main [MainThread]: End processing [sdss-lvmieb]: success
+[2023-07-10 11:45:20] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-07-10 11:45:20] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.2.8.tar.gz tmp/quao-0.2.9.tar.gz --markdown 20230710/q/quao/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-10 11:45:20] INFO root fetch - processPackages [rongdavbaaddins]: executing diffoscope
+[2023-07-10 11:45:20] INFO root fetch - processPackages [rongdavbaaddins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rongdavbaaddins-0.1.0.2.tar.gz tmp/rongdavbaaddins-0.1.0.3.tar.gz --markdown 20230710/r/rongdavbaaddins/0.1.0.2-0.1.0.3/diff.md --exclude *.pyd
+[2023-07-10 11:45:20] INFO root fetch - processPackages [bowtie-json-schema]: Remove: archive file [/home/abi/fetcher/tmp/bowtie_json_schema-2023.7.2.tar.gz]
+[2023-07-10 11:45:20] INFO root fetch - processPackages [bowtie-json-schema]: Remove: archive file [/home/abi/fetcher/tmp/bowtie_json_schema-2023.7.3.tar.gz]
+[2023-07-10 11:45:20] INFO root fetch - main [MainThread]: End processing [bowtie-json-schema]: success
+[2023-07-10 11:45:20] INFO root fetch - processPackages [unigui]: Remove: archive file [/home/abi/fetcher/tmp/unigui-1.7.1.tar.gz]
+[2023-07-10 11:45:20] INFO root fetch - processPackages [unigui]: Remove: archive file [/home/abi/fetcher/tmp/unigui-1.7.2.tar.gz]
+[2023-07-10 11:45:20] INFO root fetch - main [MainThread]: End processing [unigui]: success
+[2023-07-10 11:45:21] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.2.8.tar.gz]
+[2023-07-10 11:45:21] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.2.9.tar.gz]
+[2023-07-10 11:45:21] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-07-10 11:45:22] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.1.0.2.tar.gz]
+[2023-07-10 11:45:22] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.1.0.3.tar.gz]
+[2023-07-10 11:45:22] INFO root fetch - main [MainThread]: End processing [rongdavbaaddins]: success
+[2023-07-10 11:45:22] INFO root fetch - main [MainThread]: Store serial: [18829138]
