@@ -17656,3 +17656,108 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 14:53:41] INFO root fetch - processPackages [gapic-generator]: Remove: archive file [/home/abi/fetcher/tmp/gapic-generator-1.9.1.tar.gz]
 [2023-07-10 14:53:41] INFO root fetch - main [MainThread]: End processing [gapic-generator]: success
 [2023-07-10 14:53:41] INFO root fetch - main [MainThread]: Store serial: [18830740]
+[2023-07-10 14:58:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18830740]
+[2023-07-10 14:58:50] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-10 14:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lc-checkpoint
+[2023-07-10 14:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netbox-cisco-support-plugin
+[2023-07-10 14:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hydropump
+[2023-07-10 14:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cycode
+[2023-07-10 14:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypomes-sccheduling
+[2023-07-10 14:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: phylotreeclus
+[2023-07-10 14:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pypomes-scheduling
+[2023-07-10 14:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bowtie-json-schema
+[2023-07-10 14:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytestifyx
+[2023-07-10 14:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yet-another-wizz-cli
+[2023-07-10 14:58:51] WARNING root fetch - processPackages [netbox-cisco-support-plugin]: Skipping, unable to determine old version
+[2023-07-10 14:58:51] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Start processing: cubicweb-web
+[2023-07-10 14:58:51] INFO root fetch - main [MainThread]: End processing [netbox-cisco-support-plugin] error
+[2023-07-10 14:58:51] INFO root fetch - processPackages [phylotreeclus]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-10 14:58:51] INFO root fetch - processPackages [hydropump]: New version: [0.1.4] Old Version: [0.1.2]
+[2023-07-10 14:58:51] WARNING root fetch - processPackages [yet-another-wizz-cli]: Skipping, unable to determine old version
+[2023-07-10 14:58:51] INFO root fetch - processPackages [yet-another-wizz-cli]: Start processing: uagents-whatsapp-utility
+[2023-07-10 14:58:51] INFO root fetch - main [MainThread]: End processing [yet-another-wizz-cli] error
+[2023-07-10 14:58:51] INFO root fetch - processPackages [cycode]: New version: [0.2.6.dev9] Old Version: [0.2.6.dev8]
+[2023-07-10 14:58:51] INFO root fetch - processPackages [bowtie-json-schema]: New version: [2023.7.4] Old Version: [2023.7.3]
+[2023-07-10 14:58:51] INFO root fetch - processPackages [lc-checkpoint]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-10 14:58:51] WARNING root fetch - processPackages [pypomes-scheduling]: Skipping, unable to determine old version
+[2023-07-10 14:58:51] INFO root fetch - processPackages [pypomes-scheduling]: Start processing: chemistry-tools
+[2023-07-10 14:58:51] INFO root fetch - main [MainThread]: End processing [pypomes-scheduling] error
+[2023-07-10 14:58:51] INFO root fetch - processPackages [pytestifyx]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-10 14:58:51] WARNING root fetch - processPackages [pypomes-sccheduling]: Skipping, unable to determine old version
+[2023-07-10 14:58:51] INFO root fetch - processPackages [pypomes-sccheduling]: Start processing: hak
+[2023-07-10 14:58:51] INFO root fetch - main [MainThread]: End processing [pypomes-sccheduling] error
+[2023-07-10 14:58:51] INFO root fetch - processPackages [cubicweb-web]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-10 14:58:51] INFO root fetch - processPackages [bowtie-json-schema]: Downloading https://files.pythonhosted.org/packages/ee/9b/60ab4083b474559ee99365c6bcdfda3c176e3468eb88774d99962e6bc054/bowtie_json_schema-2023.7.3.tar.gz
+[2023-07-10 14:58:51] INFO root fetch - processPackages [uagents-whatsapp-utility]: New version: [5.0] Old Version: [4.5]
+[2023-07-10 14:58:51] INFO root fetch - processPackages [hydropump]: Downloading https://files.pythonhosted.org/packages/82/1c/668d83c7493a98ebbe85ab07f68b6fc3a03827780479ce6eb9b5c9f26156/hydropump-0.1.2.tar.gz
+[2023-07-10 14:58:51] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/40/cb/51280bbe25b1f60e412ee842e5db8968a9feb054f5ae158e200945dfb88b/cycode-0.2.6.dev8.tar.gz
+[2023-07-10 14:58:51] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 14:58:51] INFO root fetch - processPackages [phylotreeclus]: Downloading https://files.pythonhosted.org/packages/1d/84/6b4e05474b5d31a13cf7516bb733895b8a89350572f07f159ad503e7bb6d/phylotreeclus-1.0.0.tar.gz
+[2023-07-10 14:58:51] INFO root fetch - processPackages [chemistry-tools]: New version: [1.0.0b1] Old Version: [0.6.0]
+[2023-07-10 14:58:51] INFO root fetch - processPackages [pytestifyx]: Downloading https://files.pythonhosted.org/packages/8e/4f/749e2186b9188c1c88cfec3f024c56b3f5bca019cbbfeb7c024a4cb89f7a/pytestifyx-0.5.8-py2.py3-none-any.whl
+[2023-07-10 14:58:51] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/05/17/ad5ef91170b7c0e991a9c8bffa9f9a2dcf3961d5e90c31185bdf3ce8f425/hak-0.0.8.tar.gz
+[2023-07-10 14:58:51] INFO root fetch - processPackages [cubicweb-web]: Downloading https://files.pythonhosted.org/packages/f5/60/a6cb544cdbb6475a4323481a43bc226cf13ae11eaf7df14ddb7432986821/cubicweb-web-1.0.0.tar.gz
+[2023-07-10 14:58:51] INFO root fetch - processPackages [lc-checkpoint]: Downloading https://files.pythonhosted.org/packages/c2/91/9e36195f108e69465c422d5742f9d2dd591a0281da3a46cf7d8de0a0743e/lc-checkpoint-0.3.0.tar.gz
+[2023-07-10 14:58:51] INFO root fetch - processPackages [uagents-whatsapp-utility]: Downloading https://files.pythonhosted.org/packages/bf/ff/1f527000cfa6bc7128aca9a0d239a4d8ee04d26509d3e026b09dadddb5d3/uagents_whatsapp_utility-4.5.tar.gz
+[2023-07-10 14:58:51] INFO root fetch - processPackages [chemistry-tools]: Downloading https://files.pythonhosted.org/packages/be/1b/a0067076473ecb38ffba8f8ec8bb760aa0390f332a147320b022e57d7612/chemistry_tools-0.6.0.tar.gz
+[2023-07-10 14:58:51] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/43/8f/bc3f9b68e32f000f61eb48472d3882d83ee7f5529bfb88ef231e64e45b51/cycode-0.2.6.dev9.tar.gz
+[2023-07-10 14:58:52] INFO root fetch - processPackages [bowtie-json-schema]: Downloading https://files.pythonhosted.org/packages/5d/58/a6c43bbe5d5b6cf9536238eac510ce5c517bb5a47afdc8d502f98ee585d7/bowtie_json_schema-2023.7.4.tar.gz
+[2023-07-10 14:58:52] INFO root fetch - processPackages [phylotreeclus]: Downloading https://files.pythonhosted.org/packages/e1/78/40d489c620a486d1e4f0619814b2e811b2d09682e1105fc7a699c0524ad5/phylotreeclus-1.0.1.tar.gz
+[2023-07-10 14:58:52] INFO root fetch - processPackages [hydropump]: Downloading https://files.pythonhosted.org/packages/26/8e/4e7eb58ca36b773d1588defc4d3db472cf5c3e2c18d408e8f8349863bd2c/hydropump-0.1.4.tar.gz
+[2023-07-10 14:58:52] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/fd/2b/bf7b3451d5e3a84e9a674b47e9f046c4db1f582764a85a4dfc00e14ecf00/hak-0.0.9.tar.gz
+[2023-07-10 14:58:52] INFO root fetch - processPackages [pytestifyx]: Downloading https://files.pythonhosted.org/packages/19/04/9aa3538a61699affa4bb58cff70044e0363380132c964eeae99585c4f278/pytestifyx-0.5.9-py2.py3-none-any.whl
+[2023-07-10 14:58:52] INFO root fetch - processPackages [cycode]: executing diffoscope
+[2023-07-10 14:58:52] INFO root fetch - processPackages [cycode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycode-0.2.6.dev8.tar.gz tmp/cycode-0.2.6.dev9.tar.gz --markdown 20230710/c/cycode/0.2.6.dev8-0.2.6.dev9/diff.md --exclude *.pyd
+[2023-07-10 14:58:52] INFO root fetch - processPackages [lc-checkpoint]: Downloading https://files.pythonhosted.org/packages/d7/66/b26ae50093d4a96abe3add1b4154bb5e183519ffca2ec29de61a8a70dbe7/lc-checkpoint-0.4.0.tar.gz
+[2023-07-10 14:58:52] INFO root fetch - processPackages [phylotreeclus]: executing diffoscope
+[2023-07-10 14:58:52] INFO root fetch - processPackages [phylotreeclus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phylotreeclus-1.0.0.tar.gz tmp/phylotreeclus-1.0.1.tar.gz --markdown 20230710/p/phylotreeclus/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-10 14:58:52] INFO root fetch - processPackages [hydropump]: executing diffoscope
+[2023-07-10 14:58:52] INFO root fetch - processPackages [hydropump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydropump-0.1.2.tar.gz tmp/hydropump-0.1.4.tar.gz --markdown 20230710/h/hydropump/0.1.2-0.1.4/diff.md --exclude *.pyd
+[2023-07-10 14:58:52] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-07-10 14:58:52] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.8.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230710/h/hak/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 14:58:52] INFO root fetch - processPackages [chemistry-tools]: Downloading https://files.pythonhosted.org/packages/8d/a7/0b0128d684e8c39d7a309255ca057a2bf5f35a3eb626bc8f9265cceecd0c/chemistry_tools-1.0.0b1.tar.gz
+[2023-07-10 14:58:52] INFO root fetch - processPackages [pytestifyx]: executing diffoscope
+[2023-07-10 14:58:52] INFO root fetch - processPackages [pytestifyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytestifyx-0.5.8-py2.py3-none-any.whl.zip tmp/pytestifyx-0.5.9-py2.py3-none-any.whl.zip --markdown 20230710/p/pytestifyx/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-10 14:58:52] INFO root fetch - processPackages [uagents-whatsapp-utility]: Downloading https://files.pythonhosted.org/packages/53/02/de5050e65ca35159c3976f16a3b73a2573dc4adf8557ec3572e568e1e5e3/uagents_whatsapp_utility-5.0.tar.gz
+[2023-07-10 14:58:52] INFO root fetch - processPackages [bowtie-json-schema]: executing diffoscope
+[2023-07-10 14:58:52] INFO root fetch - processPackages [bowtie-json-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bowtie_json_schema-2023.7.3.tar.gz tmp/bowtie_json_schema-2023.7.4.tar.gz --markdown 20230710/b/bowtie-json-schema/2023.7.3-2023.7.4/diff.md --exclude *.pyd
+[2023-07-10 14:58:52] INFO root fetch - processPackages [lc-checkpoint]: executing diffoscope
+[2023-07-10 14:58:52] INFO root fetch - processPackages [lc-checkpoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lc-checkpoint-0.3.0.tar.gz tmp/lc-checkpoint-0.4.0.tar.gz --markdown 20230710/l/lc-checkpoint/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-10 14:58:52] INFO root fetch - processPackages [cubicweb-web]: Downloading https://files.pythonhosted.org/packages/3d/ae/7d942b71b17e78a55bdc592cd8b5039e3a1d4ae6b6f419fd9add7d27c5cf/cubicweb-web-1.1.0.tar.gz
+[2023-07-10 14:58:52] INFO root fetch - processPackages [chemistry-tools]: executing diffoscope
+[2023-07-10 14:58:52] INFO root fetch - processPackages [chemistry-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chemistry_tools-0.6.0.tar.gz tmp/chemistry_tools-1.0.0b1.tar.gz --markdown 20230710/c/chemistry-tools/0.6.0-1.0.0b1/diff.md --exclude *.pyd
+[2023-07-10 14:58:52] INFO root fetch - processPackages [uagents-whatsapp-utility]: executing diffoscope
+[2023-07-10 14:58:52] INFO root fetch - processPackages [uagents-whatsapp-utility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uagents_whatsapp_utility-4.5.tar.gz tmp/uagents_whatsapp_utility-5.0.tar.gz --markdown 20230710/u/uagents-whatsapp-utility/4.5-5.0/diff.md --exclude *.pyd
+[2023-07-10 14:58:52] INFO root fetch - processPackages [cubicweb-web]: executing diffoscope
+[2023-07-10 14:58:52] INFO root fetch - processPackages [cubicweb-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubicweb-web-1.0.0.tar.gz tmp/cubicweb-web-1.1.0.tar.gz --markdown 20230710/c/cubicweb-web/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-10 14:58:54] INFO root fetch - processPackages [lc-checkpoint]: Remove: archive file [/home/abi/fetcher/tmp/lc-checkpoint-0.3.0.tar.gz]
+[2023-07-10 14:58:54] INFO root fetch - processPackages [lc-checkpoint]: Remove: archive file [/home/abi/fetcher/tmp/lc-checkpoint-0.4.0.tar.gz]
+[2023-07-10 14:58:54] INFO root fetch - main [MainThread]: End processing [lc-checkpoint]: success
+[2023-07-10 14:58:54] INFO root fetch - processPackages [phylotreeclus]: Remove: archive file [/home/abi/fetcher/tmp/phylotreeclus-1.0.0.tar.gz]
+[2023-07-10 14:58:54] INFO root fetch - processPackages [phylotreeclus]: Remove: archive file [/home/abi/fetcher/tmp/phylotreeclus-1.0.1.tar.gz]
+[2023-07-10 14:58:54] INFO root fetch - main [MainThread]: End processing [phylotreeclus]: success
+[2023-07-10 14:58:54] INFO root fetch - processPackages [hydropump]: Remove: archive file [/home/abi/fetcher/tmp/hydropump-0.1.2.tar.gz]
+[2023-07-10 14:58:54] INFO root fetch - processPackages [hydropump]: Remove: archive file [/home/abi/fetcher/tmp/hydropump-0.1.4.tar.gz]
+[2023-07-10 14:58:54] INFO root fetch - main [MainThread]: End processing [hydropump]: success
+[2023-07-10 14:58:54] INFO root fetch - processPackages [uagents-whatsapp-utility]: Remove: archive file [/home/abi/fetcher/tmp/uagents_whatsapp_utility-4.5.tar.gz]
+[2023-07-10 14:58:54] INFO root fetch - processPackages [uagents-whatsapp-utility]: Remove: archive file [/home/abi/fetcher/tmp/uagents_whatsapp_utility-5.0.tar.gz]
+[2023-07-10 14:58:54] INFO root fetch - main [MainThread]: End processing [uagents-whatsapp-utility]: success
+[2023-07-10 14:58:55] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-0.2.6.dev8.tar.gz]
+[2023-07-10 14:58:55] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-0.2.6.dev9.tar.gz]
+[2023-07-10 14:58:55] INFO root fetch - main [MainThread]: End processing [cycode]: success
+[2023-07-10 14:58:55] INFO root fetch - processPackages [pytestifyx]: Remove: archive file [/home/abi/fetcher/tmp/pytestifyx-0.5.8-py2.py3-none-any.whl.zip]
+[2023-07-10 14:58:55] INFO root fetch - processPackages [pytestifyx]: Remove: archive file [/home/abi/fetcher/tmp/pytestifyx-0.5.9-py2.py3-none-any.whl.zip]
+[2023-07-10 14:58:55] INFO root fetch - main [MainThread]: End processing [pytestifyx]: success
+[2023-07-10 14:58:55] INFO root fetch - processPackages [bowtie-json-schema]: Remove: archive file [/home/abi/fetcher/tmp/bowtie_json_schema-2023.7.3.tar.gz]
+[2023-07-10 14:58:55] INFO root fetch - processPackages [bowtie-json-schema]: Remove: archive file [/home/abi/fetcher/tmp/bowtie_json_schema-2023.7.4.tar.gz]
+[2023-07-10 14:58:55] INFO root fetch - main [MainThread]: End processing [bowtie-json-schema]: success
+[2023-07-10 14:58:55] INFO root fetch - processPackages [chemistry-tools]: Remove: archive file [/home/abi/fetcher/tmp/chemistry_tools-0.6.0.tar.gz]
+[2023-07-10 14:58:55] INFO root fetch - processPackages [chemistry-tools]: Remove: archive file [/home/abi/fetcher/tmp/chemistry_tools-1.0.0b1.tar.gz]
+[2023-07-10 14:58:55] INFO root fetch - main [MainThread]: End processing [chemistry-tools]: success
+[2023-07-10 14:58:56] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.8.tar.gz]
+[2023-07-10 14:58:56] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
+[2023-07-10 14:58:56] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-07-10 14:58:57] INFO root fetch - processPackages [cubicweb-web]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-web-1.0.0.tar.gz]
+[2023-07-10 14:58:57] INFO root fetch - processPackages [cubicweb-web]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-web-1.1.0.tar.gz]
+[2023-07-10 14:58:57] INFO root fetch - main [MainThread]: End processing [cubicweb-web]: success
+[2023-07-10 14:58:57] INFO root fetch - main [MainThread]: Store serial: [18830795]
