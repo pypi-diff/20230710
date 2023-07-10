@@ -22420,3 +22420,168 @@ EOFError: EOF read where object expected
 [2023-07-10 17:27:11] INFO root fetch - processPackages [edc-subject-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/edc_subject_dashboard-0.3.9-py3-none-any.whl.zip]
 [2023-07-10 17:27:11] INFO root fetch - main [MainThread]: End processing [edc-subject-dashboard]: success
 [2023-07-10 17:27:11] INFO root fetch - main [MainThread]: Store serial: [18832719]
+[2023-07-10 17:32:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18832719]
+[2023-07-10 17:32:20] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-10 17:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edc-unblinding
+[2023-07-10 17:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dela
+[2023-07-10 17:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fitspy
+[2023-07-10 17:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: namespace-mahdimir
+[2023-07-10 17:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wagtail-lottie
+[2023-07-10 17:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eodc-faas-openeo
+[2023-07-10 17:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: treesimi
+[2023-07-10 17:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: influxdb3-python
+[2023-07-10 17:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: DKUtils
+[2023-07-10 17:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: display-package-test
+[2023-07-10 17:32:21] WARNING root fetch - processPackages [dela]: Skipping, unable to determine old version
+[2023-07-10 17:32:21] INFO root fetch - processPackages [dela]: Start processing: openhab-pythonrule-engine
+[2023-07-10 17:32:21] INFO root fetch - main [MainThread]: End processing [dela] error
+[2023-07-10 17:32:21] INFO root fetch - processPackages [wagtail-lottie]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 17:32:21] INFO root fetch - processPackages [treesimi]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-10 17:32:21] INFO root fetch - processPackages [fitspy]: New version: [2023.2] Old Version: [2023.1]
+[2023-07-10 17:32:21] INFO root fetch - processPackages [eodc-faas-openeo]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-07-10 17:32:21] INFO root fetch - processPackages [namespace-mahdimir]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-10 17:32:21] INFO root fetch - processPackages [influxdb3-python]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-10 17:32:21] INFO root fetch - processPackages [DKUtils]: New version: [2.9.6] Old Version: [2.9.5]
+[2023-07-10 17:32:21] WARNING root fetch - processPackages [display-package-test]: Skipping, unable to determine old version
+[2023-07-10 17:32:21] INFO root fetch - processPackages [display-package-test]: Start processing: qwak-core
+[2023-07-10 17:32:21] INFO root fetch - main [MainThread]: End processing [display-package-test] error
+[2023-07-10 17:32:21] INFO root fetch - processPackages [edc-unblinding]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 17:32:21] INFO root fetch - processPackages [openhab-pythonrule-engine]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-07-10 17:32:21] INFO root fetch - processPackages [wagtail-lottie]: Downloading https://files.pythonhosted.org/packages/36/7c/9e8f6b501062a9b8053f9ea31f7076376e6b4a1763945436dea1ebd08fdd/wagtail_lottie-0.1.8.tar.gz
+[2023-07-10 17:32:21] INFO root fetch - processPackages [qwak-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-10 17:32:21] INFO root fetch - processPackages [influxdb3-python]: Downloading https://files.pythonhosted.org/packages/61/f2/6bd2820ceae50411c03769de51113998966926f47112123c874e17be2fa7/influxdb3-python-0.1.5.tar.gz
+[2023-07-10 17:32:21] INFO root fetch - processPackages [namespace-mahdimir]: Downloading https://files.pythonhosted.org/packages/c0/00/4bbfbd0db63da5f086c48329cc6cb456b70bcce9cfc99a4b00a0a4eae013/namespace_mahdimir-1.0.1.tar.gz
+[2023-07-10 17:32:21] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/bf/65/17c492bd7934456ef4a003078ffcb510f62f943407298b90a63969aa3f1f/eodc_faas_openeo-2023.6.8.tar.gz
+[2023-07-10 17:32:21] INFO root fetch - processPackages [fitspy]: Downloading https://files.pythonhosted.org/packages/f0/05/b259ec8765d499e55af0c44f4133ffa8da8d96ccecd3dc63b1c5c378c384/fitspy-2023.1-py3.10.egg
+[2023-07-10 17:32:21] INFO root fetch - processPackages [treesimi]: Downloading https://files.pythonhosted.org/packages/c3/c1/77331a17c069bd095ea59bc374fb0ba642a285805df0024d5cc8c27652b2/treesimi-0.2.0.tar.gz
+[2023-07-10 17:32:21] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/5f/d0/45d94253bcdc4108ecf2f05cb74d19b34ae62ade127e415b792f382bd060/qwak_core-0.0.98.tar.gz
+[2023-07-10 17:32:21] INFO root fetch - processPackages [DKUtils]: Downloading https://files.pythonhosted.org/packages/63/4c/b0cbf3191cab5fddb12ab88051535c8be35784af55224c3144950cae24cc/DKUtils-2.9.5.tar.gz
+[2023-07-10 17:32:21] INFO root fetch - processPackages [openhab-pythonrule-engine]: Downloading https://files.pythonhosted.org/packages/39/66/3676b7a2729a1379416baa4d4e647f2aac480c2bb54a895e3816680b2128/openhab_pythonrule_engine-1.2.4.tar.gz
+[2023-07-10 17:32:21] INFO root fetch - processPackages [edc-unblinding]: Downloading https://files.pythonhosted.org/packages/30/53/0899df7b605426521044bea5879810a9044b425eedb7ab5d23e3c668744a/edc-unblinding-0.1.8.tar.gz
+[2023-07-10 17:32:21] INFO root fetch - processPackages [wagtail-lottie]: Downloading https://files.pythonhosted.org/packages/6f/54/0e82f42825ab2c494ff2996aef826a1c9151458e37546b1e1f19c377eb58/wagtail_lottie-0.1.9.tar.gz
+[2023-07-10 17:32:21] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/77/6b/8eb1deae635c30a05c1c3a89c459d64974381087d1c84d89e3ad9410049a/eodc_faas_openeo-2023.6.9.tar.gz
+[2023-07-10 17:32:21] INFO root fetch - processPackages [namespace-mahdimir]: Downloading https://files.pythonhosted.org/packages/42/4f/21403551d70304571aa339e5c44da77cbebd59203250366e56a1bcb55662/namespace_mahdimir-1.0.2.tar.gz
+[2023-07-10 17:32:21] INFO root fetch - processPackages [influxdb3-python]: Downloading https://files.pythonhosted.org/packages/7b/71/2011d78324c0e2c63d45d40c21d3c9aba6829ebf71342aa9dc9524a2d497/influxdb3-python-0.1.6.tar.gz
+[2023-07-10 17:32:22] INFO root fetch - processPackages [eodc-faas-openeo]: executing diffoscope
+[2023-07-10 17:32:22] INFO root fetch - processPackages [eodc-faas-openeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_openeo-2023.6.8.tar.gz tmp/eodc_faas_openeo-2023.6.9.tar.gz --markdown 20230710/e/eodc-faas-openeo/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-07-10 17:32:22] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/f2/c0/4910ee16f1146c11278c0b18778d0552fdbed48c75db8c1145bb48ab13c4/qwak_core-0.0.99.tar.gz
+[2023-07-10 17:32:22] INFO root fetch - processPackages [wagtail-lottie]: executing diffoscope
+[2023-07-10 17:32:22] INFO root fetch - processPackages [wagtail-lottie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_lottie-0.1.8.tar.gz tmp/wagtail_lottie-0.1.9.tar.gz --markdown 20230710/w/wagtail-lottie/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 17:32:22] INFO root fetch - processPackages [fitspy]: Downloading https://files.pythonhosted.org/packages/aa/74/2f88eb62db025734360c76e1928c16d6eb5206b78207146ed991cffabdb3/fitspy-2023.2.tar.gz
+[2023-07-10 17:32:22] INFO root fetch - processPackages [treesimi]: Downloading https://files.pythonhosted.org/packages/58/3f/dbf6357eafcaf7c20419e3851e115dc4786645cd770da9565569afe6102f/treesimi-0.3.0.tar.gz
+[2023-07-10 17:32:22] INFO root fetch - processPackages [namespace-mahdimir]: executing diffoscope
+[2023-07-10 17:32:22] INFO root fetch - processPackages [namespace-mahdimir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namespace_mahdimir-1.0.1.tar.gz tmp/namespace_mahdimir-1.0.2.tar.gz --markdown 20230710/n/namespace-mahdimir/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-10 17:32:22] INFO root fetch - processPackages [influxdb3-python]: executing diffoscope
+[2023-07-10 17:32:22] INFO root fetch - processPackages [influxdb3-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/influxdb3-python-0.1.5.tar.gz tmp/influxdb3-python-0.1.6.tar.gz --markdown 20230710/i/influxdb3-python/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-10 17:32:22] WARNING root fetch - processPackages [fitspy]: Skipping package: exceeds size limit 12513300>=10485760
+[2023-07-10 17:32:22] INFO root fetch - processPackages [fitspy]: Start processing: aporia
+[2023-07-10 17:32:22] INFO root fetch - main [MainThread]: End processing [fitspy] error
+[2023-07-10 17:32:22] INFO root fetch - processPackages [openhab-pythonrule-engine]: Downloading https://files.pythonhosted.org/packages/bb/31/e6226469f783be0b504cc409f95ae4378c8735566f1847b038f9dae4c93c/openhab_pythonrule_engine-1.2.5.tar.gz
+[2023-07-10 17:32:22] INFO root fetch - processPackages [DKUtils]: Downloading https://files.pythonhosted.org/packages/78/0e/2d9847e06f772dff53050d9ca9f796fb0dc164ef3d70354f80c0ba6f8aff/DKUtils-2.9.6.tar.gz
+[2023-07-10 17:32:22] INFO root fetch - processPackages [aporia]: New version: [3.5.0] Old Version: [3.4.0]
+[2023-07-10 17:32:22] INFO root fetch - processPackages [treesimi]: executing diffoscope
+[2023-07-10 17:32:22] INFO root fetch - processPackages [treesimi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/treesimi-0.2.0.tar.gz tmp/treesimi-0.3.0.tar.gz --markdown 20230710/t/treesimi/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-10 17:32:22] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-07-10 17:32:22] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.98.tar.gz tmp/qwak_core-0.0.99.tar.gz --markdown 20230710/q/qwak-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-10 17:32:22] INFO root fetch - processPackages [edc-unblinding]: Downloading https://files.pythonhosted.org/packages/30/c9/f731a3fe6f02cacb095683a28716da0b4d41c351e054d5c3987efb0d53a7/edc-unblinding-0.1.9.tar.gz
+[2023-07-10 17:32:22] INFO root fetch - processPackages [openhab-pythonrule-engine]: executing diffoscope
+[2023-07-10 17:32:22] INFO root fetch - processPackages [openhab-pythonrule-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openhab_pythonrule_engine-1.2.4.tar.gz tmp/openhab_pythonrule_engine-1.2.5.tar.gz --markdown 20230710/o/openhab-pythonrule-engine/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-07-10 17:32:22] INFO root fetch - processPackages [DKUtils]: executing diffoscope
+[2023-07-10 17:32:22] INFO root fetch - processPackages [DKUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DKUtils-2.9.5.tar.gz tmp/DKUtils-2.9.6.tar.gz --markdown 20230710/D/DKUtils/2.9.5-2.9.6/diff.md --exclude *.pyd
+[2023-07-10 17:32:22] INFO root fetch - processPackages [edc-unblinding]: executing diffoscope
+[2023-07-10 17:32:22] INFO root fetch - processPackages [edc-unblinding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-unblinding-0.1.8.tar.gz tmp/edc-unblinding-0.1.9.tar.gz --markdown 20230710/e/edc-unblinding/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 17:32:22] INFO root fetch - processPackages [aporia]: Downloading https://files.pythonhosted.org/packages/71/37/2fa5ab425dbdd474c5f6c78e7a9c1f3489f332a5a854f817cd5445e4a25e/aporia-3.4.0.tar.gz
+[2023-07-10 17:32:23] INFO root fetch - processPackages [aporia]: Downloading https://files.pythonhosted.org/packages/74/19/34137c1a82c66ce7e19c872cc7fa6058e6254bd27dc0a1ff4179a617f397/aporia-3.5.0.tar.gz
+[2023-07-10 17:32:23] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2023.6.8.tar.gz]
+[2023-07-10 17:32:23] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2023.6.9.tar.gz]
+[2023-07-10 17:32:23] INFO root fetch - processPackages [eodc-faas-openeo]: Start processing: bionty
+[2023-07-10 17:32:23] INFO root fetch - main [MainThread]: End processing [eodc-faas-openeo]: success
+[2023-07-10 17:32:23] INFO root fetch - processPackages [aporia]: executing diffoscope
+[2023-07-10 17:32:23] INFO root fetch - processPackages [aporia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aporia-3.4.0.tar.gz tmp/aporia-3.5.0.tar.gz --markdown 20230710/a/aporia/3.4.0-3.5.0/diff.md --exclude *.pyd
+[2023-07-10 17:32:23] INFO root fetch - processPackages [namespace-mahdimir]: Remove: archive file [/home/abi/fetcher/tmp/namespace_mahdimir-1.0.1.tar.gz]
+[2023-07-10 17:32:23] INFO root fetch - processPackages [namespace-mahdimir]: Remove: archive file [/home/abi/fetcher/tmp/namespace_mahdimir-1.0.2.tar.gz]
+[2023-07-10 17:32:23] INFO root fetch - processPackages [namespace-mahdimir]: Start processing: our-browser
+[2023-07-10 17:32:23] INFO root fetch - main [MainThread]: End processing [namespace-mahdimir]: success
+[2023-07-10 17:32:23] INFO root fetch - processPackages [bionty]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-07-10 17:32:23] WARNING root fetch - processPackages [our-browser]: Skipping, unable to determine old version
+[2023-07-10 17:32:23] INFO root fetch - processPackages [our-browser]: Start processing: nonebot-plugin-cp-broadcast
+[2023-07-10 17:32:23] INFO root fetch - main [MainThread]: End processing [our-browser] error
+[2023-07-10 17:32:23] INFO root fetch - processPackages [influxdb3-python]: Remove: archive file [/home/abi/fetcher/tmp/influxdb3-python-0.1.5.tar.gz]
+[2023-07-10 17:32:23] INFO root fetch - processPackages [influxdb3-python]: Remove: archive file [/home/abi/fetcher/tmp/influxdb3-python-0.1.6.tar.gz]
+[2023-07-10 17:32:23] INFO root fetch - processPackages [influxdb3-python]: Start processing: cubicweb
+[2023-07-10 17:32:23] INFO root fetch - main [MainThread]: End processing [influxdb3-python]: success
+[2023-07-10 17:32:23] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-10 17:32:23] INFO root fetch - processPackages [wagtail-lottie]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_lottie-0.1.8.tar.gz]
+[2023-07-10 17:32:23] INFO root fetch - processPackages [wagtail-lottie]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_lottie-0.1.9.tar.gz]
+[2023-07-10 17:32:23] INFO root fetch - processPackages [wagtail-lottie]: Start processing: tailer-sdk
+[2023-07-10 17:32:23] INFO root fetch - main [MainThread]: End processing [wagtail-lottie]: success
+[2023-07-10 17:32:23] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: Downloading https://files.pythonhosted.org/packages/6b/98/3a1daa244d45aed4945ef5e55ec421370e6ea3bd9cf0faaeb54971b31aaa/nonebot_plugin_cp_broadcast-0.2.0.tar.gz
+[2023-07-10 17:32:23] INFO root fetch - processPackages [bionty]: Downloading https://files.pythonhosted.org/packages/99/96/56b5f6e7d406917b173d9b761f4b2ff41b68d375105fe40b9b23131b295d/bionty-0.9.0.tar.gz
+[2023-07-10 17:32:23] INFO root fetch - processPackages [cubicweb]: New version: [4.1.0] Old Version: [4.0.0]
+[2023-07-10 17:32:23] INFO root fetch - processPackages [treesimi]: Remove: archive file [/home/abi/fetcher/tmp/treesimi-0.2.0.tar.gz]
+[2023-07-10 17:32:23] INFO root fetch - processPackages [treesimi]: Remove: archive file [/home/abi/fetcher/tmp/treesimi-0.3.0.tar.gz]
+[2023-07-10 17:32:23] INFO root fetch - processPackages [treesimi]: Start processing: something-stupid
+[2023-07-10 17:32:23] INFO root fetch - main [MainThread]: End processing [treesimi]: success
+[2023-07-10 17:32:23] INFO root fetch - processPackages [tailer-sdk]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-10 17:32:23] INFO root fetch - processPackages [openhab-pythonrule-engine]: Remove: archive file [/home/abi/fetcher/tmp/openhab_pythonrule_engine-1.2.4.tar.gz]
+[2023-07-10 17:32:23] INFO root fetch - processPackages [openhab-pythonrule-engine]: Remove: archive file [/home/abi/fetcher/tmp/openhab_pythonrule_engine-1.2.5.tar.gz]
+[2023-07-10 17:32:23] INFO root fetch - processPackages [openhab-pythonrule-engine]: Start processing: linfa-vi
+[2023-07-10 17:32:23] INFO root fetch - main [MainThread]: End processing [openhab-pythonrule-engine]: success
+[2023-07-10 17:32:23] WARNING root fetch - processPackages [something-stupid]: Skipping, unable to determine old version
+[2023-07-10 17:32:23] INFO root fetch - processPackages [something-stupid]: Start processing: esp-coredump
+[2023-07-10 17:32:23] INFO root fetch - main [MainThread]: End processing [something-stupid] error
+[2023-07-10 17:32:23] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: Downloading https://files.pythonhosted.org/packages/59/11/4bc7b6bca46b02203852a8006e0bfdf8012aee892bdda0fe027e36b430b4/nonebot_plugin_cp_broadcast-0.2.1.tar.gz
+[2023-07-10 17:32:24] INFO root fetch - processPackages [cubicweb]: Downloading https://files.pythonhosted.org/packages/40/12/94430b70a0681e70281f908f9f9cdbb78ad8171f3b70e37a2742139c3b41/cubicweb-4.0.0.tar.gz
+[2023-07-10 17:32:24] INFO root fetch - processPackages [linfa-vi]: New version: [1.1.5] Old Version: [1.1.3]
+[2023-07-10 17:32:24] INFO root fetch - processPackages [esp-coredump]: New version: [1.6.0] Old Version: [1.5.2]
+[2023-07-10 17:32:24] INFO root fetch - processPackages [tailer-sdk]: Downloading https://files.pythonhosted.org/packages/fc/5e/048b4a919dec4ae72e476a212d9786eff467ad771a1af0994abb67c676a6/tailer_sdk-1.3.8-py3-none-any.whl
+[2023-07-10 17:32:24] INFO root fetch - processPackages [edc-unblinding]: Remove: archive file [/home/abi/fetcher/tmp/edc-unblinding-0.1.8.tar.gz]
+[2023-07-10 17:32:24] INFO root fetch - processPackages [edc-unblinding]: Remove: archive file [/home/abi/fetcher/tmp/edc-unblinding-0.1.9.tar.gz]
+[2023-07-10 17:32:24] INFO root fetch - main [MainThread]: End processing [edc-unblinding]: success
+[2023-07-10 17:32:24] INFO root fetch - processPackages [DKUtils]: Remove: archive file [/home/abi/fetcher/tmp/DKUtils-2.9.5.tar.gz]
+[2023-07-10 17:32:24] INFO root fetch - processPackages [DKUtils]: Remove: archive file [/home/abi/fetcher/tmp/DKUtils-2.9.6.tar.gz]
+[2023-07-10 17:32:24] INFO root fetch - main [MainThread]: End processing [DKUtils]: success
+[2023-07-10 17:32:24] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: executing diffoscope
+[2023-07-10 17:32:24] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_cp_broadcast-0.2.0.tar.gz tmp/nonebot_plugin_cp_broadcast-0.2.1.tar.gz --markdown 20230710/n/nonebot-plugin-cp-broadcast/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-10 17:32:24] INFO root fetch - processPackages [bionty]: Downloading https://files.pythonhosted.org/packages/f4/01/3a99104d9a37cf7fbdae5c733cec97f252f8eb35f5553cd253a05edf8420/bionty-0.9.0rc1.tar.gz
+[2023-07-10 17:32:24] INFO root fetch - processPackages [linfa-vi]: Downloading https://files.pythonhosted.org/packages/18/e9/c25f10c2ef1e3b37a1860d1d437044052b5ae9cd217edd650e814476346a/linfa_vi-1.1.3.tar.gz
+[2023-07-10 17:32:24] INFO root fetch - processPackages [esp-coredump]: Downloading https://files.pythonhosted.org/packages/65/22/fb24a09f9ebfc9d6136128ef78af41553fb35c0b03a74e642f382951f583/esp-coredump-1.5.2.tar.gz
+[2023-07-10 17:32:24] INFO root fetch - processPackages [bionty]: executing diffoscope
+[2023-07-10 17:32:24] INFO root fetch - processPackages [bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bionty-0.9.0.tar.gz tmp/bionty-0.9.0rc1.tar.gz --markdown 20230710/b/bionty/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-07-10 17:32:24] INFO root fetch - processPackages [tailer-sdk]: Downloading https://files.pythonhosted.org/packages/79/8b/2e35f45b4df6d08c868143473471dfb5fd8d51b88f5e5a5dc81f6f6ca2bb/tailer_sdk-1.3.9-py3-none-any.whl
+[2023-07-10 17:32:24] INFO root fetch - processPackages [aporia]: Remove: archive file [/home/abi/fetcher/tmp/aporia-3.4.0.tar.gz]
+[2023-07-10 17:32:24] INFO root fetch - processPackages [aporia]: Remove: archive file [/home/abi/fetcher/tmp/aporia-3.5.0.tar.gz]
+[2023-07-10 17:32:24] INFO root fetch - main [MainThread]: End processing [aporia]: success
+[2023-07-10 17:32:24] INFO root fetch - processPackages [linfa-vi]: Downloading https://files.pythonhosted.org/packages/93/b3/16b6b077e0ff11671ee3a49a49fa41abc7bb7b538f7788af7618c1b7434a/linfa_vi-1.1.5.tar.gz
+[2023-07-10 17:32:24] INFO root fetch - processPackages [tailer-sdk]: executing diffoscope
+[2023-07-10 17:32:24] INFO root fetch - processPackages [tailer-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tailer_sdk-1.3.8-py3-none-any.whl.zip tmp/tailer_sdk-1.3.9-py3-none-any.whl.zip --markdown 20230710/t/tailer-sdk/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-10 17:32:24] INFO root fetch - processPackages [esp-coredump]: Downloading https://files.pythonhosted.org/packages/f4/38/0d453f60ae2b832f1eceb68506e67bacdbc5c593d6a66920d98bb95ec35c/esp-coredump-1.6.0.tar.gz
+[2023-07-10 17:32:24] INFO root fetch - processPackages [cubicweb]: Downloading https://files.pythonhosted.org/packages/30/c1/d878dde72146ab3780cf92b2e48e33a8062ac5691ed19e67e827c57fe42a/cubicweb-4.1.0.tar.gz
+[2023-07-10 17:32:24] INFO root fetch - processPackages [linfa-vi]: executing diffoscope
+[2023-07-10 17:32:24] INFO root fetch - processPackages [linfa-vi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linfa_vi-1.1.3.tar.gz tmp/linfa_vi-1.1.5.tar.gz --markdown 20230710/l/linfa-vi/1.1.3-1.1.5/diff.md --exclude *.pyd
+[2023-07-10 17:32:25] INFO root fetch - processPackages [esp-coredump]: executing diffoscope
+[2023-07-10 17:32:25] INFO root fetch - processPackages [esp-coredump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esp-coredump-1.5.2.tar.gz tmp/esp-coredump-1.6.0.tar.gz --markdown 20230710/e/esp-coredump/1.5.2-1.6.0/diff.md --exclude *.pyd
+[2023-07-10 17:32:25] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_cp_broadcast-0.2.0.tar.gz]
+[2023-07-10 17:32:25] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_cp_broadcast-0.2.1.tar.gz]
+[2023-07-10 17:32:25] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-cp-broadcast]: success
+[2023-07-10 17:32:25] INFO root fetch - processPackages [cubicweb]: executing diffoscope
+[2023-07-10 17:32:25] INFO root fetch - processPackages [cubicweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubicweb-4.0.0.tar.gz tmp/cubicweb-4.1.0.tar.gz --markdown 20230710/c/cubicweb/4.0.0-4.1.0/diff.md --exclude *.pyd
+[2023-07-10 17:32:25] INFO root fetch - processPackages [bionty]: Remove: archive file [/home/abi/fetcher/tmp/bionty-0.9.0.tar.gz]
+[2023-07-10 17:32:25] INFO root fetch - processPackages [bionty]: Remove: archive file [/home/abi/fetcher/tmp/bionty-0.9.0rc1.tar.gz]
+[2023-07-10 17:32:25] INFO root fetch - main [MainThread]: End processing [bionty]: success
+[2023-07-10 17:32:25] INFO root fetch - processPackages [tailer-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tailer_sdk-1.3.8-py3-none-any.whl.zip]
+[2023-07-10 17:32:25] INFO root fetch - processPackages [tailer-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tailer_sdk-1.3.9-py3-none-any.whl.zip]
+[2023-07-10 17:32:25] INFO root fetch - main [MainThread]: End processing [tailer-sdk]: success
+[2023-07-10 17:32:25] INFO root fetch - processPackages [linfa-vi]: Remove: archive file [/home/abi/fetcher/tmp/linfa_vi-1.1.3.tar.gz]
+[2023-07-10 17:32:25] INFO root fetch - processPackages [linfa-vi]: Remove: archive file [/home/abi/fetcher/tmp/linfa_vi-1.1.5.tar.gz]
+[2023-07-10 17:32:25] INFO root fetch - main [MainThread]: End processing [linfa-vi]: success
+[2023-07-10 17:32:26] INFO root fetch - processPackages [esp-coredump]: Remove: archive file [/home/abi/fetcher/tmp/esp-coredump-1.5.2.tar.gz]
+[2023-07-10 17:32:26] INFO root fetch - processPackages [esp-coredump]: Remove: archive file [/home/abi/fetcher/tmp/esp-coredump-1.6.0.tar.gz]
+[2023-07-10 17:32:26] INFO root fetch - main [MainThread]: End processing [esp-coredump]: success
+[2023-07-10 17:32:26] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.98.tar.gz]
+[2023-07-10 17:32:26] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
+[2023-07-10 17:32:26] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-07-10 17:32:31] INFO root fetch - processPackages [cubicweb]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-4.0.0.tar.gz]
+[2023-07-10 17:32:31] INFO root fetch - processPackages [cubicweb]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-4.1.0.tar.gz]
+[2023-07-10 17:32:31] INFO root fetch - main [MainThread]: End processing [cubicweb]: success
+[2023-07-10 17:32:31] INFO root fetch - main [MainThread]: Store serial: [18832796]
