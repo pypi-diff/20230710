@@ -9303,3 +9303,60 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 08:44:44] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2023-07-10 08:44:44] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-07-10 08:44:44] INFO root fetch - main [MainThread]: Store serial: [18827267]
+[2023-07-10 08:49:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18827267]
+[2023-07-10 08:49:53] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-10 08:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-nobahpicture
+[2023-07-10 08:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plyfile
+[2023-07-10 08:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wheel-axle
+[2023-07-10 08:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lesaviezvous
+[2023-07-10 08:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: specgenerator
+[2023-07-10 08:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: memphis-py
+[2023-07-10 08:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wheel-axle-runtime
+[2023-07-10 08:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cioseq
+[2023-07-10 08:49:53] INFO root fetch - processPackages [memphis-py]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-10 08:49:53] INFO root fetch - processPackages [wheel-axle]: New version: [0.0.7.dev20230710051936] Old Version: [0.0.7.dev20230628220411]
+[2023-07-10 08:49:53] INFO root fetch - processPackages [cioseq]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-07-10 08:49:53] WARNING root fetch - processPackages [specgenerator]: Skipping, unable to determine old version
+[2023-07-10 08:49:53] INFO root fetch - main [MainThread]: End processing [specgenerator] error
+[2023-07-10 08:49:53] WARNING root fetch - processPackages [lesaviezvous]: Skipping, unable to determine old version
+[2023-07-10 08:49:53] INFO root fetch - main [MainThread]: End processing [lesaviezvous] error
+[2023-07-10 08:49:53] INFO root fetch - processPackages [plyfile]: New version: [1.0] Old Version: [0.9]
+[2023-07-10 08:49:53] INFO root fetch - processPackages [wheel-axle-runtime]: New version: [0.0.4.dev20230710062519] Old Version: [0.0.4.dev20230415195356]
+[2023-07-10 08:49:53] WARNING root fetch - processPackages [nonebot-plugin-nobahpicture]: Skipping, unable to determine old version
+[2023-07-10 08:49:53] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-nobahpicture] error
+[2023-07-10 08:49:53] INFO root fetch - processPackages [wheel-axle]: Downloading https://files.pythonhosted.org/packages/e4/68/9690bd5a3df6c4dacdfcf9359988ef102e6f495a878dfc2c4e1ee44335fe/wheel_axle-0.0.7.dev20230628220411.tar.gz
+[2023-07-10 08:49:54] INFO root fetch - processPackages [wheel-axle-runtime]: Downloading https://files.pythonhosted.org/packages/80/cb/d1f8ac45eebd3b5ba53b391041965a4d5871d4c6bfe475f16de9388c6c92/wheel-axle-runtime-0.0.4.dev20230415195356.tar.gz
+[2023-07-10 08:49:54] INFO root fetch - processPackages [cioseq]: Downloading https://files.pythonhosted.org/packages/93/9a/78962425573e93d3bc7f8cc48e58aebc877c26f54b5f8825da7577d7e3a3/cioseq-0.2.2-py2.py3-none-any.whl
+[2023-07-10 08:49:54] INFO root fetch - processPackages [memphis-py]: Downloading https://files.pythonhosted.org/packages/b9/3e/d8d6febd9b81e066154da507fbd4964eec12e8d752650b2bcde32eef6294/memphis-py-1.0.4.tar.gz
+[2023-07-10 08:49:54] INFO root fetch - processPackages [plyfile]: Downloading https://files.pythonhosted.org/packages/d4/87/3bab18765bce32798a4936cd95ba3a42e7e42113219a1ce0c2eb17e6cb7f/plyfile-0.9.tar.gz
+[2023-07-10 08:49:54] INFO root fetch - processPackages [wheel-axle-runtime]: Downloading https://files.pythonhosted.org/packages/b1/99/66ff4304f8b2f7a94c85a6b47a70db81d1f25cf610f94f92519d1a50f639/wheel-axle-runtime-0.0.4.dev20230710062519.tar.gz
+[2023-07-10 08:49:54] INFO root fetch - processPackages [wheel-axle]: Downloading https://files.pythonhosted.org/packages/96/32/444d63c6ddcd06ccd6b0648fbf465b26416a9840dfc5874cc054101e9f76/wheel_axle-0.0.7.dev20230710051936.tar.gz
+[2023-07-10 08:49:54] INFO root fetch - processPackages [wheel-axle]: executing diffoscope
+[2023-07-10 08:49:54] INFO root fetch - processPackages [wheel-axle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wheel_axle-0.0.7.dev20230628220411.tar.gz tmp/wheel_axle-0.0.7.dev20230710051936.tar.gz --markdown 20230710/w/wheel-axle/0.0.7.dev20230628220411-0.0.7.dev20230710051936/diff.md --exclude *.pyd
+[2023-07-10 08:49:54] INFO root fetch - processPackages [wheel-axle-runtime]: executing diffoscope
+[2023-07-10 08:49:54] INFO root fetch - processPackages [wheel-axle-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wheel-axle-runtime-0.0.4.dev20230415195356.tar.gz tmp/wheel-axle-runtime-0.0.4.dev20230710062519.tar.gz --markdown 20230710/w/wheel-axle-runtime/0.0.4.dev20230415195356-0.0.4.dev20230710062519/diff.md --exclude *.pyd
+[2023-07-10 08:49:54] INFO root fetch - processPackages [memphis-py]: Downloading https://files.pythonhosted.org/packages/88/dd/075d8a65a9cbf83a09267238da7b49777395e81c007a277c832a593a4efc/memphis-py-1.0.5.tar.gz
+[2023-07-10 08:49:54] INFO root fetch - processPackages [cioseq]: Downloading https://files.pythonhosted.org/packages/5b/60/54d3b473c6088c0410b0c05fd1d088930f06fe8f655eb661a49f0115bd98/cioseq-0.3.0-py2.py3-none-any.whl
+[2023-07-10 08:49:54] INFO root fetch - processPackages [plyfile]: Downloading https://files.pythonhosted.org/packages/a6/b5/8a98f0af1bce6e21d6c1672b1954a8ffc6af1805ff37aaaf45ecd6a75c0d/plyfile-1.0.tar.gz
+[2023-07-10 08:49:54] INFO root fetch - processPackages [cioseq]: executing diffoscope
+[2023-07-10 08:49:54] INFO root fetch - processPackages [cioseq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cioseq-0.2.2-py2.py3-none-any.whl.zip tmp/cioseq-0.3.0-py2.py3-none-any.whl.zip --markdown 20230710/c/cioseq/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-07-10 08:49:54] INFO root fetch - processPackages [memphis-py]: executing diffoscope
+[2023-07-10 08:49:54] INFO root fetch - processPackages [memphis-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memphis-py-1.0.4.tar.gz tmp/memphis-py-1.0.5.tar.gz --markdown 20230710/m/memphis-py/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-10 08:49:54] INFO root fetch - processPackages [plyfile]: executing diffoscope
+[2023-07-10 08:49:54] INFO root fetch - processPackages [plyfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plyfile-0.9.tar.gz tmp/plyfile-1.0.tar.gz --markdown 20230710/p/plyfile/0.9-1.0/diff.md --exclude *.pyd
+[2023-07-10 08:49:55] INFO root fetch - processPackages [wheel-axle]: Remove: archive file [/home/abi/fetcher/tmp/wheel_axle-0.0.7.dev20230628220411.tar.gz]
+[2023-07-10 08:49:55] INFO root fetch - processPackages [wheel-axle]: Remove: archive file [/home/abi/fetcher/tmp/wheel_axle-0.0.7.dev20230710051936.tar.gz]
+[2023-07-10 08:49:55] INFO root fetch - main [MainThread]: End processing [wheel-axle]: success
+[2023-07-10 08:49:55] INFO root fetch - processPackages [wheel-axle-runtime]: Remove: archive file [/home/abi/fetcher/tmp/wheel-axle-runtime-0.0.4.dev20230415195356.tar.gz]
+[2023-07-10 08:49:55] INFO root fetch - processPackages [wheel-axle-runtime]: Remove: archive file [/home/abi/fetcher/tmp/wheel-axle-runtime-0.0.4.dev20230710062519.tar.gz]
+[2023-07-10 08:49:55] INFO root fetch - main [MainThread]: End processing [wheel-axle-runtime]: success
+[2023-07-10 08:49:55] INFO root fetch - processPackages [plyfile]: Remove: archive file [/home/abi/fetcher/tmp/plyfile-0.9.tar.gz]
+[2023-07-10 08:49:55] INFO root fetch - processPackages [plyfile]: Remove: archive file [/home/abi/fetcher/tmp/plyfile-1.0.tar.gz]
+[2023-07-10 08:49:55] INFO root fetch - main [MainThread]: End processing [plyfile]: success
+[2023-07-10 08:49:55] INFO root fetch - processPackages [memphis-py]: Remove: archive file [/home/abi/fetcher/tmp/memphis-py-1.0.4.tar.gz]
+[2023-07-10 08:49:55] INFO root fetch - processPackages [memphis-py]: Remove: archive file [/home/abi/fetcher/tmp/memphis-py-1.0.5.tar.gz]
+[2023-07-10 08:49:55] INFO root fetch - main [MainThread]: End processing [memphis-py]: success
+[2023-07-10 08:49:55] INFO root fetch - processPackages [cioseq]: Remove: archive file [/home/abi/fetcher/tmp/cioseq-0.2.2-py2.py3-none-any.whl.zip]
+[2023-07-10 08:49:55] INFO root fetch - processPackages [cioseq]: Remove: archive file [/home/abi/fetcher/tmp/cioseq-0.3.0-py2.py3-none-any.whl.zip]
+[2023-07-10 08:49:55] INFO root fetch - main [MainThread]: End processing [cioseq]: success
+[2023-07-10 08:49:55] INFO root fetch - main [MainThread]: Store serial: [18827304]
