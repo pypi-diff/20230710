@@ -10712,3 +10712,108 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 09:48:45] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
 [2023-07-10 09:48:45] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2023-07-10 09:48:45] INFO root fetch - main [MainThread]: Store serial: [18827878]
+[2023-07-10 09:53:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18827878]
+[2023-07-10 09:53:55] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-10 09:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastkafka
+[2023-07-10 09:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pubtools-quay
+[2023-07-10 09:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clappform
+[2023-07-10 09:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly-cpu
+[2023-07-10 09:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: specgenerator
+[2023-07-10 09:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: androtools
+[2023-07-10 09:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: armonik
+[2023-07-10 09:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rongdavbaaddins
+[2023-07-10 09:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: auterion-cli
+[2023-07-10 09:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: skytek-utils
+[2023-07-10 09:53:56] INFO root fetch - processPackages [rongdavbaaddins]: New version: [0.1.0.1] Old Version: [0.1.0.0]
+[2023-07-10 09:53:56] INFO root fetch - processPackages [clappform]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-07-10 09:53:56] INFO root fetch - processPackages [pubtools-quay]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-10 09:53:56] INFO root fetch - processPackages [skytek-utils]: New version: [0.6.0] Old Version: [0.5.2]
+[2023-07-10 09:53:56] INFO root fetch - processPackages [auterion-cli]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-10 09:53:56] INFO root fetch - processPackages [androtools]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-10 09:53:56] INFO root fetch - processPackages [fastkafka]: New version: [0.8.1rc0] Old Version: [0.8.0rc1]
+[2023-07-10 09:53:56] INFO root fetch - processPackages [armonik]: New version: [3.9.3.dev630] Old Version: [3.9.3.dev627]
+[2023-07-10 09:53:56] WARNING root fetch - processPackages [specgenerator]: Skipping, unable to determine old version
+[2023-07-10 09:53:56] INFO root fetch - processPackages [specgenerator]: Start processing: micomputing
+[2023-07-10 09:53:56] INFO root fetch - main [MainThread]: End processing [specgenerator] error
+[2023-07-10 09:53:56] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/3f/53/34bcbb5f0852d0df69bd24bc29da1f9961d0513923014b6be7d998567f32/rongdavbaaddins-0.1.0.0.tar.gz
+[2023-07-10 09:53:56] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230710] Old Version: [2.14.0.dev20230709]
+[2023-07-10 09:53:56] INFO root fetch - processPackages [micomputing]: New version: [1.1.45] Old Version: [1.1.44]
+[2023-07-10 09:53:56] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/a3/db/468340c3e51513d2270b938c830901748ba3f03d05938557f70273672795/armonik-3.9.3.dev627.tar.gz
+[2023-07-10 09:53:56] INFO root fetch - processPackages [androtools]: Downloading https://files.pythonhosted.org/packages/23/f8/2b89dfd45e1e311f23e59342e6bfd781df24f8972898fd941a10fee82eab/androtools-0.1.4.tar.gz
+[2023-07-10 09:53:56] INFO root fetch - processPackages [clappform]: Downloading https://files.pythonhosted.org/packages/bd/32/11aa0eb63ec5dbcb90235d2dca7d8e2566130c6acf50d267f68130cb7db2/clappform-3.0.1.tar.gz
+[2023-07-10 09:53:56] INFO root fetch - processPackages [pubtools-quay]: Downloading https://files.pythonhosted.org/packages/38/43/fe7538ba9bedf2c940fceb670822ab6a89333b35994bb69f8c87e1a2ad64/pubtools-quay-0.9.2.tar.gz
+[2023-07-10 09:53:56] INFO root fetch - processPackages [skytek-utils]: Downloading https://files.pythonhosted.org/packages/ff/27/2c08db1adb967549bf13e5d2d471e096b5c8beace01abe7151691cec4a8b/skytek-utils-0.5.2.tar.gz
+[2023-07-10 09:53:56] INFO root fetch - processPackages [auterion-cli]: Downloading https://files.pythonhosted.org/packages/78/62/af916e3de09233352ffc10774ad6facec75a6bcda97b745963ae7ff6a9b5/auterion-cli-1.2.0.tar.gz
+[2023-07-10 09:53:56] INFO root fetch - processPackages [fastkafka]: Downloading https://files.pythonhosted.org/packages/8e/90/dfc89b6142cd5da5216da99fc83263fbef6cbc080f92a1bb89bd6987be3c/fastkafka-0.8.0rc1.tar.gz
+[2023-07-10 09:53:56] INFO root fetch - processPackages [micomputing]: Downloading https://files.pythonhosted.org/packages/fe/cc/74e8bf37b30110f3c0d2250e9c0d5a256c7bcad3806f4fef75af91730049/micomputing-1.1.44.tar.gz
+[2023-07-10 09:53:56] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/44/ef/48285e445974e978f47957dc2693267d872d25ffee5fc37edf95efef4aca/tf_nightly_cpu-2.14.0.dev20230709-cp39-cp39-win_amd64.whl
+[2023-07-10 09:53:56] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/11/ad/4f1bc0423cfda7af28cb5dc84e1865bf90ef91df50054caabbc8de87872b/armonik-3.9.3.dev630.tar.gz
+[2023-07-10 09:53:56] INFO root fetch - processPackages [androtools]: Downloading https://files.pythonhosted.org/packages/98/66/7db476c8df7c0433b21ad64aee24954b8108c203ed61f8be80ef7d44040a/androtools-0.1.5.tar.gz
+[2023-07-10 09:53:56] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/0a/09/67c64f9c371fed99dfeb8055f5dcc5c10b84fe1ca844081d8f72f0d9e703/rongdavbaaddins-0.1.0.1.tar.gz
+[2023-07-10 09:53:56] INFO root fetch - processPackages [clappform]: Downloading https://files.pythonhosted.org/packages/53/12/da4acaff1d1fd538cc92ffdcee684e0829c8749c1b57769de163661294fa/clappform-3.0.2.tar.gz
+[2023-07-10 09:53:56] INFO root fetch - processPackages [armonik]: executing diffoscope
+[2023-07-10 09:53:56] INFO root fetch - processPackages [armonik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armonik-3.9.3.dev627.tar.gz tmp/armonik-3.9.3.dev630.tar.gz --markdown 20230710/a/armonik/3.9.3.dev627-3.9.3.dev630/diff.md --exclude *.pyd
+[2023-07-10 09:53:56] INFO root fetch - processPackages [auterion-cli]: Downloading https://files.pythonhosted.org/packages/dc/a5/84f44216f2fe76f7a412b5d035db0857fa118d629776e393bd8588c18ba8/auterion-cli-1.2.1.tar.gz
+[2023-07-10 09:53:57] INFO root fetch - processPackages [pubtools-quay]: Downloading https://files.pythonhosted.org/packages/ef/0a/683ad866465b2a2d90cc7e39a365c6eb98974c20f920d7c50542d9012b92/pubtools-quay-0.9.3.tar.gz
+[2023-07-10 09:53:57] INFO root fetch - processPackages [skytek-utils]: Downloading https://files.pythonhosted.org/packages/14/e4/dee29b120c03ae49dd9246204b7a780f4d8b0a4a22ff364e37ef54c80aac/skytek-utils-0.6.0.tar.gz
+[2023-07-10 09:53:57] INFO root fetch - processPackages [androtools]: executing diffoscope
+[2023-07-10 09:53:57] INFO root fetch - processPackages [androtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/androtools-0.1.4.tar.gz tmp/androtools-0.1.5.tar.gz --markdown 20230710/a/androtools/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-10 09:53:57] INFO root fetch - processPackages [clappform]: executing diffoscope
+[2023-07-10 09:53:57] INFO root fetch - processPackages [clappform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clappform-3.0.1.tar.gz tmp/clappform-3.0.2.tar.gz --markdown 20230710/c/clappform/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-07-10 09:53:57] INFO root fetch - processPackages [fastkafka]: Downloading https://files.pythonhosted.org/packages/51/ba/82191853c5158fe6b08ad401855c42f2af1fe94a1bcdc5d102371105a8f0/fastkafka-0.8.1rc0.tar.gz
+[2023-07-10 09:53:57] INFO root fetch - processPackages [micomputing]: Downloading https://files.pythonhosted.org/packages/e4/3d/31cdb54c7f3438aaf52058b60f8a7f1798c9707d5d15e034511ebe771bcd/micomputing-1.1.45-py3-none-any.whl
+[2023-07-10 09:53:57] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/30/4f/e807841e247586656f3b3f3b6ee30ce6eac9d0bcf8cb46ad77677021f048/tf_nightly_cpu-2.14.0.dev20230710-cp39-cp39-win_amd64.whl
+[2023-07-10 09:53:57] INFO root fetch - processPackages [auterion-cli]: executing diffoscope
+[2023-07-10 09:53:57] INFO root fetch - processPackages [auterion-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auterion-cli-1.2.0.tar.gz tmp/auterion-cli-1.2.1.tar.gz --markdown 20230710/a/auterion-cli/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-10 09:53:57] INFO root fetch - processPackages [rongdavbaaddins]: executing diffoscope
+[2023-07-10 09:53:57] INFO root fetch - processPackages [rongdavbaaddins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rongdavbaaddins-0.1.0.0.tar.gz tmp/rongdavbaaddins-0.1.0.1.tar.gz --markdown 20230710/r/rongdavbaaddins/0.1.0.0-0.1.0.1/diff.md --exclude *.pyd
+[2023-07-10 09:53:57] INFO root fetch - processPackages [pubtools-quay]: executing diffoscope
+[2023-07-10 09:53:57] INFO root fetch - processPackages [pubtools-quay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pubtools-quay-0.9.2.tar.gz tmp/pubtools-quay-0.9.3.tar.gz --markdown 20230710/p/pubtools-quay/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-10 09:53:57] INFO root fetch - processPackages [fastkafka]: executing diffoscope
+[2023-07-10 09:53:57] INFO root fetch - processPackages [fastkafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastkafka-0.8.0rc1.tar.gz tmp/fastkafka-0.8.1rc0.tar.gz --markdown 20230710/f/fastkafka/0.8.0rc1-0.8.1rc0/diff.md --exclude *.pyd
+[2023-07-10 09:53:57] INFO root fetch - processPackages [micomputing]: executing diffoscope
+[2023-07-10 09:53:57] INFO root fetch - processPackages [micomputing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micomputing-1.1.44.tar.gz tmp/micomputing-1.1.45-py3-none-any.whl.zip --markdown 20230710/m/micomputing/1.1.44-1.1.45/diff.md --exclude *.pyd
+[2023-07-10 09:53:57] INFO root fetch - processPackages [skytek-utils]: executing diffoscope
+[2023-07-10 09:53:57] INFO root fetch - processPackages [skytek-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skytek-utils-0.5.2.tar.gz tmp/skytek-utils-0.6.0.tar.gz --markdown 20230710/s/skytek-utils/0.5.2-0.6.0/diff.md --exclude *.pyd
+[2023-07-10 09:53:57] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-07-10 09:53:57] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230709-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230710-cp39-cp39-win_amd64.whl.zip --markdown 20230710/t/tf-nightly-cpu/2.14.0.dev20230709-2.14.0.dev20230710/diff.md --exclude *.pyd
+[2023-07-10 09:53:58] INFO root fetch - processPackages [androtools]: Remove: archive file [/home/abi/fetcher/tmp/androtools-0.1.4.tar.gz]
+[2023-07-10 09:53:58] INFO root fetch - processPackages [androtools]: Remove: archive file [/home/abi/fetcher/tmp/androtools-0.1.5.tar.gz]
+[2023-07-10 09:53:58] INFO root fetch - processPackages [androtools]: Start processing: pycarlanet
+[2023-07-10 09:53:58] INFO root fetch - main [MainThread]: End processing [androtools]: success
+[2023-07-10 09:53:58] INFO root fetch - processPackages [clappform]: Remove: archive file [/home/abi/fetcher/tmp/clappform-3.0.1.tar.gz]
+[2023-07-10 09:53:58] INFO root fetch - processPackages [clappform]: Remove: archive file [/home/abi/fetcher/tmp/clappform-3.0.2.tar.gz]
+[2023-07-10 09:53:58] INFO root fetch - main [MainThread]: End processing [clappform]: success
+[2023-07-10 09:53:58] INFO root fetch - processPackages [pycarlanet]: New version: [0.9.0a0] Old Version: [0.8.9a0]
+[2023-07-10 09:53:58] INFO root fetch - processPackages [micomputing]: Remove: archive file [/home/abi/fetcher/tmp/micomputing-1.1.44.tar.gz]
+[2023-07-10 09:53:58] INFO root fetch - processPackages [micomputing]: Remove: archive file [/home/abi/fetcher/tmp/micomputing-1.1.45-py3-none-any.whl.zip]
+[2023-07-10 09:53:58] INFO root fetch - main [MainThread]: End processing [micomputing]: success
+[2023-07-10 09:53:58] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.1.0.0.tar.gz]
+[2023-07-10 09:53:58] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.1.0.1.tar.gz]
+[2023-07-10 09:53:58] INFO root fetch - main [MainThread]: End processing [rongdavbaaddins]: success
+[2023-07-10 09:53:58] INFO root fetch - processPackages [auterion-cli]: Remove: archive file [/home/abi/fetcher/tmp/auterion-cli-1.2.0.tar.gz]
+[2023-07-10 09:53:58] INFO root fetch - processPackages [auterion-cli]: Remove: archive file [/home/abi/fetcher/tmp/auterion-cli-1.2.1.tar.gz]
+[2023-07-10 09:53:58] INFO root fetch - main [MainThread]: End processing [auterion-cli]: success
+[2023-07-10 09:53:58] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230709-cp39-cp39-win_amd64.whl.zip]
+[2023-07-10 09:53:58] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230710-cp39-cp39-win_amd64.whl.zip]
+[2023-07-10 09:53:58] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-07-10 09:53:58] INFO root fetch - processPackages [fastkafka]: Remove: archive file [/home/abi/fetcher/tmp/fastkafka-0.8.0rc1.tar.gz]
+[2023-07-10 09:53:58] INFO root fetch - processPackages [fastkafka]: Remove: archive file [/home/abi/fetcher/tmp/fastkafka-0.8.1rc0.tar.gz]
+[2023-07-10 09:53:58] INFO root fetch - main [MainThread]: End processing [fastkafka]: success
+[2023-07-10 09:53:59] INFO root fetch - processPackages [pycarlanet]: Downloading https://files.pythonhosted.org/packages/b9/5a/06a5868d18b61d0ca39f41383d6c3792026819c027b77eea17ac6ddb0e9b/pycarlanet-0.8.9a0.tar.gz
+[2023-07-10 09:53:59] INFO root fetch - processPackages [skytek-utils]: Remove: archive file [/home/abi/fetcher/tmp/skytek-utils-0.5.2.tar.gz]
+[2023-07-10 09:53:59] INFO root fetch - processPackages [skytek-utils]: Remove: archive file [/home/abi/fetcher/tmp/skytek-utils-0.6.0.tar.gz]
+[2023-07-10 09:53:59] INFO root fetch - main [MainThread]: End processing [skytek-utils]: success
+[2023-07-10 09:53:59] INFO root fetch - processPackages [pubtools-quay]: Remove: archive file [/home/abi/fetcher/tmp/pubtools-quay-0.9.2.tar.gz]
+[2023-07-10 09:53:59] INFO root fetch - processPackages [pubtools-quay]: Remove: archive file [/home/abi/fetcher/tmp/pubtools-quay-0.9.3.tar.gz]
+[2023-07-10 09:53:59] INFO root fetch - main [MainThread]: End processing [pubtools-quay]: success
+[2023-07-10 09:53:59] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.3.dev627.tar.gz]
+[2023-07-10 09:53:59] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.3.dev630.tar.gz]
+[2023-07-10 09:53:59] INFO root fetch - main [MainThread]: End processing [armonik]: success
+[2023-07-10 09:53:59] INFO root fetch - processPackages [pycarlanet]: Downloading https://files.pythonhosted.org/packages/a1/08/2a43d33207f7bdce530a6bea1d170e887dfea45a1e03a3b019dc61b6525c/pycarlanet-0.9.0a0.tar.gz
+[2023-07-10 09:53:59] INFO root fetch - processPackages [pycarlanet]: executing diffoscope
+[2023-07-10 09:53:59] INFO root fetch - processPackages [pycarlanet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycarlanet-0.8.9a0.tar.gz tmp/pycarlanet-0.9.0a0.tar.gz --markdown 20230710/p/pycarlanet/0.8.9a0-0.9.0a0/diff.md --exclude *.pyd
+[2023-07-10 09:54:00] INFO root fetch - processPackages [pycarlanet]: Remove: archive file [/home/abi/fetcher/tmp/pycarlanet-0.8.9a0.tar.gz]
+[2023-07-10 09:54:00] INFO root fetch - processPackages [pycarlanet]: Remove: archive file [/home/abi/fetcher/tmp/pycarlanet-0.9.0a0.tar.gz]
+[2023-07-10 09:54:00] INFO root fetch - main [MainThread]: End processing [pycarlanet]: success
+[2023-07-10 09:54:00] INFO root fetch - main [MainThread]: Store serial: [18827923]
