@@ -14875,3 +14875,141 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 12:38:31] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.16.0.tar.gz]
 [2023-07-10 12:38:31] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
 [2023-07-10 12:38:31] INFO root fetch - main [MainThread]: Store serial: [18829562]
+[2023-07-10 12:43:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18829562]
+[2023-07-10 12:43:40] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-10 12:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TEST-TC
+[2023-07-10 12:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sentry-sdk
+[2023-07-10 12:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: baumanecbank-common
+[2023-07-10 12:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xinference
+[2023-07-10 12:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ob-dj-store
+[2023-07-10 12:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rxctl
+[2023-07-10 12:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: audmath
+[2023-07-10 12:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: artemis-common
+[2023-07-10 12:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: supertokens-python
+[2023-07-10 12:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: External-User-Local
+[2023-07-10 12:43:41] INFO root fetch - processPackages [artemis-common]: New version: [0.3.7b0] Old Version: [0.3.6b0]
+[2023-07-10 12:43:41] INFO root fetch - processPackages [baumanecbank-common]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-10 12:43:41] INFO root fetch - processPackages [xinference]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-10 12:43:41] INFO root fetch - processPackages [TEST-TC]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-10 12:43:41] INFO root fetch - processPackages [rxctl]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-10 12:43:41] INFO root fetch - processPackages [External-User-Local]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-10 12:43:41] INFO root fetch - processPackages [audmath]: New version: [1.3.0] Old Version: [1.2.1]
+[2023-07-10 12:43:41] INFO root fetch - processPackages [sentry-sdk]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-10 12:43:41] INFO root fetch - processPackages [ob-dj-store]: New version: [0.0.9.8] Old Version: [0.0.9.7]
+[2023-07-10 12:43:41] INFO root fetch - processPackages [supertokens-python]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-10 12:43:41] INFO root fetch - processPackages [baumanecbank-common]: Downloading https://files.pythonhosted.org/packages/ab/23/e48e9ce4f8cbc2aadce8239bfb94add4ae0e4f63314d757981c446d47349/baumanecbank_common-1.0.4.tar.gz
+[2023-07-10 12:43:41] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/32/d7/25de7877d72acf5b8a5c4707f8513d08c9f5f082c469011ce71ebd71d5da/TEST_TC-1.0.2.tar.gz
+[2023-07-10 12:43:41] INFO root fetch - processPackages [External-User-Local]: Downloading https://files.pythonhosted.org/packages/ee/d0/de7dd862836e60aaa643f11fc8fd311638f71800899ebd2a291712f00eb9/External-User-Local-0.0.6.tar.gz
+[2023-07-10 12:43:41] INFO root fetch - processPackages [artemis-common]: Downloading https://files.pythonhosted.org/packages/9f/03/86180a70cce823daa4e0dc807ce8cfe51aab3853a4fd8f7aa7c1c23b6ee7/artemis-common-0.3.6b0.tar.gz
+[2023-07-10 12:43:41] INFO root fetch - processPackages [xinference]: Downloading https://files.pythonhosted.org/packages/28/3c/f6fa19daa157cae5c41a95344d07e61dd6af90865412a1e055c8af17a9f8/xinference-0.0.0-py2.py3-none-any.whl
+[2023-07-10 12:43:41] INFO root fetch - processPackages [rxctl]: Downloading https://files.pythonhosted.org/packages/80/0a/582963918110c36d715a79789c330ff0ce007c2068340647ac6e2397a0d5/rxctl-1.0.2.tar.gz
+[2023-07-10 12:43:41] INFO root fetch - processPackages [ob-dj-store]: Downloading https://files.pythonhosted.org/packages/0c/a8/fd8fc20d9e25ffdfa38a5915686c016f42b533aaa82d359ff30484814ada/ob-dj-store-0.0.9.7.tar.gz
+[2023-07-10 12:43:41] INFO root fetch - processPackages [supertokens-python]: Downloading https://files.pythonhosted.org/packages/41/34/31967fb29a967744e011eb91331a2937f19d9882acccbefdef89c41d48ce/supertokens_python-0.9.0.tar.gz
+[2023-07-10 12:43:41] INFO root fetch - processPackages [audmath]: Downloading https://files.pythonhosted.org/packages/bb/b4/4670855f311939b3c5729cb91aee1fefb384c32c274d81e6dc25023a0c5c/audmath-1.2.1.tar.gz
+[2023-07-10 12:43:41] INFO root fetch - processPackages [sentry-sdk]: Downloading https://files.pythonhosted.org/packages/61/00/dd7e41da95c59f4ccf86be60fcbb5889dc7b215ca5e71c8108cb7892c0b8/sentry-sdk-1.9.8.tar.gz
+[2023-07-10 12:43:41] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/37/c8/d90022848811afe33c54b498469694a48c21a9620b11cb06849974616006/TEST_TC-1.0.3.tar.gz
+[2023-07-10 12:43:41] INFO root fetch - processPackages [External-User-Local]: Downloading https://files.pythonhosted.org/packages/b1/31/9d35eb2087cdb2e2535750dbd4033b1a3276c4c74835e5e7776085264d21/External-User-Local-0.0.7.tar.gz
+[2023-07-10 12:43:41] INFO root fetch - processPackages [artemis-common]: Downloading https://files.pythonhosted.org/packages/a1/ef/7bb77af2a9b5c7d599cbb3305052027136ab8849556abce2344dd21906f6/artemis-common-0.3.7b0.tar.gz
+[2023-07-10 12:43:41] INFO root fetch - processPackages [baumanecbank-common]: Downloading https://files.pythonhosted.org/packages/dd/07/cbfbf9f76376861c1966a8a9da7021c7dc749567a0684481610addb2f4e7/baumanecbank_common-1.0.5.tar.gz
+[2023-07-10 12:43:42] INFO root fetch - processPackages [xinference]: Downloading https://files.pythonhosted.org/packages/f6/e8/cbd0cadf39538a9fb3039a016d1ef2204b1a52aeba74aabd7d7259893450/xinference-0.0.1.tar.gz
+[2023-07-10 12:43:42] INFO root fetch - processPackages [rxctl]: Downloading https://files.pythonhosted.org/packages/fb/f1/6b4d16cc0d808fb602f2f2f124de26dbad9d65797ca303b2337f7227c1f8/rxctl-1.0.3.tar.gz
+[2023-07-10 12:43:42] INFO root fetch - processPackages [TEST-TC]: executing diffoscope
+[2023-07-10 12:43:42] INFO root fetch - processPackages [TEST-TC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TEST_TC-1.0.2.tar.gz tmp/TEST_TC-1.0.3.tar.gz --markdown 20230710/T/TEST-TC/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-10 12:43:42] INFO root fetch - processPackages [External-User-Local]: executing diffoscope
+[2023-07-10 12:43:42] INFO root fetch - processPackages [External-User-Local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/External-User-Local-0.0.6.tar.gz tmp/External-User-Local-0.0.7.tar.gz --markdown 20230710/E/External-User-Local/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-10 12:43:42] INFO root fetch - processPackages [ob-dj-store]: Downloading https://files.pythonhosted.org/packages/10/95/20bbd86eb725e4c9efaf8686a43df4977f38c591c117280967801b2d331f/ob-dj-store-0.0.9.8.tar.gz
+[2023-07-10 12:43:42] INFO root fetch - processPackages [sentry-sdk]: Downloading https://files.pythonhosted.org/packages/b5/bf/680dccdef2576e85b3773de1acde3d263d2c3f105187562a6653cc550a8b/sentry-sdk-1.9.9.tar.gz
+[2023-07-10 12:43:42] INFO root fetch - processPackages [audmath]: Downloading https://files.pythonhosted.org/packages/81/85/4aa79a5e1f4c382d90fc302cdd942fbb8c610bba18ecb29440385bf785f4/audmath-1.3.0.tar.gz
+[2023-07-10 12:43:42] INFO root fetch - processPackages [baumanecbank-common]: executing diffoscope
+[2023-07-10 12:43:42] INFO root fetch - processPackages [baumanecbank-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baumanecbank_common-1.0.4.tar.gz tmp/baumanecbank_common-1.0.5.tar.gz --markdown 20230710/b/baumanecbank-common/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-10 12:43:42] INFO root fetch - processPackages [artemis-common]: executing diffoscope
+[2023-07-10 12:43:42] INFO root fetch - processPackages [artemis-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artemis-common-0.3.6b0.tar.gz tmp/artemis-common-0.3.7b0.tar.gz --markdown 20230710/a/artemis-common/0.3.6b0-0.3.7b0/diff.md --exclude *.pyd
+[2023-07-10 12:43:42] INFO root fetch - processPackages [xinference]: executing diffoscope
+[2023-07-10 12:43:42] INFO root fetch - processPackages [xinference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xinference-0.0.0-py2.py3-none-any.whl.zip tmp/xinference-0.0.1.tar.gz --markdown 20230710/x/xinference/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-10 12:43:42] INFO root fetch - processPackages [supertokens-python]: Downloading https://files.pythonhosted.org/packages/9d/b6/1579872040858340507fd930b8d80cc6f32b03fdf8a1a46b669704ba8615/supertokens_python-0.9.1.tar.gz
+[2023-07-10 12:43:42] INFO root fetch - processPackages [rxctl]: executing diffoscope
+[2023-07-10 12:43:42] INFO root fetch - processPackages [rxctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rxctl-1.0.2.tar.gz tmp/rxctl-1.0.3.tar.gz --markdown 20230710/r/rxctl/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-10 12:43:42] INFO root fetch - processPackages [ob-dj-store]: executing diffoscope
+[2023-07-10 12:43:42] INFO root fetch - processPackages [ob-dj-store]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ob-dj-store-0.0.9.7.tar.gz tmp/ob-dj-store-0.0.9.8.tar.gz --markdown 20230710/o/ob-dj-store/0.0.9.7-0.0.9.8/diff.md --exclude *.pyd
+[2023-07-10 12:43:42] INFO root fetch - processPackages [sentry-sdk]: executing diffoscope
+[2023-07-10 12:43:42] INFO root fetch - processPackages [sentry-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-sdk-1.9.8.tar.gz tmp/sentry-sdk-1.9.9.tar.gz --markdown 20230710/s/sentry-sdk/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-10 12:43:42] INFO root fetch - processPackages [audmath]: executing diffoscope
+[2023-07-10 12:43:42] INFO root fetch - processPackages [audmath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audmath-1.2.1.tar.gz tmp/audmath-1.3.0.tar.gz --markdown 20230710/a/audmath/1.2.1-1.3.0/diff.md --exclude *.pyd
+[2023-07-10 12:43:42] INFO root fetch - processPackages [supertokens-python]: executing diffoscope
+[2023-07-10 12:43:42] INFO root fetch - processPackages [supertokens-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supertokens_python-0.9.0.tar.gz tmp/supertokens_python-0.9.1.tar.gz --markdown 20230710/s/supertokens-python/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-10 12:43:44] INFO root fetch - processPackages [External-User-Local]: Remove: archive file [/home/abi/fetcher/tmp/External-User-Local-0.0.6.tar.gz]
+[2023-07-10 12:43:44] INFO root fetch - processPackages [External-User-Local]: Remove: archive file [/home/abi/fetcher/tmp/External-User-Local-0.0.7.tar.gz]
+[2023-07-10 12:43:44] INFO root fetch - processPackages [External-User-Local]: Start processing: atriumsports-sdk
+[2023-07-10 12:43:44] INFO root fetch - main [MainThread]: End processing [External-User-Local]: success
+[2023-07-10 12:43:44] INFO root fetch - processPackages [atriumsports-sdk]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-10 12:43:44] INFO root fetch - processPackages [xinference]: Remove: archive file [/home/abi/fetcher/tmp/xinference-0.0.0-py2.py3-none-any.whl.zip]
+[2023-07-10 12:43:44] INFO root fetch - processPackages [xinference]: Remove: archive file [/home/abi/fetcher/tmp/xinference-0.0.1.tar.gz]
+[2023-07-10 12:43:44] INFO root fetch - processPackages [xinference]: Start processing: qontract-reconcile
+[2023-07-10 12:43:44] INFO root fetch - main [MainThread]: End processing [xinference]: success
+[2023-07-10 12:43:44] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-07-10 12:43:44] INFO root fetch - processPackages [atriumsports-sdk]: Downloading https://files.pythonhosted.org/packages/e6/94/17f5e3c2c38418af1187c0cb398f1d8823d524030c786627ecb70455a9b8/atriumsports_sdk-1.3.0.tar.gz
+[2023-07-10 12:43:44] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-1.0.2.tar.gz]
+[2023-07-10 12:43:44] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-1.0.3.tar.gz]
+[2023-07-10 12:43:44] INFO root fetch - processPackages [TEST-TC]: Start processing: TheSilent
+[2023-07-10 12:43:44] INFO root fetch - main [MainThread]: End processing [TEST-TC]: success
+[2023-07-10 12:43:44] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-07-10 12:43:44] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-10 12:43:44] INFO root fetch - processPackages [artemis-common]: Remove: archive file [/home/abi/fetcher/tmp/artemis-common-0.3.6b0.tar.gz]
+[2023-07-10 12:43:44] INFO root fetch - processPackages [artemis-common]: Remove: archive file [/home/abi/fetcher/tmp/artemis-common-0.3.7b0.tar.gz]
+[2023-07-10 12:43:44] INFO root fetch - processPackages [artemis-common]: Start processing: csp-cryspy
+[2023-07-10 12:43:44] INFO root fetch - main [MainThread]: End processing [artemis-common]: success
+[2023-07-10 12:43:44] INFO root fetch - processPackages [audmath]: Remove: archive file [/home/abi/fetcher/tmp/audmath-1.2.1.tar.gz]
+[2023-07-10 12:43:44] INFO root fetch - processPackages [audmath]: Remove: archive file [/home/abi/fetcher/tmp/audmath-1.3.0.tar.gz]
+[2023-07-10 12:43:44] INFO root fetch - processPackages [audmath]: Start processing: threads-net
+[2023-07-10 12:43:44] INFO root fetch - main [MainThread]: End processing [audmath]: success
+[2023-07-10 12:43:44] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-10 12:43:44] INFO root fetch - processPackages [rxctl]: Remove: archive file [/home/abi/fetcher/tmp/rxctl-1.0.2.tar.gz]
+[2023-07-10 12:43:44] INFO root fetch - processPackages [rxctl]: Remove: archive file [/home/abi/fetcher/tmp/rxctl-1.0.3.tar.gz]
+[2023-07-10 12:43:44] INFO root fetch - main [MainThread]: End processing [rxctl]: success
+[2023-07-10 12:43:44] INFO root fetch - processPackages [baumanecbank-common]: Remove: archive file [/home/abi/fetcher/tmp/baumanecbank_common-1.0.4.tar.gz]
+[2023-07-10 12:43:44] INFO root fetch - processPackages [baumanecbank-common]: Remove: archive file [/home/abi/fetcher/tmp/baumanecbank_common-1.0.5.tar.gz]
+[2023-07-10 12:43:44] INFO root fetch - main [MainThread]: End processing [baumanecbank-common]: success
+[2023-07-10 12:43:44] INFO root fetch - processPackages [threads-net]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-10 12:43:44] INFO root fetch - processPackages [csp-cryspy]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-07-10 12:43:45] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/11/ba/483f4770d7c413aff80cfdfd96da75d50912f6604255f4a04d7e8448a5a1/threads-net-0.0.7.tar.gz
+[2023-07-10 12:43:45] INFO root fetch - processPackages [ob-dj-store]: Remove: archive file [/home/abi/fetcher/tmp/ob-dj-store-0.0.9.7.tar.gz]
+[2023-07-10 12:43:45] INFO root fetch - processPackages [ob-dj-store]: Remove: archive file [/home/abi/fetcher/tmp/ob-dj-store-0.0.9.8.tar.gz]
+[2023-07-10 12:43:45] INFO root fetch - main [MainThread]: End processing [ob-dj-store]: success
+[2023-07-10 12:43:45] INFO root fetch - processPackages [atriumsports-sdk]: Downloading https://files.pythonhosted.org/packages/c3/cb/aede451f73633a0695b6324ed5e2b142f79f981af3d5707d477b185f7c0d/atriumsports_sdk-1.3.1.tar.gz
+[2023-07-10 12:43:45] INFO root fetch - processPackages [sentry-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sentry-sdk-1.9.8.tar.gz]
+[2023-07-10 12:43:45] INFO root fetch - processPackages [sentry-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sentry-sdk-1.9.9.tar.gz]
+[2023-07-10 12:43:45] INFO root fetch - main [MainThread]: End processing [sentry-sdk]: success
+[2023-07-10 12:43:45] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-10 12:43:45] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-07-10 12:43:45] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-10 12:43:45] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230710/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-10 12:43:45] INFO root fetch - processPackages [csp-cryspy]: Downloading https://files.pythonhosted.org/packages/54/87/c8149c252e098630fc19e1ac76ac40cb772f92f5923462ec63d4853388e9/csp-cryspy-1.1.1.tar.gz
+[2023-07-10 12:43:45] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/de/bd/e372c12fe307c562ec3785151d74201431eddd2312171d55b8ee4ac81db6/threads-net-0.0.8.tar.gz
+[2023-07-10 12:43:45] INFO root fetch - processPackages [atriumsports-sdk]: executing diffoscope
+[2023-07-10 12:43:45] INFO root fetch - processPackages [atriumsports-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atriumsports_sdk-1.3.0.tar.gz tmp/atriumsports_sdk-1.3.1.tar.gz --markdown 20230710/a/atriumsports-sdk/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-10 12:43:45] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-07-10 12:43:45] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230710/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-07-10 12:43:45] INFO root fetch - processPackages [threads-net]: executing diffoscope
+[2023-07-10 12:43:45] INFO root fetch - processPackages [threads-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threads-net-0.0.7.tar.gz tmp/threads-net-0.0.8.tar.gz --markdown 20230710/t/threads-net/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-10 12:43:45] INFO root fetch - processPackages [csp-cryspy]: Downloading https://files.pythonhosted.org/packages/63/31/9196d49e3dc8dd4185d5a124e23d9b23b7dd601ce6bfefd102554f39de38/csp-cryspy-1.2.0.tar.gz
+[2023-07-10 12:43:45] INFO root fetch - processPackages [csp-cryspy]: executing diffoscope
+[2023-07-10 12:43:45] INFO root fetch - processPackages [csp-cryspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csp-cryspy-1.1.1.tar.gz tmp/csp-cryspy-1.2.0.tar.gz --markdown 20230710/c/csp-cryspy/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-07-10 12:43:46] INFO root fetch - processPackages [supertokens-python]: Remove: archive file [/home/abi/fetcher/tmp/supertokens_python-0.9.0.tar.gz]
+[2023-07-10 12:43:46] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-10 12:43:46] INFO root fetch - processPackages [supertokens-python]: Remove: archive file [/home/abi/fetcher/tmp/supertokens_python-0.9.1.tar.gz]
+[2023-07-10 12:43:46] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-10 12:43:46] INFO root fetch - main [MainThread]: End processing [supertokens-python]: success
+[2023-07-10 12:43:46] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-10 12:43:46] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.7.tar.gz]
+[2023-07-10 12:43:46] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.8.tar.gz]
+[2023-07-10 12:43:46] INFO root fetch - main [MainThread]: End processing [threads-net]: success
+[2023-07-10 12:43:47] INFO root fetch - processPackages [csp-cryspy]: Remove: archive file [/home/abi/fetcher/tmp/csp-cryspy-1.1.1.tar.gz]
+[2023-07-10 12:43:47] INFO root fetch - processPackages [csp-cryspy]: Remove: archive file [/home/abi/fetcher/tmp/csp-cryspy-1.2.0.tar.gz]
+[2023-07-10 12:43:47] INFO root fetch - main [MainThread]: End processing [csp-cryspy]: success
+[2023-07-10 12:43:48] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-07-10 12:43:48] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-07-10 12:43:48] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-07-10 12:43:48] INFO root fetch - processPackages [atriumsports-sdk]: Remove: archive file [/home/abi/fetcher/tmp/atriumsports_sdk-1.3.0.tar.gz]
+[2023-07-10 12:43:48] INFO root fetch - processPackages [atriumsports-sdk]: Remove: archive file [/home/abi/fetcher/tmp/atriumsports_sdk-1.3.1.tar.gz]
+[2023-07-10 12:43:48] INFO root fetch - main [MainThread]: End processing [atriumsports-sdk]: success
+[2023-07-10 12:43:48] INFO root fetch - main [MainThread]: Store serial: [18829618]
