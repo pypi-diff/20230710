@@ -10817,3 +10817,153 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 09:54:00] INFO root fetch - processPackages [pycarlanet]: Remove: archive file [/home/abi/fetcher/tmp/pycarlanet-0.9.0a0.tar.gz]
 [2023-07-10 09:54:00] INFO root fetch - main [MainThread]: End processing [pycarlanet]: success
 [2023-07-10 09:54:00] INFO root fetch - main [MainThread]: Store serial: [18827923]
+[2023-07-10 09:59:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18827923]
+[2023-07-10 09:59:09] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-10 09:59:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycarlanet
+[2023-07-10 09:59:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: batorch
+[2023-07-10 09:59:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydatafabric
+[2023-07-10 09:59:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quantplay
+[2023-07-10 09:59:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: NoomSmartKeyboard
+[2023-07-10 09:59:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qwak-core
+[2023-07-10 09:59:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: concrete
+[2023-07-10 09:59:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: CircuitCalculator
+[2023-07-10 09:59:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dassana
+[2023-07-10 09:59:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: numpy-io
+[2023-07-10 09:59:09] INFO root fetch - processPackages [pydatafabric]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-07-10 09:59:09] INFO root fetch - processPackages [batorch]: New version: [1.0.52] Old Version: [1.0.51]
+[2023-07-10 09:59:09] INFO root fetch - processPackages [pycarlanet]: New version: [0.9.0a0] Old Version: [0.8.9a0]
+[2023-07-10 09:59:09] INFO root fetch - processPackages [CircuitCalculator]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 09:59:09] INFO root fetch - processPackages [numpy-io]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-10 09:59:09] WARNING root fetch - processPackages [NoomSmartKeyboard]: Skipping, unable to determine old version
+[2023-07-10 09:59:09] INFO root fetch - processPackages [NoomSmartKeyboard]: Start processing: akeyless
+[2023-07-10 09:59:09] INFO root fetch - main [MainThread]: End processing [NoomSmartKeyboard] error
+[2023-07-10 09:59:09] INFO root fetch - processPackages [qwak-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-10 09:59:09] INFO root fetch - processPackages [concrete]: New version: [4.9.6] Old Version: [4.9.4]
+[2023-07-10 09:59:09] INFO root fetch - processPackages [dassana]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-07-10 09:59:10] INFO root fetch - processPackages [quantplay]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-10 09:59:10] INFO root fetch - processPackages [akeyless]: New version: [3.3.9] Old Version: [3.3.8]
+[2023-07-10 09:59:10] INFO root fetch - processPackages [CircuitCalculator]: Downloading https://files.pythonhosted.org/packages/bf/1f/61591bd6874775c2a603db5f2f5a8b3f266e9003b2a8738b62779b126602/CircuitCalculator-0.0.8.tar.gz
+[2023-07-10 09:59:10] INFO root fetch - processPackages [batorch]: Downloading https://files.pythonhosted.org/packages/a5/ec/7e1a316d92746851be0bb8f421efac36c0ceb3412eac85b8f0541f252ed2/batorch-1.0.51.tar.gz
+[2023-07-10 09:59:10] INFO root fetch - processPackages [concrete]: Downloading https://files.pythonhosted.org/packages/9d/b1/77072872bd3fb9a58e9a6719c79464f786c52f73b68a100bc664d903aa51/concrete-4.9.4.tar.gz
+[2023-07-10 09:59:10] INFO root fetch - processPackages [dassana]: Downloading https://files.pythonhosted.org/packages/66/46/b3cdedec31ab008aa3468fa791eb0fcf6bf7ff309fbb9262efa5781dc938/dassana-0.8.8.tar.gz
+[2023-07-10 09:59:10] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/5f/d0/45d94253bcdc4108ecf2f05cb74d19b34ae62ade127e415b792f382bd060/qwak_core-0.0.98.tar.gz
+[2023-07-10 09:59:10] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/45/df/9dafdbe1d951b59dcb7dc8f02188b232f56f79298a06892f0e603becc389/quantplay-1.3.8.tar.gz
+[2023-07-10 09:59:10] INFO root fetch - processPackages [pycarlanet]: Downloading https://files.pythonhosted.org/packages/b9/5a/06a5868d18b61d0ca39f41383d6c3792026819c027b77eea17ac6ddb0e9b/pycarlanet-0.8.9a0.tar.gz
+[2023-07-10 09:59:10] INFO root fetch - processPackages [pydatafabric]: Downloading https://files.pythonhosted.org/packages/83/00/e3d1625d7caebfb52a2d53ec946cd7d06ccb88bf2e0c1fbf0e95f57a2e83/pydatafabric-0.4.7.tar.gz
+[2023-07-10 09:59:10] INFO root fetch - processPackages [akeyless]: Downloading https://files.pythonhosted.org/packages/8f/f6/fbd396d214afe12c1f95383c7caea9cde8cff3f92242905d99ff7110ff91/akeyless-3.3.8.tar.gz
+[2023-07-10 09:59:10] INFO root fetch - processPackages [numpy-io]: Downloading https://files.pythonhosted.org/packages/64/52/6f054fb901c9de169af6338cdff845375d8de8c05a0fa9656a5a98d1b628/numpy_io-0.0.6-py3-none-any.whl
+[2023-07-10 09:59:10] INFO root fetch - processPackages [CircuitCalculator]: Downloading https://files.pythonhosted.org/packages/e9/6b/012f1855b3854bed914cfc1577b7852d1bbf3b9d8ef65de04bf67ea35775/CircuitCalculator-0.0.9.tar.gz
+[2023-07-10 09:59:10] INFO root fetch - processPackages [dassana]: Downloading https://files.pythonhosted.org/packages/8e/4e/7d3d50bf262d8a54ecec7caa65b833a09c6836af619fec13826ec58b3f94/dassana-0.8.9.tar.gz
+[2023-07-10 09:59:10] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/ee/a5/18caaa36bc077cbd964b78406eed5d1840456172da7cdd1b6c18be824d06/quantplay-1.3.9.tar.gz
+[2023-07-10 09:59:10] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/f2/c0/4910ee16f1146c11278c0b18778d0552fdbed48c75db8c1145bb48ab13c4/qwak_core-0.0.99.tar.gz
+[2023-07-10 09:59:10] INFO root fetch - processPackages [concrete]: Downloading https://files.pythonhosted.org/packages/73/91/31d548cc22dd9d8c012d59cf0fec3c006d27d2f045cbce7b224a60a78b01/concrete-4.9.6.tar.gz
+[2023-07-10 09:59:10] INFO root fetch - processPackages [CircuitCalculator]: executing diffoscope
+[2023-07-10 09:59:10] INFO root fetch - processPackages [CircuitCalculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CircuitCalculator-0.0.8.tar.gz tmp/CircuitCalculator-0.0.9.tar.gz --markdown 20230710/C/CircuitCalculator/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 09:59:10] INFO root fetch - processPackages [batorch]: Downloading https://files.pythonhosted.org/packages/ca/3a/ae52afca4cf7b29291b56ff7a7d40ea2541500db67927b46f223f8fcd6b8/batorch-1.0.52.tar.gz
+[2023-07-10 09:59:10] INFO root fetch - processPackages [pycarlanet]: Downloading https://files.pythonhosted.org/packages/a1/08/2a43d33207f7bdce530a6bea1d170e887dfea45a1e03a3b019dc61b6525c/pycarlanet-0.9.0a0.tar.gz
+[2023-07-10 09:59:10] INFO root fetch - processPackages [dassana]: executing diffoscope
+[2023-07-10 09:59:10] INFO root fetch - processPackages [dassana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dassana-0.8.8.tar.gz tmp/dassana-0.8.9.tar.gz --markdown 20230710/d/dassana/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-07-10 09:59:10] INFO root fetch - processPackages [numpy-io]: Downloading https://files.pythonhosted.org/packages/34/bd/f54e232b318bfda8e690f10cca3504be4e5e59149c29cff18dd47af1121a/numpy_io-0.0.7-py3-none-any.whl
+[2023-07-10 09:59:10] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-07-10 09:59:10] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.3.8.tar.gz tmp/quantplay-1.3.9.tar.gz --markdown 20230710/q/quantplay/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-10 09:59:11] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-07-10 09:59:11] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.98.tar.gz tmp/qwak_core-0.0.99.tar.gz --markdown 20230710/q/qwak-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-10 09:59:11] INFO root fetch - processPackages [pydatafabric]: Downloading https://files.pythonhosted.org/packages/e1/94/68f31cc8d3550619ab7419da65d6450332ab27cf4778fb46b490fbef56b9/pydatafabric-0.4.8.tar.gz
+[2023-07-10 09:59:11] INFO root fetch - processPackages [akeyless]: Downloading https://files.pythonhosted.org/packages/2a/b5/50ae6c4c5d2ec98060599a92755611e74c1e561ca9bc7dae41c508e187bc/akeyless-3.3.9.tar.gz
+[2023-07-10 09:59:11] INFO root fetch - processPackages [batorch]: executing diffoscope
+[2023-07-10 09:59:11] INFO root fetch - processPackages [batorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batorch-1.0.51.tar.gz tmp/batorch-1.0.52.tar.gz --markdown 20230710/b/batorch/1.0.51-1.0.52/diff.md --exclude *.pyd
+[2023-07-10 09:59:11] INFO root fetch - processPackages [concrete]: executing diffoscope
+[2023-07-10 09:59:11] INFO root fetch - processPackages [concrete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/concrete-4.9.4.tar.gz tmp/concrete-4.9.6.tar.gz --markdown 20230710/c/concrete/4.9.4-4.9.6/diff.md --exclude *.pyd
+[2023-07-10 09:59:11] INFO root fetch - processPackages [pycarlanet]: executing diffoscope
+[2023-07-10 09:59:11] INFO root fetch - processPackages [pycarlanet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycarlanet-0.8.9a0.tar.gz tmp/pycarlanet-0.9.0a0.tar.gz --markdown 20230710/p/pycarlanet/0.8.9a0-0.9.0a0/diff.md --exclude *.pyd
+[2023-07-10 09:59:11] INFO root fetch - processPackages [numpy-io]: executing diffoscope
+[2023-07-10 09:59:11] INFO root fetch - processPackages [numpy-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numpy_io-0.0.6-py3-none-any.whl.zip tmp/numpy_io-0.0.7-py3-none-any.whl.zip --markdown 20230710/n/numpy-io/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-10 09:59:11] INFO root fetch - processPackages [akeyless]: executing diffoscope
+[2023-07-10 09:59:11] INFO root fetch - processPackages [akeyless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akeyless-3.3.8.tar.gz tmp/akeyless-3.3.9.tar.gz --markdown 20230710/a/akeyless/3.3.8-3.3.9/diff.md --exclude *.pyd
+[2023-07-10 09:59:11] INFO root fetch - processPackages [pydatafabric]: executing diffoscope
+[2023-07-10 09:59:11] INFO root fetch - processPackages [pydatafabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatafabric-0.4.7.tar.gz tmp/pydatafabric-0.4.8.tar.gz --markdown 20230710/p/pydatafabric/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-07-10 09:59:12] INFO root fetch - processPackages [dassana]: Remove: archive file [/home/abi/fetcher/tmp/dassana-0.8.8.tar.gz]
+[2023-07-10 09:59:12] INFO root fetch - processPackages [dassana]: Remove: archive file [/home/abi/fetcher/tmp/dassana-0.8.9.tar.gz]
+[2023-07-10 09:59:12] INFO root fetch - processPackages [dassana]: Start processing: androtools
+[2023-07-10 09:59:12] INFO root fetch - main [MainThread]: End processing [dassana]: success
+[2023-07-10 09:59:12] INFO root fetch - processPackages [androtools]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-10 09:59:12] INFO root fetch - processPackages [CircuitCalculator]: Remove: archive file [/home/abi/fetcher/tmp/CircuitCalculator-0.0.8.tar.gz]
+[2023-07-10 09:59:12] INFO root fetch - processPackages [CircuitCalculator]: Remove: archive file [/home/abi/fetcher/tmp/CircuitCalculator-0.0.9.tar.gz]
+[2023-07-10 09:59:12] INFO root fetch - processPackages [androtools]: Downloading https://files.pythonhosted.org/packages/98/66/7db476c8df7c0433b21ad64aee24954b8108c203ed61f8be80ef7d44040a/androtools-0.1.5.tar.gz
+[2023-07-10 09:59:12] INFO root fetch - processPackages [CircuitCalculator]: Start processing: sdkit
+[2023-07-10 09:59:12] INFO root fetch - main [MainThread]: End processing [CircuitCalculator]: success
+[2023-07-10 09:59:12] INFO root fetch - processPackages [sdkit]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-10 09:59:12] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/d1/c1/f3e251106f7f4c022d55f8fe3a3c0eacdb5bfdf84ce4182f71368c4f3a5f/sdkit-1.0.98.tar.gz
+[2023-07-10 09:59:12] INFO root fetch - processPackages [pycarlanet]: Remove: archive file [/home/abi/fetcher/tmp/pycarlanet-0.8.9a0.tar.gz]
+[2023-07-10 09:59:12] INFO root fetch - processPackages [pycarlanet]: Remove: archive file [/home/abi/fetcher/tmp/pycarlanet-0.9.0a0.tar.gz]
+[2023-07-10 09:59:12] INFO root fetch - processPackages [pycarlanet]: Start processing: openapi-spec-validator
+[2023-07-10 09:59:12] INFO root fetch - main [MainThread]: End processing [pycarlanet]: success
+[2023-07-10 09:59:12] INFO root fetch - processPackages [numpy-io]: Remove: archive file [/home/abi/fetcher/tmp/numpy_io-0.0.6-py3-none-any.whl.zip]
+[2023-07-10 09:59:12] INFO root fetch - processPackages [numpy-io]: Remove: archive file [/home/abi/fetcher/tmp/numpy_io-0.0.7-py3-none-any.whl.zip]
+[2023-07-10 09:59:12] INFO root fetch - processPackages [numpy-io]: Start processing: huhangkai
+[2023-07-10 09:59:12] INFO root fetch - main [MainThread]: End processing [numpy-io]: success
+[2023-07-10 09:59:12] INFO root fetch - processPackages [openapi-spec-validator]: New version: [0.6.0a2] Old Version: [0.6.0a1]
+[2023-07-10 09:59:13] INFO root fetch - processPackages [androtools]: Downloading https://files.pythonhosted.org/packages/a0/7d/c3242cd0bed3b5a652c71c4ab80e4414a40367154ab96ff9147f398284b7/androtools-0.1.6.tar.gz
+[2023-07-10 09:59:13] INFO root fetch - processPackages [huhangkai]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-07-10 09:59:13] INFO root fetch - processPackages [pydatafabric]: Remove: archive file [/home/abi/fetcher/tmp/pydatafabric-0.4.7.tar.gz]
+[2023-07-10 09:59:13] INFO root fetch - processPackages [pydatafabric]: Remove: archive file [/home/abi/fetcher/tmp/pydatafabric-0.4.8.tar.gz]
+[2023-07-10 09:59:13] INFO root fetch - processPackages [pydatafabric]: Start processing: fink-utils
+[2023-07-10 09:59:13] INFO root fetch - main [MainThread]: End processing [pydatafabric]: success
+[2023-07-10 09:59:13] INFO root fetch - processPackages [fink-utils]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-07-10 09:59:13] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.3.8.tar.gz]
+[2023-07-10 09:59:13] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.3.9.tar.gz]
+[2023-07-10 09:59:13] INFO root fetch - processPackages [quantplay]: Start processing: molgraph
+[2023-07-10 09:59:13] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-07-10 09:59:13] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/7e/69/b60dd118fa3c33f9ff305ec5ce9de04303dfdfc9be5d286e20cbc1ee1e7b/sdkit-1.0.99.tar.gz
+[2023-07-10 09:59:13] INFO root fetch - processPackages [openapi-spec-validator]: Downloading https://files.pythonhosted.org/packages/cd/69/f17be3de82b1c4967c2fbe6458a36b9e35daecb79372f57806ae3b0745bd/openapi_spec_validator-0.6.0a1.tar.gz
+[2023-07-10 09:59:13] INFO root fetch - processPackages [androtools]: executing diffoscope
+[2023-07-10 09:59:13] INFO root fetch - processPackages [androtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/androtools-0.1.5.tar.gz tmp/androtools-0.1.6.tar.gz --markdown 20230710/a/androtools/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-10 09:59:13] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-07-10 09:59:13] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.98.tar.gz tmp/sdkit-1.0.99.tar.gz --markdown 20230710/s/sdkit/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-10 09:59:13] INFO root fetch - processPackages [huhangkai]: Downloading https://files.pythonhosted.org/packages/81/a7/ba9a257750ff23f934d771addf37f8004e8d8a8af644c8af936898a1937c/huhangkai-1.5.3.tar.gz
+[2023-07-10 09:59:13] INFO root fetch - processPackages [molgraph]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-10 09:59:13] INFO root fetch - processPackages [fink-utils]: Downloading https://files.pythonhosted.org/packages/b1/4f/39434599634c5c8ebdbc1673e9f23d9af8dccfe107ccf922a907fd1af998/fink-utils-0.8.2.tar.gz
+[2023-07-10 09:59:13] INFO root fetch - processPackages [batorch]: Remove: archive file [/home/abi/fetcher/tmp/batorch-1.0.51.tar.gz]
+[2023-07-10 09:59:13] INFO root fetch - processPackages [batorch]: Remove: archive file [/home/abi/fetcher/tmp/batorch-1.0.52.tar.gz]
+[2023-07-10 09:59:13] INFO root fetch - main [MainThread]: End processing [batorch]: success
+[2023-07-10 09:59:13] INFO root fetch - processPackages [concrete]: Remove: archive file [/home/abi/fetcher/tmp/concrete-4.9.4.tar.gz]
+[2023-07-10 09:59:13] INFO root fetch - processPackages [concrete]: Remove: archive file [/home/abi/fetcher/tmp/concrete-4.9.6.tar.gz]
+[2023-07-10 09:59:13] INFO root fetch - main [MainThread]: End processing [concrete]: success
+[2023-07-10 09:59:13] INFO root fetch - processPackages [huhangkai]: Downloading https://files.pythonhosted.org/packages/94/20/f303cdb6012a9d50f8a22e6e6556c9916c9e69b03beb3b53be582c54f607/huhangkai-1.5.4.tar.gz
+[2023-07-10 09:59:13] INFO root fetch - processPackages [molgraph]: Downloading https://files.pythonhosted.org/packages/81/ea/50a45c2e092b0db36094e2832ad6fdf1987d902659c5d9b7f9510d9c906f/molgraph-0.5.0.tar.gz
+[2023-07-10 09:59:13] INFO root fetch - processPackages [fink-utils]: Downloading https://files.pythonhosted.org/packages/19/3d/6d51571734a20389d75327fd1fdf9382d5434496cdf8305167424eb6ea5f/fink-utils-0.9.0.tar.gz
+[2023-07-10 09:59:13] INFO root fetch - processPackages [huhangkai]: executing diffoscope
+[2023-07-10 09:59:13] INFO root fetch - processPackages [huhangkai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huhangkai-1.5.3.tar.gz tmp/huhangkai-1.5.4.tar.gz --markdown 20230710/h/huhangkai/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-07-10 09:59:13] INFO root fetch - processPackages [openapi-spec-validator]: Downloading https://files.pythonhosted.org/packages/bf/d5/9adbc4972c5126377b38e94e8246448f60edf02c5f3063c15904b59184b3/openapi_spec_validator-0.6.0a2.tar.gz
+[2023-07-10 09:59:13] INFO root fetch - processPackages [fink-utils]: executing diffoscope
+[2023-07-10 09:59:13] INFO root fetch - processPackages [fink-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fink-utils-0.8.2.tar.gz tmp/fink-utils-0.9.0.tar.gz --markdown 20230710/f/fink-utils/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-07-10 09:59:14] INFO root fetch - processPackages [molgraph]: Downloading https://files.pythonhosted.org/packages/8d/3b/dfb13a30ad2563489a2e850e1db247e98f5d417f8726e04271f291f3ba0a/molgraph-0.5.1.tar.gz
+[2023-07-10 09:59:14] INFO root fetch - processPackages [openapi-spec-validator]: executing diffoscope
+[2023-07-10 09:59:14] INFO root fetch - processPackages [openapi-spec-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapi_spec_validator-0.6.0a1.tar.gz tmp/openapi_spec_validator-0.6.0a2.tar.gz --markdown 20230710/o/openapi-spec-validator/0.6.0a1-0.6.0a2/diff.md --exclude *.pyd
+[2023-07-10 09:59:14] INFO root fetch - processPackages [molgraph]: executing diffoscope
+[2023-07-10 09:59:14] INFO root fetch - processPackages [molgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molgraph-0.5.0.tar.gz tmp/molgraph-0.5.1.tar.gz --markdown 20230710/m/molgraph/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-10 09:59:14] INFO root fetch - processPackages [androtools]: Remove: archive file [/home/abi/fetcher/tmp/androtools-0.1.5.tar.gz]
+[2023-07-10 09:59:14] INFO root fetch - processPackages [androtools]: Remove: archive file [/home/abi/fetcher/tmp/androtools-0.1.6.tar.gz]
+[2023-07-10 09:59:14] INFO root fetch - main [MainThread]: End processing [androtools]: success
+[2023-07-10 09:59:15] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.98.tar.gz]
+[2023-07-10 09:59:15] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.99.tar.gz]
+[2023-07-10 09:59:15] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-07-10 09:59:15] INFO root fetch - processPackages [huhangkai]: Remove: archive file [/home/abi/fetcher/tmp/huhangkai-1.5.3.tar.gz]
+[2023-07-10 09:59:15] INFO root fetch - processPackages [huhangkai]: Remove: archive file [/home/abi/fetcher/tmp/huhangkai-1.5.4.tar.gz]
+[2023-07-10 09:59:15] INFO root fetch - main [MainThread]: End processing [huhangkai]: success
+[2023-07-10 09:59:15] INFO root fetch - processPackages [fink-utils]: Remove: archive file [/home/abi/fetcher/tmp/fink-utils-0.8.2.tar.gz]
+[2023-07-10 09:59:15] INFO root fetch - processPackages [fink-utils]: Remove: archive file [/home/abi/fetcher/tmp/fink-utils-0.9.0.tar.gz]
+[2023-07-10 09:59:15] INFO root fetch - main [MainThread]: End processing [fink-utils]: success
+[2023-07-10 09:59:15] INFO root fetch - processPackages [openapi-spec-validator]: Remove: archive file [/home/abi/fetcher/tmp/openapi_spec_validator-0.6.0a1.tar.gz]
+[2023-07-10 09:59:15] INFO root fetch - processPackages [openapi-spec-validator]: Remove: archive file [/home/abi/fetcher/tmp/openapi_spec_validator-0.6.0a2.tar.gz]
+[2023-07-10 09:59:15] INFO root fetch - main [MainThread]: End processing [openapi-spec-validator]: success
+[2023-07-10 09:59:15] INFO root fetch - processPackages [molgraph]: Remove: archive file [/home/abi/fetcher/tmp/molgraph-0.5.0.tar.gz]
+[2023-07-10 09:59:15] INFO root fetch - processPackages [molgraph]: Remove: archive file [/home/abi/fetcher/tmp/molgraph-0.5.1.tar.gz]
+[2023-07-10 09:59:15] INFO root fetch - main [MainThread]: End processing [molgraph]: success
+[2023-07-10 09:59:16] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.98.tar.gz]
+[2023-07-10 09:59:16] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
+[2023-07-10 09:59:16] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-07-10 09:59:22] INFO root fetch - processPackages [akeyless]: Remove: archive file [/home/abi/fetcher/tmp/akeyless-3.3.8.tar.gz]
+[2023-07-10 09:59:22] INFO root fetch - processPackages [akeyless]: Remove: archive file [/home/abi/fetcher/tmp/akeyless-3.3.9.tar.gz]
+[2023-07-10 09:59:22] INFO root fetch - main [MainThread]: End processing [akeyless]: success
+[2023-07-10 09:59:22] INFO root fetch - main [MainThread]: Store serial: [18827976]
