@@ -7307,3 +7307,101 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 06:41:10] INFO root fetch - processPackages [lvhao-lib]: Remove: archive file [/home/abi/fetcher/tmp/lvhao_lib-0.7.0.tar.gz]
 [2023-07-10 06:41:10] INFO root fetch - main [MainThread]: End processing [lvhao-lib]: success
 [2023-07-10 06:41:10] INFO root fetch - main [MainThread]: Store serial: [18826476]
+[2023-07-10 06:46:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18826476]
+[2023-07-10 06:46:19] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-10 06:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: elytra-ms
+[2023-07-10 06:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycompall
+[2023-07-10 06:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycompall
+[2023-07-10 06:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pycompall
+[2023-07-10 06:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: omnata-plugin-runtime
+[2023-07-10 06:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sag-py-execution-time-decorator
+[2023-07-10 06:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SGtSNEpiPy
+[2023-07-10 06:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cythonwheel
+[2023-07-10 06:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tracebloc-package-dev
+[2023-07-10 06:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jira-helper
+[2023-07-10 06:46:19] WARNING root fetch - processPackages [elytra-ms]: Skipping, unable to determine old version
+[2023-07-10 06:46:19] INFO root fetch - processPackages [elytra-ms]: Start processing: sydeploy
+[2023-07-10 06:46:19] INFO root fetch - main [MainThread]: End processing [elytra-ms] error
+[2023-07-10 06:46:19] INFO root fetch - processPackages [pycompall]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 06:46:19] INFO root fetch - processPackages [pycompall]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 06:46:19] WARNING root fetch - processPackages [SGtSNEpiPy]: Skipping, unable to determine old version
+[2023-07-10 06:46:19] INFO root fetch - processPackages [SGtSNEpiPy]: Start processing: performancetest
+[2023-07-10 06:46:19] INFO root fetch - main [MainThread]: End processing [SGtSNEpiPy] error
+[2023-07-10 06:46:19] INFO root fetch - processPackages [pycompall]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 06:46:19] WARNING root fetch - processPackages [cythonwheel]: Skipping, unable to determine old version
+[2023-07-10 06:46:19] INFO root fetch - processPackages [cythonwheel]: Start processing: yt-helper
+[2023-07-10 06:46:19] INFO root fetch - main [MainThread]: End processing [cythonwheel] error
+[2023-07-10 06:46:19] INFO root fetch - processPackages [jira-helper]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-10 06:46:19] INFO root fetch - processPackages [tracebloc-package-dev]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-10 06:46:19] INFO root fetch - processPackages [sag-py-execution-time-decorator]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-10 06:46:19] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 06:46:20] INFO root fetch - processPackages [sydeploy]: New version: [0.2.95] Old Version: [0.2.94]
+[2023-07-10 06:46:20] INFO root fetch - processPackages [performancetest]: New version: [0.0.18] Old Version: [0.0.17]
+[2023-07-10 06:46:20] INFO root fetch - processPackages [yt-helper]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-10 06:46:20] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/a2/b1/246218727c5e7e8022d30203255f8f1096ad4f8954207c56a42a884ff971/sydeploy-0.2.94-py3-none-any.whl
+[2023-07-10 06:46:20] INFO root fetch - processPackages [performancetest]: Downloading https://files.pythonhosted.org/packages/53/78/a256a5bed300183a79b7e43534020c41a6799f74426c4b63878b378ef64c/performancetest-0.0.17.tar.gz
+[2023-07-10 06:46:20] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/ab/06/eb4b6332551c77061b7046a1b7676bed931d4386cf34809019d869fa7abd/tracebloc_package-dev-0.5.1.tar.gz
+[2023-07-10 06:46:20] INFO root fetch - processPackages [pycompall]: Downloading https://files.pythonhosted.org/packages/54/ed/03cd04e39d8544c2316500a98a5e0243d524d10a61a1a04562f83aab0950/pycompall-0.1.8.tar.gz
+[2023-07-10 06:46:20] INFO root fetch - processPackages [jira-helper]: Downloading https://files.pythonhosted.org/packages/3b/82/7a6d5b0f7219dcb712e394ed8cc793c2056ce95d160a97fa12b953569cb4/jira_helper-0.0.5-py3-none-any.whl
+[2023-07-10 06:46:20] INFO root fetch - processPackages [pycompall]: Downloading https://files.pythonhosted.org/packages/54/ed/03cd04e39d8544c2316500a98a5e0243d524d10a61a1a04562f83aab0950/pycompall-0.1.8.tar.gz
+[2023-07-10 06:46:20] INFO root fetch - processPackages [pycompall]: Downloading https://files.pythonhosted.org/packages/54/ed/03cd04e39d8544c2316500a98a5e0243d524d10a61a1a04562f83aab0950/pycompall-0.1.8.tar.gz
+[2023-07-10 06:46:20] INFO root fetch - processPackages [sag-py-execution-time-decorator]: Downloading https://files.pythonhosted.org/packages/5f/f8/99e0bae132931bb60d700e1914b0a13c3b7e201fba1e167f7b1f8c883330/sag-py-execution-time-decorator-1.0.0.tar.gz
+[2023-07-10 06:46:20] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/53/a1/adf4ca1ed5ea551e6c30a8edb566fbce83dbedc1f72d8e262ff85d80881e/omnata_plugin_runtime-0.1.8.tar.gz
+[2023-07-10 06:46:20] INFO root fetch - processPackages [yt-helper]: Downloading https://files.pythonhosted.org/packages/cd/c4/fbc3a056883c60a41a55dede78cfd0350bdd852b053db5b11c23b3aec584/yt_helper-0.2.8-py3-none-any.whl
+[2023-07-10 06:46:20] INFO root fetch - processPackages [performancetest]: Downloading https://files.pythonhosted.org/packages/14/3a/80cfce10a5223e631c9e4d9233708950a647c6a48b63b5cb30e4d0e8770e/performancetest-0.0.18.tar.gz
+[2023-07-10 06:46:20] INFO root fetch - processPackages [pycompall]: Downloading https://files.pythonhosted.org/packages/50/40/92c1a0ecab4ac6e924b7073264247bf95385f88b923b563a9483bf2f7e0c/pycompall-0.1.9.tar.gz
+[2023-07-10 06:46:20] INFO root fetch - processPackages [pycompall]: Downloading https://files.pythonhosted.org/packages/50/40/92c1a0ecab4ac6e924b7073264247bf95385f88b923b563a9483bf2f7e0c/pycompall-0.1.9.tar.gz
+[2023-07-10 06:46:20] INFO root fetch - processPackages [pycompall]: Downloading https://files.pythonhosted.org/packages/50/40/92c1a0ecab4ac6e924b7073264247bf95385f88b923b563a9483bf2f7e0c/pycompall-0.1.9.tar.gz
+[2023-07-10 06:46:20] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/ea/e2/6b153e7183361412ea27550e0048ea6ee1b6601d8412bc11375dad832ce6/tracebloc_package-dev-0.5.2.tar.gz
+[2023-07-10 06:46:20] INFO root fetch - processPackages [jira-helper]: Downloading https://files.pythonhosted.org/packages/16/ab/d0a383e3cff794dc9c5c95c7f4e8c52e23e4fbc5b1d446660cc7a867e8d5/jira_helper-0.0.6-py3-none-any.whl
+[2023-07-10 06:46:20] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/38/24/055e36e8a5a0dc796209873ad2ec2f28f78987ee9d50cee857c9c949fe1c/sydeploy-0.2.95-py3-none-any.whl
+[2023-07-10 06:46:21] INFO root fetch - processPackages [sag-py-execution-time-decorator]: Downloading https://files.pythonhosted.org/packages/92/16/3504da533ed7abcb7545f248831ef54626c20b070ceb46a890f8d7c496f6/sag-py-execution-time-decorator-1.0.1.tar.gz
+[2023-07-10 06:46:21] INFO root fetch - processPackages [yt-helper]: Downloading https://files.pythonhosted.org/packages/23/40/d339c39573a2203494eb003dd518c8230f38eb26d01adcdaf3f2a1972926/yt_helper-0.2.9-py3-none-any.whl
+[2023-07-10 06:46:21] INFO root fetch - processPackages [pycompall]: executing diffoscope
+[2023-07-10 06:46:21] INFO root fetch - processPackages [pycompall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycompall-0.1.8.tar.gz tmp/pycompall-0.1.9.tar.gz --markdown 20230710/p/pycompall/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 06:46:21] INFO root fetch - processPackages [pycompall]: executing diffoscope
+[2023-07-10 06:46:21] INFO root fetch - processPackages [pycompall]: executing diffoscope
+[2023-07-10 06:46:21] INFO root fetch - processPackages [pycompall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycompall-0.1.8.tar.gz tmp/pycompall-0.1.9.tar.gz --markdown 20230710/p/pycompall/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 06:46:21] INFO root fetch - processPackages [pycompall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycompall-0.1.8.tar.gz tmp/pycompall-0.1.9.tar.gz --markdown 20230710/p/pycompall/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 06:46:21] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/cf/ef/88a357f5f8f3b7c775ede6822e6617364cfdcf04a79bca1e74d50ae0aae1/omnata_plugin_runtime-0.1.9.tar.gz
+[2023-07-10 06:46:21] INFO root fetch - processPackages [performancetest]: executing diffoscope
+[2023-07-10 06:46:21] INFO root fetch - processPackages [performancetest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/performancetest-0.0.17.tar.gz tmp/performancetest-0.0.18.tar.gz --markdown 20230710/p/performancetest/0.0.17-0.0.18/diff.md --exclude *.pyd
+[2023-07-10 06:46:21] INFO root fetch - processPackages [yt-helper]: executing diffoscope
+[2023-07-10 06:46:21] INFO root fetch - processPackages [yt-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yt_helper-0.2.8-py3-none-any.whl.zip tmp/yt_helper-0.2.9-py3-none-any.whl.zip --markdown 20230710/y/yt-helper/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-10 06:46:21] INFO root fetch - processPackages [sydeploy]: executing diffoscope
+[2023-07-10 06:46:21] INFO root fetch - processPackages [jira-helper]: executing diffoscope
+[2023-07-10 06:46:21] INFO root fetch - processPackages [sydeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sydeploy-0.2.94-py3-none-any.whl.zip tmp/sydeploy-0.2.95-py3-none-any.whl.zip --markdown 20230710/s/sydeploy/0.2.94-0.2.95/diff.md --exclude *.pyd
+[2023-07-10 06:46:21] INFO root fetch - processPackages [jira-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jira_helper-0.0.5-py3-none-any.whl.zip tmp/jira_helper-0.0.6-py3-none-any.whl.zip --markdown 20230710/j/jira-helper/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-10 06:46:21] INFO root fetch - processPackages [tracebloc-package-dev]: executing diffoscope
+[2023-07-10 06:46:21] INFO root fetch - processPackages [tracebloc-package-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracebloc_package-dev-0.5.1.tar.gz tmp/tracebloc_package-dev-0.5.2.tar.gz --markdown 20230710/t/tracebloc-package-dev/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-10 06:46:21] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2023-07-10 06:46:21] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.1.8.tar.gz tmp/omnata_plugin_runtime-0.1.9.tar.gz --markdown 20230710/o/omnata-plugin-runtime/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 06:46:21] INFO root fetch - processPackages [sag-py-execution-time-decorator]: executing diffoscope
+[2023-07-10 06:46:21] INFO root fetch - processPackages [sag-py-execution-time-decorator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sag-py-execution-time-decorator-1.0.0.tar.gz tmp/sag-py-execution-time-decorator-1.0.1.tar.gz --markdown 20230710/s/sag-py-execution-time-decorator/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-10 06:46:22] INFO root fetch - processPackages [pycompall]: Remove: archive file [/home/abi/fetcher/tmp/pycompall-0.1.8.tar.gz]
+[2023-07-10 06:46:22] INFO root fetch - processPackages [pycompall]: Remove: archive file [/home/abi/fetcher/tmp/pycompall-0.1.9.tar.gz]
+[2023-07-10 06:46:22] INFO root fetch - main [MainThread]: End processing [pycompall]: success
+[2023-07-10 06:46:22] INFO root fetch - processPackages [yt-helper]: Remove: archive file [/home/abi/fetcher/tmp/yt_helper-0.2.8-py3-none-any.whl.zip]
+[2023-07-10 06:46:22] INFO root fetch - processPackages [yt-helper]: Remove: archive file [/home/abi/fetcher/tmp/yt_helper-0.2.9-py3-none-any.whl.zip]
+[2023-07-10 06:46:22] INFO root fetch - main [MainThread]: End processing [yt-helper]: success
+[2023-07-10 06:46:22] INFO root fetch - main [MainThread]: End processing [pycompall]: success
+[2023-07-10 06:46:23] INFO root fetch - processPackages [jira-helper]: Remove: archive file [/home/abi/fetcher/tmp/jira_helper-0.0.5-py3-none-any.whl.zip]
+[2023-07-10 06:46:23] INFO root fetch - processPackages [jira-helper]: Remove: archive file [/home/abi/fetcher/tmp/jira_helper-0.0.6-py3-none-any.whl.zip]
+[2023-07-10 06:46:23] INFO root fetch - main [MainThread]: End processing [jira-helper]: success
+[2023-07-10 06:46:23] INFO root fetch - main [MainThread]: End processing [pycompall]: success
+[2023-07-10 06:46:23] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.8.tar.gz]
+[2023-07-10 06:46:23] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.9.tar.gz]
+[2023-07-10 06:46:23] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2023-07-10 06:46:23] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.94-py3-none-any.whl.zip]
+[2023-07-10 06:46:23] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.95-py3-none-any.whl.zip]
+[2023-07-10 06:46:23] INFO root fetch - main [MainThread]: End processing [sydeploy]: success
+[2023-07-10 06:46:23] INFO root fetch - processPackages [sag-py-execution-time-decorator]: Remove: archive file [/home/abi/fetcher/tmp/sag-py-execution-time-decorator-1.0.0.tar.gz]
+[2023-07-10 06:46:23] INFO root fetch - processPackages [sag-py-execution-time-decorator]: Remove: archive file [/home/abi/fetcher/tmp/sag-py-execution-time-decorator-1.0.1.tar.gz]
+[2023-07-10 06:46:23] INFO root fetch - main [MainThread]: End processing [sag-py-execution-time-decorator]: success
+[2023-07-10 06:46:23] INFO root fetch - processPackages [tracebloc-package-dev]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-dev-0.5.1.tar.gz]
+[2023-07-10 06:46:23] INFO root fetch - processPackages [tracebloc-package-dev]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-dev-0.5.2.tar.gz]
+[2023-07-10 06:46:23] INFO root fetch - main [MainThread]: End processing [tracebloc-package-dev]: success
+[2023-07-10 06:46:23] INFO root fetch - processPackages [performancetest]: Remove: archive file [/home/abi/fetcher/tmp/performancetest-0.0.17.tar.gz]
+[2023-07-10 06:46:23] INFO root fetch - processPackages [performancetest]: Remove: archive file [/home/abi/fetcher/tmp/performancetest-0.0.18.tar.gz]
+[2023-07-10 06:46:23] INFO root fetch - main [MainThread]: End processing [performancetest]: success
+[2023-07-10 06:46:23] INFO root fetch - main [MainThread]: Store serial: [18826516]
