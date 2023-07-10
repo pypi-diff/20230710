@@ -6151,3 +6151,33 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 05:21:32] INFO root fetch - processPackages [chrislab]: Remove: archive file [/home/abi/fetcher/tmp/chrislab-0.5.6.tar.gz]
 [2023-07-10 05:21:32] INFO root fetch - main [MainThread]: End processing [chrislab]: success
 [2023-07-10 05:21:32] INFO root fetch - main [MainThread]: Store serial: [18826002]
+[2023-07-10 05:26:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18826002]
+[2023-07-10 05:26:40] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-10 05:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GANDLF
+[2023-07-10 05:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rapid-table
+[2023-07-10 05:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DGet
+[2023-07-10 05:26:40] INFO root fetch - processPackages [DGet]: New version: [0.9] Old Version: [0.8]
+[2023-07-10 05:26:40] INFO root fetch - processPackages [rapid-table]: New version: [3.6] Old Version: [0.0.9]
+[2023-07-10 05:26:40] INFO root fetch - processPackages [GANDLF]: New version: [0.0.17.dev20230710] Old Version: [0.0.17.dev20230709]
+[2023-07-10 05:26:41] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/ee/a8/a43a15165817beb5c2f5bc6e020d0593f3fb495640e1e509f09ae92fa356/GANDLF-0.0.17.dev20230709.tar.gz
+[2023-07-10 05:26:41] INFO root fetch - processPackages [DGet]: Downloading https://files.pythonhosted.org/packages/9d/da/c24dfb2d507cb307cb8aa1a7eb560de93376054f8184bc55124a3834e932/DGet-0.8.tar.gz
+[2023-07-10 05:26:41] INFO root fetch - processPackages [rapid-table]: Downloading https://files.pythonhosted.org/packages/a3/80/1c3ccdc8e0f436a303db3d357e80d183fb2e9183bbbc12041f4411dd4f78/rapid_table-0.0.9-py3-none-any.whl
+[2023-07-10 05:26:41] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/8d/22/9fc28562eb50fa00293e8389f9645d8bcf9bd989dfb3ca3b74cfff8666c7/GANDLF-0.0.17.dev20230710.tar.gz
+[2023-07-10 05:26:41] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-07-10 05:26:41] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.17.dev20230709.tar.gz tmp/GANDLF-0.0.17.dev20230710.tar.gz --markdown 20230710/G/GANDLF/0.0.17.dev20230709-0.0.17.dev20230710/diff.md --exclude *.pyd
+[2023-07-10 05:26:41] INFO root fetch - processPackages [DGet]: Downloading https://files.pythonhosted.org/packages/34/87/4cf24c82732362ebb31866944ddbb4566ad0b8a317c80e4983dcf18e525f/DGet-0.9.tar.gz
+[2023-07-10 05:26:41] INFO root fetch - processPackages [DGet]: executing diffoscope
+[2023-07-10 05:26:41] INFO root fetch - processPackages [DGet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DGet-0.8.tar.gz tmp/DGet-0.9.tar.gz --markdown 20230710/D/DGet/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-10 05:26:41] INFO root fetch - processPackages [rapid-table]: Downloading https://files.pythonhosted.org/packages/2e/ee/9f9acee096fcfbcfcf0c5a2a4408856fef0b78979d6f62a2721c1e476ba5/rapid_table-3.6-py3-none-any.whl
+[2023-07-10 05:26:42] INFO root fetch - processPackages [rapid-table]: executing diffoscope
+[2023-07-10 05:26:42] INFO root fetch - processPackages [rapid-table]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_table-0.0.9-py3-none-any.whl.zip tmp/rapid_table-3.6-py3-none-any.whl.zip --markdown 20230710/r/rapid-table/0.0.9-3.6/diff.md --exclude *.pyd
+[2023-07-10 05:26:42] INFO root fetch - processPackages [DGet]: Remove: archive file [/home/abi/fetcher/tmp/DGet-0.8.tar.gz]
+[2023-07-10 05:26:42] INFO root fetch - processPackages [DGet]: Remove: archive file [/home/abi/fetcher/tmp/DGet-0.9.tar.gz]
+[2023-07-10 05:26:42] INFO root fetch - main [MainThread]: End processing [DGet]: success
+[2023-07-10 05:26:42] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230709.tar.gz]
+[2023-07-10 05:26:42] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230710.tar.gz]
+[2023-07-10 05:26:42] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-07-10 05:26:42] INFO root fetch - processPackages [rapid-table]: Remove: archive file [/home/abi/fetcher/tmp/rapid_table-0.0.9-py3-none-any.whl.zip]
+[2023-07-10 05:26:42] INFO root fetch - processPackages [rapid-table]: Remove: archive file [/home/abi/fetcher/tmp/rapid_table-3.6-py3-none-any.whl.zip]
+[2023-07-10 05:26:42] INFO root fetch - main [MainThread]: End processing [rapid-table]: success
+[2023-07-10 05:26:42] INFO root fetch - main [MainThread]: Store serial: [18826013]
