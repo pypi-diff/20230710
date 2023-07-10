@@ -12728,3 +12728,125 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 11:08:03] INFO root fetch - processPackages [django-linear-migrations]: Remove: archive file [/home/abi/fetcher/tmp/django_linear_migrations-2.9.0.tar.gz]
 [2023-07-10 11:08:03] INFO root fetch - main [MainThread]: End processing [django-linear-migrations]: success
 [2023-07-10 11:08:03] INFO root fetch - main [MainThread]: Store serial: [18828717]
+[2023-07-10 11:13:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18828717]
+[2023-07-10 11:13:12] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-10 11:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onetl
+[2023-07-10 11:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-perf-rec
+[2023-07-10 11:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-auto-prefetch
+[2023-07-10 11:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-browser-reload
+[2023-07-10 11:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: diz
+[2023-07-10 11:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-cors-headers
+[2023-07-10 11:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: asterisk-plus-agent
+[2023-07-10 11:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qontract-reconcile
+[2023-07-10 11:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyreference
+[2023-07-10 11:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-gitlab
+[2023-07-10 11:13:13] INFO root fetch - processPackages [pyreference]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-07-10 11:13:13] INFO root fetch - processPackages [django-perf-rec]: New version: [4.9.0] Old Version: [4.8.0]
+[2023-07-10 11:13:13] INFO root fetch - processPackages [django-browser-reload]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-10 11:13:13] INFO root fetch - processPackages [onetl]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-10 11:13:13] INFO root fetch - processPackages [django-auto-prefetch]: New version: [1.7.0] Old Version: [1.6.0]
+[2023-07-10 11:13:13] WARNING root fetch - processPackages [asterisk-plus-agent]: Skipping, unable to determine old version
+[2023-07-10 11:13:13] INFO root fetch - processPackages [asterisk-plus-agent]: Start processing: fastcopilot
+[2023-07-10 11:13:13] INFO root fetch - main [MainThread]: End processing [asterisk-plus-agent] error
+[2023-07-10 11:13:13] INFO root fetch - processPackages [diz]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 11:13:13] INFO root fetch - processPackages [pulumi-gitlab]: New version: [6.1.0a1688977388] Old Version: [6.1.0a1687929913]
+[2023-07-10 11:13:13] INFO root fetch - processPackages [django-cors-headers]: New version: [4.2.0] Old Version: [4.1.0]
+[2023-07-10 11:13:13] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-07-10 11:13:13] INFO root fetch - processPackages [fastcopilot]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-10 11:13:13] INFO root fetch - processPackages [django-browser-reload]: Downloading https://files.pythonhosted.org/packages/42/9d/55187254d597b1d4a37c218b625cc1ad208ed92dd65062230a6d1d3cb00f/django_browser_reload-1.8.0.tar.gz
+[2023-07-10 11:13:13] INFO root fetch - processPackages [diz]: Downloading https://files.pythonhosted.org/packages/2c/72/12a7394816bf86986c9e02996b7d1d253fafef170fc88ca0bf04519bf031/diz-0.0.8.tar.gz
+[2023-07-10 11:13:13] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/22/67/79fa46d1a997bf683bc12e2c18806610ae55aa29a885152bc7f84a28919e/pulumi_gitlab-6.1.0a1687929913.tar.gz
+[2023-07-10 11:13:13] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-07-10 11:13:13] INFO root fetch - processPackages [django-cors-headers]: Downloading https://files.pythonhosted.org/packages/05/e8/63cd37e5d08c9b33f3c88804a844693579bbf8fe40b69a2ca29c320c9f38/django_cors_headers-4.1.0.tar.gz
+[2023-07-10 11:13:13] INFO root fetch - processPackages [onetl]: Downloading https://files.pythonhosted.org/packages/b6/e5/80337ec25effeff148517f10f562f97cc0fbddf3a68c0c633fa534779a10/onetl-0.8.0.tar.gz
+[2023-07-10 11:13:13] INFO root fetch - processPackages [django-auto-prefetch]: Downloading https://files.pythonhosted.org/packages/2d/1f/d9f2140cb360f4fe742c66714b9677ab83b6f23386bf31698db50a70cafa/django_auto_prefetch-1.6.0.tar.gz
+[2023-07-10 11:13:13] INFO root fetch - processPackages [django-perf-rec]: Downloading https://files.pythonhosted.org/packages/fd/6e/3fc1523113625295f671e889daa37eb31493dfec29c69bdf97149546815f/django-perf-rec-4.8.0.tar.gz
+[2023-07-10 11:13:13] INFO root fetch - processPackages [pyreference]: Downloading https://files.pythonhosted.org/packages/33/a2/53b3ac0963d1a88b083323448674724fda4040617f733991b72f004de9b6/pyreference-0.7.3.tar.gz
+[2023-07-10 11:13:13] INFO root fetch - processPackages [fastcopilot]: Downloading https://files.pythonhosted.org/packages/a7/be/494e9493661bdc8c85fb2c6d39e5dd57586959d13de44a8030e28ba3a6c9/fastcopilot-0.5.1.tar.gz
+[2023-07-10 11:13:13] INFO root fetch - processPackages [diz]: Downloading https://files.pythonhosted.org/packages/67/aa/8eeb7d6224fa76297103a5f16f04305940e6523da3639354f03769c5f4ef/diz-0.0.9.tar.gz
+[2023-07-10 11:13:13] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/ac/5e/e270ac6ac189393bb79c6c2b4257a6802941376d2b859ef152b78a37e283/pulumi_gitlab-6.1.0a1688977388.tar.gz
+[2023-07-10 11:13:13] INFO root fetch - processPackages [fastcopilot]: executing diffoscope
+[2023-07-10 11:13:13] INFO root fetch - processPackages [fastcopilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastcopilot-0.5.0.tar.gz tmp/fastcopilot-0.5.1.tar.gz --markdown 20230710/f/fastcopilot/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-10 11:13:13] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-07-10 11:13:13] INFO root fetch - processPackages [django-cors-headers]: Downloading https://files.pythonhosted.org/packages/cb/5d/739ec1adbe848cdb0f07c3b621561c9589e491cc0443a8d16cec23c107a5/django_cors_headers-4.2.0.tar.gz
+[2023-07-10 11:13:13] INFO root fetch - processPackages [diz]: executing diffoscope
+[2023-07-10 11:13:13] INFO root fetch - processPackages [diz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diz-0.0.8.tar.gz tmp/diz-0.0.9.tar.gz --markdown 20230710/d/diz/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 11:13:14] INFO root fetch - processPackages [onetl]: Downloading https://files.pythonhosted.org/packages/a0/73/5c76015334373de546a723546384d11320763c5ac174fe7d9befc5d08f09/onetl-0.8.1.tar.gz
+[2023-07-10 11:13:14] INFO root fetch - processPackages [django-browser-reload]: Downloading https://files.pythonhosted.org/packages/74/6d/233e00c25ffbfaf9386c6dfa55123c580292194fe95bf2e30cffba336d10/django_browser_reload-1.9.0.tar.gz
+[2023-07-10 11:13:14] INFO root fetch - processPackages [pulumi-gitlab]: executing diffoscope
+[2023-07-10 11:13:14] INFO root fetch - processPackages [pulumi-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gitlab-6.1.0a1687929913.tar.gz tmp/pulumi_gitlab-6.1.0a1688977388.tar.gz --markdown 20230710/p/pulumi-gitlab/6.1.0a1687929913-6.1.0a1688977388/diff.md --exclude *.pyd
+[2023-07-10 11:13:14] INFO root fetch - processPackages [django-perf-rec]: Downloading https://files.pythonhosted.org/packages/97/0a/8b185a724d02898368856c4b4f33da9575f27ad32a9a1d78fe4df25eaaf6/django-perf-rec-4.9.0.tar.gz
+[2023-07-10 11:13:14] INFO root fetch - processPackages [django-auto-prefetch]: Downloading https://files.pythonhosted.org/packages/21/05/717573d26d106b1280c9731f84c8bf137baa8d853ec1e390fd876d335189/django_auto_prefetch-1.7.0.tar.gz
+[2023-07-10 11:13:14] INFO root fetch - processPackages [pyreference]: Downloading https://files.pythonhosted.org/packages/20/41/b8fdf175aeb99410dc6495e30468f06d5222196555ae96332142fe4d5fba/pyreference-0.7.4.tar.gz
+[2023-07-10 11:13:14] INFO root fetch - processPackages [django-cors-headers]: executing diffoscope
+[2023-07-10 11:13:14] INFO root fetch - processPackages [django-cors-headers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_cors_headers-4.1.0.tar.gz tmp/django_cors_headers-4.2.0.tar.gz --markdown 20230710/d/django-cors-headers/4.1.0-4.2.0/diff.md --exclude *.pyd
+[2023-07-10 11:13:14] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-07-10 11:13:14] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230710/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-07-10 11:13:14] INFO root fetch - processPackages [django-browser-reload]: executing diffoscope
+[2023-07-10 11:13:14] INFO root fetch - processPackages [django-browser-reload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_browser_reload-1.8.0.tar.gz tmp/django_browser_reload-1.9.0.tar.gz --markdown 20230710/d/django-browser-reload/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-10 11:13:14] INFO root fetch - processPackages [onetl]: executing diffoscope
+[2023-07-10 11:13:14] INFO root fetch - processPackages [onetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onetl-0.8.0.tar.gz tmp/onetl-0.8.1.tar.gz --markdown 20230710/o/onetl/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-10 11:13:14] INFO root fetch - processPackages [pyreference]: executing diffoscope
+[2023-07-10 11:13:14] INFO root fetch - processPackages [pyreference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyreference-0.7.3.tar.gz tmp/pyreference-0.7.4.tar.gz --markdown 20230710/p/pyreference/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-07-10 11:13:14] INFO root fetch - processPackages [django-auto-prefetch]: executing diffoscope
+[2023-07-10 11:13:14] INFO root fetch - processPackages [django-auto-prefetch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_auto_prefetch-1.6.0.tar.gz tmp/django_auto_prefetch-1.7.0.tar.gz --markdown 20230710/d/django-auto-prefetch/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2023-07-10 11:13:14] INFO root fetch - processPackages [django-perf-rec]: executing diffoscope
+[2023-07-10 11:13:14] INFO root fetch - processPackages [django-perf-rec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-perf-rec-4.8.0.tar.gz tmp/django-perf-rec-4.9.0.tar.gz --markdown 20230710/d/django-perf-rec/4.8.0-4.9.0/diff.md --exclude *.pyd
+[2023-07-10 11:13:15] INFO root fetch - processPackages [fastcopilot]: Remove: archive file [/home/abi/fetcher/tmp/fastcopilot-0.5.0.tar.gz]
+[2023-07-10 11:13:15] INFO root fetch - processPackages [fastcopilot]: Remove: archive file [/home/abi/fetcher/tmp/fastcopilot-0.5.1.tar.gz]
+[2023-07-10 11:13:15] INFO root fetch - processPackages [fastcopilot]: Start processing: SpLFastlyWrite
+[2023-07-10 11:13:15] INFO root fetch - main [MainThread]: End processing [fastcopilot]: success
+[2023-07-10 11:13:15] INFO root fetch - processPackages [SpLFastlyWrite]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-10 11:13:15] INFO root fetch - processPackages [diz]: Remove: archive file [/home/abi/fetcher/tmp/diz-0.0.8.tar.gz]
+[2023-07-10 11:13:15] INFO root fetch - processPackages [diz]: Remove: archive file [/home/abi/fetcher/tmp/diz-0.0.9.tar.gz]
+[2023-07-10 11:13:15] INFO root fetch - processPackages [diz]: Start processing: web-foundation
+[2023-07-10 11:13:15] INFO root fetch - main [MainThread]: End processing [diz]: success
+[2023-07-10 11:13:15] INFO root fetch - processPackages [SpLFastlyWrite]: Downloading https://files.pythonhosted.org/packages/74/0b/dd8cac021813ae35a018fbb59ea2f46f329e4a3c2cdba8595e8ef727ec8b/SpLFastlyWrite-1.0.7.tar.gz
+[2023-07-10 11:13:15] INFO root fetch - processPackages [web-foundation]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-07-10 11:13:16] INFO root fetch - processPackages [web-foundation]: Downloading https://files.pythonhosted.org/packages/be/ef/14a65394fccddd615648ec894ff0f9225750bb726002e33786e3efa1db69/web_foundation-3.0.8.tar.gz
+[2023-07-10 11:13:16] INFO root fetch - processPackages [SpLFastlyWrite]: Downloading https://files.pythonhosted.org/packages/3a/ff/e614403cf48b8aeb5edc31053a914b1e25b300a980eafbfe3a06dcdcb4f9/SpLFastlyWrite-1.0.8.tar.gz
+[2023-07-10 11:13:16] INFO root fetch - processPackages [django-cors-headers]: Remove: archive file [/home/abi/fetcher/tmp/django_cors_headers-4.1.0.tar.gz]
+[2023-07-10 11:13:16] INFO root fetch - processPackages [django-cors-headers]: Remove: archive file [/home/abi/fetcher/tmp/django_cors_headers-4.2.0.tar.gz]
+[2023-07-10 11:13:16] INFO root fetch - processPackages [django-cors-headers]: Start processing: formance-sdk-python
+[2023-07-10 11:13:16] INFO root fetch - main [MainThread]: End processing [django-cors-headers]: success
+[2023-07-10 11:13:16] INFO root fetch - processPackages [formance-sdk-python]: New version: [1.0.20230627] Old Version: [1.0.20230623b1]
+[2023-07-10 11:13:16] INFO root fetch - processPackages [SpLFastlyWrite]: executing diffoscope
+[2023-07-10 11:13:16] INFO root fetch - processPackages [SpLFastlyWrite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpLFastlyWrite-1.0.7.tar.gz tmp/SpLFastlyWrite-1.0.8.tar.gz --markdown 20230710/S/SpLFastlyWrite/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-10 11:13:16] INFO root fetch - processPackages [django-auto-prefetch]: Remove: archive file [/home/abi/fetcher/tmp/django_auto_prefetch-1.6.0.tar.gz]
+[2023-07-10 11:13:16] INFO root fetch - processPackages [django-auto-prefetch]: Remove: archive file [/home/abi/fetcher/tmp/django_auto_prefetch-1.7.0.tar.gz]
+[2023-07-10 11:13:16] INFO root fetch - processPackages [formance-sdk-python]: Downloading https://files.pythonhosted.org/packages/1b/00/373ba95608da97b9a73286d2246b00bcdde99f89a57883999a24e956f3db/formance-sdk-python-1.0.20230623b1.tar.gz
+[2023-07-10 11:13:16] INFO root fetch - main [MainThread]: End processing [django-auto-prefetch]: success
+[2023-07-10 11:13:16] INFO root fetch - processPackages [pyreference]: Remove: archive file [/home/abi/fetcher/tmp/pyreference-0.7.3.tar.gz]
+[2023-07-10 11:13:16] INFO root fetch - processPackages [pyreference]: Remove: archive file [/home/abi/fetcher/tmp/pyreference-0.7.4.tar.gz]
+[2023-07-10 11:13:16] INFO root fetch - main [MainThread]: End processing [pyreference]: success
+[2023-07-10 11:13:16] INFO root fetch - processPackages [django-browser-reload]: Remove: archive file [/home/abi/fetcher/tmp/django_browser_reload-1.8.0.tar.gz]
+[2023-07-10 11:13:16] INFO root fetch - processPackages [django-browser-reload]: Remove: archive file [/home/abi/fetcher/tmp/django_browser_reload-1.9.0.tar.gz]
+[2023-07-10 11:13:16] INFO root fetch - main [MainThread]: End processing [django-browser-reload]: success
+[2023-07-10 11:13:16] INFO root fetch - processPackages [web-foundation]: Downloading https://files.pythonhosted.org/packages/ab/fb/758bc9f32ce37a5c419b0ece1a88cb80c1130eda68f96e786b3dd9f2700a/web_foundation-3.0.9.tar.gz
+[2023-07-10 11:13:16] INFO root fetch - processPackages [formance-sdk-python]: Downloading https://files.pythonhosted.org/packages/b6/3f/b0c2a7985c589129fe5e060f5b7f8e674ea8f080047ab4a33e173f9252fe/formance-sdk-python-1.0.20230627.tar.gz
+[2023-07-10 11:13:16] INFO root fetch - processPackages [formance-sdk-python]: executing diffoscope
+[2023-07-10 11:13:16] INFO root fetch - processPackages [formance-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formance-sdk-python-1.0.20230623b1.tar.gz tmp/formance-sdk-python-1.0.20230627.tar.gz --markdown 20230710/f/formance-sdk-python/1.0.20230623b1-1.0.20230627/diff.md --exclude *.pyd
+[2023-07-10 11:13:16] INFO root fetch - processPackages [web-foundation]: executing diffoscope
+[2023-07-10 11:13:16] INFO root fetch - processPackages [web-foundation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web_foundation-3.0.8.tar.gz tmp/web_foundation-3.0.9.tar.gz --markdown 20230710/w/web-foundation/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-07-10 11:13:17] INFO root fetch - processPackages [onetl]: Remove: archive file [/home/abi/fetcher/tmp/onetl-0.8.0.tar.gz]
+[2023-07-10 11:13:17] INFO root fetch - processPackages [onetl]: Remove: archive file [/home/abi/fetcher/tmp/onetl-0.8.1.tar.gz]
+[2023-07-10 11:13:17] INFO root fetch - main [MainThread]: End processing [onetl]: success
+[2023-07-10 11:13:17] INFO root fetch - processPackages [django-perf-rec]: Remove: archive file [/home/abi/fetcher/tmp/django-perf-rec-4.8.0.tar.gz]
+[2023-07-10 11:13:17] INFO root fetch - processPackages [django-perf-rec]: Remove: archive file [/home/abi/fetcher/tmp/django-perf-rec-4.9.0.tar.gz]
+[2023-07-10 11:13:17] INFO root fetch - main [MainThread]: End processing [django-perf-rec]: success
+[2023-07-10 11:13:17] INFO root fetch - processPackages [SpLFastlyWrite]: Remove: archive file [/home/abi/fetcher/tmp/SpLFastlyWrite-1.0.7.tar.gz]
+[2023-07-10 11:13:17] INFO root fetch - processPackages [SpLFastlyWrite]: Remove: archive file [/home/abi/fetcher/tmp/SpLFastlyWrite-1.0.8.tar.gz]
+[2023-07-10 11:13:17] INFO root fetch - main [MainThread]: End processing [SpLFastlyWrite]: success
+[2023-07-10 11:13:17] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-6.1.0a1687929913.tar.gz]
+[2023-07-10 11:13:17] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-6.1.0a1688977388.tar.gz]
+[2023-07-10 11:13:17] INFO root fetch - main [MainThread]: End processing [pulumi-gitlab]: success
+[2023-07-10 11:13:17] INFO root fetch - processPackages [web-foundation]: Remove: archive file [/home/abi/fetcher/tmp/web_foundation-3.0.8.tar.gz]
+[2023-07-10 11:13:17] INFO root fetch - processPackages [web-foundation]: Remove: archive file [/home/abi/fetcher/tmp/web_foundation-3.0.9.tar.gz]
+[2023-07-10 11:13:17] INFO root fetch - main [MainThread]: End processing [web-foundation]: success
+[2023-07-10 11:13:18] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-07-10 11:13:18] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-07-10 11:13:18] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-07-10 11:13:18] INFO root fetch - processPackages [formance-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/formance-sdk-python-1.0.20230623b1.tar.gz]
+[2023-07-10 11:13:18] INFO root fetch - processPackages [formance-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/formance-sdk-python-1.0.20230627.tar.gz]
+[2023-07-10 11:13:18] INFO root fetch - main [MainThread]: End processing [formance-sdk-python]: success
+[2023-07-10 11:13:18] INFO root fetch - main [MainThread]: Store serial: [18828759]
