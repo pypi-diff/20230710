@@ -16494,3 +16494,96 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 13:57:32] INFO root fetch - processPackages [glue-jupyterlab]: Remove: archive file [/home/abi/fetcher/tmp/glue_jupyterlab-0.3.0.tar.gz]
 [2023-07-10 13:57:32] INFO root fetch - main [MainThread]: End processing [glue-jupyterlab]: success
 [2023-07-10 13:57:32] INFO root fetch - main [MainThread]: Store serial: [18830210]
+[2023-07-10 14:02:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18830210]
+[2023-07-10 14:02:41] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-10 14:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cartagen4py
+[2023-07-10 14:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: akshare
+[2023-07-10 14:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: remotivelabs-cli
+[2023-07-10 14:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydaa
+[2023-07-10 14:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wizata-dsapi
+[2023-07-10 14:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: signxai
+[2023-07-10 14:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oidc-drf
+[2023-07-10 14:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Perfole
+[2023-07-10 14:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: phenom-xfel
+[2023-07-10 14:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cstore
+[2023-07-10 14:02:42] INFO root fetch - processPackages [pydaa]: New version: [1.7.2] Old Version: [1.7.1]
+[2023-07-10 14:02:42] INFO root fetch - processPackages [cartagen4py]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-10 14:02:42] INFO root fetch - processPackages [signxai]: New version: [1.0.0] Old Version: [0.0.6]
+[2023-07-10 14:02:42] INFO root fetch - processPackages [Perfole]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-10 14:02:42] INFO root fetch - processPackages [cstore]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-07-10 14:02:42] INFO root fetch - processPackages [oidc-drf]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-07-10 14:02:42] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-10 14:02:42] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-07-10 14:02:42] INFO root fetch - processPackages [remotivelabs-cli]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-07-10 14:02:42] INFO root fetch - processPackages [cstore]: Downloading https://files.pythonhosted.org/packages/f0/df/68ea8b2ed2f48ee5aa9cff7850e8b31393de961d62b8b8d9d1dbb23b59f2/cstore-0.6.8.tar.gz
+[2023-07-10 14:02:42] INFO root fetch - processPackages [phenom-xfel]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-07-10 14:02:42] INFO root fetch - processPackages [pydaa]: Downloading https://files.pythonhosted.org/packages/27/a2/b3c5039312e183d995a1398d53788a048d5ede3249a62be91c1da3cc50c5/pydaa-1.7.1-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-10 14:02:42] INFO root fetch - processPackages [cartagen4py]: Downloading https://files.pythonhosted.org/packages/9d/6e/4dcddc662b3416010ada7231167661388162f5439f6745719197f1802573/cartagen4py-0.1.9.tar.gz
+[2023-07-10 14:02:42] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/4d/9c/3e54553e0bb7ec49adec570071bebb12dbcce89d08df8d0f48c6b420fb6b/wizata-dsapi-0.2.3.tar.gz
+[2023-07-10 14:02:42] INFO root fetch - processPackages [signxai]: Downloading https://files.pythonhosted.org/packages/77/2c/6275c4e0d90fcc008b43745e4e71596a95d1f8d70990eb1e0cfd3690c368/signxai-0.0.6.tar.gz
+[2023-07-10 14:02:42] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/78/ec/18530bf83cb9246be1b48b922f70b4cc2c60546f77efb2b235c0d522d582/oidc_drf-1.3.1.tar.gz
+[2023-07-10 14:02:42] INFO root fetch - processPackages [Perfole]: Downloading https://files.pythonhosted.org/packages/c7/13/cbeab02cff2f374d2e3979817d4acb0eba8fd557c1db29cf8f8c4b21f24e/Perfole-0.0.1.tar.gz
+[2023-07-10 14:02:42] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2023-07-10 14:02:42] INFO root fetch - processPackages [phenom-xfel]: Downloading https://files.pythonhosted.org/packages/57/2e/3d3730a359ce640930ef44497bde0b9fcfdeecb96e336c26953c6169333d/phenom_xfel-0.0.2-py3-none-any.whl
+[2023-07-10 14:02:42] INFO root fetch - processPackages [remotivelabs-cli]: Downloading https://files.pythonhosted.org/packages/9e/af/b85d4ab12b3ff8b26eeb84f5748bf68a170ccb0483ce464fbc14dfacaa8e/remotivelabs_cli-0.0.1a8.tar.gz
+[2023-07-10 14:02:42] INFO root fetch - processPackages [cstore]: Downloading https://files.pythonhosted.org/packages/9f/8c/c44845a8bc08335dbb4196f9d4482e3bda1930c8e31115d393e519a02823/cstore-0.6.9.tar.gz
+[2023-07-10 14:02:42] INFO root fetch - processPackages [pydaa]: Downloading https://files.pythonhosted.org/packages/78/8d/2c72e9f3ee0e2ef66f63c6e947a2dee9a1869ca94e72c7b0a7cf3d53cabb/pydaa-1.7.2-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-10 14:02:42] INFO root fetch - processPackages [cartagen4py]: Downloading https://files.pythonhosted.org/packages/ab/83/e0ded6d3798553a447b69c9900094aef0318ab0dba74265b4e19bd374db0/cartagen4py-0.2.0-py3-none-any.whl
+[2023-07-10 14:02:43] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/90/b1/b31fa8e51e26bfab218d23a5556e1ddabf3b89a9a409dc29bf6a1291530f/wizata-dsapi-0.2.4.tar.gz
+[2023-07-10 14:02:43] INFO root fetch - processPackages [signxai]: Downloading https://files.pythonhosted.org/packages/e4/c6/13731924d5a41b27089d7a5604081a36b08d75582610c345e6bfcf7be268/signxai-1.0.0.tar.gz
+[2023-07-10 14:02:43] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/83/8e/168596dd82fe6419f8fe7299bc321ebcd535e0cb6667499c3fabef5e5cfe/oidc_drf-1.3.2.tar.gz
+[2023-07-10 14:02:43] INFO root fetch - processPackages [Perfole]: Downloading https://files.pythonhosted.org/packages/9c/eb/bf3ac5b0bef96655fea0b394303831cb45fa45add1e7fad2711c3ac95018/Perfole-0.0.2.tar.gz
+[2023-07-10 14:02:43] INFO root fetch - processPackages [cstore]: executing diffoscope
+[2023-07-10 14:02:43] INFO root fetch - processPackages [cstore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cstore-0.6.8.tar.gz tmp/cstore-0.6.9.tar.gz --markdown 20230710/c/cstore/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-07-10 14:02:43] INFO root fetch - processPackages [pydaa]: executing diffoscope
+[2023-07-10 14:02:43] INFO root fetch - processPackages [pydaa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydaa-1.7.1-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/pydaa-1.7.2-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230710/p/pydaa/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2023-07-10 14:02:43] INFO root fetch - processPackages [cartagen4py]: executing diffoscope
+[2023-07-10 14:02:43] INFO root fetch - processPackages [cartagen4py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cartagen4py-0.1.9.tar.gz tmp/cartagen4py-0.2.0-py3-none-any.whl.zip --markdown 20230710/c/cartagen4py/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-10 14:02:43] INFO root fetch - processPackages [phenom-xfel]: Downloading https://files.pythonhosted.org/packages/2e/e5/991d0558a49324b0c23eeb79bad713b37f78040b3884d5b6516651bfd891/phenom_xfel-0.0.4-py3-none-any.whl
+[2023-07-10 14:02:43] INFO root fetch - processPackages [Perfole]: executing diffoscope
+[2023-07-10 14:02:43] INFO root fetch - processPackages [Perfole]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Perfole-0.0.1.tar.gz tmp/Perfole-0.0.2.tar.gz --markdown 20230710/P/Perfole/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-10 14:02:43] INFO root fetch - processPackages [oidc-drf]: executing diffoscope
+[2023-07-10 14:02:43] INFO root fetch - processPackages [oidc-drf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oidc_drf-1.3.1.tar.gz tmp/oidc_drf-1.3.2.tar.gz --markdown 20230710/o/oidc-drf/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-07-10 14:02:43] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-07-10 14:02:43] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.2.3.tar.gz tmp/wizata-dsapi-0.2.4.tar.gz --markdown 20230710/w/wizata-dsapi/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-10 14:02:43] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2023-07-10 14:02:43] INFO root fetch - processPackages [signxai]: executing diffoscope
+[2023-07-10 14:02:43] INFO root fetch - processPackages [signxai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signxai-0.0.6.tar.gz tmp/signxai-1.0.0.tar.gz --markdown 20230710/s/signxai/0.0.6-1.0.0/diff.md --exclude *.pyd
+[2023-07-10 14:02:43] INFO root fetch - processPackages [phenom-xfel]: executing diffoscope
+[2023-07-10 14:02:43] INFO root fetch - processPackages [phenom-xfel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phenom_xfel-0.0.2-py3-none-any.whl.zip tmp/phenom_xfel-0.0.4-py3-none-any.whl.zip --markdown 20230710/p/phenom-xfel/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-07-10 14:02:43] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-07-10 14:02:43] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20230710/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-07-10 14:02:43] INFO root fetch - processPackages [remotivelabs-cli]: Downloading https://files.pythonhosted.org/packages/6e/ec/8b4e17df12c5a2d39a005264591da395be8eae3517772654316d89e40301/remotivelabs_cli-0.0.1a9.tar.gz
+[2023-07-10 14:02:43] INFO root fetch - processPackages [remotivelabs-cli]: executing diffoscope
+[2023-07-10 14:02:43] INFO root fetch - processPackages [remotivelabs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotivelabs_cli-0.0.1a8.tar.gz tmp/remotivelabs_cli-0.0.1a9.tar.gz --markdown 20230710/r/remotivelabs-cli/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-07-10 14:02:44] INFO root fetch - processPackages [cartagen4py]: Remove: archive file [/home/abi/fetcher/tmp/cartagen4py-0.1.9.tar.gz]
+[2023-07-10 14:02:44] INFO root fetch - processPackages [cartagen4py]: Remove: archive file [/home/abi/fetcher/tmp/cartagen4py-0.2.0-py3-none-any.whl.zip]
+[2023-07-10 14:02:44] INFO root fetch - main [MainThread]: End processing [cartagen4py]: success
+[2023-07-10 14:02:44] INFO root fetch - processPackages [cstore]: Remove: archive file [/home/abi/fetcher/tmp/cstore-0.6.8.tar.gz]
+[2023-07-10 14:02:44] INFO root fetch - processPackages [cstore]: Remove: archive file [/home/abi/fetcher/tmp/cstore-0.6.9.tar.gz]
+[2023-07-10 14:02:44] INFO root fetch - main [MainThread]: End processing [cstore]: success
+[2023-07-10 14:02:44] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.2.3.tar.gz]
+[2023-07-10 14:02:44] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.2.4.tar.gz]
+[2023-07-10 14:02:44] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-07-10 14:02:44] INFO root fetch - processPackages [Perfole]: Remove: archive file [/home/abi/fetcher/tmp/Perfole-0.0.1.tar.gz]
+[2023-07-10 14:02:44] INFO root fetch - processPackages [Perfole]: Remove: archive file [/home/abi/fetcher/tmp/Perfole-0.0.2.tar.gz]
+[2023-07-10 14:02:44] INFO root fetch - main [MainThread]: End processing [Perfole]: success
+[2023-07-10 14:02:45] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.3.1.tar.gz]
+[2023-07-10 14:02:45] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.3.2.tar.gz]
+[2023-07-10 14:02:45] INFO root fetch - main [MainThread]: End processing [oidc-drf]: success
+[2023-07-10 14:02:45] INFO root fetch - processPackages [phenom-xfel]: Remove: archive file [/home/abi/fetcher/tmp/phenom_xfel-0.0.2-py3-none-any.whl.zip]
+[2023-07-10 14:02:45] INFO root fetch - processPackages [phenom-xfel]: Remove: archive file [/home/abi/fetcher/tmp/phenom_xfel-0.0.4-py3-none-any.whl.zip]
+[2023-07-10 14:02:45] INFO root fetch - main [MainThread]: End processing [phenom-xfel]: success
+[2023-07-10 14:02:45] INFO root fetch - processPackages [signxai]: Remove: archive file [/home/abi/fetcher/tmp/signxai-0.0.6.tar.gz]
+[2023-07-10 14:02:45] INFO root fetch - processPackages [signxai]: Remove: archive file [/home/abi/fetcher/tmp/signxai-1.0.0.tar.gz]
+[2023-07-10 14:02:45] INFO root fetch - main [MainThread]: End processing [signxai]: success
+[2023-07-10 14:02:45] INFO root fetch - processPackages [remotivelabs-cli]: Remove: archive file [/home/abi/fetcher/tmp/remotivelabs_cli-0.0.1a8.tar.gz]
+[2023-07-10 14:02:45] INFO root fetch - processPackages [remotivelabs-cli]: Remove: archive file [/home/abi/fetcher/tmp/remotivelabs_cli-0.0.1a9.tar.gz]
+[2023-07-10 14:02:45] INFO root fetch - main [MainThread]: End processing [remotivelabs-cli]: success
+[2023-07-10 14:02:46] INFO root fetch - processPackages [pydaa]: Remove: archive file [/home/abi/fetcher/tmp/pydaa-1.7.1-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-10 14:02:46] INFO root fetch - processPackages [pydaa]: Remove: archive file [/home/abi/fetcher/tmp/pydaa-1.7.2-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-10 14:02:46] INFO root fetch - main [MainThread]: End processing [pydaa]: success
+[2023-07-10 14:02:47] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2023-07-10 14:02:47] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2023-07-10 14:02:47] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-07-10 14:02:47] INFO root fetch - main [MainThread]: Store serial: [18830246]
