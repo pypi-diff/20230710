@@ -9904,3 +9904,110 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 09:16:23] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
 [2023-07-10 09:16:23] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-07-10 09:16:23] INFO root fetch - main [MainThread]: Store serial: [18827548]
+[2023-07-10 09:21:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18827548]
+[2023-07-10 09:21:32] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-10 09:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: EconModel
+[2023-07-10 09:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libstored
+[2023-07-10 09:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: queueing-systems
+[2023-07-10 09:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-cfassistant
+[2023-07-10 09:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: finetuner-stubs
+[2023-07-10 09:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: finetuner-commons
+[2023-07-10 09:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rin-proj1
+[2023-07-10 09:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: narpyn
+[2023-07-10 09:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dynamic-service
+[2023-07-10 09:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: oarepo-cli
+[2023-07-10 09:21:32] INFO root fetch - processPackages [EconModel]: New version: [0.14] Old Version: [0.13]
+[2023-07-10 09:21:32] INFO root fetch - processPackages [libstored]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-07-10 09:21:32] INFO root fetch - processPackages [nonebot-plugin-cfassistant]: New version: [1.3] Old Version: [1.2]
+[2023-07-10 09:21:32] INFO root fetch - processPackages [finetuner-stubs]: New version: [0.9.3] Old Version: [0.13.8]
+[2023-07-10 09:21:32] WARNING root fetch - processPackages [narpyn]: Skipping, unable to determine old version
+[2023-07-10 09:21:32] INFO root fetch - processPackages [narpyn]: Start processing: soraya
+[2023-07-10 09:21:32] INFO root fetch - main [MainThread]: End processing [narpyn] error
+[2023-07-10 09:21:32] INFO root fetch - processPackages [finetuner-commons]: New version: [0.9.3] Old Version: [0.13.8]
+[2023-07-10 09:21:32] INFO root fetch - processPackages [dynamic-service]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-07-10 09:21:32] INFO root fetch - processPackages [rin-proj1]: New version: [1.1] Old Version: [1.0]
+[2023-07-10 09:21:32] WARNING root fetch - processPackages [queueing-systems]: Skipping, unable to determine old version
+[2023-07-10 09:21:32] INFO root fetch - processPackages [queueing-systems]: Start processing: tfq-nightly
+[2023-07-10 09:21:32] INFO root fetch - main [MainThread]: End processing [queueing-systems] error
+[2023-07-10 09:21:33] INFO root fetch - processPackages [oarepo-cli]: New version: [11.1.9] Old Version: [11.1.8]
+[2023-07-10 09:21:33] WARNING root fetch - processPackages [soraya]: Skipping, unable to determine old version
+[2023-07-10 09:21:33] INFO root fetch - processPackages [soraya]: Start processing: staticx
+[2023-07-10 09:21:33] INFO root fetch - main [MainThread]: End processing [soraya] error
+[2023-07-10 09:21:33] INFO root fetch - processPackages [nonebot-plugin-cfassistant]: Downloading https://files.pythonhosted.org/packages/f9/2f/a366a144cc62e24f0dfe1a298c0fce60d40e73b4d011151f7bffdaa0497f/nonebot-plugin-cfassistant-1.2.tar.gz
+[2023-07-10 09:21:33] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230709] Old Version: [0.7.3.dev20230708]
+[2023-07-10 09:21:33] INFO root fetch - processPackages [finetuner-stubs]: Downloading https://files.pythonhosted.org/packages/7c/ad/189a045dd18d1bfdb85b74a7363e7cdf6e92a9e0133dfa698af7ff7fb41d/finetuner_stubs-0.13.8-py3-none-any.whl
+[2023-07-10 09:21:33] INFO root fetch - processPackages [staticx]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-10 09:21:33] INFO root fetch - processPackages [finetuner-commons]: Downloading https://files.pythonhosted.org/packages/af/75/b22176b16d590d02c990a9a379e0cf3e4a81de27c06680c0ad3bf6f698a9/finetuner_commons-0.13.8-py3-none-any.whl
+[2023-07-10 09:21:33] INFO root fetch - processPackages [rin-proj1]: Downloading https://files.pythonhosted.org/packages/61/e0/89b6b06a6a29a61dc7cb53acab0a1568b0b167d360bc9a5406ffa7608dc1/rin_proj1-1.0.tar.gz
+[2023-07-10 09:21:33] INFO root fetch - processPackages [libstored]: Downloading https://files.pythonhosted.org/packages/21/7c/79a93365b0cbef6e86b5b415fd95df44708f768ef49acdb99226bd4d2d93/libstored-1.4.0.tar.gz
+[2023-07-10 09:21:33] INFO root fetch - processPackages [dynamic-service]: Downloading https://files.pythonhosted.org/packages/b0/b8/57931c8720f2782576686c5d2702fade61416dfea730001af0a9c4eda502/dynamic-service-1.4.2.tar.gz
+[2023-07-10 09:21:33] INFO root fetch - processPackages [EconModel]: Downloading https://files.pythonhosted.org/packages/90/62/64c6eab8711feb55a99356bfbbe22d1f0a5f3043a62bc610a00f80b75849/EconModel-0.13.tar.gz
+[2023-07-10 09:21:33] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/af/a7/2733a476ea08d89fb2f474b4da4c3e1bcd0256c07baebfab128540be8be1/oarepo-cli-11.1.8.tar.gz
+[2023-07-10 09:21:33] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/34/78/a41a135675f461e455eac837fbfb2664409b96bc86663c1aa53c5268dcaa/tfq_nightly-0.7.3.dev20230708-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-10 09:21:33] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10807264>=10485760
+[2023-07-10 09:21:33] INFO root fetch - processPackages [tfq-nightly]: Start processing: lesaviezvous
+[2023-07-10 09:21:33] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-07-10 09:21:33] INFO root fetch - processPackages [lesaviezvous]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-10 09:21:33] INFO root fetch - processPackages [nonebot-plugin-cfassistant]: Downloading https://files.pythonhosted.org/packages/1c/a7/d70d9c763867463d0f6f20223a8b19dfa37d25e1615a1ce4b6fdb876b4d2/nonebot-plugin-cfassistant-1.3.tar.gz
+[2023-07-10 09:21:33] INFO root fetch - processPackages [staticx]: Downloading https://files.pythonhosted.org/packages/c8/5a/6a6c193182e04c2aedfd0309e0b09e05877fdee3806eb2e4beced80ddc94/staticx-0.9.0.tar.gz
+[2023-07-10 09:21:33] INFO root fetch - processPackages [rin-proj1]: Downloading https://files.pythonhosted.org/packages/65/06/90ca57e5114f4d7380d0516d15b20c255f5d68fab098ee1329494d113a38/rin_proj1-1.1.tar.gz
+[2023-07-10 09:21:33] INFO root fetch - processPackages [lesaviezvous]: Downloading https://files.pythonhosted.org/packages/f8/ff/df2021cfd682565ccdc2096c29d6d17674baf34ec6104a64b9817ea23c0a/lesaviezvous-0.1.0.tar.gz
+[2023-07-10 09:21:33] INFO root fetch - processPackages [finetuner-stubs]: Downloading https://files.pythonhosted.org/packages/ef/16/270441d5d09ae4589cc4559a4e500eceea41c57fc45893813e21f24b16dc/finetuner-stubs-0.9.3.tar.gz
+[2023-07-10 09:21:33] INFO root fetch - processPackages [nonebot-plugin-cfassistant]: executing diffoscope
+[2023-07-10 09:21:33] INFO root fetch - processPackages [nonebot-plugin-cfassistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-cfassistant-1.2.tar.gz tmp/nonebot-plugin-cfassistant-1.3.tar.gz --markdown 20230710/n/nonebot-plugin-cfassistant/1.2-1.3/diff.md --exclude *.pyd
+[2023-07-10 09:21:33] INFO root fetch - processPackages [libstored]: Downloading https://files.pythonhosted.org/packages/81/a3/6c41c7c6c27303ae23e442fa91d558a598c3f79f691ea82ce7161b45ad39/libstored-1.5.0.tar.gz
+[2023-07-10 09:21:33] INFO root fetch - processPackages [dynamic-service]: Downloading https://files.pythonhosted.org/packages/2d/88/1a346c189bca33ba961f614bdcdacd20559c2f195f7eb67e28ac415e1367/dynamic-service-1.4.3.tar.gz
+[2023-07-10 09:21:33] INFO root fetch - processPackages [finetuner-commons]: Downloading https://files.pythonhosted.org/packages/e1/c1/11430d37c19d8b297ea0e066a6e93ea1316ef71b4a98447a0f0eb51d465d/finetuner-commons-0.9.3.tar.gz
+[2023-07-10 09:21:33] INFO root fetch - processPackages [EconModel]: Downloading https://files.pythonhosted.org/packages/c8/dc/56006f6da77f471c390ac45023d73689a2fd500fe1b20b9f4d8995398943/EconModel-0.14.tar.gz
+[2023-07-10 09:21:33] INFO root fetch - processPackages [rin-proj1]: executing diffoscope
+[2023-07-10 09:21:33] INFO root fetch - processPackages [rin-proj1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rin_proj1-1.0.tar.gz tmp/rin_proj1-1.1.tar.gz --markdown 20230710/r/rin-proj1/1.0-1.1/diff.md --exclude *.pyd
+[2023-07-10 09:21:33] INFO root fetch - processPackages [libstored]: executing diffoscope
+[2023-07-10 09:21:33] INFO root fetch - processPackages [libstored]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libstored-1.4.0.tar.gz tmp/libstored-1.5.0.tar.gz --markdown 20230710/l/libstored/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-07-10 09:21:33] INFO root fetch - processPackages [finetuner-commons]: executing diffoscope
+[2023-07-10 09:21:33] INFO root fetch - processPackages [finetuner-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finetuner_commons-0.13.8-py3-none-any.whl.zip tmp/finetuner-commons-0.9.3.tar.gz --markdown 20230710/f/finetuner-commons/0.13.8-0.9.3/diff.md --exclude *.pyd
+[2023-07-10 09:21:34] INFO root fetch - processPackages [EconModel]: executing diffoscope
+[2023-07-10 09:21:34] INFO root fetch - processPackages [EconModel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EconModel-0.13.tar.gz tmp/EconModel-0.14.tar.gz --markdown 20230710/E/EconModel/0.13-0.14/diff.md --exclude *.pyd
+[2023-07-10 09:21:34] INFO root fetch - processPackages [finetuner-stubs]: executing diffoscope
+[2023-07-10 09:21:34] INFO root fetch - processPackages [finetuner-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finetuner_stubs-0.13.8-py3-none-any.whl.zip tmp/finetuner-stubs-0.9.3.tar.gz --markdown 20230710/f/finetuner-stubs/0.13.8-0.9.3/diff.md --exclude *.pyd
+[2023-07-10 09:21:34] INFO root fetch - processPackages [staticx]: Downloading https://files.pythonhosted.org/packages/eb/c2/9cd485aa22131d1836f51315c7d2434b7e161ec118083fd1ad3019127245/staticx-0.9.1.tar.gz
+[2023-07-10 09:21:34] INFO root fetch - processPackages [lesaviezvous]: Downloading https://files.pythonhosted.org/packages/e4/fc/3cb0beac77a38e01b6db5265bed159d8ed8bfba02def7ea43e5fb8c9cc89/lesaviezvous-0.1.1.tar.gz
+[2023-07-10 09:21:34] INFO root fetch - processPackages [dynamic-service]: executing diffoscope
+[2023-07-10 09:21:34] INFO root fetch - processPackages [dynamic-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamic-service-1.4.2.tar.gz tmp/dynamic-service-1.4.3.tar.gz --markdown 20230710/d/dynamic-service/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-07-10 09:21:34] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/c1/07/390f9767ed13e63ef97918ed09945b5501685e21d178f8f10dfc1cd2a54c/oarepo-cli-11.1.9.tar.gz
+[2023-07-10 09:21:34] INFO root fetch - processPackages [lesaviezvous]: executing diffoscope
+[2023-07-10 09:21:34] INFO root fetch - processPackages [lesaviezvous]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesaviezvous-0.1.0.tar.gz tmp/lesaviezvous-0.1.1.tar.gz --markdown 20230710/l/lesaviezvous/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-10 09:21:34] INFO root fetch - processPackages [staticx]: executing diffoscope
+[2023-07-10 09:21:34] INFO root fetch - processPackages [staticx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/staticx-0.9.0.tar.gz tmp/staticx-0.9.1.tar.gz --markdown 20230710/s/staticx/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-10 09:21:34] INFO root fetch - processPackages [oarepo-cli]: executing diffoscope
+[2023-07-10 09:21:34] INFO root fetch - processPackages [oarepo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-cli-11.1.8.tar.gz tmp/oarepo-cli-11.1.9.tar.gz --markdown 20230710/o/oarepo-cli/11.1.8-11.1.9/diff.md --exclude *.pyd
+[2023-07-10 09:21:35] INFO root fetch - processPackages [nonebot-plugin-cfassistant]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-cfassistant-1.2.tar.gz]
+[2023-07-10 09:21:35] INFO root fetch - processPackages [nonebot-plugin-cfassistant]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-cfassistant-1.3.tar.gz]
+[2023-07-10 09:21:35] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-cfassistant]: success
+[2023-07-10 09:21:36] INFO root fetch - processPackages [rin-proj1]: Remove: archive file [/home/abi/fetcher/tmp/rin_proj1-1.0.tar.gz]
+[2023-07-10 09:21:36] INFO root fetch - processPackages [rin-proj1]: Remove: archive file [/home/abi/fetcher/tmp/rin_proj1-1.1.tar.gz]
+[2023-07-10 09:21:36] INFO root fetch - main [MainThread]: End processing [rin-proj1]: success
+[2023-07-10 09:21:36] INFO root fetch - processPackages [finetuner-stubs]: Remove: archive file [/home/abi/fetcher/tmp/finetuner_stubs-0.13.8-py3-none-any.whl.zip]
+[2023-07-10 09:21:36] INFO root fetch - processPackages [finetuner-stubs]: Remove: archive file [/home/abi/fetcher/tmp/finetuner-stubs-0.9.3.tar.gz]
+[2023-07-10 09:21:36] INFO root fetch - main [MainThread]: End processing [finetuner-stubs]: success
+[2023-07-10 09:21:36] INFO root fetch - processPackages [EconModel]: Remove: archive file [/home/abi/fetcher/tmp/EconModel-0.13.tar.gz]
+[2023-07-10 09:21:36] INFO root fetch - processPackages [EconModel]: Remove: archive file [/home/abi/fetcher/tmp/EconModel-0.14.tar.gz]
+[2023-07-10 09:21:36] INFO root fetch - main [MainThread]: End processing [EconModel]: success
+[2023-07-10 09:21:36] INFO root fetch - processPackages [finetuner-commons]: Remove: archive file [/home/abi/fetcher/tmp/finetuner_commons-0.13.8-py3-none-any.whl.zip]
+[2023-07-10 09:21:36] INFO root fetch - processPackages [finetuner-commons]: Remove: archive file [/home/abi/fetcher/tmp/finetuner-commons-0.9.3.tar.gz]
+[2023-07-10 09:21:36] INFO root fetch - main [MainThread]: End processing [finetuner-commons]: success
+[2023-07-10 09:21:36] INFO root fetch - processPackages [libstored]: Remove: archive file [/home/abi/fetcher/tmp/libstored-1.4.0.tar.gz]
+[2023-07-10 09:21:36] INFO root fetch - processPackages [libstored]: Remove: archive file [/home/abi/fetcher/tmp/libstored-1.5.0.tar.gz]
+[2023-07-10 09:21:36] INFO root fetch - main [MainThread]: End processing [libstored]: success
+[2023-07-10 09:21:36] INFO root fetch - processPackages [dynamic-service]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-service-1.4.2.tar.gz]
+[2023-07-10 09:21:36] INFO root fetch - processPackages [dynamic-service]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-service-1.4.3.tar.gz]
+[2023-07-10 09:21:36] INFO root fetch - main [MainThread]: End processing [dynamic-service]: success
+[2023-07-10 09:21:36] INFO root fetch - processPackages [lesaviezvous]: Remove: archive file [/home/abi/fetcher/tmp/lesaviezvous-0.1.0.tar.gz]
+[2023-07-10 09:21:36] INFO root fetch - processPackages [lesaviezvous]: Remove: archive file [/home/abi/fetcher/tmp/lesaviezvous-0.1.1.tar.gz]
+[2023-07-10 09:21:36] INFO root fetch - main [MainThread]: End processing [lesaviezvous]: success
+[2023-07-10 09:21:36] INFO root fetch - processPackages [staticx]: Remove: archive file [/home/abi/fetcher/tmp/staticx-0.9.0.tar.gz]
+[2023-07-10 09:21:36] INFO root fetch - processPackages [staticx]: Remove: archive file [/home/abi/fetcher/tmp/staticx-0.9.1.tar.gz]
+[2023-07-10 09:21:36] INFO root fetch - main [MainThread]: End processing [staticx]: success
+[2023-07-10 09:21:38] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.8.tar.gz]
+[2023-07-10 09:21:38] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.9.tar.gz]
+[2023-07-10 09:21:38] INFO root fetch - main [MainThread]: End processing [oarepo-cli]: success
+[2023-07-10 09:21:38] INFO root fetch - main [MainThread]: Store serial: [18827613]
