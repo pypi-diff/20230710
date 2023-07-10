@@ -7699,3 +7699,38 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 06:56:53] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.2.0rc0.tar.gz]
 [2023-07-10 06:56:53] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
 [2023-07-10 06:56:53] INFO root fetch - main [MainThread]: Store serial: [18826603]
+[2023-07-10 07:01:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18826603]
+[2023-07-10 07:02:02] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-10 07:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gamutrf
+[2023-07-10 07:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chloop
+[2023-07-10 07:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: beu
+[2023-07-10 07:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-spark-gpt
+[2023-07-10 07:02:02] INFO root fetch - processPackages [beu]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 07:02:02] INFO root fetch - processPackages [chloop]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-10 07:02:02] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-10 07:02:02] INFO root fetch - processPackages [gamutrf]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-10 07:02:02] INFO root fetch - processPackages [beu]: Downloading https://files.pythonhosted.org/packages/17/bd/9d406d974aad39d877a1d0d91e1bdc6bb55ccf002671ff7e29f333ebdadd/beu-0.1.8-py3-none-any.whl
+[2023-07-10 07:02:02] INFO root fetch - processPackages [chloop]: Downloading https://files.pythonhosted.org/packages/b3/a6/b66628d2a51c178f685575b5b8053ec892d3ebe74aee9dfb8ba75943060d/chloop-0.2.8-py3-none-any.whl
+[2023-07-10 07:02:02] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Downloading https://files.pythonhosted.org/packages/79/df/7cc14c99b2821cb4cad9331cf306d4cbfcb5a4b8b5629d9decfefda5f4a6/nonebot_plugin_spark_gpt-1.1.1.tar.gz
+[2023-07-10 07:02:02] INFO root fetch - processPackages [gamutrf]: Downloading https://files.pythonhosted.org/packages/21/7d/806e05511e24064aa0fe8abc69c0c146641c564035693160b0d56874dbe0/gamutrf-0.5.8.tar.gz
+[2023-07-10 07:02:02] WARNING root fetch - processPackages [nonebot-plugin-spark-gpt]: Skipping package: exceeds size limit 16561305>=10485760
+[2023-07-10 07:02:02] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-spark-gpt] error
+[2023-07-10 07:02:02] INFO root fetch - processPackages [beu]: Downloading https://files.pythonhosted.org/packages/19/12/1e0ec5382617e89c76095d255a3e307b76faa5ec8de49c750a9d16cbe365/beu-0.1.9-py3-none-any.whl
+[2023-07-10 07:02:02] INFO root fetch - processPackages [chloop]: Downloading https://files.pythonhosted.org/packages/ac/7c/e6fae215ac6d103950bccaf976e0f9c7fb200f309b8952cf4f45aa8b02f8/chloop-0.2.9-py3-none-any.whl
+[2023-07-10 07:02:02] INFO root fetch - processPackages [beu]: executing diffoscope
+[2023-07-10 07:02:02] INFO root fetch - processPackages [beu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beu-0.1.8-py3-none-any.whl.zip tmp/beu-0.1.9-py3-none-any.whl.zip --markdown 20230710/b/beu/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 07:02:03] INFO root fetch - processPackages [chloop]: executing diffoscope
+[2023-07-10 07:02:03] INFO root fetch - processPackages [chloop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chloop-0.2.8-py3-none-any.whl.zip tmp/chloop-0.2.9-py3-none-any.whl.zip --markdown 20230710/c/chloop/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-10 07:02:03] INFO root fetch - processPackages [gamutrf]: Downloading https://files.pythonhosted.org/packages/73/bb/a18b75e158f2ea2f358ccd22af9203cc884390e1795b5e6d07b974052d61/gamutrf-0.5.9.tar.gz
+[2023-07-10 07:02:03] INFO root fetch - processPackages [gamutrf]: executing diffoscope
+[2023-07-10 07:02:03] INFO root fetch - processPackages [gamutrf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamutrf-0.5.8.tar.gz tmp/gamutrf-0.5.9.tar.gz --markdown 20230710/g/gamutrf/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-10 07:02:03] INFO root fetch - processPackages [beu]: Remove: archive file [/home/abi/fetcher/tmp/beu-0.1.8-py3-none-any.whl.zip]
+[2023-07-10 07:02:03] INFO root fetch - processPackages [beu]: Remove: archive file [/home/abi/fetcher/tmp/beu-0.1.9-py3-none-any.whl.zip]
+[2023-07-10 07:02:03] INFO root fetch - main [MainThread]: End processing [beu]: success
+[2023-07-10 07:02:03] INFO root fetch - processPackages [chloop]: Remove: archive file [/home/abi/fetcher/tmp/chloop-0.2.8-py3-none-any.whl.zip]
+[2023-07-10 07:02:03] INFO root fetch - processPackages [chloop]: Remove: archive file [/home/abi/fetcher/tmp/chloop-0.2.9-py3-none-any.whl.zip]
+[2023-07-10 07:02:03] INFO root fetch - main [MainThread]: End processing [chloop]: success
+[2023-07-10 07:02:04] INFO root fetch - processPackages [gamutrf]: Remove: archive file [/home/abi/fetcher/tmp/gamutrf-0.5.8.tar.gz]
+[2023-07-10 07:02:04] INFO root fetch - processPackages [gamutrf]: Remove: archive file [/home/abi/fetcher/tmp/gamutrf-0.5.9.tar.gz]
+[2023-07-10 07:02:04] INFO root fetch - main [MainThread]: End processing [gamutrf]: success
+[2023-07-10 07:02:04] INFO root fetch - main [MainThread]: Store serial: [18826613]
