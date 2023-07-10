@@ -15817,3 +15817,140 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 13:25:57] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
 [2023-07-10 13:25:57] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
 [2023-07-10 13:25:57] INFO root fetch - main [MainThread]: Store serial: [18829941]
+[2023-07-10 13:31:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18829941]
+[2023-07-10 13:31:07] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-10 13:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: statstests
+[2023-07-10 13:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-master
+[2023-07-10 13:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: molgenis-emx2-pyclient
+[2023-07-10 13:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autotrain-advanced
+[2023-07-10 13:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ipyautoui
+[2023-07-10 13:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ufomerge
+[2023-07-10 13:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aura-cli
+[2023-07-10 13:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-proxmoxve
+[2023-07-10 13:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bhacot
+[2023-07-10 13:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kraken-build
+[2023-07-10 13:31:08] INFO root fetch - processPackages [aura-cli]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-10 13:31:08] INFO root fetch - processPackages [statstests]: New version: [1.0.6] Old Version: [1.0.5.dev3]
+[2023-07-10 13:31:08] WARNING root fetch - processPackages [bhacot]: Skipping, unable to determine old version
+[2023-07-10 13:31:08] INFO root fetch - processPackages [bhacot]: Start processing: kraken-common
+[2023-07-10 13:31:08] INFO root fetch - main [MainThread]: End processing [bhacot] error
+[2023-07-10 13:31:08] INFO root fetch - processPackages [molgenis-emx2-pyclient]: New version: [8.202.0] Old Version: [8.201.0]
+[2023-07-10 13:31:08] INFO root fetch - processPackages [autotrain-advanced]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-07-10 13:31:08] INFO root fetch - processPackages [kraken-build]: New version: [0.28.1] Old Version: [0.28.0.dev0]
+[2023-07-10 13:31:08] INFO root fetch - processPackages [ufomerge]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-07-10 13:31:08] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230710.9.1.470895] Old Version: [20230710.11.26.186903]
+[2023-07-10 13:31:08] INFO root fetch - processPackages [ipyautoui]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-07-10 13:31:08] INFO root fetch - processPackages [pulumi-proxmoxve]: New version: [5.9.0] Old Version: [5.8.0]
+[2023-07-10 13:31:08] INFO root fetch - processPackages [kraken-common]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-07-10 13:31:08] INFO root fetch - processPackages [aura-cli]: Downloading https://files.pythonhosted.org/packages/c0/e5/62dc3cb05e6d4bc4621f91acd5db1552cc9e5d4f3db2f679124246e5e256/aura-cli-0.2.1.tar.gz
+[2023-07-10 13:31:08] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/9f/07/f3dc4ad96dd73b63dcde423c89f40a08b7bce899567bafbbc8ca93e3e19c/molgenis_emx2_pyclient-8.201.0.tar.gz
+[2023-07-10 13:31:08] INFO root fetch - processPackages [kraken-build]: Downloading https://files.pythonhosted.org/packages/9d/6e/d2be42012d2cfbd0be4b687e6304539445a0f30135337a5858aba586588c/kraken_build-0.28.0.dev0.tar.gz
+[2023-07-10 13:31:08] INFO root fetch - processPackages [statstests]: Downloading https://files.pythonhosted.org/packages/b8/31/c8d04b6d4ab7a3fe4227961112f4c98676a398dac859aceb11e3efac1dac/statstests-1.0.5.dev3-py3-none-any.whl
+[2023-07-10 13:31:08] INFO root fetch - processPackages [ipyautoui]: Downloading https://files.pythonhosted.org/packages/a4/f6/c0023afcca5b9825a429b73432793d246bac393563479cb7cc9e732fb414/ipyautoui-0.5.5.tar.gz
+[2023-07-10 13:31:08] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/0c/09/f22deb72fda0085cdf575c9c9f5ac6017ba69a6e5bdf9eca806ea6f77d26/autotrain-advanced-0.5.2.tar.gz
+[2023-07-10 13:31:08] INFO root fetch - processPackages [kraken-common]: Downloading https://files.pythonhosted.org/packages/88/b6/970ad5d730a7c28f02ecce40246458941d521ab7049074d0c03bc6304f7c/kraken_common-0.5.3.tar.gz
+[2023-07-10 13:31:08] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/0f/2b/6b069562db23d57e61fd13b9f8566a8b0353e20d55ea872f43386f91aa62/certora-cli-alpha-master-20230710.11.26.186903.tar.gz
+[2023-07-10 13:31:08] INFO root fetch - processPackages [ufomerge]: Downloading https://files.pythonhosted.org/packages/35/da/21188f23f32f0dedb528fdbda834afd5fcfa097625d0fd32ae0c63db37d0/ufomerge-1.2.0.tar.gz
+[2023-07-10 13:31:08] INFO root fetch - processPackages [pulumi-proxmoxve]: Downloading https://files.pythonhosted.org/packages/cc/c0/bff94e6b25b1a8c0b5063a0df17f3f0a743c93ca9689eda96c2c424ebb6b/pulumi_proxmoxve-5.8.0.tar.gz
+[2023-07-10 13:31:08] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37464749>=10485760
+[2023-07-10 13:31:08] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: kraken-core
+[2023-07-10 13:31:08] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-07-10 13:31:08] INFO root fetch - processPackages [aura-cli]: Downloading https://files.pythonhosted.org/packages/45/4b/b65cf39a8f2389da5ca3f0d544ced9f126f235bae7ce0723bb2c2f1ddf76/aura-cli-0.2.2.tar.gz
+[2023-07-10 13:31:09] INFO root fetch - processPackages [kraken-build]: Downloading https://files.pythonhosted.org/packages/f4/08/7f35b83860cef9c4a5951f3122a723e613c7f367b4dbf9983504be97ac29/kraken_build-0.28.1.tar.gz
+[2023-07-10 13:31:09] INFO root fetch - processPackages [kraken-core]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-10 13:31:09] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/7d/13/17c311a78d1e6f5a33f529265c74be992d54963c41d724c2ffdbabc72d93/molgenis_emx2_pyclient-8.202.0.tar.gz
+[2023-07-10 13:31:09] INFO root fetch - processPackages [kraken-common]: Downloading https://files.pythonhosted.org/packages/28/6b/40996d0e584f418f756a443a993b2ef5a68d9d934839d39b791b65917fc9/kraken_common-0.5.4.tar.gz
+[2023-07-10 13:31:09] INFO root fetch - processPackages [aura-cli]: executing diffoscope
+[2023-07-10 13:31:09] INFO root fetch - processPackages [aura-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aura-cli-0.2.1.tar.gz tmp/aura-cli-0.2.2.tar.gz --markdown 20230710/a/aura-cli/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-10 13:31:09] INFO root fetch - processPackages [kraken-build]: executing diffoscope
+[2023-07-10 13:31:09] INFO root fetch - processPackages [kraken-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_build-0.28.0.dev0.tar.gz tmp/kraken_build-0.28.1.tar.gz --markdown 20230710/k/kraken-build/0.28.0.dev0-0.28.1/diff.md --exclude *.pyd
+[2023-07-10 13:31:09] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/fa/7e/c43ca87a68de1633c11ee349fab67921821c5109929252c1c406ffcd6f3f/autotrain-advanced-0.5.3.tar.gz
+[2023-07-10 13:31:09] INFO root fetch - processPackages [statstests]: Downloading https://files.pythonhosted.org/packages/20/be/ea6908846eba3218a718d90d08b779ecae37e7c762d429aebd63664a16b1/statstests-1.0.6-py3-none-any.whl
+[2023-07-10 13:31:09] INFO root fetch - processPackages [kraken-core]: Downloading https://files.pythonhosted.org/packages/c6/4c/480e3d597162031534e0e300b1d98eeec0838406875f691703142326e36a/kraken-core-0.9.5.tar.gz
+[2023-07-10 13:31:09] INFO root fetch - processPackages [ufomerge]: Downloading https://files.pythonhosted.org/packages/77/3b/ef9b0a61ae1785b7d8b1fdad6b5793e351c2c1e6880fbe72ad354540736d/ufomerge-1.3.0.tar.gz
+[2023-07-10 13:31:09] INFO root fetch - processPackages [kraken-common]: executing diffoscope
+[2023-07-10 13:31:09] INFO root fetch - processPackages [kraken-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_common-0.5.3.tar.gz tmp/kraken_common-0.5.4.tar.gz --markdown 20230710/k/kraken-common/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-07-10 13:31:09] INFO root fetch - processPackages [ipyautoui]: Downloading https://files.pythonhosted.org/packages/0e/54/88f286f1bcb8ef989830f848ac6eeddb311dbf87f873c77c71b4d5d30c5a/ipyautoui-0.5.6.tar.gz
+[2023-07-10 13:31:09] INFO root fetch - processPackages [molgenis-emx2-pyclient]: executing diffoscope
+[2023-07-10 13:31:09] INFO root fetch - processPackages [molgenis-emx2-pyclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molgenis_emx2_pyclient-8.201.0.tar.gz tmp/molgenis_emx2_pyclient-8.202.0.tar.gz --markdown 20230710/m/molgenis-emx2-pyclient/8.201.0-8.202.0/diff.md --exclude *.pyd
+[2023-07-10 13:31:09] INFO root fetch - processPackages [pulumi-proxmoxve]: Downloading https://files.pythonhosted.org/packages/0b/86/866806fc75358bcb52e1b2bb5ec0091c6a9cae3e2b86e7a21b8864e8a8fc/pulumi_proxmoxve-5.9.0.tar.gz
+[2023-07-10 13:31:09] INFO root fetch - processPackages [autotrain-advanced]: executing diffoscope
+[2023-07-10 13:31:09] INFO root fetch - processPackages [autotrain-advanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotrain-advanced-0.5.2.tar.gz tmp/autotrain-advanced-0.5.3.tar.gz --markdown 20230710/a/autotrain-advanced/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-07-10 13:31:09] INFO root fetch - processPackages [statstests]: executing diffoscope
+[2023-07-10 13:31:09] INFO root fetch - processPackages [statstests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statstests-1.0.5.dev3-py3-none-any.whl.zip tmp/statstests-1.0.6-py3-none-any.whl.zip --markdown 20230710/s/statstests/1.0.5.dev3-1.0.6/diff.md --exclude *.pyd
+[2023-07-10 13:31:09] INFO root fetch - processPackages [ufomerge]: executing diffoscope
+[2023-07-10 13:31:09] INFO root fetch - processPackages [kraken-core]: Downloading https://files.pythonhosted.org/packages/b6/f4/2ddff1c25849833594115f69989cc831a594882af04a874bbb728e402668/kraken-core-0.9.6.tar.gz
+[2023-07-10 13:31:09] INFO root fetch - processPackages [ufomerge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ufomerge-1.2.0.tar.gz tmp/ufomerge-1.3.0.tar.gz --markdown 20230710/u/ufomerge/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-07-10 13:31:09] INFO root fetch - processPackages [ipyautoui]: executing diffoscope
+[2023-07-10 13:31:09] INFO root fetch - processPackages [ipyautoui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyautoui-0.5.5.tar.gz tmp/ipyautoui-0.5.6.tar.gz --markdown 20230710/i/ipyautoui/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-07-10 13:31:09] INFO root fetch - processPackages [pulumi-proxmoxve]: executing diffoscope
+[2023-07-10 13:31:09] INFO root fetch - processPackages [pulumi-proxmoxve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_proxmoxve-5.8.0.tar.gz tmp/pulumi_proxmoxve-5.9.0.tar.gz --markdown 20230710/p/pulumi-proxmoxve/5.8.0-5.9.0/diff.md --exclude *.pyd
+[2023-07-10 13:31:09] INFO root fetch - processPackages [kraken-core]: executing diffoscope
+[2023-07-10 13:31:09] INFO root fetch - processPackages [kraken-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken-core-0.9.5.tar.gz tmp/kraken-core-0.9.6.tar.gz --markdown 20230710/k/kraken-core/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-10 13:31:10] INFO root fetch - processPackages [kraken-build]: Remove: archive file [/home/abi/fetcher/tmp/kraken_build-0.28.0.dev0.tar.gz]
+[2023-07-10 13:31:10] INFO root fetch - processPackages [kraken-build]: Remove: archive file [/home/abi/fetcher/tmp/kraken_build-0.28.1.tar.gz]
+[2023-07-10 13:31:10] INFO root fetch - processPackages [kraken-build]: Start processing: kraken-wrapper
+[2023-07-10 13:31:10] INFO root fetch - main [MainThread]: End processing [kraken-build]: success
+[2023-07-10 13:31:10] INFO root fetch - processPackages [kraken-wrapper]: New version: [0.28.1] Old Version: [0.28.0.dev0]
+[2023-07-10 13:31:10] INFO root fetch - processPackages [kraken-wrapper]: Downloading https://files.pythonhosted.org/packages/7c/f6/9cbcab61d484ced4823af2e1ab8b33eea50195f4a3bb59f297bd8d104a1c/kraken_wrapper-0.28.0.dev0.tar.gz
+[2023-07-10 13:31:11] INFO root fetch - processPackages [kraken-wrapper]: Downloading https://files.pythonhosted.org/packages/cd/8d/7162db409e8036ce8797157b91cd1f99508ef2b07acd758b8a664fa8441b/kraken_wrapper-0.28.1.tar.gz
+[2023-07-10 13:31:11] INFO root fetch - processPackages [kraken-common]: Remove: archive file [/home/abi/fetcher/tmp/kraken_common-0.5.3.tar.gz]
+[2023-07-10 13:31:11] INFO root fetch - processPackages [kraken-common]: Remove: archive file [/home/abi/fetcher/tmp/kraken_common-0.5.4.tar.gz]
+[2023-07-10 13:31:11] INFO root fetch - processPackages [kraken-common]: Start processing: kraken-std
+[2023-07-10 13:31:11] INFO root fetch - main [MainThread]: End processing [kraken-common]: success
+[2023-07-10 13:31:11] INFO root fetch - processPackages [aura-cli]: Remove: archive file [/home/abi/fetcher/tmp/aura-cli-0.2.1.tar.gz]
+[2023-07-10 13:31:11] INFO root fetch - processPackages [aura-cli]: Remove: archive file [/home/abi/fetcher/tmp/aura-cli-0.2.2.tar.gz]
+[2023-07-10 13:31:11] INFO root fetch - processPackages [aura-cli]: Start processing: ccxt
+[2023-07-10 13:31:11] INFO root fetch - main [MainThread]: End processing [aura-cli]: success
+[2023-07-10 13:31:11] INFO root fetch - processPackages [kraken-wrapper]: executing diffoscope
+[2023-07-10 13:31:11] INFO root fetch - processPackages [kraken-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_wrapper-0.28.0.dev0.tar.gz tmp/kraken_wrapper-0.28.1.tar.gz --markdown 20230710/k/kraken-wrapper/0.28.0.dev0-0.28.1/diff.md --exclude *.pyd
+[2023-07-10 13:31:11] INFO root fetch - processPackages [kraken-std]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-07-10 13:31:11] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.201.0.tar.gz]
+[2023-07-10 13:31:11] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.202.0.tar.gz]
+[2023-07-10 13:31:11] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Start processing: signxai
+[2023-07-10 13:31:11] INFO root fetch - main [MainThread]: End processing [molgenis-emx2-pyclient]: success
+[2023-07-10 13:31:11] INFO root fetch - processPackages [ufomerge]: Remove: archive file [/home/abi/fetcher/tmp/ufomerge-1.2.0.tar.gz]
+[2023-07-10 13:31:11] INFO root fetch - processPackages [ufomerge]: Remove: archive file [/home/abi/fetcher/tmp/ufomerge-1.3.0.tar.gz]
+[2023-07-10 13:31:11] INFO root fetch - main [MainThread]: End processing [ufomerge]: success
+[2023-07-10 13:31:11] INFO root fetch - processPackages [ccxt]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-07-10 13:31:11] INFO root fetch - processPackages [signxai]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-10 13:31:11] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.5.2.tar.gz]
+[2023-07-10 13:31:11] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.5.3.tar.gz]
+[2023-07-10 13:31:11] INFO root fetch - main [MainThread]: End processing [autotrain-advanced]: success
+[2023-07-10 13:31:11] INFO root fetch - processPackages [statstests]: Remove: archive file [/home/abi/fetcher/tmp/statstests-1.0.5.dev3-py3-none-any.whl.zip]
+[2023-07-10 13:31:11] INFO root fetch - processPackages [statstests]: Remove: archive file [/home/abi/fetcher/tmp/statstests-1.0.6-py3-none-any.whl.zip]
+[2023-07-10 13:31:11] INFO root fetch - main [MainThread]: End processing [statstests]: success
+[2023-07-10 13:31:11] INFO root fetch - processPackages [kraken-std]: Downloading https://files.pythonhosted.org/packages/d2/93/fc7a0d5c20d6a3d551ef23ed605451eef6aa6cb35c9cf7b3366ffe5cc5e0/kraken_std-0.8.8.tar.gz
+[2023-07-10 13:31:11] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/ad/7d/8330d03fabbc3e43fd950e4c4fc50051c4c1ed03e1de206a341ccc8c1663/ccxt-4.0.8.tar.gz
+[2023-07-10 13:31:11] INFO root fetch - processPackages [signxai]: Downloading https://files.pythonhosted.org/packages/26/2c/dd498d34c23dd4e5a2806c9c9877c20fad8db1d81b3f7718b9e093feed04/signxai-0.0.2.tar.gz
+[2023-07-10 13:31:11] INFO root fetch - processPackages [kraken-std]: Downloading https://files.pythonhosted.org/packages/a6/a8/8a0c122aadc67da4627c416b4669ed0c677b7b474f97ddb283c496a82a37/kraken_std-0.8.9.tar.gz
+[2023-07-10 13:31:11] INFO root fetch - processPackages [pulumi-proxmoxve]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_proxmoxve-5.8.0.tar.gz]
+[2023-07-10 13:31:11] INFO root fetch - processPackages [pulumi-proxmoxve]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_proxmoxve-5.9.0.tar.gz]
+[2023-07-10 13:31:11] INFO root fetch - main [MainThread]: End processing [pulumi-proxmoxve]: success
+[2023-07-10 13:31:11] INFO root fetch - processPackages [kraken-core]: Remove: archive file [/home/abi/fetcher/tmp/kraken-core-0.9.5.tar.gz]
+[2023-07-10 13:31:11] INFO root fetch - processPackages [kraken-core]: Remove: archive file [/home/abi/fetcher/tmp/kraken-core-0.9.6.tar.gz]
+[2023-07-10 13:31:11] INFO root fetch - main [MainThread]: End processing [kraken-core]: success
+[2023-07-10 13:31:11] INFO root fetch - processPackages [ipyautoui]: Remove: archive file [/home/abi/fetcher/tmp/ipyautoui-0.5.5.tar.gz]
+[2023-07-10 13:31:11] INFO root fetch - processPackages [ipyautoui]: Remove: archive file [/home/abi/fetcher/tmp/ipyautoui-0.5.6.tar.gz]
+[2023-07-10 13:31:11] INFO root fetch - main [MainThread]: End processing [ipyautoui]: success
+[2023-07-10 13:31:11] INFO root fetch - processPackages [kraken-std]: executing diffoscope
+[2023-07-10 13:31:11] INFO root fetch - processPackages [kraken-std]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_std-0.8.8.tar.gz tmp/kraken_std-0.8.9.tar.gz --markdown 20230710/k/kraken-std/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-07-10 13:31:12] INFO root fetch - processPackages [kraken-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/kraken_wrapper-0.28.0.dev0.tar.gz]
+[2023-07-10 13:31:12] INFO root fetch - processPackages [kraken-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/kraken_wrapper-0.28.1.tar.gz]
+[2023-07-10 13:31:12] INFO root fetch - main [MainThread]: End processing [kraken-wrapper]: success
+[2023-07-10 13:31:12] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/32/a5/e913d1abd897de7e300e2702f68a742f7dba4a8d682a377a41f7423bd968/ccxt-4.0.9.tar.gz
+[2023-07-10 13:31:12] INFO root fetch - processPackages [kraken-std]: Remove: archive file [/home/abi/fetcher/tmp/kraken_std-0.8.8.tar.gz]
+[2023-07-10 13:31:12] INFO root fetch - processPackages [kraken-std]: Remove: archive file [/home/abi/fetcher/tmp/kraken_std-0.8.9.tar.gz]
+[2023-07-10 13:31:12] INFO root fetch - main [MainThread]: End processing [kraken-std]: success
+[2023-07-10 13:31:13] INFO root fetch - processPackages [signxai]: Downloading https://files.pythonhosted.org/packages/dd/2d/2ba9069009552ef30db243ffb1d6eefaf1bbff723e41660eaf4d8534fb37/signxai-0.0.3.tar.gz
+[2023-07-10 13:31:13] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-07-10 13:31:13] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-4.0.8.tar.gz tmp/ccxt-4.0.9.tar.gz --markdown 20230710/c/ccxt/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-07-10 13:31:14] INFO root fetch - processPackages [signxai]: executing diffoscope
+[2023-07-10 13:31:14] INFO root fetch - processPackages [signxai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signxai-0.0.2.tar.gz tmp/signxai-0.0.3.tar.gz --markdown 20230710/s/signxai/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-10 13:31:15] INFO root fetch - processPackages [signxai]: Remove: archive file [/home/abi/fetcher/tmp/signxai-0.0.2.tar.gz]
+[2023-07-10 13:31:15] INFO root fetch - processPackages [signxai]: Remove: archive file [/home/abi/fetcher/tmp/signxai-0.0.3.tar.gz]
+[2023-07-10 13:31:15] INFO root fetch - main [MainThread]: End processing [signxai]: success
+[2023-07-10 13:31:18] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.8.tar.gz]
+[2023-07-10 13:31:18] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.9.tar.gz]
+[2023-07-10 13:31:18] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-07-10 13:31:18] INFO root fetch - main [MainThread]: Store serial: [18829999]
