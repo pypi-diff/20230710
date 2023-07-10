@@ -4623,3 +4623,78 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 03:08:54] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.358.1.tar.gz]
 [2023-07-10 03:08:54] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-07-10 03:08:54] INFO root fetch - main [MainThread]: Store serial: [18825438]
+[2023-07-10 03:13:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18825438]
+[2023-07-10 03:14:03] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-10 03:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modelbase-pde
+[2023-07-10 03:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-07-10 03:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qtb-plot
+[2023-07-10 03:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modelbase
+[2023-07-10 03:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-lambda-layer-curl
+[2023-07-10 03:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aemcmc-nightly
+[2023-07-10 03:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: NameCreator-EricFerreira
+[2023-07-10 03:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ciscopykit
+[2023-07-10 03:14:04] INFO root fetch - processPackages [NameCreator-EricFerreira]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-10 03:14:04] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230709] Old Version: [0.0.8.dev20230708]
+[2023-07-10 03:14:04] INFO root fetch - processPackages [modelbase-pde]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-10 03:14:04] INFO root fetch - processPackages [qtb-plot]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-10 03:14:04] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-10 03:14:04] INFO root fetch - processPackages [modelbase]: New version: [1rc2] Old Version: [1.9.3]
+[2023-07-10 03:14:04] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-10 03:14:04] INFO root fetch - processPackages [ciscopykit]: New version: [1.4.1] Old Version: [1.3.1]
+[2023-07-10 03:14:04] INFO root fetch - processPackages [NameCreator-EricFerreira]: Downloading https://files.pythonhosted.org/packages/2b/4a/1628fdef210adef1c5c598f6c5453f00ee05911f13379fbef1db55d01a2a/NameCreator_EricFerreira-0.0.1.tar.gz
+[2023-07-10 03:14:04] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/3f/ac/9be2e5fd1c80bd7e970f0f1041762b1fc92a29037821a7a67d926cd7197f/aemcmc-nightly-0.0.8.dev20230708.tar.gz
+[2023-07-10 03:14:04] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-07-10 03:14:04] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2023-07-10 03:14:04] INFO root fetch - processPackages [modelbase-pde]: Downloading https://files.pythonhosted.org/packages/5c/59/5861b5c70be3aeb4268489375dec91311e9d959b61761240e09d06f77cb7/modelbase_pde-0.2.8.tar.gz
+[2023-07-10 03:14:04] INFO root fetch - processPackages [modelbase]: Downloading https://files.pythonhosted.org/packages/2d/60/61225a94c9e33f3d21366aefd4cdf1945c8805e3540a30f2fd1c5d8faa06/modelbase-1.9.3.tar.gz
+[2023-07-10 03:14:04] INFO root fetch - processPackages [qtb-plot]: Downloading https://files.pythonhosted.org/packages/11/03/b204f1332c788b8d60b1f6c015b831fa8085a212dfb69503e85f1598bd38/qtb_plot-0.3.8.tar.gz
+[2023-07-10 03:14:04] INFO root fetch - processPackages [ciscopykit]: Downloading https://files.pythonhosted.org/packages/40/8f/b630e93ad59f4d88a419b7ea9387ff5344bd2e70a4edc97ffdebd46cc39a/ciscopykit-1.3.1.tar.gz
+[2023-07-10 03:14:04] INFO root fetch - processPackages [NameCreator-EricFerreira]: Downloading https://files.pythonhosted.org/packages/31/1d/17bf1937d1290e12ac05347adc59b8a8e9784776953e8895eb763a361f29/NameCreator_EricFerreira-0.0.2.tar.gz
+[2023-07-10 03:14:04] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-07-10 03:14:04] INFO root fetch - processPackages [NameCreator-EricFerreira]: executing diffoscope
+[2023-07-10 03:14:04] INFO root fetch - processPackages [NameCreator-EricFerreira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NameCreator_EricFerreira-0.0.1.tar.gz tmp/NameCreator_EricFerreira-0.0.2.tar.gz --markdown 20230710/N/NameCreator-EricFerreira/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-10 03:14:04] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/66/04/6b7252a4a145f572c04a4f54965158266f0849c942a6721170af2d549381/aemcmc-nightly-0.0.8.dev20230709.tar.gz
+[2023-07-10 03:14:04] INFO root fetch - processPackages [modelbase-pde]: Downloading https://files.pythonhosted.org/packages/da/99/ce4549084291c96034b1371a5b3279256a81b7a6fceb0ea0674ff329433a/modelbase_pde-0.2.9.tar.gz
+[2023-07-10 03:14:04] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2023-07-10 03:14:04] INFO root fetch - processPackages [qtb-plot]: Downloading https://files.pythonhosted.org/packages/f4/15/03462d32e24c9b67e3379c910f4c9ffaadaa56270659b362e0c45eaeaccd/qtb_plot-0.3.9.tar.gz
+[2023-07-10 03:14:04] INFO root fetch - processPackages [ciscopykit]: Downloading https://files.pythonhosted.org/packages/54/1f/eb5b1521cb33ff7f5ac665faf50fccb05792e11e270c58aca00de0c18f53/ciscopykit-1.4.1.tar.gz
+[2023-07-10 03:14:04] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-07-10 03:14:04] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230708.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230709.tar.gz --markdown 20230710/a/aemcmc-nightly/0.0.8.dev20230708-0.0.8.dev20230709/diff.md --exclude *.pyd
+[2023-07-10 03:14:04] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-07-10 03:14:04] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230710/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-10 03:14:04] INFO root fetch - processPackages [modelbase-pde]: executing diffoscope
+[2023-07-10 03:14:04] INFO root fetch - processPackages [modelbase-pde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbase_pde-0.2.8.tar.gz tmp/modelbase_pde-0.2.9.tar.gz --markdown 20230710/m/modelbase-pde/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-10 03:14:05] INFO root fetch - processPackages [qtb-plot]: executing diffoscope
+[2023-07-10 03:14:05] INFO root fetch - processPackages [qtb-plot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtb_plot-0.3.8.tar.gz tmp/qtb_plot-0.3.9.tar.gz --markdown 20230710/q/qtb-plot/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-10 03:14:05] INFO root fetch - processPackages [modelbase]: Downloading https://files.pythonhosted.org/packages/50/e2/d6e4b5bb8eda18f7221f3af4d4f295ef693f37fbafe88e68574e7e39c29f/modelbase-1rc2.tar.gz
+[2023-07-10 03:14:05] INFO root fetch - processPackages [ciscopykit]: executing diffoscope
+[2023-07-10 03:14:05] INFO root fetch - processPackages [ciscopykit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ciscopykit-1.3.1.tar.gz tmp/ciscopykit-1.4.1.tar.gz --markdown 20230710/c/ciscopykit/1.3.1-1.4.1/diff.md --exclude *.pyd
+[2023-07-10 03:14:05] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-07-10 03:14:05] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230710/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-10 03:14:05] INFO root fetch - processPackages [modelbase]: executing diffoscope
+[2023-07-10 03:14:05] INFO root fetch - processPackages [modelbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbase-1.9.3.tar.gz tmp/modelbase-1rc2.tar.gz --markdown 20230710/m/modelbase/1.9.3-1rc2/diff.md --exclude *.pyd
+[2023-07-10 03:14:05] INFO root fetch - processPackages [NameCreator-EricFerreira]: Remove: archive file [/home/abi/fetcher/tmp/NameCreator_EricFerreira-0.0.1.tar.gz]
+[2023-07-10 03:14:05] INFO root fetch - processPackages [NameCreator-EricFerreira]: Remove: archive file [/home/abi/fetcher/tmp/NameCreator_EricFerreira-0.0.2.tar.gz]
+[2023-07-10 03:14:05] INFO root fetch - main [MainThread]: End processing [NameCreator-EricFerreira]: success
+[2023-07-10 03:14:06] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230708.tar.gz]
+[2023-07-10 03:14:06] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230709.tar.gz]
+[2023-07-10 03:14:06] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-07-10 03:14:06] INFO root fetch - processPackages [qtb-plot]: Remove: archive file [/home/abi/fetcher/tmp/qtb_plot-0.3.8.tar.gz]
+[2023-07-10 03:14:06] INFO root fetch - processPackages [qtb-plot]: Remove: archive file [/home/abi/fetcher/tmp/qtb_plot-0.3.9.tar.gz]
+[2023-07-10 03:14:06] INFO root fetch - main [MainThread]: End processing [qtb-plot]: success
+[2023-07-10 03:14:06] INFO root fetch - processPackages [modelbase-pde]: Remove: archive file [/home/abi/fetcher/tmp/modelbase_pde-0.2.8.tar.gz]
+[2023-07-10 03:14:06] INFO root fetch - processPackages [modelbase-pde]: Remove: archive file [/home/abi/fetcher/tmp/modelbase_pde-0.2.9.tar.gz]
+[2023-07-10 03:14:06] INFO root fetch - main [MainThread]: End processing [modelbase-pde]: success
+[2023-07-10 03:14:06] INFO root fetch - processPackages [ciscopykit]: Remove: archive file [/home/abi/fetcher/tmp/ciscopykit-1.3.1.tar.gz]
+[2023-07-10 03:14:06] INFO root fetch - processPackages [ciscopykit]: Remove: archive file [/home/abi/fetcher/tmp/ciscopykit-1.4.1.tar.gz]
+[2023-07-10 03:14:06] INFO root fetch - main [MainThread]: End processing [ciscopykit]: success
+[2023-07-10 03:14:06] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-07-10 03:14:06] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-07-10 03:14:06] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-07-10 03:14:06] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz]
+[2023-07-10 03:14:06] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
+[2023-07-10 03:14:06] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-07-10 03:14:06] INFO root fetch - processPackages [modelbase]: Remove: archive file [/home/abi/fetcher/tmp/modelbase-1.9.3.tar.gz]
+[2023-07-10 03:14:06] INFO root fetch - processPackages [modelbase]: Remove: archive file [/home/abi/fetcher/tmp/modelbase-1rc2.tar.gz]
+[2023-07-10 03:14:06] INFO root fetch - main [MainThread]: End processing [modelbase]: success
+[2023-07-10 03:14:06] INFO root fetch - main [MainThread]: Store serial: [18825461]
