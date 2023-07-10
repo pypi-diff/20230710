@@ -12201,3 +12201,97 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 10:52:03] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2023-07-10 10:52:03] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-07-10 10:52:03] INFO root fetch - main [MainThread]: Store serial: [18828478]
+[2023-07-10 10:57:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18828478]
+[2023-07-10 10:57:12] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-10 10:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SGtSNEpiPy-1.0.1
+[2023-07-10 10:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yplib
+[2023-07-10 10:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: utopya
+[2023-07-10 10:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tibis
+[2023-07-10 10:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-beta
+[2023-07-10 10:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gitonic
+[2023-07-10 10:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dotfgen
+[2023-07-10 10:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyscomotif
+[2023-07-10 10:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: SRgenerator
+[2023-07-10 10:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: uk-gov-dash-components
+[2023-07-10 10:57:12] INFO root fetch - processPackages [utopya]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-07-10 10:57:12] INFO root fetch - processPackages [certora-cli-beta]: New version: [4.5.1] Old Version: [4.5.0]
+[2023-07-10 10:57:12] INFO root fetch - processPackages [yplib]: New version: [2.4.2] Old Version: [2.4.1]
+[2023-07-10 10:57:12] INFO root fetch - processPackages [SRgenerator]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-10 10:57:12] INFO root fetch - processPackages [tibis]: New version: [1.0.9b0] Old Version: [1.0.9]
+[2023-07-10 10:57:12] INFO root fetch - processPackages [gitonic]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 10:57:12] INFO root fetch - processPackages [dotfgen]: New version: [1.0.0a3] Old Version: [1.0.0a2]
+[2023-07-10 10:57:12] INFO root fetch - processPackages [uk-gov-dash-components]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-07-10 10:57:12] INFO root fetch - processPackages [pyscomotif]: New version: [0.9.9] Old Version: [0.9.30]
+[2023-07-10 10:57:12] WARNING root fetch - processPackages [SGtSNEpiPy-1.0.1]: Skipping, unable to determine old version
+[2023-07-10 10:57:12] INFO root fetch - processPackages [SGtSNEpiPy-1.0.1]: Start processing: pygoroutine
+[2023-07-10 10:57:12] INFO root fetch - main [MainThread]: End processing [SGtSNEpiPy-1.0.1] error
+[2023-07-10 10:57:12] WARNING root fetch - processPackages [pygoroutine]: Skipping, unable to determine old version
+[2023-07-10 10:57:12] INFO root fetch - processPackages [pygoroutine]: Start processing: diz
+[2023-07-10 10:57:12] INFO root fetch - main [MainThread]: End processing [pygoroutine] error
+[2023-07-10 10:57:12] INFO root fetch - processPackages [SRgenerator]: Downloading https://files.pythonhosted.org/packages/eb/b6/023050a3f2f8377179c0ba39a787a0ffa1d9c226b9b63cce2c0e861755a1/SRgenerator-0.0.6.tar.gz
+[2023-07-10 10:57:12] INFO root fetch - processPackages [dotfgen]: Downloading https://files.pythonhosted.org/packages/4b/05/7c55e9d2894f7aba7ead6f44a7d10fbb2bd29114c7cdf482e486ca500768/dotfgen-1.0.0a2.tar.gz
+[2023-07-10 10:57:12] INFO root fetch - processPackages [diz]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 10:57:12] INFO root fetch - processPackages [gitonic]: Downloading https://files.pythonhosted.org/packages/ba/c2/7e6b93c2d2a3bceaccac4d3fa3b23d23cc4e3ffbbdfdf42b06d38d9872ac/gitonic-0.0.8.tar.gz
+[2023-07-10 10:57:12] INFO root fetch - processPackages [utopya]: Downloading https://files.pythonhosted.org/packages/51/1b/081cdf597281ff3cc3950da6c65c3d89f843a55376b0bc9d98c36ec24bf6/utopya-1.2.6.tar.gz
+[2023-07-10 10:57:12] INFO root fetch - processPackages [pyscomotif]: Downloading https://files.pythonhosted.org/packages/39/61/6dddd46a48b9a90dd247ac5c7d575b9d5c91e79e3fdbbc5d29266543d1ff/pyscomotif-0.9.30.tar.gz
+[2023-07-10 10:57:12] INFO root fetch - processPackages [certora-cli-beta]: Downloading https://files.pythonhosted.org/packages/72/19/9e7bf60e3451d3eda5ffcfd932848ed6312b0a8fee1332ac2d3b524ba971/certora-cli-beta-4.5.0.tar.gz
+[2023-07-10 10:57:12] INFO root fetch - processPackages [tibis]: Downloading https://files.pythonhosted.org/packages/2c/2a/3afed2991efd00f66618bfdea24da71085aae28ecf9386d94d9b6877b02e/tibis-1.0.9.tar.gz
+[2023-07-10 10:57:12] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/97/2f/b42711f1157adbaf111ca55c4491654ad038120a5e0bdada3813e803355a/yplib-2.4.2.tar.gz
+[2023-07-10 10:57:12] INFO root fetch - processPackages [diz]: Downloading https://files.pythonhosted.org/packages/2c/72/12a7394816bf86986c9e02996b7d1d253fafef170fc88ca0bf04519bf031/diz-0.0.8.tar.gz
+[2023-07-10 10:57:12] WARNING root fetch - processPackages [certora-cli-beta]: Skipping package: exceeds size limit 40659272>=10485760
+[2023-07-10 10:57:12] INFO root fetch - main [MainThread]: End processing [certora-cli-beta] error
+[2023-07-10 10:57:12] INFO root fetch - processPackages [uk-gov-dash-components]: Downloading https://files.pythonhosted.org/packages/40/5e/c914179d5af618e6da550fc6dc416471bf2c12f81930f9de7615ff67f14e/uk_gov_dash_components-1.9.2.tar.gz
+[2023-07-10 10:57:13] INFO root fetch - processPackages [SRgenerator]: Downloading https://files.pythonhosted.org/packages/9c/b7/f97da5f4cec9f0fbc42cdf56ed5501c85e87af4bb068798c4a61348ec8f3/SRgenerator-0.0.7.tar.gz
+[2023-07-10 10:57:13] INFO root fetch - processPackages [dotfgen]: Downloading https://files.pythonhosted.org/packages/4d/93/a0b7b2f56c74beff839ca404c56c050370039127d4513f2ef68ec76f9e5d/dotfgen-1.0.0a3.tar.gz
+[2023-07-10 10:57:13] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-07-10 10:57:13] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-2.4.1.tar.gz tmp/yplib-2.4.2.tar.gz --markdown 20230710/y/yplib/2.4.1-2.4.2/diff.md --exclude *.pyd
+[2023-07-10 10:57:13] INFO root fetch - processPackages [diz]: Downloading https://files.pythonhosted.org/packages/67/aa/8eeb7d6224fa76297103a5f16f04305940e6523da3639354f03769c5f4ef/diz-0.0.9.tar.gz
+[2023-07-10 10:57:13] INFO root fetch - processPackages [tibis]: Downloading https://files.pythonhosted.org/packages/fd/2f/1acc359af04b89d1dac92d021f64b55eadc341762bc753c6ed5b97db6dc0/tibis-1.0.9b0.tar.gz
+[2023-07-10 10:57:13] INFO root fetch - processPackages [utopya]: Downloading https://files.pythonhosted.org/packages/53/72/34720af7aad702c6caaceb50e5b4bbe9b3bcca9d59394e5368965c3908ba/utopya-1.2.7.tar.gz
+[2023-07-10 10:57:13] INFO root fetch - processPackages [dotfgen]: executing diffoscope
+[2023-07-10 10:57:13] INFO root fetch - processPackages [dotfgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dotfgen-1.0.0a2.tar.gz tmp/dotfgen-1.0.0a3.tar.gz --markdown 20230710/d/dotfgen/1.0.0a2-1.0.0a3/diff.md --exclude *.pyd
+[2023-07-10 10:57:13] INFO root fetch - processPackages [pyscomotif]: Downloading https://files.pythonhosted.org/packages/85/07/740655fe0d09cb26bb5a72c8929e395477a793546b34701b795a1411ccda/pyscomotif-0.9.9.tar.gz
+[2023-07-10 10:57:13] INFO root fetch - processPackages [SRgenerator]: executing diffoscope
+[2023-07-10 10:57:13] INFO root fetch - processPackages [SRgenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SRgenerator-0.0.6.tar.gz tmp/SRgenerator-0.0.7.tar.gz --markdown 20230710/S/SRgenerator/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-10 10:57:13] INFO root fetch - processPackages [diz]: executing diffoscope
+[2023-07-10 10:57:13] INFO root fetch - processPackages [gitonic]: Downloading https://files.pythonhosted.org/packages/d3/f1/e9787c71ecb9760ab2cf4fc026e55ad7aecce3568dcaa4106fc98fd397ea/gitonic-0.0.9.tar.gz
+[2023-07-10 10:57:13] INFO root fetch - processPackages [diz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diz-0.0.8.tar.gz tmp/diz-0.0.9.tar.gz --markdown 20230710/d/diz/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 10:57:13] INFO root fetch - processPackages [uk-gov-dash-components]: Downloading https://files.pythonhosted.org/packages/1d/68/c31f252cd06b662f951b9ca487fed02c157083e1a863946c1f73cd5d0ac4/uk_gov_dash_components-1.9.3.tar.gz
+[2023-07-10 10:57:13] INFO root fetch - processPackages [tibis]: executing diffoscope
+[2023-07-10 10:57:13] INFO root fetch - processPackages [tibis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tibis-1.0.9.tar.gz tmp/tibis-1.0.9b0.tar.gz --markdown 20230710/t/tibis/1.0.9-1.0.9b0/diff.md --exclude *.pyd
+[2023-07-10 10:57:13] INFO root fetch - processPackages [utopya]: executing diffoscope
+[2023-07-10 10:57:13] INFO root fetch - processPackages [utopya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utopya-1.2.6.tar.gz tmp/utopya-1.2.7.tar.gz --markdown 20230710/u/utopya/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-07-10 10:57:13] INFO root fetch - processPackages [pyscomotif]: executing diffoscope
+[2023-07-10 10:57:13] INFO root fetch - processPackages [pyscomotif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscomotif-0.9.30.tar.gz tmp/pyscomotif-0.9.9.tar.gz --markdown 20230710/p/pyscomotif/0.9.30-0.9.9/diff.md --exclude *.pyd
+[2023-07-10 10:57:13] INFO root fetch - processPackages [uk-gov-dash-components]: executing diffoscope
+[2023-07-10 10:57:13] INFO root fetch - processPackages [uk-gov-dash-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uk_gov_dash_components-1.9.2.tar.gz tmp/uk_gov_dash_components-1.9.3.tar.gz --markdown 20230710/u/uk-gov-dash-components/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-07-10 10:57:13] INFO root fetch - processPackages [gitonic]: executing diffoscope
+[2023-07-10 10:57:13] INFO root fetch - processPackages [gitonic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitonic-0.0.8.tar.gz tmp/gitonic-0.0.9.tar.gz --markdown 20230710/g/gitonic/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 10:57:14] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.4.1.tar.gz]
+[2023-07-10 10:57:14] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.4.2.tar.gz]
+[2023-07-10 10:57:14] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-07-10 10:57:14] INFO root fetch - processPackages [diz]: Remove: archive file [/home/abi/fetcher/tmp/diz-0.0.8.tar.gz]
+[2023-07-10 10:57:14] INFO root fetch - processPackages [diz]: Remove: archive file [/home/abi/fetcher/tmp/diz-0.0.9.tar.gz]
+[2023-07-10 10:57:14] INFO root fetch - main [MainThread]: End processing [diz]: success
+[2023-07-10 10:57:14] INFO root fetch - processPackages [dotfgen]: Remove: archive file [/home/abi/fetcher/tmp/dotfgen-1.0.0a2.tar.gz]
+[2023-07-10 10:57:14] INFO root fetch - processPackages [dotfgen]: Remove: archive file [/home/abi/fetcher/tmp/dotfgen-1.0.0a3.tar.gz]
+[2023-07-10 10:57:14] INFO root fetch - main [MainThread]: End processing [dotfgen]: success
+[2023-07-10 10:57:15] INFO root fetch - processPackages [SRgenerator]: Remove: archive file [/home/abi/fetcher/tmp/SRgenerator-0.0.6.tar.gz]
+[2023-07-10 10:57:15] INFO root fetch - processPackages [tibis]: Remove: archive file [/home/abi/fetcher/tmp/tibis-1.0.9.tar.gz]
+[2023-07-10 10:57:15] INFO root fetch - processPackages [SRgenerator]: Remove: archive file [/home/abi/fetcher/tmp/SRgenerator-0.0.7.tar.gz]
+[2023-07-10 10:57:15] INFO root fetch - processPackages [tibis]: Remove: archive file [/home/abi/fetcher/tmp/tibis-1.0.9b0.tar.gz]
+[2023-07-10 10:57:15] INFO root fetch - main [MainThread]: End processing [SRgenerator]: success
+[2023-07-10 10:57:15] INFO root fetch - main [MainThread]: End processing [tibis]: success
+[2023-07-10 10:57:15] INFO root fetch - processPackages [pyscomotif]: Remove: archive file [/home/abi/fetcher/tmp/pyscomotif-0.9.30.tar.gz]
+[2023-07-10 10:57:15] INFO root fetch - processPackages [pyscomotif]: Remove: archive file [/home/abi/fetcher/tmp/pyscomotif-0.9.9.tar.gz]
+[2023-07-10 10:57:15] INFO root fetch - main [MainThread]: End processing [pyscomotif]: success
+[2023-07-10 10:57:15] INFO root fetch - processPackages [gitonic]: Remove: archive file [/home/abi/fetcher/tmp/gitonic-0.0.8.tar.gz]
+[2023-07-10 10:57:15] INFO root fetch - processPackages [gitonic]: Remove: archive file [/home/abi/fetcher/tmp/gitonic-0.0.9.tar.gz]
+[2023-07-10 10:57:15] INFO root fetch - main [MainThread]: End processing [gitonic]: success
+[2023-07-10 10:57:15] INFO root fetch - processPackages [utopya]: Remove: archive file [/home/abi/fetcher/tmp/utopya-1.2.6.tar.gz]
+[2023-07-10 10:57:15] INFO root fetch - processPackages [utopya]: Remove: archive file [/home/abi/fetcher/tmp/utopya-1.2.7.tar.gz]
+[2023-07-10 10:57:15] INFO root fetch - main [MainThread]: End processing [utopya]: success
+[2023-07-10 10:57:16] INFO root fetch - processPackages [uk-gov-dash-components]: Remove: archive file [/home/abi/fetcher/tmp/uk_gov_dash_components-1.9.2.tar.gz]
+[2023-07-10 10:57:16] INFO root fetch - processPackages [uk-gov-dash-components]: Remove: archive file [/home/abi/fetcher/tmp/uk_gov_dash_components-1.9.3.tar.gz]
+[2023-07-10 10:57:16] INFO root fetch - main [MainThread]: End processing [uk-gov-dash-components]: success
+[2023-07-10 10:57:16] INFO root fetch - main [MainThread]: Store serial: [18828522]
