@@ -1532,3 +1532,100 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 02:10:10] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.99.1.tar.gz]
 [2023-07-10 02:10:10] INFO root fetch - main [MainThread]: End processing [tccli]: success
 [2023-07-10 02:10:10] INFO root fetch - main [MainThread]: Store serial: [18824355]
+[2023-07-10 02:15:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18824355]
+[2023-07-10 02:15:19] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-10 02:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-common
+[2023-07-10 02:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s-grafana
+[2023-07-10 02:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdklabs.codepipeline-extensions
+[2023-07-10 02:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openbb-nightly
+[2023-07-10 02:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s-jenkins
+[2023-07-10 02:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mct-quantizers-nightly
+[2023-07-10 02:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk8s-operator
+[2023-07-10 02:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kaiten
+[2023-07-10 02:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ephysio
+[2023-07-10 02:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-events-notify
+[2023-07-10 02:15:19] INFO root fetch - processPackages [ephysio]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-10 02:15:20] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.1.0.20230709.post1328] Old Version: [1.1.0.20230709.post130920]
+[2023-07-10 02:15:20] WARNING root fetch - processPackages [kaiten]: Skipping, unable to determine old version
+[2023-07-10 02:15:20] INFO root fetch - processPackages [kaiten]: Start processing: cdk-skylight
+[2023-07-10 02:15:20] INFO root fetch - main [MainThread]: End processing [kaiten] error
+[2023-07-10 02:15:20] INFO root fetch - processPackages [cdk8s-grafana]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-10 02:15:20] INFO root fetch - processPackages [cdk8s-operator]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-10 02:15:20] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-10 02:15:20] INFO root fetch - processPackages [openbb-nightly]: New version: [3.1.0.dev20230709] Old Version: [3.1.0.dev20230708]
+[2023-07-10 02:15:20] INFO root fetch - processPackages [cdk8s-jenkins]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-10 02:15:20] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-10 02:15:20] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-10 02:15:20] INFO root fetch - processPackages [cdk-skylight]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-07-10 02:15:20] INFO root fetch - processPackages [cdk8s-operator]: Downloading https://files.pythonhosted.org/packages/81/a1/472f9e27ea96746839caa41992257e24e496917b018d958034169769bdb6/cdk8s-operator-0.1.98.tar.gz
+[2023-07-10 02:15:20] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/d9/95/654afcf433ff074ee19483bcc89f1b1a113ddd08edd6ff0bfcc205167a77/cdk8s-grafana-0.1.98.tar.gz
+[2023-07-10 02:15:20] INFO root fetch - processPackages [cdk8s-jenkins]: Downloading https://files.pythonhosted.org/packages/90/ba/1d34a887bfae9752a98646fbb4ba086b72cc56f857a5b9642929b03e46f2/cdk8s-jenkins-0.0.98.tar.gz
+[2023-07-10 02:15:20] INFO root fetch - processPackages [ephysio]: Downloading https://files.pythonhosted.org/packages/96/52/1cc26ab250fc168c2f05d704b51a5e9f733d91282087039f6190b63a48fe/ephysio-1.0.1.tar.gz
+[2023-07-10 02:15:20] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/04/b0/9aa6b582872e89e8eb53422bf616cd7b1f298aa6e998171176e7cfe8a940/mct-quantizers-nightly-1.1.0.20230709.post130920.tar.gz
+[2023-07-10 02:15:20] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b0/d8/d2deadc998a01ba26de7ffd230a5224483b3d116e10e36cb05f79b441303/cdk-events-notify-2.0.98.tar.gz
+[2023-07-10 02:15:20] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/86/f2/01b58f6183b48ce1105016a7f5045925a49464b8c20408459bd101fe5f25/cdk-skylight-1.1.98.tar.gz
+[2023-07-10 02:15:20] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Downloading https://files.pythonhosted.org/packages/df/6c/78f1bfa2ffc81709ec21b0077aff92b7460ad1f071d595e2d767653cedc0/cdklabs.codepipeline-extensions-0.0.98.tar.gz
+[2023-07-10 02:15:20] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/3f/42/13685a2dca3d5d786f7b01905eae0f8157a1f8b24561f5e7196bdaaaf430/openbb_nightly-3.1.0.dev20230708.tar.gz
+[2023-07-10 02:15:20] WARNING root fetch - processPackages [cdklabs.codepipeline-extensions]: Skipping package: exceeds size limit 12637726>=10485760
+[2023-07-10 02:15:20] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Start processing: DBRetina
+[2023-07-10 02:15:20] INFO root fetch - main [MainThread]: End processing [cdklabs.codepipeline-extensions] error
+[2023-07-10 02:15:20] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2023-07-10 02:15:20] WARNING root fetch - processPackages [openbb-nightly]: Skipping package: exceeds size limit 20841277>=10485760
+[2023-07-10 02:15:20] INFO root fetch - main [MainThread]: End processing [openbb-nightly] error
+[2023-07-10 02:15:20] INFO root fetch - processPackages [cdk8s-operator]: Downloading https://files.pythonhosted.org/packages/ed/ed/568c3c642392b5ad833ee040dea0d55163deba1f7a12ed395db2a18420f0/cdk8s-operator-0.1.99.tar.gz
+[2023-07-10 02:15:20] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/70/0b/1cbbebf9bdeb0edcb5ab0f3110b233c14ebfd8e9d744573a7640af1c4b94/cdk8s-grafana-0.1.99.tar.gz
+[2023-07-10 02:15:20] INFO root fetch - processPackages [DBRetina]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-10 02:15:20] INFO root fetch - processPackages [cdk8s-jenkins]: Downloading https://files.pythonhosted.org/packages/1d/dc/2404b70a9e64251aafef4957d08604e1863c0d6026d1bd4faf3e70e3e690/cdk8s-jenkins-0.0.99.tar.gz
+[2023-07-10 02:15:20] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/3d/55/4372c391faf1ce75366fa988d26fee510d2d3c2b01a27ad4c21f14ace31c/cdk-events-notify-2.0.99.tar.gz
+[2023-07-10 02:15:20] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/3c/c0/babfb9f8082016197e09ff66dad176276e4c96c7f6eb7ec156e48f4bb0aa/mct-quantizers-nightly-1.1.0.20230709.post1328.tar.gz
+[2023-07-10 02:15:20] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/59/49/3e035cb98d5f97f79c174e211129a2dbe596df70c5df50ac701242fabea2/cdk-skylight-1.1.99.tar.gz
+[2023-07-10 02:15:20] INFO root fetch - processPackages [ephysio]: Downloading https://files.pythonhosted.org/packages/4a/2c/656624202a00d645ae141ce001c92cc2800e3c1faaeae03b07b6dec9766c/ephysio-1.0.2.tar.gz
+[2023-07-10 02:15:21] INFO root fetch - processPackages [DBRetina]: Downloading https://files.pythonhosted.org/packages/2d/27/4639789d91afeb031994b2e4b18127a4d05a446158df3426ad749254d322/DBRetina-2.2.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-10 02:15:21] INFO root fetch - processPackages [cdk8s-operator]: executing diffoscope
+[2023-07-10 02:15:21] INFO root fetch - processPackages [cdk8s-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-operator-0.1.98.tar.gz tmp/cdk8s-operator-0.1.99.tar.gz --markdown 20230710/c/cdk8s-operator/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-10 02:15:21] INFO root fetch - processPackages [cdk8s-grafana]: executing diffoscope
+[2023-07-10 02:15:21] INFO root fetch - processPackages [cdk8s-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-grafana-0.1.98.tar.gz tmp/cdk8s-grafana-0.1.99.tar.gz --markdown 20230710/c/cdk8s-grafana/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-10 02:15:21] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2023-07-10 02:15:21] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.1.0.20230709.post130920.tar.gz tmp/mct-quantizers-nightly-1.1.0.20230709.post1328.tar.gz --markdown 20230710/m/mct-quantizers-nightly/1.1.0.20230709.post130920-1.1.0.20230709.post1328/diff.md --exclude *.pyd
+[2023-07-10 02:15:21] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2023-07-10 02:15:21] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.0.98.tar.gz tmp/cdk-events-notify-2.0.99.tar.gz --markdown 20230710/c/cdk-events-notify/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-10 02:15:21] INFO root fetch - processPackages [cdk8s-jenkins]: executing diffoscope
+[2023-07-10 02:15:21] INFO root fetch - processPackages [cdk8s-jenkins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-jenkins-0.0.98.tar.gz tmp/cdk8s-jenkins-0.0.99.tar.gz --markdown 20230710/c/cdk8s-jenkins/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-10 02:15:21] INFO root fetch - processPackages [cdk-skylight]: executing diffoscope
+[2023-07-10 02:15:21] INFO root fetch - processPackages [cdk-skylight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-skylight-1.1.98.tar.gz tmp/cdk-skylight-1.1.99.tar.gz --markdown 20230710/c/cdk-skylight/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-07-10 02:15:21] INFO root fetch - processPackages [ephysio]: executing diffoscope
+[2023-07-10 02:15:21] INFO root fetch - processPackages [ephysio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ephysio-1.0.1.tar.gz tmp/ephysio-1.0.2.tar.gz --markdown 20230710/e/ephysio/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-10 02:15:21] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2023-07-10 02:15:21] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-07-10 02:15:21] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230710/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-10 02:15:21] INFO root fetch - processPackages [DBRetina]: Downloading https://files.pythonhosted.org/packages/69/9c/c6dde0ad5623c71abd1f045b795791335b2760160922c49eb6342f60c439/DBRetina-2.2.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-10 02:15:22] INFO root fetch - processPackages [DBRetina]: executing diffoscope
+[2023-07-10 02:15:22] INFO root fetch - processPackages [DBRetina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DBRetina-2.2.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/DBRetina-2.2.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230710/D/DBRetina/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-10 02:15:22] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.98.tar.gz]
+[2023-07-10 02:15:22] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.99.tar.gz]
+[2023-07-10 02:15:22] INFO root fetch - main [MainThread]: End processing [cdk8s-grafana]: success
+[2023-07-10 02:15:22] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.98.tar.gz]
+[2023-07-10 02:15:22] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.99.tar.gz]
+[2023-07-10 02:15:22] INFO root fetch - main [MainThread]: End processing [cdk-skylight]: success
+[2023-07-10 02:15:22] INFO root fetch - processPackages [ephysio]: Remove: archive file [/home/abi/fetcher/tmp/ephysio-1.0.1.tar.gz]
+[2023-07-10 02:15:22] INFO root fetch - processPackages [ephysio]: Remove: archive file [/home/abi/fetcher/tmp/ephysio-1.0.2.tar.gz]
+[2023-07-10 02:15:22] INFO root fetch - main [MainThread]: End processing [ephysio]: success
+[2023-07-10 02:15:22] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.0.98.tar.gz]
+[2023-07-10 02:15:22] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.0.99.tar.gz]
+[2023-07-10 02:15:22] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2023-07-10 02:15:22] INFO root fetch - processPackages [cdk8s-jenkins]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-jenkins-0.0.98.tar.gz]
+[2023-07-10 02:15:22] INFO root fetch - processPackages [cdk8s-jenkins]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-jenkins-0.0.99.tar.gz]
+[2023-07-10 02:15:22] INFO root fetch - main [MainThread]: End processing [cdk8s-jenkins]: success
+[2023-07-10 02:15:22] INFO root fetch - processPackages [cdk8s-operator]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-operator-0.1.98.tar.gz]
+[2023-07-10 02:15:22] INFO root fetch - processPackages [cdk8s-operator]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-operator-0.1.99.tar.gz]
+[2023-07-10 02:15:22] INFO root fetch - main [MainThread]: End processing [cdk8s-operator]: success
+[2023-07-10 02:15:22] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.1.0.20230709.post130920.tar.gz]
+[2023-07-10 02:15:22] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.1.0.20230709.post1328.tar.gz]
+[2023-07-10 02:15:22] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2023-07-10 02:15:23] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2023-07-10 02:15:23] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2023-07-10 02:15:23] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-07-10 02:15:23] INFO root fetch - processPackages [DBRetina]: Remove: archive file [/home/abi/fetcher/tmp/DBRetina-2.2.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-10 02:15:23] INFO root fetch - processPackages [DBRetina]: Remove: archive file [/home/abi/fetcher/tmp/DBRetina-2.2.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-10 02:15:23] INFO root fetch - main [MainThread]: End processing [DBRetina]: success
+[2023-07-10 02:15:23] INFO root fetch - main [MainThread]: Store serial: [18824389]
