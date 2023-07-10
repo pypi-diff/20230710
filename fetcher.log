@@ -9216,3 +9216,90 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 08:39:30] INFO root fetch - processPackages [sparksampling]: Remove: archive file [/home/abi/fetcher/tmp/sparksampling-0.3.1.tar.gz]
 [2023-07-10 08:39:30] INFO root fetch - main [MainThread]: End processing [sparksampling]: success
 [2023-07-10 08:39:30] INFO root fetch - main [MainThread]: Store serial: [18827231]
+[2023-07-10 08:44:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18827231]
+[2023-07-10 08:44:39] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-10 08:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antchain-ak-8146025f0aa2474a88d81f508253e029
+[2023-07-10 08:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qontract-reconcile
+[2023-07-10 08:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hds-stats
+[2023-07-10 08:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hubotlibs
+[2023-07-10 08:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: task-multiprocess
+[2023-07-10 08:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: daktari
+[2023-07-10 08:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SwarAnuvad
+[2023-07-10 08:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: twitch-archiver
+[2023-07-10 08:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lmcloud
+[2023-07-10 08:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: datajunction
+[2023-07-10 08:44:40] INFO root fetch - processPackages [antchain-ak-8146025f0aa2474a88d81f508253e029]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-10 08:44:40] INFO root fetch - processPackages [twitch-archiver]: New version: [3.0.5] Old Version: [3.0.4]
+[2023-07-10 08:44:40] INFO root fetch - processPackages [hubotlibs]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-10 08:44:40] INFO root fetch - processPackages [hds-stats]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-10 08:44:40] INFO root fetch - processPackages [lmcloud]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-10 08:44:40] INFO root fetch - processPackages [SwarAnuvad]: New version: [2.4.3] Old Version: [2.4.0]
+[2023-07-10 08:44:40] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-07-10 08:44:40] WARNING root fetch - processPackages [task-multiprocess]: Skipping, unable to determine old version
+[2023-07-10 08:44:40] INFO root fetch - main [MainThread]: End processing [task-multiprocess] error
+[2023-07-10 08:44:40] INFO root fetch - processPackages [datajunction]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-07-10 08:44:40] INFO root fetch - processPackages [daktari]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-10 08:44:40] INFO root fetch - processPackages [hds-stats]: Downloading https://files.pythonhosted.org/packages/73/78/826efdfffec6ea98ebb12373edf484e62a791fb4a702ce6e8804dbcfa8ec/hds-stats-0.3.2.tar.gz
+[2023-07-10 08:44:40] INFO root fetch - processPackages [antchain-ak-8146025f0aa2474a88d81f508253e029]: Downloading https://files.pythonhosted.org/packages/d2/c8/0f58af19ebea5e2549ca893809fbad46571330f820742cf2b0208c533f40/antchain_ak_8146025f0aa2474a88d81f508253e029-1.0.2.tar.gz
+[2023-07-10 08:44:40] INFO root fetch - processPackages [lmcloud]: Downloading https://files.pythonhosted.org/packages/46/20/dbfeccebfd72300edb21a9ac07bba12f45a17211279f8fd82be8560156de/lmcloud-0.3.8.tar.gz
+[2023-07-10 08:44:40] INFO root fetch - processPackages [datajunction]: Downloading https://files.pythonhosted.org/packages/1c/dd/d011039dbc015ee0cadf6a3a31cdaef350b9b1ee49373c7b04f51d601564/datajunction-0.0.1a8.tar.gz
+[2023-07-10 08:44:40] INFO root fetch - processPackages [twitch-archiver]: Downloading https://files.pythonhosted.org/packages/81/7c/123d8fff242e9331c35e378cb36ca99edcc6a1049a263721130853d7a7f1/twitch-archiver-3.0.4.tar.gz
+[2023-07-10 08:44:40] INFO root fetch - processPackages [hubotlibs]: Downloading https://files.pythonhosted.org/packages/d9/dd/c2b943c6df583895b5cca51521eaba324ad381ef31f6347e73c2cc0c2ef9/hubotlibs-0.3.2.tar.gz
+[2023-07-10 08:44:40] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-07-10 08:44:40] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/80/e2/e763e02669b3c5003eab9a1d3f23a8c11ddea7b9843baca75d4a3f67dfd1/daktari-0.0.98.tar.gz
+[2023-07-10 08:44:40] INFO root fetch - processPackages [SwarAnuvad]: Downloading https://files.pythonhosted.org/packages/79/16/497213aa643c383902a810a37af059aeba49ba998c0bfb578dfd7fd1f1c0/SwarAnuvad-2.4.0.tar.gz
+[2023-07-10 08:44:40] INFO root fetch - processPackages [lmcloud]: Downloading https://files.pythonhosted.org/packages/6e/d2/638c9bce5b1bc60bac99065be03da54104fd4e94d026f74417cbb45dd33f/lmcloud-0.3.9.tar.gz
+[2023-07-10 08:44:40] INFO root fetch - processPackages [hds-stats]: Downloading https://files.pythonhosted.org/packages/0a/b6/8eabea30671bf58fb9e4173bdea0be338914111bc162b64138600112a9cf/hds-stats-0.3.3.tar.gz
+[2023-07-10 08:44:40] INFO root fetch - processPackages [datajunction]: Downloading https://files.pythonhosted.org/packages/a3/56/726ef8b88da5d7d28a93212e0247effc166d3a97fbe5bb9c64412e7e2c66/datajunction-0.0.1a9.tar.gz
+[2023-07-10 08:44:40] INFO root fetch - processPackages [antchain-ak-8146025f0aa2474a88d81f508253e029]: Downloading https://files.pythonhosted.org/packages/29/20/83144af7857869f19c0f9441e18cb37f80eea110f4d728d2cf67142cd306/antchain_ak_8146025f0aa2474a88d81f508253e029-1.0.3.tar.gz
+[2023-07-10 08:44:40] INFO root fetch - processPackages [lmcloud]: executing diffoscope
+[2023-07-10 08:44:40] INFO root fetch - processPackages [lmcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmcloud-0.3.8.tar.gz tmp/lmcloud-0.3.9.tar.gz --markdown 20230710/l/lmcloud/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-10 08:44:40] INFO root fetch - processPackages [hds-stats]: executing diffoscope
+[2023-07-10 08:44:40] INFO root fetch - processPackages [hds-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hds-stats-0.3.2.tar.gz tmp/hds-stats-0.3.3.tar.gz --markdown 20230710/h/hds-stats/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-10 08:44:40] INFO root fetch - processPackages [datajunction]: executing diffoscope
+[2023-07-10 08:44:40] INFO root fetch - processPackages [datajunction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datajunction-0.0.1a8.tar.gz tmp/datajunction-0.0.1a9.tar.gz --markdown 20230710/d/datajunction/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-07-10 08:44:40] INFO root fetch - processPackages [antchain-ak-8146025f0aa2474a88d81f508253e029]: executing diffoscope
+[2023-07-10 08:44:40] INFO root fetch - processPackages [antchain-ak-8146025f0aa2474a88d81f508253e029]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_ak_8146025f0aa2474a88d81f508253e029-1.0.2.tar.gz tmp/antchain_ak_8146025f0aa2474a88d81f508253e029-1.0.3.tar.gz --markdown 20230710/a/antchain-ak-8146025f0aa2474a88d81f508253e029/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-10 08:44:40] INFO root fetch - processPackages [twitch-archiver]: Downloading https://files.pythonhosted.org/packages/76/66/6106ad615fe3e71c5d5d1cc23ccec628ec12966ef2718c06e1df89529326/twitch-archiver-3.0.5.tar.gz
+[2023-07-10 08:44:40] INFO root fetch - processPackages [hubotlibs]: Downloading https://files.pythonhosted.org/packages/99/aa/fe711501677c82a2cbc8935dcf9bf9629bd9230dddedde39a1589595e040/hubotlibs-0.3.3.tar.gz
+[2023-07-10 08:44:40] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/35/1f/9e7becfab4e84e6879ca6968ba9f3963734de77bebf086053003ea27839c/daktari-0.0.99.tar.gz
+[2023-07-10 08:44:41] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-07-10 08:44:41] INFO root fetch - processPackages [SwarAnuvad]: Downloading https://files.pythonhosted.org/packages/d6/5b/31a2eb896f9742916eb03682f81cd85cd674832b79bd1a7454b10484e0b9/SwarAnuvad-2.4.3.tar.gz
+[2023-07-10 08:44:41] INFO root fetch - processPackages [daktari]: executing diffoscope
+[2023-07-10 08:44:41] INFO root fetch - processPackages [daktari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daktari-0.0.98.tar.gz tmp/daktari-0.0.99.tar.gz --markdown 20230710/d/daktari/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-10 08:44:41] INFO root fetch - processPackages [hubotlibs]: executing diffoscope
+[2023-07-10 08:44:41] INFO root fetch - processPackages [hubotlibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubotlibs-0.3.2.tar.gz tmp/hubotlibs-0.3.3.tar.gz --markdown 20230710/h/hubotlibs/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-10 08:44:41] INFO root fetch - processPackages [twitch-archiver]: executing diffoscope
+[2023-07-10 08:44:41] INFO root fetch - processPackages [twitch-archiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitch-archiver-3.0.4.tar.gz tmp/twitch-archiver-3.0.5.tar.gz --markdown 20230710/t/twitch-archiver/3.0.4-3.0.5/diff.md --exclude *.pyd
+[2023-07-10 08:44:41] INFO root fetch - processPackages [SwarAnuvad]: executing diffoscope
+[2023-07-10 08:44:41] INFO root fetch - processPackages [SwarAnuvad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SwarAnuvad-2.4.0.tar.gz tmp/SwarAnuvad-2.4.3.tar.gz --markdown 20230710/S/SwarAnuvad/2.4.0-2.4.3/diff.md --exclude *.pyd
+[2023-07-10 08:44:41] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-07-10 08:44:41] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230710/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-07-10 08:44:42] INFO root fetch - processPackages [lmcloud]: Remove: archive file [/home/abi/fetcher/tmp/lmcloud-0.3.8.tar.gz]
+[2023-07-10 08:44:42] INFO root fetch - processPackages [lmcloud]: Remove: archive file [/home/abi/fetcher/tmp/lmcloud-0.3.9.tar.gz]
+[2023-07-10 08:44:42] INFO root fetch - main [MainThread]: End processing [lmcloud]: success
+[2023-07-10 08:44:42] INFO root fetch - processPackages [antchain-ak-8146025f0aa2474a88d81f508253e029]: Remove: archive file [/home/abi/fetcher/tmp/antchain_ak_8146025f0aa2474a88d81f508253e029-1.0.2.tar.gz]
+[2023-07-10 08:44:42] INFO root fetch - processPackages [hds-stats]: Remove: archive file [/home/abi/fetcher/tmp/hds-stats-0.3.2.tar.gz]
+[2023-07-10 08:44:42] INFO root fetch - processPackages [antchain-ak-8146025f0aa2474a88d81f508253e029]: Remove: archive file [/home/abi/fetcher/tmp/antchain_ak_8146025f0aa2474a88d81f508253e029-1.0.3.tar.gz]
+[2023-07-10 08:44:42] INFO root fetch - processPackages [hds-stats]: Remove: archive file [/home/abi/fetcher/tmp/hds-stats-0.3.3.tar.gz]
+[2023-07-10 08:44:42] INFO root fetch - main [MainThread]: End processing [antchain-ak-8146025f0aa2474a88d81f508253e029]: success
+[2023-07-10 08:44:42] INFO root fetch - main [MainThread]: End processing [hds-stats]: success
+[2023-07-10 08:44:42] INFO root fetch - processPackages [datajunction]: Remove: archive file [/home/abi/fetcher/tmp/datajunction-0.0.1a8.tar.gz]
+[2023-07-10 08:44:42] INFO root fetch - processPackages [datajunction]: Remove: archive file [/home/abi/fetcher/tmp/datajunction-0.0.1a9.tar.gz]
+[2023-07-10 08:44:42] INFO root fetch - main [MainThread]: End processing [datajunction]: success
+[2023-07-10 08:44:42] INFO root fetch - processPackages [hubotlibs]: Remove: archive file [/home/abi/fetcher/tmp/hubotlibs-0.3.2.tar.gz]
+[2023-07-10 08:44:42] INFO root fetch - processPackages [hubotlibs]: Remove: archive file [/home/abi/fetcher/tmp/hubotlibs-0.3.3.tar.gz]
+[2023-07-10 08:44:42] INFO root fetch - main [MainThread]: End processing [hubotlibs]: success
+[2023-07-10 08:44:42] INFO root fetch - processPackages [SwarAnuvad]: Remove: archive file [/home/abi/fetcher/tmp/SwarAnuvad-2.4.0.tar.gz]
+[2023-07-10 08:44:42] INFO root fetch - processPackages [SwarAnuvad]: Remove: archive file [/home/abi/fetcher/tmp/SwarAnuvad-2.4.3.tar.gz]
+[2023-07-10 08:44:42] INFO root fetch - main [MainThread]: End processing [SwarAnuvad]: success
+[2023-07-10 08:44:42] INFO root fetch - processPackages [twitch-archiver]: Remove: archive file [/home/abi/fetcher/tmp/twitch-archiver-3.0.4.tar.gz]
+[2023-07-10 08:44:42] INFO root fetch - processPackages [twitch-archiver]: Remove: archive file [/home/abi/fetcher/tmp/twitch-archiver-3.0.5.tar.gz]
+[2023-07-10 08:44:42] INFO root fetch - main [MainThread]: End processing [twitch-archiver]: success
+[2023-07-10 08:44:42] INFO root fetch - processPackages [daktari]: Remove: archive file [/home/abi/fetcher/tmp/daktari-0.0.98.tar.gz]
+[2023-07-10 08:44:42] INFO root fetch - processPackages [daktari]: Remove: archive file [/home/abi/fetcher/tmp/daktari-0.0.99.tar.gz]
+[2023-07-10 08:44:42] INFO root fetch - main [MainThread]: End processing [daktari]: success
+[2023-07-10 08:44:44] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-07-10 08:44:44] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-07-10 08:44:44] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-07-10 08:44:44] INFO root fetch - main [MainThread]: Store serial: [18827267]
