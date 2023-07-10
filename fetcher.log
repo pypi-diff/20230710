@@ -10584,3 +10584,131 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 09:43:29] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-38.1.5.tar.gz]
 [2023-07-10 09:43:29] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-07-10 09:43:29] INFO root fetch - main [MainThread]: Store serial: [18827831]
+[2023-07-10 09:48:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18827831]
+[2023-07-10 09:48:38] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-10 09:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ansys-tools-path
+[2023-07-10 09:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seven-cloudapp-frame
+[2023-07-10 09:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openxlab-dev
+[2023-07-10 09:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: arcane-pinterest
+[2023-07-10 09:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: armonik
+[2023-07-10 09:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: raga-testing-platform
+[2023-07-10 09:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: antchain-ak-8146025f0aa2474a88d81f508253e029
+[2023-07-10 09:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alibabacloud-rds20140815-py2
+[2023-07-10 09:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PVNet
+[2023-07-10 09:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: conniosdk
+[2023-07-10 09:48:38] INFO root fetch - processPackages [ansys-tools-path]: New version: [0.3.0] Old Version: [0.2.6]
+[2023-07-10 09:48:38] INFO root fetch - processPackages [PVNet]: New version: [2.1.7] Old Version: [2.1.6]
+[2023-07-10 09:48:38] INFO root fetch - processPackages [raga-testing-platform]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-10 09:48:38] INFO root fetch - processPackages [arcane-pinterest]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-07-10 09:48:38] INFO root fetch - processPackages [antchain-ak-8146025f0aa2474a88d81f508253e029]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-10 09:48:38] INFO root fetch - processPackages [armonik]: New version: [3.9.3.dev630] Old Version: [3.9.3.dev627]
+[2023-07-10 09:48:38] INFO root fetch - processPackages [openxlab-dev]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-10 09:48:38] INFO root fetch - processPackages [conniosdk]: New version: [0.37] Old Version: [0.36]
+[2023-07-10 09:48:38] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-10 09:48:38] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-07-10 09:48:38] INFO root fetch - processPackages [antchain-ak-8146025f0aa2474a88d81f508253e029]: Downloading https://files.pythonhosted.org/packages/29/20/83144af7857869f19c0f9441e18cb37f80eea110f4d728d2cf67142cd306/antchain_ak_8146025f0aa2474a88d81f508253e029-1.0.3.tar.gz
+[2023-07-10 09:48:38] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Downloading https://files.pythonhosted.org/packages/dd/46/3783d5014e92075505a1a942cd972a1d0cec21aa4ce8dac8c6f78f519ede/alibabacloud_rds20140815_py2-1.2.0.tar.gz
+[2023-07-10 09:48:38] INFO root fetch - processPackages [ansys-tools-path]: Downloading https://files.pythonhosted.org/packages/b2/e2/f3e4a292de96c5d553596a679f593322284952df77f9e49420fdbccff4f7/ansys_tools_path-0.2.6.tar.gz
+[2023-07-10 09:48:38] INFO root fetch - processPackages [openxlab-dev]: Downloading https://files.pythonhosted.org/packages/59/3a/bf502bead9abb230f4b3b146da240c865deb7ab311663ea914f6ed176988/openxlab_dev-0.0.1.tar.gz
+[2023-07-10 09:48:38] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/9a/6a/061c11daeeec41a447cbb946ba1026746aa341344697909c4fceb3740903/PVNet-2.1.6.tar.gz
+[2023-07-10 09:48:38] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/cb/2b/5872c9c0e75b4ef4393e95963e7fa22ccf8c70b12d66a64c83dfec600b32/raga-testing-platform-1.0.8.tar.gz
+[2023-07-10 09:48:38] INFO root fetch - processPackages [arcane-pinterest]: Downloading https://files.pythonhosted.org/packages/bd/04/47632f37b6df160dffae9275279268ca9a8ca9c5308b94e35202c0b5b0e0/arcane_pinterest-2.0.0.tar.gz
+[2023-07-10 09:48:38] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/a3/db/468340c3e51513d2270b938c830901748ba3f03d05938557f70273672795/armonik-3.9.3.dev627.tar.gz
+[2023-07-10 09:48:38] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/35/2b/05b1b8a3faf3e0417c648bb54a3032af0de6b3d08180acd83e1eea5e3701/seven_cloudapp_frame-1.0.9.8.tar.gz
+[2023-07-10 09:48:38] INFO root fetch - processPackages [conniosdk]: Downloading https://files.pythonhosted.org/packages/e3/af/ccff581691faf816d06f244c720896fc080e1500e5035d8ddfe5c069cb77/conniosdk-0.36-py3-none-any.whl
+[2023-07-10 09:48:38] WARNING root fetch - processPackages [openxlab-dev]: Skipping package: exceeds size limit 22361670>=10485760
+[2023-07-10 09:48:38] INFO root fetch - processPackages [openxlab-dev]: Start processing: alibabacloud-rds20140815
+[2023-07-10 09:48:38] INFO root fetch - main [MainThread]: End processing [openxlab-dev] error
+[2023-07-10 09:48:39] INFO root fetch - processPackages [alibabacloud-rds20140815]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-10 09:48:39] INFO root fetch - processPackages [antchain-ak-8146025f0aa2474a88d81f508253e029]: Downloading https://files.pythonhosted.org/packages/65/26/c9562f367159e8fe50aed91a88f50ccbb395ed5987fb768c0f14a463b71e/antchain_ak_8146025f0aa2474a88d81f508253e029-1.0.4.tar.gz
+[2023-07-10 09:48:39] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Downloading https://files.pythonhosted.org/packages/28/f2/b0f6c9dffa94c2dfae200815fca4380b7e68d978713103c74166c8cfcfc0/alibabacloud_rds20140815_py2-1.2.1.tar.gz
+[2023-07-10 09:48:39] INFO root fetch - processPackages [alibabacloud-rds20140815]: Downloading https://files.pythonhosted.org/packages/5f/38/f84538e433bf80888d80fff1ecb5949fa755b46ec10e96b1238c937fc80f/alibabacloud_rds20140815-2.2.8.tar.gz
+[2023-07-10 09:48:39] INFO root fetch - processPackages [ansys-tools-path]: Downloading https://files.pythonhosted.org/packages/ca/d4/45fa5ffe0502c354fd910bd9422a7f41420be6bf3ad53735d01c14b0eee7/ansys_tools_path-0.3.0.tar.gz
+[2023-07-10 09:48:39] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/41/0f/f33044dd275589df6ea63340ac207b02c7b73e9e9ce2fd2e61ef7136bc6f/PVNet-2.1.7.tar.gz
+[2023-07-10 09:48:39] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/11/ad/4f1bc0423cfda7af28cb5dc84e1865bf90ef91df50054caabbc8de87872b/armonik-3.9.3.dev630.tar.gz
+[2023-07-10 09:48:39] INFO root fetch - processPackages [ansys-tools-path]: executing diffoscope
+[2023-07-10 09:48:39] INFO root fetch - processPackages [ansys-tools-path]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_tools_path-0.2.6.tar.gz tmp/ansys_tools_path-0.3.0.tar.gz --markdown 20230710/a/ansys-tools-path/0.2.6-0.3.0/diff.md --exclude *.pyd
+[2023-07-10 09:48:39] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/23/a1/3de642a69a0d1253446d4f7bd1dd9d074e3fe635e84f3d430d001424a072/raga-testing-platform-1.0.9.tar.gz
+[2023-07-10 09:48:39] INFO root fetch - processPackages [antchain-ak-8146025f0aa2474a88d81f508253e029]: executing diffoscope
+[2023-07-10 09:48:39] INFO root fetch - processPackages [antchain-ak-8146025f0aa2474a88d81f508253e029]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_ak_8146025f0aa2474a88d81f508253e029-1.0.3.tar.gz tmp/antchain_ak_8146025f0aa2474a88d81f508253e029-1.0.4.tar.gz --markdown 20230710/a/antchain-ak-8146025f0aa2474a88d81f508253e029/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-10 09:48:39] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/74/d6/645286f46e81a7cbd30574c917b65af03679c974a979c0421012bd713cbd/seven_cloudapp_frame-1.0.9.9.tar.gz
+[2023-07-10 09:48:39] INFO root fetch - processPackages [conniosdk]: Downloading https://files.pythonhosted.org/packages/0d/13/8b7bb10277f44e46444b686756b3f4cbe52a1f37912f36e902ed79b7ccd2/conniosdk-0.37-py3-none-any.whl
+[2023-07-10 09:48:39] INFO root fetch - processPackages [arcane-pinterest]: Downloading https://files.pythonhosted.org/packages/aa/8a/e8f51305c1345f47b2e08daa48df5c7a1a71381a9816beab052e05003279/arcane_pinterest-2.1.0.tar.gz
+[2023-07-10 09:48:39] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: executing diffoscope
+[2023-07-10 09:48:39] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_rds20140815_py2-1.2.0.tar.gz tmp/alibabacloud_rds20140815_py2-1.2.1.tar.gz --markdown 20230710/a/alibabacloud-rds20140815-py2/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-10 09:48:39] INFO root fetch - processPackages [PVNet]: executing diffoscope
+[2023-07-10 09:48:39] INFO root fetch - processPackages [PVNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PVNet-2.1.6.tar.gz tmp/PVNet-2.1.7.tar.gz --markdown 20230710/P/PVNet/2.1.6-2.1.7/diff.md --exclude *.pyd
+[2023-07-10 09:48:39] INFO root fetch - processPackages [alibabacloud-rds20140815]: Downloading https://files.pythonhosted.org/packages/8e/38/2ed843ab2f4bae57c984e9c496af84eaedd402b05d3492d4c9d1a253f508/alibabacloud_rds20140815-2.2.9.tar.gz
+[2023-07-10 09:48:39] INFO root fetch - processPackages [armonik]: executing diffoscope
+[2023-07-10 09:48:39] INFO root fetch - processPackages [armonik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armonik-3.9.3.dev627.tar.gz tmp/armonik-3.9.3.dev630.tar.gz --markdown 20230710/a/armonik/3.9.3.dev627-3.9.3.dev630/diff.md --exclude *.pyd
+[2023-07-10 09:48:39] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-07-10 09:48:39] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230710/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-07-10 09:48:39] INFO root fetch - processPackages [raga-testing-platform]: executing diffoscope
+[2023-07-10 09:48:39] INFO root fetch - processPackages [raga-testing-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-testing-platform-1.0.8.tar.gz tmp/raga-testing-platform-1.0.9.tar.gz --markdown 20230710/r/raga-testing-platform/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-10 09:48:39] INFO root fetch - processPackages [alibabacloud-rds20140815]: executing diffoscope
+[2023-07-10 09:48:39] INFO root fetch - processPackages [alibabacloud-rds20140815]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_rds20140815-2.2.8.tar.gz tmp/alibabacloud_rds20140815-2.2.9.tar.gz --markdown 20230710/a/alibabacloud-rds20140815/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-10 09:48:39] INFO root fetch - processPackages [arcane-pinterest]: executing diffoscope
+[2023-07-10 09:48:39] INFO root fetch - processPackages [arcane-pinterest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcane_pinterest-2.0.0.tar.gz tmp/arcane_pinterest-2.1.0.tar.gz --markdown 20230710/a/arcane-pinterest/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-07-10 09:48:39] INFO root fetch - processPackages [conniosdk]: executing diffoscope
+[2023-07-10 09:48:39] INFO root fetch - processPackages [conniosdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conniosdk-0.36-py3-none-any.whl.zip tmp/conniosdk-0.37-py3-none-any.whl.zip --markdown 20230710/c/conniosdk/0.36-0.37/diff.md --exclude *.pyd
+[2023-07-10 09:48:40] INFO root fetch - processPackages [ansys-tools-path]: Remove: archive file [/home/abi/fetcher/tmp/ansys_tools_path-0.2.6.tar.gz]
+[2023-07-10 09:48:40] INFO root fetch - processPackages [ansys-tools-path]: Remove: archive file [/home/abi/fetcher/tmp/ansys_tools_path-0.3.0.tar.gz]
+[2023-07-10 09:48:40] INFO root fetch - processPackages [ansys-tools-path]: Start processing: armonik
+[2023-07-10 09:48:40] INFO root fetch - main [MainThread]: End processing [ansys-tools-path]: success
+[2023-07-10 09:48:41] INFO root fetch - processPackages [armonik]: New version: [3.9.3.dev630] Old Version: [3.9.3.dev627]
+[2023-07-10 09:48:41] INFO root fetch - processPackages [antchain-ak-8146025f0aa2474a88d81f508253e029]: Remove: archive file [/home/abi/fetcher/tmp/antchain_ak_8146025f0aa2474a88d81f508253e029-1.0.3.tar.gz]
+[2023-07-10 09:48:41] INFO root fetch - processPackages [arcane-pinterest]: Remove: archive file [/home/abi/fetcher/tmp/arcane_pinterest-2.0.0.tar.gz]
+[2023-07-10 09:48:41] INFO root fetch - processPackages [antchain-ak-8146025f0aa2474a88d81f508253e029]: Remove: archive file [/home/abi/fetcher/tmp/antchain_ak_8146025f0aa2474a88d81f508253e029-1.0.4.tar.gz]
+[2023-07-10 09:48:41] INFO root fetch - processPackages [arcane-pinterest]: Remove: archive file [/home/abi/fetcher/tmp/arcane_pinterest-2.1.0.tar.gz]
+[2023-07-10 09:48:41] INFO root fetch - processPackages [antchain-ak-8146025f0aa2474a88d81f508253e029]: Start processing: crowdsim
+[2023-07-10 09:48:41] INFO root fetch - processPackages [arcane-pinterest]: Start processing: keras-nightly
+[2023-07-10 09:48:41] INFO root fetch - main [MainThread]: End processing [antchain-ak-8146025f0aa2474a88d81f508253e029]: success
+[2023-07-10 09:48:41] INFO root fetch - main [MainThread]: End processing [arcane-pinterest]: success
+[2023-07-10 09:48:41] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-2.1.6.tar.gz]
+[2023-07-10 09:48:41] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-2.1.7.tar.gz]
+[2023-07-10 09:48:41] INFO root fetch - processPackages [PVNet]: Start processing: torch-tensorrt-bazel
+[2023-07-10 09:48:41] INFO root fetch - main [MainThread]: End processing [PVNet]: success
+[2023-07-10 09:48:41] INFO root fetch - processPackages [armonik]: executing diffoscope
+[2023-07-10 09:48:41] INFO root fetch - processPackages [armonik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armonik-3.9.3.dev627.tar.gz tmp/armonik-3.9.3.dev630.tar.gz --markdown 20230710/a/armonik/3.9.3.dev627-3.9.3.dev630/diff.md --exclude *.pyd
+[2023-07-10 09:48:41] INFO root fetch - processPackages [crowdsim]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-10 09:48:41] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-07-10 09:48:41] INFO root fetch - processPackages [crowdsim]: Downloading https://files.pythonhosted.org/packages/7e/40/7055c5ac3b89023660e63cfcbeb8c19cbe2c15677869afa375bb0627ffe8/crowdsim-0.1.5.tar.gz
+[2023-07-10 09:48:41] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-07-10 09:48:41] WARNING root fetch - processPackages [torch-tensorrt-bazel]: Skipping, unable to determine old version
+[2023-07-10 09:48:41] INFO root fetch - main [MainThread]: End processing [torch-tensorrt-bazel] error
+[2023-07-10 09:48:41] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.8.tar.gz]
+[2023-07-10 09:48:41] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.9.tar.gz]
+[2023-07-10 09:48:41] INFO root fetch - main [MainThread]: End processing [raga-testing-platform]: success
+[2023-07-10 09:48:41] INFO root fetch - processPackages [conniosdk]: Remove: archive file [/home/abi/fetcher/tmp/conniosdk-0.36-py3-none-any.whl.zip]
+[2023-07-10 09:48:41] INFO root fetch - processPackages [conniosdk]: Remove: archive file [/home/abi/fetcher/tmp/conniosdk-0.37-py3-none-any.whl.zip]
+[2023-07-10 09:48:41] INFO root fetch - main [MainThread]: End processing [conniosdk]: success
+[2023-07-10 09:48:41] INFO root fetch - processPackages [alibabacloud-rds20140815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815-2.2.8.tar.gz]
+[2023-07-10 09:48:41] INFO root fetch - processPackages [alibabacloud-rds20140815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815-2.2.9.tar.gz]
+[2023-07-10 09:48:41] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds20140815]: success
+[2023-07-10 09:48:41] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.3.dev627.tar.gz]
+[2023-07-10 09:48:41] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.3.dev630.tar.gz]
+[2023-07-10 09:48:41] INFO root fetch - main [MainThread]: End processing [armonik]: success
+[2023-07-10 09:48:41] INFO root fetch - processPackages [crowdsim]: Downloading https://files.pythonhosted.org/packages/24/54/6f1fa9904fc317f79697f28cc089439345cc44d680c60912a6a90f96a702/crowdsim-0.1.6.tar.gz
+[2023-07-10 09:48:41] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-07-10 09:48:42] INFO root fetch - processPackages [crowdsim]: executing diffoscope
+[2023-07-10 09:48:42] INFO root fetch - processPackages [crowdsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crowdsim-0.1.5.tar.gz tmp/crowdsim-0.1.6.tar.gz --markdown 20230710/c/crowdsim/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-10 09:48:42] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.9.8.tar.gz]
+[2023-07-10 09:48:42] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.9.9.tar.gz]
+[2023-07-10 09:48:42] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-07-10 09:48:42] ERROR root fetch - processPackages [armonik]: Diffoscope failed: time="2023-07-10T09:48:41+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/armonik-3.9.3.dev627.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/armonik-3.9.3.dev630.tar.gz: No such file or directory
+
+[2023-07-10 09:48:42] INFO root fetch - main [MainThread]: End processing [armonik] error
+[2023-07-10 09:48:42] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-07-10 09:48:42] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230710/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-07-10 09:48:42] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815_py2-1.2.0.tar.gz]
+[2023-07-10 09:48:42] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815_py2-1.2.1.tar.gz]
+[2023-07-10 09:48:42] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds20140815-py2]: success
+[2023-07-10 09:48:42] INFO root fetch - processPackages [crowdsim]: Remove: archive file [/home/abi/fetcher/tmp/crowdsim-0.1.5.tar.gz]
+[2023-07-10 09:48:42] INFO root fetch - processPackages [crowdsim]: Remove: archive file [/home/abi/fetcher/tmp/crowdsim-0.1.6.tar.gz]
+[2023-07-10 09:48:42] INFO root fetch - main [MainThread]: End processing [crowdsim]: success
+[2023-07-10 09:48:45] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip]
+[2023-07-10 09:48:45] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
+[2023-07-10 09:48:45] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-07-10 09:48:45] INFO root fetch - main [MainThread]: Store serial: [18827878]
