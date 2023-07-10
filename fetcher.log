@@ -15624,3 +15624,76 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 13:15:18] INFO root fetch - processPackages [paasta-tools]: Remove: archive file [/home/abi/fetcher/tmp/paasta-tools-0.92.1.tar.gz]
 [2023-07-10 13:15:18] INFO root fetch - main [MainThread]: End processing [paasta-tools]: success
 [2023-07-10 13:15:18] INFO root fetch - main [MainThread]: Store serial: [18829872]
+[2023-07-10 13:20:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18829872]
+[2023-07-10 13:20:27] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-10 13:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycldf
+[2023-07-10 13:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TEST-TC
+[2023-07-10 13:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo13-addon-ddmrp
+[2023-07-10 13:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TheSilent
+[2023-07-10 13:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oc-delivery-apps
+[2023-07-10 13:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ML-Algo
+[2023-07-10 13:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: returnn
+[2023-07-10 13:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: TheSilent
+[2023-07-10 13:20:27] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-10 13:20:27] INFO root fetch - processPackages [ML-Algo]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-10 13:20:27] INFO root fetch - processPackages [TEST-TC]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-10 13:20:27] INFO root fetch - processPackages [pycldf]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-07-10 13:20:27] INFO root fetch - processPackages [odoo13-addon-ddmrp]: New version: [13.0.1.9.1.dev1] Old Version: [13.0.1.9.0]
+[2023-07-10 13:20:27] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-10 13:20:27] INFO root fetch - processPackages [returnn]: New version: [1.20230710.125126] Old Version: [1.20230706.154021]
+[2023-07-10 13:20:27] INFO root fetch - processPackages [oc-delivery-apps]: New version: [11.3.0] Old Version: [11.2.9]
+[2023-07-10 13:20:27] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-10 13:20:27] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/32/d7/25de7877d72acf5b8a5c4707f8513d08c9f5f082c469011ce71ebd71d5da/TEST_TC-1.0.2.tar.gz
+[2023-07-10 13:20:27] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-10 13:20:27] INFO root fetch - processPackages [ML-Algo]: Downloading https://files.pythonhosted.org/packages/c7/55/292a1a351f6d6ae9276f6a03862e9691a31ec3af4b7d0cfdacfa386b6beb/ML_Algo-1.0.2.tar.gz
+[2023-07-10 13:20:27] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/88/8d/9a1e56250748ae3b471e14647bfbf52a10a45cfc209f9d0b5c981d5c4e55/returnn-1.20230706.154021.tar.gz
+[2023-07-10 13:20:27] INFO root fetch - processPackages [oc-delivery-apps]: Downloading https://files.pythonhosted.org/packages/2f/93/f54274837b3271af8efb3bc82768084eb8960f1c5da10b248c4c04694cea/oc_delivery_apps-11.2.9-py3-none-any.whl
+[2023-07-10 13:20:27] INFO root fetch - processPackages [odoo13-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/dc/95/950a4a2a5a258222e5237488d199eb7d07de47b5f5c6474af8b60e6a7a69/odoo13_addon_ddmrp-13.0.1.9.0-py3-none-any.whl
+[2023-07-10 13:20:27] INFO root fetch - processPackages [pycldf]: Downloading https://files.pythonhosted.org/packages/83/9a/e3f03e655de8be0844dbabee1f4c4e29418a8c5a7521b03da8e9a31bdcdb/pycldf-1.8.2.tar.gz
+[2023-07-10 13:20:27] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-10 13:20:27] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/37/c8/d90022848811afe33c54b498469694a48c21a9620b11cb06849974616006/TEST_TC-1.0.3.tar.gz
+[2023-07-10 13:20:27] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-10 13:20:27] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-10 13:20:27] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230710/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-10 13:20:27] INFO root fetch - processPackages [ML-Algo]: Downloading https://files.pythonhosted.org/packages/39/11/2f8dd219d76b7bd8c12eec60b926c921661b50f4a13cfa6eaba57dc4cc6b/ML_Algo-1.0.3.tar.gz
+[2023-07-10 13:20:27] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-10 13:20:27] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230710/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-10 13:20:28] INFO root fetch - processPackages [TEST-TC]: executing diffoscope
+[2023-07-10 13:20:28] INFO root fetch - processPackages [TEST-TC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TEST_TC-1.0.2.tar.gz tmp/TEST_TC-1.0.3.tar.gz --markdown 20230710/T/TEST-TC/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-10 13:20:28] INFO root fetch - processPackages [ML-Algo]: executing diffoscope
+[2023-07-10 13:20:28] INFO root fetch - processPackages [ML-Algo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ML_Algo-1.0.2.tar.gz tmp/ML_Algo-1.0.3.tar.gz --markdown 20230710/M/ML-Algo/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-10 13:20:28] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/79/54/d1ed9bda7da6586fd37c606e6b35600d11a0a002bcaa24e8d47bf3bed4ea/returnn-1.20230710.125126.tar.gz
+[2023-07-10 13:20:28] INFO root fetch - processPackages [oc-delivery-apps]: Downloading https://files.pythonhosted.org/packages/8b/10/b85a9cef5c1b5aa969b81d10509fdda85a721fd93295c15da7f0fb684db7/oc_delivery_apps-11.3.0-py3-none-any.whl
+[2023-07-10 13:20:28] INFO root fetch - processPackages [odoo13-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/5a/f1/e682a43d6521ca41456243a79d1e5d7102f586e0b44f357ad5a1b8a40965/odoo13_addon_ddmrp-13.0.1.9.1.dev1-py3-none-any.whl
+[2023-07-10 13:20:28] INFO root fetch - processPackages [pycldf]: Downloading https://files.pythonhosted.org/packages/4c/d4/305f079d0f46d51f24074215e48c6c9f9536f0f01941b409874e469aacb1/pycldf-1.9.0.tar.gz
+[2023-07-10 13:20:28] INFO root fetch - processPackages [odoo13-addon-ddmrp]: executing diffoscope
+[2023-07-10 13:20:28] INFO root fetch - processPackages [odoo13-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_ddmrp-13.0.1.9.0-py3-none-any.whl.zip tmp/odoo13_addon_ddmrp-13.0.1.9.1.dev1-py3-none-any.whl.zip --markdown 20230710/o/odoo13-addon-ddmrp/13.0.1.9.0-13.0.1.9.1.dev1/diff.md --exclude *.pyd
+[2023-07-10 13:20:28] INFO root fetch - processPackages [pycldf]: executing diffoscope
+[2023-07-10 13:20:28] INFO root fetch - processPackages [pycldf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycldf-1.8.2.tar.gz tmp/pycldf-1.9.0.tar.gz --markdown 20230710/p/pycldf/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-07-10 13:20:28] INFO root fetch - processPackages [oc-delivery-apps]: executing diffoscope
+[2023-07-10 13:20:28] INFO root fetch - processPackages [oc-delivery-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oc_delivery_apps-11.2.9-py3-none-any.whl.zip tmp/oc_delivery_apps-11.3.0-py3-none-any.whl.zip --markdown 20230710/o/oc-delivery-apps/11.2.9-11.3.0/diff.md --exclude *.pyd
+[2023-07-10 13:20:28] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-07-10 13:20:28] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230706.154021.tar.gz tmp/returnn-1.20230710.125126.tar.gz --markdown 20230710/r/returnn/1.20230706.154021-1.20230710.125126/diff.md --exclude *.pyd
+[2023-07-10 13:20:29] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-10 13:20:29] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-10 13:20:29] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-10 13:20:29] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-10 13:20:29] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-1.0.2.tar.gz]
+[2023-07-10 13:20:29] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-1.0.3.tar.gz]
+[2023-07-10 13:20:29] INFO root fetch - main [MainThread]: End processing [TEST-TC]: success
+[2023-07-10 13:20:29] INFO root fetch - processPackages [ML-Algo]: Remove: archive file [/home/abi/fetcher/tmp/ML_Algo-1.0.2.tar.gz]
+[2023-07-10 13:20:29] INFO root fetch - processPackages [ML-Algo]: Remove: archive file [/home/abi/fetcher/tmp/ML_Algo-1.0.3.tar.gz]
+[2023-07-10 13:20:29] INFO root fetch - main [MainThread]: End processing [ML-Algo]: success
+[2023-07-10 13:20:29] INFO root fetch - processPackages [pycldf]: Remove: archive file [/home/abi/fetcher/tmp/pycldf-1.8.2.tar.gz]
+[2023-07-10 13:20:29] INFO root fetch - processPackages [pycldf]: Remove: archive file [/home/abi/fetcher/tmp/pycldf-1.9.0.tar.gz]
+[2023-07-10 13:20:29] INFO root fetch - main [MainThread]: End processing [pycldf]: success
+[2023-07-10 13:20:30] INFO root fetch - processPackages [oc-delivery-apps]: Remove: archive file [/home/abi/fetcher/tmp/oc_delivery_apps-11.2.9-py3-none-any.whl.zip]
+[2023-07-10 13:20:30] INFO root fetch - processPackages [oc-delivery-apps]: Remove: archive file [/home/abi/fetcher/tmp/oc_delivery_apps-11.3.0-py3-none-any.whl.zip]
+[2023-07-10 13:20:30] INFO root fetch - main [MainThread]: End processing [oc-delivery-apps]: success
+[2023-07-10 13:20:30] INFO root fetch - processPackages [odoo13-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_ddmrp-13.0.1.9.0-py3-none-any.whl.zip]
+[2023-07-10 13:20:30] INFO root fetch - processPackages [odoo13-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_ddmrp-13.0.1.9.1.dev1-py3-none-any.whl.zip]
+[2023-07-10 13:20:30] INFO root fetch - main [MainThread]: End processing [odoo13-addon-ddmrp]: success
+[2023-07-10 13:20:31] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230706.154021.tar.gz]
+[2023-07-10 13:20:31] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230710.125126.tar.gz]
+[2023-07-10 13:20:31] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-07-10 13:20:31] INFO root fetch - main [MainThread]: Store serial: [18829894]
