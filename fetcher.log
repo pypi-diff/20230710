@@ -7856,3 +7856,111 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 07:07:17] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz]
 [2023-07-10 07:07:17] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.type-safe-api]: success
 [2023-07-10 07:07:17] INFO root fetch - main [MainThread]: Store serial: [18826666]
+[2023-07-10 07:12:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18826666]
+[2023-07-10 07:12:26] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-10 07:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blint
+[2023-07-10 07:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: besecure-developer-toolkit
+[2023-07-10 07:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dask-cuda
+[2023-07-10 07:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kuantaz-api-client
+[2023-07-10 07:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rapid-pe
+[2023-07-10 07:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-time-track
+[2023-07-10 07:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: v-quantum-annealing
+[2023-07-10 07:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sdkit
+[2023-07-10 07:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: projectal
+[2023-07-10 07:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tflite-model-maker-nightly
+[2023-07-10 07:12:26] INFO root fetch - processPackages [blint]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-10 07:12:26] INFO root fetch - processPackages [projectal]: New version: [4.0.3] Old Version: [4.0.2]
+[2023-07-10 07:12:26] WARNING root fetch - processPackages [kuantaz-api-client]: Skipping, unable to determine old version
+[2023-07-10 07:12:26] INFO root fetch - processPackages [kuantaz-api-client]: Start processing: starlette-securecookies
+[2023-07-10 07:12:26] INFO root fetch - processPackages [v-quantum-annealing]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 07:12:26] INFO root fetch - main [MainThread]: End processing [kuantaz-api-client] error
+[2023-07-10 07:12:26] WARNING root fetch - processPackages [python-time-track]: Skipping, unable to determine old version
+[2023-07-10 07:12:26] INFO root fetch - processPackages [python-time-track]: Start processing: bg-helper
+[2023-07-10 07:12:26] INFO root fetch - main [MainThread]: End processing [python-time-track] error
+[2023-07-10 07:12:26] INFO root fetch - processPackages [besecure-developer-toolkit]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-10 07:12:26] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230710] Old Version: [0.1.1.dev20230709]
+[2023-07-10 07:12:26] INFO root fetch - processPackages [sdkit]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-10 07:12:26] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230710] Old Version: [23.8.0a230709]
+[2023-07-10 07:12:26] INFO root fetch - processPackages [tflite-model-maker-nightly]: New version: [0.4.3.dev202307090511] Old Version: [0.4.3.dev202307080509]
+[2023-07-10 07:12:26] INFO root fetch - processPackages [starlette-securecookies]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-10 07:12:26] INFO root fetch - processPackages [bg-helper]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 07:12:26] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/72/51/f6b75cac8545a8d9b6df58b7c2bee8bfa67e8349867ba58377f7c0fb24ae/rapid_pe-0.1.1.dev20230709.tar.gz
+[2023-07-10 07:12:26] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/cf/58/4d851ed9cb743e2e432718d7174bd3cd85bf3a63a1560e7d7e0b176f0d79/dask-cuda-23.8.0a230709.tar.gz
+[2023-07-10 07:12:26] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/1d/61/a10262e630c2851d2b3f63dd8f1125696820405e7f35bf3c4d84d79c2034/tflite-model-maker-nightly-0.4.3.dev202307080509.tar.gz
+[2023-07-10 07:12:26] INFO root fetch - processPackages [projectal]: Downloading https://files.pythonhosted.org/packages/e2/84/dbc99cc81f12b40e1220c07b49c5fc821d4057a26a6937440f95e0e307df/projectal-4.0.2.tar.gz
+[2023-07-10 07:12:26] INFO root fetch - processPackages [blint]: Downloading https://files.pythonhosted.org/packages/e6/b0/d5ddf36678d6c1c40e060406a45bedd8d3eac80e1204239b6b3099f84d76/blint-1.0.8.tar.gz
+[2023-07-10 07:12:26] INFO root fetch - processPackages [v-quantum-annealing]: Downloading https://files.pythonhosted.org/packages/a3/22/b01e7bb04835215ae01270e487b97dab9b252137f1801d1115400ea8d90a/v_quantum_annealing-0.0.8.tar.gz
+[2023-07-10 07:12:26] INFO root fetch - processPackages [besecure-developer-toolkit]: Downloading https://files.pythonhosted.org/packages/56/1f/f82fbf8c4dbd2a67bf6c53cbff0c8ec3deb4f67a592eb2c0b20dad990067/besecure_developer_toolkit-0.0.6.tar.gz
+[2023-07-10 07:12:26] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/d1/c1/f3e251106f7f4c022d55f8fe3a3c0eacdb5bfdf84ce4182f71368c4f3a5f/sdkit-1.0.98.tar.gz
+[2023-07-10 07:12:27] INFO root fetch - processPackages [starlette-securecookies]: Downloading https://files.pythonhosted.org/packages/9c/8d/da36f390b7d0fde8d4995e3ed456bdce113dd5f5deb93be2b802871a7ebc/starlette_securecookies-1.1.0.tar.gz
+[2023-07-10 07:12:27] INFO root fetch - processPackages [bg-helper]: Downloading https://files.pythonhosted.org/packages/f1/ad/b9d9a199c065e337cd26d86004c8658d6c14175b4a50a474bb235235a478/bg_helper-0.1.8-py3-none-any.whl
+[2023-07-10 07:12:27] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/fc/14/1d39dd9235dabf96d76e4d75c33913925e7c2c8cf909562945deacb1a6c9/dask-cuda-23.8.0a230710.tar.gz
+[2023-07-10 07:12:27] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/2e/64/9311ab8727883b86283e65aa4382cf5ca9df5925768f35174b95e7375dfc/rapid_pe-0.1.1.dev20230710.tar.gz
+[2023-07-10 07:12:27] INFO root fetch - processPackages [projectal]: Downloading https://files.pythonhosted.org/packages/16/84/b58120f79184dceb9deb0f1ad810675a3bfa67d7b30fb66145f987f278fc/projectal-4.0.3.tar.gz
+[2023-07-10 07:12:27] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/a8/5a/55d412f2e7a7c46e66575bbdafe19f90124bd11b15eb068fb6fd5b8b3898/tflite-model-maker-nightly-0.4.3.dev202307090511.tar.gz
+[2023-07-10 07:12:27] INFO root fetch - processPackages [besecure-developer-toolkit]: Downloading https://files.pythonhosted.org/packages/85/03/be793a2cc0b16dcf15b3c7344ba4c0df46c6e274c40327c134f47850243b/besecure_developer_toolkit-0.0.7.tar.gz
+[2023-07-10 07:12:27] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/7e/69/b60dd118fa3c33f9ff305ec5ce9de04303dfdfc9be5d286e20cbc1ee1e7b/sdkit-1.0.99.tar.gz
+[2023-07-10 07:12:27] INFO root fetch - processPackages [bg-helper]: Downloading https://files.pythonhosted.org/packages/6d/da/862a04444e742893136b4b7d0b48a3667338b3498bc42676ba315784e642/bg_helper-0.1.9-py3-none-any.whl
+[2023-07-10 07:12:27] INFO root fetch - processPackages [starlette-securecookies]: Downloading https://files.pythonhosted.org/packages/63/e4/2a9c4e928c8eb629876c13da0f768860dea7450f95302dc9af3fb6ccead2/starlette_securecookies-1.1.1.tar.gz
+[2023-07-10 07:12:27] INFO root fetch - processPackages [blint]: Downloading https://files.pythonhosted.org/packages/ef/1d/0d52caf776f421b2974c0acb7dc1b6c2eff608597c6d6f5bceff17b2df85/blint-1.0.9.tar.gz
+[2023-07-10 07:12:27] INFO root fetch - processPackages [v-quantum-annealing]: Downloading https://files.pythonhosted.org/packages/9d/8f/5bc22a08352bc6e11eb0dee3d5cc0e9511595befb00f71e0c4b8fcb5f07b/v_quantum_annealing-0.0.9.tar.gz
+[2023-07-10 07:12:27] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-07-10 07:12:27] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230709.tar.gz tmp/dask-cuda-23.8.0a230710.tar.gz --markdown 20230710/d/dask-cuda/23.8.0a230709-23.8.0a230710/diff.md --exclude *.pyd
+[2023-07-10 07:12:27] INFO root fetch - processPackages [bg-helper]: executing diffoscope
+[2023-07-10 07:12:27] INFO root fetch - processPackages [bg-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bg_helper-0.1.8-py3-none-any.whl.zip tmp/bg_helper-0.1.9-py3-none-any.whl.zip --markdown 20230710/b/bg-helper/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 07:12:27] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-07-10 07:12:27] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230709.tar.gz tmp/rapid_pe-0.1.1.dev20230710.tar.gz --markdown 20230710/r/rapid-pe/0.1.1.dev20230709-0.1.1.dev20230710/diff.md --exclude *.pyd
+[2023-07-10 07:12:27] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-07-10 07:12:27] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.98.tar.gz tmp/sdkit-1.0.99.tar.gz --markdown 20230710/s/sdkit/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-10 07:12:27] INFO root fetch - processPackages [tflite-model-maker-nightly]: executing diffoscope
+[2023-07-10 07:12:27] INFO root fetch - processPackages [tflite-model-maker-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite-model-maker-nightly-0.4.3.dev202307080509.tar.gz tmp/tflite-model-maker-nightly-0.4.3.dev202307090511.tar.gz --markdown 20230710/t/tflite-model-maker-nightly/0.4.3.dev202307080509-0.4.3.dev202307090511/diff.md --exclude *.pyd
+[2023-07-10 07:12:27] INFO root fetch - processPackages [besecure-developer-toolkit]: executing diffoscope
+[2023-07-10 07:12:27] INFO root fetch - processPackages [besecure-developer-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/besecure_developer_toolkit-0.0.6.tar.gz tmp/besecure_developer_toolkit-0.0.7.tar.gz --markdown 20230710/b/besecure-developer-toolkit/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-10 07:12:27] INFO root fetch - processPackages [blint]: executing diffoscope
+[2023-07-10 07:12:27] INFO root fetch - processPackages [blint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blint-1.0.8.tar.gz tmp/blint-1.0.9.tar.gz --markdown 20230710/b/blint/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-10 07:12:27] INFO root fetch - processPackages [starlette-securecookies]: executing diffoscope
+[2023-07-10 07:12:27] INFO root fetch - processPackages [starlette-securecookies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starlette_securecookies-1.1.0.tar.gz tmp/starlette_securecookies-1.1.1.tar.gz --markdown 20230710/s/starlette-securecookies/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-10 07:12:27] INFO root fetch - processPackages [projectal]: executing diffoscope
+[2023-07-10 07:12:27] INFO root fetch - processPackages [projectal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projectal-4.0.2.tar.gz tmp/projectal-4.0.3.tar.gz --markdown 20230710/p/projectal/4.0.2-4.0.3/diff.md --exclude *.pyd
+[2023-07-10 07:12:28] INFO root fetch - processPackages [v-quantum-annealing]: executing diffoscope
+[2023-07-10 07:12:28] INFO root fetch - processPackages [v-quantum-annealing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/v_quantum_annealing-0.0.8.tar.gz tmp/v_quantum_annealing-0.0.9.tar.gz --markdown 20230710/v/v-quantum-annealing/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 07:12:29] INFO root fetch - processPackages [bg-helper]: Remove: archive file [/home/abi/fetcher/tmp/bg_helper-0.1.8-py3-none-any.whl.zip]
+[2023-07-10 07:12:29] INFO root fetch - processPackages [bg-helper]: Remove: archive file [/home/abi/fetcher/tmp/bg_helper-0.1.9-py3-none-any.whl.zip]
+[2023-07-10 07:12:29] INFO root fetch - processPackages [bg-helper]: Start processing: django-restit
+[2023-07-10 07:12:29] INFO root fetch - main [MainThread]: End processing [bg-helper]: success
+[2023-07-10 07:12:29] INFO root fetch - processPackages [besecure-developer-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/besecure_developer_toolkit-0.0.6.tar.gz]
+[2023-07-10 07:12:29] INFO root fetch - processPackages [besecure-developer-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/besecure_developer_toolkit-0.0.7.tar.gz]
+[2023-07-10 07:12:29] INFO root fetch - main [MainThread]: End processing [besecure-developer-toolkit]: success
+[2023-07-10 07:12:29] INFO root fetch - processPackages [starlette-securecookies]: Remove: archive file [/home/abi/fetcher/tmp/starlette_securecookies-1.1.0.tar.gz]
+[2023-07-10 07:12:29] INFO root fetch - processPackages [starlette-securecookies]: Remove: archive file [/home/abi/fetcher/tmp/starlette_securecookies-1.1.1.tar.gz]
+[2023-07-10 07:12:29] INFO root fetch - main [MainThread]: End processing [starlette-securecookies]: success
+[2023-07-10 07:12:29] INFO root fetch - processPackages [django-restit]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-07-10 07:12:29] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230709.tar.gz]
+[2023-07-10 07:12:29] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230710.tar.gz]
+[2023-07-10 07:12:29] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-07-10 07:12:29] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230709.tar.gz]
+[2023-07-10 07:12:29] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230710.tar.gz]
+[2023-07-10 07:12:29] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-07-10 07:12:29] INFO root fetch - processPackages [blint]: Remove: archive file [/home/abi/fetcher/tmp/blint-1.0.8.tar.gz]
+[2023-07-10 07:12:29] INFO root fetch - processPackages [blint]: Remove: archive file [/home/abi/fetcher/tmp/blint-1.0.9.tar.gz]
+[2023-07-10 07:12:29] INFO root fetch - main [MainThread]: End processing [blint]: success
+[2023-07-10 07:12:29] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.98.tar.gz]
+[2023-07-10 07:12:29] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.99.tar.gz]
+[2023-07-10 07:12:29] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-07-10 07:12:29] INFO root fetch - processPackages [django-restit]: Downloading https://files.pythonhosted.org/packages/da/ae/420103630a3547e999a771e2f0cc48ea6cbe6df37da1d6f2e09fd6ffb54f/django_restit-4.0.8.tar.gz
+[2023-07-10 07:12:30] INFO root fetch - processPackages [v-quantum-annealing]: Remove: archive file [/home/abi/fetcher/tmp/v_quantum_annealing-0.0.8.tar.gz]
+[2023-07-10 07:12:30] INFO root fetch - processPackages [v-quantum-annealing]: Remove: archive file [/home/abi/fetcher/tmp/v_quantum_annealing-0.0.9.tar.gz]
+[2023-07-10 07:12:30] INFO root fetch - main [MainThread]: End processing [v-quantum-annealing]: success
+[2023-07-10 07:12:30] INFO root fetch - processPackages [django-restit]: Downloading https://files.pythonhosted.org/packages/18/2c/38b42dbde08990a11e3f6bb4c76720732e68315a7fd9c44f9c220ccdc07c/django_restit-4.0.9.tar.gz
+[2023-07-10 07:12:30] INFO root fetch - processPackages [django-restit]: executing diffoscope
+[2023-07-10 07:12:30] INFO root fetch - processPackages [django-restit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_restit-4.0.8.tar.gz tmp/django_restit-4.0.9.tar.gz --markdown 20230710/d/django-restit/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-07-10 07:12:31] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202307080509.tar.gz]
+[2023-07-10 07:12:31] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202307090511.tar.gz]
+[2023-07-10 07:12:31] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
+[2023-07-10 07:12:31] INFO root fetch - processPackages [projectal]: Remove: archive file [/home/abi/fetcher/tmp/projectal-4.0.2.tar.gz]
+[2023-07-10 07:12:31] INFO root fetch - processPackages [projectal]: Remove: archive file [/home/abi/fetcher/tmp/projectal-4.0.3.tar.gz]
+[2023-07-10 07:12:31] INFO root fetch - main [MainThread]: End processing [projectal]: success
+[2023-07-10 07:12:32] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.0.8.tar.gz]
+[2023-07-10 07:12:32] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.0.9.tar.gz]
+[2023-07-10 07:12:32] INFO root fetch - main [MainThread]: End processing [django-restit]: success
+[2023-07-10 07:12:32] INFO root fetch - main [MainThread]: Store serial: [18826720]
