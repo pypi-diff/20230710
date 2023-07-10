@@ -21349,3 +21349,218 @@ EOFError: EOF read where object expected
 [2023-07-10 16:57:26] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-26.1.3rc3-cp39-cp39-win_amd64.whl.zip]
 [2023-07-10 16:57:26] INFO root fetch - main [MainThread]: End processing [Geode-Common]: success
 [2023-07-10 16:57:26] INFO root fetch - main [MainThread]: Store serial: [18832304]
+[2023-07-10 17:02:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18832304]
+[2023-07-10 17:02:37] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-07-10 17:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nibe
+[2023-07-10 17:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: volworld-aws-api-common
+[2023-07-10 17:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: analysis-tools
+[2023-07-10 17:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wordle-helper-uc
+[2023-07-10 17:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openlane
+[2023-07-10 17:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edc-notification
+[2023-07-10 17:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: webpageinfo
+[2023-07-10 17:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mariqt
+[2023-07-10 17:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kiwi
+[2023-07-10 17:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cogment
+[2023-07-10 17:02:37] INFO root fetch - processPackages [kiwi]: New version: [9.8.0] Old Version: [9.7.4]
+[2023-07-10 17:02:37] INFO root fetch - processPackages [analysis-tools]: New version: [0.2.1] Old Version: [0.1.2]
+[2023-07-10 17:02:37] INFO root fetch - processPackages [wordle-helper-uc]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-10 17:02:37] INFO root fetch - processPackages [volworld-aws-api-common]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-10 17:02:37] INFO root fetch - processPackages [openlane]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-07-10 17:02:37] INFO root fetch - processPackages [cogment]: New version: [2.8.2] Old Version: [2.8.1]
+[2023-07-10 17:02:37] INFO root fetch - processPackages [webpageinfo]: New version: [2023.7.10] Old Version: [2022.5.27]
+[2023-07-10 17:02:37] INFO root fetch - processPackages [edc-notification]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-10 17:02:37] INFO root fetch - processPackages [wordle-helper-uc]: Downloading https://files.pythonhosted.org/packages/75/20/282b89858c919457afafbf258782d752a370edf45bbdc3c6ade1fa48b4a3/wordle_helper_uc-0.1.2.tar.gz
+[2023-07-10 17:02:37] INFO root fetch - processPackages [nibe]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-07-10 17:02:37] INFO root fetch - processPackages [mariqt]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-10 17:02:37] INFO root fetch - processPackages [volworld-aws-api-common]: Downloading https://files.pythonhosted.org/packages/c7/82/7aefcc55e9d34309e43a1c4f62f535a10cbf84c23f14b0b54efb88505de6/volworld_aws_api_common-0.1.98.tar.gz
+[2023-07-10 17:02:37] INFO root fetch - processPackages [analysis-tools]: Downloading https://files.pythonhosted.org/packages/83/57/2661a750ebc5f1bc0406b4b2a642f21f69d8a4a48cf4843b858d57ffec1e/analysis-tools-0.1.2.tar.gz
+[2023-07-10 17:02:37] INFO root fetch - processPackages [kiwi]: executing diffoscope
+[2023-07-10 17:02:37] INFO root fetch - processPackages [kiwi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiwi-9.7.4.tar.gz tmp/kiwi-9.8.0.tar.gz --markdown 20230710/k/kiwi/9.7.4-9.8.0/diff.md --exclude *.pyd
+[2023-07-10 17:02:37] INFO root fetch - processPackages [cogment]: Downloading https://files.pythonhosted.org/packages/8d/0e/b890fad1860f3d38d75a5287d9cfefb59e189220860f22f901ccd1888b29/cogment-2.8.1.tar.gz
+[2023-07-10 17:02:37] INFO root fetch - processPackages [webpageinfo]: Downloading https://files.pythonhosted.org/packages/20/6c/8ded9e6fdaffb046a15d286412dc50c55597198bdd452af823123ebc9610/webpageinfo-2022.5.27.tar.gz
+[2023-07-10 17:02:37] INFO root fetch - processPackages [nibe]: Downloading https://files.pythonhosted.org/packages/cc/97/7b5c94029deccecfc8268360da75377f02e4ffe7f097e043a1ad2d7cb7ce/nibe-2.2.0.tar.gz
+[2023-07-10 17:02:37] INFO root fetch - processPackages [openlane]: Downloading https://files.pythonhosted.org/packages/f9/e1/2bc6d40f7a838d2e5cfcd0d8b4d3b5f2a822440b2a94b0ce02148cab52bc/openlane-2.0.0a8.tar.gz
+[2023-07-10 17:02:37] INFO root fetch - processPackages [wordle-helper-uc]: Downloading https://files.pythonhosted.org/packages/7b/46/975711ee08cb2d42897026813e511c632cce7d55c7dee5f046e2d6833644/wordle_helper_uc-0.2.0.tar.gz
+[2023-07-10 17:02:38] INFO root fetch - processPackages [edc-notification]: Downloading https://files.pythonhosted.org/packages/b8/1a/bda920041499f01259342b9a7a45fc3033e75d0bcf7debc4d0be4f93a5a1/edc_notification-0.3.8-py3-none-any.whl
+[2023-07-10 17:02:38] INFO root fetch - processPackages [mariqt]: Downloading https://files.pythonhosted.org/packages/70/ea/2dac44714de87bde55d9000c30bd4e9df6ea38e580e0ba8a3c9a6454da79/mariqt-0.5.1-py2.py3-none-any.whl
+[2023-07-10 17:02:38] INFO root fetch - processPackages [volworld-aws-api-common]: Downloading https://files.pythonhosted.org/packages/85/c0/0151fa36df35a94f04ec24e70e3a88eb186696b9f9258ee1d18d894c66d6/volworld_aws_api_common-0.1.99.tar.gz
+[2023-07-10 17:02:38] INFO root fetch - processPackages [analysis-tools]: Downloading https://files.pythonhosted.org/packages/65/22/d161d44771c533a0b5ad252207c9d4737ebae12b790712c6ef69d5b6b8c2/analysis-tools-0.2.1.tar.gz
+[2023-07-10 17:02:38] INFO root fetch - processPackages [wordle-helper-uc]: executing diffoscope
+[2023-07-10 17:02:38] INFO root fetch - processPackages [wordle-helper-uc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wordle_helper_uc-0.1.2.tar.gz tmp/wordle_helper_uc-0.2.0.tar.gz --markdown 20230710/w/wordle-helper-uc/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-10 17:02:38] INFO root fetch - processPackages [volworld-aws-api-common]: executing diffoscope
+[2023-07-10 17:02:38] INFO root fetch - processPackages [volworld-aws-api-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volworld_aws_api_common-0.1.98.tar.gz tmp/volworld_aws_api_common-0.1.99.tar.gz --markdown 20230710/v/volworld-aws-api-common/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-10 17:02:38] INFO root fetch - processPackages [webpageinfo]: Downloading https://files.pythonhosted.org/packages/90/7a/5f1d4d4f03c1c2d7ba351150073f162269ef166e54eccbfc8515c27ea0f2/webpageinfo-2023.7.10.tar.gz
+[2023-07-10 17:02:38] INFO root fetch - processPackages [cogment]: Downloading https://files.pythonhosted.org/packages/be/ac/d7f9b2586ac0ffabe33dc4f2462a3192f6831275811f2081db1845874b86/cogment-2.8.2.tar.gz
+[2023-07-10 17:02:38] INFO root fetch - processPackages [openlane]: Downloading https://files.pythonhosted.org/packages/3b/36/ef13f9e1e09e4ec49090d033dcc88d1ce603bd51886f214690e50b2e5357/openlane-2.0.0a9.tar.gz
+[2023-07-10 17:02:38] INFO root fetch - processPackages [analysis-tools]: executing diffoscope
+[2023-07-10 17:02:38] INFO root fetch - processPackages [analysis-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/analysis-tools-0.1.2.tar.gz tmp/analysis-tools-0.2.1.tar.gz --markdown 20230710/a/analysis-tools/0.1.2-0.2.1/diff.md --exclude *.pyd
+[2023-07-10 17:02:38] INFO root fetch - processPackages [edc-notification]: Downloading https://files.pythonhosted.org/packages/d2/e9/8ead99b35d327ac0996299b626ba7e61fcfb6c2f82372bc232d4c55f47cf/edc_notification-0.3.9-py3-none-any.whl
+[2023-07-10 17:02:38] INFO root fetch - processPackages [mariqt]: Downloading https://files.pythonhosted.org/packages/7e/fb/18daf4dc1edb6c2e16363c8f30a9dddab47d15e821a0b7a100b8bb966f68/mariqt-0.5.2-py2.py3-none-any.whl
+[2023-07-10 17:02:38] INFO root fetch - processPackages [openlane]: executing diffoscope
+[2023-07-10 17:02:38] INFO root fetch - processPackages [openlane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlane-2.0.0a8.tar.gz tmp/openlane-2.0.0a9.tar.gz --markdown 20230710/o/openlane/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-07-10 17:02:38] INFO root fetch - processPackages [webpageinfo]: executing diffoscope
+[2023-07-10 17:02:38] INFO root fetch - processPackages [webpageinfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webpageinfo-2022.5.27.tar.gz tmp/webpageinfo-2023.7.10.tar.gz --markdown 20230710/w/webpageinfo/2022.5.27-2023.7.10/diff.md --exclude *.pyd
+[2023-07-10 17:02:38] INFO root fetch - processPackages [cogment]: executing diffoscope
+[2023-07-10 17:02:38] INFO root fetch - processPackages [cogment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cogment-2.8.1.tar.gz tmp/cogment-2.8.2.tar.gz --markdown 20230710/c/cogment/2.8.1-2.8.2/diff.md --exclude *.pyd
+[2023-07-10 17:02:38] INFO root fetch - processPackages [nibe]: Downloading https://files.pythonhosted.org/packages/88/85/276800b014bd47ffa52458151f9ea3d4c7cc5f98003b632a9c8c7f43c54b/nibe-2.3.0.tar.gz
+[2023-07-10 17:02:38] INFO root fetch - processPackages [edc-notification]: executing diffoscope
+[2023-07-10 17:02:38] INFO root fetch - processPackages [edc-notification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_notification-0.3.8-py3-none-any.whl.zip tmp/edc_notification-0.3.9-py3-none-any.whl.zip --markdown 20230710/e/edc-notification/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-10 17:02:38] INFO root fetch - processPackages [mariqt]: executing diffoscope
+[2023-07-10 17:02:38] INFO root fetch - processPackages [mariqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mariqt-0.5.1-py2.py3-none-any.whl.zip tmp/mariqt-0.5.2-py2.py3-none-any.whl.zip --markdown 20230710/m/mariqt/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-10 17:02:38] INFO root fetch - processPackages [nibe]: executing diffoscope
+[2023-07-10 17:02:38] INFO root fetch - processPackages [nibe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nibe-2.2.0.tar.gz tmp/nibe-2.3.0.tar.gz --markdown 20230710/n/nibe/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-07-10 17:02:39] INFO root fetch - processPackages [wordle-helper-uc]: Remove: archive file [/home/abi/fetcher/tmp/wordle_helper_uc-0.1.2.tar.gz]
+[2023-07-10 17:02:39] INFO root fetch - processPackages [wordle-helper-uc]: Remove: archive file [/home/abi/fetcher/tmp/wordle_helper_uc-0.2.0.tar.gz]
+[2023-07-10 17:02:39] INFO root fetch - processPackages [wordle-helper-uc]: Start processing: dbdemos
+[2023-07-10 17:02:39] INFO root fetch - main [MainThread]: End processing [wordle-helper-uc]: success
+[2023-07-10 17:02:39] INFO root fetch - processPackages [dbdemos]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-10 17:02:39] INFO root fetch - processPackages [analysis-tools]: Remove: archive file [/home/abi/fetcher/tmp/analysis-tools-0.1.2.tar.gz]
+[2023-07-10 17:02:39] INFO root fetch - processPackages [analysis-tools]: Remove: archive file [/home/abi/fetcher/tmp/analysis-tools-0.2.1.tar.gz]
+[2023-07-10 17:02:39] INFO root fetch - processPackages [analysis-tools]: Start processing: pymilldb
+[2023-07-10 17:02:39] INFO root fetch - main [MainThread]: End processing [analysis-tools]: success
+[2023-07-10 17:02:40] INFO root fetch - processPackages [webpageinfo]: Remove: archive file [/home/abi/fetcher/tmp/webpageinfo-2022.5.27.tar.gz]
+[2023-07-10 17:02:40] INFO root fetch - processPackages [webpageinfo]: Remove: archive file [/home/abi/fetcher/tmp/webpageinfo-2023.7.10.tar.gz]
+[2023-07-10 17:02:40] INFO root fetch - processPackages [webpageinfo]: Start processing: hak
+[2023-07-10 17:02:40] INFO root fetch - main [MainThread]: End processing [webpageinfo]: success
+[2023-07-10 17:02:40] INFO root fetch - processPackages [volworld-aws-api-common]: Remove: archive file [/home/abi/fetcher/tmp/volworld_aws_api_common-0.1.98.tar.gz]
+[2023-07-10 17:02:40] INFO root fetch - processPackages [volworld-aws-api-common]: Remove: archive file [/home/abi/fetcher/tmp/volworld_aws_api_common-0.1.99.tar.gz]
+[2023-07-10 17:02:40] INFO root fetch - processPackages [volworld-aws-api-common]: Start processing: edc-offstudy
+[2023-07-10 17:02:40] INFO root fetch - main [MainThread]: End processing [volworld-aws-api-common]: success
+[2023-07-10 17:02:40] INFO root fetch - processPackages [pymilldb]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 17:02:40] INFO root fetch - processPackages [dbdemos]: Downloading https://files.pythonhosted.org/packages/6c/c5/9454bae82e5fb5c1b0134e7c26d6cc743c4c92ae262fcd50a4f297cc5054/dbdemos-0.3.8-py3-none-any.whl
+[2023-07-10 17:02:40] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 17:02:40] INFO root fetch - processPackages [edc-offstudy]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-10 17:02:40] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/05/17/ad5ef91170b7c0e991a9c8bffa9f9a2dcf3961d5e90c31185bdf3ce8f425/hak-0.0.8.tar.gz
+[2023-07-10 17:02:40] WARNING root fetch - processPackages [dbdemos]: Skipping package: exceeds size limit 29692537>=10485760
+[2023-07-10 17:02:40] INFO root fetch - processPackages [dbdemos]: Start processing: neuralpit
+[2023-07-10 17:02:40] INFO root fetch - main [MainThread]: End processing [dbdemos] error
+[2023-07-10 17:02:40] INFO root fetch - processPackages [pymilldb]: Downloading https://files.pythonhosted.org/packages/ef/f8/33202b9d5a47847bd384c6b2e2799cc890b751b824afb7b514e713cc7ca4/pymilldb-0.0.8.tar.gz
+[2023-07-10 17:02:40] INFO root fetch - processPackages [edc-notification]: Remove: archive file [/home/abi/fetcher/tmp/edc_notification-0.3.8-py3-none-any.whl.zip]
+[2023-07-10 17:02:40] INFO root fetch - processPackages [edc-notification]: Remove: archive file [/home/abi/fetcher/tmp/edc_notification-0.3.9-py3-none-any.whl.zip]
+[2023-07-10 17:02:40] INFO root fetch - processPackages [edc-notification]: Start processing: rigatoni
+[2023-07-10 17:02:40] INFO root fetch - main [MainThread]: End processing [edc-notification]: success
+[2023-07-10 17:02:40] INFO root fetch - processPackages [edc-offstudy]: Downloading https://files.pythonhosted.org/packages/57/af/87cfa4f986ae6562b4a0ce1daeb617c81d34e9b68fcb66c6362f4ba27cb4/edc_offstudy-0.3.8-py3-none-any.whl
+[2023-07-10 17:02:40] INFO root fetch - processPackages [neuralpit]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-07-10 17:02:40] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/fd/2b/bf7b3451d5e3a84e9a674b47e9f046c4db1f582764a85a4dfc00e14ecf00/hak-0.0.9.tar.gz
+[2023-07-10 17:02:40] INFO root fetch - processPackages [cogment]: Remove: archive file [/home/abi/fetcher/tmp/cogment-2.8.1.tar.gz]
+[2023-07-10 17:02:40] INFO root fetch - processPackages [cogment]: Remove: archive file [/home/abi/fetcher/tmp/cogment-2.8.2.tar.gz]
+[2023-07-10 17:02:40] INFO root fetch - processPackages [cogment]: Start processing: our-browser
+[2023-07-10 17:02:40] INFO root fetch - main [MainThread]: End processing [cogment]: success
+[2023-07-10 17:02:40] INFO root fetch - processPackages [mariqt]: Remove: archive file [/home/abi/fetcher/tmp/mariqt-0.5.1-py2.py3-none-any.whl.zip]
+[2023-07-10 17:02:40] INFO root fetch - processPackages [mariqt]: Remove: archive file [/home/abi/fetcher/tmp/mariqt-0.5.2-py2.py3-none-any.whl.zip]
+[2023-07-10 17:02:40] INFO root fetch - processPackages [mariqt]: Start processing: google-cloud-bigquery-connection
+[2023-07-10 17:02:40] INFO root fetch - main [MainThread]: End processing [mariqt]: success
+[2023-07-10 17:02:40] INFO root fetch - processPackages [rigatoni]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-10 17:02:40] INFO root fetch - processPackages [pymilldb]: Downloading https://files.pythonhosted.org/packages/73/32/cb3b4141fea5e3b4cab0fc65e33229f29069eb69217f040c9a4c845e2516/pymilldb-0.0.9.tar.gz
+[2023-07-10 17:02:40] WARNING root fetch - processPackages [our-browser]: Skipping, unable to determine old version
+[2023-07-10 17:02:40] INFO root fetch - processPackages [our-browser]: Start processing: edc-pharmacy
+[2023-07-10 17:02:40] INFO root fetch - main [MainThread]: End processing [our-browser] error
+[2023-07-10 17:02:40] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-07-10 17:02:40] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.8.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230710/h/hak/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 17:02:40] INFO root fetch - processPackages [google-cloud-bigquery-connection]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-10 17:02:40] INFO root fetch - processPackages [pymilldb]: executing diffoscope
+[2023-07-10 17:02:40] INFO root fetch - processPackages [pymilldb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymilldb-0.0.8.tar.gz tmp/pymilldb-0.0.9.tar.gz --markdown 20230710/p/pymilldb/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 17:02:40] INFO root fetch - processPackages [rigatoni]: Downloading https://files.pythonhosted.org/packages/09/c2/9493a03e5dec56b7067756a04eb8eb7f428be9caa42501e707dfb4c8c2f2/rigatoni-0.2.4.tar.gz
+[2023-07-10 17:02:40] INFO root fetch - processPackages [edc-pharmacy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 17:02:40] INFO root fetch - processPackages [neuralpit]: Downloading https://files.pythonhosted.org/packages/9f/60/27fa84fd2ed28d6ecce9a9cf97b2ba27e10b86d0da472bce0d002ea90cf8/neuralpit-2.0.3.tar.gz
+[2023-07-10 17:02:40] INFO root fetch - processPackages [edc-offstudy]: Downloading https://files.pythonhosted.org/packages/ff/f0/94595ad2bf3fec15ce4be8d760ae5891973a1725e203b8fe2567273919a1/edc_offstudy-0.3.9-py3-none-any.whl
+[2023-07-10 17:02:40] INFO root fetch - processPackages [openlane]: Remove: archive file [/home/abi/fetcher/tmp/openlane-2.0.0a8.tar.gz]
+[2023-07-10 17:02:40] INFO root fetch - processPackages [openlane]: Remove: archive file [/home/abi/fetcher/tmp/openlane-2.0.0a9.tar.gz]
+[2023-07-10 17:02:40] INFO root fetch - processPackages [openlane]: Start processing: quantconnect-stubs
+[2023-07-10 17:02:40] INFO root fetch - main [MainThread]: End processing [openlane]: success
+[2023-07-10 17:02:40] INFO root fetch - processPackages [google-cloud-bigquery-connection]: Downloading https://files.pythonhosted.org/packages/b8/d9/d9fe2520d580b1e2e5ee13d0a6a2d165eb85f3e140bef394e233dc3c1998/google-cloud-bigquery-connection-1.9.0.tar.gz
+[2023-07-10 17:02:40] INFO root fetch - processPackages [edc-pharmacy]: Downloading https://files.pythonhosted.org/packages/d8/fd/29ba85dbb1a66fdc98d26e782a7eda1905ff01caa1381d521720403282cd/edc-pharmacy-0.1.8.tar.gz
+[2023-07-10 17:02:41] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-07-10 17:02:41] INFO root fetch - processPackages [nibe]: Remove: archive file [/home/abi/fetcher/tmp/nibe-2.2.0.tar.gz]
+[2023-07-10 17:02:41] INFO root fetch - processPackages [nibe]: Remove: archive file [/home/abi/fetcher/tmp/nibe-2.3.0.tar.gz]
+[2023-07-10 17:02:41] INFO root fetch - processPackages [neuralpit]: Downloading https://files.pythonhosted.org/packages/4a/9f/5ee4560c5c4dd3237a0d1c75d4b23052451881a4a0ca365c2a329dced6d9/neuralpit-2.0.4.tar.gz
+[2023-07-10 17:02:41] INFO root fetch - processPackages [nibe]: Start processing: telegramweb
+[2023-07-10 17:02:41] INFO root fetch - main [MainThread]: End processing [nibe]: success
+[2023-07-10 17:02:41] INFO root fetch - processPackages [telegramweb]: New version: [5.9] Old Version: [5.8]
+[2023-07-10 17:02:41] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/c1/05/f15c16a3f852decfd032ce1688dfdf02fd7289f1780742453533e8c55209/quantconnect-stubs-9997.tar.gz
+[2023-07-10 17:02:41] INFO root fetch - processPackages [telegramweb]: Downloading https://files.pythonhosted.org/packages/18/4a/65e6f1ad6d5aca7dec4f4b1f6d3d18238591913126ed295223b7a7432f7d/telegramweb-5.8.tar.gz
+[2023-07-10 17:02:41] INFO root fetch - processPackages [edc-offstudy]: executing diffoscope
+[2023-07-10 17:02:41] INFO root fetch - processPackages [edc-offstudy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_offstudy-0.3.8-py3-none-any.whl.zip tmp/edc_offstudy-0.3.9-py3-none-any.whl.zip --markdown 20230710/e/edc-offstudy/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-10 17:02:41] INFO root fetch - processPackages [rigatoni]: Downloading https://files.pythonhosted.org/packages/fb/f3/abfe9c4736f3f553b3b45c64144549f65e938c3feb9bf7f0149f6c48f6f7/rigatoni-0.2.5.tar.gz
+[2023-07-10 17:02:41] INFO root fetch - processPackages [neuralpit]: executing diffoscope
+[2023-07-10 17:02:41] INFO root fetch - processPackages [neuralpit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuralpit-2.0.3.tar.gz tmp/neuralpit-2.0.4.tar.gz --markdown 20230710/n/neuralpit/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-07-10 17:02:41] INFO root fetch - processPackages [edc-pharmacy]: Downloading https://files.pythonhosted.org/packages/76/98/716ce513dd96a255a4e89d06aee44a862e1236127efdc48e078ab9c8ecd1/edc-pharmacy-0.1.9.tar.gz
+[2023-07-10 17:02:41] INFO root fetch - processPackages [google-cloud-bigquery-connection]: Downloading https://files.pythonhosted.org/packages/b3/10/1ef38064e9633782d98a371ec43e6cdcc164f5649db0de2185924a8c937c/google-cloud-bigquery-connection-1.9.1.tar.gz
+[2023-07-10 17:02:41] INFO root fetch - processPackages [pymilldb]: Remove: archive file [/home/abi/fetcher/tmp/pymilldb-0.0.8.tar.gz]
+[2023-07-10 17:02:41] INFO root fetch - processPackages [pymilldb]: Remove: archive file [/home/abi/fetcher/tmp/pymilldb-0.0.9.tar.gz]
+[2023-07-10 17:02:41] INFO root fetch - processPackages [pymilldb]: Start processing: Jedutils
+[2023-07-10 17:02:41] INFO root fetch - main [MainThread]: End processing [pymilldb]: success
+[2023-07-10 17:02:41] INFO root fetch - processPackages [edc-pharmacy]: executing diffoscope
+[2023-07-10 17:02:41] INFO root fetch - processPackages [edc-pharmacy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-pharmacy-0.1.8.tar.gz tmp/edc-pharmacy-0.1.9.tar.gz --markdown 20230710/e/edc-pharmacy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 17:02:41] INFO root fetch - processPackages [google-cloud-bigquery-connection]: executing diffoscope
+[2023-07-10 17:02:41] INFO root fetch - processPackages [google-cloud-bigquery-connection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-bigquery-connection-1.9.0.tar.gz tmp/google-cloud-bigquery-connection-1.9.1.tar.gz --markdown 20230710/g/google-cloud-bigquery-connection/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-10 17:02:41] INFO root fetch - processPackages [telegramweb]: Downloading https://files.pythonhosted.org/packages/6d/09/31fcf1ac6c9808b460a5841260cfb6bfe5cb47e87bdf5c265933b645a905/telegramweb-5.9.tar.gz
+[2023-07-10 17:02:41] INFO root fetch - processPackages [Jedutils]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-10 17:02:41] INFO root fetch - processPackages [telegramweb]: executing diffoscope
+[2023-07-10 17:02:41] INFO root fetch - processPackages [telegramweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegramweb-5.8.tar.gz tmp/telegramweb-5.9.tar.gz --markdown 20230710/t/telegramweb/5.8-5.9/diff.md --exclude *.pyd
+[2023-07-10 17:02:42] INFO root fetch - processPackages [Jedutils]: Downloading https://files.pythonhosted.org/packages/a0/69/294871021d2f4b115202439468f6fd5f782e5e2fe23c731e01aa5d7858d4/Jedutils-0.1.2.tar.gz
+[2023-07-10 17:02:42] INFO root fetch - processPackages [rigatoni]: executing diffoscope
+[2023-07-10 17:02:42] INFO root fetch - processPackages [rigatoni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rigatoni-0.2.4.tar.gz tmp/rigatoni-0.2.5.tar.gz --markdown 20230710/r/rigatoni/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-10 17:02:42] INFO root fetch - processPackages [Jedutils]: Downloading https://files.pythonhosted.org/packages/c8/71/e965ac62f4caf0fdd801e3f23ab489f7af0b2ecbfadfa682893dce8d4823/Jedutils-0.1.3.tar.gz
+[2023-07-10 17:02:42] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.8.tar.gz]
+[2023-07-10 17:02:42] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
+[2023-07-10 17:02:42] INFO root fetch - processPackages [hak]: Start processing: odd-cli
+[2023-07-10 17:02:42] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-07-10 17:02:42] INFO root fetch - processPackages [odd-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 17:02:42] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/b7/4c/71e6bb724f14efcd8865f2aa692528a4c45877c58f5cf8c964a8e0fc0e74/quantconnect-stubs-9998.tar.gz
+[2023-07-10 17:02:42] INFO root fetch - processPackages [neuralpit]: Remove: archive file [/home/abi/fetcher/tmp/neuralpit-2.0.3.tar.gz]
+[2023-07-10 17:02:42] INFO root fetch - processPackages [neuralpit]: Remove: archive file [/home/abi/fetcher/tmp/neuralpit-2.0.4.tar.gz]
+[2023-07-10 17:02:42] INFO root fetch - processPackages [neuralpit]: Start processing: signhost-api-python-client
+[2023-07-10 17:02:42] INFO root fetch - main [MainThread]: End processing [neuralpit]: success
+[2023-07-10 17:02:42] INFO root fetch - processPackages [Jedutils]: executing diffoscope
+[2023-07-10 17:02:42] INFO root fetch - processPackages [Jedutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Jedutils-0.1.2.tar.gz tmp/Jedutils-0.1.3.tar.gz --markdown 20230710/J/Jedutils/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-10 17:02:42] INFO root fetch - processPackages [odd-cli]: Downloading https://files.pythonhosted.org/packages/da/28/d59ec31015858eae56e776c482a6d087078806f2a41e3857b6903cecac2a/odd_cli-0.1.8.tar.gz
+[2023-07-10 17:02:42] INFO root fetch - processPackages [signhost-api-python-client]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-10 17:02:42] INFO root fetch - processPackages [edc-offstudy]: Remove: archive file [/home/abi/fetcher/tmp/edc_offstudy-0.3.8-py3-none-any.whl.zip]
+[2023-07-10 17:02:42] INFO root fetch - processPackages [edc-offstudy]: Remove: archive file [/home/abi/fetcher/tmp/edc_offstudy-0.3.9-py3-none-any.whl.zip]
+[2023-07-10 17:02:42] INFO root fetch - processPackages [edc-offstudy]: Start processing: pytest-is-running
+[2023-07-10 17:02:42] INFO root fetch - main [MainThread]: End processing [edc-offstudy]: success
+[2023-07-10 17:02:42] INFO root fetch - processPackages [odd-cli]: Downloading https://files.pythonhosted.org/packages/f9/f5/14c61e8cbd460872feffaa66736fc22bb7b7ec0e7dd265674cd0d657ccc4/odd_cli-0.1.9.tar.gz
+[2023-07-10 17:02:42] INFO root fetch - processPackages [pytest-is-running]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-07-10 17:02:42] INFO root fetch - processPackages [odd-cli]: executing diffoscope
+[2023-07-10 17:02:42] INFO root fetch - processPackages [odd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odd_cli-0.1.8.tar.gz tmp/odd_cli-0.1.9.tar.gz --markdown 20230710/o/odd-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 17:02:43] INFO root fetch - processPackages [pytest-is-running]: Downloading https://files.pythonhosted.org/packages/b4/81/b74e20e14f9f8949a287fb8c23e3c249c8e37e2ee1fe2deacf6ffbb7a524/pytest_is_running-1.4.0.tar.gz
+[2023-07-10 17:02:43] INFO root fetch - processPackages [signhost-api-python-client]: Downloading https://files.pythonhosted.org/packages/42/46/6f06e9615f49faa57b7012089728e96d9541ab8d1035131cb836b647b843/signhost_api_python_client-0.2.0.tar.gz
+[2023-07-10 17:02:43] INFO root fetch - processPackages [google-cloud-bigquery-connection]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-bigquery-connection-1.9.0.tar.gz]
+[2023-07-10 17:02:43] INFO root fetch - processPackages [google-cloud-bigquery-connection]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-bigquery-connection-1.9.1.tar.gz]
+[2023-07-10 17:02:43] INFO root fetch - main [MainThread]: End processing [google-cloud-bigquery-connection]: success
+[2023-07-10 17:02:43] INFO root fetch - processPackages [telegramweb]: Remove: archive file [/home/abi/fetcher/tmp/telegramweb-5.8.tar.gz]
+[2023-07-10 17:02:43] INFO root fetch - processPackages [telegramweb]: Remove: archive file [/home/abi/fetcher/tmp/telegramweb-5.9.tar.gz]
+[2023-07-10 17:02:43] INFO root fetch - main [MainThread]: End processing [telegramweb]: success
+[2023-07-10 17:02:43] INFO root fetch - processPackages [edc-pharmacy]: Remove: archive file [/home/abi/fetcher/tmp/edc-pharmacy-0.1.8.tar.gz]
+[2023-07-10 17:02:43] INFO root fetch - processPackages [edc-pharmacy]: Remove: archive file [/home/abi/fetcher/tmp/edc-pharmacy-0.1.9.tar.gz]
+[2023-07-10 17:02:43] INFO root fetch - main [MainThread]: End processing [edc-pharmacy]: success
+[2023-07-10 17:02:43] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-07-10 17:02:43] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230710/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-07-10 17:02:43] INFO root fetch - processPackages [pytest-is-running]: Downloading https://files.pythonhosted.org/packages/b8/2d/797d2e84cb2bc1c1f6ef38833e81b9ea67a33c8cf69f2649aaffc8d7bfe9/pytest_is_running-1.5.0.tar.gz
+[2023-07-10 17:02:43] INFO root fetch - processPackages [Jedutils]: Remove: archive file [/home/abi/fetcher/tmp/Jedutils-0.1.2.tar.gz]
+[2023-07-10 17:02:43] INFO root fetch - processPackages [Jedutils]: Remove: archive file [/home/abi/fetcher/tmp/Jedutils-0.1.3.tar.gz]
+[2023-07-10 17:02:43] INFO root fetch - main [MainThread]: End processing [Jedutils]: success
+[2023-07-10 17:02:43] INFO root fetch - processPackages [signhost-api-python-client]: Downloading https://files.pythonhosted.org/packages/32/f0/323adef02c96684d1f798d714f4eba1da3341f2ab264261f568f059ef318/signhost_api_python_client-0.3.0.tar.gz
+[2023-07-10 17:02:43] INFO root fetch - processPackages [pytest-is-running]: executing diffoscope
+[2023-07-10 17:02:43] INFO root fetch - processPackages [pytest-is-running]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_is_running-1.4.0.tar.gz tmp/pytest_is_running-1.5.0.tar.gz --markdown 20230710/p/pytest-is-running/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-07-10 17:02:43] INFO root fetch - processPackages [signhost-api-python-client]: executing diffoscope
+[2023-07-10 17:02:43] INFO root fetch - processPackages [signhost-api-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signhost_api_python_client-0.2.0.tar.gz tmp/signhost_api_python_client-0.3.0.tar.gz --markdown 20230710/s/signhost-api-python-client/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-10 17:02:44] INFO root fetch - processPackages [odd-cli]: Remove: archive file [/home/abi/fetcher/tmp/odd_cli-0.1.8.tar.gz]
+[2023-07-10 17:02:44] INFO root fetch - processPackages [odd-cli]: Remove: archive file [/home/abi/fetcher/tmp/odd_cli-0.1.9.tar.gz]
+[2023-07-10 17:02:44] INFO root fetch - main [MainThread]: End processing [odd-cli]: success
+[2023-07-10 17:02:44] INFO root fetch - processPackages [rigatoni]: Remove: archive file [/home/abi/fetcher/tmp/rigatoni-0.2.4.tar.gz]
+[2023-07-10 17:02:44] INFO root fetch - processPackages [rigatoni]: Remove: archive file [/home/abi/fetcher/tmp/rigatoni-0.2.5.tar.gz]
+[2023-07-10 17:02:44] INFO root fetch - main [MainThread]: End processing [rigatoni]: success
+[2023-07-10 17:02:44] INFO root fetch - processPackages [pytest-is-running]: Remove: archive file [/home/abi/fetcher/tmp/pytest_is_running-1.4.0.tar.gz]
+[2023-07-10 17:02:44] INFO root fetch - processPackages [pytest-is-running]: Remove: archive file [/home/abi/fetcher/tmp/pytest_is_running-1.5.0.tar.gz]
+[2023-07-10 17:02:44] INFO root fetch - main [MainThread]: End processing [pytest-is-running]: success
+[2023-07-10 17:02:44] INFO root fetch - processPackages [signhost-api-python-client]: Remove: archive file [/home/abi/fetcher/tmp/signhost_api_python_client-0.2.0.tar.gz]
+[2023-07-10 17:02:44] INFO root fetch - processPackages [signhost-api-python-client]: Remove: archive file [/home/abi/fetcher/tmp/signhost_api_python_client-0.3.0.tar.gz]
+[2023-07-10 17:02:44] INFO root fetch - main [MainThread]: End processing [signhost-api-python-client]: success
+[2023-07-10 17:02:46] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9997.tar.gz]
+[2023-07-10 17:02:46] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
+[2023-07-10 17:02:46] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-07-10 17:05:37] ERROR root fetch - processPackages [kiwi]: Timeout during execution of pkgdiff
+[2023-07-10 17:05:37] INFO root fetch - main [MainThread]: End processing [kiwi] error
+[2023-07-10 17:05:37] INFO root fetch - main [MainThread]: Store serial: [18832379]
