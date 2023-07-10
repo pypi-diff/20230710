@@ -23325,3 +23325,158 @@ EOFError: EOF read where object expected
 [2023-07-10 18:03:58] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.3.9.tar.gz]
 [2023-07-10 18:03:58] INFO root fetch - main [MainThread]: End processing [agixt]: success
 [2023-07-10 18:03:58] INFO root fetch - main [MainThread]: Store serial: [18833151]
+[2023-07-10 18:09:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18833151]
+[2023-07-10 18:09:07] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-10 18:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scsd
+[2023-07-10 18:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycti
+[2023-07-10 18:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rekuest
+[2023-07-10 18:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fluss
+[2023-07-10 18:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datatransform
+[2023-07-10 18:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: reaktion
+[2023-07-10 18:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mikro
+[2023-07-10 18:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: helios-opentelemetry-sdk
+[2023-07-10 18:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ns-asphalt9
+[2023-07-10 18:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: arkitekt
+[2023-07-10 18:09:08] INFO root fetch - processPackages [scsd]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-10 18:09:08] INFO root fetch - processPackages [reaktion]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 18:09:08] INFO root fetch - processPackages [ns-asphalt9]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-10 18:09:08] INFO root fetch - processPackages [datatransform]: New version: [1.2] Old Version: [1.1]
+[2023-07-10 18:09:08] INFO root fetch - processPackages [pycti]: New version: [5.9.0] Old Version: [5.8.7]
+[2023-07-10 18:09:08] INFO root fetch - processPackages [helios-opentelemetry-sdk]: New version: [1.0.98] Old Version: [1.0.97]
+[2023-07-10 18:09:08] INFO root fetch - processPackages [arkitekt]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-07-10 18:09:08] INFO root fetch - processPackages [rekuest]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 18:09:08] INFO root fetch - processPackages [fluss]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 18:09:08] INFO root fetch - processPackages [ns-asphalt9]: Downloading https://files.pythonhosted.org/packages/2e/82/eb17daeb1dd3bdb0fcbdd12b66cdacd82e66348a0663404623d62ae77660/ns_asphalt9-0.1.1.tar.gz
+[2023-07-10 18:09:08] INFO root fetch - processPackages [mikro]: New version: [0.3.9] Old Version: [0.3.82]
+[2023-07-10 18:09:08] INFO root fetch - processPackages [scsd]: Downloading https://files.pythonhosted.org/packages/ac/17/337cb25f0f71ec432dbb4bf39eed6d2a4dafd21d01d2144a5cb8372c5985/scsd-0.0.7.tar.gz
+[2023-07-10 18:09:08] INFO root fetch - processPackages [pycti]: Downloading https://files.pythonhosted.org/packages/01/16/098088aa45cf95e030f58fbeee9b6915501fe9e7a63b7ad97fce4bf2f19d/pycti-5.8.7.tar.gz
+[2023-07-10 18:09:08] INFO root fetch - processPackages [reaktion]: Downloading https://files.pythonhosted.org/packages/6b/17/78062ca4f758d824980e4ccd3a4ccf0de1302e137ee3d7f9bd644f790be3/reaktion-0.1.8.tar.gz
+[2023-07-10 18:09:08] INFO root fetch - processPackages [datatransform]: Downloading https://files.pythonhosted.org/packages/98/1b/c1d7fe30e44f660a264c7476ccb8749c86a98aab9d9f86d5b04d83cd3e17/datatransform-1.1.tar.gz
+[2023-07-10 18:09:08] INFO root fetch - processPackages [helios-opentelemetry-sdk]: Downloading https://files.pythonhosted.org/packages/7e/28/52a9e0df2278365ae1f4ce7c5f4c25009fe9899627a778e3c9b169e851a4/helios-opentelemetry-sdk-1.0.97.tar.gz
+[2023-07-10 18:09:08] INFO root fetch - processPackages [arkitekt]: Downloading https://files.pythonhosted.org/packages/45/d9/35169f132b775e9da3d8ce31f38662fadbe59f5edc60636fe5ea9f5de4dc/arkitekt-0.4.98.tar.gz
+[2023-07-10 18:09:08] INFO root fetch - processPackages [fluss]: Downloading https://files.pythonhosted.org/packages/53/b7/8ff92a5a6685a4072ae111d8bec915e15a5682020fcc403fa91a69346a35/fluss-0.1.8.tar.gz
+[2023-07-10 18:09:08] INFO root fetch - processPackages [rekuest]: Downloading https://files.pythonhosted.org/packages/48/f2/3190b6c553e57d0d7cdd24d76862ef45faae7ac9eff40cae2c066106ab77/rekuest-0.1.8.tar.gz
+[2023-07-10 18:09:08] INFO root fetch - processPackages [mikro]: Downloading https://files.pythonhosted.org/packages/8c/ab/5d5135e48042cf5afb84cef5de7503696921c16fbdb9ccac7c6b9f672429/mikro-0.3.82.tar.gz
+[2023-07-10 18:09:08] INFO root fetch - processPackages [ns-asphalt9]: Downloading https://files.pythonhosted.org/packages/3f/50/d518176106dfcb6691b2d808ef218857e44f0ddaf533238a3707d2908f8c/ns_asphalt9-0.1.2.tar.gz
+[2023-07-10 18:09:08] INFO root fetch - processPackages [pycti]: Downloading https://files.pythonhosted.org/packages/54/d1/48a70bd3e2760742c1447fe097d7f42d21ab191b9db58daa3b87a16255ec/pycti-5.9.0.tar.gz
+[2023-07-10 18:09:09] INFO root fetch - processPackages [scsd]: Downloading https://files.pythonhosted.org/packages/73/23/a235ab52743256110c9399a7cd5232cd00d2be18aa57ea724b20fde057b3/scsd-0.0.8.tar.gz
+[2023-07-10 18:09:09] INFO root fetch - processPackages [helios-opentelemetry-sdk]: Downloading https://files.pythonhosted.org/packages/d8/10/047f15f279a63531faaa9801785d47bff1b8f4c225816958349b30fa2d04/helios-opentelemetry-sdk-1.0.98.tar.gz
+[2023-07-10 18:09:09] INFO root fetch - processPackages [datatransform]: Downloading https://files.pythonhosted.org/packages/1a/81/5abfcc9f48dd35e1e7095be69eb9bc4ec2faadfc12235c3ff258ed887580/datatransform-1.2.tar.gz
+[2023-07-10 18:09:09] INFO root fetch - processPackages [reaktion]: Downloading https://files.pythonhosted.org/packages/b4/a4/974724e81dad303e0138484e1693d23ee43c3627d4e3d0f4a9fade9cc233/reaktion-0.1.9.tar.gz
+[2023-07-10 18:09:09] INFO root fetch - processPackages [fluss]: Downloading https://files.pythonhosted.org/packages/50/76/9edfc881baab8d439ab2edc2727312771bb676cf387e48ce1a149177f1f6/fluss-0.1.9.tar.gz
+[2023-07-10 18:09:09] INFO root fetch - processPackages [mikro]: Downloading https://files.pythonhosted.org/packages/26/a6/7ee733ac462341b8ca4423365288b9a6988a89d4d02f56e536dd8f8672a7/mikro-0.3.9.tar.gz
+[2023-07-10 18:09:09] INFO root fetch - processPackages [ns-asphalt9]: executing diffoscope
+[2023-07-10 18:09:09] INFO root fetch - processPackages [ns-asphalt9]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ns_asphalt9-0.1.1.tar.gz tmp/ns_asphalt9-0.1.2.tar.gz --markdown 20230710/n/ns-asphalt9/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-10 18:09:09] INFO root fetch - processPackages [pycti]: executing diffoscope
+[2023-07-10 18:09:09] INFO root fetch - processPackages [pycti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycti-5.8.7.tar.gz tmp/pycti-5.9.0.tar.gz --markdown 20230710/p/pycti/5.8.7-5.9.0/diff.md --exclude *.pyd
+[2023-07-10 18:09:09] INFO root fetch - processPackages [rekuest]: Downloading https://files.pythonhosted.org/packages/c7/6e/bcea729c864b4bbd4c9c26534b40f4ebed9f00eb63aeb606692eb0667517/rekuest-0.1.9.tar.gz
+[2023-07-10 18:09:09] INFO root fetch - processPackages [arkitekt]: Downloading https://files.pythonhosted.org/packages/5e/c8/1f19f729f12496e96b8d1969f7079b0cdcacc1dee86057e74cb04b3087e0/arkitekt-0.4.99.tar.gz
+[2023-07-10 18:09:09] INFO root fetch - processPackages [scsd]: executing diffoscope
+[2023-07-10 18:09:09] INFO root fetch - processPackages [scsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scsd-0.0.7.tar.gz tmp/scsd-0.0.8.tar.gz --markdown 20230710/s/scsd/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-10 18:09:09] INFO root fetch - processPackages [datatransform]: executing diffoscope
+[2023-07-10 18:09:09] INFO root fetch - processPackages [datatransform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datatransform-1.1.tar.gz tmp/datatransform-1.2.tar.gz --markdown 20230710/d/datatransform/1.1-1.2/diff.md --exclude *.pyd
+[2023-07-10 18:09:09] INFO root fetch - processPackages [reaktion]: executing diffoscope
+[2023-07-10 18:09:09] INFO root fetch - processPackages [reaktion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reaktion-0.1.8.tar.gz tmp/reaktion-0.1.9.tar.gz --markdown 20230710/r/reaktion/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 18:09:09] INFO root fetch - processPackages [helios-opentelemetry-sdk]: executing diffoscope
+[2023-07-10 18:09:09] INFO root fetch - processPackages [helios-opentelemetry-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helios-opentelemetry-sdk-1.0.97.tar.gz tmp/helios-opentelemetry-sdk-1.0.98.tar.gz --markdown 20230710/h/helios-opentelemetry-sdk/1.0.97-1.0.98/diff.md --exclude *.pyd
+[2023-07-10 18:09:09] INFO root fetch - processPackages [fluss]: executing diffoscope
+[2023-07-10 18:09:09] INFO root fetch - processPackages [fluss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluss-0.1.8.tar.gz tmp/fluss-0.1.9.tar.gz --markdown 20230710/f/fluss/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 18:09:09] INFO root fetch - processPackages [mikro]: executing diffoscope
+[2023-07-10 18:09:09] INFO root fetch - processPackages [mikro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mikro-0.3.82.tar.gz tmp/mikro-0.3.9.tar.gz --markdown 20230710/m/mikro/0.3.82-0.3.9/diff.md --exclude *.pyd
+[2023-07-10 18:09:09] INFO root fetch - processPackages [rekuest]: executing diffoscope
+[2023-07-10 18:09:09] INFO root fetch - processPackages [rekuest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rekuest-0.1.8.tar.gz tmp/rekuest-0.1.9.tar.gz --markdown 20230710/r/rekuest/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 18:09:09] INFO root fetch - processPackages [arkitekt]: executing diffoscope
+[2023-07-10 18:09:09] INFO root fetch - processPackages [arkitekt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkitekt-0.4.98.tar.gz tmp/arkitekt-0.4.99.tar.gz --markdown 20230710/a/arkitekt/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-07-10 18:09:10] INFO root fetch - processPackages [datatransform]: Remove: archive file [/home/abi/fetcher/tmp/datatransform-1.1.tar.gz]
+[2023-07-10 18:09:10] INFO root fetch - processPackages [datatransform]: Remove: archive file [/home/abi/fetcher/tmp/datatransform-1.2.tar.gz]
+[2023-07-10 18:09:10] INFO root fetch - processPackages [datatransform]: Start processing: RobotRaconteurCompanion
+[2023-07-10 18:09:10] INFO root fetch - main [MainThread]: End processing [datatransform]: success
+[2023-07-10 18:09:10] INFO root fetch - processPackages [RobotRaconteurCompanion]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-10 18:09:11] INFO root fetch - processPackages [ns-asphalt9]: Remove: archive file [/home/abi/fetcher/tmp/ns_asphalt9-0.1.1.tar.gz]
+[2023-07-10 18:09:11] INFO root fetch - processPackages [ns-asphalt9]: Remove: archive file [/home/abi/fetcher/tmp/ns_asphalt9-0.1.2.tar.gz]
+[2023-07-10 18:09:11] INFO root fetch - processPackages [ns-asphalt9]: Start processing: superduperdb
+[2023-07-10 18:09:11] INFO root fetch - main [MainThread]: End processing [ns-asphalt9]: success
+[2023-07-10 18:09:11] INFO root fetch - processPackages [reaktion]: Remove: archive file [/home/abi/fetcher/tmp/reaktion-0.1.8.tar.gz]
+[2023-07-10 18:09:11] INFO root fetch - processPackages [reaktion]: Remove: archive file [/home/abi/fetcher/tmp/reaktion-0.1.9.tar.gz]
+[2023-07-10 18:09:11] INFO root fetch - processPackages [reaktion]: Start processing: emperor
+[2023-07-10 18:09:11] INFO root fetch - main [MainThread]: End processing [reaktion]: success
+[2023-07-10 18:09:11] WARNING root fetch - processPackages [superduperdb]: Skipping, unable to determine old version
+[2023-07-10 18:09:11] INFO root fetch - processPackages [superduperdb]: Start processing: Geode-Common
+[2023-07-10 18:09:11] INFO root fetch - main [MainThread]: End processing [superduperdb] error
+[2023-07-10 18:09:11] INFO root fetch - processPackages [emperor]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-10 18:09:11] INFO root fetch - processPackages [RobotRaconteurCompanion]: Downloading https://files.pythonhosted.org/packages/55/d9/3d3d87e3ef0cfcfa240750cc6ec12b552c01d7f32bdb793118d06c11dabf/RobotRaconteurCompanion-0.2.0-py3-none-any.whl
+[2023-07-10 18:09:11] INFO root fetch - processPackages [fluss]: Remove: archive file [/home/abi/fetcher/tmp/fluss-0.1.8.tar.gz]
+[2023-07-10 18:09:11] INFO root fetch - processPackages [fluss]: Remove: archive file [/home/abi/fetcher/tmp/fluss-0.1.9.tar.gz]
+[2023-07-10 18:09:11] INFO root fetch - processPackages [fluss]: Start processing: notification-service-nightly
+[2023-07-10 18:09:11] INFO root fetch - main [MainThread]: End processing [fluss]: success
+[2023-07-10 18:09:11] INFO root fetch - processPackages [rekuest]: Remove: archive file [/home/abi/fetcher/tmp/rekuest-0.1.8.tar.gz]
+[2023-07-10 18:09:11] INFO root fetch - processPackages [rekuest]: Remove: archive file [/home/abi/fetcher/tmp/rekuest-0.1.9.tar.gz]
+[2023-07-10 18:09:11] INFO root fetch - processPackages [rekuest]: Start processing: openTEPES
+[2023-07-10 18:09:11] INFO root fetch - main [MainThread]: End processing [rekuest]: success
+[2023-07-10 18:09:11] INFO root fetch - processPackages [notification-service-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-10 18:09:11] INFO root fetch - processPackages [Geode-Common]: New version: [26.1.3rc4] Old Version: [26.1.3rc3]
+[2023-07-10 18:09:11] INFO root fetch - processPackages [helios-opentelemetry-sdk]: Remove: archive file [/home/abi/fetcher/tmp/helios-opentelemetry-sdk-1.0.97.tar.gz]
+[2023-07-10 18:09:11] INFO root fetch - processPackages [helios-opentelemetry-sdk]: Remove: archive file [/home/abi/fetcher/tmp/helios-opentelemetry-sdk-1.0.98.tar.gz]
+[2023-07-10 18:09:11] INFO root fetch - processPackages [helios-opentelemetry-sdk]: Start processing: ai-flow-nightly
+[2023-07-10 18:09:11] INFO root fetch - main [MainThread]: End processing [helios-opentelemetry-sdk]: success
+[2023-07-10 18:09:11] INFO root fetch - processPackages [scsd]: Remove: archive file [/home/abi/fetcher/tmp/scsd-0.0.7.tar.gz]
+[2023-07-10 18:09:11] INFO root fetch - processPackages [scsd]: Remove: archive file [/home/abi/fetcher/tmp/scsd-0.0.8.tar.gz]
+[2023-07-10 18:09:11] INFO root fetch - processPackages [scsd]: Start processing: echofish-aws-raw-to-zarr-lambda
+[2023-07-10 18:09:11] INFO root fetch - main [MainThread]: End processing [scsd]: success
+[2023-07-10 18:09:11] INFO root fetch - processPackages [notification-service-nightly]: Downloading https://files.pythonhosted.org/packages/65/1e/184f8ca7fea0333def3590be1e6ae93ecab708b7db224f287099c81829a3/notification_service_nightly-2023.7.8.tar.gz
+[2023-07-10 18:09:11] INFO root fetch - processPackages [ai-flow-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-10 18:09:11] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: New version: [1.0.0.dev20230710075010] Old Version: [1.0.0.dev20230710064045]
+[2023-07-10 18:09:11] INFO root fetch - processPackages [arkitekt]: Remove: archive file [/home/abi/fetcher/tmp/arkitekt-0.4.98.tar.gz]
+[2023-07-10 18:09:11] INFO root fetch - processPackages [arkitekt]: Remove: archive file [/home/abi/fetcher/tmp/arkitekt-0.4.99.tar.gz]
+[2023-07-10 18:09:11] INFO root fetch - main [MainThread]: End processing [arkitekt]: success
+[2023-07-10 18:09:11] INFO root fetch - processPackages [Geode-Common]: Downloading https://files.pythonhosted.org/packages/94/ba/19dabc2bf8ed3ddf6d80aa39f5fe38d6926e92651f25bd2cbfb62b2991fb/Geode_Common-26.1.3rc3-cp39-cp39-win_amd64.whl
+[2023-07-10 18:09:11] INFO root fetch - processPackages [openTEPES]: New version: [4.9.0] Old Version: [4.8.3]
+[2023-07-10 18:09:11] INFO root fetch - processPackages [pycti]: Remove: archive file [/home/abi/fetcher/tmp/pycti-5.8.7.tar.gz]
+[2023-07-10 18:09:11] INFO root fetch - processPackages [pycti]: Remove: archive file [/home/abi/fetcher/tmp/pycti-5.9.0.tar.gz]
+[2023-07-10 18:09:11] INFO root fetch - main [MainThread]: End processing [pycti]: success
+[2023-07-10 18:09:11] INFO root fetch - processPackages [mikro]: Remove: archive file [/home/abi/fetcher/tmp/mikro-0.3.82.tar.gz]
+[2023-07-10 18:09:11] INFO root fetch - processPackages [mikro]: Remove: archive file [/home/abi/fetcher/tmp/mikro-0.3.9.tar.gz]
+[2023-07-10 18:09:11] INFO root fetch - main [MainThread]: End processing [mikro]: success
+[2023-07-10 18:09:11] INFO root fetch - processPackages [emperor]: Downloading https://files.pythonhosted.org/packages/3c/d0/13b202a6d84c8885bc4b4bb9d73c814f190d8d472ed29f48708b02794770/emperor-1.0.3.tar.gz
+[2023-07-10 18:09:11] INFO root fetch - processPackages [ai-flow-nightly]: Downloading https://files.pythonhosted.org/packages/a1/d9/ddd063ea869d5052ce371cc02a1b34d4989fa5c798eb88f04b3631d5ac24/ai_flow_nightly-2023.7.8.tar.gz
+[2023-07-10 18:09:11] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: Downloading https://files.pythonhosted.org/packages/78/c1/64437052d28b1d5e558cad7817d141169773160ea8a8ddeb8a349211f347/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230710064045.tar.gz
+[2023-07-10 18:09:11] INFO root fetch - processPackages [RobotRaconteurCompanion]: Downloading https://files.pythonhosted.org/packages/d4/ff/28dd824019403f65d6ade2baebb7f4e90654e893060a30c4118494a1c88b/RobotRaconteurCompanion-0.2.1-py3-none-any.whl
+[2023-07-10 18:09:11] INFO root fetch - processPackages [openTEPES]: Downloading https://files.pythonhosted.org/packages/d3/bc/956e5b6a3468b50029876bc7aec862ddb929a35570cf5009b1bd0842e9b4/openTEPES-4.8.3.tar.gz
+[2023-07-10 18:09:11] INFO root fetch - processPackages [RobotRaconteurCompanion]: executing diffoscope
+[2023-07-10 18:09:11] INFO root fetch - processPackages [RobotRaconteurCompanion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RobotRaconteurCompanion-0.2.0-py3-none-any.whl.zip tmp/RobotRaconteurCompanion-0.2.1-py3-none-any.whl.zip --markdown 20230710/R/RobotRaconteurCompanion/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-10 18:09:11] INFO root fetch - processPackages [notification-service-nightly]: Downloading https://files.pythonhosted.org/packages/c7/4b/124fc5261f6060915e47111ca32199af3db938323021c15e986ffd6c0801/notification_service_nightly-2023.7.9.tar.gz
+[2023-07-10 18:09:11] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: Downloading https://files.pythonhosted.org/packages/b7/6c/676d7c08f2fc37ac8cccd7cc7f7d7b625b06bb27491f432a58e21ca1941e/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230710075010.tar.gz
+[2023-07-10 18:09:11] INFO root fetch - processPackages [ai-flow-nightly]: Downloading https://files.pythonhosted.org/packages/99/90/4b39e8ebed6b96e9b48be05151c4f1796979ff1689ad51452e0257bd3913/ai_flow_nightly-2023.7.9.tar.gz
+[2023-07-10 18:09:11] INFO root fetch - processPackages [Geode-Common]: Downloading https://files.pythonhosted.org/packages/3e/80/95bee7da3da857f6a5e839df7d535b5acc0dc80f98701932fd687e19c34a/Geode_Common-26.1.3rc4-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-10 18:09:12] INFO root fetch - processPackages [notification-service-nightly]: executing diffoscope
+[2023-07-10 18:09:12] INFO root fetch - processPackages [notification-service-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notification_service_nightly-2023.7.8.tar.gz tmp/notification_service_nightly-2023.7.9.tar.gz --markdown 20230710/n/notification-service-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-10 18:09:12] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: executing diffoscope
+[2023-07-10 18:09:12] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230710064045.tar.gz tmp/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230710075010.tar.gz --markdown 20230710/e/echofish-aws-raw-to-zarr-lambda/1.0.0.dev20230710064045-1.0.0.dev20230710075010/diff.md --exclude *.pyd
+[2023-07-10 18:09:12] INFO root fetch - processPackages [emperor]: Downloading https://files.pythonhosted.org/packages/f8/6f/9b3a46cb100635554255c1b54fd76ddbb731ea5c5f8df940f0d1dbd507ae/emperor-1.0.4.tar.gz
+[2023-07-10 18:09:12] INFO root fetch - processPackages [ai-flow-nightly]: executing diffoscope
+[2023-07-10 18:09:12] INFO root fetch - processPackages [ai-flow-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_flow_nightly-2023.7.8.tar.gz tmp/ai_flow_nightly-2023.7.9.tar.gz --markdown 20230710/a/ai-flow-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-10 18:09:12] WARNING root fetch - processPackages [openTEPES]: Skipping package: exceeds size limit 103228862>=10485760
+[2023-07-10 18:09:12] INFO root fetch - main [MainThread]: End processing [openTEPES] error
+[2023-07-10 18:09:12] INFO root fetch - processPackages [emperor]: executing diffoscope
+[2023-07-10 18:09:12] INFO root fetch - processPackages [emperor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emperor-1.0.3.tar.gz tmp/emperor-1.0.4.tar.gz --markdown 20230710/e/emperor/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-10 18:09:12] INFO root fetch - processPackages [RobotRaconteurCompanion]: Remove: archive file [/home/abi/fetcher/tmp/RobotRaconteurCompanion-0.2.0-py3-none-any.whl.zip]
+[2023-07-10 18:09:12] INFO root fetch - processPackages [RobotRaconteurCompanion]: Remove: archive file [/home/abi/fetcher/tmp/RobotRaconteurCompanion-0.2.1-py3-none-any.whl.zip]
+[2023-07-10 18:09:12] INFO root fetch - main [MainThread]: End processing [RobotRaconteurCompanion]: success
+[2023-07-10 18:09:12] INFO root fetch - processPackages [Geode-Common]: executing diffoscope
+[2023-07-10 18:09:12] INFO root fetch - processPackages [Geode-Common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Common-26.1.3rc3-cp39-cp39-win_amd64.whl.zip tmp/Geode_Common-26.1.3rc4-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230710/G/Geode-Common/26.1.3rc3-26.1.3rc4/diff.md --exclude *.pyd
+[2023-07-10 18:09:13] INFO root fetch - processPackages [notification-service-nightly]: Remove: archive file [/home/abi/fetcher/tmp/notification_service_nightly-2023.7.8.tar.gz]
+[2023-07-10 18:09:13] INFO root fetch - processPackages [notification-service-nightly]: Remove: archive file [/home/abi/fetcher/tmp/notification_service_nightly-2023.7.9.tar.gz]
+[2023-07-10 18:09:13] INFO root fetch - main [MainThread]: End processing [notification-service-nightly]: success
+[2023-07-10 18:09:13] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: Remove: archive file [/home/abi/fetcher/tmp/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230710064045.tar.gz]
+[2023-07-10 18:09:13] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: Remove: archive file [/home/abi/fetcher/tmp/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230710075010.tar.gz]
+[2023-07-10 18:09:13] INFO root fetch - main [MainThread]: End processing [echofish-aws-raw-to-zarr-lambda]: success
+[2023-07-10 18:09:13] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-26.1.3rc3-cp39-cp39-win_amd64.whl.zip]
+[2023-07-10 18:09:13] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-26.1.3rc4-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-10 18:09:13] INFO root fetch - main [MainThread]: End processing [Geode-Common]: success
+[2023-07-10 18:09:14] INFO root fetch - processPackages [ai-flow-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_flow_nightly-2023.7.8.tar.gz]
+[2023-07-10 18:09:14] INFO root fetch - processPackages [ai-flow-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_flow_nightly-2023.7.9.tar.gz]
+[2023-07-10 18:09:14] INFO root fetch - main [MainThread]: End processing [ai-flow-nightly]: success
+[2023-07-10 18:09:14] INFO root fetch - processPackages [emperor]: Remove: archive file [/home/abi/fetcher/tmp/emperor-1.0.3.tar.gz]
+[2023-07-10 18:09:14] INFO root fetch - processPackages [emperor]: Remove: archive file [/home/abi/fetcher/tmp/emperor-1.0.4.tar.gz]
+[2023-07-10 18:09:14] INFO root fetch - main [MainThread]: End processing [emperor]: success
+[2023-07-10 18:09:14] INFO root fetch - main [MainThread]: Store serial: [18833230]
