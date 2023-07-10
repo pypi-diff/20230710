@@ -5373,3 +5373,36 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 04:03:23] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.3.9.tar.gz]
 [2023-07-10 04:03:23] INFO root fetch - main [MainThread]: End processing [ai2-kit]: success
 [2023-07-10 04:03:23] INFO root fetch - main [MainThread]: Store serial: [18825698]
+[2023-07-10 04:08:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18825698]
+[2023-07-10 04:08:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-10 04:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: example-package-couragesteak
+[2023-07-10 04:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shady-island
+[2023-07-10 04:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: erdantic
+[2023-07-10 04:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyaon
+[2023-07-10 04:08:32] INFO root fetch - processPackages [pyaon]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-07-10 04:08:32] WARNING root fetch - processPackages [example-package-couragesteak]: Skipping, unable to determine old version
+[2023-07-10 04:08:32] INFO root fetch - main [MainThread]: End processing [example-package-couragesteak] error
+[2023-07-10 04:08:32] INFO root fetch - processPackages [erdantic]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-07-10 04:08:32] INFO root fetch - processPackages [shady-island]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 04:08:32] INFO root fetch - processPackages [pyaon]: Downloading https://files.pythonhosted.org/packages/c5/ee/52ac4f99c154a0e651836474fb529e6e6b25c4564686ae6088de0dce9f4c/pyaon-1.1.4-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-10 04:08:32] INFO root fetch - processPackages [shady-island]: Downloading https://files.pythonhosted.org/packages/ed/ae/a7a990a5b643750cce1402cad9e15fd73a9c16dc25acb3c8a49f79eb7a7d/shady-island-0.0.8.tar.gz
+[2023-07-10 04:08:32] INFO root fetch - processPackages [erdantic]: Downloading https://files.pythonhosted.org/packages/3e/d7/1e808aad701017b4d42c0f93505652c258ee8c389db7a5eec4db9fd93517/erdantic-0.5.1.tar.gz
+[2023-07-10 04:08:32] INFO root fetch - processPackages [pyaon]: Downloading https://files.pythonhosted.org/packages/58/41/8a90bd1e995f8ff0b3ebd7e15404616661080038c03bbe82d8405ba90b46/pyaon-1.1.5-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-10 04:08:32] INFO root fetch - processPackages [shady-island]: Downloading https://files.pythonhosted.org/packages/69/14/ae3dbf243e4cb1db1d1a6d89c5b0ab88ad11f64d1873591474d5e78d2c24/shady-island-0.0.9.tar.gz
+[2023-07-10 04:08:32] INFO root fetch - processPackages [pyaon]: executing diffoscope
+[2023-07-10 04:08:32] INFO root fetch - processPackages [pyaon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaon-1.1.4-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/pyaon-1.1.5-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230710/p/pyaon/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-07-10 04:08:32] INFO root fetch - processPackages [erdantic]: Downloading https://files.pythonhosted.org/packages/88/8f/48db1744cf4eb737640ec7dfd492de00434d163123faecd14b5f9d9f41d2/erdantic-0.6.0.tar.gz
+[2023-07-10 04:08:32] INFO root fetch - processPackages [shady-island]: executing diffoscope
+[2023-07-10 04:08:32] INFO root fetch - processPackages [shady-island]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shady-island-0.0.8.tar.gz tmp/shady-island-0.0.9.tar.gz --markdown 20230710/s/shady-island/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 04:08:33] INFO root fetch - processPackages [erdantic]: executing diffoscope
+[2023-07-10 04:08:33] INFO root fetch - processPackages [erdantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erdantic-0.5.1.tar.gz tmp/erdantic-0.6.0.tar.gz --markdown 20230710/e/erdantic/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-07-10 04:08:33] INFO root fetch - processPackages [erdantic]: Remove: archive file [/home/abi/fetcher/tmp/erdantic-0.5.1.tar.gz]
+[2023-07-10 04:08:33] INFO root fetch - processPackages [erdantic]: Remove: archive file [/home/abi/fetcher/tmp/erdantic-0.6.0.tar.gz]
+[2023-07-10 04:08:33] INFO root fetch - main [MainThread]: End processing [erdantic]: success
+[2023-07-10 04:08:33] INFO root fetch - processPackages [shady-island]: Remove: archive file [/home/abi/fetcher/tmp/shady-island-0.0.8.tar.gz]
+[2023-07-10 04:08:33] INFO root fetch - processPackages [shady-island]: Remove: archive file [/home/abi/fetcher/tmp/shady-island-0.0.9.tar.gz]
+[2023-07-10 04:08:33] INFO root fetch - main [MainThread]: End processing [shady-island]: success
+[2023-07-10 04:08:34] INFO root fetch - processPackages [pyaon]: Remove: archive file [/home/abi/fetcher/tmp/pyaon-1.1.4-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-10 04:08:34] INFO root fetch - processPackages [pyaon]: Remove: archive file [/home/abi/fetcher/tmp/pyaon-1.1.5-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-10 04:08:34] INFO root fetch - main [MainThread]: End processing [pyaon]: success
+[2023-07-10 04:08:34] INFO root fetch - main [MainThread]: Store serial: [18825724]
