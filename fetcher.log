@@ -1333,3 +1333,60 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 01:59:18] INFO root fetch - processPackages [epam.indigo]: Remove: archive file [/home/abi/fetcher/tmp/epam.indigo-1.9.0rc4-py3-none-win_amd64.whl.zip]
 [2023-07-10 01:59:18] INFO root fetch - main [MainThread]: End processing [epam.indigo]: success
 [2023-07-10 01:59:18] INFO root fetch - main [MainThread]: Store serial: [18824284]
+[2023-07-10 02:04:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18824284]
+[2023-07-10 02:04:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-10 02:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rotman-ncs
+[2023-07-10 02:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gdshoplib
+[2023-07-10 02:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: moto
+[2023-07-10 02:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: imjoy-rpc
+[2023-07-10 02:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchdatasets-nightly
+[2023-07-10 02:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aws-org-tree
+[2023-07-10 02:04:40] INFO root fetch - processPackages [gdshoplib]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-10 02:04:40] INFO root fetch - processPackages [imjoy-rpc]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-10 02:04:40] INFO root fetch - processPackages [rotman-ncs]: New version: [0.1.0a6] Old Version: [0.1.0a5]
+[2023-07-10 02:04:40] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1688861022] Old Version: [1688774606]
+[2023-07-10 02:04:40] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-07-10 02:04:40] INFO root fetch - processPackages [aws-org-tree]: New version: [0.4.1] Old Version: [0.3.0]
+[2023-07-10 02:04:40] INFO root fetch - processPackages [imjoy-rpc]: Downloading https://files.pythonhosted.org/packages/62/bf/e0cd8c6c4bfbc73547dd7a58b65fe8314743f962e1771888a1e6a088b01d/imjoy-rpc-0.5.8.tar.gz
+[2023-07-10 02:04:40] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/81/d6/101b6d1968bf5ea4a90032c24a72688e2134e83e03c00d4330d3512a8d4a/torchdatasets-nightly-1688774606.tar.gz
+[2023-07-10 02:04:40] INFO root fetch - processPackages [gdshoplib]: Downloading https://files.pythonhosted.org/packages/73/0b/7f0c190c94d6d643bd6926117358a01049ebdfb799d6b257c6ea1e1753bc/gdshoplib-1.8.0.tar.gz
+[2023-07-10 02:04:40] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-07-10 02:04:40] INFO root fetch - processPackages [rotman-ncs]: Downloading https://files.pythonhosted.org/packages/a1/0f/6af27541acbbda8ff9b2fc4cd393cc2a0451fa1981fa7f168a7f3c9b502d/rotman_ncs-0.1.0a5-py3-none-any.whl
+[2023-07-10 02:04:40] INFO root fetch - processPackages [aws-org-tree]: Downloading https://files.pythonhosted.org/packages/55/c9/eb205a5494ba19a446ef6de062c2ca79837e7bf6f6d87d642c24f06c3691/aws_org_tree-0.3.0.tar.gz
+[2023-07-10 02:04:40] INFO root fetch - processPackages [imjoy-rpc]: Downloading https://files.pythonhosted.org/packages/32/2c/24a2fd77d69514d794a4e4c8db3307e0ef3e19e0338c3edb6bf7bdd4d021/imjoy-rpc-0.5.9.tar.gz
+[2023-07-10 02:04:40] INFO root fetch - processPackages [gdshoplib]: Downloading https://files.pythonhosted.org/packages/48/91/d657572826a5d41e3284ecce0fb4393bf35e0c761799a04d0d8397113ce7/gdshoplib-1.9.0.tar.gz
+[2023-07-10 02:04:40] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/28/a6/0de1d76ff878613cf85b3ed5f25d20d3737b52502a6814955ae02cac71c2/torchdatasets-nightly-1688861022.tar.gz
+[2023-07-10 02:04:40] INFO root fetch - processPackages [imjoy-rpc]: executing diffoscope
+[2023-07-10 02:04:40] INFO root fetch - processPackages [imjoy-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imjoy-rpc-0.5.8.tar.gz tmp/imjoy-rpc-0.5.9.tar.gz --markdown 20230710/i/imjoy-rpc/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-10 02:04:40] INFO root fetch - processPackages [rotman-ncs]: Downloading https://files.pythonhosted.org/packages/45/8e/8728bede318f04a8b48a1509007962a15d40ac1908fcb3c4e0ab89cba2d7/rotman_ncs-0.1.0a6-py3-none-any.whl
+[2023-07-10 02:04:40] INFO root fetch - processPackages [gdshoplib]: executing diffoscope
+[2023-07-10 02:04:40] INFO root fetch - processPackages [gdshoplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdshoplib-1.8.0.tar.gz tmp/gdshoplib-1.9.0.tar.gz --markdown 20230710/g/gdshoplib/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-10 02:04:40] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-07-10 02:04:40] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-07-10 02:04:40] INFO root fetch - processPackages [aws-org-tree]: Downloading https://files.pythonhosted.org/packages/b7/44/47a728f02377769dcb2847fcb566b529d122d78dfb736764d2135ab9df2a/aws_org_tree-0.4.1.tar.gz
+[2023-07-10 02:04:40] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1688774606.tar.gz tmp/torchdatasets-nightly-1688861022.tar.gz --markdown 20230710/t/torchdatasets-nightly/1688774606-1688861022/diff.md --exclude *.pyd
+[2023-07-10 02:04:40] INFO root fetch - processPackages [rotman-ncs]: executing diffoscope
+[2023-07-10 02:04:40] INFO root fetch - processPackages [rotman-ncs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rotman_ncs-0.1.0a5-py3-none-any.whl.zip tmp/rotman_ncs-0.1.0a6-py3-none-any.whl.zip --markdown 20230710/r/rotman-ncs/0.1.0a5-0.1.0a6/diff.md --exclude *.pyd
+[2023-07-10 02:04:41] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-07-10 02:04:41] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230710/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-07-10 02:04:41] INFO root fetch - processPackages [aws-org-tree]: executing diffoscope
+[2023-07-10 02:04:41] INFO root fetch - processPackages [aws-org-tree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_org_tree-0.3.0.tar.gz tmp/aws_org_tree-0.4.1.tar.gz --markdown 20230710/a/aws-org-tree/0.3.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-10 02:04:42] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1688774606.tar.gz]
+[2023-07-10 02:04:42] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1688861022.tar.gz]
+[2023-07-10 02:04:42] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-07-10 02:04:42] INFO root fetch - processPackages [imjoy-rpc]: Remove: archive file [/home/abi/fetcher/tmp/imjoy-rpc-0.5.8.tar.gz]
+[2023-07-10 02:04:42] INFO root fetch - processPackages [imjoy-rpc]: Remove: archive file [/home/abi/fetcher/tmp/imjoy-rpc-0.5.9.tar.gz]
+[2023-07-10 02:04:42] INFO root fetch - main [MainThread]: End processing [imjoy-rpc]: success
+[2023-07-10 02:04:42] INFO root fetch - processPackages [rotman-ncs]: Remove: archive file [/home/abi/fetcher/tmp/rotman_ncs-0.1.0a5-py3-none-any.whl.zip]
+[2023-07-10 02:04:42] INFO root fetch - processPackages [rotman-ncs]: Remove: archive file [/home/abi/fetcher/tmp/rotman_ncs-0.1.0a6-py3-none-any.whl.zip]
+[2023-07-10 02:04:42] INFO root fetch - main [MainThread]: End processing [rotman-ncs]: success
+[2023-07-10 02:04:42] INFO root fetch - processPackages [aws-org-tree]: Remove: archive file [/home/abi/fetcher/tmp/aws_org_tree-0.3.0.tar.gz]
+[2023-07-10 02:04:42] INFO root fetch - processPackages [aws-org-tree]: Remove: archive file [/home/abi/fetcher/tmp/aws_org_tree-0.4.1.tar.gz]
+[2023-07-10 02:04:42] INFO root fetch - main [MainThread]: End processing [aws-org-tree]: success
+[2023-07-10 02:04:42] INFO root fetch - processPackages [gdshoplib]: Remove: archive file [/home/abi/fetcher/tmp/gdshoplib-1.8.0.tar.gz]
+[2023-07-10 02:04:42] INFO root fetch - processPackages [gdshoplib]: Remove: archive file [/home/abi/fetcher/tmp/gdshoplib-1.9.0.tar.gz]
+[2023-07-10 02:04:42] INFO root fetch - main [MainThread]: End processing [gdshoplib]: success
+[2023-07-10 02:04:54] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-07-10 02:04:54] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-07-10 02:04:54] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-07-10 02:04:54] INFO root fetch - main [MainThread]: Store serial: [18824301]
