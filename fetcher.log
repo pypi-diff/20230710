@@ -17410,3 +17410,117 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 14:43:04] INFO root fetch - processPackages [darwinio]: Remove: archive file [/home/abi/fetcher/tmp/darwinio-0.1.0-py3-none-any.whl.zip]
 [2023-07-10 14:43:04] INFO root fetch - main [MainThread]: End processing [darwinio]: success
 [2023-07-10 14:43:04] INFO root fetch - main [MainThread]: Store serial: [18830609]
+[2023-07-10 14:48:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18830609]
+[2023-07-10 14:48:21] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-10 14:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Perfole
+[2023-07-10 14:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: telegramweb
+[2023-07-10 14:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yet-another-wizz
+[2023-07-10 14:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ec2-metadata
+[2023-07-10 14:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: web-ext-helper
+[2023-07-10 14:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: write-githubstat
+[2023-07-10 14:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flake8-comprehensions
+[2023-07-10 14:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tigerblog
+[2023-07-10 14:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: salabim
+[2023-07-10 14:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: os2mo-data-import
+[2023-07-10 14:48:21] INFO root fetch - processPackages [web-ext-helper]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-10 14:48:21] INFO root fetch - processPackages [ec2-metadata]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-07-10 14:48:21] INFO root fetch - processPackages [flake8-comprehensions]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-07-10 14:48:21] INFO root fetch - processPackages [telegramweb]: New version: [5.7] Old Version: [5.6]
+[2023-07-10 14:48:21] INFO root fetch - processPackages [yet-another-wizz]: New version: [2.5.post0] Old Version: [2.5.1]
+[2023-07-10 14:48:21] INFO root fetch - processPackages [tigerblog]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 14:48:21] INFO root fetch - processPackages [Perfole]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-10 14:48:21] INFO root fetch - processPackages [salabim]: New version: [23.3.1] Old Version: [23.3.0]
+[2023-07-10 14:48:21] INFO root fetch - processPackages [write-githubstat]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-10 14:48:21] INFO root fetch - processPackages [os2mo-data-import]: New version: [5.4.1] Old Version: [5.4.0]
+[2023-07-10 14:48:21] INFO root fetch - processPackages [web-ext-helper]: Downloading https://files.pythonhosted.org/packages/00/f1/d07be38c34861e443e0a41fc6cc77bccf864de4ac7c88006787f27237680/web_ext_helper-1.2.0.tar.gz
+[2023-07-10 14:48:21] INFO root fetch - processPackages [tigerblog]: Downloading https://files.pythonhosted.org/packages/b6/1f/99d7e75f9b78c86b5f90c83a64054f3b34b5ed82c7a78bf51fd86095cdba/tigerblog-0.1.8.tar.gz
+[2023-07-10 14:48:21] INFO root fetch - processPackages [telegramweb]: Downloading https://files.pythonhosted.org/packages/43/9b/1ffe9f52232591a4c3592cc78cb1a1e788d34ee6242c6ed9a2a176e78cfc/telegramweb-5.6.tar.gz
+[2023-07-10 14:48:21] INFO root fetch - processPackages [Perfole]: Downloading https://files.pythonhosted.org/packages/9c/eb/bf3ac5b0bef96655fea0b394303831cb45fa45add1e7fad2711c3ac95018/Perfole-0.0.2.tar.gz
+[2023-07-10 14:48:21] INFO root fetch - processPackages [write-githubstat]: Downloading https://files.pythonhosted.org/packages/61/c2/c5b76dff5d956793912e2abd56f75472170cbaea96a8678adba0eeacb5fb/write_githubstat-0.1.3.tar.gz
+[2023-07-10 14:48:21] INFO root fetch - processPackages [salabim]: Downloading https://files.pythonhosted.org/packages/1f/be/ae6405450663280b8cd7d526dcc216453d46ad545beaa1a3915593d0f725/salabim-23.3.0.tar.gz
+[2023-07-10 14:48:21] INFO root fetch - processPackages [yet-another-wizz]: Downloading https://files.pythonhosted.org/packages/eb/4f/49e8802c01bd439b78b7e4e496b1e08f05192bc0e2017cd1d4e88035e446/yet_another_wizz-2.5.1.tar.gz
+[2023-07-10 14:48:21] INFO root fetch - processPackages [flake8-comprehensions]: Downloading https://files.pythonhosted.org/packages/8c/56/ba0c2878c2b64237afd978b4f176bcb9d671419d9b71ece454f0117fb943/flake8-comprehensions-3.8.0.tar.gz
+[2023-07-10 14:48:21] INFO root fetch - processPackages [ec2-metadata]: Downloading https://files.pythonhosted.org/packages/13/46/8658959dc678df41fdbe802b1a6323f8f672858e03e2f14f66a4ec8263dc/ec2-metadata-2.9.0.tar.gz
+[2023-07-10 14:48:21] INFO root fetch - processPackages [os2mo-data-import]: Downloading https://files.pythonhosted.org/packages/92/68/5c45e0ed0c9e8c22ecbafa0774ed5a4e36d368eb78a6b3e68686a4d36c52/os2mo_data_import-5.4.0.tar.gz
+[2023-07-10 14:48:21] INFO root fetch - processPackages [Perfole]: Downloading https://files.pythonhosted.org/packages/4f/d0/ac359efffa92dd6aa01afb62d6b3bd6f478b5848a34c420b4af92b541dfe/Perfole-0.0.3.tar.gz
+[2023-07-10 14:48:22] INFO root fetch - processPackages [write-githubstat]: Downloading https://files.pythonhosted.org/packages/df/d1/b98dc6d7a3a6bbcafc80f3a822117e458b1785d73f18a88c9e393d20cc0e/write_githubstat-0.1.4.tar.gz
+[2023-07-10 14:48:22] INFO root fetch - processPackages [telegramweb]: Downloading https://files.pythonhosted.org/packages/74/2e/cfb92b3599c96a822bf9e264c394f1d9383e44a74a0d4d8100ec11e23cbb/telegramweb-5.7.tar.gz
+[2023-07-10 14:48:22] INFO root fetch - processPackages [web-ext-helper]: Downloading https://files.pythonhosted.org/packages/50/71/a90de0e8391569d8050ebd9947ca6cdb960ce31fe2a5aaa6ab5093a697b2/web_ext_helper-1.2.1.tar.gz
+[2023-07-10 14:48:22] INFO root fetch - processPackages [tigerblog]: Downloading https://files.pythonhosted.org/packages/23/0f/6a0fec4b0cafdb4c1a9f42e93a456ba31cc0b1f03240d001db6df1ee282d/tigerblog-0.1.9.tar.gz
+[2023-07-10 14:48:22] INFO root fetch - processPackages [yet-another-wizz]: Downloading https://files.pythonhosted.org/packages/22/77/13f66c1f947d8aa062564534678703b9c9d4a8f640323aa54a9bc8525113/yet_another_wizz-2.5.post0.tar.gz
+[2023-07-10 14:48:22] INFO root fetch - processPackages [salabim]: Downloading https://files.pythonhosted.org/packages/7f/3d/00e5de22a4586dfd5eb5481e800513dc3ce513a491112dc2a382c3d8d387/salabim-23.3.1.tar.gz
+[2023-07-10 14:48:22] INFO root fetch - processPackages [Perfole]: executing diffoscope
+[2023-07-10 14:48:22] INFO root fetch - processPackages [Perfole]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Perfole-0.0.2.tar.gz tmp/Perfole-0.0.3.tar.gz --markdown 20230710/P/Perfole/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-10 14:48:22] INFO root fetch - processPackages [flake8-comprehensions]: Downloading https://files.pythonhosted.org/packages/f5/c7/f746544837b6351b3bdc0193b8c145b55e338d7b88bbb331aed93cbd151a/flake8-comprehensions-3.9.0.tar.gz
+[2023-07-10 14:48:22] INFO root fetch - processPackages [write-githubstat]: executing diffoscope
+[2023-07-10 14:48:22] INFO root fetch - processPackages [write-githubstat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/write_githubstat-0.1.3.tar.gz tmp/write_githubstat-0.1.4.tar.gz --markdown 20230710/w/write-githubstat/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-10 14:48:22] INFO root fetch - processPackages [web-ext-helper]: executing diffoscope
+[2023-07-10 14:48:22] INFO root fetch - processPackages [web-ext-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web_ext_helper-1.2.0.tar.gz tmp/web_ext_helper-1.2.1.tar.gz --markdown 20230710/w/web-ext-helper/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-10 14:48:22] INFO root fetch - processPackages [telegramweb]: executing diffoscope
+[2023-07-10 14:48:22] INFO root fetch - processPackages [telegramweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegramweb-5.6.tar.gz tmp/telegramweb-5.7.tar.gz --markdown 20230710/t/telegramweb/5.6-5.7/diff.md --exclude *.pyd
+[2023-07-10 14:48:22] INFO root fetch - processPackages [yet-another-wizz]: executing diffoscope
+[2023-07-10 14:48:22] INFO root fetch - processPackages [yet-another-wizz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yet_another_wizz-2.5.1.tar.gz tmp/yet_another_wizz-2.5.post0.tar.gz --markdown 20230710/y/yet-another-wizz/2.5.1-2.5.post0/diff.md --exclude *.pyd
+[2023-07-10 14:48:22] INFO root fetch - processPackages [ec2-metadata]: Downloading https://files.pythonhosted.org/packages/7b/ed/fc577ab693b2d53f336198b25078b9bf4a96df02a6d303a44e578bb7aab6/ec2-metadata-2.9.1.tar.gz
+[2023-07-10 14:48:22] INFO root fetch - processPackages [tigerblog]: executing diffoscope
+[2023-07-10 14:48:22] INFO root fetch - processPackages [tigerblog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tigerblog-0.1.8.tar.gz tmp/tigerblog-0.1.9.tar.gz --markdown 20230710/t/tigerblog/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 14:48:22] INFO root fetch - processPackages [flake8-comprehensions]: executing diffoscope
+[2023-07-10 14:48:22] INFO root fetch - processPackages [flake8-comprehensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8-comprehensions-3.8.0.tar.gz tmp/flake8-comprehensions-3.9.0.tar.gz --markdown 20230710/f/flake8-comprehensions/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-07-10 14:48:22] INFO root fetch - processPackages [os2mo-data-import]: Downloading https://files.pythonhosted.org/packages/02/5b/85c448d64a6e22452a5827664de58cd34e3d2e0e28e759104acf7388944f/os2mo_data_import-5.4.1.tar.gz
+[2023-07-10 14:48:22] INFO root fetch - processPackages [salabim]: executing diffoscope
+[2023-07-10 14:48:22] INFO root fetch - processPackages [salabim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salabim-23.3.0.tar.gz tmp/salabim-23.3.1.tar.gz --markdown 20230710/s/salabim/23.3.0-23.3.1/diff.md --exclude *.pyd
+[2023-07-10 14:48:22] INFO root fetch - processPackages [ec2-metadata]: executing diffoscope
+[2023-07-10 14:48:22] INFO root fetch - processPackages [ec2-metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ec2-metadata-2.9.0.tar.gz tmp/ec2-metadata-2.9.1.tar.gz --markdown 20230710/e/ec2-metadata/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-07-10 14:48:22] INFO root fetch - processPackages [os2mo-data-import]: executing diffoscope
+[2023-07-10 14:48:22] INFO root fetch - processPackages [os2mo-data-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/os2mo_data_import-5.4.0.tar.gz tmp/os2mo_data_import-5.4.1.tar.gz --markdown 20230710/o/os2mo-data-import/5.4.0-5.4.1/diff.md --exclude *.pyd
+[2023-07-10 14:48:23] INFO root fetch - processPackages [Perfole]: Remove: archive file [/home/abi/fetcher/tmp/Perfole-0.0.2.tar.gz]
+[2023-07-10 14:48:23] INFO root fetch - processPackages [Perfole]: Remove: archive file [/home/abi/fetcher/tmp/Perfole-0.0.3.tar.gz]
+[2023-07-10 14:48:23] INFO root fetch - processPackages [Perfole]: Start processing: deprl
+[2023-07-10 14:48:23] INFO root fetch - main [MainThread]: End processing [Perfole]: success
+[2023-07-10 14:48:23] INFO root fetch - processPackages [deprl]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-10 14:48:23] INFO root fetch - processPackages [web-ext-helper]: Remove: archive file [/home/abi/fetcher/tmp/web_ext_helper-1.2.0.tar.gz]
+[2023-07-10 14:48:23] INFO root fetch - processPackages [web-ext-helper]: Remove: archive file [/home/abi/fetcher/tmp/web_ext_helper-1.2.1.tar.gz]
+[2023-07-10 14:48:23] INFO root fetch - processPackages [web-ext-helper]: Start processing: scisuit
+[2023-07-10 14:48:23] INFO root fetch - main [MainThread]: End processing [web-ext-helper]: success
+[2023-07-10 14:48:24] WARNING root fetch - processPackages [scisuit]: Skipping, unable to determine old version
+[2023-07-10 14:48:24] INFO root fetch - processPackages [scisuit]: Start processing: pipd
+[2023-07-10 14:48:24] INFO root fetch - main [MainThread]: End processing [scisuit] error
+[2023-07-10 14:48:24] INFO root fetch - processPackages [write-githubstat]: Remove: archive file [/home/abi/fetcher/tmp/write_githubstat-0.1.3.tar.gz]
+[2023-07-10 14:48:24] INFO root fetch - processPackages [write-githubstat]: Remove: archive file [/home/abi/fetcher/tmp/write_githubstat-0.1.4.tar.gz]
+[2023-07-10 14:48:24] INFO root fetch - main [MainThread]: End processing [write-githubstat]: success
+[2023-07-10 14:48:24] INFO root fetch - processPackages [telegramweb]: Remove: archive file [/home/abi/fetcher/tmp/telegramweb-5.6.tar.gz]
+[2023-07-10 14:48:24] INFO root fetch - processPackages [telegramweb]: Remove: archive file [/home/abi/fetcher/tmp/telegramweb-5.7.tar.gz]
+[2023-07-10 14:48:24] INFO root fetch - main [MainThread]: End processing [telegramweb]: success
+[2023-07-10 14:48:24] INFO root fetch - processPackages [pipd]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-10 14:48:24] INFO root fetch - processPackages [tigerblog]: Remove: archive file [/home/abi/fetcher/tmp/tigerblog-0.1.8.tar.gz]
+[2023-07-10 14:48:24] INFO root fetch - processPackages [tigerblog]: Remove: archive file [/home/abi/fetcher/tmp/tigerblog-0.1.9.tar.gz]
+[2023-07-10 14:48:24] INFO root fetch - main [MainThread]: End processing [tigerblog]: success
+[2023-07-10 14:48:24] INFO root fetch - processPackages [pipd]: Downloading https://files.pythonhosted.org/packages/48/d6/f88a967f8f3fb8caa91ef2719cae21431ff9e02cdfa4da8415141cd5d6b3/pipd-0.1.7.tar.gz
+[2023-07-10 14:48:24] INFO root fetch - processPackages [deprl]: Downloading https://files.pythonhosted.org/packages/c2/b7/db2f38337251b02b6260a320eca1116ccfaf281c1df32ccb4b14e0179cc8/deprl-0.1.3.tar.gz
+[2023-07-10 14:48:24] INFO root fetch - processPackages [yet-another-wizz]: Remove: archive file [/home/abi/fetcher/tmp/yet_another_wizz-2.5.1.tar.gz]
+[2023-07-10 14:48:24] INFO root fetch - processPackages [yet-another-wizz]: Remove: archive file [/home/abi/fetcher/tmp/yet_another_wizz-2.5.post0.tar.gz]
+[2023-07-10 14:48:24] INFO root fetch - main [MainThread]: End processing [yet-another-wizz]: success
+[2023-07-10 14:48:24] INFO root fetch - processPackages [ec2-metadata]: Remove: archive file [/home/abi/fetcher/tmp/ec2-metadata-2.9.0.tar.gz]
+[2023-07-10 14:48:24] INFO root fetch - processPackages [ec2-metadata]: Remove: archive file [/home/abi/fetcher/tmp/ec2-metadata-2.9.1.tar.gz]
+[2023-07-10 14:48:24] INFO root fetch - main [MainThread]: End processing [ec2-metadata]: success
+[2023-07-10 14:48:24] INFO root fetch - processPackages [flake8-comprehensions]: Remove: archive file [/home/abi/fetcher/tmp/flake8-comprehensions-3.8.0.tar.gz]
+[2023-07-10 14:48:24] INFO root fetch - processPackages [flake8-comprehensions]: Remove: archive file [/home/abi/fetcher/tmp/flake8-comprehensions-3.9.0.tar.gz]
+[2023-07-10 14:48:24] INFO root fetch - main [MainThread]: End processing [flake8-comprehensions]: success
+[2023-07-10 14:48:24] INFO root fetch - processPackages [os2mo-data-import]: Remove: archive file [/home/abi/fetcher/tmp/os2mo_data_import-5.4.0.tar.gz]
+[2023-07-10 14:48:24] INFO root fetch - processPackages [os2mo-data-import]: Remove: archive file [/home/abi/fetcher/tmp/os2mo_data_import-5.4.1.tar.gz]
+[2023-07-10 14:48:24] INFO root fetch - main [MainThread]: End processing [os2mo-data-import]: success
+[2023-07-10 14:48:24] INFO root fetch - processPackages [pipd]: Downloading https://files.pythonhosted.org/packages/b4/69/a4f0b1765ba9033b84902820b37d9303c732ceb7801f33146ebf269a4127/pipd-0.1.8.tar.gz
+[2023-07-10 14:48:24] INFO root fetch - processPackages [deprl]: Downloading https://files.pythonhosted.org/packages/62/99/637f254deafec50b60caf0a3be26288b20f66621a19e5bda6fd3f53e33d6/deprl-0.1.4.tar.gz
+[2023-07-10 14:48:24] INFO root fetch - processPackages [pipd]: executing diffoscope
+[2023-07-10 14:48:24] INFO root fetch - processPackages [pipd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipd-0.1.7.tar.gz tmp/pipd-0.1.8.tar.gz --markdown 20230710/p/pipd/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-10 14:48:24] INFO root fetch - processPackages [deprl]: executing diffoscope
+[2023-07-10 14:48:24] INFO root fetch - processPackages [deprl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deprl-0.1.3.tar.gz tmp/deprl-0.1.4.tar.gz --markdown 20230710/d/deprl/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-10 14:48:24] INFO root fetch - processPackages [salabim]: Remove: archive file [/home/abi/fetcher/tmp/salabim-23.3.0.tar.gz]
+[2023-07-10 14:48:24] INFO root fetch - processPackages [salabim]: Remove: archive file [/home/abi/fetcher/tmp/salabim-23.3.1.tar.gz]
+[2023-07-10 14:48:24] INFO root fetch - main [MainThread]: End processing [salabim]: success
+[2023-07-10 14:48:25] INFO root fetch - processPackages [pipd]: Remove: archive file [/home/abi/fetcher/tmp/pipd-0.1.7.tar.gz]
+[2023-07-10 14:48:25] INFO root fetch - processPackages [pipd]: Remove: archive file [/home/abi/fetcher/tmp/pipd-0.1.8.tar.gz]
+[2023-07-10 14:48:25] INFO root fetch - main [MainThread]: End processing [pipd]: success
+[2023-07-10 14:48:25] INFO root fetch - processPackages [deprl]: Remove: archive file [/home/abi/fetcher/tmp/deprl-0.1.3.tar.gz]
+[2023-07-10 14:48:25] INFO root fetch - processPackages [deprl]: Remove: archive file [/home/abi/fetcher/tmp/deprl-0.1.4.tar.gz]
+[2023-07-10 14:48:25] INFO root fetch - main [MainThread]: End processing [deprl]: success
+[2023-07-10 14:48:25] INFO root fetch - main [MainThread]: Store serial: [18830685]
