@@ -6013,3 +6013,48 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 05:05:57] INFO root fetch - processPackages [pyaon]: Remove: archive file [/home/abi/fetcher/tmp/pyaon-1.1.6-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-10 05:05:57] INFO root fetch - main [MainThread]: End processing [pyaon]: success
 [2023-07-10 05:05:57] INFO root fetch - main [MainThread]: Store serial: [18825942]
+[2023-07-10 05:11:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18825942]
+[2023-07-10 05:11:06] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-10 05:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: concrete
+[2023-07-10 05:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: merkly
+[2023-07-10 05:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flux-burst-compute-engine
+[2023-07-10 05:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zetascale
+[2023-07-10 05:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xklb
+[2023-07-10 05:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pybuilder
+[2023-07-10 05:11:07] INFO root fetch - processPackages [concrete]: New version: [4.9.6] Old Version: [4.9.4]
+[2023-07-10 05:11:07] INFO root fetch - processPackages [merkly]: New version: [0.8.0] Old Version: [0.7.2]
+[2023-07-10 05:11:07] WARNING root fetch - processPackages [flux-burst-compute-engine]: Skipping, unable to determine old version
+[2023-07-10 05:11:07] INFO root fetch - main [MainThread]: End processing [flux-burst-compute-engine] error
+[2023-07-10 05:11:07] INFO root fetch - processPackages [xklb]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-10 05:11:07] WARNING root fetch - processPackages [zetascale]: Skipping, unable to determine old version
+[2023-07-10 05:11:07] INFO root fetch - main [MainThread]: End processing [zetascale] error
+[2023-07-10 05:11:07] INFO root fetch - processPackages [pybuilder]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-10 05:11:07] INFO root fetch - processPackages [pybuilder]: Downloading https://files.pythonhosted.org/packages/95/49/7b6e0cd23597ce94262fd70ed9872f0f92974f9da3c3b70b90ea9d2e9b6f/pybuilder-0.9.8.tar.gz
+[2023-07-10 05:11:07] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/10/78/158da1876f9993e387cbd6f3e863998fb3d36545c88820f91a57f7a97b99/xklb-2.2.8.tar.gz
+[2023-07-10 05:11:07] INFO root fetch - processPackages [concrete]: Downloading https://files.pythonhosted.org/packages/9d/b1/77072872bd3fb9a58e9a6719c79464f786c52f73b68a100bc664d903aa51/concrete-4.9.4.tar.gz
+[2023-07-10 05:11:07] INFO root fetch - processPackages [merkly]: Downloading https://files.pythonhosted.org/packages/6e/92/03e8026131141b111f0143fbb9bc789506aeae253bca4fb93189d47f3c84/merkly-0.7.2.tar.gz
+[2023-07-10 05:11:07] INFO root fetch - processPackages [pybuilder]: Downloading https://files.pythonhosted.org/packages/9f/a1/a52e483de504d09a0dd16a38d52f4cfbb51f8272b5dfe89bba81d20f52d5/pybuilder-0.9.9.tar.gz
+[2023-07-10 05:11:07] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/21/af/fbdd09ebcfd5aa404fbf007cfe827b2b56fcfd19c73cc4b3f7f672fe0b3c/xklb-2.2.9.tar.gz
+[2023-07-10 05:11:07] INFO root fetch - processPackages [concrete]: Downloading https://files.pythonhosted.org/packages/73/91/31d548cc22dd9d8c012d59cf0fec3c006d27d2f045cbce7b224a60a78b01/concrete-4.9.6.tar.gz
+[2023-07-10 05:11:07] INFO root fetch - processPackages [merkly]: Downloading https://files.pythonhosted.org/packages/00/e6/32bb3572baeaa793ee5637bbf5d74c96d92e58f91030ce742e1f280fce0b/merkly-0.8.0.tar.gz
+[2023-07-10 05:11:07] INFO root fetch - processPackages [pybuilder]: executing diffoscope
+[2023-07-10 05:11:07] INFO root fetch - processPackages [pybuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybuilder-0.9.8.tar.gz tmp/pybuilder-0.9.9.tar.gz --markdown 20230710/p/pybuilder/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-10 05:11:07] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-07-10 05:11:07] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.2.8.tar.gz tmp/xklb-2.2.9.tar.gz --markdown 20230710/x/xklb/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-10 05:11:07] INFO root fetch - processPackages [concrete]: executing diffoscope
+[2023-07-10 05:11:07] INFO root fetch - processPackages [concrete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/concrete-4.9.4.tar.gz tmp/concrete-4.9.6.tar.gz --markdown 20230710/c/concrete/4.9.4-4.9.6/diff.md --exclude *.pyd
+[2023-07-10 05:11:07] INFO root fetch - processPackages [merkly]: executing diffoscope
+[2023-07-10 05:11:07] INFO root fetch - processPackages [merkly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merkly-0.7.2.tar.gz tmp/merkly-0.8.0.tar.gz --markdown 20230710/m/merkly/0.7.2-0.8.0/diff.md --exclude *.pyd
+[2023-07-10 05:11:08] INFO root fetch - processPackages [merkly]: Remove: archive file [/home/abi/fetcher/tmp/merkly-0.7.2.tar.gz]
+[2023-07-10 05:11:08] INFO root fetch - processPackages [merkly]: Remove: archive file [/home/abi/fetcher/tmp/merkly-0.8.0.tar.gz]
+[2023-07-10 05:11:08] INFO root fetch - main [MainThread]: End processing [merkly]: success
+[2023-07-10 05:11:09] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.8.tar.gz]
+[2023-07-10 05:11:09] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.9.tar.gz]
+[2023-07-10 05:11:09] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-07-10 05:11:09] INFO root fetch - processPackages [pybuilder]: Remove: archive file [/home/abi/fetcher/tmp/pybuilder-0.9.8.tar.gz]
+[2023-07-10 05:11:09] INFO root fetch - processPackages [pybuilder]: Remove: archive file [/home/abi/fetcher/tmp/pybuilder-0.9.9.tar.gz]
+[2023-07-10 05:11:09] INFO root fetch - main [MainThread]: End processing [pybuilder]: success
+[2023-07-10 05:11:09] INFO root fetch - processPackages [concrete]: Remove: archive file [/home/abi/fetcher/tmp/concrete-4.9.4.tar.gz]
+[2023-07-10 05:11:09] INFO root fetch - processPackages [concrete]: Remove: archive file [/home/abi/fetcher/tmp/concrete-4.9.6.tar.gz]
+[2023-07-10 05:11:09] INFO root fetch - main [MainThread]: End processing [concrete]: success
+[2023-07-10 05:11:09] INFO root fetch - main [MainThread]: Store serial: [18825962]
