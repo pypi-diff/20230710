@@ -22061,3 +22061,182 @@ EOFError: EOF read where object expected
 [2023-07-10 17:16:21] INFO root fetch - processPackages [nnx]: Remove: archive file [/home/abi/fetcher/tmp/nnx-0.0.7.tar.gz]
 [2023-07-10 17:16:21] INFO root fetch - main [MainThread]: End processing [nnx]: success
 [2023-07-10 17:16:21] INFO root fetch - main [MainThread]: Store serial: [18832597]
+[2023-07-10 17:21:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18832597]
+[2023-07-10 17:21:30] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-10 17:21:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alyvix
+[2023-07-10 17:21:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jal
+[2023-07-10 17:21:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: directdm
+[2023-07-10 17:21:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tabulario
+[2023-07-10 17:21:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edp-redy-py
+[2023-07-10 17:21:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: appwrite
+[2023-07-10 17:21:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yaccounts
+[2023-07-10 17:21:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autodistill-sam-clip
+[2023-07-10 17:21:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pastml
+[2023-07-10 17:21:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pytest-reverse
+[2023-07-10 17:21:31] INFO root fetch - processPackages [yaccounts]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-10 17:21:31] INFO root fetch - processPackages [appwrite]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-10 17:21:31] INFO root fetch - processPackages [directdm]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-07-10 17:21:31] INFO root fetch - processPackages [autodistill-sam-clip]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-10 17:21:31] INFO root fetch - processPackages [tabulario]: New version: [0.4.0rc1] Old Version: [0.4.0]
+[2023-07-10 17:21:31] INFO root fetch - processPackages [pastml]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-10 17:21:31] INFO root fetch - processPackages [edp-redy-py]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 17:21:31] INFO root fetch - processPackages [alyvix]: New version: [3.4.0b1] Old Version: [3.4.0b0]
+[2023-07-10 17:21:31] INFO root fetch - processPackages [jal]: New version: [2023.7.1] Old Version: [2023.5.2]
+[2023-07-10 17:21:31] INFO root fetch - processPackages [pytest-reverse]: New version: [1.7.0] Old Version: [1.6.0]
+[2023-07-10 17:21:31] INFO root fetch - processPackages [yaccounts]: Downloading https://files.pythonhosted.org/packages/8a/58/7b28e252062b3d2fabbb5f6aad680c7f9cb26ebfd3d5fdddfcf9fad93dce/yaccounts-1.1.1.tar.gz
+[2023-07-10 17:21:31] INFO root fetch - processPackages [edp-redy-py]: Downloading https://files.pythonhosted.org/packages/14/20/2292474a5ad851a9cf8a61884a1b5526a4a4671f84345d9d83e9b4b8f868/edp_redy_py-0.1.8.tar.gz
+[2023-07-10 17:21:31] INFO root fetch - processPackages [autodistill-sam-clip]: Downloading https://files.pythonhosted.org/packages/d3/41/c02b3e7c1b2e88cba73ac053b8bafc0699d9717265d1eee81cf7b0fc59d6/autodistill-sam-clip-0.1.2.tar.gz
+[2023-07-10 17:21:31] INFO root fetch - processPackages [appwrite]: Downloading https://files.pythonhosted.org/packages/da/6d/f31b9d9599c3db9cb98b7a292fd3dac133d0a1fb4ef25722f0be23804e50/appwrite-2.0.0.tar.gz
+[2023-07-10 17:21:31] INFO root fetch - processPackages [pastml]: Downloading https://files.pythonhosted.org/packages/50/fd/974dd2408972e4b24c5de3010cb7171de70c4d7e9535d730a8a73422eb33/pastml-1.9.8.tar.gz
+[2023-07-10 17:21:31] INFO root fetch - processPackages [tabulario]: Downloading https://files.pythonhosted.org/packages/80/f8/91761701371f60ea4f3bdbf109d78b1d3f18d9761b5ba034d484b03854f9/tabulario-0.4.0.tar.gz
+[2023-07-10 17:21:31] INFO root fetch - processPackages [directdm]: Downloading https://files.pythonhosted.org/packages/42/36/02c6fa87641bbde339fe0182698a97e86ddb5394900b4a62509037a9cee6/directdm-2.2.1.tar.gz
+[2023-07-10 17:21:31] INFO root fetch - processPackages [jal]: Downloading https://files.pythonhosted.org/packages/09/25/f6fa615b880dc6420db9edfab40659f4356a6f2c13f30ee7391a388c89bd/jal-2023.5.2.tar.gz
+[2023-07-10 17:21:31] INFO root fetch - processPackages [alyvix]: Downloading https://files.pythonhosted.org/packages/e4/f3/e7c2b642b2e0d5eb4bc593bd9a7ad05a85f9d5219057cebc1c46572e2d65/alyvix-3.4.0b0-cp39-cp39-win_amd64.whl
+[2023-07-10 17:21:31] INFO root fetch - processPackages [pytest-reverse]: Downloading https://files.pythonhosted.org/packages/8e/96/a6742fdf8fccaf985888adb74f047c2dbd3973427a3434d0cd4090a030cb/pytest_reverse-1.6.0.tar.gz
+[2023-07-10 17:21:31] WARNING root fetch - processPackages [alyvix]: Skipping package: exceeds size limit 100852808>=10485760
+[2023-07-10 17:21:31] INFO root fetch - processPackages [alyvix]: Start processing: eminus
+[2023-07-10 17:21:31] INFO root fetch - main [MainThread]: End processing [alyvix] error
+[2023-07-10 17:21:32] INFO root fetch - processPackages [yaccounts]: Downloading https://files.pythonhosted.org/packages/2d/60/e2806e5fdf5be861ab43b9404e0a4d8634a9fcd67adc860c5a1db6e00b56/yaccounts-1.1.2.tar.gz
+[2023-07-10 17:21:32] INFO root fetch - processPackages [edp-redy-py]: Downloading https://files.pythonhosted.org/packages/f6/5e/86c245d985ed6effb5887499d8e233fb9602ad0afeb064878573fd74a032/edp_redy_py-0.1.9.tar.gz
+[2023-07-10 17:21:32] INFO root fetch - processPackages [autodistill-sam-clip]: Downloading https://files.pythonhosted.org/packages/8c/f2/d487b04f0fa2ccf63ced418f453865063f678cbfe3410351db321e1e9b92/autodistill-sam-clip-0.1.3.tar.gz
+[2023-07-10 17:21:32] INFO root fetch - processPackages [appwrite]: Downloading https://files.pythonhosted.org/packages/31/cf/20e621b870b35d5c9fb6c17004fabec79387afde76dc3a003f5e00d274a7/appwrite-2.0.1.tar.gz
+[2023-07-10 17:21:32] INFO root fetch - processPackages [pastml]: Downloading https://files.pythonhosted.org/packages/55/81/9714d09ee749e60dcd33b30721417fd5ae608a3a773f2525461bd519ba14/pastml-1.9.9.tar.gz
+[2023-07-10 17:21:32] INFO root fetch - processPackages [eminus]: New version: [2.5.0] Old Version: [2.4.0]
+[2023-07-10 17:21:32] INFO root fetch - processPackages [tabulario]: Downloading https://files.pythonhosted.org/packages/19/22/3d044bab30e6c00586ca87e7c6c12c58f2275b3624c9d94ddc5c24deaab5/tabulario-0.4.0rc1.tar.gz
+[2023-07-10 17:21:32] INFO root fetch - processPackages [directdm]: Downloading https://files.pythonhosted.org/packages/04/dd/492862e2338c0bbddf1922acef224abb6ec8aec0b7a39f9e0afc55570c53/directdm-2.2.2.tar.gz
+[2023-07-10 17:21:32] INFO root fetch - processPackages [yaccounts]: executing diffoscope
+[2023-07-10 17:21:32] INFO root fetch - processPackages [yaccounts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaccounts-1.1.1.tar.gz tmp/yaccounts-1.1.2.tar.gz --markdown 20230710/y/yaccounts/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-10 17:21:32] INFO root fetch - processPackages [edp-redy-py]: executing diffoscope
+[2023-07-10 17:21:32] INFO root fetch - processPackages [edp-redy-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edp_redy_py-0.1.8.tar.gz tmp/edp_redy_py-0.1.9.tar.gz --markdown 20230710/e/edp-redy-py/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 17:21:32] INFO root fetch - processPackages [pytest-reverse]: Downloading https://files.pythonhosted.org/packages/b9/9c/1d0988d202954f3b84b812c0456945029a24d76066c4d5c182b0dfe1090a/pytest_reverse-1.7.0.tar.gz
+[2023-07-10 17:21:32] INFO root fetch - processPackages [jal]: Downloading https://files.pythonhosted.org/packages/e5/1b/322a7ad7f8bbf380c3adb9cd7ec7e7af7626e80b3f1902fdfe3e0743ac25/jal-2023.7.1.tar.gz
+[2023-07-10 17:21:32] INFO root fetch - processPackages [appwrite]: executing diffoscope
+[2023-07-10 17:21:32] INFO root fetch - processPackages [appwrite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appwrite-2.0.0.tar.gz tmp/appwrite-2.0.1.tar.gz --markdown 20230710/a/appwrite/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-10 17:21:32] INFO root fetch - processPackages [autodistill-sam-clip]: executing diffoscope
+[2023-07-10 17:21:32] INFO root fetch - processPackages [autodistill-sam-clip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autodistill-sam-clip-0.1.2.tar.gz tmp/autodistill-sam-clip-0.1.3.tar.gz --markdown 20230710/a/autodistill-sam-clip/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-10 17:21:32] INFO root fetch - processPackages [tabulario]: executing diffoscope
+[2023-07-10 17:21:32] INFO root fetch - processPackages [tabulario]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tabulario-0.4.0.tar.gz tmp/tabulario-0.4.0rc1.tar.gz --markdown 20230710/t/tabulario/0.4.0-0.4.0rc1/diff.md --exclude *.pyd
+[2023-07-10 17:21:32] INFO root fetch - processPackages [pytest-reverse]: executing diffoscope
+[2023-07-10 17:21:32] INFO root fetch - processPackages [pytest-reverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_reverse-1.6.0.tar.gz tmp/pytest_reverse-1.7.0.tar.gz --markdown 20230710/p/pytest-reverse/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2023-07-10 17:21:32] INFO root fetch - processPackages [eminus]: Downloading https://files.pythonhosted.org/packages/c2/be/a5c8ddac4aca8fe0967e44fac67b23fcd49ee5f71c7db2870dc1196ab8d8/eminus-2.4.0.tar.gz
+[2023-07-10 17:21:32] INFO root fetch - processPackages [pastml]: executing diffoscope
+[2023-07-10 17:21:32] INFO root fetch - processPackages [pastml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pastml-1.9.8.tar.gz tmp/pastml-1.9.9.tar.gz --markdown 20230710/p/pastml/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-10 17:21:32] INFO root fetch - processPackages [jal]: executing diffoscope
+[2023-07-10 17:21:32] INFO root fetch - processPackages [jal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jal-2023.5.2.tar.gz tmp/jal-2023.7.1.tar.gz --markdown 20230710/j/jal/2023.5.2-2023.7.1/diff.md --exclude *.pyd
+[2023-07-10 17:21:32] INFO root fetch - processPackages [directdm]: executing diffoscope
+[2023-07-10 17:21:32] INFO root fetch - processPackages [directdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/directdm-2.2.1.tar.gz tmp/directdm-2.2.2.tar.gz --markdown 20230710/d/directdm/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-07-10 17:21:32] INFO root fetch - processPackages [eminus]: Downloading https://files.pythonhosted.org/packages/b1/d8/b6eb265287ebf2defc5ca56744e72da17feba4c2b5657138874d3519dbba/eminus-2.5.0.tar.gz
+[2023-07-10 17:21:33] INFO root fetch - processPackages [eminus]: executing diffoscope
+[2023-07-10 17:21:33] INFO root fetch - processPackages [eminus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eminus-2.4.0.tar.gz tmp/eminus-2.5.0.tar.gz --markdown 20230710/e/eminus/2.4.0-2.5.0/diff.md --exclude *.pyd
+[2023-07-10 17:21:33] INFO root fetch - processPackages [yaccounts]: Remove: archive file [/home/abi/fetcher/tmp/yaccounts-1.1.1.tar.gz]
+[2023-07-10 17:21:33] INFO root fetch - processPackages [yaccounts]: Remove: archive file [/home/abi/fetcher/tmp/yaccounts-1.1.2.tar.gz]
+[2023-07-10 17:21:33] INFO root fetch - processPackages [yaccounts]: Start processing: telegramweb
+[2023-07-10 17:21:33] INFO root fetch - main [MainThread]: End processing [yaccounts]: success
+[2023-07-10 17:21:33] INFO root fetch - processPackages [telegramweb]: New version: [6.2] Old Version: [6.1]
+[2023-07-10 17:21:33] INFO root fetch - processPackages [edp-redy-py]: Remove: archive file [/home/abi/fetcher/tmp/edp_redy_py-0.1.8.tar.gz]
+[2023-07-10 17:21:33] INFO root fetch - processPackages [edp-redy-py]: Remove: archive file [/home/abi/fetcher/tmp/edp_redy_py-0.1.9.tar.gz]
+[2023-07-10 17:21:33] INFO root fetch - processPackages [edp-redy-py]: Start processing: ipasymbols
+[2023-07-10 17:21:33] INFO root fetch - main [MainThread]: End processing [edp-redy-py]: success
+[2023-07-10 17:21:33] INFO root fetch - processPackages [tabulario]: Remove: archive file [/home/abi/fetcher/tmp/tabulario-0.4.0.tar.gz]
+[2023-07-10 17:21:33] INFO root fetch - processPackages [tabulario]: Remove: archive file [/home/abi/fetcher/tmp/tabulario-0.4.0rc1.tar.gz]
+[2023-07-10 17:21:33] INFO root fetch - processPackages [tabulario]: Start processing: pyispace
+[2023-07-10 17:21:33] INFO root fetch - main [MainThread]: End processing [tabulario]: success
+[2023-07-10 17:21:33] INFO root fetch - processPackages [ipasymbols]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-07-10 17:21:33] INFO root fetch - processPackages [telegramweb]: Downloading https://files.pythonhosted.org/packages/99/93/5603c8a86207c8d1f803573e6b2f9e29b2d3d92635920b6f206e3abb2c45/telegramweb-6.1.tar.gz
+[2023-07-10 17:21:34] INFO root fetch - processPackages [pyispace]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-07-10 17:21:34] INFO root fetch - processPackages [autodistill-sam-clip]: Remove: archive file [/home/abi/fetcher/tmp/autodistill-sam-clip-0.1.2.tar.gz]
+[2023-07-10 17:21:34] INFO root fetch - processPackages [autodistill-sam-clip]: Remove: archive file [/home/abi/fetcher/tmp/autodistill-sam-clip-0.1.3.tar.gz]
+[2023-07-10 17:21:34] INFO root fetch - processPackages [autodistill-sam-clip]: Start processing: PureCloudPlatformClientV2
+[2023-07-10 17:21:34] INFO root fetch - main [MainThread]: End processing [autodistill-sam-clip]: success
+[2023-07-10 17:21:34] INFO root fetch - processPackages [appwrite]: Remove: archive file [/home/abi/fetcher/tmp/appwrite-2.0.0.tar.gz]
+[2023-07-10 17:21:34] INFO root fetch - processPackages [appwrite]: Remove: archive file [/home/abi/fetcher/tmp/appwrite-2.0.1.tar.gz]
+[2023-07-10 17:21:34] INFO root fetch - processPackages [appwrite]: Start processing: wagtail-lottie
+[2023-07-10 17:21:34] INFO root fetch - main [MainThread]: End processing [appwrite]: success
+[2023-07-10 17:21:34] INFO root fetch - processPackages [pytest-reverse]: Remove: archive file [/home/abi/fetcher/tmp/pytest_reverse-1.6.0.tar.gz]
+[2023-07-10 17:21:34] INFO root fetch - processPackages [pytest-reverse]: Remove: archive file [/home/abi/fetcher/tmp/pytest_reverse-1.7.0.tar.gz]
+[2023-07-10 17:21:34] INFO root fetch - processPackages [pytest-reverse]: Start processing: panda-client-light
+[2023-07-10 17:21:34] INFO root fetch - main [MainThread]: End processing [pytest-reverse]: success
+[2023-07-10 17:21:34] INFO root fetch - processPackages [wagtail-lottie]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 17:21:34] INFO root fetch - processPackages [PureCloudPlatformClientV2]: New version: [99.0.0] Old Version: [98.0.0]
+[2023-07-10 17:21:34] INFO root fetch - processPackages [pyispace]: Downloading https://files.pythonhosted.org/packages/50/fa/01578660c5940648f925e7d7a1f72c6ad663f63fc7b813d2abda2d9d7547/pyispace-0.3.6.tar.gz
+[2023-07-10 17:21:34] INFO root fetch - processPackages [pastml]: Remove: archive file [/home/abi/fetcher/tmp/pastml-1.9.8.tar.gz]
+[2023-07-10 17:21:34] INFO root fetch - processPackages [pastml]: Remove: archive file [/home/abi/fetcher/tmp/pastml-1.9.9.tar.gz]
+[2023-07-10 17:21:34] INFO root fetch - processPackages [pastml]: Start processing: panda-client
+[2023-07-10 17:21:34] INFO root fetch - main [MainThread]: End processing [pastml]: success
+[2023-07-10 17:21:34] INFO root fetch - processPackages [ipasymbols]: Downloading https://files.pythonhosted.org/packages/3a/8a/f86ba22b333d61ee697d3b144ae29016e73985b53c55d1808b8a38f1ba32/ipasymbols-0.0.1.tar.gz
+[2023-07-10 17:21:34] INFO root fetch - processPackages [directdm]: Remove: archive file [/home/abi/fetcher/tmp/directdm-2.2.1.tar.gz]
+[2023-07-10 17:21:34] INFO root fetch - processPackages [directdm]: Remove: archive file [/home/abi/fetcher/tmp/directdm-2.2.2.tar.gz]
+[2023-07-10 17:21:34] INFO root fetch - processPackages [directdm]: Start processing: satori-ci
+[2023-07-10 17:21:34] INFO root fetch - main [MainThread]: End processing [directdm]: success
+[2023-07-10 17:21:34] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Downloading https://files.pythonhosted.org/packages/2c/c0/91800d23710423ae3701d533f2eb887685821d04a61d8ce88b3ef04e973d/PureCloudPlatformClientV2-98.0.0.tar.gz
+[2023-07-10 17:21:34] INFO root fetch - processPackages [panda-client-light]: New version: [1.5.62] Old Version: [1.5.61]
+[2023-07-10 17:21:34] INFO root fetch - processPackages [satori-ci]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-10 17:21:34] INFO root fetch - processPackages [panda-client]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-07-10 17:21:34] INFO root fetch - processPackages [telegramweb]: Downloading https://files.pythonhosted.org/packages/b3/ed/205d52a774ec1859a01ccf27a91b44b47b7efc050190e81ebaad55640109/telegramweb-6.2.tar.gz
+[2023-07-10 17:21:34] INFO root fetch - processPackages [wagtail-lottie]: Downloading https://files.pythonhosted.org/packages/36/7c/9e8f6b501062a9b8053f9ea31f7076376e6b4a1763945436dea1ebd08fdd/wagtail_lottie-0.1.8.tar.gz
+[2023-07-10 17:21:34] INFO root fetch - processPackages [panda-client-light]: Downloading https://files.pythonhosted.org/packages/94/87/f8c2ad00f62883a31383a54a3dfd62eba75c3b8047576c41da8e58dc9ab7/panda_client_light-1.5.61-py2.py3-none-any.whl
+[2023-07-10 17:21:34] INFO root fetch - processPackages [pyispace]: Downloading https://files.pythonhosted.org/packages/fc/2a/8fdec77ca1da3b99e456270305e63c69105c6bc728dc669490194683e18e/pyispace-0.3.7.tar.gz
+[2023-07-10 17:21:34] INFO root fetch - processPackages [satori-ci]: Downloading https://files.pythonhosted.org/packages/0f/e9/8730b0b247277bad0867ffd703c9de8cc8e32296273202190c6988be7d9e/satori_ci-1.2.8.tar.gz
+[2023-07-10 17:21:34] INFO root fetch - processPackages [panda-client]: Downloading https://files.pythonhosted.org/packages/42/68/efaacc907591b37293622e8015fd2f5b8cd84e52f4eebc31de3da9209541/panda-client-1.5.8.tar.gz
+[2023-07-10 17:21:34] INFO root fetch - processPackages [ipasymbols]: Downloading https://files.pythonhosted.org/packages/6b/57/92dc11cd422a611a010b34647c10dc25ba2f610a6e18f91fdc3b4c31c217/ipasymbols-0.1.0.tar.gz
+[2023-07-10 17:21:34] INFO root fetch - processPackages [telegramweb]: executing diffoscope
+[2023-07-10 17:21:34] INFO root fetch - processPackages [telegramweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegramweb-6.1.tar.gz tmp/telegramweb-6.2.tar.gz --markdown 20230710/t/telegramweb/6.1-6.2/diff.md --exclude *.pyd
+[2023-07-10 17:21:34] INFO root fetch - processPackages [pyispace]: executing diffoscope
+[2023-07-10 17:21:34] INFO root fetch - processPackages [pyispace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyispace-0.3.6.tar.gz tmp/pyispace-0.3.7.tar.gz --markdown 20230710/p/pyispace/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-07-10 17:21:34] INFO root fetch - processPackages [ipasymbols]: executing diffoscope
+[2023-07-10 17:21:34] INFO root fetch - processPackages [ipasymbols]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipasymbols-0.0.1.tar.gz tmp/ipasymbols-0.1.0.tar.gz --markdown 20230710/i/ipasymbols/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-07-10 17:21:34] INFO root fetch - processPackages [panda-client-light]: Downloading https://files.pythonhosted.org/packages/07/ef/46bd65b11c5a271e6b5d416d754451568ff67d2f43e4ed98eb154df760fb/panda_client_light-1.5.62-py2.py3-none-any.whl
+[2023-07-10 17:21:34] INFO root fetch - processPackages [wagtail-lottie]: Downloading https://files.pythonhosted.org/packages/6f/54/0e82f42825ab2c494ff2996aef826a1c9151458e37546b1e1f19c377eb58/wagtail_lottie-0.1.9.tar.gz
+[2023-07-10 17:21:35] INFO root fetch - processPackages [satori-ci]: Downloading https://files.pythonhosted.org/packages/b7/0b/451eae7159f796f9dfb4eaee887b8acdd96fc946dedeb3da9cafe052e2aa/satori_ci-1.2.9.tar.gz
+[2023-07-10 17:21:35] INFO root fetch - processPackages [panda-client-light]: executing diffoscope
+[2023-07-10 17:21:35] INFO root fetch - processPackages [panda-client-light]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panda_client_light-1.5.61-py2.py3-none-any.whl.zip tmp/panda_client_light-1.5.62-py2.py3-none-any.whl.zip --markdown 20230710/p/panda-client-light/1.5.61-1.5.62/diff.md --exclude *.pyd
+[2023-07-10 17:21:35] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Downloading https://files.pythonhosted.org/packages/27/4a/c79d7db4d3031ed827ca4794d7791097c946dd8a6a0ae49a7fb27c9473d8/PureCloudPlatformClientV2-99.0.0.tar.gz
+[2023-07-10 17:21:35] INFO root fetch - processPackages [panda-client]: Downloading https://files.pythonhosted.org/packages/d8/3d/b204abdb970252a362db69aa6fbae64332235ba22a575e3aac779564c21c/panda-client-1.5.9.tar.gz
+[2023-07-10 17:21:35] INFO root fetch - processPackages [wagtail-lottie]: executing diffoscope
+[2023-07-10 17:21:35] INFO root fetch - processPackages [wagtail-lottie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_lottie-0.1.8.tar.gz tmp/wagtail_lottie-0.1.9.tar.gz --markdown 20230710/w/wagtail-lottie/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 17:21:35] INFO root fetch - processPackages [satori-ci]: executing diffoscope
+[2023-07-10 17:21:35] INFO root fetch - processPackages [satori-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satori_ci-1.2.8.tar.gz tmp/satori_ci-1.2.9.tar.gz --markdown 20230710/s/satori-ci/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-10 17:21:35] INFO root fetch - processPackages [PureCloudPlatformClientV2]: executing diffoscope
+[2023-07-10 17:21:35] INFO root fetch - processPackages [PureCloudPlatformClientV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PureCloudPlatformClientV2-98.0.0.tar.gz tmp/PureCloudPlatformClientV2-99.0.0.tar.gz --markdown 20230710/P/PureCloudPlatformClientV2/98.0.0-99.0.0/diff.md --exclude *.pyd
+[2023-07-10 17:21:35] INFO root fetch - processPackages [panda-client]: executing diffoscope
+[2023-07-10 17:21:35] INFO root fetch - processPackages [panda-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panda-client-1.5.8.tar.gz tmp/panda-client-1.5.9.tar.gz --markdown 20230710/p/panda-client/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-07-10 17:21:35] INFO root fetch - processPackages [jal]: Remove: archive file [/home/abi/fetcher/tmp/jal-2023.5.2.tar.gz]
+[2023-07-10 17:21:35] INFO root fetch - processPackages [jal]: Remove: archive file [/home/abi/fetcher/tmp/jal-2023.7.1.tar.gz]
+[2023-07-10 17:21:35] INFO root fetch - processPackages [jal]: Start processing: mirutil
+[2023-07-10 17:21:35] INFO root fetch - main [MainThread]: End processing [jal]: success
+[2023-07-10 17:21:35] INFO root fetch - processPackages [mirutil]: New version: [9.4.0] Old Version: [9.3.1]
+[2023-07-10 17:21:35] INFO root fetch - processPackages [mirutil]: Downloading https://files.pythonhosted.org/packages/38/6e/e3b08382149307a94ff2b014f554aa4dedaad5e3cc7b3b4e2fd1d21e0de1/mirutil-9.3.1.tar.gz
+[2023-07-10 17:21:35] INFO root fetch - processPackages [pyispace]: Remove: archive file [/home/abi/fetcher/tmp/pyispace-0.3.6.tar.gz]
+[2023-07-10 17:21:35] INFO root fetch - processPackages [pyispace]: Remove: archive file [/home/abi/fetcher/tmp/pyispace-0.3.7.tar.gz]
+[2023-07-10 17:21:36] INFO root fetch - main [MainThread]: End processing [pyispace]: success
+[2023-07-10 17:21:36] INFO root fetch - processPackages [eminus]: Remove: archive file [/home/abi/fetcher/tmp/eminus-2.4.0.tar.gz]
+[2023-07-10 17:21:36] INFO root fetch - processPackages [eminus]: Remove: archive file [/home/abi/fetcher/tmp/eminus-2.5.0.tar.gz]
+[2023-07-10 17:21:36] INFO root fetch - main [MainThread]: End processing [eminus]: success
+[2023-07-10 17:21:36] INFO root fetch - processPackages [ipasymbols]: Remove: archive file [/home/abi/fetcher/tmp/ipasymbols-0.0.1.tar.gz]
+[2023-07-10 17:21:36] INFO root fetch - processPackages [ipasymbols]: Remove: archive file [/home/abi/fetcher/tmp/ipasymbols-0.1.0.tar.gz]
+[2023-07-10 17:21:36] INFO root fetch - main [MainThread]: End processing [ipasymbols]: success
+[2023-07-10 17:21:36] INFO root fetch - processPackages [telegramweb]: Remove: archive file [/home/abi/fetcher/tmp/telegramweb-6.1.tar.gz]
+[2023-07-10 17:21:36] INFO root fetch - processPackages [telegramweb]: Remove: archive file [/home/abi/fetcher/tmp/telegramweb-6.2.tar.gz]
+[2023-07-10 17:21:36] INFO root fetch - main [MainThread]: End processing [telegramweb]: success
+[2023-07-10 17:21:36] INFO root fetch - processPackages [mirutil]: Downloading https://files.pythonhosted.org/packages/e4/5c/8356dc3abf52622922240b5a0df981f63d2ca98d2685eff43ea7a6c5d6c0/mirutil-9.4.0.tar.gz
+[2023-07-10 17:21:36] INFO root fetch - processPackages [mirutil]: executing diffoscope
+[2023-07-10 17:21:36] INFO root fetch - processPackages [mirutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mirutil-9.3.1.tar.gz tmp/mirutil-9.4.0.tar.gz --markdown 20230710/m/mirutil/9.3.1-9.4.0/diff.md --exclude *.pyd
+[2023-07-10 17:21:36] INFO root fetch - processPackages [panda-client-light]: Remove: archive file [/home/abi/fetcher/tmp/panda_client_light-1.5.61-py2.py3-none-any.whl.zip]
+[2023-07-10 17:21:36] INFO root fetch - processPackages [panda-client-light]: Remove: archive file [/home/abi/fetcher/tmp/panda_client_light-1.5.62-py2.py3-none-any.whl.zip]
+[2023-07-10 17:21:36] INFO root fetch - main [MainThread]: End processing [panda-client-light]: success
+[2023-07-10 17:21:36] INFO root fetch - processPackages [satori-ci]: Remove: archive file [/home/abi/fetcher/tmp/satori_ci-1.2.8.tar.gz]
+[2023-07-10 17:21:36] INFO root fetch - processPackages [satori-ci]: Remove: archive file [/home/abi/fetcher/tmp/satori_ci-1.2.9.tar.gz]
+[2023-07-10 17:21:36] INFO root fetch - main [MainThread]: End processing [satori-ci]: success
+[2023-07-10 17:21:36] INFO root fetch - processPackages [wagtail-lottie]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_lottie-0.1.8.tar.gz]
+[2023-07-10 17:21:36] INFO root fetch - processPackages [wagtail-lottie]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_lottie-0.1.9.tar.gz]
+[2023-07-10 17:21:36] INFO root fetch - main [MainThread]: End processing [wagtail-lottie]: success
+[2023-07-10 17:21:36] INFO root fetch - processPackages [panda-client]: Remove: archive file [/home/abi/fetcher/tmp/panda-client-1.5.8.tar.gz]
+[2023-07-10 17:21:36] INFO root fetch - processPackages [panda-client]: Remove: archive file [/home/abi/fetcher/tmp/panda-client-1.5.9.tar.gz]
+[2023-07-10 17:21:36] INFO root fetch - main [MainThread]: End processing [panda-client]: success
+[2023-07-10 17:21:37] INFO root fetch - processPackages [mirutil]: Remove: archive file [/home/abi/fetcher/tmp/mirutil-9.3.1.tar.gz]
+[2023-07-10 17:21:37] INFO root fetch - processPackages [mirutil]: Remove: archive file [/home/abi/fetcher/tmp/mirutil-9.4.0.tar.gz]
+[2023-07-10 17:21:37] INFO root fetch - main [MainThread]: End processing [mirutil]: success
+[2023-07-10 17:21:54] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Remove: archive file [/home/abi/fetcher/tmp/PureCloudPlatformClientV2-98.0.0.tar.gz]
+[2023-07-10 17:21:54] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Remove: archive file [/home/abi/fetcher/tmp/PureCloudPlatformClientV2-99.0.0.tar.gz]
+[2023-07-10 17:21:54] INFO root fetch - main [MainThread]: End processing [PureCloudPlatformClientV2]: success
+[2023-07-10 17:21:54] INFO root fetch - main [MainThread]: Store serial: [18832652]
