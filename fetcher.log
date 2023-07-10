@@ -20032,3 +20032,185 @@ EOFError: EOF read where object expected
 [2023-07-10 16:13:45] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230710141117.tar.gz]
 [2023-07-10 16:13:45] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-07-10 16:13:45] INFO root fetch - main [MainThread]: Store serial: [18831704]
+[2023-07-10 16:18:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18831704]
+[2023-07-10 16:18:55] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-10 16:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: leadguru-jobs
+[2023-07-10 16:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langchain-chatglm
+[2023-07-10 16:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: githubdata
+[2023-07-10 16:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zalando-kubectl
+[2023-07-10 16:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cg
+[2023-07-10 16:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: maysics
+[2023-07-10 16:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lusid-notifications-sdk-preview
+[2023-07-10 16:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: langchain-chatglm
+[2023-07-10 16:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: histomicsui
+[2023-07-10 16:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pdr-utils
+[2023-07-10 16:18:55] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: New version: [0.1.778] Old Version: [0.1.777]
+[2023-07-10 16:18:55] INFO root fetch - processPackages [githubdata]: New version: [9.1] Old Version: [9.0]
+[2023-07-10 16:18:55] WARNING root fetch - processPackages [pdr-utils]: Skipping, unable to determine old version
+[2023-07-10 16:18:55] INFO root fetch - processPackages [pdr-utils]: Start processing: Fred-Frechet
+[2023-07-10 16:18:55] INFO root fetch - main [MainThread]: End processing [pdr-utils] error
+[2023-07-10 16:18:55] INFO root fetch - processPackages [maysics]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-10 16:18:55] INFO root fetch - processPackages [langchain-chatglm]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 16:18:55] INFO root fetch - processPackages [langchain-chatglm]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 16:18:55] INFO root fetch - processPackages [zalando-kubectl]: New version: [1.9.3.46] Old Version: [1.9.3.45]
+[2023-07-10 16:18:55] INFO root fetch - processPackages [histomicsui]: New version: [1.4.6.dev6] Old Version: [1.4.6.dev4]
+[2023-07-10 16:18:55] INFO root fetch - processPackages [Fred-Frechet]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-10 16:18:55] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-07-10 16:18:55] INFO root fetch - processPackages [cg]: New version: [38.1.8] Old Version: [38.1.7]
+[2023-07-10 16:18:55] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/24/ae/b4bec25b1d26d5522865fc7358eebd66b6fb67457d737a6cfc170021d9b7/lusid-notifications-sdk-preview-0.1.777.tar.gz
+[2023-07-10 16:18:55] INFO root fetch - processPackages [zalando-kubectl]: Downloading https://files.pythonhosted.org/packages/17/27/7c57e4bfb5742cdbbb539cdfb30cf6130058dfc614148341010c91c0ab38/zalando-kubectl-1.9.3.45.tar.gz
+[2023-07-10 16:18:55] INFO root fetch - processPackages [langchain-chatglm]: Downloading https://files.pythonhosted.org/packages/22/93/5d2bb88a621d4b8300241c60bce0b8129dfe1a21122262e3e85f6ee432b9/langchain-chatglm-0.0.8.tar.gz
+[2023-07-10 16:18:55] INFO root fetch - processPackages [langchain-chatglm]: Downloading https://files.pythonhosted.org/packages/22/93/5d2bb88a621d4b8300241c60bce0b8129dfe1a21122262e3e85f6ee432b9/langchain-chatglm-0.0.8.tar.gz
+[2023-07-10 16:18:55] INFO root fetch - processPackages [githubdata]: Downloading https://files.pythonhosted.org/packages/38/80/a49fe4bedf74a16e2530a24ae926629588f3aaefa0dcb097c45b1d7e46a8/githubdata-9.0.tar.gz
+[2023-07-10 16:18:55] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/c1/1b/9f95c974fcffa6c62bf061aa7f1e9ed8d8d6fce0d1e0142fe194939ec23c/cg-38.1.7.tar.gz
+[2023-07-10 16:18:55] INFO root fetch - processPackages [histomicsui]: Downloading https://files.pythonhosted.org/packages/f6/d2/334a5c7c91dc2d11795fad826bf51afffd59ae5c29832105dd6cdbcead91/histomicsui-1.4.6.dev4.tar.gz
+[2023-07-10 16:18:55] INFO root fetch - processPackages [maysics]: Downloading https://files.pythonhosted.org/packages/ae/c0/9ffc6444d7812e7639c66aa4cce0086ae2d623449d82da485c8a8cb8a715/maysics-0.5.1.tar.gz
+[2023-07-10 16:18:56] INFO root fetch - processPackages [Fred-Frechet]: Downloading https://files.pythonhosted.org/packages/35/81/17595c869b665747837da1825308030df3087c80e20f26e282781e991ed7/Fred-Frechet-1.9.8.tar.gz
+[2023-07-10 16:18:56] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2023-07-10 16:18:56] INFO root fetch - processPackages [langchain-chatglm]: Downloading https://files.pythonhosted.org/packages/1f/20/5b12aa1c2cefff4376c344cde18bc4a79d22b3b5851ee663c4c4ac42927a/langchain-chatglm-0.0.9.tar.gz
+[2023-07-10 16:18:56] INFO root fetch - processPackages [zalando-kubectl]: Downloading https://files.pythonhosted.org/packages/b0/8c/40f48ac4d1bc22f066f2fd8ea893a31a7c6e03893deecec223d45e719377/zalando-kubectl-1.9.3.46.tar.gz
+[2023-07-10 16:18:56] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/1a/69/331cfab7ab533b13a8fc2843ef8af27e87053d4b3b40b2326fd8dc04bc1e/lusid-notifications-sdk-preview-0.1.778.tar.gz
+[2023-07-10 16:18:56] INFO root fetch - processPackages [langchain-chatglm]: Downloading https://files.pythonhosted.org/packages/1f/20/5b12aa1c2cefff4376c344cde18bc4a79d22b3b5851ee663c4c4ac42927a/langchain-chatglm-0.0.9.tar.gz
+[2023-07-10 16:18:56] INFO root fetch - processPackages [langchain-chatglm]: executing diffoscope
+[2023-07-10 16:18:56] INFO root fetch - processPackages [langchain-chatglm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-chatglm-0.0.8.tar.gz tmp/langchain-chatglm-0.0.9.tar.gz --markdown 20230710/l/langchain-chatglm/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 16:18:56] INFO root fetch - processPackages [zalando-kubectl]: executing diffoscope
+[2023-07-10 16:18:56] INFO root fetch - processPackages [zalando-kubectl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zalando-kubectl-1.9.3.45.tar.gz tmp/zalando-kubectl-1.9.3.46.tar.gz --markdown 20230710/z/zalando-kubectl/1.9.3.45-1.9.3.46/diff.md --exclude *.pyd
+[2023-07-10 16:18:56] INFO root fetch - processPackages [langchain-chatglm]: executing diffoscope
+[2023-07-10 16:18:56] INFO root fetch - processPackages [langchain-chatglm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-chatglm-0.0.8.tar.gz tmp/langchain-chatglm-0.0.9.tar.gz --markdown 20230710/l/langchain-chatglm/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 16:18:56] INFO root fetch - processPackages [maysics]: Downloading https://files.pythonhosted.org/packages/a7/48/a1d61f62b6bbfa725ba0ab2c0ec14a46b83a3a013cf05009a169b2bf6a8e/maysics-0.5.2.tar.gz
+[2023-07-10 16:18:56] INFO root fetch - processPackages [githubdata]: Downloading https://files.pythonhosted.org/packages/8f/1f/f0ed70ea66e6782086b291c0f9219fb955c41ec19eef486c097aaa43344f/githubdata-9.1.tar.gz
+[2023-07-10 16:18:56] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: executing diffoscope
+[2023-07-10 16:18:56] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notifications-sdk-preview-0.1.777.tar.gz tmp/lusid-notifications-sdk-preview-0.1.778.tar.gz --markdown 20230710/l/lusid-notifications-sdk-preview/0.1.777-0.1.778/diff.md --exclude *.pyd
+[2023-07-10 16:18:56] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/e1/e1/4c43389212dfd3f3093118cd1be050c5b8212aac2094f039097e00672386/cg-38.1.8.tar.gz
+[2023-07-10 16:18:56] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2023-07-10 16:18:56] INFO root fetch - processPackages [histomicsui]: Downloading https://files.pythonhosted.org/packages/c4/31/4a0f732bbebf0c59935b8136de7876c9f99e27250fa4c5efbf8eb8d33a90/histomicsui-1.4.6.dev6.tar.gz
+[2023-07-10 16:18:56] INFO root fetch - processPackages [Fred-Frechet]: Downloading https://files.pythonhosted.org/packages/6e/75/298c88cc23934ff39afe9396676a702e198399c248fb6d9e16da366009d3/Fred-Frechet-1.9.9.tar.gz
+[2023-07-10 16:18:56] INFO root fetch - processPackages [githubdata]: executing diffoscope
+[2023-07-10 16:18:56] INFO root fetch - processPackages [githubdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/githubdata-9.0.tar.gz tmp/githubdata-9.1.tar.gz --markdown 20230710/g/githubdata/9.0-9.1/diff.md --exclude *.pyd
+[2023-07-10 16:18:56] INFO root fetch - processPackages [maysics]: executing diffoscope
+[2023-07-10 16:18:56] INFO root fetch - processPackages [maysics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maysics-0.5.1.tar.gz tmp/maysics-0.5.2.tar.gz --markdown 20230710/m/maysics/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-10 16:18:56] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-07-10 16:18:56] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230710/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-07-10 16:18:56] INFO root fetch - processPackages [Fred-Frechet]: executing diffoscope
+[2023-07-10 16:18:56] INFO root fetch - processPackages [Fred-Frechet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fred-Frechet-1.9.8.tar.gz tmp/Fred-Frechet-1.9.9.tar.gz --markdown 20230710/F/Fred-Frechet/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-10 16:18:56] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-07-10 16:18:56] INFO root fetch - processPackages [histomicsui]: executing diffoscope
+[2023-07-10 16:18:56] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-38.1.7.tar.gz tmp/cg-38.1.8.tar.gz --markdown 20230710/c/cg/38.1.7-38.1.8/diff.md --exclude *.pyd
+[2023-07-10 16:18:56] INFO root fetch - processPackages [histomicsui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/histomicsui-1.4.6.dev4.tar.gz tmp/histomicsui-1.4.6.dev6.tar.gz --markdown 20230710/h/histomicsui/1.4.6.dev4-1.4.6.dev6/diff.md --exclude *.pyd
+[2023-07-10 16:18:57] INFO root fetch - processPackages [langchain-chatglm]: Remove: archive file [/home/abi/fetcher/tmp/langchain-chatglm-0.0.8.tar.gz]
+[2023-07-10 16:18:57] INFO root fetch - processPackages [langchain-chatglm]: Remove: archive file [/home/abi/fetcher/tmp/langchain-chatglm-0.0.9.tar.gz]
+[2023-07-10 16:18:57] INFO root fetch - processPackages [langchain-chatglm]: Start processing: frontmatter-cli
+[2023-07-10 16:18:57] INFO root fetch - main [MainThread]: End processing [langchain-chatglm]: success
+[2023-07-10 16:18:57] INFO root fetch - processPackages [frontmatter-cli]: New version: [2023.7.7] Old Version: [2023.7.5]
+[2023-07-10 16:18:57] INFO root fetch - processPackages [langchain-chatglm]: Start processing: pyfastedit
+[2023-07-10 16:18:57] INFO root fetch - main [MainThread]: End processing [langchain-chatglm]: success
+[2023-07-10 16:18:57] INFO root fetch - processPackages [pyfastedit]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-10 16:18:57] INFO root fetch - processPackages [zalando-kubectl]: Remove: archive file [/home/abi/fetcher/tmp/zalando-kubectl-1.9.3.45.tar.gz]
+[2023-07-10 16:18:57] INFO root fetch - processPackages [zalando-kubectl]: Remove: archive file [/home/abi/fetcher/tmp/zalando-kubectl-1.9.3.46.tar.gz]
+[2023-07-10 16:18:57] INFO root fetch - processPackages [zalando-kubectl]: Start processing: toodaloo
+[2023-07-10 16:18:57] INFO root fetch - main [MainThread]: End processing [zalando-kubectl]: success
+[2023-07-10 16:18:57] INFO root fetch - processPackages [toodaloo]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-10 16:18:58] INFO root fetch - processPackages [frontmatter-cli]: Downloading https://files.pythonhosted.org/packages/b9/49/d60daa95d951de7278aa56834ef18f3a852f7ff5a260d1e54289bbb7589f/frontmatter-cli-2023.7.5.tar.gz
+[2023-07-10 16:18:58] INFO root fetch - processPackages [toodaloo]: Downloading https://files.pythonhosted.org/packages/d5/d9/901fe90dac4f2a9cb73b379735fcdccdd99bc8771293fe6ca7984d959750/toodaloo-0.0.1.tar.gz
+[2023-07-10 16:18:58] INFO root fetch - processPackages [githubdata]: Remove: archive file [/home/abi/fetcher/tmp/githubdata-9.0.tar.gz]
+[2023-07-10 16:18:58] INFO root fetch - processPackages [githubdata]: Remove: archive file [/home/abi/fetcher/tmp/githubdata-9.1.tar.gz]
+[2023-07-10 16:18:58] INFO root fetch - processPackages [githubdata]: Start processing: pyvista
+[2023-07-10 16:18:58] INFO root fetch - main [MainThread]: End processing [githubdata]: success
+[2023-07-10 16:18:58] INFO root fetch - processPackages [pyfastedit]: Downloading https://files.pythonhosted.org/packages/8a/cd/42b272ab54f214a1647c342b4ef90fc80b0a7ec33718425b633ff5a2c92b/pyfastedit-0.0.1.tar.gz
+[2023-07-10 16:18:58] INFO root fetch - processPackages [maysics]: Remove: archive file [/home/abi/fetcher/tmp/maysics-0.5.1.tar.gz]
+[2023-07-10 16:18:58] INFO root fetch - processPackages [maysics]: Remove: archive file [/home/abi/fetcher/tmp/maysics-0.5.2.tar.gz]
+[2023-07-10 16:18:58] INFO root fetch - processPackages [maysics]: Start processing: metricflow
+[2023-07-10 16:18:58] INFO root fetch - main [MainThread]: End processing [maysics]: success
+[2023-07-10 16:18:58] INFO root fetch - processPackages [pyvista]: New version: [0.40.1] Old Version: [0.40.0]
+[2023-07-10 16:18:58] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2023-07-10 16:18:58] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2023-07-10 16:18:58] INFO root fetch - processPackages [leadguru-jobs]: Start processing: metakernel
+[2023-07-10 16:18:58] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-07-10 16:18:58] INFO root fetch - processPackages [frontmatter-cli]: Downloading https://files.pythonhosted.org/packages/a3/05/5fe0573b46c59a2848f37152e26f59df848e2d343142dee469b100900d23/frontmatter-cli-2023.7.7.tar.gz
+[2023-07-10 16:18:58] INFO root fetch - processPackages [metricflow]: New version: [0.93.0] Old Version: [0.92.1]
+[2023-07-10 16:18:58] INFO root fetch - processPackages [toodaloo]: Downloading https://files.pythonhosted.org/packages/62/ad/73ec2323e0a8223eab6e1c1fbd3cc7d48cb2085eadfc957a1f68d343d26e/toodaloo-0.0.2.tar.gz
+[2023-07-10 16:18:58] INFO root fetch - processPackages [metakernel]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-10 16:18:58] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.777.tar.gz]
+[2023-07-10 16:18:58] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.778.tar.gz]
+[2023-07-10 16:18:58] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Start processing: githubdata
+[2023-07-10 16:18:58] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
+[2023-07-10 16:18:58] INFO root fetch - processPackages [Fred-Frechet]: Remove: archive file [/home/abi/fetcher/tmp/Fred-Frechet-1.9.8.tar.gz]
+[2023-07-10 16:18:58] INFO root fetch - processPackages [Fred-Frechet]: Remove: archive file [/home/abi/fetcher/tmp/Fred-Frechet-1.9.9.tar.gz]
+[2023-07-10 16:18:58] INFO root fetch - processPackages [Fred-Frechet]: Start processing: pytest-randomly
+[2023-07-10 16:18:58] INFO root fetch - main [MainThread]: End processing [Fred-Frechet]: success
+[2023-07-10 16:18:58] INFO root fetch - processPackages [pyfastedit]: Downloading https://files.pythonhosted.org/packages/87/fb/488bf00cf2c6350cc387755a8d80910e99cdd071da835b3a2ab0db0edc1b/pyfastedit-0.0.2.tar.gz
+[2023-07-10 16:18:58] INFO root fetch - processPackages [githubdata]: New version: [9.1] Old Version: [9.0]
+[2023-07-10 16:18:58] INFO root fetch - processPackages [frontmatter-cli]: executing diffoscope
+[2023-07-10 16:18:58] INFO root fetch - processPackages [frontmatter-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontmatter-cli-2023.7.5.tar.gz tmp/frontmatter-cli-2023.7.7.tar.gz --markdown 20230710/f/frontmatter-cli/2023.7.5-2023.7.7/diff.md --exclude *.pyd
+[2023-07-10 16:18:58] INFO root fetch - processPackages [pytest-randomly]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-07-10 16:18:58] INFO root fetch - processPackages [githubdata]: Downloading https://files.pythonhosted.org/packages/38/80/a49fe4bedf74a16e2530a24ae926629588f3aaefa0dcb097c45b1d7e46a8/githubdata-9.0.tar.gz
+[2023-07-10 16:18:58] INFO root fetch - processPackages [metakernel]: Downloading https://files.pythonhosted.org/packages/70/f9/d7d649c619925d7f48b0ec4c09810c8e57f74f27a0e322360e6e589e2b4b/metakernel-0.8.0.zip
+[2023-07-10 16:18:58] INFO root fetch - processPackages [pyvista]: Downloading https://files.pythonhosted.org/packages/52/56/fb5bfb4e0f9b2f76173bf4c449fd0fd0460e01c257eae3d61ecc696cf7d6/pyvista-0.40.0.tar.gz
+[2023-07-10 16:18:58] INFO root fetch - processPackages [toodaloo]: executing diffoscope
+[2023-07-10 16:18:58] INFO root fetch - processPackages [toodaloo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toodaloo-0.0.1.tar.gz tmp/toodaloo-0.0.2.tar.gz --markdown 20230710/t/toodaloo/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-10 16:18:58] INFO root fetch - processPackages [pyfastedit]: executing diffoscope
+[2023-07-10 16:18:58] INFO root fetch - processPackages [pyfastedit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfastedit-0.0.1.tar.gz tmp/pyfastedit-0.0.2.tar.gz --markdown 20230710/p/pyfastedit/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-10 16:18:58] INFO root fetch - processPackages [metricflow]: executing diffoscope
+[2023-07-10 16:18:58] INFO root fetch - processPackages [metricflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metricflow-0.92.1.tar.gz tmp/metricflow-0.93.0.tar.gz --markdown 20230710/m/metricflow/0.92.1-0.93.0/diff.md --exclude *.pyd
+[2023-07-10 16:18:59] INFO root fetch - processPackages [pytest-randomly]: Downloading https://files.pythonhosted.org/packages/e6/04/8d27d8a439c4499d68355a7aa7121f3b315812157bc180ed7646fde9d89b/pytest-randomly-3.8.0.tar.gz
+[2023-07-10 16:18:59] INFO root fetch - processPackages [githubdata]: Downloading https://files.pythonhosted.org/packages/8f/1f/f0ed70ea66e6782086b291c0f9219fb955c41ec19eef486c097aaa43344f/githubdata-9.1.tar.gz
+[2023-07-10 16:18:59] INFO root fetch - processPackages [githubdata]: executing diffoscope
+[2023-07-10 16:18:59] INFO root fetch - processPackages [githubdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/githubdata-9.0.tar.gz tmp/githubdata-9.1.tar.gz --markdown 20230710/g/githubdata/9.0-9.1/diff.md --exclude *.pyd
+[2023-07-10 16:18:59] INFO root fetch - processPackages [pyvista]: Downloading https://files.pythonhosted.org/packages/2a/cb/131a932f667b41b4c26bf9dcb5a459b26b42b7956f3ca2dc9eec9de827e7/pyvista-0.40.1.tar.gz
+[2023-07-10 16:18:59] INFO root fetch - processPackages [metakernel]: Downloading https://files.pythonhosted.org/packages/0f/bb/13c5a81d7b21df5d5c43be9c93be75df7685ca8e1de067b9b6594fcc94d4/metakernel-0.9.0.zip
+[2023-07-10 16:18:59] INFO root fetch - processPackages [pytest-randomly]: Downloading https://files.pythonhosted.org/packages/81/ba/1b56d305b1f9f2c3a1eecb41a8fba75c490d12fa1b28a5020ddeca982506/pytest-randomly-3.9.0.tar.gz
+[2023-07-10 16:18:59] INFO root fetch - processPackages [metakernel]: executing diffoscope
+[2023-07-10 16:18:59] INFO root fetch - processPackages [metakernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metakernel-0.8.0.zip tmp/metakernel-0.9.0.zip --markdown 20230710/m/metakernel/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-10 16:18:59] INFO root fetch - processPackages [pytest-randomly]: executing diffoscope
+[2023-07-10 16:18:59] INFO root fetch - processPackages [pytest-randomly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-randomly-3.8.0.tar.gz tmp/pytest-randomly-3.9.0.tar.gz --markdown 20230710/p/pytest-randomly/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-07-10 16:18:59] INFO root fetch - processPackages [pyvista]: executing diffoscope
+[2023-07-10 16:18:59] INFO root fetch - processPackages [pyvista]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvista-0.40.0.tar.gz tmp/pyvista-0.40.1.tar.gz --markdown 20230710/p/pyvista/0.40.0-0.40.1/diff.md --exclude *.pyd
+[2023-07-10 16:18:59] INFO root fetch - processPackages [frontmatter-cli]: Remove: archive file [/home/abi/fetcher/tmp/frontmatter-cli-2023.7.5.tar.gz]
+[2023-07-10 16:18:59] INFO root fetch - processPackages [frontmatter-cli]: Remove: archive file [/home/abi/fetcher/tmp/frontmatter-cli-2023.7.7.tar.gz]
+[2023-07-10 16:18:59] INFO root fetch - processPackages [frontmatter-cli]: Start processing: task-multiprocess
+[2023-07-10 16:18:59] INFO root fetch - main [MainThread]: End processing [frontmatter-cli]: success
+[2023-07-10 16:18:59] INFO root fetch - processPackages [task-multiprocess]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-10 16:19:00] INFO root fetch - processPackages [toodaloo]: Remove: archive file [/home/abi/fetcher/tmp/toodaloo-0.0.1.tar.gz]
+[2023-07-10 16:19:00] INFO root fetch - processPackages [toodaloo]: Remove: archive file [/home/abi/fetcher/tmp/toodaloo-0.0.2.tar.gz]
+[2023-07-10 16:19:00] INFO root fetch - processPackages [toodaloo]: Start processing: atomicshop
+[2023-07-10 16:19:00] INFO root fetch - main [MainThread]: End processing [toodaloo]: success
+[2023-07-10 16:19:00] INFO root fetch - processPackages [metricflow]: Remove: archive file [/home/abi/fetcher/tmp/metricflow-0.92.1.tar.gz]
+[2023-07-10 16:19:00] INFO root fetch - processPackages [metricflow]: Remove: archive file [/home/abi/fetcher/tmp/metricflow-0.93.0.tar.gz]
+[2023-07-10 16:19:00] INFO root fetch - main [MainThread]: End processing [metricflow]: success
+[2023-07-10 16:19:00] INFO root fetch - processPackages [atomicshop]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-07-10 16:19:00] INFO root fetch - processPackages [pyfastedit]: Remove: archive file [/home/abi/fetcher/tmp/pyfastedit-0.0.1.tar.gz]
+[2023-07-10 16:19:00] INFO root fetch - processPackages [pyfastedit]: Remove: archive file [/home/abi/fetcher/tmp/pyfastedit-0.0.2.tar.gz]
+[2023-07-10 16:19:00] INFO root fetch - main [MainThread]: End processing [pyfastedit]: success
+[2023-07-10 16:19:00] INFO root fetch - processPackages [histomicsui]: Remove: archive file [/home/abi/fetcher/tmp/histomicsui-1.4.6.dev4.tar.gz]
+[2023-07-10 16:19:00] INFO root fetch - processPackages [task-multiprocess]: Downloading https://files.pythonhosted.org/packages/2d/af/79099231ae8e7b2a84700efdf1f4a6ad3a9ce6ede73e99ef9bceb90284ec/task_multiprocess-0.0.3.tar.gz
+[2023-07-10 16:19:00] INFO root fetch - processPackages [histomicsui]: Remove: archive file [/home/abi/fetcher/tmp/histomicsui-1.4.6.dev6.tar.gz]
+[2023-07-10 16:19:00] INFO root fetch - main [MainThread]: End processing [histomicsui]: success
+[2023-07-10 16:19:00] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/14/db/75296d42faaae54583dd79fb1606fdb4d127cda223381e5ca26717f080cb/atomicshop-1.8.2-py3-none-any.whl
+[2023-07-10 16:19:00] INFO root fetch - processPackages [githubdata]: Remove: archive file [/home/abi/fetcher/tmp/githubdata-9.0.tar.gz]
+[2023-07-10 16:19:00] INFO root fetch - processPackages [githubdata]: Remove: archive file [/home/abi/fetcher/tmp/githubdata-9.1.tar.gz]
+[2023-07-10 16:19:00] INFO root fetch - main [MainThread]: End processing [githubdata]: success
+[2023-07-10 16:19:00] INFO root fetch - processPackages [task-multiprocess]: Downloading https://files.pythonhosted.org/packages/a9/4c/3b8e2e70f49f5c99574ad7860e644802d8a0685262fb29f0931b673eac71/task_multiprocess-0.0.4.tar.gz
+[2023-07-10 16:19:00] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/43/f1/ee5dfbfdc6c0a6e4189d0f567357a3fc625cc86485c84ccca647ba2be1c8/atomicshop-1.8.3-py3-none-any.whl
+[2023-07-10 16:19:00] INFO root fetch - processPackages [task-multiprocess]: executing diffoscope
+[2023-07-10 16:19:00] INFO root fetch - processPackages [task-multiprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/task_multiprocess-0.0.3.tar.gz tmp/task_multiprocess-0.0.4.tar.gz --markdown 20230710/t/task-multiprocess/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-10 16:19:00] INFO root fetch - processPackages [pytest-randomly]: Remove: archive file [/home/abi/fetcher/tmp/pytest-randomly-3.8.0.tar.gz]
+[2023-07-10 16:19:00] INFO root fetch - processPackages [pytest-randomly]: Remove: archive file [/home/abi/fetcher/tmp/pytest-randomly-3.9.0.tar.gz]
+[2023-07-10 16:19:00] INFO root fetch - main [MainThread]: End processing [pytest-randomly]: success
+[2023-07-10 16:19:01] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2023-07-10 16:19:01] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-1.8.2-py3-none-any.whl.zip tmp/atomicshop-1.8.3-py3-none-any.whl.zip --markdown 20230710/a/atomicshop/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2023-07-10 16:19:01] INFO root fetch - processPackages [metakernel]: Remove: archive file [/home/abi/fetcher/tmp/metakernel-0.8.0.zip]
+[2023-07-10 16:19:01] INFO root fetch - processPackages [metakernel]: Remove: archive file [/home/abi/fetcher/tmp/metakernel-0.9.0.zip]
+[2023-07-10 16:19:01] INFO root fetch - main [MainThread]: End processing [metakernel]: success
+[2023-07-10 16:19:01] INFO root fetch - processPackages [task-multiprocess]: Remove: archive file [/home/abi/fetcher/tmp/task_multiprocess-0.0.3.tar.gz]
+[2023-07-10 16:19:01] INFO root fetch - processPackages [task-multiprocess]: Remove: archive file [/home/abi/fetcher/tmp/task_multiprocess-0.0.4.tar.gz]
+[2023-07-10 16:19:01] INFO root fetch - main [MainThread]: End processing [task-multiprocess]: success
+[2023-07-10 16:19:01] INFO root fetch - processPackages [pyvista]: Remove: archive file [/home/abi/fetcher/tmp/pyvista-0.40.0.tar.gz]
+[2023-07-10 16:19:01] INFO root fetch - processPackages [pyvista]: Remove: archive file [/home/abi/fetcher/tmp/pyvista-0.40.1.tar.gz]
+[2023-07-10 16:19:01] INFO root fetch - main [MainThread]: End processing [pyvista]: success
+[2023-07-10 16:19:02] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-1.8.2-py3-none-any.whl.zip]
+[2023-07-10 16:19:02] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-1.8.3-py3-none-any.whl.zip]
+[2023-07-10 16:19:02] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2023-07-10 16:19:04] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-38.1.7.tar.gz]
+[2023-07-10 16:19:04] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-38.1.8.tar.gz]
+[2023-07-10 16:19:04] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-07-10 16:19:04] INFO root fetch - main [MainThread]: Store serial: [18831767]
