@@ -8717,3 +8717,24 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 08:08:04] INFO root fetch - processPackages [featureform]: Remove: archive file [/home/abi/fetcher/tmp/featureform-1.9.5.tar.gz]
 [2023-07-10 08:08:04] INFO root fetch - main [MainThread]: End processing [featureform]: success
 [2023-07-10 08:08:04] INFO root fetch - main [MainThread]: Store serial: [18827004]
+[2023-07-10 08:13:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18827004]
+[2023-07-10 08:13:13] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-10 08:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-nobahpictrue
+[2023-07-10 08:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SAC-Tello
+[2023-07-10 08:13:13] INFO root fetch - processPackages [nonebot-plugin-nobahpictrue]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-10 08:13:13] INFO root fetch - processPackages [SAC-Tello]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 08:13:13] INFO root fetch - processPackages [nonebot-plugin-nobahpictrue]: Downloading https://files.pythonhosted.org/packages/e9/5a/4cd56e15a788128150acf15f712f4e0da22be80de2db4c5d46cc914018bb/nonebot-plugin-nobahpictrue-1.0.4.tar.gz
+[2023-07-10 08:13:13] INFO root fetch - processPackages [SAC-Tello]: Downloading https://files.pythonhosted.org/packages/62/ba/886501b8619284f23b65d259ee4f70c812a31a82ab04153ff87d7de2a7fc/sac_tello-0.0.8.tar.gz
+[2023-07-10 08:13:14] INFO root fetch - processPackages [nonebot-plugin-nobahpictrue]: Downloading https://files.pythonhosted.org/packages/06/90/90b50a55fb3eea4df2fc4b7ad39f9e3aa417ea8aef3e69b976ce7023b26b/nonebot-plugin-nobahpictrue-1.0.5.tar.gz
+[2023-07-10 08:13:14] INFO root fetch - processPackages [nonebot-plugin-nobahpictrue]: executing diffoscope
+[2023-07-10 08:13:14] INFO root fetch - processPackages [nonebot-plugin-nobahpictrue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-nobahpictrue-1.0.4.tar.gz tmp/nonebot-plugin-nobahpictrue-1.0.5.tar.gz --markdown 20230710/n/nonebot-plugin-nobahpictrue/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-10 08:13:14] INFO root fetch - processPackages [SAC-Tello]: Downloading https://files.pythonhosted.org/packages/9b/5d/25368f776bd89407628f676738f02cb521b958271b0753cb1a96de8a7c4b/sac_tello-0.0.9.tar.gz
+[2023-07-10 08:13:14] INFO root fetch - processPackages [SAC-Tello]: executing diffoscope
+[2023-07-10 08:13:14] INFO root fetch - processPackages [SAC-Tello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sac_tello-0.0.8.tar.gz tmp/sac_tello-0.0.9.tar.gz --markdown 20230710/S/SAC-Tello/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 08:13:14] INFO root fetch - processPackages [nonebot-plugin-nobahpictrue]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-nobahpictrue-1.0.4.tar.gz]
+[2023-07-10 08:13:14] INFO root fetch - processPackages [nonebot-plugin-nobahpictrue]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-nobahpictrue-1.0.5.tar.gz]
+[2023-07-10 08:13:14] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-nobahpictrue]: success
+[2023-07-10 08:13:15] INFO root fetch - processPackages [SAC-Tello]: Remove: archive file [/home/abi/fetcher/tmp/sac_tello-0.0.8.tar.gz]
+[2023-07-10 08:13:15] INFO root fetch - processPackages [SAC-Tello]: Remove: archive file [/home/abi/fetcher/tmp/sac_tello-0.0.9.tar.gz]
+[2023-07-10 08:13:15] INFO root fetch - main [MainThread]: End processing [SAC-Tello]: success
+[2023-07-10 08:13:15] INFO root fetch - main [MainThread]: Store serial: [18827010]
