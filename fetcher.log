@@ -7405,3 +7405,195 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 06:46:23] INFO root fetch - processPackages [performancetest]: Remove: archive file [/home/abi/fetcher/tmp/performancetest-0.0.18.tar.gz]
 [2023-07-10 06:46:23] INFO root fetch - main [MainThread]: End processing [performancetest]: success
 [2023-07-10 06:46:23] INFO root fetch - main [MainThread]: Store serial: [18826516]
+[2023-07-10 06:51:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18826516]
+[2023-07-10 06:51:31] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-10 06:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: helicone
+[2023-07-10 06:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: webclient-helper
+[2023-07-10 06:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bruneus
+[2023-07-10 06:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vlc-helper
+[2023-07-10 06:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: streamai
+[2023-07-10 06:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mocp
+[2023-07-10 06:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: defog
+[2023-07-10 06:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lightning-toolbox
+[2023-07-10 06:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: robotcode-analyze
+[2023-07-10 06:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: robotcode-core
+[2023-07-10 06:51:31] INFO root fetch - processPackages [mocp]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-10 06:51:31] INFO root fetch - processPackages [helicone]: New version: [1.0.1] Old Version: [1.0.0b0]
+[2023-07-10 06:51:31] INFO root fetch - processPackages [defog]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-10 06:51:32] INFO root fetch - processPackages [webclient-helper]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-10 06:51:32] INFO root fetch - processPackages [robotcode-analyze]: New version: [0.47.0] Old Version: [0.46.0]
+[2023-07-10 06:51:32] INFO root fetch - processPackages [vlc-helper]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-10 06:51:32] INFO root fetch - processPackages [bruneus]: New version: [0.1.12] Old Version: [0.1.11]
+[2023-07-10 06:51:32] INFO root fetch - processPackages [lightning-toolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 06:51:32] INFO root fetch - processPackages [robotcode-core]: New version: [0.47.0] Old Version: [0.46.0]
+[2023-07-10 06:51:32] INFO root fetch - processPackages [streamai]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-10 06:51:32] INFO root fetch - processPackages [mocp]: Downloading https://files.pythonhosted.org/packages/70/0c/c723617bdbfb383618461032344973da9cd25f6926548b88351b141c220f/mocp-0.4.8-py3-none-any.whl
+[2023-07-10 06:51:32] INFO root fetch - processPackages [streamai]: Downloading https://files.pythonhosted.org/packages/ce/e8/8b12e430cf34ba5ba6155aa7b712ee86b467c3b41653b45e485deafd343f/streamai-0.0.1.tar.gz
+[2023-07-10 06:51:32] INFO root fetch - processPackages [webclient-helper]: Downloading https://files.pythonhosted.org/packages/8a/51/3cba4c2ebfd3b56bfe4bfb1383509b939a4449fd0cc56f12321423ac164a/webclient_helper-0.0.5-py3-none-any.whl
+[2023-07-10 06:51:32] INFO root fetch - processPackages [robotcode-analyze]: Downloading https://files.pythonhosted.org/packages/9c/b9/6bc07561af6c5b709f4619c70fb863e50e9fb6b21e6c634f4c5d42c58137/robotcode_analyze-0.46.0.tar.gz
+[2023-07-10 06:51:32] INFO root fetch - processPackages [helicone]: Downloading https://files.pythonhosted.org/packages/fe/5b/3a56e8a78ac2042a5eccd4e1b4f4ddc4d721432e0adf4634d9c890eda28c/helicone-1.0.0b0.tar.gz
+[2023-07-10 06:51:32] INFO root fetch - processPackages [bruneus]: Downloading https://files.pythonhosted.org/packages/26/80/99cf0ea1eb9010c39dbaac847396ba44c838e4c9e3588ed84bf54d743365/bruneus-0.1.11.tar.gz
+[2023-07-10 06:51:32] INFO root fetch - processPackages [defog]: Downloading https://files.pythonhosted.org/packages/87/e8/5a15d483ae5d3383ccd70078fae7b28d2522217766e59237dbf84b7b20b8/defog-0.9.1.tar.gz
+[2023-07-10 06:51:32] INFO root fetch - processPackages [vlc-helper]: Downloading https://files.pythonhosted.org/packages/63/49/e02ae2b97d56a8d95c330a4cc02f6cb76f98b3eefcc045647f82863aef7f/vlc_helper-0.1.7-py3-none-any.whl
+[2023-07-10 06:51:32] INFO root fetch - processPackages [robotcode-core]: Downloading https://files.pythonhosted.org/packages/5e/c0/0f05264101872057ca46c3094e155d838432915e1f7faf52d3f5906160c1/robotcode_core-0.46.0.tar.gz
+[2023-07-10 06:51:32] INFO root fetch - processPackages [lightning-toolbox]: Downloading https://files.pythonhosted.org/packages/0e/a2/e33a2f505b9b8fa696b16975fe34a55c42dc96902865f16c6627044aa9b8/lightning_toolbox-0.0.8.tar.gz
+[2023-07-10 06:51:32] INFO root fetch - processPackages [robotcode-analyze]: Downloading https://files.pythonhosted.org/packages/bc/61/b55cf61a12eddbed637f7ae12d347468c4218354ae79947784e7d4ccc08a/robotcode_analyze-0.47.0.tar.gz
+[2023-07-10 06:51:32] INFO root fetch - processPackages [mocp]: Downloading https://files.pythonhosted.org/packages/13/30/c7e85ceed2390b4adf82e27458d83db6420c93661cdde9e4cb70a7025bc2/mocp-0.4.9-py3-none-any.whl
+[2023-07-10 06:51:32] INFO root fetch - processPackages [robotcode-core]: Downloading https://files.pythonhosted.org/packages/72/ca/d0f7ad7843df85c6edd7b7b88e0fbc638d8945319e02a3985f98ed1e0cab/robotcode_core-0.47.0.tar.gz
+[2023-07-10 06:51:32] INFO root fetch - processPackages [webclient-helper]: Downloading https://files.pythonhosted.org/packages/d2/75/86e2b89b74c4092a3384e281e031933f9d5da3e246f0334cd54074c05ba9/webclient_helper-0.0.6-py3-none-any.whl
+[2023-07-10 06:51:32] INFO root fetch - processPackages [streamai]: Downloading https://files.pythonhosted.org/packages/e0/8e/4717b1fc9734b0b5e162259134daa864fc4b3c3972bd15d4ba29b9cd87a5/streamai-0.0.2.tar.gz
+[2023-07-10 06:51:32] INFO root fetch - processPackages [robotcode-analyze]: executing diffoscope
+[2023-07-10 06:51:32] INFO root fetch - processPackages [robotcode-analyze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_analyze-0.46.0.tar.gz tmp/robotcode_analyze-0.47.0.tar.gz --markdown 20230710/r/robotcode-analyze/0.46.0-0.47.0/diff.md --exclude *.pyd
+[2023-07-10 06:51:32] INFO root fetch - processPackages [helicone]: Downloading https://files.pythonhosted.org/packages/e5/e1/ec2f8e58ab99d91d418da2436a69aac456de2f20ec2f123b96e0c0be1b4b/helicone-1.0.1.tar.gz
+[2023-07-10 06:51:33] INFO root fetch - processPackages [vlc-helper]: Downloading https://files.pythonhosted.org/packages/08/51/b444db1494c3030aefc4edd4b062c1f6e998df3224fedea624dc0e8bae91/vlc_helper-0.1.8-py3-none-any.whl
+[2023-07-10 06:51:33] INFO root fetch - processPackages [defog]: Downloading https://files.pythonhosted.org/packages/a7/30/76e85c431f8a525f9d7ea55f0f7acc629a6284f97ce86075abfb2019d42c/defog-0.9.2.tar.gz
+[2023-07-10 06:51:33] INFO root fetch - processPackages [bruneus]: Downloading https://files.pythonhosted.org/packages/95/a7/2d91dacc4c80732cfb87d1cb65d44c9fe38643eb351e865fb2afe0eb5436/bruneus-0.1.12.tar.gz
+[2023-07-10 06:51:33] INFO root fetch - processPackages [lightning-toolbox]: Downloading https://files.pythonhosted.org/packages/c9/f1/39547b268254026a2f0a4856694ac92d2cb143183580588cfd3696575465/lightning_toolbox-0.0.9.tar.gz
+[2023-07-10 06:51:33] INFO root fetch - processPackages [mocp]: executing diffoscope
+[2023-07-10 06:51:33] INFO root fetch - processPackages [mocp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mocp-0.4.8-py3-none-any.whl.zip tmp/mocp-0.4.9-py3-none-any.whl.zip --markdown 20230710/m/mocp/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-10 06:51:33] INFO root fetch - processPackages [robotcode-core]: executing diffoscope
+[2023-07-10 06:51:33] INFO root fetch - processPackages [robotcode-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_core-0.46.0.tar.gz tmp/robotcode_core-0.47.0.tar.gz --markdown 20230710/r/robotcode-core/0.46.0-0.47.0/diff.md --exclude *.pyd
+[2023-07-10 06:51:33] INFO root fetch - processPackages [webclient-helper]: executing diffoscope
+[2023-07-10 06:51:33] INFO root fetch - processPackages [webclient-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webclient_helper-0.0.5-py3-none-any.whl.zip tmp/webclient_helper-0.0.6-py3-none-any.whl.zip --markdown 20230710/w/webclient-helper/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-10 06:51:33] INFO root fetch - processPackages [lightning-toolbox]: executing diffoscope
+[2023-07-10 06:51:33] INFO root fetch - processPackages [lightning-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning_toolbox-0.0.8.tar.gz tmp/lightning_toolbox-0.0.9.tar.gz --markdown 20230710/l/lightning-toolbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 06:51:33] INFO root fetch - processPackages [streamai]: executing diffoscope
+[2023-07-10 06:51:33] INFO root fetch - processPackages [streamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamai-0.0.1.tar.gz tmp/streamai-0.0.2.tar.gz --markdown 20230710/s/streamai/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-10 06:51:33] INFO root fetch - processPackages [helicone]: executing diffoscope
+[2023-07-10 06:51:33] INFO root fetch - processPackages [helicone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helicone-1.0.0b0.tar.gz tmp/helicone-1.0.1.tar.gz --markdown 20230710/h/helicone/1.0.0b0-1.0.1/diff.md --exclude *.pyd
+[2023-07-10 06:51:33] INFO root fetch - processPackages [vlc-helper]: executing diffoscope
+[2023-07-10 06:51:33] INFO root fetch - processPackages [vlc-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vlc_helper-0.1.7-py3-none-any.whl.zip tmp/vlc_helper-0.1.8-py3-none-any.whl.zip --markdown 20230710/v/vlc-helper/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-10 06:51:33] INFO root fetch - processPackages [defog]: executing diffoscope
+[2023-07-10 06:51:33] INFO root fetch - processPackages [defog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/defog-0.9.1.tar.gz tmp/defog-0.9.2.tar.gz --markdown 20230710/d/defog/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-10 06:51:33] INFO root fetch - processPackages [bruneus]: executing diffoscope
+[2023-07-10 06:51:33] INFO root fetch - processPackages [bruneus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bruneus-0.1.11.tar.gz tmp/bruneus-0.1.12.tar.gz --markdown 20230710/b/bruneus/0.1.11-0.1.12/diff.md --exclude *.pyd
+[2023-07-10 06:51:34] INFO root fetch - processPackages [robotcode-analyze]: Remove: archive file [/home/abi/fetcher/tmp/robotcode_analyze-0.46.0.tar.gz]
+[2023-07-10 06:51:34] INFO root fetch - processPackages [robotcode-analyze]: Remove: archive file [/home/abi/fetcher/tmp/robotcode_analyze-0.47.0.tar.gz]
+[2023-07-10 06:51:34] INFO root fetch - processPackages [robotcode-analyze]: Start processing: robotcode
+[2023-07-10 06:51:34] INFO root fetch - main [MainThread]: End processing [robotcode-analyze]: success
+[2023-07-10 06:51:34] INFO root fetch - processPackages [robotcode]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-10 06:51:34] INFO root fetch - processPackages [mocp]: Remove: archive file [/home/abi/fetcher/tmp/mocp-0.4.8-py3-none-any.whl.zip]
+[2023-07-10 06:51:34] INFO root fetch - processPackages [mocp]: Remove: archive file [/home/abi/fetcher/tmp/mocp-0.4.9-py3-none-any.whl.zip]
+[2023-07-10 06:51:34] INFO root fetch - processPackages [mocp]: Start processing: robotcode-modifiers
+[2023-07-10 06:51:34] INFO root fetch - main [MainThread]: End processing [mocp]: success
+[2023-07-10 06:51:34] INFO root fetch - processPackages [robotcode-modifiers]: New version: [0.47.0] Old Version: [0.46.0]
+[2023-07-10 06:51:34] INFO root fetch - processPackages [robotcode]: Downloading https://files.pythonhosted.org/packages/e2/7e/d5a5aab3562b4e784a46b9a19878b348e6684bdc581650800581a7a198b8/robotcode-0.9.5.tar.gz
+[2023-07-10 06:51:34] INFO root fetch - processPackages [robotcode-core]: Remove: archive file [/home/abi/fetcher/tmp/robotcode_core-0.46.0.tar.gz]
+[2023-07-10 06:51:34] INFO root fetch - processPackages [robotcode-core]: Remove: archive file [/home/abi/fetcher/tmp/robotcode_core-0.47.0.tar.gz]
+[2023-07-10 06:51:34] INFO root fetch - processPackages [robotcode-core]: Start processing: robotcode-debugger
+[2023-07-10 06:51:34] INFO root fetch - main [MainThread]: End processing [robotcode-core]: success
+[2023-07-10 06:51:34] INFO root fetch - processPackages [webclient-helper]: Remove: archive file [/home/abi/fetcher/tmp/webclient_helper-0.0.5-py3-none-any.whl.zip]
+[2023-07-10 06:51:34] INFO root fetch - processPackages [webclient-helper]: Remove: archive file [/home/abi/fetcher/tmp/webclient_helper-0.0.6-py3-none-any.whl.zip]
+[2023-07-10 06:51:34] INFO root fetch - processPackages [webclient-helper]: Start processing: robotcode-robot
+[2023-07-10 06:51:34] INFO root fetch - main [MainThread]: End processing [webclient-helper]: success
+[2023-07-10 06:51:34] INFO root fetch - processPackages [robotcode-debugger]: New version: [0.47.0] Old Version: [0.46.0]
+[2023-07-10 06:51:34] INFO root fetch - processPackages [robotcode-robot]: New version: [0.47.0] Old Version: [0.46.0]
+[2023-07-10 06:51:34] INFO root fetch - processPackages [defog]: Remove: archive file [/home/abi/fetcher/tmp/defog-0.9.1.tar.gz]
+[2023-07-10 06:51:34] INFO root fetch - processPackages [defog]: Remove: archive file [/home/abi/fetcher/tmp/defog-0.9.2.tar.gz]
+[2023-07-10 06:51:34] INFO root fetch - processPackages [defog]: Start processing: robotcode-plugin
+[2023-07-10 06:51:34] INFO root fetch - main [MainThread]: End processing [defog]: success
+[2023-07-10 06:51:34] INFO root fetch - processPackages [helicone]: Remove: archive file [/home/abi/fetcher/tmp/helicone-1.0.0b0.tar.gz]
+[2023-07-10 06:51:34] INFO root fetch - processPackages [helicone]: Remove: archive file [/home/abi/fetcher/tmp/helicone-1.0.1.tar.gz]
+[2023-07-10 06:51:34] INFO root fetch - processPackages [helicone]: Start processing: robotcode-runner
+[2023-07-10 06:51:34] INFO root fetch - main [MainThread]: End processing [helicone]: success
+[2023-07-10 06:51:34] INFO root fetch - processPackages [vlc-helper]: Remove: archive file [/home/abi/fetcher/tmp/vlc_helper-0.1.7-py3-none-any.whl.zip]
+[2023-07-10 06:51:34] INFO root fetch - processPackages [vlc-helper]: Remove: archive file [/home/abi/fetcher/tmp/vlc_helper-0.1.8-py3-none-any.whl.zip]
+[2023-07-10 06:51:34] INFO root fetch - processPackages [vlc-helper]: Start processing: robotcode-jsonrpc2
+[2023-07-10 06:51:34] INFO root fetch - main [MainThread]: End processing [vlc-helper]: success
+[2023-07-10 06:51:34] INFO root fetch - processPackages [robotcode-modifiers]: Downloading https://files.pythonhosted.org/packages/90/ba/e51cdf1de11747fc891b2190f1548ede70f12dce306d6b941d4939588c7f/robotcode_modifiers-0.46.0.tar.gz
+[2023-07-10 06:51:34] INFO root fetch - processPackages [robotcode-plugin]: New version: [0.47.0] Old Version: [0.46.0]
+[2023-07-10 06:51:34] INFO root fetch - processPackages [streamai]: Remove: archive file [/home/abi/fetcher/tmp/streamai-0.0.1.tar.gz]
+[2023-07-10 06:51:34] INFO root fetch - processPackages [streamai]: Remove: archive file [/home/abi/fetcher/tmp/streamai-0.0.2.tar.gz]
+[2023-07-10 06:51:34] INFO root fetch - processPackages [streamai]: Start processing: robotcode-language-server
+[2023-07-10 06:51:34] INFO root fetch - processPackages [robotcode-runner]: New version: [0.47.0] Old Version: [0.46.0]
+[2023-07-10 06:51:34] INFO root fetch - main [MainThread]: End processing [streamai]: success
+[2023-07-10 06:51:34] INFO root fetch - processPackages [lightning-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/lightning_toolbox-0.0.8.tar.gz]
+[2023-07-10 06:51:34] INFO root fetch - processPackages [robotcode-jsonrpc2]: New version: [0.47.0] Old Version: [0.46.0]
+[2023-07-10 06:51:34] INFO root fetch - processPackages [lightning-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/lightning_toolbox-0.0.9.tar.gz]
+[2023-07-10 06:51:34] INFO root fetch - processPackages [lightning-toolbox]: Start processing: elytra-ms
+[2023-07-10 06:51:34] INFO root fetch - main [MainThread]: End processing [lightning-toolbox]: success
+[2023-07-10 06:51:34] INFO root fetch - processPackages [bruneus]: Remove: archive file [/home/abi/fetcher/tmp/bruneus-0.1.11.tar.gz]
+[2023-07-10 06:51:34] INFO root fetch - processPackages [bruneus]: Remove: archive file [/home/abi/fetcher/tmp/bruneus-0.1.12.tar.gz]
+[2023-07-10 06:51:34] INFO root fetch - processPackages [bruneus]: Start processing: mocp-cli
+[2023-07-10 06:51:34] INFO root fetch - main [MainThread]: End processing [bruneus]: success
+[2023-07-10 06:51:35] INFO root fetch - processPackages [robotcode-language-server]: New version: [0.47.0] Old Version: [0.46.0]
+[2023-07-10 06:51:35] INFO root fetch - processPackages [elytra-ms]: New version: [0.0.1a0] Old Version: [0.0.1]
+[2023-07-10 06:51:35] INFO root fetch - processPackages [mocp-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 06:51:35] INFO root fetch - processPackages [robotcode-debugger]: Downloading https://files.pythonhosted.org/packages/bb/2d/6223347c3f9986de4b101a7940e961885f6f3b54caeee9554a7293009d91/robotcode_debugger-0.46.0.tar.gz
+[2023-07-10 06:51:35] INFO root fetch - processPackages [robotcode-robot]: Downloading https://files.pythonhosted.org/packages/69/5d/8d55ddc37ece715857091cc9f813c3d9c4bc69b800733743acdd7081cdcb/robotcode_robot-0.46.0.tar.gz
+[2023-07-10 06:51:35] INFO root fetch - processPackages [robotcode-plugin]: Downloading https://files.pythonhosted.org/packages/d9/14/a18e5bde99cc7d883905f1922b059a6700efd624c7f9b73a137790c9153e/robotcode_plugin-0.46.0.tar.gz
+[2023-07-10 06:51:35] INFO root fetch - processPackages [robotcode-runner]: Downloading https://files.pythonhosted.org/packages/c0/d0/4dcb16920adce214932d5c3bb7d621593596de2d1ab538a0061d77279602/robotcode_runner-0.46.0.tar.gz
+[2023-07-10 06:51:35] INFO root fetch - processPackages [robotcode]: Downloading https://files.pythonhosted.org/packages/b7/ab/96637a51c1fdfc4ddca0c75fb12ea6dca9295477c4f8a80f501ee7c3b2ec/robotcode-0.9.6.tar.gz
+[2023-07-10 06:51:35] INFO root fetch - processPackages [robotcode-language-server]: Downloading https://files.pythonhosted.org/packages/ec/c9/908cccec12aeec1a51bc11ee5692269267142c7e71a47605c2a9934c551a/robotcode_language_server-0.46.0.tar.gz
+[2023-07-10 06:51:35] INFO root fetch - processPackages [robotcode-modifiers]: Downloading https://files.pythonhosted.org/packages/f1/db/333466b74a1f0e04173044b17f127536a85fd48530e48b7f384c86603426/robotcode_modifiers-0.47.0.tar.gz
+[2023-07-10 06:51:35] INFO root fetch - processPackages [robotcode-jsonrpc2]: Downloading https://files.pythonhosted.org/packages/b4/f2/939bf3009e44626c3e87d553932a5c0063f097171527cf7a429c136e6341/robotcode_jsonrpc2-0.46.0.tar.gz
+[2023-07-10 06:51:35] INFO root fetch - processPackages [elytra-ms]: Downloading https://files.pythonhosted.org/packages/02/62/495110a63b69ba2f5e3e197d21d083ae30d7391b9307fcd1eff75a664b9e/elytra-ms-0.0.1.tar.gz
+[2023-07-10 06:51:35] INFO root fetch - processPackages [mocp-cli]: Downloading https://files.pythonhosted.org/packages/eb/f9/6e8c93592677212f4899b2799cbd1b1351d9d4416c9b2470a71eff47895f/mocp_cli-0.1.8-py3-none-any.whl
+[2023-07-10 06:51:35] INFO root fetch - processPackages [robotcode-modifiers]: executing diffoscope
+[2023-07-10 06:51:35] INFO root fetch - processPackages [robotcode-modifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_modifiers-0.46.0.tar.gz tmp/robotcode_modifiers-0.47.0.tar.gz --markdown 20230710/r/robotcode-modifiers/0.46.0-0.47.0/diff.md --exclude *.pyd
+[2023-07-10 06:51:35] INFO root fetch - processPackages [robotcode-debugger]: Downloading https://files.pythonhosted.org/packages/1b/15/cc457a552479962aa4ff8ce13be691beb72a2f70c8331df7d42b5cc51ef7/robotcode_debugger-0.47.0.tar.gz
+[2023-07-10 06:51:35] INFO root fetch - processPackages [robotcode-robot]: Downloading https://files.pythonhosted.org/packages/9c/1e/02ba26cefd2cb22a89c5e94a77a1424e69e0dde08d06968591f347160553/robotcode_robot-0.47.0.tar.gz
+[2023-07-10 06:51:35] INFO root fetch - processPackages [robotcode]: executing diffoscope
+[2023-07-10 06:51:35] INFO root fetch - processPackages [robotcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode-0.9.5.tar.gz tmp/robotcode-0.9.6.tar.gz --markdown 20230710/r/robotcode/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-10 06:51:35] INFO root fetch - processPackages [robotcode-plugin]: Downloading https://files.pythonhosted.org/packages/7c/3b/96bc96f293cd3873149d86cabdd551bee2ef00a2640407fe1cdb42536bc3/robotcode_plugin-0.47.0.tar.gz
+[2023-07-10 06:51:35] INFO root fetch - processPackages [robotcode-runner]: Downloading https://files.pythonhosted.org/packages/fb/34/11697266b3a718f0c3e339016ba8fa6306e281646287364a07e1f49a24d3/robotcode_runner-0.47.0.tar.gz
+[2023-07-10 06:51:35] INFO root fetch - processPackages [robotcode-debugger]: executing diffoscope
+[2023-07-10 06:51:35] INFO root fetch - processPackages [robotcode-debugger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_debugger-0.46.0.tar.gz tmp/robotcode_debugger-0.47.0.tar.gz --markdown 20230710/r/robotcode-debugger/0.46.0-0.47.0/diff.md --exclude *.pyd
+[2023-07-10 06:51:35] INFO root fetch - processPackages [robotcode-language-server]: Downloading https://files.pythonhosted.org/packages/f7/fe/ce4b7b445bd04ae3f69d63a15f002fe14808798abfa1b84964fe0a0e234c/robotcode_language_server-0.47.0.tar.gz
+[2023-07-10 06:51:35] INFO root fetch - processPackages [robotcode-robot]: executing diffoscope
+[2023-07-10 06:51:35] INFO root fetch - processPackages [robotcode-robot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_robot-0.46.0.tar.gz tmp/robotcode_robot-0.47.0.tar.gz --markdown 20230710/r/robotcode-robot/0.46.0-0.47.0/diff.md --exclude *.pyd
+[2023-07-10 06:51:35] INFO root fetch - processPackages [elytra-ms]: Downloading https://files.pythonhosted.org/packages/8d/2e/98be15880cdabe21b4930d28744a7f7a3ddee86d9392436871b802680eb6/elytra-ms-0.0.1a0.tar.gz
+[2023-07-10 06:51:35] INFO root fetch - processPackages [robotcode-runner]: executing diffoscope
+[2023-07-10 06:51:35] INFO root fetch - processPackages [robotcode-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_runner-0.46.0.tar.gz tmp/robotcode_runner-0.47.0.tar.gz --markdown 20230710/r/robotcode-runner/0.46.0-0.47.0/diff.md --exclude *.pyd
+[2023-07-10 06:51:35] INFO root fetch - processPackages [robotcode-plugin]: executing diffoscope
+[2023-07-10 06:51:35] INFO root fetch - processPackages [robotcode-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_plugin-0.46.0.tar.gz tmp/robotcode_plugin-0.47.0.tar.gz --markdown 20230710/r/robotcode-plugin/0.46.0-0.47.0/diff.md --exclude *.pyd
+[2023-07-10 06:51:36] INFO root fetch - processPackages [robotcode-language-server]: executing diffoscope
+[2023-07-10 06:51:36] INFO root fetch - processPackages [robotcode-language-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_language_server-0.46.0.tar.gz tmp/robotcode_language_server-0.47.0.tar.gz --markdown 20230710/r/robotcode-language-server/0.46.0-0.47.0/diff.md --exclude *.pyd
+[2023-07-10 06:51:36] INFO root fetch - processPackages [mocp-cli]: Downloading https://files.pythonhosted.org/packages/c5/0d/209f5f9868806a2ec2e4a8ed9b215dc3568c0919465439e55e638e6b0ed2/mocp_cli-0.1.9-py3-none-any.whl
+[2023-07-10 06:51:36] INFO root fetch - processPackages [robotcode-jsonrpc2]: Downloading https://files.pythonhosted.org/packages/6e/c4/5961edb9c6f9463cf66ab1fb75491a3fec3b0857651fc18d306c6de600d3/robotcode_jsonrpc2-0.47.0.tar.gz
+[2023-07-10 06:51:36] INFO root fetch - processPackages [elytra-ms]: executing diffoscope
+[2023-07-10 06:51:36] INFO root fetch - processPackages [elytra-ms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elytra-ms-0.0.1.tar.gz tmp/elytra-ms-0.0.1a0.tar.gz --markdown 20230710/e/elytra-ms/0.0.1-0.0.1a0/diff.md --exclude *.pyd
+[2023-07-10 06:51:36] INFO root fetch - processPackages [robotcode-jsonrpc2]: executing diffoscope
+[2023-07-10 06:51:36] INFO root fetch - processPackages [robotcode-jsonrpc2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_jsonrpc2-0.46.0.tar.gz tmp/robotcode_jsonrpc2-0.47.0.tar.gz --markdown 20230710/r/robotcode-jsonrpc2/0.46.0-0.47.0/diff.md --exclude *.pyd
+[2023-07-10 06:51:36] INFO root fetch - processPackages [mocp-cli]: executing diffoscope
+[2023-07-10 06:51:36] INFO root fetch - processPackages [mocp-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mocp_cli-0.1.8-py3-none-any.whl.zip tmp/mocp_cli-0.1.9-py3-none-any.whl.zip --markdown 20230710/m/mocp-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 06:51:36] INFO root fetch - processPackages [robotcode-modifiers]: Remove: archive file [/home/abi/fetcher/tmp/robotcode_modifiers-0.46.0.tar.gz]
+[2023-07-10 06:51:36] INFO root fetch - processPackages [robotcode-modifiers]: Remove: archive file [/home/abi/fetcher/tmp/robotcode_modifiers-0.47.0.tar.gz]
+[2023-07-10 06:51:36] INFO root fetch - processPackages [robotcode-modifiers]: Start processing: edc-sites
+[2023-07-10 06:51:36] INFO root fetch - main [MainThread]: End processing [robotcode-modifiers]: success
+[2023-07-10 06:51:36] INFO root fetch - processPackages [edc-sites]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-10 06:51:37] INFO root fetch - processPackages [edc-sites]: Downloading https://files.pythonhosted.org/packages/6c/d2/0971f47310f1e86111203d2b71e42e2b45e7f8545d3e4b302c358963aaf6/edc-sites-0.3.8.tar.gz
+[2023-07-10 06:51:37] INFO root fetch - processPackages [robotcode-robot]: Remove: archive file [/home/abi/fetcher/tmp/robotcode_robot-0.46.0.tar.gz]
+[2023-07-10 06:51:37] INFO root fetch - processPackages [robotcode-robot]: Remove: archive file [/home/abi/fetcher/tmp/robotcode_robot-0.47.0.tar.gz]
+[2023-07-10 06:51:37] INFO root fetch - main [MainThread]: End processing [robotcode-robot]: success
+[2023-07-10 06:51:37] INFO root fetch - processPackages [robotcode-plugin]: Remove: archive file [/home/abi/fetcher/tmp/robotcode_plugin-0.46.0.tar.gz]
+[2023-07-10 06:51:37] INFO root fetch - processPackages [robotcode-plugin]: Remove: archive file [/home/abi/fetcher/tmp/robotcode_plugin-0.47.0.tar.gz]
+[2023-07-10 06:51:37] INFO root fetch - main [MainThread]: End processing [robotcode-plugin]: success
+[2023-07-10 06:51:37] INFO root fetch - processPackages [edc-sites]: Downloading https://files.pythonhosted.org/packages/93/47/2d0fe4fb111586f78d184cca78fdb1a6d3b4edda0ca7b0d1b76cb2c2af13/edc-sites-0.3.9.tar.gz
+[2023-07-10 06:51:37] INFO root fetch - processPackages [robotcode-jsonrpc2]: Remove: archive file [/home/abi/fetcher/tmp/robotcode_jsonrpc2-0.46.0.tar.gz]
+[2023-07-10 06:51:37] INFO root fetch - processPackages [robotcode-jsonrpc2]: Remove: archive file [/home/abi/fetcher/tmp/robotcode_jsonrpc2-0.47.0.tar.gz]
+[2023-07-10 06:51:37] INFO root fetch - main [MainThread]: End processing [robotcode-jsonrpc2]: success
+[2023-07-10 06:51:37] INFO root fetch - processPackages [robotcode-runner]: Remove: archive file [/home/abi/fetcher/tmp/robotcode_runner-0.46.0.tar.gz]
+[2023-07-10 06:51:37] INFO root fetch - processPackages [robotcode-runner]: Remove: archive file [/home/abi/fetcher/tmp/robotcode_runner-0.47.0.tar.gz]
+[2023-07-10 06:51:37] INFO root fetch - main [MainThread]: End processing [robotcode-runner]: success
+[2023-07-10 06:51:37] INFO root fetch - processPackages [edc-sites]: executing diffoscope
+[2023-07-10 06:51:37] INFO root fetch - processPackages [edc-sites]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-sites-0.3.8.tar.gz tmp/edc-sites-0.3.9.tar.gz --markdown 20230710/e/edc-sites/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-10 06:51:37] INFO root fetch - processPackages [robotcode-debugger]: Remove: archive file [/home/abi/fetcher/tmp/robotcode_debugger-0.46.0.tar.gz]
+[2023-07-10 06:51:37] INFO root fetch - processPackages [robotcode-debugger]: Remove: archive file [/home/abi/fetcher/tmp/robotcode_debugger-0.47.0.tar.gz]
+[2023-07-10 06:51:37] INFO root fetch - main [MainThread]: End processing [robotcode-debugger]: success
+[2023-07-10 06:51:37] INFO root fetch - processPackages [robotcode]: Remove: archive file [/home/abi/fetcher/tmp/robotcode-0.9.5.tar.gz]
+[2023-07-10 06:51:37] INFO root fetch - processPackages [robotcode]: Remove: archive file [/home/abi/fetcher/tmp/robotcode-0.9.6.tar.gz]
+[2023-07-10 06:51:37] INFO root fetch - main [MainThread]: End processing [robotcode]: success
+[2023-07-10 06:51:37] INFO root fetch - processPackages [elytra-ms]: Remove: archive file [/home/abi/fetcher/tmp/elytra-ms-0.0.1.tar.gz]
+[2023-07-10 06:51:37] INFO root fetch - processPackages [elytra-ms]: Remove: archive file [/home/abi/fetcher/tmp/elytra-ms-0.0.1a0.tar.gz]
+[2023-07-10 06:51:37] INFO root fetch - main [MainThread]: End processing [elytra-ms]: success
+[2023-07-10 06:51:37] INFO root fetch - processPackages [robotcode-language-server]: Remove: archive file [/home/abi/fetcher/tmp/robotcode_language_server-0.46.0.tar.gz]
+[2023-07-10 06:51:37] INFO root fetch - processPackages [robotcode-language-server]: Remove: archive file [/home/abi/fetcher/tmp/robotcode_language_server-0.47.0.tar.gz]
+[2023-07-10 06:51:37] INFO root fetch - main [MainThread]: End processing [robotcode-language-server]: success
+[2023-07-10 06:51:37] INFO root fetch - processPackages [mocp-cli]: Remove: archive file [/home/abi/fetcher/tmp/mocp_cli-0.1.8-py3-none-any.whl.zip]
+[2023-07-10 06:51:37] INFO root fetch - processPackages [mocp-cli]: Remove: archive file [/home/abi/fetcher/tmp/mocp_cli-0.1.9-py3-none-any.whl.zip]
+[2023-07-10 06:51:37] INFO root fetch - main [MainThread]: End processing [mocp-cli]: success
+[2023-07-10 06:51:38] INFO root fetch - processPackages [edc-sites]: Remove: archive file [/home/abi/fetcher/tmp/edc-sites-0.3.8.tar.gz]
+[2023-07-10 06:51:38] INFO root fetch - processPackages [edc-sites]: Remove: archive file [/home/abi/fetcher/tmp/edc-sites-0.3.9.tar.gz]
+[2023-07-10 06:51:38] INFO root fetch - main [MainThread]: End processing [edc-sites]: success
+[2023-07-10 06:51:38] INFO root fetch - main [MainThread]: Store serial: [18826573]
