@@ -7172,3 +7172,57 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 06:30:47] INFO root fetch - processPackages [bioutils]: Remove: archive file [/home/abi/fetcher/tmp/bioutils-0.5.8rc1-py3-none-any.whl.zip]
 [2023-07-10 06:30:47] INFO root fetch - main [MainThread]: End processing [bioutils]: success
 [2023-07-10 06:30:47] INFO root fetch - main [MainThread]: Store serial: [18826427]
+[2023-07-10 06:35:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18826427]
+[2023-07-10 06:35:56] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-10 06:35:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Colorthon
+[2023-07-10 06:35:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: x-dgcnn
+[2023-07-10 06:35:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easy-workflow-manager
+[2023-07-10 06:35:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rotman-ncs
+[2023-07-10 06:35:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: msgram-parser
+[2023-07-10 06:35:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edc-ltfu
+[2023-07-10 06:35:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: devops-trabalho
+[2023-07-10 06:35:56] INFO root fetch - processPackages [msgram-parser]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-07-10 06:35:56] WARNING root fetch - processPackages [Colorthon]: Skipping, unable to determine old version
+[2023-07-10 06:35:56] INFO root fetch - main [MainThread]: End processing [Colorthon] error
+[2023-07-10 06:35:56] INFO root fetch - processPackages [easy-workflow-manager]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 06:35:56] INFO root fetch - processPackages [x-dgcnn]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-10 06:35:56] WARNING root fetch - processPackages [devops-trabalho]: Skipping, unable to determine old version
+[2023-07-10 06:35:56] INFO root fetch - main [MainThread]: End processing [devops-trabalho] error
+[2023-07-10 06:35:56] INFO root fetch - processPackages [rotman-ncs]: New version: [0.1.0a8] Old Version: [0.1.0a7]
+[2023-07-10 06:35:56] INFO root fetch - processPackages [edc-ltfu]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-10 06:35:56] INFO root fetch - processPackages [x-dgcnn]: Downloading https://files.pythonhosted.org/packages/5b/a7/acb0e450b5f15e7d607bb2a44c1800e597084b75d290c31505285612f994/x-dgcnn-0.2.1.tar.gz
+[2023-07-10 06:35:56] INFO root fetch - processPackages [msgram-parser]: Downloading https://files.pythonhosted.org/packages/ca/19/298887934eefb1d1b7956c0af5cb3d901f7ebd3c83cc8803ecb60650013b/msgram-parser-0.1.0.tar.gz
+[2023-07-10 06:35:56] INFO root fetch - processPackages [easy-workflow-manager]: Downloading https://files.pythonhosted.org/packages/af/f1/71f1fdaf69d6d169ad8c52485c63d9879fbe75a97aa55dde7c6c920a5342/easy_workflow_manager-0.0.8-py3-none-any.whl
+[2023-07-10 06:35:57] INFO root fetch - processPackages [edc-ltfu]: Downloading https://files.pythonhosted.org/packages/99/07/524b6a9cfcf1cf782087cdcad1cb9a01ff3bcbe7e150dbe153276f582d46/edc_ltfu-0.3.8-py3-none-any.whl
+[2023-07-10 06:35:57] INFO root fetch - processPackages [rotman-ncs]: Downloading https://files.pythonhosted.org/packages/7b/fd/5302936d1df144927ee6a8ded9c0ba9828c46254ec18b82d43b8992a43b6/rotman_ncs-0.1.0a7-py3-none-any.whl
+[2023-07-10 06:35:57] INFO root fetch - processPackages [x-dgcnn]: Downloading https://files.pythonhosted.org/packages/44/a3/4cf9b3388ea5088d5cd01f8b711607a0d4a3340821b2fb9da158386ea0eb/x-dgcnn-0.2.2.tar.gz
+[2023-07-10 06:35:57] INFO root fetch - processPackages [x-dgcnn]: executing diffoscope
+[2023-07-10 06:35:57] INFO root fetch - processPackages [x-dgcnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/x-dgcnn-0.2.1.tar.gz tmp/x-dgcnn-0.2.2.tar.gz --markdown 20230710/x/x-dgcnn/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-10 06:35:57] INFO root fetch - processPackages [easy-workflow-manager]: Downloading https://files.pythonhosted.org/packages/32/d6/f415717690016cd8c6c3680b2f8998c8190999473538559d886bc196298e/easy_workflow_manager-0.0.9-py3-none-any.whl
+[2023-07-10 06:35:57] INFO root fetch - processPackages [msgram-parser]: Downloading https://files.pythonhosted.org/packages/60/bb/7504017c9b40b77ac568c02556db5bc1880bc804f7478f9019fd973d2add/msgram-parser-1.0.0.tar.gz
+[2023-07-10 06:35:57] INFO root fetch - processPackages [rotman-ncs]: Downloading https://files.pythonhosted.org/packages/d4/4e/2f419d75ed12841129015214eff4d1cf8958ce78b7a799692cfbd6ee1f92/rotman_ncs-0.1.0a8-py3-none-any.whl
+[2023-07-10 06:35:57] INFO root fetch - processPackages [edc-ltfu]: Downloading https://files.pythonhosted.org/packages/f4/4d/223c39e0e8009dbf8a6ba97f7baac1c6b6e3aee426e984bc4f779018e32f/edc_ltfu-0.3.9-py3-none-any.whl
+[2023-07-10 06:35:57] INFO root fetch - processPackages [msgram-parser]: executing diffoscope
+[2023-07-10 06:35:57] INFO root fetch - processPackages [msgram-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msgram-parser-0.1.0.tar.gz tmp/msgram-parser-1.0.0.tar.gz --markdown 20230710/m/msgram-parser/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-10 06:35:57] INFO root fetch - processPackages [easy-workflow-manager]: executing diffoscope
+[2023-07-10 06:35:57] INFO root fetch - processPackages [easy-workflow-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_workflow_manager-0.0.8-py3-none-any.whl.zip tmp/easy_workflow_manager-0.0.9-py3-none-any.whl.zip --markdown 20230710/e/easy-workflow-manager/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 06:35:57] INFO root fetch - processPackages [edc-ltfu]: executing diffoscope
+[2023-07-10 06:35:57] INFO root fetch - processPackages [edc-ltfu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_ltfu-0.3.8-py3-none-any.whl.zip tmp/edc_ltfu-0.3.9-py3-none-any.whl.zip --markdown 20230710/e/edc-ltfu/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-10 06:35:57] INFO root fetch - processPackages [rotman-ncs]: executing diffoscope
+[2023-07-10 06:35:57] INFO root fetch - processPackages [rotman-ncs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rotman_ncs-0.1.0a7-py3-none-any.whl.zip tmp/rotman_ncs-0.1.0a8-py3-none-any.whl.zip --markdown 20230710/r/rotman-ncs/0.1.0a7-0.1.0a8/diff.md --exclude *.pyd
+[2023-07-10 06:35:58] INFO root fetch - processPackages [x-dgcnn]: Remove: archive file [/home/abi/fetcher/tmp/x-dgcnn-0.2.1.tar.gz]
+[2023-07-10 06:35:58] INFO root fetch - processPackages [x-dgcnn]: Remove: archive file [/home/abi/fetcher/tmp/x-dgcnn-0.2.2.tar.gz]
+[2023-07-10 06:35:58] INFO root fetch - main [MainThread]: End processing [x-dgcnn]: success
+[2023-07-10 06:35:58] INFO root fetch - processPackages [msgram-parser]: Remove: archive file [/home/abi/fetcher/tmp/msgram-parser-0.1.0.tar.gz]
+[2023-07-10 06:35:58] INFO root fetch - processPackages [msgram-parser]: Remove: archive file [/home/abi/fetcher/tmp/msgram-parser-1.0.0.tar.gz]
+[2023-07-10 06:35:58] INFO root fetch - main [MainThread]: End processing [msgram-parser]: success
+[2023-07-10 06:35:58] INFO root fetch - processPackages [easy-workflow-manager]: Remove: archive file [/home/abi/fetcher/tmp/easy_workflow_manager-0.0.8-py3-none-any.whl.zip]
+[2023-07-10 06:35:58] INFO root fetch - processPackages [easy-workflow-manager]: Remove: archive file [/home/abi/fetcher/tmp/easy_workflow_manager-0.0.9-py3-none-any.whl.zip]
+[2023-07-10 06:35:58] INFO root fetch - main [MainThread]: End processing [easy-workflow-manager]: success
+[2023-07-10 06:35:58] INFO root fetch - processPackages [rotman-ncs]: Remove: archive file [/home/abi/fetcher/tmp/rotman_ncs-0.1.0a7-py3-none-any.whl.zip]
+[2023-07-10 06:35:58] INFO root fetch - processPackages [rotman-ncs]: Remove: archive file [/home/abi/fetcher/tmp/rotman_ncs-0.1.0a8-py3-none-any.whl.zip]
+[2023-07-10 06:35:58] INFO root fetch - main [MainThread]: End processing [rotman-ncs]: success
+[2023-07-10 06:35:58] INFO root fetch - processPackages [edc-ltfu]: Remove: archive file [/home/abi/fetcher/tmp/edc_ltfu-0.3.8-py3-none-any.whl.zip]
+[2023-07-10 06:35:58] INFO root fetch - processPackages [edc-ltfu]: Remove: archive file [/home/abi/fetcher/tmp/edc_ltfu-0.3.9-py3-none-any.whl.zip]
+[2023-07-10 06:35:58] INFO root fetch - main [MainThread]: End processing [edc-ltfu]: success
+[2023-07-10 06:35:58] INFO root fetch - main [MainThread]: Store serial: [18826445]
