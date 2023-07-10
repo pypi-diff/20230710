@@ -9748,3 +9748,159 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 09:11:02] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
 [2023-07-10 09:11:02] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2023-07-10 09:11:02] INFO root fetch - main [MainThread]: Store serial: [18827490]
+[2023-07-10 09:16:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18827490]
+[2023-07-10 09:16:11] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-10 09:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-ga20191120-py2
+[2023-07-10 09:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: osmsg
+[2023-07-10 09:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-ga20191120
+[2023-07-10 09:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cloudoll
+[2023-07-10 09:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: streamlit-nightly
+[2023-07-10 09:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-07-10 09:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: TyphoonTest
+[2023-07-10 09:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: v-quantum-annealing
+[2023-07-10 09:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-delivery-carrier-package-measure-required
+[2023-07-10 09:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openhab-pythonrule-engine
+[2023-07-10 09:16:11] INFO root fetch - processPackages [alibabacloud-ga20191120-py2]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-10 09:16:11] INFO root fetch - processPackages [TyphoonTest]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-10 09:16:11] INFO root fetch - processPackages [alibabacloud-ga20191120]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-10 09:16:11] INFO root fetch - processPackages [v-quantum-annealing]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 09:16:11] INFO root fetch - processPackages [odoo14-addon-delivery-carrier-package-measure-required]: New version: [14.0.1.0.2] Old Version: [14.0.1.0.1.dev3]
+[2023-07-10 09:16:11] INFO root fetch - processPackages [cloudoll]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-07-10 09:16:11] INFO root fetch - processPackages [openhab-pythonrule-engine]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-10 09:16:11] INFO root fetch - processPackages [osmsg]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 09:16:11] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-07-10 09:16:11] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-07-10 09:16:11] INFO root fetch - processPackages [v-quantum-annealing]: Downloading https://files.pythonhosted.org/packages/a3/22/b01e7bb04835215ae01270e487b97dab9b252137f1801d1115400ea8d90a/v_quantum_annealing-0.0.8.tar.gz
+[2023-07-10 09:16:11] INFO root fetch - processPackages [cloudoll]: Downloading https://files.pythonhosted.org/packages/56/92/a4c953aec4cb99b4a02c2839801bab73d58b2cdcce9b22502df245ddebf1/cloudoll-2.0.4.tar.gz
+[2023-07-10 09:16:11] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/bb/77/73ca36b159a0852f16710c30eca243772d04e8d37c1497e26e837ebad465/streamlit-nightly-1.9.3.dev20220531.tar.gz
+[2023-07-10 09:16:11] INFO root fetch - processPackages [openhab-pythonrule-engine]: Downloading https://files.pythonhosted.org/packages/f4/78/dcb9b1ef7dda76f8fa4d9c0a376f68c04875885097d8d2161d20cdb29445/openhab_pythonrule_engine-1.2.1.tar.gz
+[2023-07-10 09:16:11] INFO root fetch - processPackages [TyphoonTest]: Downloading https://files.pythonhosted.org/packages/eb/76/2e7b6fc2bbf52c920430df2af311238da54ee0afbf994eafdbd47c6bf5a5/TyphoonTest-1.8.0-cp37-cp37m-win_amd64.whl
+[2023-07-10 09:16:11] INFO root fetch - processPackages [alibabacloud-ga20191120-py2]: Downloading https://files.pythonhosted.org/packages/72/46/c2303876e79df424073fd0f2e7c72664bed0078f1525665b04c7f59492aa/alibabacloud_ga20191120_py2-1.0.8.tar.gz
+[2023-07-10 09:16:11] INFO root fetch - processPackages [alibabacloud-ga20191120]: Downloading https://files.pythonhosted.org/packages/32/84/3006c6a3b5d7f169e57fbffa6c88734716f54b0ef0db9f604381aa10d631/alibabacloud_ga20191120-1.0.8.tar.gz
+[2023-07-10 09:16:12] INFO root fetch - processPackages [odoo14-addon-delivery-carrier-package-measure-required]: Downloading https://files.pythonhosted.org/packages/8c/d4/44c11361086f1c093000729d46b6d2c62f8d9d5fb9fe0160a1c6a5230a24/odoo14_addon_delivery_carrier_package_measure_required-14.0.1.0.1.dev3-py3-none-any.whl
+[2023-07-10 09:16:12] INFO root fetch - processPackages [osmsg]: Downloading https://files.pythonhosted.org/packages/7f/ee/203fe4b605d2c1613b13cfd363f229d5f1ed63db1709241e4e5002600adb/osmsg-0.1.8.tar.gz
+[2023-07-10 09:16:12] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-07-10 09:16:12] INFO root fetch - processPackages [v-quantum-annealing]: Downloading https://files.pythonhosted.org/packages/9d/8f/5bc22a08352bc6e11eb0dee3d5cc0e9511595befb00f71e0c4b8fcb5f07b/v_quantum_annealing-0.0.9.tar.gz
+[2023-07-10 09:16:12] INFO root fetch - processPackages [openhab-pythonrule-engine]: Downloading https://files.pythonhosted.org/packages/8a/3e/0a84e9c40f490787cd7bc756b40c69bdd9b6b4c40deafa7c49d3d706bee5/openhab_pythonrule_engine-1.2.2.tar.gz
+[2023-07-10 09:16:12] INFO root fetch - processPackages [cloudoll]: Downloading https://files.pythonhosted.org/packages/ad/41/43ef10e9d758b36c93c667283d51d37596d6d436060fc43eaa8ab7326729/cloudoll-2.0.5.tar.gz
+[2023-07-10 09:16:12] INFO root fetch - processPackages [v-quantum-annealing]: executing diffoscope
+[2023-07-10 09:16:12] INFO root fetch - processPackages [v-quantum-annealing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/v_quantum_annealing-0.0.8.tar.gz tmp/v_quantum_annealing-0.0.9.tar.gz --markdown 20230710/v/v-quantum-annealing/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 09:16:12] INFO root fetch - processPackages [openhab-pythonrule-engine]: executing diffoscope
+[2023-07-10 09:16:12] INFO root fetch - processPackages [openhab-pythonrule-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openhab_pythonrule_engine-1.2.1.tar.gz tmp/openhab_pythonrule_engine-1.2.2.tar.gz --markdown 20230710/o/openhab-pythonrule-engine/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-10 09:16:12] INFO root fetch - processPackages [cloudoll]: executing diffoscope
+[2023-07-10 09:16:12] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/3f/2a/57340e81e1d94e80229a3f8d9acc663cdad9ffd0ead21e2c20c76b879c18/streamlit-nightly-1.9.3.dev20220601.tar.gz
+[2023-07-10 09:16:12] INFO root fetch - processPackages [cloudoll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudoll-2.0.4.tar.gz tmp/cloudoll-2.0.5.tar.gz --markdown 20230710/c/cloudoll/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-07-10 09:16:12] INFO root fetch - processPackages [alibabacloud-ga20191120-py2]: Downloading https://files.pythonhosted.org/packages/09/5c/e16eed3c82d30ce459f4788f5d900eb4fbba8cdf7e084ce198b7ff57c9dd/alibabacloud_ga20191120_py2-1.0.9.tar.gz
+[2023-07-10 09:16:12] INFO root fetch - processPackages [TyphoonTest]: Downloading https://files.pythonhosted.org/packages/95/6c/5de56205325fe7a56c7dd77a8a4d064b8a9a5d0d3be00c23953a90759803/TyphoonTest-1.9.0-cp37-cp37m-win_amd64.whl
+[2023-07-10 09:16:12] INFO root fetch - processPackages [alibabacloud-ga20191120]: Downloading https://files.pythonhosted.org/packages/eb/6f/237fdcd9b6b01606a499d28417dc8f06b9e33887a738708fd2388ef53f06/alibabacloud_ga20191120-1.0.9.tar.gz
+[2023-07-10 09:16:12] INFO root fetch - processPackages [odoo14-addon-delivery-carrier-package-measure-required]: Downloading https://files.pythonhosted.org/packages/aa/2e/0ad1e12464fa2b7bc37bfb2a6b509ca5a7a084fe69e617ce56f747e2c80d/odoo14_addon_delivery_carrier_package_measure_required-14.0.1.0.2-py3-none-any.whl
+[2023-07-10 09:16:12] INFO root fetch - processPackages [alibabacloud-ga20191120]: executing diffoscope
+[2023-07-10 09:16:12] INFO root fetch - processPackages [alibabacloud-ga20191120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ga20191120-1.0.8.tar.gz tmp/alibabacloud_ga20191120-1.0.9.tar.gz --markdown 20230710/a/alibabacloud-ga20191120/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-10 09:16:12] INFO root fetch - processPackages [odoo14-addon-delivery-carrier-package-measure-required]: executing diffoscope
+[2023-07-10 09:16:12] INFO root fetch - processPackages [odoo14-addon-delivery-carrier-package-measure-required]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_delivery_carrier_package_measure_required-14.0.1.0.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_delivery_carrier_package_measure_required-14.0.1.0.2-py3-none-any.whl.zip --markdown 20230710/o/odoo14-addon-delivery-carrier-package-measure-required/14.0.1.0.1.dev3-14.0.1.0.2/diff.md --exclude *.pyd
+[2023-07-10 09:16:12] INFO root fetch - processPackages [alibabacloud-ga20191120-py2]: executing diffoscope
+[2023-07-10 09:16:12] INFO root fetch - processPackages [alibabacloud-ga20191120-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ga20191120_py2-1.0.8.tar.gz tmp/alibabacloud_ga20191120_py2-1.0.9.tar.gz --markdown 20230710/a/alibabacloud-ga20191120-py2/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-10 09:16:12] INFO root fetch - processPackages [TyphoonTest]: executing diffoscope
+[2023-07-10 09:16:12] INFO root fetch - processPackages [TyphoonTest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TyphoonTest-1.8.0-cp37-cp37m-win_amd64.whl.zip tmp/TyphoonTest-1.9.0-cp37-cp37m-win_amd64.whl.zip --markdown 20230710/T/TyphoonTest/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-10 09:16:13] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-07-10 09:16:13] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230710/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-07-10 09:16:13] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-07-10 09:16:13] INFO root fetch - processPackages [osmsg]: Downloading https://files.pythonhosted.org/packages/fd/ec/2cc46c93a1eba20d64e795f3a62d11e4c46bdb031578f8079798844f660e/osmsg-0.1.9.tar.gz
+[2023-07-10 09:16:13] INFO root fetch - processPackages [osmsg]: executing diffoscope
+[2023-07-10 09:16:13] INFO root fetch - processPackages [osmsg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osmsg-0.1.8.tar.gz tmp/osmsg-0.1.9.tar.gz --markdown 20230710/o/osmsg/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 09:16:14] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-07-10 09:16:14] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230710/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-07-10 09:16:14] INFO root fetch - processPackages [openhab-pythonrule-engine]: Remove: archive file [/home/abi/fetcher/tmp/openhab_pythonrule_engine-1.2.1.tar.gz]
+[2023-07-10 09:16:14] INFO root fetch - processPackages [openhab-pythonrule-engine]: Remove: archive file [/home/abi/fetcher/tmp/openhab_pythonrule_engine-1.2.2.tar.gz]
+[2023-07-10 09:16:14] INFO root fetch - processPackages [openhab-pythonrule-engine]: Start processing: mash-shell
+[2023-07-10 09:16:14] INFO root fetch - main [MainThread]: End processing [openhab-pythonrule-engine]: success
+[2023-07-10 09:16:14] INFO root fetch - processPackages [cloudoll]: Remove: archive file [/home/abi/fetcher/tmp/cloudoll-2.0.4.tar.gz]
+[2023-07-10 09:16:14] INFO root fetch - processPackages [cloudoll]: Remove: archive file [/home/abi/fetcher/tmp/cloudoll-2.0.5.tar.gz]
+[2023-07-10 09:16:14] INFO root fetch - processPackages [cloudoll]: Start processing: quantplay
+[2023-07-10 09:16:14] INFO root fetch - main [MainThread]: End processing [cloudoll]: success
+[2023-07-10 09:16:14] INFO root fetch - processPackages [mash-shell]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-10 09:16:14] INFO root fetch - processPackages [quantplay]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-10 09:16:14] INFO root fetch - processPackages [mash-shell]: Downloading https://files.pythonhosted.org/packages/39/e5/5089c8c5df88a75a681b543ed20ff81c7842cd11739abf40df754b620250/mash-shell-0.2.5.tar.gz
+[2023-07-10 09:16:14] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/45/df/9dafdbe1d951b59dcb7dc8f02188b232f56f79298a06892f0e603becc389/quantplay-1.3.8.tar.gz
+[2023-07-10 09:16:14] INFO root fetch - processPackages [alibabacloud-ga20191120]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ga20191120-1.0.8.tar.gz]
+[2023-07-10 09:16:14] INFO root fetch - processPackages [alibabacloud-ga20191120]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ga20191120-1.0.9.tar.gz]
+[2023-07-10 09:16:14] INFO root fetch - processPackages [alibabacloud-ga20191120]: Start processing: ntdsdotsqlite
+[2023-07-10 09:16:14] INFO root fetch - main [MainThread]: End processing [alibabacloud-ga20191120]: success
+[2023-07-10 09:16:14] INFO root fetch - processPackages [odoo14-addon-delivery-carrier-package-measure-required]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_delivery_carrier_package_measure_required-14.0.1.0.1.dev3-py3-none-any.whl.zip]
+[2023-07-10 09:16:14] INFO root fetch - processPackages [odoo14-addon-delivery-carrier-package-measure-required]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_delivery_carrier_package_measure_required-14.0.1.0.2-py3-none-any.whl.zip]
+[2023-07-10 09:16:14] INFO root fetch - processPackages [ntdsdotsqlite]: New version: [1.1.1] Old Version: [1.0.0]
+[2023-07-10 09:16:14] INFO root fetch - processPackages [odoo14-addon-delivery-carrier-package-measure-required]: Start processing: dassana
+[2023-07-10 09:16:14] INFO root fetch - main [MainThread]: End processing [odoo14-addon-delivery-carrier-package-measure-required]: success
+[2023-07-10 09:16:14] INFO root fetch - processPackages [TyphoonTest]: Remove: archive file [/home/abi/fetcher/tmp/TyphoonTest-1.8.0-cp37-cp37m-win_amd64.whl.zip]
+[2023-07-10 09:16:14] INFO root fetch - processPackages [TyphoonTest]: Remove: archive file [/home/abi/fetcher/tmp/TyphoonTest-1.9.0-cp37-cp37m-win_amd64.whl.zip]
+[2023-07-10 09:16:14] INFO root fetch - processPackages [TyphoonTest]: Start processing: deepsecrets
+[2023-07-10 09:16:14] INFO root fetch - main [MainThread]: End processing [TyphoonTest]: success
+[2023-07-10 09:16:14] INFO root fetch - processPackages [alibabacloud-ga20191120-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ga20191120_py2-1.0.8.tar.gz]
+[2023-07-10 09:16:14] INFO root fetch - processPackages [alibabacloud-ga20191120-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ga20191120_py2-1.0.9.tar.gz]
+[2023-07-10 09:16:14] INFO root fetch - processPackages [alibabacloud-ga20191120-py2]: Start processing: Typhoon-HIL-API
+[2023-07-10 09:16:14] INFO root fetch - main [MainThread]: End processing [alibabacloud-ga20191120-py2]: success
+[2023-07-10 09:16:14] INFO root fetch - processPackages [dassana]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-07-10 09:16:14] INFO root fetch - processPackages [Typhoon-HIL-API]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-10 09:16:14] INFO root fetch - processPackages [mash-shell]: Downloading https://files.pythonhosted.org/packages/ac/ee/347f196f9554b286b26ec56cb8a44e1a8ed2941b6ae38e1f0c9b0b7bd0cd/mash-shell-0.2.6.tar.gz
+[2023-07-10 09:16:14] INFO root fetch - processPackages [deepsecrets]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-10 09:16:14] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/ee/a5/18caaa36bc077cbd964b78406eed5d1840456172da7cdd1b6c18be824d06/quantplay-1.3.9.tar.gz
+[2023-07-10 09:16:14] INFO root fetch - processPackages [dassana]: Downloading https://files.pythonhosted.org/packages/66/46/b3cdedec31ab008aa3468fa791eb0fcf6bf7ff309fbb9262efa5781dc938/dassana-0.8.8.tar.gz
+[2023-07-10 09:16:14] INFO root fetch - processPackages [ntdsdotsqlite]: Downloading https://files.pythonhosted.org/packages/1f/a3/289eb50ca9205a2055ce8bb305a6bf02a3874430768c2d1d15d0ef80d30f/ntdsdotsqlite-1.0.0.tar.gz
+[2023-07-10 09:16:15] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-07-10 09:16:15] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.3.8.tar.gz tmp/quantplay-1.3.9.tar.gz --markdown 20230710/q/quantplay/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-10 09:16:15] INFO root fetch - processPackages [mash-shell]: executing diffoscope
+[2023-07-10 09:16:15] INFO root fetch - processPackages [mash-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mash-shell-0.2.5.tar.gz tmp/mash-shell-0.2.6.tar.gz --markdown 20230710/m/mash-shell/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-10 09:16:15] INFO root fetch - processPackages [Typhoon-HIL-API]: Downloading https://files.pythonhosted.org/packages/fd/52/834804718a79b13c5a3cde3ee85a10e7f4898828db4e900875ade3a95e40/Typhoon_HIL_API-1.8.0-py2.py3-none-any.whl
+[2023-07-10 09:16:15] INFO root fetch - processPackages [deepsecrets]: Downloading https://files.pythonhosted.org/packages/4a/ac/1110a8557426f46ae63cf1104862abeb6ba42040401668383d1f35eeff96/deepsecrets-1.1.1.tar.gz
+[2023-07-10 09:16:15] INFO root fetch - processPackages [dassana]: Downloading https://files.pythonhosted.org/packages/8e/4e/7d3d50bf262d8a54ecec7caa65b833a09c6836af619fec13826ec58b3f94/dassana-0.8.9.tar.gz
+[2023-07-10 09:16:15] INFO root fetch - processPackages [v-quantum-annealing]: Remove: archive file [/home/abi/fetcher/tmp/v_quantum_annealing-0.0.8.tar.gz]
+[2023-07-10 09:16:15] INFO root fetch - processPackages [v-quantum-annealing]: Remove: archive file [/home/abi/fetcher/tmp/v_quantum_annealing-0.0.9.tar.gz]
+[2023-07-10 09:16:15] INFO root fetch - processPackages [v-quantum-annealing]: Start processing: crowdsim
+[2023-07-10 09:16:15] INFO root fetch - main [MainThread]: End processing [v-quantum-annealing]: success
+[2023-07-10 09:16:15] INFO root fetch - processPackages [crowdsim]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-10 09:16:15] INFO root fetch - processPackages [dassana]: executing diffoscope
+[2023-07-10 09:16:15] INFO root fetch - processPackages [dassana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dassana-0.8.8.tar.gz tmp/dassana-0.8.9.tar.gz --markdown 20230710/d/dassana/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-07-10 09:16:15] INFO root fetch - processPackages [ntdsdotsqlite]: Downloading https://files.pythonhosted.org/packages/c8/43/dccee9dda575f521133f337b935c9666528c0b19bb1b490a4853b996e03e/ntdsdotsqlite-1.1.1.tar.gz
+[2023-07-10 09:16:15] INFO root fetch - processPackages [crowdsim]: Downloading https://files.pythonhosted.org/packages/f2/b1/74b349f8f3f0119b458c9596ee35713b12e5b6d1602c77da60975115697f/crowdsim-0.1.2.tar.gz
+[2023-07-10 09:16:15] INFO root fetch - processPackages [ntdsdotsqlite]: executing diffoscope
+[2023-07-10 09:16:15] INFO root fetch - processPackages [ntdsdotsqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ntdsdotsqlite-1.0.0.tar.gz tmp/ntdsdotsqlite-1.1.1.tar.gz --markdown 20230710/n/ntdsdotsqlite/1.0.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-10 09:16:15] INFO root fetch - processPackages [deepsecrets]: Downloading https://files.pythonhosted.org/packages/7e/fb/e39bcfe1bda232a967915fb50d294e0e99fc8f1878a5d4662dfa63de9ee9/deepsecrets-1.1.2.tar.gz
+[2023-07-10 09:16:15] INFO root fetch - processPackages [deepsecrets]: executing diffoscope
+[2023-07-10 09:16:15] INFO root fetch - processPackages [deepsecrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepsecrets-1.1.1.tar.gz tmp/deepsecrets-1.1.2.tar.gz --markdown 20230710/d/deepsecrets/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-10 09:16:15] INFO root fetch - processPackages [Typhoon-HIL-API]: Downloading https://files.pythonhosted.org/packages/06/b9/b6833a90c5818c9fe24328cb0ee9a67a8811156299e2aa229246a2f12397/Typhoon_HIL_API-1.9.0-py2.py3-none-any.whl
+[2023-07-10 09:16:15] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-07-10 09:16:15] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-07-10 09:16:15] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-07-10 09:16:15] INFO root fetch - processPackages [crowdsim]: Downloading https://files.pythonhosted.org/packages/5c/29/d34d4e2044c594e87c3a7ab60ec8f2d27e5242f6f7e07724fce3f3433441/crowdsim-0.1.3.tar.gz
+[2023-07-10 09:16:15] INFO root fetch - processPackages [Typhoon-HIL-API]: executing diffoscope
+[2023-07-10 09:16:15] INFO root fetch - processPackages [Typhoon-HIL-API]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Typhoon_HIL_API-1.8.0-py2.py3-none-any.whl.zip tmp/Typhoon_HIL_API-1.9.0-py2.py3-none-any.whl.zip --markdown 20230710/T/Typhoon-HIL-API/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-10 09:16:16] INFO root fetch - processPackages [crowdsim]: executing diffoscope
+[2023-07-10 09:16:16] INFO root fetch - processPackages [crowdsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crowdsim-0.1.2.tar.gz tmp/crowdsim-0.1.3.tar.gz --markdown 20230710/c/crowdsim/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-10 09:16:16] INFO root fetch - processPackages [osmsg]: Remove: archive file [/home/abi/fetcher/tmp/osmsg-0.1.8.tar.gz]
+[2023-07-10 09:16:16] INFO root fetch - processPackages [osmsg]: Remove: archive file [/home/abi/fetcher/tmp/osmsg-0.1.9.tar.gz]
+[2023-07-10 09:16:16] INFO root fetch - main [MainThread]: End processing [osmsg]: success
+[2023-07-10 09:16:16] INFO root fetch - processPackages [dassana]: Remove: archive file [/home/abi/fetcher/tmp/dassana-0.8.8.tar.gz]
+[2023-07-10 09:16:16] INFO root fetch - processPackages [dassana]: Remove: archive file [/home/abi/fetcher/tmp/dassana-0.8.9.tar.gz]
+[2023-07-10 09:16:16] INFO root fetch - main [MainThread]: End processing [dassana]: success
+[2023-07-10 09:16:17] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.3.8.tar.gz]
+[2023-07-10 09:16:17] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.3.9.tar.gz]
+[2023-07-10 09:16:17] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-07-10 09:16:17] INFO root fetch - processPackages [mash-shell]: Remove: archive file [/home/abi/fetcher/tmp/mash-shell-0.2.5.tar.gz]
+[2023-07-10 09:16:17] INFO root fetch - processPackages [mash-shell]: Remove: archive file [/home/abi/fetcher/tmp/mash-shell-0.2.6.tar.gz]
+[2023-07-10 09:16:17] INFO root fetch - main [MainThread]: End processing [mash-shell]: success
+[2023-07-10 09:16:17] INFO root fetch - processPackages [ntdsdotsqlite]: Remove: archive file [/home/abi/fetcher/tmp/ntdsdotsqlite-1.0.0.tar.gz]
+[2023-07-10 09:16:17] INFO root fetch - processPackages [ntdsdotsqlite]: Remove: archive file [/home/abi/fetcher/tmp/ntdsdotsqlite-1.1.1.tar.gz]
+[2023-07-10 09:16:17] INFO root fetch - main [MainThread]: End processing [ntdsdotsqlite]: success
+[2023-07-10 09:16:17] INFO root fetch - processPackages [crowdsim]: Remove: archive file [/home/abi/fetcher/tmp/crowdsim-0.1.2.tar.gz]
+[2023-07-10 09:16:17] INFO root fetch - processPackages [crowdsim]: Remove: archive file [/home/abi/fetcher/tmp/crowdsim-0.1.3.tar.gz]
+[2023-07-10 09:16:17] INFO root fetch - main [MainThread]: End processing [crowdsim]: success
+[2023-07-10 09:16:17] INFO root fetch - processPackages [deepsecrets]: Remove: archive file [/home/abi/fetcher/tmp/deepsecrets-1.1.1.tar.gz]
+[2023-07-10 09:16:17] INFO root fetch - processPackages [deepsecrets]: Remove: archive file [/home/abi/fetcher/tmp/deepsecrets-1.1.2.tar.gz]
+[2023-07-10 09:16:17] INFO root fetch - main [MainThread]: End processing [deepsecrets]: success
+[2023-07-10 09:16:19] INFO root fetch - processPackages [Typhoon-HIL-API]: Remove: archive file [/home/abi/fetcher/tmp/Typhoon_HIL_API-1.8.0-py2.py3-none-any.whl.zip]
+[2023-07-10 09:16:19] INFO root fetch - processPackages [Typhoon-HIL-API]: Remove: archive file [/home/abi/fetcher/tmp/Typhoon_HIL_API-1.9.0-py2.py3-none-any.whl.zip]
+[2023-07-10 09:16:19] INFO root fetch - main [MainThread]: End processing [Typhoon-HIL-API]: success
+[2023-07-10 09:16:23] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz]
+[2023-07-10 09:16:23] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
+[2023-07-10 09:16:23] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-07-10 09:16:23] INFO root fetch - main [MainThread]: Store serial: [18827548]
