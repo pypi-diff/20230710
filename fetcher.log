@@ -23086,3 +23086,155 @@ EOFError: EOF read where object expected
 [2023-07-10 17:53:27] INFO root fetch - processPackages [robotcode-plugin]: Remove: archive file [/home/abi/fetcher/tmp/robotcode_plugin-0.47.0.tar.gz]
 [2023-07-10 17:53:27] INFO root fetch - main [MainThread]: End processing [robotcode-plugin]: success
 [2023-07-10 17:53:27] INFO root fetch - main [MainThread]: Store serial: [18833028]
+[2023-07-10 17:58:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18833028]
+[2023-07-10 17:58:37] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-10 17:58:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: robotcode-modifiers
+[2023-07-10 17:58:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: robotcode-robot
+[2023-07-10 17:58:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: robotcode-language-server
+[2023-07-10 17:58:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: robotcode-jsonrpc2
+[2023-07-10 17:58:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: robotcode-runner
+[2023-07-10 17:58:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: robotcode-analyze
+[2023-07-10 17:58:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: robotcode-debugger
+[2023-07-10 17:58:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: symbal
+[2023-07-10 17:58:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: keras-cor
+[2023-07-10 17:58:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: moosez
+[2023-07-10 17:58:37] INFO root fetch - processPackages [robotcode-jsonrpc2]: New version: [0.47.1] Old Version: [0.47.0]
+[2023-07-10 17:58:37] INFO root fetch - processPackages [moosez]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-10 17:58:37] INFO root fetch - processPackages [robotcode-language-server]: New version: [0.47.1] Old Version: [0.47.0]
+[2023-07-10 17:58:37] INFO root fetch - processPackages [robotcode-robot]: New version: [0.47.1] Old Version: [0.47.0]
+[2023-07-10 17:58:37] INFO root fetch - processPackages [robotcode-modifiers]: New version: [0.47.1] Old Version: [0.47.0]
+[2023-07-10 17:58:37] INFO root fetch - processPackages [robotcode-debugger]: New version: [0.47.1] Old Version: [0.47.0]
+[2023-07-10 17:58:37] INFO root fetch - processPackages [keras-cor]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-10 17:58:37] INFO root fetch - processPackages [robotcode-runner]: New version: [0.47.1] Old Version: [0.47.0]
+[2023-07-10 17:58:37] INFO root fetch - processPackages [robotcode-analyze]: New version: [0.47.1] Old Version: [0.47.0]
+[2023-07-10 17:58:37] INFO root fetch - processPackages [symbal]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-10 17:58:37] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/c2/b9/9ba3e44254ad29decd7b08760b84b94f2989dea3bc65cac9ae71ea9f0357/moosez-2.1.8.tar.gz
+[2023-07-10 17:58:37] INFO root fetch - processPackages [robotcode-modifiers]: Downloading https://files.pythonhosted.org/packages/f1/db/333466b74a1f0e04173044b17f127536a85fd48530e48b7f384c86603426/robotcode_modifiers-0.47.0.tar.gz
+[2023-07-10 17:58:37] INFO root fetch - processPackages [robotcode-jsonrpc2]: Downloading https://files.pythonhosted.org/packages/6e/c4/5961edb9c6f9463cf66ab1fb75491a3fec3b0857651fc18d306c6de600d3/robotcode_jsonrpc2-0.47.0.tar.gz
+[2023-07-10 17:58:37] INFO root fetch - processPackages [robotcode-language-server]: Downloading https://files.pythonhosted.org/packages/f7/fe/ce4b7b445bd04ae3f69d63a15f002fe14808798abfa1b84964fe0a0e234c/robotcode_language_server-0.47.0.tar.gz
+[2023-07-10 17:58:37] INFO root fetch - processPackages [robotcode-robot]: Downloading https://files.pythonhosted.org/packages/9c/1e/02ba26cefd2cb22a89c5e94a77a1424e69e0dde08d06968591f347160553/robotcode_robot-0.47.0.tar.gz
+[2023-07-10 17:58:37] INFO root fetch - processPackages [symbal]: Downloading https://files.pythonhosted.org/packages/8d/aa/deabedb979f1e45b1231c7fcdfdc8149b50411902e86eb1b5d4e7d839041/symbal-0.0.1.tar.gz
+[2023-07-10 17:58:37] INFO root fetch - processPackages [robotcode-runner]: Downloading https://files.pythonhosted.org/packages/fb/34/11697266b3a718f0c3e339016ba8fa6306e281646287364a07e1f49a24d3/robotcode_runner-0.47.0.tar.gz
+[2023-07-10 17:58:37] INFO root fetch - processPackages [robotcode-debugger]: Downloading https://files.pythonhosted.org/packages/1b/15/cc457a552479962aa4ff8ce13be691beb72a2f70c8331df7d42b5cc51ef7/robotcode_debugger-0.47.0.tar.gz
+[2023-07-10 17:58:38] INFO root fetch - processPackages [robotcode-analyze]: Downloading https://files.pythonhosted.org/packages/bc/61/b55cf61a12eddbed637f7ae12d347468c4218354ae79947784e7d4ccc08a/robotcode_analyze-0.47.0.tar.gz
+[2023-07-10 17:58:38] INFO root fetch - processPackages [keras-cor]: Downloading https://files.pythonhosted.org/packages/72/86/86e84d85413281b37c061a456daafc54f3446212981f564010b0e1f803d4/keras-cor-0.1.0.tar.gz
+[2023-07-10 17:58:38] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/56/ac/bc6012faf269fbaf5537a960e128eda0094dce0864f52bcb84ea8826d3cf/moosez-2.1.9.tar.gz
+[2023-07-10 17:58:38] INFO root fetch - processPackages [robotcode-modifiers]: Downloading https://files.pythonhosted.org/packages/e2/3c/b8b3026dea9f24e9fbea457c3fb6b4d9344fb5f2a6501b006f5de6535da6/robotcode_modifiers-0.47.1.tar.gz
+[2023-07-10 17:58:38] INFO root fetch - processPackages [robotcode-jsonrpc2]: Downloading https://files.pythonhosted.org/packages/56/dd/24e750aa4cd8d06860d60abf00e1041c57ba93b29b3c8ee7846f51c57914/robotcode_jsonrpc2-0.47.1.tar.gz
+[2023-07-10 17:58:38] INFO root fetch - processPackages [robotcode-language-server]: Downloading https://files.pythonhosted.org/packages/2e/2a/57e38a8a3e002dfe300737752ab1ea0fc5d1027f8a1fedbef04a969c5083/robotcode_language_server-0.47.1.tar.gz
+[2023-07-10 17:58:38] INFO root fetch - processPackages [robotcode-robot]: Downloading https://files.pythonhosted.org/packages/96/da/eedb2aff46eb32552c85f9c23c9c66de7e8bb689e5be3545b2c89efe297e/robotcode_robot-0.47.1.tar.gz
+[2023-07-10 17:58:38] INFO root fetch - processPackages [moosez]: executing diffoscope
+[2023-07-10 17:58:38] INFO root fetch - processPackages [moosez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moosez-2.1.8.tar.gz tmp/moosez-2.1.9.tar.gz --markdown 20230710/m/moosez/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-10 17:58:38] INFO root fetch - processPackages [robotcode-runner]: Downloading https://files.pythonhosted.org/packages/ee/ff/83a681640e4a8b4c97b4b547bcc2fa09cabf5b1c3798d5bf95ad01345ddc/robotcode_runner-0.47.1.tar.gz
+[2023-07-10 17:58:38] INFO root fetch - processPackages [robotcode-debugger]: Downloading https://files.pythonhosted.org/packages/5e/fe/ee1eff631aab7d68bb7fd0b05d637a089823ce62b89a76a6f30c1bf31684/robotcode_debugger-0.47.1.tar.gz
+[2023-07-10 17:58:38] INFO root fetch - processPackages [robotcode-modifiers]: executing diffoscope
+[2023-07-10 17:58:38] INFO root fetch - processPackages [robotcode-modifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_modifiers-0.47.0.tar.gz tmp/robotcode_modifiers-0.47.1.tar.gz --markdown 20230710/r/robotcode-modifiers/0.47.0-0.47.1/diff.md --exclude *.pyd
+[2023-07-10 17:58:38] INFO root fetch - processPackages [robotcode-analyze]: Downloading https://files.pythonhosted.org/packages/83/17/01f74c746ee44dd86910de6ac8dd19fb4b62c76ed17985640eb315aa763b/robotcode_analyze-0.47.1.tar.gz
+[2023-07-10 17:58:38] INFO root fetch - processPackages [robotcode-jsonrpc2]: executing diffoscope
+[2023-07-10 17:58:38] INFO root fetch - processPackages [robotcode-jsonrpc2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_jsonrpc2-0.47.0.tar.gz tmp/robotcode_jsonrpc2-0.47.1.tar.gz --markdown 20230710/r/robotcode-jsonrpc2/0.47.0-0.47.1/diff.md --exclude *.pyd
+[2023-07-10 17:58:38] INFO root fetch - processPackages [symbal]: Downloading https://files.pythonhosted.org/packages/4b/1c/fabd9a255a79561ea01ca2dfaf648d3c98b3617f4370adcc68969d2fe8bc/symbal-0.0.2.tar.gz
+[2023-07-10 17:58:38] INFO root fetch - processPackages [robotcode-robot]: executing diffoscope
+[2023-07-10 17:58:38] INFO root fetch - processPackages [robotcode-robot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_robot-0.47.0.tar.gz tmp/robotcode_robot-0.47.1.tar.gz --markdown 20230710/r/robotcode-robot/0.47.0-0.47.1/diff.md --exclude *.pyd
+[2023-07-10 17:58:38] INFO root fetch - processPackages [keras-cor]: Downloading https://files.pythonhosted.org/packages/35/4f/e26253b905f97f5d944ca56a8434097a1b709be759f9f37ff9a1fa99c963/keras-cor-0.2.0.tar.gz
+[2023-07-10 17:58:38] INFO root fetch - processPackages [robotcode-runner]: executing diffoscope
+[2023-07-10 17:58:38] INFO root fetch - processPackages [robotcode-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_runner-0.47.0.tar.gz tmp/robotcode_runner-0.47.1.tar.gz --markdown 20230710/r/robotcode-runner/0.47.0-0.47.1/diff.md --exclude *.pyd
+[2023-07-10 17:58:38] INFO root fetch - processPackages [robotcode-language-server]: executing diffoscope
+[2023-07-10 17:58:38] INFO root fetch - processPackages [robotcode-language-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_language_server-0.47.0.tar.gz tmp/robotcode_language_server-0.47.1.tar.gz --markdown 20230710/r/robotcode-language-server/0.47.0-0.47.1/diff.md --exclude *.pyd
+[2023-07-10 17:58:38] INFO root fetch - processPackages [robotcode-analyze]: executing diffoscope
+[2023-07-10 17:58:38] INFO root fetch - processPackages [robotcode-analyze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_analyze-0.47.0.tar.gz tmp/robotcode_analyze-0.47.1.tar.gz --markdown 20230710/r/robotcode-analyze/0.47.0-0.47.1/diff.md --exclude *.pyd
+[2023-07-10 17:58:38] INFO root fetch - processPackages [robotcode-debugger]: executing diffoscope
+[2023-07-10 17:58:38] INFO root fetch - processPackages [robotcode-debugger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_debugger-0.47.0.tar.gz tmp/robotcode_debugger-0.47.1.tar.gz --markdown 20230710/r/robotcode-debugger/0.47.0-0.47.1/diff.md --exclude *.pyd
+[2023-07-10 17:58:38] INFO root fetch - processPackages [symbal]: executing diffoscope
+[2023-07-10 17:58:38] INFO root fetch - processPackages [symbal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbal-0.0.1.tar.gz tmp/symbal-0.0.2.tar.gz --markdown 20230710/s/symbal/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-10 17:58:38] INFO root fetch - processPackages [keras-cor]: executing diffoscope
+[2023-07-10 17:58:38] INFO root fetch - processPackages [keras-cor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-cor-0.1.0.tar.gz tmp/keras-cor-0.2.0.tar.gz --markdown 20230710/k/keras-cor/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-10 17:58:39] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.1.8.tar.gz]
+[2023-07-10 17:58:39] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.1.9.tar.gz]
+[2023-07-10 17:58:39] INFO root fetch - processPackages [moosez]: Start processing: bitsandbytes
+[2023-07-10 17:58:39] INFO root fetch - main [MainThread]: End processing [moosez]: success
+[2023-07-10 17:58:39] INFO root fetch - processPackages [robotcode-jsonrpc2]: Remove: archive file [/home/abi/fetcher/tmp/robotcode_jsonrpc2-0.47.0.tar.gz]
+[2023-07-10 17:58:39] INFO root fetch - processPackages [robotcode-jsonrpc2]: Remove: archive file [/home/abi/fetcher/tmp/robotcode_jsonrpc2-0.47.1.tar.gz]
+[2023-07-10 17:58:39] INFO root fetch - processPackages [robotcode-jsonrpc2]: Start processing: roblox-pyc
+[2023-07-10 17:58:39] INFO root fetch - main [MainThread]: End processing [robotcode-jsonrpc2]: success
+[2023-07-10 17:58:39] INFO root fetch - processPackages [robotcode-modifiers]: Remove: archive file [/home/abi/fetcher/tmp/robotcode_modifiers-0.47.0.tar.gz]
+[2023-07-10 17:58:39] INFO root fetch - processPackages [robotcode-modifiers]: Remove: archive file [/home/abi/fetcher/tmp/robotcode_modifiers-0.47.1.tar.gz]
+[2023-07-10 17:58:39] INFO root fetch - processPackages [robotcode-modifiers]: Start processing: SGtSNEpiPy
+[2023-07-10 17:58:39] INFO root fetch - main [MainThread]: End processing [robotcode-modifiers]: success
+[2023-07-10 17:58:40] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-10 17:58:40] INFO root fetch - processPackages [bitsandbytes]: New version: [0.40.0] Old Version: [0.39.1]
+[2023-07-10 17:58:40] INFO root fetch - processPackages [robotcode-robot]: Remove: archive file [/home/abi/fetcher/tmp/robotcode_robot-0.47.0.tar.gz]
+[2023-07-10 17:58:40] INFO root fetch - processPackages [robotcode-robot]: Remove: archive file [/home/abi/fetcher/tmp/robotcode_robot-0.47.1.tar.gz]
+[2023-07-10 17:58:40] INFO root fetch - processPackages [robotcode-robot]: Start processing: symbal
+[2023-07-10 17:58:40] INFO root fetch - main [MainThread]: End processing [robotcode-robot]: success
+[2023-07-10 17:58:40] INFO root fetch - processPackages [SGtSNEpiPy]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-10 17:58:40] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-10 17:58:40] INFO root fetch - processPackages [symbal]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-10 17:58:40] INFO root fetch - processPackages [symbal]: Remove: archive file [/home/abi/fetcher/tmp/symbal-0.0.1.tar.gz]
+[2023-07-10 17:58:40] INFO root fetch - processPackages [symbal]: Remove: archive file [/home/abi/fetcher/tmp/symbal-0.0.2.tar.gz]
+[2023-07-10 17:58:40] INFO root fetch - processPackages [symbal]: Start processing: template-pypackage-builder
+[2023-07-10 17:58:40] INFO root fetch - main [MainThread]: End processing [symbal]: success
+[2023-07-10 17:58:40] INFO root fetch - processPackages [SGtSNEpiPy]: Downloading https://files.pythonhosted.org/packages/0d/bc/773fa126ea95e4590c01038740d8ddb64e1395734211d263532658979e36/SGtSNEpiPy-1.0.4.tar.gz
+[2023-07-10 17:58:40] INFO root fetch - processPackages [template-pypackage-builder]: New version: [0.4] Old Version: [0.3]
+[2023-07-10 17:58:40] INFO root fetch - processPackages [robotcode-runner]: Remove: archive file [/home/abi/fetcher/tmp/robotcode_runner-0.47.0.tar.gz]
+[2023-07-10 17:58:40] INFO root fetch - processPackages [robotcode-runner]: Remove: archive file [/home/abi/fetcher/tmp/robotcode_runner-0.47.1.tar.gz]
+[2023-07-10 17:58:40] INFO root fetch - processPackages [robotcode-runner]: Start processing: pedal
+[2023-07-10 17:58:40] INFO root fetch - main [MainThread]: End processing [robotcode-runner]: success
+[2023-07-10 17:58:40] INFO root fetch - processPackages [symbal]: Downloading https://files.pythonhosted.org/packages/8d/aa/deabedb979f1e45b1231c7fcdfdc8149b50411902e86eb1b5d4e7d839041/symbal-0.0.1.tar.gz
+[2023-07-10 17:58:40] INFO root fetch - processPackages [bitsandbytes]: Downloading https://files.pythonhosted.org/packages/d2/74/aed8c1c53cdd0689c9ce1801c65b6a2a0f76d0083add16da9263f2fe568d/bitsandbytes-0.39.1.tar.gz
+[2023-07-10 17:58:40] INFO root fetch - processPackages [robotcode-analyze]: Remove: archive file [/home/abi/fetcher/tmp/robotcode_analyze-0.47.0.tar.gz]
+[2023-07-10 17:58:40] INFO root fetch - processPackages [robotcode-analyze]: Remove: archive file [/home/abi/fetcher/tmp/robotcode_analyze-0.47.1.tar.gz]
+[2023-07-10 17:58:40] INFO root fetch - processPackages [robotcode-analyze]: Start processing: ccxt
+[2023-07-10 17:58:40] INFO root fetch - main [MainThread]: End processing [robotcode-analyze]: success
+[2023-07-10 17:58:40] INFO root fetch - processPackages [keras-cor]: Remove: archive file [/home/abi/fetcher/tmp/keras-cor-0.1.0.tar.gz]
+[2023-07-10 17:58:40] INFO root fetch - processPackages [keras-cor]: Remove: archive file [/home/abi/fetcher/tmp/keras-cor-0.2.0.tar.gz]
+[2023-07-10 17:58:40] INFO root fetch - main [MainThread]: End processing [keras-cor]: success
+[2023-07-10 17:58:40] INFO root fetch - processPackages [robotcode-debugger]: Remove: archive file [/home/abi/fetcher/tmp/robotcode_debugger-0.47.0.tar.gz]
+[2023-07-10 17:58:40] INFO root fetch - processPackages [robotcode-debugger]: Remove: archive file [/home/abi/fetcher/tmp/robotcode_debugger-0.47.1.tar.gz]
+[2023-07-10 17:58:40] INFO root fetch - main [MainThread]: End processing [robotcode-debugger]: success
+[2023-07-10 17:58:40] INFO root fetch - processPackages [ccxt]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-07-10 17:58:40] INFO root fetch - processPackages [pedal]: New version: [2.5.5] Old Version: [2.5.4]
+[2023-07-10 17:58:40] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-10 17:58:40] WARNING root fetch - processPackages [bitsandbytes]: Skipping package: exceeds size limit 95518930>=10485760
+[2023-07-10 17:58:40] INFO root fetch - main [MainThread]: End processing [bitsandbytes] error
+[2023-07-10 17:58:40] INFO root fetch - processPackages [robotcode-language-server]: Remove: archive file [/home/abi/fetcher/tmp/robotcode_language_server-0.47.0.tar.gz]
+[2023-07-10 17:58:40] INFO root fetch - processPackages [robotcode-language-server]: Remove: archive file [/home/abi/fetcher/tmp/robotcode_language_server-0.47.1.tar.gz]
+[2023-07-10 17:58:40] INFO root fetch - main [MainThread]: End processing [robotcode-language-server]: success
+[2023-07-10 17:58:40] INFO root fetch - processPackages [template-pypackage-builder]: Downloading https://files.pythonhosted.org/packages/6e/42/eec44a3093f241d3aaede788ad8cf29a861cee6d8f7c2a75c0cdb6e38515/template_pypackage_builder-0.3.tar.gz
+[2023-07-10 17:58:40] INFO root fetch - processPackages [SGtSNEpiPy]: Downloading https://files.pythonhosted.org/packages/3b/fb/f4f89a72aee9aefa3efa650a718db6babf83f39ad374cd09f4712e74ace6/SGtSNEpiPy-1.0.5.tar.gz
+[2023-07-10 17:58:40] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/ad/7d/8330d03fabbc3e43fd950e4c4fc50051c4c1ed03e1de206a341ccc8c1663/ccxt-4.0.8.tar.gz
+[2023-07-10 17:58:40] INFO root fetch - processPackages [symbal]: Downloading https://files.pythonhosted.org/packages/4b/1c/fabd9a255a79561ea01ca2dfaf648d3c98b3617f4370adcc68969d2fe8bc/symbal-0.0.2.tar.gz
+[2023-07-10 17:58:40] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-10 17:58:40] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230710/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-10 17:58:40] INFO root fetch - processPackages [SGtSNEpiPy]: executing diffoscope
+[2023-07-10 17:58:40] INFO root fetch - processPackages [SGtSNEpiPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SGtSNEpiPy-1.0.4.tar.gz tmp/SGtSNEpiPy-1.0.5.tar.gz --markdown 20230710/S/SGtSNEpiPy/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-10 17:58:40] INFO root fetch - processPackages [pedal]: Downloading https://files.pythonhosted.org/packages/09/46/03291190ff70f98b62cc8fd3179521d29877a418441b54a6dc2031ad9ef7/pedal-2.5.4.tar.gz
+[2023-07-10 17:58:40] INFO root fetch - processPackages [symbal]: executing diffoscope
+[2023-07-10 17:58:40] INFO root fetch - processPackages [symbal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbal-0.0.1.tar.gz tmp/symbal-0.0.2.tar.gz --markdown 20230710/s/symbal/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-10 17:58:41] INFO root fetch - processPackages [template-pypackage-builder]: Downloading https://files.pythonhosted.org/packages/45/e5/3becd38c379c5a40b7442fef743b18bdcf17a180fbc808b5cfa4ad25925b/template_pypackage_builder-0.4.tar.gz
+[2023-07-10 17:58:41] INFO root fetch - processPackages [pedal]: Downloading https://files.pythonhosted.org/packages/0e/04/288972b37eafb0887285c654def51fa4fbf70758454ebbaac35c3f1cd47d/pedal-2.5.5.tar.gz
+[2023-07-10 17:58:41] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/32/a5/e913d1abd897de7e300e2702f68a742f7dba4a8d682a377a41f7423bd968/ccxt-4.0.9.tar.gz
+[2023-07-10 17:58:41] INFO root fetch - processPackages [template-pypackage-builder]: executing diffoscope
+[2023-07-10 17:58:41] INFO root fetch - processPackages [template-pypackage-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/template_pypackage_builder-0.3.tar.gz tmp/template_pypackage_builder-0.4.tar.gz --markdown 20230710/t/template-pypackage-builder/0.3-0.4/diff.md --exclude *.pyd
+[2023-07-10 17:58:41] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-07-10 17:58:41] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-4.0.8.tar.gz tmp/ccxt-4.0.9.tar.gz --markdown 20230710/c/ccxt/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-07-10 17:58:41] INFO root fetch - processPackages [pedal]: executing diffoscope
+[2023-07-10 17:58:41] INFO root fetch - processPackages [pedal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pedal-2.5.4.tar.gz tmp/pedal-2.5.5.tar.gz --markdown 20230710/p/pedal/2.5.4-2.5.5/diff.md --exclude *.pyd
+[2023-07-10 17:58:41] INFO root fetch - processPackages [SGtSNEpiPy]: Remove: archive file [/home/abi/fetcher/tmp/SGtSNEpiPy-1.0.4.tar.gz]
+[2023-07-10 17:58:41] INFO root fetch - processPackages [SGtSNEpiPy]: Remove: archive file [/home/abi/fetcher/tmp/SGtSNEpiPy-1.0.5.tar.gz]
+[2023-07-10 17:58:41] INFO root fetch - main [MainThread]: End processing [SGtSNEpiPy]: success
+[2023-07-10 17:58:41] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-10 17:58:41] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-10 17:58:41] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-10 17:58:41] INFO root fetch - processPackages [symbal]: Remove: archive file [/home/abi/fetcher/tmp/symbal-0.0.1.tar.gz]
+[2023-07-10 17:58:41] INFO root fetch - processPackages [symbal]: Remove: archive file [/home/abi/fetcher/tmp/symbal-0.0.2.tar.gz]
+[2023-07-10 17:58:41] INFO root fetch - main [MainThread]: End processing [symbal]: success
+[2023-07-10 17:58:42] INFO root fetch - processPackages [template-pypackage-builder]: Remove: archive file [/home/abi/fetcher/tmp/template_pypackage_builder-0.3.tar.gz]
+[2023-07-10 17:58:42] INFO root fetch - processPackages [template-pypackage-builder]: Remove: archive file [/home/abi/fetcher/tmp/template_pypackage_builder-0.4.tar.gz]
+[2023-07-10 17:58:42] INFO root fetch - main [MainThread]: End processing [template-pypackage-builder]: success
+[2023-07-10 17:58:42] INFO root fetch - processPackages [pedal]: Remove: archive file [/home/abi/fetcher/tmp/pedal-2.5.4.tar.gz]
+[2023-07-10 17:58:42] INFO root fetch - processPackages [pedal]: Remove: archive file [/home/abi/fetcher/tmp/pedal-2.5.5.tar.gz]
+[2023-07-10 17:58:42] INFO root fetch - main [MainThread]: End processing [pedal]: success
+[2023-07-10 17:58:46] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.8.tar.gz]
+[2023-07-10 17:58:46] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.9.tar.gz]
+[2023-07-10 17:58:46] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-07-10 17:58:46] INFO root fetch - main [MainThread]: Store serial: [18833103]
