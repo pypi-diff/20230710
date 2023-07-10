@@ -22777,3 +22777,114 @@ EOFError: EOF read where object expected
 [2023-07-10 17:37:46] INFO root fetch - processPackages [jnt-django-admin-tools]: Remove: archive file [/home/abi/fetcher/tmp/jnt-django-admin-tools-0.9.9.tar.gz]
 [2023-07-10 17:37:46] INFO root fetch - main [MainThread]: End processing [jnt-django-admin-tools]: success
 [2023-07-10 17:37:46] INFO root fetch - main [MainThread]: Store serial: [18832878]
+[2023-07-10 17:42:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18832878]
+[2023-07-10 17:42:56] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-10 17:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quantconnect-stubs
+[2023-07-10 17:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: power-grid-model
+[2023-07-10 17:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lnschema_core
+[2023-07-10 17:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aws-service-catalog-puppet
+[2023-07-10 17:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: BOWaves
+[2023-07-10 17:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: superduperdb
+[2023-07-10 17:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: markdown-helper
+[2023-07-10 17:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: XRDimage
+[2023-07-10 17:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PyBerries
+[2023-07-10 17:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: scipy-quadopt
+[2023-07-10 17:42:56] WARNING root fetch - processPackages [BOWaves]: Skipping, unable to determine old version
+[2023-07-10 17:42:56] INFO root fetch - processPackages [BOWaves]: Start processing: efaciency
+[2023-07-10 17:42:56] INFO root fetch - main [MainThread]: End processing [BOWaves] error
+[2023-07-10 17:42:56] INFO root fetch - processPackages [lnschema_core]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-10 17:42:56] INFO root fetch - processPackages [PyBerries]: New version: [0.2.9] Old Version: [0.2.8.post1]
+[2023-07-10 17:42:56] WARNING root fetch - processPackages [superduperdb]: Skipping, unable to determine old version
+[2023-07-10 17:42:56] INFO root fetch - processPackages [superduperdb]: Start processing: soniox
+[2023-07-10 17:42:56] INFO root fetch - main [MainThread]: End processing [superduperdb] error
+[2023-07-10 17:42:56] INFO root fetch - processPackages [aws-service-catalog-puppet]: New version: [0.99.2] Old Version: [0.99.1]
+[2023-07-10 17:42:56] INFO root fetch - processPackages [XRDimage]: New version: [0.0.1.2] Old Version: [0.0.0.4]
+[2023-07-10 17:42:56] INFO root fetch - processPackages [scipy-quadopt]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-10 17:42:56] INFO root fetch - processPackages [markdown-helper]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-10 17:42:56] WARNING root fetch - processPackages [efaciency]: Skipping, unable to determine old version
+[2023-07-10 17:42:56] INFO root fetch - processPackages [efaciency]: Start processing: titan-model
+[2023-07-10 17:42:56] INFO root fetch - main [MainThread]: End processing [efaciency] error
+[2023-07-10 17:42:56] INFO root fetch - processPackages [power-grid-model]: New version: [1.5.0rc9207800836909] Old Version: [1.5.0rc9207011180609]
+[2023-07-10 17:42:56] INFO root fetch - processPackages [soniox]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-10 17:42:56] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-07-10 17:42:56] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/7a/53/1459e32f6943488250f623718aeb560351a142d81c57a5fc8ef6b0dd1680/lnschema_core-0.8.1.tar.gz
+[2023-07-10 17:42:56] INFO root fetch - processPackages [titan-model]: New version: [3.3.0] Old Version: [3.2.0]
+[2023-07-10 17:42:56] INFO root fetch - processPackages [PyBerries]: Downloading https://files.pythonhosted.org/packages/04/5f/ca15e3bd2482179b4f609455594a73dd9a4a01fde7e04168feff2f370d3f/PyBerries-0.2.8.post1.tar.gz
+[2023-07-10 17:42:56] INFO root fetch - processPackages [XRDimage]: Downloading https://files.pythonhosted.org/packages/e8/08/9ea8a7fa1bfca1ffb6a8401675f872e782155aba195ce940e4f8f9c2f6c4/XRDimage-0.0.0.4.tar.gz
+[2023-07-10 17:42:56] INFO root fetch - processPackages [aws-service-catalog-puppet]: Downloading https://files.pythonhosted.org/packages/3a/0a/dc7cf04c0ea832cf150d3f55f108dd565dd0d54088947fc29ea34dc03c99/aws-service-catalog-puppet-0.99.1.tar.gz
+[2023-07-10 17:42:56] INFO root fetch - processPackages [markdown-helper]: Downloading https://files.pythonhosted.org/packages/84/f2/18c4f8eb0a4e503d5bb06baff7cb8b863564072682f8cf129138133b7eec/markdown_helper-1.0.1.tar.gz
+[2023-07-10 17:42:56] INFO root fetch - processPackages [scipy-quadopt]: Downloading https://files.pythonhosted.org/packages/f3/b4/e973dbacf96e556c130236dd7c893664c02fd7dc611b84c62b8329d7813b/scipy-quadopt-0.1.2.tar.gz
+[2023-07-10 17:42:56] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/84/c4/11ac2d01182ec698c5c76cba67cbb639f1cbb34bc3f46b9d88ff07e207bb/power-grid-model-1.5.0rc9207011180609.tar.gz
+[2023-07-10 17:42:56] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/c1/05/f15c16a3f852decfd032ce1688dfdf02fd7289f1780742453533e8c55209/quantconnect-stubs-9997.tar.gz
+[2023-07-10 17:42:57] INFO root fetch - processPackages [soniox]: Downloading https://files.pythonhosted.org/packages/35/96/4c61357c4a4e036655a31b14a7e727a8c108b7f0ca8e69e1b829a5c1be75/soniox-1.8.1.tar.gz
+[2023-07-10 17:42:57] INFO root fetch - processPackages [titan-model]: Downloading https://files.pythonhosted.org/packages/6c/40/92a0655dc08b9c5ef1b85022e1ca9939b7ef67dc64fc50bfc71baf49c81c/titan-model-3.2.0.tar.gz
+[2023-07-10 17:42:57] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/39/cd/cc4d91db21934f66692bedcbdb15fc2c82698c7cc9d0288133e8fa2f5cee/lnschema_core-0.9.0.tar.gz
+[2023-07-10 17:42:57] INFO root fetch - processPackages [markdown-helper]: Downloading https://files.pythonhosted.org/packages/e5/0b/670b822994479b2026cd0ad13f12d1a7d8a7baa5f292b7d396f2af139aab/markdown_helper-1.0.2.tar.gz
+[2023-07-10 17:42:57] INFO root fetch - processPackages [PyBerries]: Downloading https://files.pythonhosted.org/packages/2c/8a/09fa4cbe93bafbb4aaaadc96bc6edc243d00a0e5123ac8f5c0b24d1495d0/PyBerries-0.2.9.tar.gz
+[2023-07-10 17:42:57] INFO root fetch - processPackages [scipy-quadopt]: Downloading https://files.pythonhosted.org/packages/8a/35/34382ec83b14a2e7c3f75e5d8a8eeb0e1e54192ac9c60969371e85eccb73/scipy-quadopt-0.2.0.tar.gz
+[2023-07-10 17:42:57] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/b9/c9/fc5e12f4cbd7509974e3b7c344689b63c99ab5ca757e6ec7a507b6d19e4c/power-grid-model-1.5.0rc9207800836909.tar.gz
+[2023-07-10 17:42:57] INFO root fetch - processPackages [aws-service-catalog-puppet]: Downloading https://files.pythonhosted.org/packages/6e/80/879da5426c375016f7a97e287a9c8f48b1c49989432086cc0896a9d58374/aws-service-catalog-puppet-0.99.2.tar.gz
+[2023-07-10 17:42:57] INFO root fetch - processPackages [XRDimage]: Downloading https://files.pythonhosted.org/packages/5d/d4/10de670f94adc9418e7678ed6dce1ca1e3ed968b9d3cdee91bcff643b18b/XRDimage-0.0.1.2.tar.gz
+[2023-07-10 17:42:57] INFO root fetch - processPackages [lnschema_core]: executing diffoscope
+[2023-07-10 17:42:57] INFO root fetch - processPackages [lnschema_core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_core-0.8.1.tar.gz tmp/lnschema_core-0.9.0.tar.gz --markdown 20230710/l/lnschema_core/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-10 17:42:57] INFO root fetch - processPackages [soniox]: Downloading https://files.pythonhosted.org/packages/aa/fd/db58b7541db236f31f0b6b47bcbf687a3d9544687684b7b48cf4b6673822/soniox-1.9.0.tar.gz
+[2023-07-10 17:42:57] INFO root fetch - processPackages [titan-model]: Downloading https://files.pythonhosted.org/packages/21/a2/fcff8e62b5b2e796c81dda2c45f19b7aa4f28052beb6a86438ec38ef9d54/titan_model-3.3.0.tar.gz
+[2023-07-10 17:42:57] INFO root fetch - processPackages [markdown-helper]: executing diffoscope
+[2023-07-10 17:42:57] INFO root fetch - processPackages [markdown-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdown_helper-1.0.1.tar.gz tmp/markdown_helper-1.0.2.tar.gz --markdown 20230710/m/markdown-helper/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-10 17:42:57] INFO root fetch - processPackages [scipy-quadopt]: executing diffoscope
+[2023-07-10 17:42:57] INFO root fetch - processPackages [scipy-quadopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipy-quadopt-0.1.2.tar.gz tmp/scipy-quadopt-0.2.0.tar.gz --markdown 20230710/s/scipy-quadopt/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-10 17:42:57] INFO root fetch - processPackages [PyBerries]: executing diffoscope
+[2023-07-10 17:42:57] INFO root fetch - processPackages [PyBerries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyBerries-0.2.8.post1.tar.gz tmp/PyBerries-0.2.9.tar.gz --markdown 20230710/P/PyBerries/0.2.8.post1-0.2.9/diff.md --exclude *.pyd
+[2023-07-10 17:42:57] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/b7/4c/71e6bb724f14efcd8865f2aa692528a4c45877c58f5cf8c964a8e0fc0e74/quantconnect-stubs-9998.tar.gz
+[2023-07-10 17:42:57] INFO root fetch - processPackages [XRDimage]: executing diffoscope
+[2023-07-10 17:42:57] INFO root fetch - processPackages [XRDimage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XRDimage-0.0.0.4.tar.gz tmp/XRDimage-0.0.1.2.tar.gz --markdown 20230710/X/XRDimage/0.0.0.4-0.0.1.2/diff.md --exclude *.pyd
+[2023-07-10 17:42:57] INFO root fetch - processPackages [aws-service-catalog-puppet]: executing diffoscope
+[2023-07-10 17:42:57] INFO root fetch - processPackages [aws-service-catalog-puppet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-service-catalog-puppet-0.99.1.tar.gz tmp/aws-service-catalog-puppet-0.99.2.tar.gz --markdown 20230710/a/aws-service-catalog-puppet/0.99.1-0.99.2/diff.md --exclude *.pyd
+[2023-07-10 17:42:57] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2023-07-10 17:42:57] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.5.0rc9207011180609.tar.gz tmp/power-grid-model-1.5.0rc9207800836909.tar.gz --markdown 20230710/p/power-grid-model/1.5.0rc9207011180609-1.5.0rc9207800836909/diff.md --exclude *.pyd
+[2023-07-10 17:42:57] INFO root fetch - processPackages [soniox]: executing diffoscope
+[2023-07-10 17:42:57] INFO root fetch - processPackages [soniox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soniox-1.8.1.tar.gz tmp/soniox-1.9.0.tar.gz --markdown 20230710/s/soniox/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-10 17:42:57] INFO root fetch - processPackages [titan-model]: executing diffoscope
+[2023-07-10 17:42:57] INFO root fetch - processPackages [titan-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-model-3.2.0.tar.gz tmp/titan_model-3.3.0.tar.gz --markdown 20230710/t/titan-model/3.2.0-3.3.0/diff.md --exclude *.pyd
+[2023-07-10 17:42:57] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-07-10 17:42:57] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230710/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-07-10 17:42:59] INFO root fetch - processPackages [scipy-quadopt]: Remove: archive file [/home/abi/fetcher/tmp/scipy-quadopt-0.1.2.tar.gz]
+[2023-07-10 17:42:59] INFO root fetch - processPackages [scipy-quadopt]: Remove: archive file [/home/abi/fetcher/tmp/scipy-quadopt-0.2.0.tar.gz]
+[2023-07-10 17:42:59] INFO root fetch - processPackages [scipy-quadopt]: Start processing: nginx-set-conf-equitania
+[2023-07-10 17:42:59] INFO root fetch - main [MainThread]: End processing [scipy-quadopt]: success
+[2023-07-10 17:42:59] INFO root fetch - processPackages [markdown-helper]: Remove: archive file [/home/abi/fetcher/tmp/markdown_helper-1.0.1.tar.gz]
+[2023-07-10 17:42:59] INFO root fetch - processPackages [markdown-helper]: Remove: archive file [/home/abi/fetcher/tmp/markdown_helper-1.0.2.tar.gz]
+[2023-07-10 17:42:59] INFO root fetch - main [MainThread]: End processing [markdown-helper]: success
+[2023-07-10 17:42:59] INFO root fetch - processPackages [nginx-set-conf-equitania]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-10 17:42:59] INFO root fetch - processPackages [nginx-set-conf-equitania]: Downloading https://files.pythonhosted.org/packages/c9/d1/02cdf5981bb96b9cc6eceed3e55ae73a28b4d648b69f427a2a8656bcae02/nginx-set-conf-equitania-0.9.0.tar.gz
+[2023-07-10 17:42:59] INFO root fetch - processPackages [PyBerries]: Remove: archive file [/home/abi/fetcher/tmp/PyBerries-0.2.8.post1.tar.gz]
+[2023-07-10 17:42:59] INFO root fetch - processPackages [PyBerries]: Remove: archive file [/home/abi/fetcher/tmp/PyBerries-0.2.9.tar.gz]
+[2023-07-10 17:42:59] INFO root fetch - main [MainThread]: End processing [PyBerries]: success
+[2023-07-10 17:42:59] INFO root fetch - processPackages [XRDimage]: Remove: archive file [/home/abi/fetcher/tmp/XRDimage-0.0.0.4.tar.gz]
+[2023-07-10 17:42:59] INFO root fetch - processPackages [XRDimage]: Remove: archive file [/home/abi/fetcher/tmp/XRDimage-0.0.1.2.tar.gz]
+[2023-07-10 17:42:59] INFO root fetch - main [MainThread]: End processing [XRDimage]: success
+[2023-07-10 17:42:59] INFO root fetch - processPackages [soniox]: Remove: archive file [/home/abi/fetcher/tmp/soniox-1.8.1.tar.gz]
+[2023-07-10 17:42:59] INFO root fetch - processPackages [soniox]: Remove: archive file [/home/abi/fetcher/tmp/soniox-1.9.0.tar.gz]
+[2023-07-10 17:42:59] INFO root fetch - main [MainThread]: End processing [soniox]: success
+[2023-07-10 17:42:59] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.8.1.tar.gz]
+[2023-07-10 17:42:59] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.9.0.tar.gz]
+[2023-07-10 17:42:59] INFO root fetch - main [MainThread]: End processing [lnschema_core]: success
+[2023-07-10 17:42:59] INFO root fetch - processPackages [nginx-set-conf-equitania]: Downloading https://files.pythonhosted.org/packages/da/eb/1aae6478edf7950d615ddbc6ebe0e47136ec32db5410d62c4a41c18ba457/nginx-set-conf-equitania-0.9.1.tar.gz
+[2023-07-10 17:42:59] INFO root fetch - processPackages [aws-service-catalog-puppet]: Remove: archive file [/home/abi/fetcher/tmp/aws-service-catalog-puppet-0.99.1.tar.gz]
+[2023-07-10 17:42:59] INFO root fetch - processPackages [aws-service-catalog-puppet]: Remove: archive file [/home/abi/fetcher/tmp/aws-service-catalog-puppet-0.99.2.tar.gz]
+[2023-07-10 17:42:59] INFO root fetch - main [MainThread]: End processing [aws-service-catalog-puppet]: success
+[2023-07-10 17:42:59] INFO root fetch - processPackages [nginx-set-conf-equitania]: executing diffoscope
+[2023-07-10 17:42:59] INFO root fetch - processPackages [nginx-set-conf-equitania]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nginx-set-conf-equitania-0.9.0.tar.gz tmp/nginx-set-conf-equitania-0.9.1.tar.gz --markdown 20230710/n/nginx-set-conf-equitania/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-10 17:42:59] INFO root fetch - processPackages [titan-model]: Remove: archive file [/home/abi/fetcher/tmp/titan-model-3.2.0.tar.gz]
+[2023-07-10 17:42:59] INFO root fetch - processPackages [titan-model]: Remove: archive file [/home/abi/fetcher/tmp/titan_model-3.3.0.tar.gz]
+[2023-07-10 17:42:59] INFO root fetch - main [MainThread]: End processing [titan-model]: success
+[2023-07-10 17:43:00] INFO root fetch - processPackages [nginx-set-conf-equitania]: Remove: archive file [/home/abi/fetcher/tmp/nginx-set-conf-equitania-0.9.0.tar.gz]
+[2023-07-10 17:43:00] INFO root fetch - processPackages [nginx-set-conf-equitania]: Remove: archive file [/home/abi/fetcher/tmp/nginx-set-conf-equitania-0.9.1.tar.gz]
+[2023-07-10 17:43:00] INFO root fetch - main [MainThread]: End processing [nginx-set-conf-equitania]: success
+[2023-07-10 17:43:00] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9207011180609.tar.gz]
+[2023-07-10 17:43:00] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9207800836909.tar.gz]
+[2023-07-10 17:43:00] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2023-07-10 17:43:01] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9997.tar.gz]
+[2023-07-10 17:43:01] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
+[2023-07-10 17:43:01] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-07-10 17:43:01] INFO root fetch - main [MainThread]: Store serial: [18832929]
