@@ -20507,3 +20507,196 @@ EOFError: EOF read where object expected
 [2023-07-10 16:29:55] INFO root fetch - processPackages [PteraSoftware]: Remove: archive file [/home/abi/fetcher/tmp/PteraSoftware-3.0.1.tar.gz]
 [2023-07-10 16:29:55] INFO root fetch - main [MainThread]: End processing [PteraSoftware]: success
 [2023-07-10 16:29:55] INFO root fetch - main [MainThread]: Store serial: [18831896]
+[2023-07-10 16:35:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18831896]
+[2023-07-10 16:35:04] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-07-10 16:35:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-capoo
+[2023-07-10 16:35:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shapeGMMTorch
+[2023-07-10 16:35:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-gerrit-cli
+[2023-07-10 16:35:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spotON_sdk
+[2023-07-10 16:35:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PureCloudPlatformClientV2
+[2023-07-10 16:35:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: my-op
+[2023-07-10 16:35:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-blocker
+[2023-07-10 16:35:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: edp-redy-py
+[2023-07-10 16:35:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ds-2023-calc-pack
+[2023-07-10 16:35:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: my-op
+[2023-07-10 16:35:05] INFO root fetch - processPackages [nonebot-plugin-capoo]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-10 16:35:05] WARNING root fetch - processPackages [my-op]: Skipping, unable to determine old version
+[2023-07-10 16:35:05] INFO root fetch - processPackages [my-op]: Start processing: python-redex
+[2023-07-10 16:35:05] INFO root fetch - main [MainThread]: End processing [my-op] error
+[2023-07-10 16:35:05] INFO root fetch - processPackages [edp-redy-py]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 16:35:05] INFO root fetch - processPackages [nonebot-plugin-blocker]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-10 16:35:05] INFO root fetch - processPackages [spotON_sdk]: New version: [0.0.5.29] Old Version: [0.0.5.28]
+[2023-07-10 16:35:05] WARNING root fetch - processPackages [my-op]: Skipping, unable to determine old version
+[2023-07-10 16:35:05] INFO root fetch - processPackages [my-op]: Start processing: dknovautils
+[2023-07-10 16:35:05] INFO root fetch - main [MainThread]: End processing [my-op] error
+[2023-07-10 16:35:05] INFO root fetch - processPackages [shapeGMMTorch]: New version: [1.5.0] Old Version: [1.0.0]
+[2023-07-10 16:35:05] INFO root fetch - processPackages [PureCloudPlatformClientV2]: New version: [99.0.0] Old Version: [98.0.0]
+[2023-07-10 16:35:05] WARNING root fetch - processPackages [ds-2023-calc-pack]: Skipping, unable to determine old version
+[2023-07-10 16:35:05] INFO root fetch - processPackages [ds-2023-calc-pack]: Start processing: ex4nicegui
+[2023-07-10 16:35:05] INFO root fetch - main [MainThread]: End processing [ds-2023-calc-pack] error
+[2023-07-10 16:35:05] INFO root fetch - processPackages [dknovautils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 16:35:05] INFO root fetch - processPackages [python-gerrit-cli]: New version: [1.0.6] Old Version: [1.0.4]
+[2023-07-10 16:35:05] INFO root fetch - processPackages [edp-redy-py]: Downloading https://files.pythonhosted.org/packages/14/20/2292474a5ad851a9cf8a61884a1b5526a4a4671f84345d9d83e9b4b8f868/edp_redy_py-0.1.8.tar.gz
+[2023-07-10 16:35:05] INFO root fetch - processPackages [python-redex]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-10 16:35:05] INFO root fetch - processPackages [ex4nicegui]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-10 16:35:05] INFO root fetch - processPackages [spotON_sdk]: Downloading https://files.pythonhosted.org/packages/01/aa/396e0922731185c7357184d79c5345d6a583538da5b9e8f00657443a2fe2/spotON_sdk-0.0.5.28.tar.gz
+[2023-07-10 16:35:05] INFO root fetch - processPackages [nonebot-plugin-capoo]: Downloading https://files.pythonhosted.org/packages/29/d5/10ca8ffae075b22d09cb5adc664840058b667aba1f3a4ae06c8e392417cb/nonebot_plugin_capoo-0.1.1.tar.gz
+[2023-07-10 16:35:05] INFO root fetch - processPackages [ex4nicegui]: Downloading https://files.pythonhosted.org/packages/e1/85/1d89478d40aecbaf08394dadee56976acc80452c3f67edfe4aa6762112da/ex4nicegui-0.1.3.tar.gz
+[2023-07-10 16:35:05] INFO root fetch - processPackages [nonebot-plugin-blocker]: Downloading https://files.pythonhosted.org/packages/eb/3a/b71116f41fcd29551076b28c5d9644bcb51b897fbc647d5ba34e0a0f23df/nonebot-plugin-blocker-0.1.0.tar.gz
+[2023-07-10 16:35:05] INFO root fetch - processPackages [shapeGMMTorch]: Downloading https://files.pythonhosted.org/packages/d8/04/08c32b0304184cf88497c50c80e1aa8af5d4a0eda64581d242feb3ed478f/shapeGMMTorch-1.0.0.tar.gz
+[2023-07-10 16:35:05] INFO root fetch - processPackages [python-redex]: Downloading https://files.pythonhosted.org/packages/57/5f/a49604c0b77712d1395983110b4a9350037b578c4a1e6d28749413233729/python_redex-1.0.0.tar.gz
+[2023-07-10 16:35:05] INFO root fetch - processPackages [python-gerrit-cli]: Downloading https://files.pythonhosted.org/packages/3a/95/dd41f6a994fde5abeec3373bc332311d81813ea22332f309628ac19635ec/python-gerrit-cli-1.0.4.tar.gz
+[2023-07-10 16:35:05] INFO root fetch - processPackages [edp-redy-py]: Downloading https://files.pythonhosted.org/packages/f6/5e/86c245d985ed6effb5887499d8e233fb9602ad0afeb064878573fd74a032/edp_redy_py-0.1.9.tar.gz
+[2023-07-10 16:35:05] INFO root fetch - processPackages [dknovautils]: Downloading https://files.pythonhosted.org/packages/43/90/9530dbd8dc28262f9ad2bc828e11be41c7ccc70719b738b38b110a57d47f/dknovautils-0.1.8.tar.gz
+[2023-07-10 16:35:05] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Downloading https://files.pythonhosted.org/packages/2c/c0/91800d23710423ae3701d533f2eb887685821d04a61d8ce88b3ef04e973d/PureCloudPlatformClientV2-98.0.0.tar.gz
+[2023-07-10 16:35:05] INFO root fetch - processPackages [edp-redy-py]: executing diffoscope
+[2023-07-10 16:35:05] INFO root fetch - processPackages [edp-redy-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edp_redy_py-0.1.8.tar.gz tmp/edp_redy_py-0.1.9.tar.gz --markdown 20230710/e/edp-redy-py/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 16:35:05] INFO root fetch - processPackages [nonebot-plugin-capoo]: Downloading https://files.pythonhosted.org/packages/b5/72/998089b3d19eefd82088c6bd95526351a77d654ee832accc1a46f9194f41/nonebot_plugin_capoo-0.1.2.tar.gz
+[2023-07-10 16:35:06] INFO root fetch - processPackages [spotON_sdk]: Downloading https://files.pythonhosted.org/packages/04/2c/417c46f5a27d54878fe7cc26952564d52fc9dc86a0b7abb1fe30285e38b7/spotON_sdk-0.0.5.29.tar.gz
+[2023-07-10 16:35:06] INFO root fetch - processPackages [nonebot-plugin-blocker]: Downloading https://files.pythonhosted.org/packages/6c/1a/6dfb53b5d288ebace08b68d5f222c4bb9804f088835b49e8664f11b72b20/nonebot-plugin-blocker-0.1.1.tar.gz
+[2023-07-10 16:35:06] INFO root fetch - processPackages [python-redex]: Downloading https://files.pythonhosted.org/packages/7a/2f/bda0c6a1035a6c5803f1d0e43915bdec919a8d00a9cda131542c62ca318e/python_redex-1.0.1.tar.gz
+[2023-07-10 16:35:06] INFO root fetch - processPackages [shapeGMMTorch]: Downloading https://files.pythonhosted.org/packages/dd/cf/dc1a80168b2d8e738d0c37c21624584873945189bebfa50ac356d8b227e1/shapeGMMTorch-1.5.0.tar.gz
+[2023-07-10 16:35:06] INFO root fetch - processPackages [ex4nicegui]: Downloading https://files.pythonhosted.org/packages/1b/bd/e7a4033246ce968f230b1b170c5380017bc70a6f8daa3e6bc868d583099d/ex4nicegui-0.1.4.tar.gz
+[2023-07-10 16:35:06] INFO root fetch - processPackages [python-gerrit-cli]: Downloading https://files.pythonhosted.org/packages/9c/d2/ff04084168c139d46689db0b482c0b4f6351281cf0a3a946e9e86e825dd3/python-gerrit-cli-1.0.6.tar.gz
+[2023-07-10 16:35:06] INFO root fetch - processPackages [nonebot-plugin-capoo]: executing diffoscope
+[2023-07-10 16:35:06] INFO root fetch - processPackages [nonebot-plugin-capoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_capoo-0.1.1.tar.gz tmp/nonebot_plugin_capoo-0.1.2.tar.gz --markdown 20230710/n/nonebot-plugin-capoo/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-10 16:35:06] INFO root fetch - processPackages [nonebot-plugin-blocker]: executing diffoscope
+[2023-07-10 16:35:06] INFO root fetch - processPackages [nonebot-plugin-blocker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-blocker-0.1.0.tar.gz tmp/nonebot-plugin-blocker-0.1.1.tar.gz --markdown 20230710/n/nonebot-plugin-blocker/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-10 16:35:06] INFO root fetch - processPackages [spotON_sdk]: executing diffoscope
+[2023-07-10 16:35:06] INFO root fetch - processPackages [spotON_sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotON_sdk-0.0.5.28.tar.gz tmp/spotON_sdk-0.0.5.29.tar.gz --markdown 20230710/s/spotON_sdk/0.0.5.28-0.0.5.29/diff.md --exclude *.pyd
+[2023-07-10 16:35:06] INFO root fetch - processPackages [python-redex]: executing diffoscope
+[2023-07-10 16:35:06] INFO root fetch - processPackages [python-redex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_redex-1.0.0.tar.gz tmp/python_redex-1.0.1.tar.gz --markdown 20230710/p/python-redex/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-10 16:35:06] INFO root fetch - processPackages [dknovautils]: Downloading https://files.pythonhosted.org/packages/10/9d/6520e40a8f0d6aa1bb89652ccbcb7ac1403145e473f26eaeff0f0a09a866/dknovautils-0.1.9.tar.gz
+[2023-07-10 16:35:06] INFO root fetch - processPackages [shapeGMMTorch]: executing diffoscope
+[2023-07-10 16:35:06] INFO root fetch - processPackages [shapeGMMTorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shapeGMMTorch-1.0.0.tar.gz tmp/shapeGMMTorch-1.5.0.tar.gz --markdown 20230710/s/shapeGMMTorch/1.0.0-1.5.0/diff.md --exclude *.pyd
+[2023-07-10 16:35:06] INFO root fetch - processPackages [ex4nicegui]: executing diffoscope
+[2023-07-10 16:35:06] INFO root fetch - processPackages [ex4nicegui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ex4nicegui-0.1.3.tar.gz tmp/ex4nicegui-0.1.4.tar.gz --markdown 20230710/e/ex4nicegui/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-10 16:35:06] INFO root fetch - processPackages [python-gerrit-cli]: executing diffoscope
+[2023-07-10 16:35:06] INFO root fetch - processPackages [python-gerrit-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-gerrit-cli-1.0.4.tar.gz tmp/python-gerrit-cli-1.0.6.tar.gz --markdown 20230710/p/python-gerrit-cli/1.0.4-1.0.6/diff.md --exclude *.pyd
+[2023-07-10 16:35:06] INFO root fetch - processPackages [dknovautils]: executing diffoscope
+[2023-07-10 16:35:06] INFO root fetch - processPackages [dknovautils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dknovautils-0.1.8.tar.gz tmp/dknovautils-0.1.9.tar.gz --markdown 20230710/d/dknovautils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 16:35:06] INFO root fetch - processPackages [edp-redy-py]: Remove: archive file [/home/abi/fetcher/tmp/edp_redy_py-0.1.8.tar.gz]
+[2023-07-10 16:35:06] INFO root fetch - processPackages [edp-redy-py]: Remove: archive file [/home/abi/fetcher/tmp/edp_redy_py-0.1.9.tar.gz]
+[2023-07-10 16:35:06] INFO root fetch - processPackages [edp-redy-py]: Start processing: gfort2py
+[2023-07-10 16:35:06] INFO root fetch - main [MainThread]: End processing [edp-redy-py]: success
+[2023-07-10 16:35:07] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Downloading https://files.pythonhosted.org/packages/27/4a/c79d7db4d3031ed827ca4794d7791097c946dd8a6a0ae49a7fb27c9473d8/PureCloudPlatformClientV2-99.0.0.tar.gz
+[2023-07-10 16:35:07] INFO root fetch - processPackages [gfort2py]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-07-10 16:35:07] INFO root fetch - processPackages [gfort2py]: Downloading https://files.pythonhosted.org/packages/4d/c8/74592296ed52a6d85eda562862dcb7997bb35decdf42db2c655af5f3a83e/gfort2py-2.1.0.tar.gz
+[2023-07-10 16:35:07] INFO root fetch - processPackages [nonebot-plugin-blocker]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-blocker-0.1.0.tar.gz]
+[2023-07-10 16:35:07] INFO root fetch - processPackages [nonebot-plugin-blocker]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-blocker-0.1.1.tar.gz]
+[2023-07-10 16:35:07] INFO root fetch - processPackages [nonebot-plugin-blocker]: Start processing: my-op
+[2023-07-10 16:35:07] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-blocker]: success
+[2023-07-10 16:35:07] INFO root fetch - processPackages [my-op]: New version: [0.1.16] Old Version: [0.1.15]
+[2023-07-10 16:35:07] INFO root fetch - processPackages [nonebot-plugin-capoo]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_capoo-0.1.1.tar.gz]
+[2023-07-10 16:35:07] INFO root fetch - processPackages [nonebot-plugin-capoo]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_capoo-0.1.2.tar.gz]
+[2023-07-10 16:35:07] INFO root fetch - processPackages [nonebot-plugin-capoo]: Start processing: hak
+[2023-07-10 16:35:07] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-capoo]: success
+[2023-07-10 16:35:07] INFO root fetch - processPackages [python-redex]: Remove: archive file [/home/abi/fetcher/tmp/python_redex-1.0.0.tar.gz]
+[2023-07-10 16:35:07] INFO root fetch - processPackages [python-redex]: Remove: archive file [/home/abi/fetcher/tmp/python_redex-1.0.1.tar.gz]
+[2023-07-10 16:35:07] INFO root fetch - processPackages [python-redex]: Start processing: odoo14-addon-fieldservice-geoengine
+[2023-07-10 16:35:07] INFO root fetch - main [MainThread]: End processing [python-redex]: success
+[2023-07-10 16:35:07] INFO root fetch - processPackages [gfort2py]: Downloading https://files.pythonhosted.org/packages/dc/6d/6930a779f8732010bd20c65c4651192a3f15ff8b7500d2bf0458c5fa9361/gfort2py-2.2.0.tar.gz
+[2023-07-10 16:35:07] INFO root fetch - processPackages [shapeGMMTorch]: Remove: archive file [/home/abi/fetcher/tmp/shapeGMMTorch-1.0.0.tar.gz]
+[2023-07-10 16:35:07] INFO root fetch - processPackages [shapeGMMTorch]: Remove: archive file [/home/abi/fetcher/tmp/shapeGMMTorch-1.5.0.tar.gz]
+[2023-07-10 16:35:07] INFO root fetch - processPackages [shapeGMMTorch]: Start processing: wasc
+[2023-07-10 16:35:07] INFO root fetch - main [MainThread]: End processing [shapeGMMTorch]: success
+[2023-07-10 16:35:07] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 16:35:07] INFO root fetch - processPackages [odoo14-addon-fieldservice-geoengine]: New version: [14.0.1.2.2] Old Version: [14.0.1.2.1]
+[2023-07-10 16:35:07] INFO root fetch - processPackages [spotON_sdk]: Remove: archive file [/home/abi/fetcher/tmp/spotON_sdk-0.0.5.28.tar.gz]
+[2023-07-10 16:35:07] INFO root fetch - processPackages [spotON_sdk]: Remove: archive file [/home/abi/fetcher/tmp/spotON_sdk-0.0.5.29.tar.gz]
+[2023-07-10 16:35:07] INFO root fetch - processPackages [spotON_sdk]: Start processing: odoo14-addon-fieldservice-stage-server-action
+[2023-07-10 16:35:07] INFO root fetch - main [MainThread]: End processing [spotON_sdk]: success
+[2023-07-10 16:35:07] INFO root fetch - processPackages [dknovautils]: Remove: archive file [/home/abi/fetcher/tmp/dknovautils-0.1.8.tar.gz]
+[2023-07-10 16:35:07] INFO root fetch - processPackages [dknovautils]: Remove: archive file [/home/abi/fetcher/tmp/dknovautils-0.1.9.tar.gz]
+[2023-07-10 16:35:07] INFO root fetch - processPackages [dknovautils]: Start processing: my-op
+[2023-07-10 16:35:07] INFO root fetch - main [MainThread]: End processing [dknovautils]: success
+[2023-07-10 16:35:07] INFO root fetch - processPackages [python-gerrit-cli]: Remove: archive file [/home/abi/fetcher/tmp/python-gerrit-cli-1.0.4.tar.gz]
+[2023-07-10 16:35:07] INFO root fetch - processPackages [python-gerrit-cli]: Remove: archive file [/home/abi/fetcher/tmp/python-gerrit-cli-1.0.6.tar.gz]
+[2023-07-10 16:35:07] INFO root fetch - processPackages [python-gerrit-cli]: Start processing: mlflow-knative
+[2023-07-10 16:35:07] INFO root fetch - main [MainThread]: End processing [python-gerrit-cli]: success
+[2023-07-10 16:35:07] INFO root fetch - processPackages [ex4nicegui]: Remove: archive file [/home/abi/fetcher/tmp/ex4nicegui-0.1.3.tar.gz]
+[2023-07-10 16:35:07] INFO root fetch - processPackages [ex4nicegui]: Remove: archive file [/home/abi/fetcher/tmp/ex4nicegui-0.1.4.tar.gz]
+[2023-07-10 16:35:07] INFO root fetch - processPackages [ex4nicegui]: Start processing: roblox-pyc
+[2023-07-10 16:35:07] INFO root fetch - main [MainThread]: End processing [ex4nicegui]: success
+[2023-07-10 16:35:07] INFO root fetch - processPackages [my-op]: Downloading https://files.pythonhosted.org/packages/01/6b/ae1f3f4c483ee8ef15cd45bf78af218015aefcc988e61fd0cd72281d76e0/my_op-0.1.15.tar.gz
+[2023-07-10 16:35:07] INFO root fetch - processPackages [odoo14-addon-fieldservice-stage-server-action]: New version: [14.0.1.0.2.dev3] Old Version: [14.0.1.0.2.dev2]
+[2023-07-10 16:35:07] INFO root fetch - processPackages [wasc]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-10 16:35:07] INFO root fetch - processPackages [my-op]: New version: [0.1.16] Old Version: [0.1.15]
+[2023-07-10 16:35:08] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-10 16:35:08] INFO root fetch - processPackages [gfort2py]: executing diffoscope
+[2023-07-10 16:35:08] INFO root fetch - processPackages [gfort2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gfort2py-2.1.0.tar.gz tmp/gfort2py-2.2.0.tar.gz --markdown 20230710/g/gfort2py/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-07-10 16:35:08] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/05/17/ad5ef91170b7c0e991a9c8bffa9f9a2dcf3961d5e90c31185bdf3ce8f425/hak-0.0.8.tar.gz
+[2023-07-10 16:35:08] INFO root fetch - processPackages [PureCloudPlatformClientV2]: executing diffoscope
+[2023-07-10 16:35:08] INFO root fetch - processPackages [PureCloudPlatformClientV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PureCloudPlatformClientV2-98.0.0.tar.gz tmp/PureCloudPlatformClientV2-99.0.0.tar.gz --markdown 20230710/P/PureCloudPlatformClientV2/98.0.0-99.0.0/diff.md --exclude *.pyd
+[2023-07-10 16:35:08] INFO root fetch - processPackages [my-op]: Downloading https://files.pythonhosted.org/packages/01/6b/ae1f3f4c483ee8ef15cd45bf78af218015aefcc988e61fd0cd72281d76e0/my_op-0.1.15.tar.gz
+[2023-07-10 16:35:08] INFO root fetch - processPackages [mlflow-knative]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-10 16:35:08] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-10 16:35:08] INFO root fetch - processPackages [odoo14-addon-fieldservice-geoengine]: Downloading https://files.pythonhosted.org/packages/b1/df/6a4190e14d137359eaa23c731e1e4bd8e6fa50f996c8007b92a2f842480a/odoo14_addon_fieldservice_geoengine-14.0.1.2.1-py3-none-any.whl
+[2023-07-10 16:35:08] WARNING root fetch - processPackages [my-op]: Skipping package: exceeds size limit 52370571>=10485760
+[2023-07-10 16:35:08] INFO root fetch - processPackages [my-op]: Start processing: ex4nicegui
+[2023-07-10 16:35:08] INFO root fetch - main [MainThread]: End processing [my-op] error
+[2023-07-10 16:35:08] WARNING root fetch - processPackages [my-op]: Skipping package: exceeds size limit 52370571>=10485760
+[2023-07-10 16:35:08] INFO root fetch - processPackages [my-op]: Start processing: langchain-chatglm
+[2023-07-10 16:35:08] INFO root fetch - main [MainThread]: End processing [my-op] error
+[2023-07-10 16:35:08] INFO root fetch - processPackages [ex4nicegui]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-10 16:35:08] INFO root fetch - processPackages [odoo14-addon-fieldservice-stage-server-action]: Downloading https://files.pythonhosted.org/packages/d1/42/d4a0b7c7fb438dda5c64bac616950e7790a27044bb92e6f8b3bee9a7fffe/odoo14_addon_fieldservice_stage_server_action-14.0.1.0.2.dev2-py3-none-any.whl
+[2023-07-10 16:35:08] INFO root fetch - processPackages [wasc]: Downloading https://files.pythonhosted.org/packages/f2/37/c94b032c1618e997592f73a92906318d704a98bbcc07cf35d294a3a65c48/wasc-0.3.0.tar.gz
+[2023-07-10 16:35:08] INFO root fetch - processPackages [langchain-chatglm]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 16:35:08] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/fd/2b/bf7b3451d5e3a84e9a674b47e9f046c4db1f582764a85a4dfc00e14ecf00/hak-0.0.9.tar.gz
+[2023-07-10 16:35:08] INFO root fetch - processPackages [mlflow-knative]: Downloading https://files.pythonhosted.org/packages/48/ac/a6f6d8748f7d7b30b0e967785b1b3f405048c5d25338d06bf9a0a3a4c732/mlflow_knative-0.2.0.tar.gz
+[2023-07-10 16:35:08] INFO root fetch - processPackages [ex4nicegui]: Downloading https://files.pythonhosted.org/packages/1b/bd/e7a4033246ce968f230b1b170c5380017bc70a6f8daa3e6bc868d583099d/ex4nicegui-0.1.4.tar.gz
+[2023-07-10 16:35:08] INFO root fetch - processPackages [langchain-chatglm]: Downloading https://files.pythonhosted.org/packages/22/93/5d2bb88a621d4b8300241c60bce0b8129dfe1a21122262e3e85f6ee432b9/langchain-chatglm-0.0.8.tar.gz
+[2023-07-10 16:35:08] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-10 16:35:08] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-07-10 16:35:08] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.8.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230710/h/hak/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 16:35:08] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-10 16:35:08] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230710/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-10 16:35:08] INFO root fetch - processPackages [odoo14-addon-fieldservice-geoengine]: Downloading https://files.pythonhosted.org/packages/16/ff/b51aff2e9a224775e4e220d0f2070de4b4dfd77325e2ff673e09b323a405/odoo14_addon_fieldservice_geoengine-14.0.1.2.2-py3-none-any.whl
+[2023-07-10 16:35:08] INFO root fetch - processPackages [wasc]: Downloading https://files.pythonhosted.org/packages/2c/85/f7c72bb39537c7bf1849e61209d75c29db663065ce569edc4d3fa53bcfdf/wasc-0.4.0.tar.gz
+[2023-07-10 16:35:08] INFO root fetch - processPackages [mlflow-knative]: Downloading https://files.pythonhosted.org/packages/cf/63/301ff52e1646bcba37f111ebcb8943baa5368c6d5693a50bae12f8c89ed0/mlflow_knative-0.3.0.tar.gz
+[2023-07-10 16:35:08] INFO root fetch - processPackages [ex4nicegui]: Downloading https://files.pythonhosted.org/packages/03/e0/efe59653cbe9fb90520c421317c9283547f13d27d026cea075c64c7b9069/ex4nicegui-0.1.5.tar.gz
+[2023-07-10 16:35:08] INFO root fetch - processPackages [odoo14-addon-fieldservice-stage-server-action]: Downloading https://files.pythonhosted.org/packages/bd/c2/6f3dd7726db4e9286e5266a2e22f9a19c90ea7c2f9cbb03ef30b3def46b1/odoo14_addon_fieldservice_stage_server_action-14.0.1.0.2.dev3-py3-none-any.whl
+[2023-07-10 16:35:08] INFO root fetch - processPackages [odoo14-addon-fieldservice-geoengine]: executing diffoscope
+[2023-07-10 16:35:08] INFO root fetch - processPackages [odoo14-addon-fieldservice-geoengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_fieldservice_geoengine-14.0.1.2.1-py3-none-any.whl.zip tmp/odoo14_addon_fieldservice_geoengine-14.0.1.2.2-py3-none-any.whl.zip --markdown 20230710/o/odoo14-addon-fieldservice-geoengine/14.0.1.2.1-14.0.1.2.2/diff.md --exclude *.pyd
+[2023-07-10 16:35:08] INFO root fetch - processPackages [wasc]: executing diffoscope
+[2023-07-10 16:35:08] INFO root fetch - processPackages [wasc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wasc-0.3.0.tar.gz tmp/wasc-0.4.0.tar.gz --markdown 20230710/w/wasc/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-10 16:35:09] INFO root fetch - processPackages [langchain-chatglm]: Downloading https://files.pythonhosted.org/packages/1f/20/5b12aa1c2cefff4376c344cde18bc4a79d22b3b5851ee663c4c4ac42927a/langchain-chatglm-0.0.9.tar.gz
+[2023-07-10 16:35:09] INFO root fetch - processPackages [ex4nicegui]: executing diffoscope
+[2023-07-10 16:35:09] INFO root fetch - processPackages [ex4nicegui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ex4nicegui-0.1.4.tar.gz tmp/ex4nicegui-0.1.5.tar.gz --markdown 20230710/e/ex4nicegui/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-10 16:35:09] INFO root fetch - processPackages [odoo14-addon-fieldservice-stage-server-action]: executing diffoscope
+[2023-07-10 16:35:09] INFO root fetch - processPackages [odoo14-addon-fieldservice-stage-server-action]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_fieldservice_stage_server_action-14.0.1.0.2.dev2-py3-none-any.whl.zip tmp/odoo14_addon_fieldservice_stage_server_action-14.0.1.0.2.dev3-py3-none-any.whl.zip --markdown 20230710/o/odoo14-addon-fieldservice-stage-server-action/14.0.1.0.2.dev2-14.0.1.0.2.dev3/diff.md --exclude *.pyd
+[2023-07-10 16:35:09] INFO root fetch - processPackages [mlflow-knative]: executing diffoscope
+[2023-07-10 16:35:09] INFO root fetch - processPackages [mlflow-knative]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlflow_knative-0.2.0.tar.gz tmp/mlflow_knative-0.3.0.tar.gz --markdown 20230710/m/mlflow-knative/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-10 16:35:09] INFO root fetch - processPackages [langchain-chatglm]: executing diffoscope
+[2023-07-10 16:35:09] INFO root fetch - processPackages [langchain-chatglm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-chatglm-0.0.8.tar.gz tmp/langchain-chatglm-0.0.9.tar.gz --markdown 20230710/l/langchain-chatglm/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 16:35:09] INFO root fetch - processPackages [gfort2py]: Remove: archive file [/home/abi/fetcher/tmp/gfort2py-2.1.0.tar.gz]
+[2023-07-10 16:35:09] INFO root fetch - processPackages [gfort2py]: Remove: archive file [/home/abi/fetcher/tmp/gfort2py-2.2.0.tar.gz]
+[2023-07-10 16:35:09] INFO root fetch - main [MainThread]: End processing [gfort2py]: success
+[2023-07-10 16:35:10] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-10 16:35:10] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-10 16:35:10] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-10 16:35:10] INFO root fetch - processPackages [wasc]: Remove: archive file [/home/abi/fetcher/tmp/wasc-0.3.0.tar.gz]
+[2023-07-10 16:35:10] INFO root fetch - processPackages [wasc]: Remove: archive file [/home/abi/fetcher/tmp/wasc-0.4.0.tar.gz]
+[2023-07-10 16:35:10] INFO root fetch - main [MainThread]: End processing [wasc]: success
+[2023-07-10 16:35:10] INFO root fetch - processPackages [odoo14-addon-fieldservice-geoengine]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_fieldservice_geoengine-14.0.1.2.1-py3-none-any.whl.zip]
+[2023-07-10 16:35:10] INFO root fetch - processPackages [odoo14-addon-fieldservice-geoengine]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_fieldservice_geoengine-14.0.1.2.2-py3-none-any.whl.zip]
+[2023-07-10 16:35:10] INFO root fetch - main [MainThread]: End processing [odoo14-addon-fieldservice-geoengine]: success
+[2023-07-10 16:35:10] INFO root fetch - processPackages [mlflow-knative]: Remove: archive file [/home/abi/fetcher/tmp/mlflow_knative-0.2.0.tar.gz]
+[2023-07-10 16:35:10] INFO root fetch - processPackages [mlflow-knative]: Remove: archive file [/home/abi/fetcher/tmp/mlflow_knative-0.3.0.tar.gz]
+[2023-07-10 16:35:10] INFO root fetch - main [MainThread]: End processing [mlflow-knative]: success
+[2023-07-10 16:35:10] INFO root fetch - processPackages [odoo14-addon-fieldservice-stage-server-action]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_fieldservice_stage_server_action-14.0.1.0.2.dev2-py3-none-any.whl.zip]
+[2023-07-10 16:35:10] INFO root fetch - processPackages [odoo14-addon-fieldservice-stage-server-action]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_fieldservice_stage_server_action-14.0.1.0.2.dev3-py3-none-any.whl.zip]
+[2023-07-10 16:35:10] INFO root fetch - main [MainThread]: End processing [odoo14-addon-fieldservice-stage-server-action]: success
+[2023-07-10 16:35:10] INFO root fetch - processPackages [langchain-chatglm]: Remove: archive file [/home/abi/fetcher/tmp/langchain-chatglm-0.0.8.tar.gz]
+[2023-07-10 16:35:10] INFO root fetch - processPackages [langchain-chatglm]: Remove: archive file [/home/abi/fetcher/tmp/langchain-chatglm-0.0.9.tar.gz]
+[2023-07-10 16:35:10] INFO root fetch - processPackages [ex4nicegui]: Remove: archive file [/home/abi/fetcher/tmp/ex4nicegui-0.1.4.tar.gz]
+[2023-07-10 16:35:10] INFO root fetch - main [MainThread]: End processing [langchain-chatglm]: success
+[2023-07-10 16:35:10] INFO root fetch - processPackages [ex4nicegui]: Remove: archive file [/home/abi/fetcher/tmp/ex4nicegui-0.1.5.tar.gz]
+[2023-07-10 16:35:10] INFO root fetch - main [MainThread]: End processing [ex4nicegui]: success
+[2023-07-10 16:35:10] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.8.tar.gz]
+[2023-07-10 16:35:10] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
+[2023-07-10 16:35:10] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-07-10 16:35:27] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Remove: archive file [/home/abi/fetcher/tmp/PureCloudPlatformClientV2-98.0.0.tar.gz]
+[2023-07-10 16:35:27] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Remove: archive file [/home/abi/fetcher/tmp/PureCloudPlatformClientV2-99.0.0.tar.gz]
+[2023-07-10 16:35:27] INFO root fetch - main [MainThread]: End processing [PureCloudPlatformClientV2]: success
+[2023-07-10 16:35:27] INFO root fetch - main [MainThread]: Store serial: [18831977]
