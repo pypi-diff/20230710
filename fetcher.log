@@ -15297,3 +15297,59 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 12:54:26] INFO root fetch - processPackages [powerbiclient]: Remove: archive file [/home/abi/fetcher/tmp/powerbiclient-3.1.0-py2.py3-none-any.whl.zip]
 [2023-07-10 12:54:26] INFO root fetch - main [MainThread]: End processing [powerbiclient]: success
 [2023-07-10 12:54:26] INFO root fetch - main [MainThread]: Store serial: [18829723]
+[2023-07-10 12:59:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18829723]
+[2023-07-10 12:59:35] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-10 12:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mecord-cli
+[2023-07-10 12:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-hammer-maij
+[2023-07-10 12:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: accentdatabase
+[2023-07-10 12:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ragas
+[2023-07-10 12:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TheSilent
+[2023-07-10 12:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-master
+[2023-07-10 12:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bioimageit-formats
+[2023-07-10 12:59:36] INFO root fetch - processPackages [ragas]: New version: [0.0.4] Old Version: [0.0.3rc1]
+[2023-07-10 12:59:36] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230710.9.1.470895] Old Version: [20230710.10.58.629432]
+[2023-07-10 12:59:36] INFO root fetch - processPackages [mecord-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 12:59:36] WARNING root fetch - processPackages [nonebot-plugin-hammer-maij]: Skipping, unable to determine old version
+[2023-07-10 12:59:36] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-hammer-maij] error
+[2023-07-10 12:59:36] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-10 12:59:36] INFO root fetch - processPackages [bioimageit-formats]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-07-10 12:59:36] INFO root fetch - processPackages [accentdatabase]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-10 12:59:36] INFO root fetch - processPackages [ragas]: Downloading https://files.pythonhosted.org/packages/75/46/9d4af42ff6c45a26e57a59323dc2404bb2ba5b782b11c5b724d12f1d2113/ragas-0.0.3rc1.tar.gz
+[2023-07-10 12:59:36] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/99/07/defecf133b4a0c137e7272f092b0a7e4b36005e5d2e5b2e4f22949323973/mecord-cli-0.1.8.tar.gz
+[2023-07-10 12:59:36] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-10 12:59:36] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/ae/42/c7961ae889236c7ff4dc6f51243a1bd2b228c343f8453e1fd23070f97616/certora-cli-alpha-master-20230710.10.58.629432.tar.gz
+[2023-07-10 12:59:36] INFO root fetch - processPackages [bioimageit-formats]: Downloading https://files.pythonhosted.org/packages/01/be/6a1f05120b8fdc977485de0f24570efe383476c8c16eb6a090a0565ab04a/bioimageit_formats-0.1.1.tar.gz
+[2023-07-10 12:59:36] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37464957>=10485760
+[2023-07-10 12:59:36] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-07-10 12:59:36] INFO root fetch - processPackages [accentdatabase]: Downloading https://files.pythonhosted.org/packages/87/9d/c0c4e28138889669f5717490697f2b7b75a375fabc1c6643401448b53fd8/accentdatabase-0.0.5.tar.gz
+[2023-07-10 12:59:36] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/2b/9f/dbf00e6cfb2e166744734b7095dec6d81a7ee7213a1ef56c5c29e85783a1/mecord-cli-0.1.9.tar.gz
+[2023-07-10 12:59:36] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-10 12:59:36] INFO root fetch - processPackages [ragas]: Downloading https://files.pythonhosted.org/packages/b7/06/5defc929492ab90c42663fdf57b60d1df6421983ea62f00be46ed47944a9/ragas-0.0.4.tar.gz
+[2023-07-10 12:59:36] INFO root fetch - processPackages [mecord-cli]: executing diffoscope
+[2023-07-10 12:59:36] INFO root fetch - processPackages [mecord-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecord-cli-0.1.8.tar.gz tmp/mecord-cli-0.1.9.tar.gz --markdown 20230710/m/mecord-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 12:59:36] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-10 12:59:36] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230710/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-10 12:59:36] INFO root fetch - processPackages [ragas]: executing diffoscope
+[2023-07-10 12:59:36] INFO root fetch - processPackages [ragas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragas-0.0.3rc1.tar.gz tmp/ragas-0.0.4.tar.gz --markdown 20230710/r/ragas/0.0.3rc1-0.0.4/diff.md --exclude *.pyd
+[2023-07-10 12:59:36] INFO root fetch - processPackages [accentdatabase]: Downloading https://files.pythonhosted.org/packages/07/93/532c6fbfc9ac76b0b2d0ccfef1853ca07d3ef83522ed594a2b6087047cba/accentdatabase-0.0.6.tar.gz
+[2023-07-10 12:59:36] INFO root fetch - processPackages [bioimageit-formats]: Downloading https://files.pythonhosted.org/packages/71/c5/c7b39c917ef376e3b8a03afeec754bf781fc3f26145b592cbba6327ced15/bioimageit_formats-0.1.3.tar.gz
+[2023-07-10 12:59:36] INFO root fetch - processPackages [accentdatabase]: executing diffoscope
+[2023-07-10 12:59:36] INFO root fetch - processPackages [accentdatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accentdatabase-0.0.5.tar.gz tmp/accentdatabase-0.0.6.tar.gz --markdown 20230710/a/accentdatabase/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-10 12:59:37] INFO root fetch - processPackages [bioimageit-formats]: executing diffoscope
+[2023-07-10 12:59:37] INFO root fetch - processPackages [bioimageit-formats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioimageit_formats-0.1.1.tar.gz tmp/bioimageit_formats-0.1.3.tar.gz --markdown 20230710/b/bioimageit-formats/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-07-10 12:59:37] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-10 12:59:37] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-10 12:59:37] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-10 12:59:37] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.1.8.tar.gz]
+[2023-07-10 12:59:37] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.1.9.tar.gz]
+[2023-07-10 12:59:37] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
+[2023-07-10 12:59:37] INFO root fetch - processPackages [accentdatabase]: Remove: archive file [/home/abi/fetcher/tmp/accentdatabase-0.0.5.tar.gz]
+[2023-07-10 12:59:37] INFO root fetch - processPackages [accentdatabase]: Remove: archive file [/home/abi/fetcher/tmp/accentdatabase-0.0.6.tar.gz]
+[2023-07-10 12:59:37] INFO root fetch - main [MainThread]: End processing [accentdatabase]: success
+[2023-07-10 12:59:38] INFO root fetch - processPackages [bioimageit-formats]: Remove: archive file [/home/abi/fetcher/tmp/bioimageit_formats-0.1.1.tar.gz]
+[2023-07-10 12:59:38] INFO root fetch - processPackages [bioimageit-formats]: Remove: archive file [/home/abi/fetcher/tmp/bioimageit_formats-0.1.3.tar.gz]
+[2023-07-10 12:59:38] INFO root fetch - main [MainThread]: End processing [bioimageit-formats]: success
+[2023-07-10 12:59:38] INFO root fetch - processPackages [ragas]: Remove: archive file [/home/abi/fetcher/tmp/ragas-0.0.3rc1.tar.gz]
+[2023-07-10 12:59:38] INFO root fetch - processPackages [ragas]: Remove: archive file [/home/abi/fetcher/tmp/ragas-0.0.4.tar.gz]
+[2023-07-10 12:59:38] INFO root fetch - main [MainThread]: End processing [ragas]: success
+[2023-07-10 12:59:38] INFO root fetch - main [MainThread]: Store serial: [18829749]
