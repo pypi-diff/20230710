@@ -23699,3 +23699,158 @@ EOFError: EOF read where object expected
 [2023-07-10 18:19:43] INFO root fetch - processPackages [nbtools]: Remove: archive file [/home/abi/fetcher/tmp/nbtools-23.7.0.tar.gz]
 [2023-07-10 18:19:43] INFO root fetch - main [MainThread]: End processing [nbtools]: success
 [2023-07-10 18:19:43] INFO root fetch - main [MainThread]: Store serial: [18833312]
+[2023-07-10 18:24:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18833312]
+[2023-07-10 18:24:53] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-10 18:24:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: atlantiscore
+[2023-07-10 18:24:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ReadROOT
+[2023-07-10 18:24:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iricore
+[2023-07-10 18:24:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gladier
+[2023-07-10 18:24:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: drexml
+[2023-07-10 18:24:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Geode-Simplex
+[2023-07-10 18:24:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: agixt
+[2023-07-10 18:24:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: confme
+[2023-07-10 18:24:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zalando-kubectl
+[2023-07-10 18:24:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Flask-AppBuilder
+[2023-07-10 18:24:53] INFO root fetch - processPackages [confme]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-10 18:24:53] INFO root fetch - processPackages [gladier]: New version: [0.9.0b1] Old Version: [0.8.4b1]
+[2023-07-10 18:24:53] INFO root fetch - processPackages [agixt]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-10 18:24:53] INFO root fetch - processPackages [ReadROOT]: New version: [2.2.5] Old Version: [2.2.4]
+[2023-07-10 18:24:53] INFO root fetch - processPackages [zalando-kubectl]: New version: [1.9.3.46] Old Version: [1.9.3.45]
+[2023-07-10 18:24:53] INFO root fetch - processPackages [atlantiscore]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-07-10 18:24:53] INFO root fetch - processPackages [iricore]: New version: [1.5.1] Old Version: [1.4.6]
+[2023-07-10 18:24:53] INFO root fetch - processPackages [Geode-Simplex]: New version: [6.0.9] Old Version: [6.0.8]
+[2023-07-10 18:24:53] INFO root fetch - processPackages [Flask-AppBuilder]: New version: [4.3.4rc1] Old Version: [4.3.4]
+[2023-07-10 18:24:53] WARNING root fetch - processPackages [drexml]: Skipping, unable to determine old version
+[2023-07-10 18:24:53] INFO root fetch - processPackages [drexml]: Start processing: intecomm-form-validators
+[2023-07-10 18:24:53] INFO root fetch - main [MainThread]: End processing [drexml] error
+[2023-07-10 18:24:54] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/9b/11/abab4d9f1ba0cda023b8a8f3683cf10face70f19995cd228ece61cde00d0/agixt-1.3.8.tar.gz
+[2023-07-10 18:24:54] INFO root fetch - processPackages [confme]: Downloading https://files.pythonhosted.org/packages/e5/6b/1d74e99365683ecc04642cae78935cad995c7237c7edc5c696ad4c6da24b/confme-2.0.0.tar.gz
+[2023-07-10 18:24:54] INFO root fetch - processPackages [zalando-kubectl]: Downloading https://files.pythonhosted.org/packages/17/27/7c57e4bfb5742cdbbb539cdfb30cf6130058dfc614148341010c91c0ab38/zalando-kubectl-1.9.3.45.tar.gz
+[2023-07-10 18:24:54] INFO root fetch - processPackages [atlantiscore]: Downloading https://files.pythonhosted.org/packages/62/49/f7d63f151e3bad2ee68aba32ef58444e07d8581df91d99e589e9f53c777a/atlantiscore-2.2.0.tar.gz
+[2023-07-10 18:24:54] INFO root fetch - processPackages [gladier]: Downloading https://files.pythonhosted.org/packages/ad/0c/948e628fdd707eca34ca2d5fc836d101f1bb723454b83c213bff64652b91/gladier-0.8.4b1.tar.gz
+[2023-07-10 18:24:54] INFO root fetch - processPackages [intecomm-form-validators]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 18:24:54] INFO root fetch - processPackages [ReadROOT]: Downloading https://files.pythonhosted.org/packages/20/17/4c598819a49e5399007499f9ae405f769a2b88e921fe47e5e36d57b62e89/ReadROOT-2.2.4.tar.gz
+[2023-07-10 18:24:54] INFO root fetch - processPackages [Flask-AppBuilder]: Downloading https://files.pythonhosted.org/packages/58/4e/68c4989a118fc017bf5cea66f402cca117d356fb2fed727c893ea41aebf7/Flask-AppBuilder-4.3.4.tar.gz
+[2023-07-10 18:24:54] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/71/fe/525adfc16647206017d2898a9f436996bc906ecd86240a5d0bac16555638/Geode_Simplex-6.0.8-cp39-cp39-win_amd64.whl
+[2023-07-10 18:24:54] INFO root fetch - processPackages [iricore]: Downloading https://files.pythonhosted.org/packages/47/80/f9416da9dababb0fb4ea88e805509aad24a6b6302f08f8ebcc013a4a0eee/iricore-1.4.6.tar.gz
+[2023-07-10 18:24:54] INFO root fetch - processPackages [confme]: Downloading https://files.pythonhosted.org/packages/d9/c0/21d3b83d439943f959740aaf8184aae914717bfcaf4eb12ef18b7baf6baa/confme-2.0.1.tar.gz
+[2023-07-10 18:24:54] INFO root fetch - processPackages [zalando-kubectl]: Downloading https://files.pythonhosted.org/packages/b0/8c/40f48ac4d1bc22f066f2fd8ea893a31a7c6e03893deecec223d45e719377/zalando-kubectl-1.9.3.46.tar.gz
+[2023-07-10 18:24:54] INFO root fetch - processPackages [intecomm-form-validators]: Downloading https://files.pythonhosted.org/packages/19/e9/26d572e63c08a9513b13571870a97c28d2bf542993480376e37c828c564b/intecomm-form-validators-0.1.8.tar.gz
+[2023-07-10 18:24:54] INFO root fetch - processPackages [atlantiscore]: Downloading https://files.pythonhosted.org/packages/de/b1/cd4201b9e579ea31631f4aa29fc70c22f50a45c22cb38ea284ae9d210ede/atlantiscore-2.3.0.tar.gz
+[2023-07-10 18:24:54] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/0f/92/cb9f740c60a0e8bc877dff4b237b465b3144035abfefc80d41fb7c1e5603/agixt-1.3.9.tar.gz
+[2023-07-10 18:24:54] INFO root fetch - processPackages [confme]: executing diffoscope
+[2023-07-10 18:24:54] INFO root fetch - processPackages [confme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/confme-2.0.0.tar.gz tmp/confme-2.0.1.tar.gz --markdown 20230710/c/confme/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-10 18:24:54] INFO root fetch - processPackages [zalando-kubectl]: executing diffoscope
+[2023-07-10 18:24:54] INFO root fetch - processPackages [zalando-kubectl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zalando-kubectl-1.9.3.45.tar.gz tmp/zalando-kubectl-1.9.3.46.tar.gz --markdown 20230710/z/zalando-kubectl/1.9.3.45-1.9.3.46/diff.md --exclude *.pyd
+[2023-07-10 18:24:54] INFO root fetch - processPackages [atlantiscore]: executing diffoscope
+[2023-07-10 18:24:54] INFO root fetch - processPackages [atlantiscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atlantiscore-2.2.0.tar.gz tmp/atlantiscore-2.3.0.tar.gz --markdown 20230710/a/atlantiscore/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-07-10 18:24:54] INFO root fetch - processPackages [gladier]: Downloading https://files.pythonhosted.org/packages/6b/9a/bd318876171f4f4d0fdcdfa4bfe253642fbcf6dd9e02775f08ba3872c8a6/gladier-0.9.0b1.tar.gz
+[2023-07-10 18:24:54] INFO root fetch - processPackages [ReadROOT]: Downloading https://files.pythonhosted.org/packages/c1/b9/cd0dddd5e13512db2eb40017134e5225a31191dbfdc9c034eba8b7e10fde/ReadROOT-2.2.5.tar.gz
+[2023-07-10 18:24:54] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2023-07-10 18:24:54] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.3.8.tar.gz tmp/agixt-1.3.9.tar.gz --markdown 20230710/a/agixt/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-10 18:24:54] INFO root fetch - processPackages [ReadROOT]: executing diffoscope
+[2023-07-10 18:24:54] INFO root fetch - processPackages [ReadROOT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ReadROOT-2.2.4.tar.gz tmp/ReadROOT-2.2.5.tar.gz --markdown 20230710/R/ReadROOT/2.2.4-2.2.5/diff.md --exclude *.pyd
+[2023-07-10 18:24:54] INFO root fetch - processPackages [Flask-AppBuilder]: Downloading https://files.pythonhosted.org/packages/94/02/e88910e2cb1a1aafcf0ff82358bfc61f91fbf9b2bc9b007414abfeda5c47/Flask-AppBuilder-4.3.4rc1.tar.gz
+[2023-07-10 18:24:55] INFO root fetch - processPackages [gladier]: executing diffoscope
+[2023-07-10 18:24:55] INFO root fetch - processPackages [gladier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gladier-0.8.4b1.tar.gz tmp/gladier-0.9.0b1.tar.gz --markdown 20230710/g/gladier/0.8.4b1-0.9.0b1/diff.md --exclude *.pyd
+[2023-07-10 18:24:55] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/8f/99/93562b28a43421a18cd68c1a4e0a811721a99e39d3720642e78a9b79550b/Geode_Simplex-6.0.9-cp39-cp39-win_amd64.whl
+[2023-07-10 18:24:55] INFO root fetch - processPackages [intecomm-form-validators]: Downloading https://files.pythonhosted.org/packages/8d/9a/ba39b1b74dd7d50770da9d0b45563e555a5e19ba671fa21a047da9450cf3/intecomm-form-validators-0.1.9.tar.gz
+[2023-07-10 18:24:55] INFO root fetch - processPackages [iricore]: Downloading https://files.pythonhosted.org/packages/e7/bb/5b91f47cd45f6792390318b0a03716ba4b824816ae432b0e49a12d7c7e90/iricore-1.5.1.tar.gz
+[2023-07-10 18:24:55] INFO root fetch - processPackages [intecomm-form-validators]: executing diffoscope
+[2023-07-10 18:24:55] INFO root fetch - processPackages [intecomm-form-validators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intecomm-form-validators-0.1.8.tar.gz tmp/intecomm-form-validators-0.1.9.tar.gz --markdown 20230710/i/intecomm-form-validators/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 18:24:55] INFO root fetch - processPackages [Flask-AppBuilder]: executing diffoscope
+[2023-07-10 18:24:55] INFO root fetch - processPackages [Flask-AppBuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-AppBuilder-4.3.4.tar.gz tmp/Flask-AppBuilder-4.3.4rc1.tar.gz --markdown 20230710/F/Flask-AppBuilder/4.3.4-4.3.4rc1/diff.md --exclude *.pyd
+[2023-07-10 18:24:55] INFO root fetch - processPackages [iricore]: executing diffoscope
+[2023-07-10 18:24:55] INFO root fetch - processPackages [iricore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iricore-1.4.6.tar.gz tmp/iricore-1.5.1.tar.gz --markdown 20230710/i/iricore/1.4.6-1.5.1/diff.md --exclude *.pyd
+[2023-07-10 18:24:55] INFO root fetch - processPackages [Geode-Simplex]: executing diffoscope
+[2023-07-10 18:24:55] INFO root fetch - processPackages [Geode-Simplex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Simplex-6.0.8-cp39-cp39-win_amd64.whl.zip tmp/Geode_Simplex-6.0.9-cp39-cp39-win_amd64.whl.zip --markdown 20230710/G/Geode-Simplex/6.0.8-6.0.9/diff.md --exclude *.pyd
+[2023-07-10 18:24:56] INFO root fetch - processPackages [confme]: Remove: archive file [/home/abi/fetcher/tmp/confme-2.0.0.tar.gz]
+[2023-07-10 18:24:56] INFO root fetch - processPackages [confme]: Remove: archive file [/home/abi/fetcher/tmp/confme-2.0.1.tar.gz]
+[2023-07-10 18:24:56] INFO root fetch - processPackages [confme]: Start processing: streamlitopencvplayer
+[2023-07-10 18:24:56] INFO root fetch - main [MainThread]: End processing [confme]: success
+[2023-07-10 18:24:56] INFO root fetch - processPackages [streamlitopencvplayer]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-10 18:24:56] INFO root fetch - processPackages [zalando-kubectl]: Remove: archive file [/home/abi/fetcher/tmp/zalando-kubectl-1.9.3.45.tar.gz]
+[2023-07-10 18:24:56] INFO root fetch - processPackages [zalando-kubectl]: Remove: archive file [/home/abi/fetcher/tmp/zalando-kubectl-1.9.3.46.tar.gz]
+[2023-07-10 18:24:56] INFO root fetch - processPackages [zalando-kubectl]: Start processing: xtor
+[2023-07-10 18:24:56] INFO root fetch - main [MainThread]: End processing [zalando-kubectl]: success
+[2023-07-10 18:24:56] INFO root fetch - processPackages [atlantiscore]: Remove: archive file [/home/abi/fetcher/tmp/atlantiscore-2.2.0.tar.gz]
+[2023-07-10 18:24:56] INFO root fetch - processPackages [atlantiscore]: Remove: archive file [/home/abi/fetcher/tmp/atlantiscore-2.3.0.tar.gz]
+[2023-07-10 18:24:56] INFO root fetch - processPackages [atlantiscore]: Start processing: reps-new
+[2023-07-10 18:24:56] INFO root fetch - main [MainThread]: End processing [atlantiscore]: success
+[2023-07-10 18:24:56] INFO root fetch - processPackages [xtor]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-07-10 18:24:56] INFO root fetch - processPackages [streamlitopencvplayer]: Downloading https://files.pythonhosted.org/packages/34/c6/ac01ee40f6dc61ace9f6cba60eee3faffa17016c8dc937e34194693078d6/streamlitopencvplayer-1.3.2.tar.gz
+[2023-07-10 18:24:56] INFO root fetch - processPackages [reps-new]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-10 18:24:56] INFO root fetch - processPackages [reps-new]: Downloading https://files.pythonhosted.org/packages/bd/ae/d75ebeaecc252446c75e6f7047a406271af867ac2780f84ac033788ef234/reps_new-0.3.2.tar.gz
+[2023-07-10 18:24:56] INFO root fetch - processPackages [xtor]: Downloading https://files.pythonhosted.org/packages/f5/f9/844d260a6b06646a29e9482344d21ad53f7337764bc132093f025e761594/xtor-0.3.1.tar.gz
+[2023-07-10 18:24:56] INFO root fetch - processPackages [gladier]: Remove: archive file [/home/abi/fetcher/tmp/gladier-0.8.4b1.tar.gz]
+[2023-07-10 18:24:56] INFO root fetch - processPackages [gladier]: Remove: archive file [/home/abi/fetcher/tmp/gladier-0.9.0b1.tar.gz]
+[2023-07-10 18:24:56] INFO root fetch - processPackages [gladier]: Start processing: pulp-glue
+[2023-07-10 18:24:56] INFO root fetch - main [MainThread]: End processing [gladier]: success
+[2023-07-10 18:24:56] INFO root fetch - processPackages [streamlitopencvplayer]: Downloading https://files.pythonhosted.org/packages/81/cb/221ea1ca2f4bc125955d71c40dec0445580af286de157da7b8ea99d857de/streamlitopencvplayer-1.3.3.tar.gz
+[2023-07-10 18:24:56] INFO root fetch - processPackages [pulp-glue]: New version: [0.20.1] Old Version: [0.20.0]
+[2023-07-10 18:24:56] INFO root fetch - processPackages [ReadROOT]: Remove: archive file [/home/abi/fetcher/tmp/ReadROOT-2.2.4.tar.gz]
+[2023-07-10 18:24:56] INFO root fetch - processPackages [ReadROOT]: Remove: archive file [/home/abi/fetcher/tmp/ReadROOT-2.2.5.tar.gz]
+[2023-07-10 18:24:56] INFO root fetch - processPackages [ReadROOT]: Start processing: pulp-glue
+[2023-07-10 18:24:56] INFO root fetch - main [MainThread]: End processing [ReadROOT]: success
+[2023-07-10 18:24:56] INFO root fetch - processPackages [xtor]: Downloading https://files.pythonhosted.org/packages/04/ea/755470c2865a4760b81643d229b986095ad916ac3f7164fdaf281e772a52/xtor-0.4.0.tar.gz
+[2023-07-10 18:24:56] INFO root fetch - processPackages [intecomm-form-validators]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-form-validators-0.1.8.tar.gz]
+[2023-07-10 18:24:56] INFO root fetch - processPackages [intecomm-form-validators]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-form-validators-0.1.9.tar.gz]
+[2023-07-10 18:24:56] INFO root fetch - processPackages [intecomm-form-validators]: Start processing: pulp-cli
+[2023-07-10 18:24:56] INFO root fetch - main [MainThread]: End processing [intecomm-form-validators]: success
+[2023-07-10 18:24:56] INFO root fetch - processPackages [streamlitopencvplayer]: executing diffoscope
+[2023-07-10 18:24:56] INFO root fetch - processPackages [streamlitopencvplayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlitopencvplayer-1.3.2.tar.gz tmp/streamlitopencvplayer-1.3.3.tar.gz --markdown 20230710/s/streamlitopencvplayer/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-10 18:24:56] INFO root fetch - processPackages [reps-new]: Downloading https://files.pythonhosted.org/packages/a8/e7/47a0bfd83c9939532b5f434385c4f42b2651fedfc1e44e41c0270183118f/reps_new-0.3.3.tar.gz
+[2023-07-10 18:24:56] INFO root fetch - processPackages [pulp-glue]: New version: [0.20.1] Old Version: [0.20.0]
+[2023-07-10 18:24:56] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.3.8.tar.gz]
+[2023-07-10 18:24:56] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.3.9.tar.gz]
+[2023-07-10 18:24:56] INFO root fetch - processPackages [agixt]: Start processing: pulp-cli
+[2023-07-10 18:24:56] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2023-07-10 18:24:57] INFO root fetch - processPackages [pulp-cli]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-10 18:24:57] INFO root fetch - processPackages [xtor]: executing diffoscope
+[2023-07-10 18:24:57] INFO root fetch - processPackages [xtor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtor-0.3.1.tar.gz tmp/xtor-0.4.0.tar.gz --markdown 20230710/x/xtor/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-07-10 18:24:57] INFO root fetch - processPackages [pulp-cli]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-10 18:24:57] INFO root fetch - processPackages [pulp-glue]: Downloading https://files.pythonhosted.org/packages/e0/35/b680b00075b6b0470233f8ba2fcdd266f4ff5d23fca3c77373b5f085c223/pulp-glue-0.20.0.tar.gz
+[2023-07-10 18:24:57] INFO root fetch - processPackages [reps-new]: executing diffoscope
+[2023-07-10 18:24:57] INFO root fetch - processPackages [reps-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reps_new-0.3.2.tar.gz tmp/reps_new-0.3.3.tar.gz --markdown 20230710/r/reps-new/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-10 18:24:57] INFO root fetch - processPackages [pulp-glue]: Downloading https://files.pythonhosted.org/packages/e0/35/b680b00075b6b0470233f8ba2fcdd266f4ff5d23fca3c77373b5f085c223/pulp-glue-0.20.0.tar.gz
+[2023-07-10 18:24:57] INFO root fetch - processPackages [pulp-cli]: Downloading https://files.pythonhosted.org/packages/4d/8a/e059ca9aaab84187e3f5103bb4ea03decda6da1b8f53179cb30f2f384885/pulp-cli-0.8.0.tar.gz
+[2023-07-10 18:24:57] INFO root fetch - processPackages [pulp-cli]: Downloading https://files.pythonhosted.org/packages/4d/8a/e059ca9aaab84187e3f5103bb4ea03decda6da1b8f53179cb30f2f384885/pulp-cli-0.8.0.tar.gz
+[2023-07-10 18:24:57] INFO root fetch - processPackages [pulp-glue]: Downloading https://files.pythonhosted.org/packages/a5/78/fb095fb3c48270800481a1b558d90c565506cb82db1be64e7340cb07e25e/pulp-glue-0.20.1.tar.gz
+[2023-07-10 18:24:57] INFO root fetch - processPackages [pulp-glue]: Downloading https://files.pythonhosted.org/packages/a5/78/fb095fb3c48270800481a1b558d90c565506cb82db1be64e7340cb07e25e/pulp-glue-0.20.1.tar.gz
+[2023-07-10 18:24:57] INFO root fetch - processPackages [pulp-glue]: executing diffoscope
+[2023-07-10 18:24:57] INFO root fetch - processPackages [pulp-glue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp-glue-0.20.0.tar.gz tmp/pulp-glue-0.20.1.tar.gz --markdown 20230710/p/pulp-glue/0.20.0-0.20.1/diff.md --exclude *.pyd
+[2023-07-10 18:24:57] INFO root fetch - processPackages [pulp-glue]: executing diffoscope
+[2023-07-10 18:24:57] INFO root fetch - processPackages [pulp-glue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp-glue-0.20.0.tar.gz tmp/pulp-glue-0.20.1.tar.gz --markdown 20230710/p/pulp-glue/0.20.0-0.20.1/diff.md --exclude *.pyd
+[2023-07-10 18:24:57] INFO root fetch - processPackages [pulp-cli]: Downloading https://files.pythonhosted.org/packages/50/3d/ed19e49b2fbe937f1d6a2f4ef0f725c4e67f24e5c97023912b3e3ecfdafd/pulp-cli-0.9.0.tar.gz
+[2023-07-10 18:24:57] INFO root fetch - processPackages [pulp-cli]: Downloading https://files.pythonhosted.org/packages/50/3d/ed19e49b2fbe937f1d6a2f4ef0f725c4e67f24e5c97023912b3e3ecfdafd/pulp-cli-0.9.0.tar.gz
+[2023-07-10 18:24:57] INFO root fetch - processPackages [streamlitopencvplayer]: Remove: archive file [/home/abi/fetcher/tmp/streamlitopencvplayer-1.3.2.tar.gz]
+[2023-07-10 18:24:57] INFO root fetch - processPackages [streamlitopencvplayer]: Remove: archive file [/home/abi/fetcher/tmp/streamlitopencvplayer-1.3.3.tar.gz]
+[2023-07-10 18:24:57] INFO root fetch - main [MainThread]: End processing [streamlitopencvplayer]: success
+[2023-07-10 18:24:58] INFO root fetch - processPackages [pulp-cli]: executing diffoscope
+[2023-07-10 18:24:58] INFO root fetch - processPackages [pulp-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp-cli-0.8.0.tar.gz tmp/pulp-cli-0.9.0.tar.gz --markdown 20230710/p/pulp-cli/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-10 18:24:58] INFO root fetch - processPackages [pulp-cli]: executing diffoscope
+[2023-07-10 18:24:58] INFO root fetch - processPackages [pulp-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp-cli-0.8.0.tar.gz tmp/pulp-cli-0.9.0.tar.gz --markdown 20230710/p/pulp-cli/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-10 18:24:58] INFO root fetch - processPackages [xtor]: Remove: archive file [/home/abi/fetcher/tmp/xtor-0.3.1.tar.gz]
+[2023-07-10 18:24:58] INFO root fetch - processPackages [xtor]: Remove: archive file [/home/abi/fetcher/tmp/xtor-0.4.0.tar.gz]
+[2023-07-10 18:24:58] INFO root fetch - main [MainThread]: End processing [xtor]: success
+[2023-07-10 18:24:58] INFO root fetch - processPackages [reps-new]: Remove: archive file [/home/abi/fetcher/tmp/reps_new-0.3.2.tar.gz]
+[2023-07-10 18:24:58] INFO root fetch - processPackages [reps-new]: Remove: archive file [/home/abi/fetcher/tmp/reps_new-0.3.3.tar.gz]
+[2023-07-10 18:24:58] INFO root fetch - main [MainThread]: End processing [reps-new]: success
+[2023-07-10 18:24:58] INFO root fetch - processPackages [iricore]: Remove: archive file [/home/abi/fetcher/tmp/iricore-1.4.6.tar.gz]
+[2023-07-10 18:24:58] INFO root fetch - processPackages [iricore]: Remove: archive file [/home/abi/fetcher/tmp/iricore-1.5.1.tar.gz]
+[2023-07-10 18:24:58] INFO root fetch - main [MainThread]: End processing [iricore]: success
+[2023-07-10 18:24:58] INFO root fetch - processPackages [pulp-glue]: Remove: archive file [/home/abi/fetcher/tmp/pulp-glue-0.20.0.tar.gz]
+[2023-07-10 18:24:58] INFO root fetch - processPackages [pulp-glue]: Remove: archive file [/home/abi/fetcher/tmp/pulp-glue-0.20.1.tar.gz]
+[2023-07-10 18:24:58] INFO root fetch - main [MainThread]: End processing [pulp-glue]: success
+[2023-07-10 18:24:58] INFO root fetch - main [MainThread]: End processing [pulp-glue]: success
+[2023-07-10 18:24:59] INFO root fetch - processPackages [pulp-cli]: Remove: archive file [/home/abi/fetcher/tmp/pulp-cli-0.8.0.tar.gz]
+[2023-07-10 18:24:59] INFO root fetch - processPackages [pulp-cli]: Remove: archive file [/home/abi/fetcher/tmp/pulp-cli-0.9.0.tar.gz]
+[2023-07-10 18:24:59] INFO root fetch - main [MainThread]: End processing [pulp-cli]: success
+[2023-07-10 18:24:59] INFO root fetch - main [MainThread]: End processing [pulp-cli]: success
+[2023-07-10 18:25:01] INFO root fetch - processPackages [Flask-AppBuilder]: Remove: archive file [/home/abi/fetcher/tmp/Flask-AppBuilder-4.3.4.tar.gz]
+[2023-07-10 18:25:01] INFO root fetch - processPackages [Flask-AppBuilder]: Remove: archive file [/home/abi/fetcher/tmp/Flask-AppBuilder-4.3.4rc1.tar.gz]
+[2023-07-10 18:25:01] INFO root fetch - main [MainThread]: End processing [Flask-AppBuilder]: success
+[2023-07-10 18:25:09] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.0.8-cp39-cp39-win_amd64.whl.zip]
+[2023-07-10 18:25:09] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.0.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-10 18:25:09] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
+[2023-07-10 18:25:09] INFO root fetch - main [MainThread]: Store serial: [18833375]
