@@ -21118,3 +21118,234 @@ EOFError: EOF read where object expected
 [2023-07-10 16:52:06] INFO root fetch - processPackages [human-protocol-sdk]: Remove: archive file [/home/abi/fetcher/tmp/human-protocol-sdk-1.1.6.tar.gz]
 [2023-07-10 16:52:06] INFO root fetch - main [MainThread]: End processing [human-protocol-sdk]: success
 [2023-07-10 16:52:06] INFO root fetch - main [MainThread]: Store serial: [18832158]
+[2023-07-10 16:57:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18832158]
+[2023-07-10 16:57:16] INFO root fetch - main [MainThread]: Found 28 changed packages
+[2023-07-10 16:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ultralytics
+[2023-07-10 16:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Geode-Common
+[2023-07-10 16:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bedull
+[2023-07-10 16:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fitspy
+[2023-07-10 16:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gvtt
+[2023-07-10 16:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iitkgp-erp-login
+[2023-07-10 16:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: regress
+[2023-07-10 16:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cosmotech-run-orchestrator
+[2023-07-10 16:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: admobilizeapis
+[2023-07-10 16:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cognite-power-ops
+[2023-07-10 16:57:16] INFO root fetch - processPackages [cognite-power-ops]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-10 16:57:16] WARNING root fetch - processPackages [gvtt]: Skipping, unable to determine old version
+[2023-07-10 16:57:16] INFO root fetch - processPackages [gvtt]: Start processing: cumulus-library-covid
+[2023-07-10 16:57:16] INFO root fetch - main [MainThread]: End processing [gvtt] error
+[2023-07-10 16:57:16] INFO root fetch - processPackages [cosmotech-run-orchestrator]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-10 16:57:16] INFO root fetch - processPackages [regress]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-10 16:57:16] INFO root fetch - processPackages [Geode-Common]: New version: [26.1.3rc3] Old Version: [26.1.3rc2]
+[2023-07-10 16:57:16] INFO root fetch - processPackages [admobilizeapis]: New version: [2023.7.10.post1] Old Version: [2023.6.29.post1]
+[2023-07-10 16:57:16] INFO root fetch - processPackages [cumulus-library-covid]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-10 16:57:16] WARNING root fetch - processPackages [fitspy]: Skipping, unable to determine old version
+[2023-07-10 16:57:16] INFO root fetch - processPackages [fitspy]: Start processing: antimeridian
+[2023-07-10 16:57:16] INFO root fetch - main [MainThread]: End processing [fitspy] error
+[2023-07-10 16:57:16] WARNING root fetch - processPackages [iitkgp-erp-login]: Skipping, unable to determine old version
+[2023-07-10 16:57:16] INFO root fetch - processPackages [iitkgp-erp-login]: Start processing: domolibrary
+[2023-07-10 16:57:16] INFO root fetch - main [MainThread]: End processing [iitkgp-erp-login] error
+[2023-07-10 16:57:16] INFO root fetch - processPackages [cosmotech-run-orchestrator]: Downloading https://files.pythonhosted.org/packages/97/12/f4ff79e2c83a2cc51a0851edd4c30c32b55ac2bf87f28c02f58c97f12700/cosmotech-run-orchestrator-1.0.3.tar.gz
+[2023-07-10 16:57:16] INFO root fetch - processPackages [ultralytics]: New version: [8.0.99] Old Version: [8.0.98]
+[2023-07-10 16:57:16] WARNING root fetch - processPackages [bedull]: Skipping, unable to determine old version
+[2023-07-10 16:57:16] INFO root fetch - processPackages [bedull]: Start processing: lfinancial
+[2023-07-10 16:57:16] INFO root fetch - main [MainThread]: End processing [bedull] error
+[2023-07-10 16:57:17] INFO root fetch - processPackages [domolibrary]: New version: [0.1.96] Old Version: [0.1.95]
+[2023-07-10 16:57:17] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/2b/ea/c056f5562fa0bed4321b21572bba15a2f43f6f9795d20397ee822d00d6af/cognite_power_ops-0.9.1.tar.gz
+[2023-07-10 16:57:17] INFO root fetch - processPackages [cumulus-library-covid]: Downloading https://files.pythonhosted.org/packages/cf/b7/b4260fb66955dd92f1958ad404a0fc9b8147b4092cdacac726ae07e37adf/cumulus_library_covid-0.1.5.tar.gz
+[2023-07-10 16:57:17] INFO root fetch - processPackages [regress]: Downloading https://files.pythonhosted.org/packages/fc/da/e61cc810c014ca256d55a643f03f3d37a99f0ec1a8c0df85e1364757b964/regress-0.2.2.tar.gz
+[2023-07-10 16:57:17] INFO root fetch - processPackages [antimeridian]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-10 16:57:17] INFO root fetch - processPackages [lfinancial]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-10 16:57:17] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/a3/27/df10f8ec05dd79ade0bd9d7d2541769618ee6e343a051e3043be81c0ab28/domolibrary-0.1.95.tar.gz
+[2023-07-10 16:57:17] INFO root fetch - processPackages [Geode-Common]: Downloading https://files.pythonhosted.org/packages/67/db/ef83c43711ac7f0a5bf7112519971bcbe758b40370100deafb235fc878f6/Geode_Common-26.1.3rc2-cp39-cp39-win_amd64.whl
+[2023-07-10 16:57:17] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/b6/de/f3172b8f928ec31c47cbc2e23d6a875eea575cba8e11ad4548900923efa1/ultralytics-8.0.98.tar.gz
+[2023-07-10 16:57:17] INFO root fetch - processPackages [admobilizeapis]: Downloading https://files.pythonhosted.org/packages/3b/48/c8523157342b433db72bd7bbb6a88469afb7a739f8dcb971abf20c2aa1bc/admobilizeapis-2023.6.29.post1.tar.gz
+[2023-07-10 16:57:17] INFO root fetch - processPackages [lfinancial]: Downloading https://files.pythonhosted.org/packages/26/2d/b5af421eb1c864c91f156c3d62be6ff8c4083a043f4720f5d597fe1f9a99/lfinancial-0.2.5.tar.gz
+[2023-07-10 16:57:17] INFO root fetch - processPackages [cosmotech-run-orchestrator]: Downloading https://files.pythonhosted.org/packages/fc/6f/b83fc6a9051724c08e0b239f5606047a50c657116f9aa5587bca67c5aa13/cosmotech-run-orchestrator-1.0.4.tar.gz
+[2023-07-10 16:57:17] INFO root fetch - processPackages [antimeridian]: Downloading https://files.pythonhosted.org/packages/b7/9a/3de73a74f7b5af14c00781535345e5d25a5624af70b6ebf59ecfbd75636a/antimeridian-0.3.0.tar.gz
+[2023-07-10 16:57:17] INFO root fetch - processPackages [cumulus-library-covid]: Downloading https://files.pythonhosted.org/packages/5a/86/98bf299a4f920de996ee9c5f7c79d3c8c9ce70c84d6dc610af79ce37cd02/cumulus_library_covid-0.1.6.tar.gz
+[2023-07-10 16:57:17] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/9d/09/c65ac3c04afc43ae3e373eb515a3e1dcbaa33c0dd04b2c5ff96690dc737e/domolibrary-0.1.96.tar.gz
+[2023-07-10 16:57:17] INFO root fetch - processPackages [regress]: Downloading https://files.pythonhosted.org/packages/2d/49/20d3c14ca57380240c61071d88d98a7617981d1d625178d3617dd717d5b0/regress-0.2.3.tar.gz
+[2023-07-10 16:57:17] INFO root fetch - processPackages [cosmotech-run-orchestrator]: executing diffoscope
+[2023-07-10 16:57:17] INFO root fetch - processPackages [cosmotech-run-orchestrator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosmotech-run-orchestrator-1.0.3.tar.gz tmp/cosmotech-run-orchestrator-1.0.4.tar.gz --markdown 20230710/c/cosmotech-run-orchestrator/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-10 16:57:17] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/5a/e7/e66818fdcb4e952516e36c68513139d425136901b019cc2b7ae48bfa3c12/cognite_power_ops-0.9.2.tar.gz
+[2023-07-10 16:57:17] INFO root fetch - processPackages [cumulus-library-covid]: executing diffoscope
+[2023-07-10 16:57:17] INFO root fetch - processPackages [cumulus-library-covid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cumulus_library_covid-0.1.5.tar.gz tmp/cumulus_library_covid-0.1.6.tar.gz --markdown 20230710/c/cumulus-library-covid/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-10 16:57:17] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-07-10 16:57:17] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.95.tar.gz tmp/domolibrary-0.1.96.tar.gz --markdown 20230710/d/domolibrary/0.1.95-0.1.96/diff.md --exclude *.pyd
+[2023-07-10 16:57:17] INFO root fetch - processPackages [regress]: executing diffoscope
+[2023-07-10 16:57:17] INFO root fetch - processPackages [regress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regress-0.2.2.tar.gz tmp/regress-0.2.3.tar.gz --markdown 20230710/r/regress/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-10 16:57:17] INFO root fetch - processPackages [admobilizeapis]: Downloading https://files.pythonhosted.org/packages/df/08/0a0caa223b4381c90ff8d8d4a6ba6a9583f193eb717cede79f5f9e1345ce/admobilizeapis-2023.7.10.post1.tar.gz
+[2023-07-10 16:57:17] INFO root fetch - processPackages [lfinancial]: Downloading https://files.pythonhosted.org/packages/8f/01/9a5ee455e98bdaf6f26d6c5548e2c311b07762eab7d7120d9e0d123e30df/lfinancial-0.2.6.tar.gz
+[2023-07-10 16:57:17] INFO root fetch - processPackages [cognite-power-ops]: executing diffoscope
+[2023-07-10 16:57:17] INFO root fetch - processPackages [cognite-power-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_power_ops-0.9.1.tar.gz tmp/cognite_power_ops-0.9.2.tar.gz --markdown 20230710/c/cognite-power-ops/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-10 16:57:17] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/b3/b0/87b289ca8a910cd1421d5a217c06fb642b51546dd96bd6b923c67be00415/ultralytics-8.0.99.tar.gz
+[2023-07-10 16:57:17] INFO root fetch - processPackages [Geode-Common]: Downloading https://files.pythonhosted.org/packages/94/ba/19dabc2bf8ed3ddf6d80aa39f5fe38d6926e92651f25bd2cbfb62b2991fb/Geode_Common-26.1.3rc3-cp39-cp39-win_amd64.whl
+[2023-07-10 16:57:17] INFO root fetch - processPackages [antimeridian]: Downloading https://files.pythonhosted.org/packages/aa/23/caf88a26bc263e480ff09207ccf9a4c3f3904271bdc68842a6c85e8e72bc/antimeridian-0.3.1.tar.gz
+[2023-07-10 16:57:18] INFO root fetch - processPackages [admobilizeapis]: executing diffoscope
+[2023-07-10 16:57:18] INFO root fetch - processPackages [admobilizeapis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/admobilizeapis-2023.6.29.post1.tar.gz tmp/admobilizeapis-2023.7.10.post1.tar.gz --markdown 20230710/a/admobilizeapis/2023.6.29.post1-2023.7.10.post1/diff.md --exclude *.pyd
+[2023-07-10 16:57:18] INFO root fetch - processPackages [lfinancial]: executing diffoscope
+[2023-07-10 16:57:18] INFO root fetch - processPackages [lfinancial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lfinancial-0.2.5.tar.gz tmp/lfinancial-0.2.6.tar.gz --markdown 20230710/l/lfinancial/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-10 16:57:18] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2023-07-10 16:57:18] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.0.98.tar.gz tmp/ultralytics-8.0.99.tar.gz --markdown 20230710/u/ultralytics/8.0.98-8.0.99/diff.md --exclude *.pyd
+[2023-07-10 16:57:18] INFO root fetch - processPackages [antimeridian]: executing diffoscope
+[2023-07-10 16:57:18] INFO root fetch - processPackages [antimeridian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antimeridian-0.3.0.tar.gz tmp/antimeridian-0.3.1.tar.gz --markdown 20230710/a/antimeridian/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-10 16:57:18] INFO root fetch - processPackages [Geode-Common]: executing diffoscope
+[2023-07-10 16:57:18] INFO root fetch - processPackages [Geode-Common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Common-26.1.3rc2-cp39-cp39-win_amd64.whl.zip tmp/Geode_Common-26.1.3rc3-cp39-cp39-win_amd64.whl.zip --markdown 20230710/G/Geode-Common/26.1.3rc2-26.1.3rc3/diff.md --exclude *.pyd
+[2023-07-10 16:57:19] INFO root fetch - processPackages [cosmotech-run-orchestrator]: Remove: archive file [/home/abi/fetcher/tmp/cosmotech-run-orchestrator-1.0.3.tar.gz]
+[2023-07-10 16:57:19] INFO root fetch - processPackages [cosmotech-run-orchestrator]: Remove: archive file [/home/abi/fetcher/tmp/cosmotech-run-orchestrator-1.0.4.tar.gz]
+[2023-07-10 16:57:19] INFO root fetch - processPackages [cosmotech-run-orchestrator]: Start processing: finbourne-access-sdk
+[2023-07-10 16:57:19] INFO root fetch - main [MainThread]: End processing [cosmotech-run-orchestrator]: success
+[2023-07-10 16:57:19] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-07-10 16:57:19] INFO root fetch - processPackages [regress]: Remove: archive file [/home/abi/fetcher/tmp/regress-0.2.2.tar.gz]
+[2023-07-10 16:57:19] INFO root fetch - processPackages [regress]: Remove: archive file [/home/abi/fetcher/tmp/regress-0.2.3.tar.gz]
+[2023-07-10 16:57:19] INFO root fetch - processPackages [regress]: Start processing: dynamodb-csv
+[2023-07-10 16:57:19] INFO root fetch - main [MainThread]: End processing [regress]: success
+[2023-07-10 16:57:19] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/22/58/ee379caa00eba72b01ce5884996e3957e85f9db086b5f74209b445963467/finbourne-access-sdk-0.0.616.tar.gz
+[2023-07-10 16:57:19] INFO root fetch - processPackages [cumulus-library-covid]: Remove: archive file [/home/abi/fetcher/tmp/cumulus_library_covid-0.1.5.tar.gz]
+[2023-07-10 16:57:19] INFO root fetch - processPackages [cumulus-library-covid]: Remove: archive file [/home/abi/fetcher/tmp/cumulus_library_covid-0.1.6.tar.gz]
+[2023-07-10 16:57:19] INFO root fetch - processPackages [cumulus-library-covid]: Start processing: femwell
+[2023-07-10 16:57:19] INFO root fetch - main [MainThread]: End processing [cumulus-library-covid]: success
+[2023-07-10 16:57:19] INFO root fetch - processPackages [femwell]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-10 16:57:19] INFO root fetch - processPackages [dynamodb-csv]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-07-10 16:57:19] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.1.tar.gz]
+[2023-07-10 16:57:19] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.2.tar.gz]
+[2023-07-10 16:57:19] INFO root fetch - processPackages [cognite-power-ops]: Start processing: frontrunner-sdk
+[2023-07-10 16:57:19] INFO root fetch - main [MainThread]: End processing [cognite-power-ops]: success
+[2023-07-10 16:57:19] INFO root fetch - processPackages [femwell]: Downloading https://files.pythonhosted.org/packages/d7/2b/2813590508034d44c9278769f738a70354b9a3a59747d8a5f2f4f4741a2a/femwell-0.1.3.tar.gz
+[2023-07-10 16:57:19] INFO root fetch - processPackages [antimeridian]: Remove: archive file [/home/abi/fetcher/tmp/antimeridian-0.3.0.tar.gz]
+[2023-07-10 16:57:19] INFO root fetch - processPackages [antimeridian]: Remove: archive file [/home/abi/fetcher/tmp/antimeridian-0.3.1.tar.gz]
+[2023-07-10 16:57:19] INFO root fetch - processPackages [antimeridian]: Start processing: tidydata
+[2023-07-10 16:57:19] INFO root fetch - main [MainThread]: End processing [antimeridian]: success
+[2023-07-10 16:57:19] INFO root fetch - processPackages [lfinancial]: Remove: archive file [/home/abi/fetcher/tmp/lfinancial-0.2.5.tar.gz]
+[2023-07-10 16:57:19] INFO root fetch - processPackages [lfinancial]: Remove: archive file [/home/abi/fetcher/tmp/lfinancial-0.2.6.tar.gz]
+[2023-07-10 16:57:19] INFO root fetch - processPackages [lfinancial]: Start processing: SGtSNEpiPy
+[2023-07-10 16:57:19] INFO root fetch - main [MainThread]: End processing [lfinancial]: success
+[2023-07-10 16:57:19] INFO root fetch - processPackages [frontrunner-sdk]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-10 16:57:19] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/f5/48/d40801e505892153d9eb9fea2de2f415455702ca8818dd23f14a3f88d813/finbourne-access-sdk-0.0.815.tar.gz
+[2023-07-10 16:57:19] INFO root fetch - processPackages [dynamodb-csv]: Downloading https://files.pythonhosted.org/packages/f1/85/bf41574b9070c9a0c3feb7be93b6203057f5ce259b0b4a6e581e08e972c8/dynamodb-csv-1.5.0.tar.gz
+[2023-07-10 16:57:19] INFO root fetch - processPackages [SGtSNEpiPy]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-10 16:57:19] INFO root fetch - processPackages [tidydata]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-10 16:57:19] INFO root fetch - processPackages [SGtSNEpiPy]: Downloading https://files.pythonhosted.org/packages/0d/bc/773fa126ea95e4590c01038740d8ddb64e1395734211d263532658979e36/SGtSNEpiPy-1.0.4.tar.gz
+[2023-07-10 16:57:19] INFO root fetch - processPackages [admobilizeapis]: Remove: archive file [/home/abi/fetcher/tmp/admobilizeapis-2023.6.29.post1.tar.gz]
+[2023-07-10 16:57:19] INFO root fetch - processPackages [admobilizeapis]: Remove: archive file [/home/abi/fetcher/tmp/admobilizeapis-2023.7.10.post1.tar.gz]
+[2023-07-10 16:57:19] INFO root fetch - processPackages [admobilizeapis]: Start processing: bvhio
+[2023-07-10 16:57:19] INFO root fetch - main [MainThread]: End processing [admobilizeapis]: success
+[2023-07-10 16:57:19] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-07-10 16:57:19] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230710/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-07-10 16:57:19] INFO root fetch - processPackages [bvhio]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-07-10 16:57:19] INFO root fetch - processPackages [frontrunner-sdk]: Downloading https://files.pythonhosted.org/packages/44/1f/18b0fecc0b11ada4b9d4dffeaf48d796b49d72fa18da390f93266a1bdbd7/frontrunner-sdk-0.2.1.tar.gz
+[2023-07-10 16:57:20] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.95.tar.gz]
+[2023-07-10 16:57:20] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.96.tar.gz]
+[2023-07-10 16:57:20] INFO root fetch - processPackages [domolibrary]: Start processing: pysor
+[2023-07-10 16:57:20] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-07-10 16:57:20] INFO root fetch - processPackages [tidydata]: Downloading https://files.pythonhosted.org/packages/de/e6/ab18816cc3c39ef8e82cd3a97ea96688dfc6275ec43dfd5381eda096e0a7/tidydata-0.1.2.tar.gz
+[2023-07-10 16:57:20] INFO root fetch - processPackages [bvhio]: Downloading https://files.pythonhosted.org/packages/97/41/2bac8f9f071c5eace2ac91da1966fe183d1df7ffde4a86b85a76bab31e90/bvhio-1.3.3.tar.gz
+[2023-07-10 16:57:20] INFO root fetch - processPackages [pysor]: New version: [0.1.1] Old Version: [0.1]
+[2023-07-10 16:57:20] INFO root fetch - processPackages [dynamodb-csv]: Downloading https://files.pythonhosted.org/packages/c8/22/c4fd630923e9a8e7ff01ba2cfac53d5d50835149d59a61e2557c5b6b68ca/dynamodb-csv-1.5.1.tar.gz
+[2023-07-10 16:57:20] INFO root fetch - processPackages [SGtSNEpiPy]: Downloading https://files.pythonhosted.org/packages/3b/fb/f4f89a72aee9aefa3efa650a718db6babf83f39ad374cd09f4712e74ace6/SGtSNEpiPy-1.0.5.tar.gz
+[2023-07-10 16:57:20] INFO root fetch - processPackages [femwell]: Downloading https://files.pythonhosted.org/packages/3d/22/3005176738a8cc881cff8112643b33837f5d2b3c6dfa300c0246e34b96e9/femwell-0.1.4.tar.gz
+[2023-07-10 16:57:20] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.0.98.tar.gz]
+[2023-07-10 16:57:20] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.0.99.tar.gz]
+[2023-07-10 16:57:20] INFO root fetch - processPackages [ultralytics]: Start processing: hak
+[2023-07-10 16:57:20] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2023-07-10 16:57:20] INFO root fetch - processPackages [frontrunner-sdk]: Downloading https://files.pythonhosted.org/packages/dc/53/1f82eb343ab82b2ca8a983a77565c993dc876c90a705f2fb285623b72bf1/frontrunner-sdk-0.2.2.tar.gz
+[2023-07-10 16:57:20] INFO root fetch - processPackages [pysor]: Downloading https://files.pythonhosted.org/packages/76/6d/e99556394463f2e3293424d4a25ae2303688c36b5c208b98bfa8bb22300d/Pysor-0.1.tar.gz
+[2023-07-10 16:57:20] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 16:57:20] INFO root fetch - processPackages [dynamodb-csv]: executing diffoscope
+[2023-07-10 16:57:20] INFO root fetch - processPackages [dynamodb-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamodb-csv-1.5.0.tar.gz tmp/dynamodb-csv-1.5.1.tar.gz --markdown 20230710/d/dynamodb-csv/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-07-10 16:57:20] INFO root fetch - processPackages [tidydata]: Downloading https://files.pythonhosted.org/packages/02/42/cd6f68f761dde12faeebd4ec81bb13ba09dc8f522cc41faeb15a7d790be4/tidydata-0.1.3.tar.gz
+[2023-07-10 16:57:20] INFO root fetch - processPackages [femwell]: executing diffoscope
+[2023-07-10 16:57:20] INFO root fetch - processPackages [femwell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/femwell-0.1.3.tar.gz tmp/femwell-0.1.4.tar.gz --markdown 20230710/f/femwell/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-10 16:57:20] INFO root fetch - processPackages [SGtSNEpiPy]: executing diffoscope
+[2023-07-10 16:57:20] INFO root fetch - processPackages [SGtSNEpiPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SGtSNEpiPy-1.0.4.tar.gz tmp/SGtSNEpiPy-1.0.5.tar.gz --markdown 20230710/S/SGtSNEpiPy/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-10 16:57:20] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/05/17/ad5ef91170b7c0e991a9c8bffa9f9a2dcf3961d5e90c31185bdf3ce8f425/hak-0.0.8.tar.gz
+[2023-07-10 16:57:20] INFO root fetch - processPackages [bvhio]: Downloading https://files.pythonhosted.org/packages/50/33/7ed4f916cc8c87e251f09efac96610874068654a271b0f5d20c679764d1f/bvhio-1.3.4.tar.gz
+[2023-07-10 16:57:20] INFO root fetch - processPackages [frontrunner-sdk]: executing diffoscope
+[2023-07-10 16:57:20] INFO root fetch - processPackages [frontrunner-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontrunner-sdk-0.2.1.tar.gz tmp/frontrunner-sdk-0.2.2.tar.gz --markdown 20230710/f/frontrunner-sdk/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-10 16:57:20] INFO root fetch - processPackages [tidydata]: executing diffoscope
+[2023-07-10 16:57:20] INFO root fetch - processPackages [tidydata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidydata-0.1.2.tar.gz tmp/tidydata-0.1.3.tar.gz --markdown 20230710/t/tidydata/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-10 16:57:20] INFO root fetch - processPackages [pysor]: Downloading https://files.pythonhosted.org/packages/f8/62/7e320923fec100912f74ae9ffdc5e6c2f41da87f3e2eaa76a7de84a2015c/pysor-0.1.1.tar.gz
+[2023-07-10 16:57:20] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/fd/2b/bf7b3451d5e3a84e9a674b47e9f046c4db1f582764a85a4dfc00e14ecf00/hak-0.0.9.tar.gz
+[2023-07-10 16:57:20] INFO root fetch - processPackages [bvhio]: executing diffoscope
+[2023-07-10 16:57:20] INFO root fetch - processPackages [bvhio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bvhio-1.3.3.tar.gz tmp/bvhio-1.3.4.tar.gz --markdown 20230710/b/bvhio/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-07-10 16:57:21] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-07-10 16:57:21] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.8.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230710/h/hak/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 16:57:21] INFO root fetch - processPackages [pysor]: executing diffoscope
+[2023-07-10 16:57:21] INFO root fetch - processPackages [pysor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pysor-0.1.tar.gz tmp/pysor-0.1.1.tar.gz --markdown 20230710/p/pysor/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-07-10 16:57:21] INFO root fetch - processPackages [SGtSNEpiPy]: Remove: archive file [/home/abi/fetcher/tmp/SGtSNEpiPy-1.0.4.tar.gz]
+[2023-07-10 16:57:21] INFO root fetch - processPackages [SGtSNEpiPy]: Remove: archive file [/home/abi/fetcher/tmp/SGtSNEpiPy-1.0.5.tar.gz]
+[2023-07-10 16:57:21] INFO root fetch - processPackages [SGtSNEpiPy]: Start processing: xformers
+[2023-07-10 16:57:21] INFO root fetch - main [MainThread]: End processing [SGtSNEpiPy]: success
+[2023-07-10 16:57:21] INFO root fetch - processPackages [xformers]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 16:57:22] INFO root fetch - processPackages [dynamodb-csv]: Remove: archive file [/home/abi/fetcher/tmp/dynamodb-csv-1.5.0.tar.gz]
+[2023-07-10 16:57:22] INFO root fetch - processPackages [dynamodb-csv]: Remove: archive file [/home/abi/fetcher/tmp/dynamodb-csv-1.5.1.tar.gz]
+[2023-07-10 16:57:22] INFO root fetch - processPackages [dynamodb-csv]: Start processing: openhab-pythonrule-engine
+[2023-07-10 16:57:22] INFO root fetch - main [MainThread]: End processing [dynamodb-csv]: success
+[2023-07-10 16:57:22] INFO root fetch - processPackages [femwell]: Remove: archive file [/home/abi/fetcher/tmp/femwell-0.1.3.tar.gz]
+[2023-07-10 16:57:22] INFO root fetch - processPackages [femwell]: Remove: archive file [/home/abi/fetcher/tmp/femwell-0.1.4.tar.gz]
+[2023-07-10 16:57:22] INFO root fetch - processPackages [femwell]: Start processing: bump-my-version
+[2023-07-10 16:57:22] INFO root fetch - main [MainThread]: End processing [femwell]: success
+[2023-07-10 16:57:22] INFO root fetch - processPackages [openhab-pythonrule-engine]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-10 16:57:22] INFO root fetch - processPackages [xformers]: Downloading https://files.pythonhosted.org/packages/81/d6/709a1f765f8ecb6217ecd010e71f23c871a6cacdf837e1186c057eb0372f/xformers-0.0.8.tar.gz
+[2023-07-10 16:57:22] INFO root fetch - processPackages [tidydata]: Remove: archive file [/home/abi/fetcher/tmp/tidydata-0.1.2.tar.gz]
+[2023-07-10 16:57:22] INFO root fetch - processPackages [tidydata]: Remove: archive file [/home/abi/fetcher/tmp/tidydata-0.1.3.tar.gz]
+[2023-07-10 16:57:22] INFO root fetch - processPackages [tidydata]: Start processing: odd-dbt
+[2023-07-10 16:57:22] INFO root fetch - main [MainThread]: End processing [tidydata]: success
+[2023-07-10 16:57:22] INFO root fetch - processPackages [bump-my-version]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-07-10 16:57:22] INFO root fetch - processPackages [openhab-pythonrule-engine]: Downloading https://files.pythonhosted.org/packages/8a/3e/0a84e9c40f490787cd7bc756b40c69bdd9b6b4c40deafa7c49d3d706bee5/openhab_pythonrule_engine-1.2.2.tar.gz
+[2023-07-10 16:57:22] INFO root fetch - processPackages [odd-dbt]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 16:57:22] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.616.tar.gz]
+[2023-07-10 16:57:22] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.815.tar.gz]
+[2023-07-10 16:57:22] INFO root fetch - processPackages [finbourne-access-sdk]: Start processing: edc-model-admin
+[2023-07-10 16:57:22] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-07-10 16:57:22] INFO root fetch - processPackages [odd-dbt]: Downloading https://files.pythonhosted.org/packages/b7/77/67690ce5b1e290b99a44b98cc3db13869c03435faaa81822b620ed66a2cd/odd_dbt-0.1.8.tar.gz
+[2023-07-10 16:57:22] INFO root fetch - processPackages [bvhio]: Remove: archive file [/home/abi/fetcher/tmp/bvhio-1.3.3.tar.gz]
+[2023-07-10 16:57:22] INFO root fetch - processPackages [bvhio]: Remove: archive file [/home/abi/fetcher/tmp/bvhio-1.3.4.tar.gz]
+[2023-07-10 16:57:22] INFO root fetch - main [MainThread]: End processing [bvhio]: success
+[2023-07-10 16:57:22] INFO root fetch - processPackages [edc-model-admin]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-10 16:57:22] INFO root fetch - processPackages [bump-my-version]: Downloading https://files.pythonhosted.org/packages/13/3e/5caa1eca657c8d483f1d549c6982bfccd86e4d213e690d2c575b4906b865/bump-my-version-0.6.0.tar.gz
+[2023-07-10 16:57:22] INFO root fetch - processPackages [openhab-pythonrule-engine]: Downloading https://files.pythonhosted.org/packages/00/76/b76aff500716c63042030f13fc8425d31e6a1e8d84cfe508d5aabdb76036/openhab_pythonrule_engine-1.2.3.tar.gz
+[2023-07-10 16:57:22] INFO root fetch - processPackages [frontrunner-sdk]: Remove: archive file [/home/abi/fetcher/tmp/frontrunner-sdk-0.2.1.tar.gz]
+[2023-07-10 16:57:22] INFO root fetch - processPackages [frontrunner-sdk]: Remove: archive file [/home/abi/fetcher/tmp/frontrunner-sdk-0.2.2.tar.gz]
+[2023-07-10 16:57:22] INFO root fetch - main [MainThread]: End processing [frontrunner-sdk]: success
+[2023-07-10 16:57:22] INFO root fetch - processPackages [xformers]: Downloading https://files.pythonhosted.org/packages/8f/c2/9cfed3bb83e46be252b4a2e9a75ebb4c8a0f9df6cbb228b3646048a7d3c4/xformers-0.0.9.tar.gz
+[2023-07-10 16:57:22] INFO root fetch - processPackages [pysor]: Remove: archive file [/home/abi/fetcher/tmp/Pysor-0.1.tar.gz]
+[2023-07-10 16:57:22] INFO root fetch - processPackages [pysor]: Remove: archive file [/home/abi/fetcher/tmp/pysor-0.1.1.tar.gz]
+[2023-07-10 16:57:22] INFO root fetch - main [MainThread]: End processing [pysor]: success
+[2023-07-10 16:57:22] INFO root fetch - processPackages [odd-dbt]: Downloading https://files.pythonhosted.org/packages/76/80/81cebf15f3ce39f89419c1c84befe62cab623b6f95a7b4808ef81c967e1b/odd_dbt-0.1.9.tar.gz
+[2023-07-10 16:57:22] INFO root fetch - processPackages [openhab-pythonrule-engine]: executing diffoscope
+[2023-07-10 16:57:22] INFO root fetch - processPackages [openhab-pythonrule-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openhab_pythonrule_engine-1.2.2.tar.gz tmp/openhab_pythonrule_engine-1.2.3.tar.gz --markdown 20230710/o/openhab-pythonrule-engine/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-10 16:57:22] INFO root fetch - processPackages [edc-model-admin]: Downloading https://files.pythonhosted.org/packages/8e/24/d1d3372dddbcec39a17d98c5d62dc8c2f67219eac6dffdf828c392ef807f/edc_model_admin-0.3.8-py3-none-any.whl
+[2023-07-10 16:57:22] INFO root fetch - processPackages [xformers]: executing diffoscope
+[2023-07-10 16:57:22] INFO root fetch - processPackages [xformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xformers-0.0.8.tar.gz tmp/xformers-0.0.9.tar.gz --markdown 20230710/x/xformers/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 16:57:22] INFO root fetch - processPackages [odd-dbt]: executing diffoscope
+[2023-07-10 16:57:22] INFO root fetch - processPackages [odd-dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odd_dbt-0.1.8.tar.gz tmp/odd_dbt-0.1.9.tar.gz --markdown 20230710/o/odd-dbt/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 16:57:22] INFO root fetch - processPackages [bump-my-version]: Downloading https://files.pythonhosted.org/packages/49/59/f6005e5e1c4e361025cb203f54d6bf3d917b0db815ccbeffa0b0829eb28b/bump-my-version-0.7.0.tar.gz
+[2023-07-10 16:57:23] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.8.tar.gz]
+[2023-07-10 16:57:23] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
+[2023-07-10 16:57:23] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-07-10 16:57:23] INFO root fetch - processPackages [bump-my-version]: executing diffoscope
+[2023-07-10 16:57:23] INFO root fetch - processPackages [bump-my-version]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bump-my-version-0.6.0.tar.gz tmp/bump-my-version-0.7.0.tar.gz --markdown 20230710/b/bump-my-version/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-07-10 16:57:23] INFO root fetch - processPackages [edc-model-admin]: Downloading https://files.pythonhosted.org/packages/4f/db/c8ef59cf96e2f3bf3460d5b4a7dc1f6adf0b4e1ec89227788583de019595/edc_model_admin-0.3.9-py3-none-any.whl
+[2023-07-10 16:57:23] INFO root fetch - processPackages [edc-model-admin]: executing diffoscope
+[2023-07-10 16:57:23] INFO root fetch - processPackages [edc-model-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_model_admin-0.3.8-py3-none-any.whl.zip tmp/edc_model_admin-0.3.9-py3-none-any.whl.zip --markdown 20230710/e/edc-model-admin/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-10 16:57:23] INFO root fetch - processPackages [openhab-pythonrule-engine]: Remove: archive file [/home/abi/fetcher/tmp/openhab_pythonrule_engine-1.2.2.tar.gz]
+[2023-07-10 16:57:23] INFO root fetch - processPackages [openhab-pythonrule-engine]: Remove: archive file [/home/abi/fetcher/tmp/openhab_pythonrule_engine-1.2.3.tar.gz]
+[2023-07-10 16:57:23] INFO root fetch - main [MainThread]: End processing [openhab-pythonrule-engine]: success
+[2023-07-10 16:57:23] INFO root fetch - processPackages [odd-dbt]: Remove: archive file [/home/abi/fetcher/tmp/odd_dbt-0.1.8.tar.gz]
+[2023-07-10 16:57:23] INFO root fetch - processPackages [odd-dbt]: Remove: archive file [/home/abi/fetcher/tmp/odd_dbt-0.1.9.tar.gz]
+[2023-07-10 16:57:23] INFO root fetch - main [MainThread]: End processing [odd-dbt]: success
+[2023-07-10 16:57:24] INFO root fetch - processPackages [xformers]: Remove: archive file [/home/abi/fetcher/tmp/xformers-0.0.8.tar.gz]
+[2023-07-10 16:57:24] INFO root fetch - processPackages [xformers]: Remove: archive file [/home/abi/fetcher/tmp/xformers-0.0.9.tar.gz]
+[2023-07-10 16:57:24] INFO root fetch - main [MainThread]: End processing [xformers]: success
+[2023-07-10 16:57:24] INFO root fetch - processPackages [bump-my-version]: Remove: archive file [/home/abi/fetcher/tmp/bump-my-version-0.6.0.tar.gz]
+[2023-07-10 16:57:24] INFO root fetch - processPackages [bump-my-version]: Remove: archive file [/home/abi/fetcher/tmp/bump-my-version-0.7.0.tar.gz]
+[2023-07-10 16:57:24] INFO root fetch - main [MainThread]: End processing [bump-my-version]: success
+[2023-07-10 16:57:24] INFO root fetch - processPackages [edc-model-admin]: Remove: archive file [/home/abi/fetcher/tmp/edc_model_admin-0.3.8-py3-none-any.whl.zip]
+[2023-07-10 16:57:24] INFO root fetch - processPackages [edc-model-admin]: Remove: archive file [/home/abi/fetcher/tmp/edc_model_admin-0.3.9-py3-none-any.whl.zip]
+[2023-07-10 16:57:24] INFO root fetch - main [MainThread]: End processing [edc-model-admin]: success
+[2023-07-10 16:57:26] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-26.1.3rc2-cp39-cp39-win_amd64.whl.zip]
+[2023-07-10 16:57:26] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-26.1.3rc3-cp39-cp39-win_amd64.whl.zip]
+[2023-07-10 16:57:26] INFO root fetch - main [MainThread]: End processing [Geode-Common]: success
+[2023-07-10 16:57:26] INFO root fetch - main [MainThread]: Store serial: [18832304]
