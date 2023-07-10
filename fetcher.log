@@ -4917,3 +4917,33 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 03:29:48] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
 [2023-07-10 03:29:48] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
 [2023-07-10 03:29:48] INFO root fetch - main [MainThread]: Store serial: [18825547]
+[2023-07-10 03:34:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18825547]
+[2023-07-10 03:34:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-10 03:34:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sentenai
+[2023-07-10 03:34:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-lambda-subminute
+[2023-07-10 03:34:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ai2-kit
+[2023-07-10 03:34:57] INFO root fetch - processPackages [sentenai]: New version: [1.6.4.9] Old Version: [1.6.4.8]
+[2023-07-10 03:34:57] INFO root fetch - processPackages [ai2-kit]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-10 03:34:57] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-10 03:34:57] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/eb/f4/ea38d8c9f78873edcbb17216f185baee2019ecb183cd80b334c593f2b1bc/ai2_kit-0.3.8.tar.gz
+[2023-07-10 03:34:57] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/e5/12/963a9c9137cb30feaf66b7d9cb7a08a6ea591ebef038343c3b132f84bba7/cdk_lambda_subminute-2.0.98.tar.gz
+[2023-07-10 03:34:57] INFO root fetch - processPackages [sentenai]: Downloading https://files.pythonhosted.org/packages/1b/e7/e845c388a1004192b92286d25ba4116f6bb9f7fdf1d6c7e9e0047a49deca/sentenai-1.6.4.8.tar.gz
+[2023-07-10 03:34:57] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/f8/ec/3044fde579418570279eb9f4c2d60facdbd573ed724ec7fa07e3a4c940aa/ai2_kit-0.3.9.tar.gz
+[2023-07-10 03:34:57] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/72/85/0d48595efd9bc93c2b767982602157ef78a97896735d1d14075242ba3a9f/cdk_lambda_subminute-2.0.99.tar.gz
+[2023-07-10 03:34:57] INFO root fetch - processPackages [ai2-kit]: executing diffoscope
+[2023-07-10 03:34:57] INFO root fetch - processPackages [ai2-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai2_kit-0.3.8.tar.gz tmp/ai2_kit-0.3.9.tar.gz --markdown 20230710/a/ai2-kit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-10 03:34:57] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-07-10 03:34:57] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230710/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-10 03:34:58] INFO root fetch - processPackages [sentenai]: Downloading https://files.pythonhosted.org/packages/5a/6c/60593d2ff1b4627bd05680fe1c6ea3781de96358deefef4107deb0b64833/sentenai-1.6.4.9.tar.gz
+[2023-07-10 03:34:58] INFO root fetch - processPackages [sentenai]: executing diffoscope
+[2023-07-10 03:34:58] INFO root fetch - processPackages [sentenai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentenai-1.6.4.8.tar.gz tmp/sentenai-1.6.4.9.tar.gz --markdown 20230710/s/sentenai/1.6.4.8-1.6.4.9/diff.md --exclude *.pyd
+[2023-07-10 03:34:58] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.98.tar.gz]
+[2023-07-10 03:34:58] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.99.tar.gz]
+[2023-07-10 03:34:58] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-07-10 03:34:58] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.3.8.tar.gz]
+[2023-07-10 03:34:58] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.3.9.tar.gz]
+[2023-07-10 03:34:58] INFO root fetch - main [MainThread]: End processing [ai2-kit]: success
+[2023-07-10 03:34:58] INFO root fetch - processPackages [sentenai]: Remove: archive file [/home/abi/fetcher/tmp/sentenai-1.6.4.8.tar.gz]
+[2023-07-10 03:34:58] INFO root fetch - processPackages [sentenai]: Remove: archive file [/home/abi/fetcher/tmp/sentenai-1.6.4.9.tar.gz]
+[2023-07-10 03:34:58] INFO root fetch - main [MainThread]: End processing [sentenai]: success
+[2023-07-10 03:34:58] INFO root fetch - main [MainThread]: Store serial: [18825556]
