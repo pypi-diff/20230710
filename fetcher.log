@@ -11804,3 +11804,166 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 10:36:17] INFO root fetch - processPackages [limepkg-getaccept]: Remove: archive file [/home/abi/fetcher/tmp/limepkg_getaccept-1.1.5.dev3-py3-none-any.whl.zip]
 [2023-07-10 10:36:17] INFO root fetch - main [MainThread]: End processing [limepkg-getaccept]: success
 [2023-07-10 10:36:17] INFO root fetch - main [MainThread]: Store serial: [18828325]
+[2023-07-10 10:41:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18828325]
+[2023-07-10 10:41:26] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-10 10:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: formance-sdk-python
+[2023-07-10 10:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: junoplatform
+[2023-07-10 10:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jina
+[2023-07-10 10:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xcodeproj
+[2023-07-10 10:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-estimator-nightly
+[2023-07-10 10:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cobra-io
+[2023-07-10 10:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gamla
+[2023-07-10 10:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: subcmdparse
+[2023-07-10 10:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: junoplatform
+[2023-07-10 10:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dotfgen
+[2023-07-10 10:41:26] WARNING root fetch - processPackages [cobra-io]: Skipping, unable to determine old version
+[2023-07-10 10:41:26] INFO root fetch - processPackages [cobra-io]: Start processing: aioqui
+[2023-07-10 10:41:26] INFO root fetch - main [MainThread]: End processing [cobra-io] error
+[2023-07-10 10:41:26] INFO root fetch - processPackages [junoplatform]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-10 10:41:26] INFO root fetch - processPackages [xcodeproj]: New version: [2.0.0] Old Version: [1.1.0]
+[2023-07-10 10:41:26] INFO root fetch - processPackages [subcmdparse]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-10 10:41:26] INFO root fetch - processPackages [junoplatform]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-10 10:41:26] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-07-10 10:41:26] INFO root fetch - processPackages [formance-sdk-python]: New version: [1.0.20230627] Old Version: [1.0.20230623b1]
+[2023-07-10 10:41:26] INFO root fetch - processPackages [dotfgen]: New version: [1.0.0a2] Old Version: [1.0.0a1]
+[2023-07-10 10:41:26] INFO root fetch - processPackages [aioqui]: New version: [2.1.8] Old Version: [2.1.7]
+[2023-07-10 10:41:26] INFO root fetch - processPackages [gamla]: New version: [99] Old Version: [98]
+[2023-07-10 10:41:26] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-07-10 10:41:27] INFO root fetch - processPackages [junoplatform]: Downloading https://files.pythonhosted.org/packages/a1/fe/f3d37d4902b7fa985354fd156aac3076931ac0387ecf82360a00933588fa/junoplatform-0.0.2.tar.gz
+[2023-07-10 10:41:27] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-07-10 10:41:27] INFO root fetch - processPackages [junoplatform]: Downloading https://files.pythonhosted.org/packages/a1/fe/f3d37d4902b7fa985354fd156aac3076931ac0387ecf82360a00933588fa/junoplatform-0.0.2.tar.gz
+[2023-07-10 10:41:27] INFO root fetch - processPackages [aioqui]: Downloading https://files.pythonhosted.org/packages/84/59/5ceb7444d799cc1ebd80ed48452cc25604ed46b696db985981c14567c3c0/aioqui-2.1.7.tar.gz
+[2023-07-10 10:41:27] INFO root fetch - processPackages [dotfgen]: Downloading https://files.pythonhosted.org/packages/f3/4b/9d4cf49b68368cf328d0980f9be9b7a07203c2d8704e3f3f4a4b34373691/dotfgen-1.0.0a1.tar.gz
+[2023-07-10 10:41:27] INFO root fetch - processPackages [formance-sdk-python]: Downloading https://files.pythonhosted.org/packages/1b/00/373ba95608da97b9a73286d2246b00bcdde99f89a57883999a24e956f3db/formance-sdk-python-1.0.20230623b1.tar.gz
+[2023-07-10 10:41:27] INFO root fetch - processPackages [xcodeproj]: Downloading https://files.pythonhosted.org/packages/ba/03/7f7f2b8279769fc14addbe13f98a09a9f662b59ac14552fad9572161699f/xcodeproj-1.1.0.tar.gz
+[2023-07-10 10:41:27] INFO root fetch - processPackages [subcmdparse]: Downloading https://files.pythonhosted.org/packages/9e/66/44674e6f4e31b5439d0d8c1d596e52207d4696a1a59e248dcd0aa66cfa64/subcmdparse-0.1.5.tar.gz
+[2023-07-10 10:41:27] INFO root fetch - processPackages [gamla]: Downloading https://files.pythonhosted.org/packages/69/f8/ecd46c1a43ef4f38dc58417cdb0231d02fe691e1bc702abaaa13d469a421/gamla-98.tar.gz
+[2023-07-10 10:41:27] INFO root fetch - processPackages [jina]: Downloading https://files.pythonhosted.org/packages/f0/3b/7e6b8b6de74c936b09ce9a4d7440511734efe64633b3418e61b667257994/jina-3.9.3.dev8.tar.gz
+[2023-07-10 10:41:27] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-07-10 10:41:27] INFO root fetch - processPackages [junoplatform]: Downloading https://files.pythonhosted.org/packages/6c/57/9101b734b44ec18db4a7d687bfbb7c5d4d992f68370da2c2a3f33174e3b5/junoplatform-0.0.3.tar.gz
+[2023-07-10 10:41:27] INFO root fetch - processPackages [junoplatform]: Downloading https://files.pythonhosted.org/packages/6c/57/9101b734b44ec18db4a7d687bfbb7c5d4d992f68370da2c2a3f33174e3b5/junoplatform-0.0.3.tar.gz
+[2023-07-10 10:41:27] INFO root fetch - processPackages [aioqui]: Downloading https://files.pythonhosted.org/packages/22/fd/20d4fab53f929ea520def7875d10c94f4fe555cdc0e9279c4ea0d17a6e9e/aioqui-2.1.8.tar.gz
+[2023-07-10 10:41:27] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-07-10 10:41:27] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230710/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-07-10 10:41:27] INFO root fetch - processPackages [dotfgen]: Downloading https://files.pythonhosted.org/packages/4b/05/7c55e9d2894f7aba7ead6f44a7d10fbb2bd29114c7cdf482e486ca500768/dotfgen-1.0.0a2.tar.gz
+[2023-07-10 10:41:27] INFO root fetch - processPackages [junoplatform]: executing diffoscope
+[2023-07-10 10:41:27] INFO root fetch - processPackages [junoplatform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junoplatform-0.0.2.tar.gz tmp/junoplatform-0.0.3.tar.gz --markdown 20230710/j/junoplatform/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-10 10:41:27] INFO root fetch - processPackages [xcodeproj]: Downloading https://files.pythonhosted.org/packages/21/c7/8a1f5c4fd8dbdea5b9f1407735cf95ea03f51e549af9eda5f769678465ee/xcodeproj-2.0.0.tar.gz
+[2023-07-10 10:41:27] INFO root fetch - processPackages [subcmdparse]: Downloading https://files.pythonhosted.org/packages/00/31/a3421afec7afbc0273ebdfbc4060fbd5146a2fbeb2b69e33c692efc307b0/subcmdparse-0.1.6.tar.gz
+[2023-07-10 10:41:27] INFO root fetch - processPackages [junoplatform]: executing diffoscope
+[2023-07-10 10:41:27] INFO root fetch - processPackages [junoplatform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junoplatform-0.0.2.tar.gz tmp/junoplatform-0.0.3.tar.gz --markdown 20230710/j/junoplatform/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-10 10:41:27] INFO root fetch - processPackages [formance-sdk-python]: Downloading https://files.pythonhosted.org/packages/b6/3f/b0c2a7985c589129fe5e060f5b7f8e674ea8f080047ab4a33e173f9252fe/formance-sdk-python-1.0.20230627.tar.gz
+[2023-07-10 10:41:27] INFO root fetch - processPackages [jina]: Downloading https://files.pythonhosted.org/packages/89/60/0658aa50da9055ade2f42bd6cecdfa0abdf69ce7f7bd063c628105106538/jina-3.9.3.dev9.tar.gz
+[2023-07-10 10:41:27] INFO root fetch - processPackages [aioqui]: executing diffoscope
+[2023-07-10 10:41:27] INFO root fetch - processPackages [aioqui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioqui-2.1.7.tar.gz tmp/aioqui-2.1.8.tar.gz --markdown 20230710/a/aioqui/2.1.7-2.1.8/diff.md --exclude *.pyd
+[2023-07-10 10:41:28] INFO root fetch - processPackages [gamla]: Downloading https://files.pythonhosted.org/packages/d5/30/3ac70220c721ace5db4771369280b855e8d9d0f11f63afae59c2a5877427/gamla-99.tar.gz
+[2023-07-10 10:41:28] INFO root fetch - processPackages [xcodeproj]: executing diffoscope
+[2023-07-10 10:41:28] INFO root fetch - processPackages [xcodeproj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcodeproj-1.1.0.tar.gz tmp/xcodeproj-2.0.0.tar.gz --markdown 20230710/x/xcodeproj/1.1.0-2.0.0/diff.md --exclude *.pyd
+[2023-07-10 10:41:28] INFO root fetch - processPackages [subcmdparse]: executing diffoscope
+[2023-07-10 10:41:28] INFO root fetch - processPackages [subcmdparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/subcmdparse-0.1.5.tar.gz tmp/subcmdparse-0.1.6.tar.gz --markdown 20230710/s/subcmdparse/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-10 10:41:28] INFO root fetch - processPackages [dotfgen]: executing diffoscope
+[2023-07-10 10:41:28] INFO root fetch - processPackages [dotfgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dotfgen-1.0.0a1.tar.gz tmp/dotfgen-1.0.0a2.tar.gz --markdown 20230710/d/dotfgen/1.0.0a1-1.0.0a2/diff.md --exclude *.pyd
+[2023-07-10 10:41:28] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-07-10 10:41:28] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230710/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-07-10 10:41:28] INFO root fetch - processPackages [formance-sdk-python]: executing diffoscope
+[2023-07-10 10:41:28] INFO root fetch - processPackages [formance-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formance-sdk-python-1.0.20230623b1.tar.gz tmp/formance-sdk-python-1.0.20230627.tar.gz --markdown 20230710/f/formance-sdk-python/1.0.20230623b1-1.0.20230627/diff.md --exclude *.pyd
+[2023-07-10 10:41:28] INFO root fetch - processPackages [gamla]: executing diffoscope
+[2023-07-10 10:41:28] INFO root fetch - processPackages [gamla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamla-98.tar.gz tmp/gamla-99.tar.gz --markdown 20230710/g/gamla/98-99/diff.md --exclude *.pyd
+[2023-07-10 10:41:29] INFO root fetch - processPackages [junoplatform]: Remove: archive file [/home/abi/fetcher/tmp/junoplatform-0.0.2.tar.gz]
+[2023-07-10 10:41:29] INFO root fetch - processPackages [junoplatform]: Remove: archive file [/home/abi/fetcher/tmp/junoplatform-0.0.3.tar.gz]
+[2023-07-10 10:41:29] INFO root fetch - processPackages [junoplatform]: Start processing: giant-utils
+[2023-07-10 10:41:29] INFO root fetch - main [MainThread]: End processing [junoplatform]: success
+[2023-07-10 10:41:29] INFO root fetch - processPackages [giant-utils]: New version: [0.2] Old Version: [0.1]
+[2023-07-10 10:41:29] INFO root fetch - processPackages [junoplatform]: Start processing: omdctk
+[2023-07-10 10:41:29] INFO root fetch - main [MainThread]: End processing [junoplatform]: success
+[2023-07-10 10:41:29] WARNING root fetch - processPackages [omdctk]: Skipping, unable to determine old version
+[2023-07-10 10:41:29] INFO root fetch - processPackages [omdctk]: Start processing: pyolin
+[2023-07-10 10:41:29] INFO root fetch - main [MainThread]: End processing [omdctk] error
+[2023-07-10 10:41:29] INFO root fetch - processPackages [pyolin]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-10 10:41:29] INFO root fetch - processPackages [giant-utils]: Downloading https://files.pythonhosted.org/packages/d1/76/a8964f100bcd1a08fc3f6badf1ef51940c1e77177efb9241bf58ec930914/giant_utils-0.1.tar.gz
+[2023-07-10 10:41:29] INFO root fetch - processPackages [pyolin]: Downloading https://files.pythonhosted.org/packages/4e/27/23b9e7e16327e746756ad3e8d1fe79287f928ef90c0a47fcea40a97aca12/pyolin-0.0.1.tar.gz
+[2023-07-10 10:41:29] INFO root fetch - processPackages [subcmdparse]: Remove: archive file [/home/abi/fetcher/tmp/subcmdparse-0.1.5.tar.gz]
+[2023-07-10 10:41:29] INFO root fetch - processPackages [subcmdparse]: Remove: archive file [/home/abi/fetcher/tmp/subcmdparse-0.1.6.tar.gz]
+[2023-07-10 10:41:29] INFO root fetch - processPackages [subcmdparse]: Start processing: langchain
+[2023-07-10 10:41:29] INFO root fetch - main [MainThread]: End processing [subcmdparse]: success
+[2023-07-10 10:41:29] INFO root fetch - processPackages [dotfgen]: Remove: archive file [/home/abi/fetcher/tmp/dotfgen-1.0.0a1.tar.gz]
+[2023-07-10 10:41:29] INFO root fetch - processPackages [dotfgen]: Remove: archive file [/home/abi/fetcher/tmp/dotfgen-1.0.0a2.tar.gz]
+[2023-07-10 10:41:29] INFO root fetch - processPackages [dotfgen]: Start processing: artgriddownloader
+[2023-07-10 10:41:29] INFO root fetch - main [MainThread]: End processing [dotfgen]: success
+[2023-07-10 10:41:30] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-07-10 10:41:30] INFO root fetch - processPackages [xcodeproj]: Remove: archive file [/home/abi/fetcher/tmp/xcodeproj-1.1.0.tar.gz]
+[2023-07-10 10:41:30] INFO root fetch - processPackages [xcodeproj]: Remove: archive file [/home/abi/fetcher/tmp/xcodeproj-2.0.0.tar.gz]
+[2023-07-10 10:41:30] INFO root fetch - processPackages [xcodeproj]: Start processing: armonik
+[2023-07-10 10:41:30] INFO root fetch - main [MainThread]: End processing [xcodeproj]: success
+[2023-07-10 10:41:30] WARNING root fetch - processPackages [artgriddownloader]: Skipping, unable to determine old version
+[2023-07-10 10:41:30] INFO root fetch - processPackages [artgriddownloader]: Start processing: aws-spy
+[2023-07-10 10:41:30] INFO root fetch - main [MainThread]: End processing [artgriddownloader] error
+[2023-07-10 10:41:30] INFO root fetch - processPackages [armonik]: New version: [3.9.3.dev630] Old Version: [3.9.3.dev627]
+[2023-07-10 10:41:30] INFO root fetch - processPackages [aws-spy]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-10 10:41:30] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/a3/db/468340c3e51513d2270b938c830901748ba3f03d05938557f70273672795/armonik-3.9.3.dev627.tar.gz
+[2023-07-10 10:41:30] INFO root fetch - processPackages [giant-utils]: Downloading https://files.pythonhosted.org/packages/18/3e/c2f00e19d2e6d4c220fcc2ffdf5706271f8111715aa597f63f12266f9711/giant_utils-0.2.tar.gz
+[2023-07-10 10:41:30] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/24/6a/f6c87d4ef49bae4d166fa3be99402f669acf9aa59b4d1d31342da0c57e32/langchain-0.0.99.tar.gz
+[2023-07-10 10:41:30] INFO root fetch - processPackages [aws-spy]: Downloading https://files.pythonhosted.org/packages/5a/29/77da9659cbd298a2ffcabf2e83a4f47b508b1a401f00222c5bfef50ad047/aws_spy-0.2.1.tar.gz
+[2023-07-10 10:41:30] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip]
+[2023-07-10 10:41:30] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
+[2023-07-10 10:41:30] INFO root fetch - processPackages [tf-estimator-nightly]: Start processing: pynometrics
+[2023-07-10 10:41:30] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-07-10 10:41:30] INFO root fetch - processPackages [pyolin]: Downloading https://files.pythonhosted.org/packages/82/6c/654e594bbc33dc37722625ecffe5c112445571c18b02129ee73cd7534526/pyolin-0.0.2.tar.gz
+[2023-07-10 10:41:30] INFO root fetch - processPackages [gamla]: Remove: archive file [/home/abi/fetcher/tmp/gamla-98.tar.gz]
+[2023-07-10 10:41:30] INFO root fetch - processPackages [gamla]: Remove: archive file [/home/abi/fetcher/tmp/gamla-99.tar.gz]
+[2023-07-10 10:41:30] INFO root fetch - processPackages [gamla]: Start processing: junoplatform
+[2023-07-10 10:41:30] INFO root fetch - main [MainThread]: End processing [gamla]: success
+[2023-07-10 10:41:30] INFO root fetch - processPackages [giant-utils]: executing diffoscope
+[2023-07-10 10:41:30] INFO root fetch - processPackages [giant-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giant_utils-0.1.tar.gz tmp/giant_utils-0.2.tar.gz --markdown 20230710/g/giant-utils/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-10 10:41:30] INFO root fetch - processPackages [junoplatform]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-10 10:41:30] INFO root fetch - processPackages [pyolin]: executing diffoscope
+[2023-07-10 10:41:30] INFO root fetch - processPackages [pyolin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyolin-0.0.1.tar.gz tmp/pyolin-0.0.2.tar.gz --markdown 20230710/p/pyolin/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-10 10:41:30] INFO root fetch - processPackages [pynometrics]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-10 10:41:30] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/11/ad/4f1bc0423cfda7af28cb5dc84e1865bf90ef91df50054caabbc8de87872b/armonik-3.9.3.dev630.tar.gz
+[2023-07-10 10:41:30] INFO root fetch - processPackages [junoplatform]: Downloading https://files.pythonhosted.org/packages/6c/57/9101b734b44ec18db4a7d687bfbb7c5d4d992f68370da2c2a3f33174e3b5/junoplatform-0.0.3.tar.gz
+[2023-07-10 10:41:30] INFO root fetch - processPackages [aws-spy]: Downloading https://files.pythonhosted.org/packages/f2/4a/5e027cc66a83f24dfd1bb9362d23b8ceb32ca2491856f5614e3e5e7d2e15/aws_spy-0.2.2.tar.gz
+[2023-07-10 10:41:30] INFO root fetch - processPackages [armonik]: executing diffoscope
+[2023-07-10 10:41:30] INFO root fetch - processPackages [armonik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armonik-3.9.3.dev627.tar.gz tmp/armonik-3.9.3.dev630.tar.gz --markdown 20230710/a/armonik/3.9.3.dev627-3.9.3.dev630/diff.md --exclude *.pyd
+[2023-07-10 10:41:30] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/8e/d3/a01f18d4cda1e4e2cbed8c15693f649fb439aab4b94f0c2a0ed636bbe505/langchain-0.0.99rc0.tar.gz
+[2023-07-10 10:41:30] INFO root fetch - processPackages [aws-spy]: executing diffoscope
+[2023-07-10 10:41:30] INFO root fetch - processPackages [aws-spy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_spy-0.2.1.tar.gz tmp/aws_spy-0.2.2.tar.gz --markdown 20230710/a/aws-spy/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-10 10:41:30] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-07-10 10:41:30] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230710/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-07-10 10:41:30] INFO root fetch - processPackages [pynometrics]: Downloading https://files.pythonhosted.org/packages/ab/56/37eb029a116430cf4668aa84a14f489d23635aeae8c2fe6e2031de91efd7/pynometrics-0.1.4.tar.gz
+[2023-07-10 10:41:31] INFO root fetch - processPackages [junoplatform]: Downloading https://files.pythonhosted.org/packages/9b/a1/ba9fecb5b394e282043adcb298fcb582507f791365b4d72a99e1f5ac646b/junoplatform-0.0.4.tar.gz
+[2023-07-10 10:41:31] INFO root fetch - processPackages [aioqui]: Remove: archive file [/home/abi/fetcher/tmp/aioqui-2.1.7.tar.gz]
+[2023-07-10 10:41:31] INFO root fetch - processPackages [aioqui]: Remove: archive file [/home/abi/fetcher/tmp/aioqui-2.1.8.tar.gz]
+[2023-07-10 10:41:31] INFO root fetch - main [MainThread]: End processing [aioqui]: success
+[2023-07-10 10:41:31] INFO root fetch - processPackages [jina]: Remove: archive file [/home/abi/fetcher/tmp/jina-3.9.3.dev8.tar.gz]
+[2023-07-10 10:41:31] INFO root fetch - processPackages [jina]: Remove: archive file [/home/abi/fetcher/tmp/jina-3.9.3.dev9.tar.gz]
+[2023-07-10 10:41:31] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-07-10 10:41:31] INFO root fetch - processPackages [junoplatform]: executing diffoscope
+[2023-07-10 10:41:31] INFO root fetch - processPackages [junoplatform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junoplatform-0.0.3.tar.gz tmp/junoplatform-0.0.4.tar.gz --markdown 20230710/j/junoplatform/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-10 10:41:31] INFO root fetch - processPackages [pynometrics]: Downloading https://files.pythonhosted.org/packages/a0/86/8d750208abf911c7567ea1023e6c806b54dc57dd8fb5ca6fec118e55f512/pynometrics-0.1.5.tar.gz
+[2023-07-10 10:41:31] INFO root fetch - processPackages [giant-utils]: Remove: archive file [/home/abi/fetcher/tmp/giant_utils-0.1.tar.gz]
+[2023-07-10 10:41:31] INFO root fetch - processPackages [giant-utils]: Remove: archive file [/home/abi/fetcher/tmp/giant_utils-0.2.tar.gz]
+[2023-07-10 10:41:31] INFO root fetch - main [MainThread]: End processing [giant-utils]: success
+[2023-07-10 10:41:31] INFO root fetch - processPackages [pynometrics]: executing diffoscope
+[2023-07-10 10:41:31] INFO root fetch - processPackages [pynometrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynometrics-0.1.4.tar.gz tmp/pynometrics-0.1.5.tar.gz --markdown 20230710/p/pynometrics/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-10 10:41:31] INFO root fetch - processPackages [pyolin]: Remove: archive file [/home/abi/fetcher/tmp/pyolin-0.0.1.tar.gz]
+[2023-07-10 10:41:31] INFO root fetch - processPackages [pyolin]: Remove: archive file [/home/abi/fetcher/tmp/pyolin-0.0.2.tar.gz]
+[2023-07-10 10:41:31] INFO root fetch - main [MainThread]: End processing [pyolin]: success
+[2023-07-10 10:41:31] INFO root fetch - processPackages [formance-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/formance-sdk-python-1.0.20230623b1.tar.gz]
+[2023-07-10 10:41:31] INFO root fetch - processPackages [formance-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/formance-sdk-python-1.0.20230627.tar.gz]
+[2023-07-10 10:41:31] INFO root fetch - main [MainThread]: End processing [formance-sdk-python]: success
+[2023-07-10 10:41:32] INFO root fetch - processPackages [junoplatform]: Remove: archive file [/home/abi/fetcher/tmp/junoplatform-0.0.3.tar.gz]
+[2023-07-10 10:41:32] INFO root fetch - processPackages [junoplatform]: Remove: archive file [/home/abi/fetcher/tmp/junoplatform-0.0.4.tar.gz]
+[2023-07-10 10:41:32] INFO root fetch - main [MainThread]: End processing [junoplatform]: success
+[2023-07-10 10:41:32] INFO root fetch - processPackages [aws-spy]: Remove: archive file [/home/abi/fetcher/tmp/aws_spy-0.2.1.tar.gz]
+[2023-07-10 10:41:32] INFO root fetch - processPackages [aws-spy]: Remove: archive file [/home/abi/fetcher/tmp/aws_spy-0.2.2.tar.gz]
+[2023-07-10 10:41:32] INFO root fetch - main [MainThread]: End processing [aws-spy]: success
+[2023-07-10 10:41:32] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.3.dev627.tar.gz]
+[2023-07-10 10:41:32] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.3.dev630.tar.gz]
+[2023-07-10 10:41:32] INFO root fetch - main [MainThread]: End processing [armonik]: success
+[2023-07-10 10:41:32] INFO root fetch - processPackages [pynometrics]: Remove: archive file [/home/abi/fetcher/tmp/pynometrics-0.1.4.tar.gz]
+[2023-07-10 10:41:32] INFO root fetch - processPackages [pynometrics]: Remove: archive file [/home/abi/fetcher/tmp/pynometrics-0.1.5.tar.gz]
+[2023-07-10 10:41:32] INFO root fetch - main [MainThread]: End processing [pynometrics]: success
+[2023-07-10 10:41:33] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99.tar.gz]
+[2023-07-10 10:41:33] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99rc0.tar.gz]
+[2023-07-10 10:41:33] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-07-10 10:41:33] INFO root fetch - main [MainThread]: Store serial: [18828400]
