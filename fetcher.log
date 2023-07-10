@@ -12850,3 +12850,189 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 11:13:18] INFO root fetch - processPackages [formance-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/formance-sdk-python-1.0.20230627.tar.gz]
 [2023-07-10 11:13:18] INFO root fetch - main [MainThread]: End processing [formance-sdk-python]: success
 [2023-07-10 11:13:18] INFO root fetch - main [MainThread]: Store serial: [18828759]
+[2023-07-10 11:18:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18828759]
+[2023-07-10 11:18:27] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-10 11:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tksheet
+[2023-07-10 11:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: finbourne-access-sdk
+[2023-07-10 11:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nodered.py
+[2023-07-10 11:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cicv
+[2023-07-10 11:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gardener-cicd-base
+[2023-07-10 11:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gardener-cicd-cli
+[2023-07-10 11:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gardener-cicd-dso
+[2023-07-10 11:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gardener-cicd-libs
+[2023-07-10 11:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gardener-cicd-whd
+[2023-07-10 11:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gardener-oci
+[2023-07-10 11:18:28] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2110.0] Old Version: [1.2109.0]
+[2023-07-10 11:18:28] INFO root fetch - processPackages [nodered.py]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-10 11:18:28] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2110.0] Old Version: [1.2109.0]
+[2023-07-10 11:18:28] WARNING root fetch - processPackages [cicv]: Skipping, unable to determine old version
+[2023-07-10 11:18:28] INFO root fetch - processPackages [cicv]: Start processing: django-mysql
+[2023-07-10 11:18:28] INFO root fetch - main [MainThread]: End processing [cicv] error
+[2023-07-10 11:18:28] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-07-10 11:18:28] INFO root fetch - processPackages [tksheet]: New version: [6.2.2] Old Version: [6.2.1]
+[2023-07-10 11:18:28] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2110.0] Old Version: [1.2109.0]
+[2023-07-10 11:18:28] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2110.0] Old Version: [1.2109.0]
+[2023-07-10 11:18:28] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2110.0] Old Version: [1.2109.0]
+[2023-07-10 11:18:28] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2023-07-10 11:18:28] INFO root fetch - processPackages [django-mysql]: New version: [4.9.0] Old Version: [4.8.0]
+[2023-07-10 11:18:28] INFO root fetch - processPackages [nodered.py]: Downloading https://files.pythonhosted.org/packages/57/a6/31597813af2817322e7a2cf3471657a5490b39ad87c0c3aa14082a22738a/nodered.py-0.2.5.tar.gz
+[2023-07-10 11:18:28] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/79/21/264a6fdce6a9b81464357dad25aea5e5eedb7be8ee235552267e805a8dd9/gardener-cicd-cli-1.2109.0.tar.gz
+[2023-07-10 11:18:28] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/de/1a/b20cf8f9dc534971e19cc383a95bf4b1afc66b9b053bf823a298e25555f0/gardener-cicd-base-1.2109.0.tar.gz
+[2023-07-10 11:18:28] INFO root fetch - processPackages [tksheet]: Downloading https://files.pythonhosted.org/packages/1c/b8/6379809e3d98ed7cc0d1602fb11b5e084477a8ff57a4fd1b17b591805644/tksheet-6.2.1.tar.gz
+[2023-07-10 11:18:28] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/c6/4c/c26d388ddb40acc09b2de12a69ba71b3d48cb373c1d57def834abb355008/gardener-cicd-whd-1.2109.0.tar.gz
+[2023-07-10 11:18:28] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/22/58/ee379caa00eba72b01ce5884996e3957e85f9db086b5f74209b445963467/finbourne-access-sdk-0.0.616.tar.gz
+[2023-07-10 11:18:28] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/2c/6f/c817c6fa2d116b4ade282872d7839607f4109b1d1b8fe23f1aacd1ea9d96/gardener-cicd-libs-1.2109.0.tar.gz
+[2023-07-10 11:18:28] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/cd/75/528c2910b499cbbbfe48c57d86f35dc44218a4f293fdd74b0d766769adc4/gardener-cicd-dso-1.2109.0.tar.gz
+[2023-07-10 11:18:28] INFO root fetch - processPackages [django-mysql]: Downloading https://files.pythonhosted.org/packages/ee/ad/922b1ab1abdfc57d2229ac352dec1378274d4d02b95f33ba89c86238ca3f/django-mysql-4.8.0.tar.gz
+[2023-07-10 11:18:28] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/65/8d/87469d533eb661d280b5bb3eb778421053cbe6438908abdc1d79b2921522/gardener-oci-1.998.0.tar.gz
+[2023-07-10 11:18:28] INFO root fetch - processPackages [nodered.py]: Downloading https://files.pythonhosted.org/packages/5a/71/d928a8ac4aab131e78c6ef85aead597f15c82a6494b074397d49a57eadb7/nodered.py-0.2.6.tar.gz
+[2023-07-10 11:18:29] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/85/b4/093041debb8276d5cae4cb66f1e0bfe9bde435deb60db2009b6aee267268/gardener-cicd-cli-1.2110.0.tar.gz
+[2023-07-10 11:18:29] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/25/70/0d1a57bbc56d440feea126cb1d9b834911561e8c5f7fdad168fbb4a98f80/gardener-cicd-base-1.2110.0.tar.gz
+[2023-07-10 11:18:29] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/18/75/bb28ad1a62d61e99bbac68b8e206e629502d493bcbb15a8287f99c0835f0/gardener-cicd-whd-1.2110.0.tar.gz
+[2023-07-10 11:18:29] INFO root fetch - processPackages [nodered.py]: executing diffoscope
+[2023-07-10 11:18:29] INFO root fetch - processPackages [nodered.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nodered.py-0.2.5.tar.gz tmp/nodered.py-0.2.6.tar.gz --markdown 20230710/n/nodered.py/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-10 11:18:29] INFO root fetch - processPackages [tksheet]: Downloading https://files.pythonhosted.org/packages/67/dd/488aff6db65c250411ff66a279b4ca2abf57035aca2996ab4329606dc515/tksheet-6.2.2.tar.gz
+[2023-07-10 11:18:29] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/c2/a5/f7323afebcfb5c025267162b147b376adf571f23ef1ef37eb95a86e0c25b/gardener-cicd-dso-1.2110.0.tar.gz
+[2023-07-10 11:18:29] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/f5/48/d40801e505892153d9eb9fea2de2f415455702ca8818dd23f14a3f88d813/finbourne-access-sdk-0.0.815.tar.gz
+[2023-07-10 11:18:29] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/7d/bf/d85008b7c960c9e8c772602a56046a1204e7ed444642274ef6d16facf58a/gardener-cicd-libs-1.2110.0.tar.gz
+[2023-07-10 11:18:29] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/f8/de/c6930b025944729e4655e337193e76592dfc15653c0cde84790cb8650df4/gardener-oci-1.999.0.tar.gz
+[2023-07-10 11:18:29] INFO root fetch - processPackages [django-mysql]: Downloading https://files.pythonhosted.org/packages/ed/e0/5aa3310f6150199c42842727573ac21c61c46502f46648702a49392849c1/django_mysql-4.9.0.tar.gz
+[2023-07-10 11:18:29] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2023-07-10 11:18:29] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-cli-1.2109.0.tar.gz tmp/gardener-cicd-cli-1.2110.0.tar.gz --markdown 20230710/g/gardener-cicd-cli/1.2109.0-1.2110.0/diff.md --exclude *.pyd
+[2023-07-10 11:18:29] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2023-07-10 11:18:29] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-base-1.2109.0.tar.gz tmp/gardener-cicd-base-1.2110.0.tar.gz --markdown 20230710/g/gardener-cicd-base/1.2109.0-1.2110.0/diff.md --exclude *.pyd
+[2023-07-10 11:18:29] INFO root fetch - processPackages [tksheet]: executing diffoscope
+[2023-07-10 11:18:29] INFO root fetch - processPackages [tksheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tksheet-6.2.1.tar.gz tmp/tksheet-6.2.2.tar.gz --markdown 20230710/t/tksheet/6.2.1-6.2.2/diff.md --exclude *.pyd
+[2023-07-10 11:18:29] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-07-10 11:18:29] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2023-07-10 11:18:29] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230710/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-07-10 11:18:29] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-whd-1.2109.0.tar.gz tmp/gardener-cicd-whd-1.2110.0.tar.gz --markdown 20230710/g/gardener-cicd-whd/1.2109.0-1.2110.0/diff.md --exclude *.pyd
+[2023-07-10 11:18:29] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2023-07-10 11:18:29] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20230710/g/gardener-oci/1.998.0-1.999.0/diff.md --exclude *.pyd
+[2023-07-10 11:18:29] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2023-07-10 11:18:29] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-dso-1.2109.0.tar.gz tmp/gardener-cicd-dso-1.2110.0.tar.gz --markdown 20230710/g/gardener-cicd-dso/1.2109.0-1.2110.0/diff.md --exclude *.pyd
+[2023-07-10 11:18:29] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2023-07-10 11:18:29] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-libs-1.2109.0.tar.gz tmp/gardener-cicd-libs-1.2110.0.tar.gz --markdown 20230710/g/gardener-cicd-libs/1.2109.0-1.2110.0/diff.md --exclude *.pyd
+[2023-07-10 11:18:29] INFO root fetch - processPackages [django-mysql]: executing diffoscope
+[2023-07-10 11:18:29] INFO root fetch - processPackages [django-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-mysql-4.8.0.tar.gz tmp/django_mysql-4.9.0.tar.gz --markdown 20230710/d/django-mysql/4.8.0-4.9.0/diff.md --exclude *.pyd
+[2023-07-10 11:18:30] INFO root fetch - processPackages [nodered.py]: Remove: archive file [/home/abi/fetcher/tmp/nodered.py-0.2.5.tar.gz]
+[2023-07-10 11:18:30] INFO root fetch - processPackages [nodered.py]: Remove: archive file [/home/abi/fetcher/tmp/nodered.py-0.2.6.tar.gz]
+[2023-07-10 11:18:30] INFO root fetch - processPackages [nodered.py]: Start processing: django-permissions-policy
+[2023-07-10 11:18:30] INFO root fetch - main [MainThread]: End processing [nodered.py]: success
+[2023-07-10 11:18:30] INFO root fetch - processPackages [django-permissions-policy]: New version: [4.9.0] Old Version: [4.8.0]
+[2023-07-10 11:18:31] INFO root fetch - processPackages [django-permissions-policy]: Downloading https://files.pythonhosted.org/packages/07/d6/b53e8c778f373ae52f93b1bcdbaf0c92e6507f3eb1bcac610650664e185c/django-permissions-policy-4.8.0.tar.gz
+[2023-07-10 11:18:31] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2109.0.tar.gz]
+[2023-07-10 11:18:31] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2110.0.tar.gz]
+[2023-07-10 11:18:31] INFO root fetch - processPackages [gardener-cicd-cli]: Start processing: aleph-alpha-client
+[2023-07-10 11:18:31] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2023-07-10 11:18:31] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.998.0.tar.gz]
+[2023-07-10 11:18:31] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.999.0.tar.gz]
+[2023-07-10 11:18:31] INFO root fetch - processPackages [gardener-oci]: Start processing: buteo
+[2023-07-10 11:18:31] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2023-07-10 11:18:31] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2109.0.tar.gz]
+[2023-07-10 11:18:31] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2110.0.tar.gz]
+[2023-07-10 11:18:31] INFO root fetch - processPackages [gardener-cicd-dso]: Start processing: irene-pro
+[2023-07-10 11:18:31] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2023-07-10 11:18:31] INFO root fetch - processPackages [aleph-alpha-client]: New version: [3.1.5] Old Version: [3.1.4]
+[2023-07-10 11:18:31] INFO root fetch - processPackages [buteo]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-10 11:18:31] INFO root fetch - processPackages [irene-pro]: New version: [0.0.93] Old Version: [0.0.92]
+[2023-07-10 11:18:31] INFO root fetch - processPackages [django-permissions-policy]: Downloading https://files.pythonhosted.org/packages/20/17/042d713cf10c64ddd0da7ddd8793b55cab2f93fc78594d5516ee0c291134/django-permissions-policy-4.9.0.tar.gz
+[2023-07-10 11:18:31] INFO root fetch - processPackages [buteo]: Downloading https://files.pythonhosted.org/packages/30/1f/24a135d7a94d521f7525f83c54b3620b834740839a99f1cb107373bdbec4/buteo-0.9.8.tar.gz
+[2023-07-10 11:18:31] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/02/f8/5f8c005e957ba67e3f01e30150fee4e465977f0667d2b389d45bbd99201b/irene_pro-0.0.92.tar.gz
+[2023-07-10 11:18:31] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2109.0.tar.gz]
+[2023-07-10 11:18:31] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2110.0.tar.gz]
+[2023-07-10 11:18:31] INFO root fetch - processPackages [gardener-cicd-whd]: Start processing: ramodels
+[2023-07-10 11:18:31] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-base-1.2109.0.tar.gz]
+[2023-07-10 11:18:31] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2023-07-10 11:18:31] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-base-1.2110.0.tar.gz]
+[2023-07-10 11:18:31] INFO root fetch - processPackages [tksheet]: Remove: archive file [/home/abi/fetcher/tmp/tksheet-6.2.1.tar.gz]
+[2023-07-10 11:18:31] INFO root fetch - processPackages [gardener-cicd-base]: Start processing: dipex
+[2023-07-10 11:18:31] INFO root fetch - processPackages [tksheet]: Remove: archive file [/home/abi/fetcher/tmp/tksheet-6.2.2.tar.gz]
+[2023-07-10 11:18:31] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2023-07-10 11:18:31] INFO root fetch - processPackages [aleph-alpha-client]: Downloading https://files.pythonhosted.org/packages/8c/9a/cd6ad4b2bf0244deccfb2a097d3283dfece6d6800236c659cdc66c873b27/aleph-alpha-client-3.1.4.tar.gz
+[2023-07-10 11:18:31] INFO root fetch - processPackages [tksheet]: Start processing: gnssrefl
+[2023-07-10 11:18:31] INFO root fetch - main [MainThread]: End processing [tksheet]: success
+[2023-07-10 11:18:31] INFO root fetch - processPackages [django-permissions-policy]: executing diffoscope
+[2023-07-10 11:18:31] INFO root fetch - processPackages [django-permissions-policy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-permissions-policy-4.8.0.tar.gz tmp/django-permissions-policy-4.9.0.tar.gz --markdown 20230710/d/django-permissions-policy/4.8.0-4.9.0/diff.md --exclude *.pyd
+[2023-07-10 11:18:31] INFO root fetch - processPackages [django-mysql]: Remove: archive file [/home/abi/fetcher/tmp/django-mysql-4.8.0.tar.gz]
+[2023-07-10 11:18:31] INFO root fetch - processPackages [django-mysql]: Remove: archive file [/home/abi/fetcher/tmp/django_mysql-4.9.0.tar.gz]
+[2023-07-10 11:18:31] INFO root fetch - processPackages [django-mysql]: Start processing: numpoly
+[2023-07-10 11:18:31] INFO root fetch - main [MainThread]: End processing [django-mysql]: success
+[2023-07-10 11:18:31] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-07-10 11:18:31] INFO root fetch - processPackages [gnssrefl]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-07-10 11:18:31] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-07-10 11:18:31] INFO root fetch - processPackages [numpoly]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-10 11:18:32] INFO root fetch - processPackages [buteo]: Downloading https://files.pythonhosted.org/packages/ff/14/50e63a5bd644b443b28af3c2bbe6c1aa1cc7f3e7a03a92253919d541c3de/buteo-0.9.9.tar.gz
+[2023-07-10 11:18:32] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-07-10 11:18:32] INFO root fetch - processPackages [buteo]: executing diffoscope
+[2023-07-10 11:18:32] INFO root fetch - processPackages [buteo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buteo-0.9.8.tar.gz tmp/buteo-0.9.9.tar.gz --markdown 20230710/b/buteo/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-10 11:18:32] INFO root fetch - processPackages [aleph-alpha-client]: Downloading https://files.pythonhosted.org/packages/af/68/fc4de617243d199aa731bf0497dd33be2212a1b6e24f065fa05a1af21497/aleph-alpha-client-3.1.5.tar.gz
+[2023-07-10 11:18:32] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/ca/fb/bcdbc34d4ffff4b37acd3e2fb76f42bcea1844762d4b998c319652fc6b38/dipex-4.9.1.tar.gz
+[2023-07-10 11:18:32] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/d9/52/8833efb0ca5971cd662b66d8f9e0cf85fca24e9e7da3d70d849bc0aa735b/irene_pro-0.0.93.tar.gz
+[2023-07-10 11:18:32] INFO root fetch - processPackages [gnssrefl]: Downloading https://files.pythonhosted.org/packages/6d/74/042b227041bd31540fcbcbadbb03698dfc8ad4b9308ca23fa5a8ef1f530a/gnssrefl-1.4.1.tar.gz
+[2023-07-10 11:18:32] INFO root fetch - processPackages [numpoly]: Downloading https://files.pythonhosted.org/packages/f8/34/c60130899a66711d46c725d885376839f5ef213db0a0a1f8aa31cc09ab4f/numpoly-1.2.8.tar.gz
+[2023-07-10 11:18:32] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.616.tar.gz]
+[2023-07-10 11:18:32] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.815.tar.gz]
+[2023-07-10 11:18:32] INFO root fetch - processPackages [finbourne-access-sdk]: Start processing: catcli
+[2023-07-10 11:18:32] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-07-10 11:18:32] INFO root fetch - processPackages [aleph-alpha-client]: executing diffoscope
+[2023-07-10 11:18:32] INFO root fetch - processPackages [aleph-alpha-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aleph-alpha-client-3.1.4.tar.gz tmp/aleph-alpha-client-3.1.5.tar.gz --markdown 20230710/a/aleph-alpha-client/3.1.4-3.1.5/diff.md --exclude *.pyd
+[2023-07-10 11:18:32] INFO root fetch - processPackages [catcli]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-10 11:18:32] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-07-10 11:18:32] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.0.92.tar.gz tmp/irene_pro-0.0.93.tar.gz --markdown 20230710/i/irene-pro/0.0.92-0.0.93/diff.md --exclude *.pyd
+[2023-07-10 11:18:32] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-07-10 11:18:32] INFO root fetch - processPackages [numpoly]: Downloading https://files.pythonhosted.org/packages/fc/fa/efb0a6a816ab239e8d91448007984e4e2693236aaaba7c65f664f86e044f/numpoly-1.2.9.tar.gz
+[2023-07-10 11:18:32] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-07-10 11:18:32] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230710/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-07-10 11:18:32] INFO root fetch - processPackages [catcli]: Downloading https://files.pythonhosted.org/packages/84/f6/9b52f5244f1870b4c56be6ddeb7982fabc583c2f448be95b95d487cf2010/catcli-0.9.4.tar.gz
+[2023-07-10 11:18:32] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/d3/fa/fbf692999f299bb256217f34df9cc1e4ee2f9e1ae9e87e051b2b8b92aaa1/dipex-4.9.2.tar.gz
+[2023-07-10 11:18:32] INFO root fetch - processPackages [numpoly]: executing diffoscope
+[2023-07-10 11:18:32] INFO root fetch - processPackages [numpoly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numpoly-1.2.8.tar.gz tmp/numpoly-1.2.9.tar.gz --markdown 20230710/n/numpoly/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-10 11:18:33] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-07-10 11:18:33] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230710/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-07-10 11:18:33] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2109.0.tar.gz]
+[2023-07-10 11:18:33] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2110.0.tar.gz]
+[2023-07-10 11:18:33] INFO root fetch - processPackages [gardener-cicd-libs]: Start processing: cicv
+[2023-07-10 11:18:33] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2023-07-10 11:18:33] INFO root fetch - processPackages [cicv]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-10 11:18:33] INFO root fetch - processPackages [gnssrefl]: Downloading https://files.pythonhosted.org/packages/91/f7/e992d93b3273dcdac2cca87a05e8251690805998a1dcffc167a04479c00e/gnssrefl-1.4.2.tar.gz
+[2023-07-10 11:18:33] INFO root fetch - processPackages [catcli]: Downloading https://files.pythonhosted.org/packages/1e/18/ec64c8b227b0acafa22d692bf262a0af8bbd9122917a5e96385a0f2c304f/catcli-0.9.5.tar.gz
+[2023-07-10 11:18:33] INFO root fetch - processPackages [django-permissions-policy]: Remove: archive file [/home/abi/fetcher/tmp/django-permissions-policy-4.8.0.tar.gz]
+[2023-07-10 11:18:33] INFO root fetch - processPackages [django-permissions-policy]: Remove: archive file [/home/abi/fetcher/tmp/django-permissions-policy-4.9.0.tar.gz]
+[2023-07-10 11:18:33] INFO root fetch - main [MainThread]: End processing [django-permissions-policy]: success
+[2023-07-10 11:18:33] INFO root fetch - processPackages [catcli]: executing diffoscope
+[2023-07-10 11:18:33] INFO root fetch - processPackages [catcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catcli-0.9.4.tar.gz tmp/catcli-0.9.5.tar.gz --markdown 20230710/c/catcli/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-10 11:18:33] INFO root fetch - processPackages [cicv]: Downloading https://files.pythonhosted.org/packages/f6/a8/e6abae6def4a565194089534b690a2195777bf1d8e7ba26db9b6ed6036e4/cicv-0.0.1.tar.gz
+[2023-07-10 11:18:33] INFO root fetch - processPackages [cicv]: Downloading https://files.pythonhosted.org/packages/af/17/ffab71045946fdbb721953f083f06eaf09fbb7691da9055beafc205ac0e9/cicv-0.0.2.tar.gz
+[2023-07-10 11:18:33] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.92.tar.gz]
+[2023-07-10 11:18:33] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.93.tar.gz]
+[2023-07-10 11:18:33] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-07-10 11:18:34] INFO root fetch - processPackages [aleph-alpha-client]: Remove: archive file [/home/abi/fetcher/tmp/aleph-alpha-client-3.1.4.tar.gz]
+[2023-07-10 11:18:34] INFO root fetch - processPackages [aleph-alpha-client]: Remove: archive file [/home/abi/fetcher/tmp/aleph-alpha-client-3.1.5.tar.gz]
+[2023-07-10 11:18:34] INFO root fetch - main [MainThread]: End processing [aleph-alpha-client]: success
+[2023-07-10 11:18:34] INFO root fetch - processPackages [cicv]: executing diffoscope
+[2023-07-10 11:18:34] INFO root fetch - processPackages [cicv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cicv-0.0.1.tar.gz tmp/cicv-0.0.2.tar.gz --markdown 20230710/c/cicv/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-10 11:18:34] INFO root fetch - processPackages [buteo]: Remove: archive file [/home/abi/fetcher/tmp/buteo-0.9.8.tar.gz]
+[2023-07-10 11:18:34] INFO root fetch - processPackages [buteo]: Remove: archive file [/home/abi/fetcher/tmp/buteo-0.9.9.tar.gz]
+[2023-07-10 11:18:34] INFO root fetch - main [MainThread]: End processing [buteo]: success
+[2023-07-10 11:18:34] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-07-10 11:18:34] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-07-10 11:18:34] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-07-10 11:18:34] INFO root fetch - processPackages [gnssrefl]: executing diffoscope
+[2023-07-10 11:18:34] INFO root fetch - processPackages [gnssrefl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnssrefl-1.4.1.tar.gz tmp/gnssrefl-1.4.2.tar.gz --markdown 20230710/g/gnssrefl/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-07-10 11:18:34] INFO root fetch - processPackages [catcli]: Remove: archive file [/home/abi/fetcher/tmp/catcli-0.9.4.tar.gz]
+[2023-07-10 11:18:34] INFO root fetch - processPackages [catcli]: Remove: archive file [/home/abi/fetcher/tmp/catcli-0.9.5.tar.gz]
+[2023-07-10 11:18:34] INFO root fetch - main [MainThread]: End processing [catcli]: success
+[2023-07-10 11:18:34] INFO root fetch - processPackages [numpoly]: Remove: archive file [/home/abi/fetcher/tmp/numpoly-1.2.8.tar.gz]
+[2023-07-10 11:18:34] INFO root fetch - processPackages [numpoly]: Remove: archive file [/home/abi/fetcher/tmp/numpoly-1.2.9.tar.gz]
+[2023-07-10 11:18:34] INFO root fetch - main [MainThread]: End processing [numpoly]: success
+[2023-07-10 11:18:35] INFO root fetch - processPackages [cicv]: Remove: archive file [/home/abi/fetcher/tmp/cicv-0.0.1.tar.gz]
+[2023-07-10 11:18:35] INFO root fetch - processPackages [cicv]: Remove: archive file [/home/abi/fetcher/tmp/cicv-0.0.2.tar.gz]
+[2023-07-10 11:18:35] INFO root fetch - main [MainThread]: End processing [cicv]: success
+[2023-07-10 11:18:35] INFO root fetch - processPackages [dipex]: Remove: archive file [/home/abi/fetcher/tmp/dipex-4.9.1.tar.gz]
+[2023-07-10 11:18:35] INFO root fetch - processPackages [dipex]: Remove: archive file [/home/abi/fetcher/tmp/dipex-4.9.2.tar.gz]
+[2023-07-10 11:18:35] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-07-10 11:18:38] INFO root fetch - processPackages [gnssrefl]: Remove: archive file [/home/abi/fetcher/tmp/gnssrefl-1.4.1.tar.gz]
+[2023-07-10 11:18:38] INFO root fetch - processPackages [gnssrefl]: Remove: archive file [/home/abi/fetcher/tmp/gnssrefl-1.4.2.tar.gz]
+[2023-07-10 11:18:38] INFO root fetch - main [MainThread]: End processing [gnssrefl]: success
+[2023-07-10 11:18:38] INFO root fetch - main [MainThread]: Store serial: [18828839]
