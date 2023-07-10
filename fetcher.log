@@ -5013,3 +5013,74 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 03:40:10] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
 [2023-07-10 03:40:10] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
 [2023-07-10 03:40:10] INFO root fetch - main [MainThread]: Store serial: [18825579]
+[2023-07-10 03:45:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18825579]
+[2023-07-10 03:45:19] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-10 03:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qtaf
+[2023-07-10 03:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-pytorch
+[2023-07-10 03:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ai2-kit
+[2023-07-10 03:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-scipy
+[2023-07-10 03:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-sphinx
+[2023-07-10 03:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: proactive
+[2023-07-10 03:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ipylivebash
+[2023-07-10 03:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-django
+[2023-07-10 03:45:19] INFO root fetch - processPackages [qtaf]: New version: [5.6.5] Old Version: [5.6.4]
+[2023-07-10 03:45:19] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-10 03:45:19] INFO root fetch - processPackages [ipylivebash]: New version: [0.2.0a1] Old Version: [0.2.0a0]
+[2023-07-10 03:45:19] INFO root fetch - processPackages [ai2-kit]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-10 03:45:19] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-10 03:45:19] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-07-10 03:45:19] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-10 03:45:19] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-10 03:45:19] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-07-10 03:45:19] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/eb/f4/ea38d8c9f78873edcbb17216f185baee2019ecb183cd80b334c593f2b1bc/ai2_kit-0.3.8.tar.gz
+[2023-07-10 03:45:19] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-07-10 03:45:19] INFO root fetch - processPackages [qtaf]: Downloading https://files.pythonhosted.org/packages/ef/e3/dc07ca1fe089661c60602d33606e75e0e080ed906fe04e31994cc3bf3069/qtaf-5.6.4.tar.gz
+[2023-07-10 03:45:19] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-07-10 03:45:19] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-07-10 03:45:20] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-07-10 03:45:20] INFO root fetch - processPackages [ipylivebash]: Downloading https://files.pythonhosted.org/packages/f5/53/5b1a3bfa35780cbf2cff5189bad1ab289803d7e281d79374be22a2372bea/ipylivebash-0.2.0a0.tar.gz
+[2023-07-10 03:45:20] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-07-10 03:45:20] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-07-10 03:45:20] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-07-10 03:45:20] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/f8/ec/3044fde579418570279eb9f4c2d60facdbd573ed724ec7fa07e3a4c940aa/ai2_kit-0.3.9.tar.gz
+[2023-07-10 03:45:20] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-07-10 03:45:20] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-07-10 03:45:20] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-07-10 03:45:20] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-07-10 03:45:20] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230710/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-10 03:45:20] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-07-10 03:45:20] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230710/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-10 03:45:20] INFO root fetch - processPackages [ai2-kit]: executing diffoscope
+[2023-07-10 03:45:20] INFO root fetch - processPackages [ai2-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai2_kit-0.3.8.tar.gz tmp/ai2_kit-0.3.9.tar.gz --markdown 20230710/a/ai2-kit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-10 03:45:20] INFO root fetch - processPackages [qtaf]: Downloading https://files.pythonhosted.org/packages/9f/8a/4dbbcfdac5ff8a9409609d776c40f0567d8133c280f3caa0f3fa0c6c073d/qtaf-5.6.5.tar.gz
+[2023-07-10 03:45:20] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-07-10 03:45:20] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230710/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-10 03:45:20] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-07-10 03:45:20] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230710/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-10 03:45:20] INFO root fetch - processPackages [qtaf]: executing diffoscope
+[2023-07-10 03:45:20] INFO root fetch - processPackages [qtaf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtaf-5.6.4.tar.gz tmp/qtaf-5.6.5.tar.gz --markdown 20230710/q/qtaf/5.6.4-5.6.5/diff.md --exclude *.pyd
+[2023-07-10 03:45:20] INFO root fetch - processPackages [ipylivebash]: Downloading https://files.pythonhosted.org/packages/ed/ce/60cc319860913b23cd928f6e25c615cb47a7faec0ca4c3aedf0f766995a1/ipylivebash-0.2.0a1.tar.gz
+[2023-07-10 03:45:21] INFO root fetch - processPackages [ipylivebash]: executing diffoscope
+[2023-07-10 03:45:21] INFO root fetch - processPackages [ipylivebash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipylivebash-0.2.0a0.tar.gz tmp/ipylivebash-0.2.0a1.tar.gz --markdown 20230710/i/ipylivebash/0.2.0a0-0.2.0a1/diff.md --exclude *.pyd
+[2023-07-10 03:45:21] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-07-10 03:45:21] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-07-10 03:45:21] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-07-10 03:45:21] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-07-10 03:45:21] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-07-10 03:45:21] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-07-10 03:45:21] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.3.8.tar.gz]
+[2023-07-10 03:45:21] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.3.9.tar.gz]
+[2023-07-10 03:45:21] INFO root fetch - main [MainThread]: End processing [ai2-kit]: success
+[2023-07-10 03:45:21] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-07-10 03:45:21] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-07-10 03:45:21] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-07-10 03:45:21] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-07-10 03:45:21] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-07-10 03:45:21] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-07-10 03:45:22] INFO root fetch - processPackages [qtaf]: Remove: archive file [/home/abi/fetcher/tmp/qtaf-5.6.4.tar.gz]
+[2023-07-10 03:45:22] INFO root fetch - processPackages [qtaf]: Remove: archive file [/home/abi/fetcher/tmp/qtaf-5.6.5.tar.gz]
+[2023-07-10 03:45:22] INFO root fetch - main [MainThread]: End processing [qtaf]: success
+[2023-07-10 03:45:31] INFO root fetch - processPackages [ipylivebash]: Remove: archive file [/home/abi/fetcher/tmp/ipylivebash-0.2.0a0.tar.gz]
+[2023-07-10 03:45:31] INFO root fetch - processPackages [ipylivebash]: Remove: archive file [/home/abi/fetcher/tmp/ipylivebash-0.2.0a1.tar.gz]
+[2023-07-10 03:45:31] INFO root fetch - main [MainThread]: End processing [ipylivebash]: success
+[2023-07-10 03:45:31] INFO root fetch - main [MainThread]: Store serial: [18825604]
