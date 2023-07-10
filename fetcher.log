@@ -12452,3 +12452,279 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 11:02:37] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.9.tar.gz]
 [2023-07-10 11:02:37] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
 [2023-07-10 11:02:37] INFO root fetch - main [MainThread]: Store serial: [18828603]
+[2023-07-10 11:07:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18828603]
+[2023-07-10 11:07:53] INFO root fetch - main [MainThread]: Found 33 changed packages
+[2023-07-10 11:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: otoole
+[2023-07-10 11:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: example-package-amiaoamiao
+[2023-07-10 11:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pudu
+[2023-07-10 11:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: luminesce-sdk-preview
+[2023-07-10 11:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vfsfusepy
+[2023-07-10 11:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastcopilot
+[2023-07-10 11:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fastcopilot
+[2023-07-10 11:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastcopilot
+[2023-07-10 11:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fastcopilot
+[2023-07-10 11:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fastcopilot
+[2023-07-10 11:07:53] INFO root fetch - processPackages [fastcopilot]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-10 11:07:54] WARNING root fetch - processPackages [example-package-amiaoamiao]: Skipping, unable to determine old version
+[2023-07-10 11:07:54] INFO root fetch - processPackages [example-package-amiaoamiao]: Start processing: fastcopilot
+[2023-07-10 11:07:54] INFO root fetch - main [MainThread]: End processing [example-package-amiaoamiao] error
+[2023-07-10 11:07:54] INFO root fetch - processPackages [otoole]: New version: [1.0.4a2] Old Version: [1.0.4]
+[2023-07-10 11:07:54] INFO root fetch - processPackages [vfsfusepy]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-07-10 11:07:54] INFO root fetch - processPackages [fastcopilot]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-10 11:07:54] INFO root fetch - processPackages [fastcopilot]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-10 11:07:54] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-07-10 11:07:54] INFO root fetch - processPackages [pudu]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-10 11:07:54] INFO root fetch - processPackages [fastcopilot]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-10 11:07:54] INFO root fetch - processPackages [fastcopilot]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-10 11:07:54] INFO root fetch - processPackages [fastcopilot]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-10 11:07:54] INFO root fetch - processPackages [otoole]: Downloading https://files.pythonhosted.org/packages/d9/58/d7f1fd56a815b60b61bc42ecdc459c158779368327b95c2fc496f567124b/otoole-1.0.4.tar.gz
+[2023-07-10 11:07:54] INFO root fetch - processPackages [fastcopilot]: Downloading https://files.pythonhosted.org/packages/c7/50/befabd5b17c0af6a144eed1ec5623571b68341e66a200df8667db1696bd0/fastcopilot-0.4.0.tar.gz
+[2023-07-10 11:07:54] INFO root fetch - processPackages [fastcopilot]: Downloading https://files.pythonhosted.org/packages/c7/50/befabd5b17c0af6a144eed1ec5623571b68341e66a200df8667db1696bd0/fastcopilot-0.4.0.tar.gz
+[2023-07-10 11:07:54] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2023-07-10 11:07:54] INFO root fetch - processPackages [fastcopilot]: Downloading https://files.pythonhosted.org/packages/c7/50/befabd5b17c0af6a144eed1ec5623571b68341e66a200df8667db1696bd0/fastcopilot-0.4.0.tar.gz
+[2023-07-10 11:07:54] INFO root fetch - processPackages [fastcopilot]: Downloading https://files.pythonhosted.org/packages/c7/50/befabd5b17c0af6a144eed1ec5623571b68341e66a200df8667db1696bd0/fastcopilot-0.4.0.tar.gz
+[2023-07-10 11:07:54] INFO root fetch - processPackages [vfsfusepy]: Downloading https://files.pythonhosted.org/packages/3a/de/b8e8ac0c24669b3bcf16a4f9dd9e4dada2fb4a4649b0afc0a2d2a3daeb7b/vfsfusepy-0.2.2.tar.gz
+[2023-07-10 11:07:54] INFO root fetch - processPackages [fastcopilot]: Downloading https://files.pythonhosted.org/packages/c7/50/befabd5b17c0af6a144eed1ec5623571b68341e66a200df8667db1696bd0/fastcopilot-0.4.0.tar.gz
+[2023-07-10 11:07:54] INFO root fetch - processPackages [fastcopilot]: Downloading https://files.pythonhosted.org/packages/c7/50/befabd5b17c0af6a144eed1ec5623571b68341e66a200df8667db1696bd0/fastcopilot-0.4.0.tar.gz
+[2023-07-10 11:07:54] INFO root fetch - processPackages [pudu]: Downloading https://files.pythonhosted.org/packages/0d/bf/bb2e6dc39edd7a6ed5789a04e8f41096611de909dbf60ed2896eee7e257f/pudu-0.2.0.tar.gz
+[2023-07-10 11:07:54] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2023-07-10 11:07:55] INFO root fetch - processPackages [fastcopilot]: Downloading https://files.pythonhosted.org/packages/64/20/314c4ecd327aa64750c60512523fa3ab7eb7cdd1d926f38094dfb622027a/fastcopilot-0.5.0.tar.gz
+[2023-07-10 11:07:55] INFO root fetch - processPackages [fastcopilot]: Downloading https://files.pythonhosted.org/packages/64/20/314c4ecd327aa64750c60512523fa3ab7eb7cdd1d926f38094dfb622027a/fastcopilot-0.5.0.tar.gz
+[2023-07-10 11:07:55] INFO root fetch - processPackages [fastcopilot]: Downloading https://files.pythonhosted.org/packages/64/20/314c4ecd327aa64750c60512523fa3ab7eb7cdd1d926f38094dfb622027a/fastcopilot-0.5.0.tar.gz
+[2023-07-10 11:07:55] INFO root fetch - processPackages [fastcopilot]: Downloading https://files.pythonhosted.org/packages/64/20/314c4ecd327aa64750c60512523fa3ab7eb7cdd1d926f38094dfb622027a/fastcopilot-0.5.0.tar.gz
+[2023-07-10 11:07:55] INFO root fetch - processPackages [fastcopilot]: Downloading https://files.pythonhosted.org/packages/64/20/314c4ecd327aa64750c60512523fa3ab7eb7cdd1d926f38094dfb622027a/fastcopilot-0.5.0.tar.gz
+[2023-07-10 11:07:55] INFO root fetch - processPackages [fastcopilot]: Downloading https://files.pythonhosted.org/packages/64/20/314c4ecd327aa64750c60512523fa3ab7eb7cdd1d926f38094dfb622027a/fastcopilot-0.5.0.tar.gz
+[2023-07-10 11:07:55] INFO root fetch - processPackages [vfsfusepy]: Downloading https://files.pythonhosted.org/packages/c4/37/dbf1e201662c5b5fb66dec6a42ab24e045ad4569ca6fda9c89a9569edfaf/vfsfusepy-0.3.0.tar.gz
+[2023-07-10 11:07:55] INFO root fetch - processPackages [otoole]: Downloading https://files.pythonhosted.org/packages/b4/7d/817da67e76fcdd80f01903c6a5d782648d2c9fbe836c5deba5a2a1fa9d0d/otoole-1.0.4a2.tar.gz
+[2023-07-10 11:07:55] INFO root fetch - processPackages [pudu]: Downloading https://files.pythonhosted.org/packages/2b/77/61d470ab2536224f138501d9aeee432ecd3c8256e744a20f644869f94cf3/pudu-0.3.0.tar.gz
+[2023-07-10 11:07:55] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-07-10 11:07:55] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230710/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-07-10 11:07:55] INFO root fetch - processPackages [fastcopilot]: executing diffoscope
+[2023-07-10 11:07:55] INFO root fetch - processPackages [fastcopilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastcopilot-0.4.0.tar.gz tmp/fastcopilot-0.5.0.tar.gz --markdown 20230710/f/fastcopilot/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-10 11:07:55] INFO root fetch - processPackages [fastcopilot]: executing diffoscope
+[2023-07-10 11:07:55] INFO root fetch - processPackages [fastcopilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastcopilot-0.4.0.tar.gz tmp/fastcopilot-0.5.0.tar.gz --markdown 20230710/f/fastcopilot/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-10 11:07:55] INFO root fetch - processPackages [fastcopilot]: executing diffoscope
+[2023-07-10 11:07:55] INFO root fetch - processPackages [fastcopilot]: executing diffoscope
+[2023-07-10 11:07:55] INFO root fetch - processPackages [fastcopilot]: executing diffoscope
+[2023-07-10 11:07:55] INFO root fetch - processPackages [fastcopilot]: executing diffoscope
+[2023-07-10 11:07:55] INFO root fetch - processPackages [fastcopilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastcopilot-0.4.0.tar.gz tmp/fastcopilot-0.5.0.tar.gz --markdown 20230710/f/fastcopilot/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-10 11:07:55] INFO root fetch - processPackages [fastcopilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastcopilot-0.4.0.tar.gz tmp/fastcopilot-0.5.0.tar.gz --markdown 20230710/f/fastcopilot/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-10 11:07:55] INFO root fetch - processPackages [fastcopilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastcopilot-0.4.0.tar.gz tmp/fastcopilot-0.5.0.tar.gz --markdown 20230710/f/fastcopilot/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-10 11:07:55] INFO root fetch - processPackages [fastcopilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastcopilot-0.4.0.tar.gz tmp/fastcopilot-0.5.0.tar.gz --markdown 20230710/f/fastcopilot/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-10 11:07:55] INFO root fetch - processPackages [vfsfusepy]: executing diffoscope
+[2023-07-10 11:07:55] INFO root fetch - processPackages [vfsfusepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vfsfusepy-0.2.2.tar.gz tmp/vfsfusepy-0.3.0.tar.gz --markdown 20230710/v/vfsfusepy/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-07-10 11:07:55] INFO root fetch - processPackages [pudu]: executing diffoscope
+[2023-07-10 11:07:55] INFO root fetch - processPackages [pudu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pudu-0.2.0.tar.gz tmp/pudu-0.3.0.tar.gz --markdown 20230710/p/pudu/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-10 11:07:55] INFO root fetch - processPackages [otoole]: executing diffoscope
+[2023-07-10 11:07:55] INFO root fetch - processPackages [otoole]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otoole-1.0.4.tar.gz tmp/otoole-1.0.4a2.tar.gz --markdown 20230710/o/otoole/1.0.4-1.0.4a2/diff.md --exclude *.pyd
+[2023-07-10 11:07:57] INFO root fetch - processPackages [fastcopilot]: Remove: archive file [/home/abi/fetcher/tmp/fastcopilot-0.4.0.tar.gz]
+[2023-07-10 11:07:57] INFO root fetch - processPackages [fastcopilot]: Remove: archive file [/home/abi/fetcher/tmp/fastcopilot-0.5.0.tar.gz]
+[2023-07-10 11:07:57] INFO root fetch - processPackages [fastcopilot]: Start processing: fastcopilot
+[2023-07-10 11:07:57] INFO root fetch - main [MainThread]: End processing [fastcopilot]: success
+[2023-07-10 11:07:57] INFO root fetch - processPackages [fastcopilot]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-10 11:07:57] INFO root fetch - processPackages [fastcopilot]: Downloading https://files.pythonhosted.org/packages/c7/50/befabd5b17c0af6a144eed1ec5623571b68341e66a200df8667db1696bd0/fastcopilot-0.4.0.tar.gz
+[2023-07-10 11:07:57] INFO root fetch - processPackages [fastcopilot]: Start processing: autogluon.common
+[2023-07-10 11:07:57] INFO root fetch - main [MainThread]: End processing [fastcopilot]: success
+[2023-07-10 11:07:57] INFO root fetch - processPackages [fastcopilot]: Start processing: otoole
+[2023-07-10 11:07:57] INFO root fetch - main [MainThread]: End processing [fastcopilot]: success
+[2023-07-10 11:07:57] INFO root fetch - processPackages [otoole]: New version: [1.0.4a2] Old Version: [1.0.4]
+[2023-07-10 11:07:57] INFO root fetch - processPackages [autogluon.common]: New version: [0.8.3b20230710] Old Version: [0.8.3b20230709]
+[2023-07-10 11:07:57] INFO root fetch - processPackages [fastcopilot]: Downloading https://files.pythonhosted.org/packages/64/20/314c4ecd327aa64750c60512523fa3ab7eb7cdd1d926f38094dfb622027a/fastcopilot-0.5.0.tar.gz
+[2023-07-10 11:07:57] INFO root fetch - processPackages [fastcopilot]: Remove: archive file [/home/abi/fetcher/tmp/fastcopilot-0.4.0.tar.gz]
+[2023-07-10 11:07:57] INFO root fetch - processPackages [fastcopilot]: Start processing: autogluon.core
+[2023-07-10 11:07:57] INFO root fetch - main [MainThread]: End processing [fastcopilot]: success
+[2023-07-10 11:07:57] INFO root fetch - processPackages [fastcopilot]: Start processing: crossval-ensemble
+[2023-07-10 11:07:57] INFO root fetch - main [MainThread]: End processing [fastcopilot]: success
+[2023-07-10 11:07:57] INFO root fetch - processPackages [autogluon.core]: New version: [0.8.3b20230710] Old Version: [0.8.3b20230709]
+[2023-07-10 11:07:57] INFO root fetch - processPackages [vfsfusepy]: Remove: archive file [/home/abi/fetcher/tmp/vfsfusepy-0.2.2.tar.gz]
+[2023-07-10 11:07:57] INFO root fetch - processPackages [vfsfusepy]: Remove: archive file [/home/abi/fetcher/tmp/vfsfusepy-0.3.0.tar.gz]
+[2023-07-10 11:07:57] INFO root fetch - processPackages [fastcopilot]: Start processing: autogluon.features
+[2023-07-10 11:07:57] INFO root fetch - main [MainThread]: End processing [fastcopilot]: success
+[2023-07-10 11:07:57] INFO root fetch - processPackages [pudu]: Remove: archive file [/home/abi/fetcher/tmp/pudu-0.2.0.tar.gz]
+[2023-07-10 11:07:57] INFO root fetch - processPackages [vfsfusepy]: Start processing: autogluon.tabular
+[2023-07-10 11:07:57] INFO root fetch - main [MainThread]: End processing [vfsfusepy]: success
+[2023-07-10 11:07:57] INFO root fetch - processPackages [pudu]: Remove: archive file [/home/abi/fetcher/tmp/pudu-0.3.0.tar.gz]
+[2023-07-10 11:07:57] INFO root fetch - processPackages [pudu]: Start processing: autogluon.multimodal
+[2023-07-10 11:07:57] INFO root fetch - main [MainThread]: End processing [pudu]: success
+[2023-07-10 11:07:57] INFO root fetch - processPackages [crossval-ensemble]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-10 11:07:57] INFO root fetch - processPackages [otoole]: executing diffoscope
+[2023-07-10 11:07:57] INFO root fetch - processPackages [otoole]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otoole-1.0.4.tar.gz tmp/otoole-1.0.4a2.tar.gz --markdown 20230710/o/otoole/1.0.4-1.0.4a2/diff.md --exclude *.pyd
+[2023-07-10 11:07:57] INFO root fetch - processPackages [fastcopilot]: executing diffoscope
+[2023-07-10 11:07:57] INFO root fetch - processPackages [fastcopilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastcopilot-0.4.0.tar.gz tmp/fastcopilot-0.5.0.tar.gz --markdown 20230710/f/fastcopilot/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-10 11:07:57] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2023-07-10 11:07:57] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2023-07-10 11:07:57] INFO root fetch - processPackages [autogluon.tabular]: New version: [0.8.3b20230710] Old Version: [0.8.3b20230709]
+[2023-07-10 11:07:57] INFO root fetch - processPackages [luminesce-sdk-preview]: Start processing: autogluon.timeseries
+[2023-07-10 11:07:57] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-07-10 11:07:57] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/e0/54/ca4bda076b22cbf37bd599208bddabdaa7699700567ba2726255c6c1e502/autogluon.common-0.8.3b20230709.tar.gz
+[2023-07-10 11:07:57] INFO root fetch - processPackages [autogluon.features]: New version: [0.8.3b20230710] Old Version: [0.8.3b20230709]
+[2023-07-10 11:07:57] INFO root fetch - processPackages [autogluon.multimodal]: New version: [0.8.3b20230710] Old Version: [0.8.3b20230709]
+[2023-07-10 11:07:57] INFO root fetch - processPackages [autogluon.timeseries]: New version: [0.8.3b20230710] Old Version: [0.8.3b20230709]
+[2023-07-10 11:07:57] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/9a/70/8545c43fa65e61573d6118d9dc134d163234f9b55564ea9c0ca84e6318b0/autogluon.core-0.8.3b20230709.tar.gz
+[2023-07-10 11:07:57] INFO root fetch - processPackages [crossval-ensemble]: Downloading https://files.pythonhosted.org/packages/fa/c4/5aa33d169b4b9a467cba261de7463e3a6d3077c37af0d91071f210d834c4/crossval_ensemble-0.0.0.tar.gz
+[2023-07-10 11:07:58] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/67/c4/c4d2f1214c22421d0420ba9e11ed35e67edbde1570e554e70f786c195cc9/autogluon.tabular-0.8.3b20230709.tar.gz
+[2023-07-10 11:07:58] INFO root fetch - processPackages [otoole]: Remove: archive file [/home/abi/fetcher/tmp/otoole-1.0.4.tar.gz]
+[2023-07-10 11:07:58] INFO root fetch - processPackages [otoole]: Remove: archive file [/home/abi/fetcher/tmp/otoole-1.0.4a2.tar.gz]
+[2023-07-10 11:07:58] INFO root fetch - processPackages [otoole]: Start processing: flake8-module-docstring-import
+[2023-07-10 11:07:58] INFO root fetch - main [MainThread]: End processing [otoole]: success
+[2023-07-10 11:07:58] WARNING root fetch - processPackages [flake8-module-docstring-import]: Skipping, unable to determine old version
+[2023-07-10 11:07:58] INFO root fetch - processPackages [flake8-module-docstring-import]: Start processing: autogluon
+[2023-07-10 11:07:58] INFO root fetch - main [MainThread]: End processing [flake8-module-docstring-import] error
+[2023-07-10 11:07:58] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/7a/c6/fed930de49c0edb100999e885ac8df9c87539e77129c5db6ff3c6dafd8b9/autogluon.features-0.8.3b20230709.tar.gz
+[2023-07-10 11:07:58] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/e1/ce/6bfddb96ab1fcc328bc85a652d7e5b5c2b8cee22916090c2d55884600099/autogluon.multimodal-0.8.3b20230709.tar.gz
+[2023-07-10 11:07:58] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/17/3c/6806513aa04dc01bcd6dcbd4282a90f27b8d9d97121d8cd846124e6855a9/autogluon.timeseries-0.8.3b20230709.tar.gz
+[2023-07-10 11:07:58] ERROR root fetch - processPackages [fastcopilot]: Diffoscope failed: time="2023-07-10T11:07:57+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/fastcopilot-0.4.0.tar.gz: No such file or directory
+
+[2023-07-10 11:07:58] INFO root fetch - processPackages [fastcopilot]: Start processing: autogluon.eda
+[2023-07-10 11:07:58] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/cb/0d/8620e7935ae9c4a2711183b8f363896f2b670e489d731c167eb9eec3c44c/autogluon.common-0.8.3b20230710.tar.gz
+[2023-07-10 11:07:58] INFO root fetch - main [MainThread]: End processing [fastcopilot] error
+[2023-07-10 11:07:58] INFO root fetch - processPackages [autogluon]: New version: [0.8.3b20230710] Old Version: [0.8.3b20230709]
+[2023-07-10 11:07:58] ERROR root fetch - processPackages [otoole]: Diffoscope failed: time="2023-07-10T11:07:57+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/otoole-1.0.4.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/otoole-1.0.4a2.tar.gz: No such file or directory
+
+[2023-07-10 11:07:58] INFO root fetch - processPackages [otoole]: Start processing: pyhttpx
+[2023-07-10 11:07:58] INFO root fetch - main [MainThread]: End processing [otoole] error
+[2023-07-10 11:07:58] INFO root fetch - processPackages [autogluon.eda]: New version: [0.8.3b20230709] Old Version: [0.8.3b20230708]
+[2023-07-10 11:07:58] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/e5/10/7da5fd53107efb5cf1c7d456d684525eb81ffd6ab1f959a09549d356c263/autogluon.core-0.8.3b20230710.tar.gz
+[2023-07-10 11:07:58] INFO root fetch - processPackages [crossval-ensemble]: Downloading https://files.pythonhosted.org/packages/9e/34/1e9b561acb8a12b89259995ae2f58c386e233d7a6d0ba8984e7bff09b5fd/crossval_ensemble-0.0.1.tar.gz
+[2023-07-10 11:07:58] INFO root fetch - processPackages [autogluon.eda]: Downloading https://files.pythonhosted.org/packages/8f/4c/ae53e3d755d208315114a69f3838f1218b596c7971ca45cd27c03e8d86f1/autogluon.eda-0.8.3b20230708.tar.gz
+[2023-07-10 11:07:58] INFO root fetch - processPackages [pyhttpx]: New version: [2.10.9] Old Version: [2.10.8]
+[2023-07-10 11:07:58] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/d7/a6/7c593f1a991daa2047eb8672424adb724c633f0d656e79b827f21289dd9f/autogluon.tabular-0.8.3b20230710.tar.gz
+[2023-07-10 11:07:58] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2023-07-10 11:07:58] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-0.8.3b20230709.tar.gz tmp/autogluon.common-0.8.3b20230710.tar.gz --markdown 20230710/a/autogluon.common/0.8.3b20230709-0.8.3b20230710/diff.md --exclude *.pyd
+[2023-07-10 11:07:58] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/d3/70/88016e2df6196a41f9cd25813aa3e25bd67bed14d3f88d8dfc4dc1c8246f/autogluon-0.8.3b20230709.tar.gz
+[2023-07-10 11:07:58] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/cc/7f/4f74d49a97773e91c24166c42be90646c4acc3da2c244bc92395b60ccff3/autogluon.features-0.8.3b20230710.tar.gz
+[2023-07-10 11:07:58] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/64/73/5cc2bd14c328b0ff371b01e2aa52f5995fbfc47b6f0e58cedb70bba36ef4/autogluon.timeseries-0.8.3b20230710.tar.gz
+[2023-07-10 11:07:58] INFO root fetch - processPackages [crossval-ensemble]: executing diffoscope
+[2023-07-10 11:07:58] INFO root fetch - processPackages [crossval-ensemble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crossval_ensemble-0.0.0.tar.gz tmp/crossval_ensemble-0.0.1.tar.gz --markdown 20230710/c/crossval-ensemble/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-10 11:07:58] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/53/e0/eb319621cf0993aff9ba726dc7327f2dce9248e304caaa8cd7da837af91f/autogluon.multimodal-0.8.3b20230710.tar.gz
+[2023-07-10 11:07:58] INFO root fetch - processPackages [pyhttpx]: Downloading https://files.pythonhosted.org/packages/e8/7b/8f8de8c1845d046a8c6555caab2bab64211d8f348be59963d654c6028d42/pyhttpx-2.10.8.tar.gz
+[2023-07-10 11:07:58] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2023-07-10 11:07:58] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-0.8.3b20230709.tar.gz tmp/autogluon.core-0.8.3b20230710.tar.gz --markdown 20230710/a/autogluon.core/0.8.3b20230709-0.8.3b20230710/diff.md --exclude *.pyd
+[2023-07-10 11:07:58] INFO root fetch - processPackages [autogluon.tabular]: executing diffoscope
+[2023-07-10 11:07:58] INFO root fetch - processPackages [autogluon.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.tabular-0.8.3b20230709.tar.gz tmp/autogluon.tabular-0.8.3b20230710.tar.gz --markdown 20230710/a/autogluon.tabular/0.8.3b20230709-0.8.3b20230710/diff.md --exclude *.pyd
+[2023-07-10 11:07:58] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2023-07-10 11:07:58] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-0.8.3b20230709.tar.gz tmp/autogluon.features-0.8.3b20230710.tar.gz --markdown 20230710/a/autogluon.features/0.8.3b20230709-0.8.3b20230710/diff.md --exclude *.pyd
+[2023-07-10 11:07:58] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2023-07-10 11:07:58] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-0.8.3b20230709.tar.gz tmp/autogluon.timeseries-0.8.3b20230710.tar.gz --markdown 20230710/a/autogluon.timeseries/0.8.3b20230709-0.8.3b20230710/diff.md --exclude *.pyd
+[2023-07-10 11:07:58] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/3d/8c/145e640964d6dc4eb3c4f5dab2c35271081af9d8ed20e7bffb68fc779e21/autogluon-0.8.3b20230710.tar.gz
+[2023-07-10 11:07:58] INFO root fetch - processPackages [autogluon.eda]: Downloading https://files.pythonhosted.org/packages/47/62/1494298fddd67229aa7a73c192f4511e16b249481de13cca16668236f6af/autogluon.eda-0.8.3b20230709.tar.gz
+[2023-07-10 11:07:59] INFO root fetch - processPackages [autogluon.multimodal]: executing diffoscope
+[2023-07-10 11:07:59] INFO root fetch - processPackages [autogluon.multimodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.multimodal-0.8.3b20230709.tar.gz tmp/autogluon.multimodal-0.8.3b20230710.tar.gz --markdown 20230710/a/autogluon.multimodal/0.8.3b20230709-0.8.3b20230710/diff.md --exclude *.pyd
+[2023-07-10 11:07:59] INFO root fetch - processPackages [autogluon.eda]: executing diffoscope
+[2023-07-10 11:07:59] INFO root fetch - processPackages [autogluon.eda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.eda-0.8.3b20230708.tar.gz tmp/autogluon.eda-0.8.3b20230709.tar.gz --markdown 20230710/a/autogluon.eda/0.8.3b20230708-0.8.3b20230709/diff.md --exclude *.pyd
+[2023-07-10 11:07:59] INFO root fetch - processPackages [pyhttpx]: Downloading https://files.pythonhosted.org/packages/42/27/1c53acb55e76b786991c330e65d19e810d5b3acc2029a35f603b63a14b7c/pyhttpx-2.10.9.tar.gz
+[2023-07-10 11:07:59] INFO root fetch - processPackages [autogluon]: executing diffoscope
+[2023-07-10 11:07:59] INFO root fetch - processPackages [autogluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon-0.8.3b20230709.tar.gz tmp/autogluon-0.8.3b20230710.tar.gz --markdown 20230710/a/autogluon/0.8.3b20230709-0.8.3b20230710/diff.md --exclude *.pyd
+[2023-07-10 11:07:59] INFO root fetch - processPackages [pyhttpx]: executing diffoscope
+[2023-07-10 11:07:59] INFO root fetch - processPackages [pyhttpx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhttpx-2.10.8.tar.gz tmp/pyhttpx-2.10.9.tar.gz --markdown 20230710/p/pyhttpx/2.10.8-2.10.9/diff.md --exclude *.pyd
+[2023-07-10 11:08:00] INFO root fetch - processPackages [crossval-ensemble]: Remove: archive file [/home/abi/fetcher/tmp/crossval_ensemble-0.0.0.tar.gz]
+[2023-07-10 11:08:00] INFO root fetch - processPackages [crossval-ensemble]: Remove: archive file [/home/abi/fetcher/tmp/crossval_ensemble-0.0.1.tar.gz]
+[2023-07-10 11:08:00] INFO root fetch - processPackages [crossval-ensemble]: Start processing: IQM-Vis
+[2023-07-10 11:08:00] INFO root fetch - main [MainThread]: End processing [crossval-ensemble]: success
+[2023-07-10 11:08:00] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-0.8.3b20230709.tar.gz]
+[2023-07-10 11:08:00] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-0.8.3b20230710.tar.gz]
+[2023-07-10 11:08:00] INFO root fetch - processPackages [autogluon.common]: Start processing: autogluon.cloud
+[2023-07-10 11:08:00] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2023-07-10 11:08:00] INFO root fetch - processPackages [autogluon.cloud]: New version: [0.2.1b20230709] Old Version: [0.2.1b20230708]
+[2023-07-10 11:08:00] INFO root fetch - processPackages [IQM-Vis]: New version: [0.2.5.80] Old Version: [0.2.5.79]
+[2023-07-10 11:08:00] INFO root fetch - processPackages [autogluon.cloud]: Downloading https://files.pythonhosted.org/packages/d5/08/54d5c8e63a9459d9b5073d7294c7242d7bcb266770d922dd814975c304e9/autogluon.cloud-0.2.1b20230708.tar.gz
+[2023-07-10 11:08:00] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-0.8.3b20230709.tar.gz]
+[2023-07-10 11:08:00] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-0.8.3b20230710.tar.gz]
+[2023-07-10 11:08:00] INFO root fetch - processPackages [autogluon.features]: Start processing: gitlint-core
+[2023-07-10 11:08:00] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2023-07-10 11:08:00] INFO root fetch - processPackages [IQM-Vis]: Downloading https://files.pythonhosted.org/packages/ca/f7/e68f533c11877b0de2d838e6859335a3bf7dbe532a3fe40295c25066863f/IQM-Vis-0.2.5.79.tar.gz
+[2023-07-10 11:08:01] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-0.8.3b20230709.tar.gz]
+[2023-07-10 11:08:01] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-0.8.3b20230710.tar.gz]
+[2023-07-10 11:08:01] INFO root fetch - processPackages [autogluon]: Start processing: gitlint
+[2023-07-10 11:08:01] INFO root fetch - main [MainThread]: End processing [autogluon]: success
+[2023-07-10 11:08:01] WARNING root fetch - processPackages [IQM-Vis]: Skipping package: exceeds size limit 15516638>=10485760
+[2023-07-10 11:08:01] INFO root fetch - processPackages [IQM-Vis]: Start processing: craft-ai-sdk
+[2023-07-10 11:08:01] INFO root fetch - main [MainThread]: End processing [IQM-Vis] error
+[2023-07-10 11:08:01] INFO root fetch - processPackages [gitlint-core]: New version: [0.20.0.dev9] Old Version: [0.20.0.dev8]
+[2023-07-10 11:08:01] INFO root fetch - processPackages [autogluon.cloud]: Downloading https://files.pythonhosted.org/packages/83/c3/f73875f0c6b33c75f3732457c279e7a1b8290d31c521b23a2b831c23b3ba/autogluon.cloud-0.2.1b20230709.tar.gz
+[2023-07-10 11:08:01] INFO root fetch - processPackages [gitlint]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-07-10 11:08:01] INFO root fetch - processPackages [craft-ai-sdk]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-10 11:08:01] INFO root fetch - processPackages [autogluon.eda]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.eda-0.8.3b20230708.tar.gz]
+[2023-07-10 11:08:01] INFO root fetch - processPackages [autogluon.eda]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.eda-0.8.3b20230709.tar.gz]
+[2023-07-10 11:08:01] INFO root fetch - processPackages [autogluon.eda]: Start processing: cmem-plugin-examples
+[2023-07-10 11:08:01] INFO root fetch - main [MainThread]: End processing [autogluon.eda]: success
+[2023-07-10 11:08:01] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-0.8.3b20230709.tar.gz]
+[2023-07-10 11:08:01] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-0.8.3b20230710.tar.gz]
+[2023-07-10 11:08:01] INFO root fetch - processPackages [autogluon.core]: Start processing: vfsfusepy
+[2023-07-10 11:08:01] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2023-07-10 11:08:01] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-0.8.3b20230709.tar.gz]
+[2023-07-10 11:08:01] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-0.8.3b20230710.tar.gz]
+[2023-07-10 11:08:01] INFO root fetch - processPackages [autogluon.timeseries]: Start processing: moby-distribution
+[2023-07-10 11:08:01] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2023-07-10 11:08:01] INFO root fetch - processPackages [gitlint-core]: Downloading https://files.pythonhosted.org/packages/7a/3f/c11be6426880b469fbe1a3c199b57eee705a7cb7966f301cc09f257733a7/gitlint_core-0.20.0.dev8.tar.gz
+[2023-07-10 11:08:01] INFO root fetch - processPackages [autogluon.cloud]: executing diffoscope
+[2023-07-10 11:08:01] INFO root fetch - processPackages [autogluon.cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.cloud-0.2.1b20230708.tar.gz tmp/autogluon.cloud-0.2.1b20230709.tar.gz --markdown 20230710/a/autogluon.cloud/0.2.1b20230708-0.2.1b20230709/diff.md --exclude *.pyd
+[2023-07-10 11:08:01] INFO root fetch - processPackages [vfsfusepy]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-10 11:08:01] INFO root fetch - processPackages [cmem-plugin-examples]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-10 11:08:01] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-0.8.3b20230709.tar.gz]
+[2023-07-10 11:08:01] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-0.8.3b20230710.tar.gz]
+[2023-07-10 11:08:01] INFO root fetch - processPackages [autogluon.tabular]: Start processing: django-linear-migrations
+[2023-07-10 11:08:01] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
+[2023-07-10 11:08:01] INFO root fetch - processPackages [vfsfusepy]: Downloading https://files.pythonhosted.org/packages/c4/37/dbf1e201662c5b5fb66dec6a42ab24e045ad4569ca6fda9c89a9569edfaf/vfsfusepy-0.3.0.tar.gz
+[2023-07-10 11:08:01] INFO root fetch - processPackages [gitlint]: Downloading https://files.pythonhosted.org/packages/5b/5a/21a35893dc478dbadf89b2b03261ee5585494ba6e801a8f94c9664f78490/gitlint-0.8.2.tar.gz
+[2023-07-10 11:08:01] INFO root fetch - processPackages [moby-distribution]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-07-10 11:08:01] INFO root fetch - processPackages [craft-ai-sdk]: Downloading https://files.pythonhosted.org/packages/37/9a/425e98770d7c632e8edaa1eda238a5459ba6f00ddc434fcf87962f118a27/craft_ai_sdk-0.9.0.tar.gz
+[2023-07-10 11:08:01] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-0.8.3b20230709.tar.gz]
+[2023-07-10 11:08:01] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-0.8.3b20230710.tar.gz]
+[2023-07-10 11:08:01] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
+[2023-07-10 11:08:01] INFO root fetch - processPackages [django-linear-migrations]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-07-10 11:08:01] INFO root fetch - processPackages [pyhttpx]: Remove: archive file [/home/abi/fetcher/tmp/pyhttpx-2.10.8.tar.gz]
+[2023-07-10 11:08:01] INFO root fetch - processPackages [pyhttpx]: Remove: archive file [/home/abi/fetcher/tmp/pyhttpx-2.10.9.tar.gz]
+[2023-07-10 11:08:01] INFO root fetch - main [MainThread]: End processing [pyhttpx]: success
+[2023-07-10 11:08:01] INFO root fetch - processPackages [cmem-plugin-examples]: Downloading https://files.pythonhosted.org/packages/a8/51/90b599a2d219072e2f2a87799eea289ed435e9b79fc00b9064faa13d6468/cmem_plugin_examples-0.2.0.tar.gz
+[2023-07-10 11:08:01] INFO root fetch - processPackages [gitlint-core]: Downloading https://files.pythonhosted.org/packages/bd/76/20021dcb9ac1f8236b853a783b3b68d9f84ad9527e2fd5c583ef08249923/gitlint_core-0.20.0.dev9.tar.gz
+[2023-07-10 11:08:01] INFO root fetch - processPackages [moby-distribution]: Downloading https://files.pythonhosted.org/packages/f0/47/32758202bbf6587ddc36c800b1f21d6a831e69df70cdb653aeebc4e42064/moby_distribution-0.5.4.tar.gz
+[2023-07-10 11:08:01] INFO root fetch - processPackages [gitlint-core]: executing diffoscope
+[2023-07-10 11:08:01] INFO root fetch - processPackages [gitlint-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlint_core-0.20.0.dev8.tar.gz tmp/gitlint_core-0.20.0.dev9.tar.gz --markdown 20230710/g/gitlint-core/0.20.0.dev8-0.20.0.dev9/diff.md --exclude *.pyd
+[2023-07-10 11:08:01] INFO root fetch - processPackages [gitlint]: Downloading https://files.pythonhosted.org/packages/d6/f1/3556a8e92846fac5b29b34e3c9c20fb5dcfddbf558227ac15ee4a4e4b06c/gitlint-0.9.0.tar.gz
+[2023-07-10 11:08:01] INFO root fetch - processPackages [vfsfusepy]: Downloading https://files.pythonhosted.org/packages/9c/49/1114d1832dc17a48a521abe60de29b3e4e1ba418f5ac4372ed2f5163c23c/vfsfusepy-0.4.0.tar.gz
+[2023-07-10 11:08:02] INFO root fetch - processPackages [django-linear-migrations]: Downloading https://files.pythonhosted.org/packages/90/e1/4e40cc5e89ffd639a76edc08aae7dd6132f6ab8be27b6d0333fe66182fce/django_linear_migrations-2.8.0.tar.gz
+[2023-07-10 11:08:02] INFO root fetch - processPackages [craft-ai-sdk]: Downloading https://files.pythonhosted.org/packages/4b/d1/169475b438f1184af924d80d3cc7cb68caa2e756a9acb5c8cf6eafc0ca61/craft_ai_sdk-0.9.1.tar.gz
+[2023-07-10 11:08:02] INFO root fetch - processPackages [cmem-plugin-examples]: Downloading https://files.pythonhosted.org/packages/e5/51/2c0ec8253985c893c0fddc7029a86b19abca87df615eb5a44a03498b67d2/cmem_plugin_examples-0.3.0.tar.gz
+[2023-07-10 11:08:02] INFO root fetch - processPackages [gitlint]: executing diffoscope
+[2023-07-10 11:08:02] INFO root fetch - processPackages [gitlint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlint-0.8.2.tar.gz tmp/gitlint-0.9.0.tar.gz --markdown 20230710/g/gitlint/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-07-10 11:08:02] INFO root fetch - processPackages [vfsfusepy]: executing diffoscope
+[2023-07-10 11:08:02] INFO root fetch - processPackages [vfsfusepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vfsfusepy-0.3.0.tar.gz tmp/vfsfusepy-0.4.0.tar.gz --markdown 20230710/v/vfsfusepy/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-10 11:08:02] INFO root fetch - processPackages [moby-distribution]: Downloading https://files.pythonhosted.org/packages/58/f7/1e7c370a23cc3343d8176e543bce3148904c5d1aa0bbaefb9e3572ae74b0/moby_distribution-0.5.5.tar.gz
+[2023-07-10 11:08:02] INFO root fetch - processPackages [craft-ai-sdk]: executing diffoscope
+[2023-07-10 11:08:02] INFO root fetch - processPackages [craft-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/craft_ai_sdk-0.9.0.tar.gz tmp/craft_ai_sdk-0.9.1.tar.gz --markdown 20230710/c/craft-ai-sdk/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-10 11:08:02] INFO root fetch - processPackages [cmem-plugin-examples]: executing diffoscope
+[2023-07-10 11:08:02] INFO root fetch - processPackages [cmem-plugin-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmem_plugin_examples-0.2.0.tar.gz tmp/cmem_plugin_examples-0.3.0.tar.gz --markdown 20230710/c/cmem-plugin-examples/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-10 11:08:02] INFO root fetch - processPackages [autogluon.cloud]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.cloud-0.2.1b20230708.tar.gz]
+[2023-07-10 11:08:02] INFO root fetch - processPackages [autogluon.cloud]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.cloud-0.2.1b20230709.tar.gz]
+[2023-07-10 11:08:02] INFO root fetch - main [MainThread]: End processing [autogluon.cloud]: success
+[2023-07-10 11:08:02] INFO root fetch - processPackages [django-linear-migrations]: Downloading https://files.pythonhosted.org/packages/19/29/23d24b9527be33e11b6db82e2d41b9e3c7714779ad9b981b721d9906346c/django_linear_migrations-2.9.0.tar.gz
+[2023-07-10 11:08:02] INFO root fetch - processPackages [moby-distribution]: executing diffoscope
+[2023-07-10 11:08:02] INFO root fetch - processPackages [moby-distribution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moby_distribution-0.5.4.tar.gz tmp/moby_distribution-0.5.5.tar.gz --markdown 20230710/m/moby-distribution/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-07-10 11:08:02] INFO root fetch - processPackages [django-linear-migrations]: executing diffoscope
+[2023-07-10 11:08:02] INFO root fetch - processPackages [django-linear-migrations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_linear_migrations-2.8.0.tar.gz tmp/django_linear_migrations-2.9.0.tar.gz --markdown 20230710/d/django-linear-migrations/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-07-10 11:08:03] INFO root fetch - processPackages [gitlint-core]: Remove: archive file [/home/abi/fetcher/tmp/gitlint_core-0.20.0.dev8.tar.gz]
+[2023-07-10 11:08:03] INFO root fetch - processPackages [gitlint-core]: Remove: archive file [/home/abi/fetcher/tmp/gitlint_core-0.20.0.dev9.tar.gz]
+[2023-07-10 11:08:03] INFO root fetch - main [MainThread]: End processing [gitlint-core]: success
+[2023-07-10 11:08:03] INFO root fetch - processPackages [cmem-plugin-examples]: Remove: archive file [/home/abi/fetcher/tmp/cmem_plugin_examples-0.2.0.tar.gz]
+[2023-07-10 11:08:03] INFO root fetch - processPackages [cmem-plugin-examples]: Remove: archive file [/home/abi/fetcher/tmp/cmem_plugin_examples-0.3.0.tar.gz]
+[2023-07-10 11:08:03] INFO root fetch - main [MainThread]: End processing [cmem-plugin-examples]: success
+[2023-07-10 11:08:03] INFO root fetch - processPackages [vfsfusepy]: Remove: archive file [/home/abi/fetcher/tmp/vfsfusepy-0.3.0.tar.gz]
+[2023-07-10 11:08:03] INFO root fetch - processPackages [vfsfusepy]: Remove: archive file [/home/abi/fetcher/tmp/vfsfusepy-0.4.0.tar.gz]
+[2023-07-10 11:08:03] INFO root fetch - main [MainThread]: End processing [vfsfusepy]: success
+[2023-07-10 11:08:03] INFO root fetch - processPackages [gitlint]: Remove: archive file [/home/abi/fetcher/tmp/gitlint-0.8.2.tar.gz]
+[2023-07-10 11:08:03] INFO root fetch - processPackages [gitlint]: Remove: archive file [/home/abi/fetcher/tmp/gitlint-0.9.0.tar.gz]
+[2023-07-10 11:08:03] INFO root fetch - main [MainThread]: End processing [gitlint]: success
+[2023-07-10 11:08:03] INFO root fetch - processPackages [craft-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/craft_ai_sdk-0.9.0.tar.gz]
+[2023-07-10 11:08:03] INFO root fetch - processPackages [craft-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/craft_ai_sdk-0.9.1.tar.gz]
+[2023-07-10 11:08:03] INFO root fetch - main [MainThread]: End processing [craft-ai-sdk]: success
+[2023-07-10 11:08:03] INFO root fetch - processPackages [moby-distribution]: Remove: archive file [/home/abi/fetcher/tmp/moby_distribution-0.5.4.tar.gz]
+[2023-07-10 11:08:03] INFO root fetch - processPackages [moby-distribution]: Remove: archive file [/home/abi/fetcher/tmp/moby_distribution-0.5.5.tar.gz]
+[2023-07-10 11:08:03] INFO root fetch - main [MainThread]: End processing [moby-distribution]: success
+[2023-07-10 11:08:03] INFO root fetch - processPackages [django-linear-migrations]: Remove: archive file [/home/abi/fetcher/tmp/django_linear_migrations-2.8.0.tar.gz]
+[2023-07-10 11:08:03] INFO root fetch - processPackages [django-linear-migrations]: Remove: archive file [/home/abi/fetcher/tmp/django_linear_migrations-2.9.0.tar.gz]
+[2023-07-10 11:08:03] INFO root fetch - main [MainThread]: End processing [django-linear-migrations]: success
+[2023-07-10 11:08:03] INFO root fetch - main [MainThread]: Store serial: [18828717]
