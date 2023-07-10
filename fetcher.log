@@ -4803,3 +4803,33 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 03:19:20] INFO root fetch - processPackages [tccli-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tccli-intl-en-3.0.99.1.tar.gz]
 [2023-07-10 03:19:20] INFO root fetch - main [MainThread]: End processing [tccli-intl-en]: success
 [2023-07-10 03:19:20] INFO root fetch - main [MainThread]: Store serial: [18825498]
+[2023-07-10 03:24:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18825498]
+[2023-07-10 03:24:29] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-10 03:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: heimdallm
+[2023-07-10 03:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: headjack-keymaker
+[2023-07-10 03:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-intl-en
+[2023-07-10 03:24:29] INFO root fetch - processPackages [heimdallm]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-10 03:24:29] INFO root fetch - processPackages [headjack-keymaker]: New version: [0.0.1a3] Old Version: [0.0.1a2]
+[2023-07-10 03:24:29] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: New version: [3.0.99] Old Version: [3.0.98]
+[2023-07-10 03:24:29] INFO root fetch - processPackages [heimdallm]: Downloading https://files.pythonhosted.org/packages/e5/5a/8b44f75415acceef4febcde3eec6fb2527f06b6160592d56527cf506f606/heimdallm-0.1.4.tar.gz
+[2023-07-10 03:24:29] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/47/ec/491739e9cb7da970b8f280ea2383dc94da0c3d39e938ac559e0f2e52aea8/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz
+[2023-07-10 03:24:29] INFO root fetch - processPackages [headjack-keymaker]: Downloading https://files.pythonhosted.org/packages/0f/e0/e36c6afce5fa4dd0b594d0313307862ae4e5b4baa4f1fb78e16abc47622c/headjack_keymaker-0.0.1a2.tar.gz
+[2023-07-10 03:24:30] INFO root fetch - processPackages [heimdallm]: Downloading https://files.pythonhosted.org/packages/fc/77/f560967e9df81a015e219372131677ba6d979ccd92538b13f64de4480817/heimdallm-0.1.5.tar.gz
+[2023-07-10 03:24:30] INFO root fetch - processPackages [headjack-keymaker]: Downloading https://files.pythonhosted.org/packages/9f/b3/6f0179bef817b1077c2618506626a6f0c3ad1d50bb547460dc061295f408/headjack_keymaker-0.0.1a3.tar.gz
+[2023-07-10 03:24:30] INFO root fetch - processPackages [heimdallm]: executing diffoscope
+[2023-07-10 03:24:30] INFO root fetch - processPackages [heimdallm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heimdallm-0.1.4.tar.gz tmp/heimdallm-0.1.5.tar.gz --markdown 20230710/h/heimdallm/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-10 03:24:30] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/ee/9c/2dcfed598218dfd2d81fa3078c736962b265e5ae724bec2686e853a74d71/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz
+[2023-07-10 03:24:30] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: executing diffoscope
+[2023-07-10 03:24:30] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz --markdown 20230710/t/tencentcloud-sdk-python-intl-en/3.0.98-3.0.99/diff.md --exclude *.pyd
+[2023-07-10 03:24:30] INFO root fetch - processPackages [headjack-keymaker]: executing diffoscope
+[2023-07-10 03:24:30] INFO root fetch - processPackages [headjack-keymaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/headjack_keymaker-0.0.1a2.tar.gz tmp/headjack_keymaker-0.0.1a3.tar.gz --markdown 20230710/h/headjack-keymaker/0.0.1a2-0.0.1a3/diff.md --exclude *.pyd
+[2023-07-10 03:24:31] INFO root fetch - processPackages [heimdallm]: Remove: archive file [/home/abi/fetcher/tmp/heimdallm-0.1.4.tar.gz]
+[2023-07-10 03:24:31] INFO root fetch - processPackages [heimdallm]: Remove: archive file [/home/abi/fetcher/tmp/heimdallm-0.1.5.tar.gz]
+[2023-07-10 03:24:31] INFO root fetch - main [MainThread]: End processing [heimdallm]: success
+[2023-07-10 03:24:31] INFO root fetch - processPackages [headjack-keymaker]: Remove: archive file [/home/abi/fetcher/tmp/headjack_keymaker-0.0.1a2.tar.gz]
+[2023-07-10 03:24:31] INFO root fetch - processPackages [headjack-keymaker]: Remove: archive file [/home/abi/fetcher/tmp/headjack_keymaker-0.0.1a3.tar.gz]
+[2023-07-10 03:24:31] INFO root fetch - main [MainThread]: End processing [headjack-keymaker]: success
+[2023-07-10 03:24:32] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz]
+[2023-07-10 03:24:32] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz]
+[2023-07-10 03:24:32] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
+[2023-07-10 03:24:32] INFO root fetch - main [MainThread]: Store serial: [18825520]
