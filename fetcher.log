@@ -14342,3 +14342,99 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 12:12:09] INFO root fetch - processPackages [jupyter-releaser]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_releaser-1.2.1.tar.gz]
 [2023-07-10 12:12:09] INFO root fetch - main [MainThread]: End processing [jupyter-releaser]: success
 [2023-07-10 12:12:09] INFO root fetch - main [MainThread]: Store serial: [18829349]
+[2023-07-10 12:17:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18829349]
+[2023-07-10 12:17:18] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-10 12:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: primapy-pandora
+[2023-07-10 12:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moosez
+[2023-07-10 12:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iqrfpy
+[2023-07-10 12:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kthbuild
+[2023-07-10 12:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: netbox-cisco-support-plugin
+[2023-07-10 12:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oarepo-model-builder
+[2023-07-10 12:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flask-validators
+[2023-07-10 12:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tigeropen
+[2023-07-10 12:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bx-django-utils
+[2023-07-10 12:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: perceval-quandela
+[2023-07-10 12:17:18] WARNING root fetch - processPackages [primapy-pandora]: Skipping, unable to determine old version
+[2023-07-10 12:17:18] INFO root fetch - processPackages [primapy-pandora]: Start processing: open-gpt-torch
+[2023-07-10 12:17:18] INFO root fetch - main [MainThread]: End processing [primapy-pandora] error
+[2023-07-10 12:17:18] INFO root fetch - processPackages [moosez]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-10 12:17:18] INFO root fetch - processPackages [tigeropen]: New version: [3.0.3] Old Version: [3.0.2]
+[2023-07-10 12:17:18] INFO root fetch - processPackages [iqrfpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 12:17:18] INFO root fetch - processPackages [netbox-cisco-support-plugin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 12:17:18] INFO root fetch - processPackages [flask-validators]: New version: [0.4] Old Version: [0.3]
+[2023-07-10 12:17:18] INFO root fetch - processPackages [kthbuild]: New version: [3.3.0] Old Version: [3.2.0]
+[2023-07-10 12:17:18] INFO root fetch - processPackages [bx-django-utils]: New version: [9] Old Version: [8]
+[2023-07-10 12:17:18] INFO root fetch - processPackages [open-gpt-torch]: New version: [0.0.9.dev0] Old Version: [0.0.8]
+[2023-07-10 12:17:18] INFO root fetch - processPackages [oarepo-model-builder]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-07-10 12:17:18] INFO root fetch - processPackages [perceval-quandela]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-10 12:17:18] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Downloading https://files.pythonhosted.org/packages/5f/75/8e9b6ac669a9290c17db68bdb6cfb13ab9ac497949a2166991693a7c5eda/netbox-cisco-support-plugin-0.0.8.tar.gz
+[2023-07-10 12:17:18] INFO root fetch - processPackages [kthbuild]: Downloading https://files.pythonhosted.org/packages/4d/33/08353d3afb1bc916b9ccf6ceed40853dec5f31bba7c6376bcad5074aa1ab/kthbuild-3.2.0.tar.gz
+[2023-07-10 12:17:18] INFO root fetch - processPackages [open-gpt-torch]: Downloading https://files.pythonhosted.org/packages/90/04/0d02f3b5f05a5e00f2b8adc354fe4a631bb0deb7a248147df7d37f8c36e9/open_gpt_torch-0.0.8.tar.gz
+[2023-07-10 12:17:19] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/c2/b9/9ba3e44254ad29decd7b08760b84b94f2989dea3bc65cac9ae71ea9f0357/moosez-2.1.8.tar.gz
+[2023-07-10 12:17:19] INFO root fetch - processPackages [tigeropen]: Downloading https://files.pythonhosted.org/packages/45/72/e25b251b90dd4c99a5975fb86dec2bc6b1b02e31a5dda94eef9d6802f919/tigeropen-3.0.2.tar.gz
+[2023-07-10 12:17:19] INFO root fetch - processPackages [iqrfpy]: Downloading https://files.pythonhosted.org/packages/b7/5f/e812275617185f777c7fce9c456eb51a907a7befdc183c6889e181172873/iqrfpy-0.1.8.tar.gz
+[2023-07-10 12:17:19] INFO root fetch - processPackages [flask-validators]: Downloading https://files.pythonhosted.org/packages/58/7e/7fa2f6e6bc6a9d23acc516584c65275a47c61da156f20c859063b9cf4fd0/flask_validators-0.3.tar.gz
+[2023-07-10 12:17:19] INFO root fetch - processPackages [oarepo-model-builder]: Downloading https://files.pythonhosted.org/packages/a7/f0/62f6d05442790f0562d20d7e93407d69aeea6c98832d6f8f68b27611715f/oarepo-model-builder-4.0.8.tar.gz
+[2023-07-10 12:17:19] INFO root fetch - processPackages [bx-django-utils]: Downloading https://files.pythonhosted.org/packages/1e/0c/ff3d5a5c26c498b48bf149a2a08540a5812c585c9bfb59f4e303198aa123/bx_django_utils-8.tar.gz
+[2023-07-10 12:17:19] INFO root fetch - processPackages [perceval-quandela]: Downloading https://files.pythonhosted.org/packages/9b/98/69a0902c58f067670f49bb083cff4b5de5a952faacf8ba24c1b86b959899/perceval-quandela-0.8.1.tar.gz
+[2023-07-10 12:17:19] INFO root fetch - processPackages [open-gpt-torch]: Downloading https://files.pythonhosted.org/packages/6c/ac/59034fd373ef17db8bc8197f66a162be391f2933f6dd009e76b32ed75732/open-gpt-torch-0.0.9.dev0.tar.gz
+[2023-07-10 12:17:19] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Downloading https://files.pythonhosted.org/packages/a5/bf/72846d57ebe903748908b82db594c2d1fcfd14aff137f339aa050db50b40/netbox-cisco-support-plugin-0.0.9.tar.gz
+[2023-07-10 12:17:19] INFO root fetch - processPackages [kthbuild]: Downloading https://files.pythonhosted.org/packages/54/14/3a2d935e496ec736b6ca8ef964523fe7ed612f909a945b7f081822c0a16c/kthbuild-3.3.0.tar.gz
+[2023-07-10 12:17:19] INFO root fetch - processPackages [tigeropen]: Downloading https://files.pythonhosted.org/packages/2c/48/92a1741f2017101c734ac9ccd0cd50fb6c5a9dd99f8718470f4ff3ded4bd/tigeropen-3.0.3.tar.gz
+[2023-07-10 12:17:19] INFO root fetch - processPackages [kthbuild]: executing diffoscope
+[2023-07-10 12:17:19] INFO root fetch - processPackages [kthbuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kthbuild-3.2.0.tar.gz tmp/kthbuild-3.3.0.tar.gz --markdown 20230710/k/kthbuild/3.2.0-3.3.0/diff.md --exclude *.pyd
+[2023-07-10 12:17:19] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/56/ac/bc6012faf269fbaf5537a960e128eda0094dce0864f52bcb84ea8826d3cf/moosez-2.1.9.tar.gz
+[2023-07-10 12:17:19] INFO root fetch - processPackages [flask-validators]: Downloading https://files.pythonhosted.org/packages/29/09/c96588b45ac7dae26841278e0696701380a2fcd28ee944c1944709a4175e/flask_validators-0.4.tar.gz
+[2023-07-10 12:17:19] INFO root fetch - processPackages [netbox-cisco-support-plugin]: executing diffoscope
+[2023-07-10 12:17:19] INFO root fetch - processPackages [netbox-cisco-support-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-support-plugin-0.0.8.tar.gz tmp/netbox-cisco-support-plugin-0.0.9.tar.gz --markdown 20230710/n/netbox-cisco-support-plugin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 12:17:19] INFO root fetch - processPackages [iqrfpy]: Downloading https://files.pythonhosted.org/packages/61/4d/d6db2b0216d6f8be72314ce157fb65dd7999d0129899beaf32ce8889d1db/iqrfpy-0.1.9.tar.gz
+[2023-07-10 12:17:19] INFO root fetch - processPackages [open-gpt-torch]: executing diffoscope
+[2023-07-10 12:17:19] INFO root fetch - processPackages [open-gpt-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_gpt_torch-0.0.8.tar.gz tmp/open-gpt-torch-0.0.9.dev0.tar.gz --markdown 20230710/o/open-gpt-torch/0.0.8-0.0.9.dev0/diff.md --exclude *.pyd
+[2023-07-10 12:17:19] INFO root fetch - processPackages [perceval-quandela]: Downloading https://files.pythonhosted.org/packages/a2/10/b80ad2a7edc069d0730006b31040436da123139f468995d80d325ce945d0/perceval-quandela-0.9.0.tar.gz
+[2023-07-10 12:17:19] INFO root fetch - processPackages [tigeropen]: executing diffoscope
+[2023-07-10 12:17:19] INFO root fetch - processPackages [tigeropen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tigeropen-3.0.2.tar.gz tmp/tigeropen-3.0.3.tar.gz --markdown 20230710/t/tigeropen/3.0.2-3.0.3/diff.md --exclude *.pyd
+[2023-07-10 12:17:19] INFO root fetch - processPackages [flask-validators]: executing diffoscope
+[2023-07-10 12:17:19] INFO root fetch - processPackages [flask-validators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_validators-0.3.tar.gz tmp/flask_validators-0.4.tar.gz --markdown 20230710/f/flask-validators/0.3-0.4/diff.md --exclude *.pyd
+[2023-07-10 12:17:19] INFO root fetch - processPackages [moosez]: executing diffoscope
+[2023-07-10 12:17:19] INFO root fetch - processPackages [moosez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moosez-2.1.8.tar.gz tmp/moosez-2.1.9.tar.gz --markdown 20230710/m/moosez/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-10 12:17:19] INFO root fetch - processPackages [oarepo-model-builder]: Downloading https://files.pythonhosted.org/packages/d0/c0/f88cc77e087d52084596bac94c3c439ecf68e7ef6b2b2efa8058d91454f9/oarepo-model-builder-4.0.9.tar.gz
+[2023-07-10 12:17:19] INFO root fetch - processPackages [bx-django-utils]: Downloading https://files.pythonhosted.org/packages/2b/63/3e7d67b2f7c3cbfbf0e086e97103b8d3e82088f05b5c20e488922c2fe0f7/bx_django_utils-9.tar.gz
+[2023-07-10 12:17:19] INFO root fetch - processPackages [iqrfpy]: executing diffoscope
+[2023-07-10 12:17:19] INFO root fetch - processPackages [iqrfpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqrfpy-0.1.8.tar.gz tmp/iqrfpy-0.1.9.tar.gz --markdown 20230710/i/iqrfpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 12:17:20] INFO root fetch - processPackages [perceval-quandela]: executing diffoscope
+[2023-07-10 12:17:20] INFO root fetch - processPackages [perceval-quandela]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval-quandela-0.8.1.tar.gz tmp/perceval-quandela-0.9.0.tar.gz --markdown 20230710/p/perceval-quandela/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-10 12:17:20] INFO root fetch - processPackages [bx-django-utils]: executing diffoscope
+[2023-07-10 12:17:20] INFO root fetch - processPackages [bx-django-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bx_django_utils-8.tar.gz tmp/bx_django_utils-9.tar.gz --markdown 20230710/b/bx-django-utils/8-9/diff.md --exclude *.pyd
+[2023-07-10 12:17:20] INFO root fetch - processPackages [oarepo-model-builder]: executing diffoscope
+[2023-07-10 12:17:20] INFO root fetch - processPackages [oarepo-model-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-4.0.8.tar.gz tmp/oarepo-model-builder-4.0.9.tar.gz --markdown 20230710/o/oarepo-model-builder/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-07-10 12:17:21] INFO root fetch - processPackages [kthbuild]: Remove: archive file [/home/abi/fetcher/tmp/kthbuild-3.2.0.tar.gz]
+[2023-07-10 12:17:21] INFO root fetch - processPackages [kthbuild]: Remove: archive file [/home/abi/fetcher/tmp/kthbuild-3.3.0.tar.gz]
+[2023-07-10 12:17:21] INFO root fetch - main [MainThread]: End processing [kthbuild]: success
+[2023-07-10 12:17:21] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-support-plugin-0.0.8.tar.gz]
+[2023-07-10 12:17:21] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-support-plugin-0.0.9.tar.gz]
+[2023-07-10 12:17:21] INFO root fetch - main [MainThread]: End processing [netbox-cisco-support-plugin]: success
+[2023-07-10 12:17:21] INFO root fetch - processPackages [flask-validators]: Remove: archive file [/home/abi/fetcher/tmp/flask_validators-0.3.tar.gz]
+[2023-07-10 12:17:21] INFO root fetch - processPackages [flask-validators]: Remove: archive file [/home/abi/fetcher/tmp/flask_validators-0.4.tar.gz]
+[2023-07-10 12:17:21] INFO root fetch - main [MainThread]: End processing [flask-validators]: success
+[2023-07-10 12:17:21] INFO root fetch - processPackages [open-gpt-torch]: Remove: archive file [/home/abi/fetcher/tmp/open_gpt_torch-0.0.8.tar.gz]
+[2023-07-10 12:17:21] INFO root fetch - processPackages [open-gpt-torch]: Remove: archive file [/home/abi/fetcher/tmp/open-gpt-torch-0.0.9.dev0.tar.gz]
+[2023-07-10 12:17:21] INFO root fetch - main [MainThread]: End processing [open-gpt-torch]: success
+[2023-07-10 12:17:21] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.1.8.tar.gz]
+[2023-07-10 12:17:21] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.1.9.tar.gz]
+[2023-07-10 12:17:21] INFO root fetch - main [MainThread]: End processing [moosez]: success
+[2023-07-10 12:17:21] INFO root fetch - processPackages [bx-django-utils]: Remove: archive file [/home/abi/fetcher/tmp/bx_django_utils-8.tar.gz]
+[2023-07-10 12:17:21] INFO root fetch - processPackages [bx-django-utils]: Remove: archive file [/home/abi/fetcher/tmp/bx_django_utils-9.tar.gz]
+[2023-07-10 12:17:21] INFO root fetch - main [MainThread]: End processing [bx-django-utils]: success
+[2023-07-10 12:17:22] INFO root fetch - processPackages [iqrfpy]: Remove: archive file [/home/abi/fetcher/tmp/iqrfpy-0.1.8.tar.gz]
+[2023-07-10 12:17:22] INFO root fetch - processPackages [iqrfpy]: Remove: archive file [/home/abi/fetcher/tmp/iqrfpy-0.1.9.tar.gz]
+[2023-07-10 12:17:22] INFO root fetch - main [MainThread]: End processing [iqrfpy]: success
+[2023-07-10 12:17:22] INFO root fetch - processPackages [perceval-quandela]: Remove: archive file [/home/abi/fetcher/tmp/perceval-quandela-0.8.1.tar.gz]
+[2023-07-10 12:17:22] INFO root fetch - processPackages [perceval-quandela]: Remove: archive file [/home/abi/fetcher/tmp/perceval-quandela-0.9.0.tar.gz]
+[2023-07-10 12:17:22] INFO root fetch - main [MainThread]: End processing [perceval-quandela]: success
+[2023-07-10 12:17:22] INFO root fetch - processPackages [tigeropen]: Remove: archive file [/home/abi/fetcher/tmp/tigeropen-3.0.2.tar.gz]
+[2023-07-10 12:17:22] INFO root fetch - processPackages [tigeropen]: Remove: archive file [/home/abi/fetcher/tmp/tigeropen-3.0.3.tar.gz]
+[2023-07-10 12:17:22] INFO root fetch - main [MainThread]: End processing [tigeropen]: success
+[2023-07-10 12:17:22] INFO root fetch - processPackages [oarepo-model-builder]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-4.0.8.tar.gz]
+[2023-07-10 12:17:22] INFO root fetch - processPackages [oarepo-model-builder]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-4.0.9.tar.gz]
+[2023-07-10 12:17:22] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder]: success
+[2023-07-10 12:17:22] INFO root fetch - main [MainThread]: Store serial: [18829385]
