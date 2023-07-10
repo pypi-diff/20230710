@@ -17005,3 +17005,96 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 14:26:43] INFO root fetch - processPackages [leanit-mweb]: Remove: archive file [/home/abi/fetcher/tmp/leanit-mweb-23.7.3.tar.gz]
 [2023-07-10 14:26:43] INFO root fetch - main [MainThread]: End processing [leanit-mweb]: success
 [2023-07-10 14:26:43] INFO root fetch - main [MainThread]: Store serial: [18830436]
+[2023-07-10 14:31:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18830436]
+[2023-07-10 14:31:52] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-10 14:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mekab
+[2023-07-10 14:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: returnn
+[2023-07-10 14:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-allow-cidr
+[2023-07-10 14:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: localstack-core
+[2023-07-10 14:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: depthai-viewer
+[2023-07-10 14:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hak
+[2023-07-10 14:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Geode-Implicit
+[2023-07-10 14:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-version-checks
+[2023-07-10 14:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: policyengine-us
+[2023-07-10 14:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qontract-reconcile
+[2023-07-10 14:31:52] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 14:31:52] INFO root fetch - processPackages [mekab]: New version: [9.9.9] Old Version: [8.9.5]
+[2023-07-10 14:31:53] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230710122815] Old Version: [2.1.1.dev20230710104932]
+[2023-07-10 14:31:53] INFO root fetch - processPackages [django-allow-cidr]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-07-10 14:31:53] INFO root fetch - processPackages [Geode-Implicit]: New version: [2.1.2rc1] Old Version: [2.1.1rc1]
+[2023-07-10 14:31:53] INFO root fetch - processPackages [depthai-viewer]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-10 14:31:53] INFO root fetch - processPackages [returnn]: New version: [1.20230710.141414] Old Version: [1.20230710.125126]
+[2023-07-10 14:31:53] INFO root fetch - processPackages [django-version-checks]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-10 14:31:53] INFO root fetch - processPackages [policyengine-us]: New version: [0.358.1] Old Version: [0.358.0]
+[2023-07-10 14:31:53] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-07-10 14:31:53] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/f5/9d/c3a67dc637b03099ee499d287a7742a9dc157c47f5c2bd7a28b4e938ee24/localstack-core-2.1.1.dev20230710104932.tar.gz
+[2023-07-10 14:31:53] INFO root fetch - processPackages [mekab]: Downloading https://files.pythonhosted.org/packages/dc/01/a2e38e7a1d437f6a61c7b80c9774edfbee7b4fdf4401f381d56aba7d9dda/mekab-8.9.5.tar.gz
+[2023-07-10 14:31:53] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/05/17/ad5ef91170b7c0e991a9c8bffa9f9a2dcf3961d5e90c31185bdf3ce8f425/hak-0.0.8.tar.gz
+[2023-07-10 14:31:53] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/df/4c/1cb68ec23410bff4b333bbe0c64d5e0ea71de289360bf3b696c09713051e/policyengine-us-0.358.0.tar.gz
+[2023-07-10 14:31:53] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/79/54/d1ed9bda7da6586fd37c606e6b35600d11a0a002bcaa24e8d47bf3bed4ea/returnn-1.20230710.125126.tar.gz
+[2023-07-10 14:31:53] INFO root fetch - processPackages [depthai-viewer]: Downloading https://files.pythonhosted.org/packages/13/9f/3bd32a319059cf495c742ba70f84997e7b98fc60b6612222a60c83d54f1b/depthai_viewer-0.1.2-cp38-abi3-win_amd64.whl
+[2023-07-10 14:31:53] INFO root fetch - processPackages [Geode-Implicit]: Downloading https://files.pythonhosted.org/packages/e9/83/d399f652db09524920cfc070dc77f1d3794d44b02cf946feb95574cd3279/Geode_Implicit-2.1.1rc1-cp39-cp39-win_amd64.whl
+[2023-07-10 14:31:53] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-07-10 14:31:53] INFO root fetch - processPackages [django-allow-cidr]: Downloading https://files.pythonhosted.org/packages/f1/35/297e64de25efbb094d9de69157d6d78ded0573080b2977d3a51ef809eb12/django-allow-cidr-0.6.0.tar.gz
+[2023-07-10 14:31:53] INFO root fetch - processPackages [django-version-checks]: Downloading https://files.pythonhosted.org/packages/17/29/4bdec5a162b77068d1f91fb3dd2f71cfadf5bd0c133f236bf855b16c25d3/django_version_checks-1.8.0.tar.gz
+[2023-07-10 14:31:53] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/fd/2b/bf7b3451d5e3a84e9a674b47e9f046c4db1f582764a85a4dfc00e14ecf00/hak-0.0.9.tar.gz
+[2023-07-10 14:31:53] INFO root fetch - processPackages [mekab]: Downloading https://files.pythonhosted.org/packages/92/70/b4ff06be88be8d4a2f49ad42bd79fc1428d2523f5c8d968a42924fe63fdd/mekab-9.9.9.tar.gz
+[2023-07-10 14:31:53] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/77/8b/8a62d191829c0a6649c936a2168f5676e76a815731e5227bdf9362d8aa9b/policyengine-us-0.358.1.tar.gz
+[2023-07-10 14:31:53] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/88/78/643bc3faa6b45ae79adc427e3fa48d8885fcbf1b013a5d164b1c4d62e859/localstack-core-2.1.1.dev20230710122815.tar.gz
+[2023-07-10 14:31:53] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-07-10 14:31:53] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.8.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230710/h/hak/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 14:31:53] INFO root fetch - processPackages [django-allow-cidr]: Downloading https://files.pythonhosted.org/packages/8f/31/ceda29b123d6dd0f91ddfa0ac557887f3be741b25fb0e860b6f61f979fe0/django-allow-cidr-0.7.0.tar.gz
+[2023-07-10 14:31:53] INFO root fetch - processPackages [mekab]: executing diffoscope
+[2023-07-10 14:31:53] INFO root fetch - processPackages [mekab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mekab-8.9.5.tar.gz tmp/mekab-9.9.9.tar.gz --markdown 20230710/m/mekab/8.9.5-9.9.9/diff.md --exclude *.pyd
+[2023-07-10 14:31:53] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/df/b8/df6c6239e95df28ca63b783503a42227c391af96a38f336affb68867cee3/returnn-1.20230710.141414.tar.gz
+[2023-07-10 14:31:53] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-07-10 14:31:53] INFO root fetch - processPackages [django-version-checks]: Downloading https://files.pythonhosted.org/packages/0b/46/5b03bd3fed3e79043c942067e6f2179bb1b609e459d47a0f6e59b45139ea/django_version_checks-1.9.0.tar.gz
+[2023-07-10 14:31:54] INFO root fetch - processPackages [django-allow-cidr]: executing diffoscope
+[2023-07-10 14:31:54] INFO root fetch - processPackages [django-allow-cidr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-allow-cidr-0.6.0.tar.gz tmp/django-allow-cidr-0.7.0.tar.gz --markdown 20230710/d/django-allow-cidr/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-07-10 14:31:54] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-07-10 14:31:54] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.358.0.tar.gz tmp/policyengine-us-0.358.1.tar.gz --markdown 20230710/p/policyengine-us/0.358.0-0.358.1/diff.md --exclude *.pyd
+[2023-07-10 14:31:54] INFO root fetch - processPackages [django-version-checks]: executing diffoscope
+[2023-07-10 14:31:54] INFO root fetch - processPackages [django-version-checks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_version_checks-1.8.0.tar.gz tmp/django_version_checks-1.9.0.tar.gz --markdown 20230710/d/django-version-checks/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-10 14:31:54] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-07-10 14:31:54] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230710/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-07-10 14:31:54] INFO root fetch - processPackages [depthai-viewer]: Downloading https://files.pythonhosted.org/packages/6e/6f/d853b4eb8eff2288b3fb85b971fc89184b7a8bf6abb6ee482b330be93869/depthai_viewer-0.1.3-cp38-abi3-win_amd64.whl
+[2023-07-10 14:31:54] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-07-10 14:31:54] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230710.125126.tar.gz tmp/returnn-1.20230710.141414.tar.gz --markdown 20230710/r/returnn/1.20230710.125126-1.20230710.141414/diff.md --exclude *.pyd
+[2023-07-10 14:31:54] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-07-10 14:31:54] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230710104932.tar.gz tmp/localstack-core-2.1.1.dev20230710122815.tar.gz --markdown 20230710/l/localstack-core/2.1.1.dev20230710104932-2.1.1.dev20230710122815/diff.md --exclude *.pyd
+[2023-07-10 14:31:54] INFO root fetch - processPackages [Geode-Implicit]: Downloading https://files.pythonhosted.org/packages/3d/ac/e3acf688016926cd2a623471ba5c9690f5caa2f992a04c62b9b2b9bc77cd/Geode_Implicit-2.1.2rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-10 14:31:54] INFO root fetch - processPackages [depthai-viewer]: executing diffoscope
+[2023-07-10 14:31:54] INFO root fetch - processPackages [depthai-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/depthai_viewer-0.1.2-cp38-abi3-win_amd64.whl.zip tmp/depthai_viewer-0.1.3-cp38-abi3-win_amd64.whl.zip --markdown 20230710/d/depthai-viewer/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-10 14:31:54] INFO root fetch - processPackages [Geode-Implicit]: executing diffoscope
+[2023-07-10 14:31:54] INFO root fetch - processPackages [Geode-Implicit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Implicit-2.1.1rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Implicit-2.1.2rc1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230710/G/Geode-Implicit/2.1.1rc1-2.1.2rc1/diff.md --exclude *.pyd
+[2023-07-10 14:31:55] INFO root fetch - processPackages [mekab]: Remove: archive file [/home/abi/fetcher/tmp/mekab-8.9.5.tar.gz]
+[2023-07-10 14:31:55] INFO root fetch - processPackages [mekab]: Remove: archive file [/home/abi/fetcher/tmp/mekab-9.9.9.tar.gz]
+[2023-07-10 14:31:55] INFO root fetch - main [MainThread]: End processing [mekab]: success
+[2023-07-10 14:31:55] INFO root fetch - processPackages [django-allow-cidr]: Remove: archive file [/home/abi/fetcher/tmp/django-allow-cidr-0.6.0.tar.gz]
+[2023-07-10 14:31:55] INFO root fetch - processPackages [django-allow-cidr]: Remove: archive file [/home/abi/fetcher/tmp/django-allow-cidr-0.7.0.tar.gz]
+[2023-07-10 14:31:55] INFO root fetch - main [MainThread]: End processing [django-allow-cidr]: success
+[2023-07-10 14:31:55] INFO root fetch - processPackages [django-version-checks]: Remove: archive file [/home/abi/fetcher/tmp/django_version_checks-1.8.0.tar.gz]
+[2023-07-10 14:31:55] INFO root fetch - processPackages [django-version-checks]: Remove: archive file [/home/abi/fetcher/tmp/django_version_checks-1.9.0.tar.gz]
+[2023-07-10 14:31:55] INFO root fetch - main [MainThread]: End processing [django-version-checks]: success
+[2023-07-10 14:31:56] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.8.tar.gz]
+[2023-07-10 14:31:56] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
+[2023-07-10 14:31:56] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-07-10 14:31:56] INFO root fetch - processPackages [depthai-viewer]: Remove: archive file [/home/abi/fetcher/tmp/depthai_viewer-0.1.2-cp38-abi3-win_amd64.whl.zip]
+[2023-07-10 14:31:56] INFO root fetch - processPackages [depthai-viewer]: Remove: archive file [/home/abi/fetcher/tmp/depthai_viewer-0.1.3-cp38-abi3-win_amd64.whl.zip]
+[2023-07-10 14:31:56] INFO root fetch - main [MainThread]: End processing [depthai-viewer]: success
+[2023-07-10 14:31:56] INFO root fetch - processPackages [Geode-Implicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Implicit-2.1.1rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-10 14:31:56] INFO root fetch - processPackages [Geode-Implicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Implicit-2.1.2rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-10 14:31:56] INFO root fetch - main [MainThread]: End processing [Geode-Implicit]: success
+[2023-07-10 14:31:58] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-07-10 14:31:58] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-07-10 14:31:58] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-07-10 14:31:58] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230710.125126.tar.gz]
+[2023-07-10 14:31:58] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230710.141414.tar.gz]
+[2023-07-10 14:31:58] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-07-10 14:31:59] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230710104932.tar.gz]
+[2023-07-10 14:31:59] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230710122815.tar.gz]
+[2023-07-10 14:31:59] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-07-10 14:32:25] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.358.0.tar.gz]
+[2023-07-10 14:32:25] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.358.1.tar.gz]
+[2023-07-10 14:32:25] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-07-10 14:32:25] INFO root fetch - main [MainThread]: Store serial: [18830472]
