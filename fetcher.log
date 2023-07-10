@@ -12141,3 +12141,63 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 10:46:48] INFO root fetch - processPackages [kthbuild]: Remove: archive file [/home/abi/fetcher/tmp/kthbuild-3.2.0.tar.gz]
 [2023-07-10 10:46:48] INFO root fetch - main [MainThread]: End processing [kthbuild]: success
 [2023-07-10 10:46:48] INFO root fetch - main [MainThread]: Store serial: [18828455]
+[2023-07-10 10:51:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18828455]
+[2023-07-10 10:51:56] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-10 10:51:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ssi-fc-data
+[2023-07-10 10:51:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfp-nightly
+[2023-07-10 10:51:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: otcdocstheme
+[2023-07-10 10:51:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: checkatlas
+[2023-07-10 10:51:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crossval-ensemble
+[2023-07-10 10:51:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-multi-email-field
+[2023-07-10 10:51:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: core-models
+[2023-07-10 10:51:57] INFO root fetch - processPackages [django-multi-email-field]: New version: [0.7.0] Old Version: [0.6.2]
+[2023-07-10 10:51:57] INFO root fetch - processPackages [otcdocstheme]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-10 10:51:57] WARNING root fetch - processPackages [crossval-ensemble]: Skipping, unable to determine old version
+[2023-07-10 10:51:57] INFO root fetch - main [MainThread]: End processing [crossval-ensemble] error
+[2023-07-10 10:51:57] INFO root fetch - processPackages [checkatlas]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-10 10:51:57] INFO root fetch - processPackages [ssi-fc-data]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-07-10 10:51:57] INFO root fetch - processPackages [core-models]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-10 10:51:57] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/e4/2e/7cdbbfdcf29ad4488d0ea6a67d44428e8b25079f311e52c6d0309f614e8a/checkatlas-0.2.8.tar.gz
+[2023-07-10 10:51:57] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-07-10 10:51:57] INFO root fetch - processPackages [otcdocstheme]: Downloading https://files.pythonhosted.org/packages/ac/ae/41c29f6be3319dda14ea99b5ca9828905e9188016972ee568d7982651051/otcdocstheme-0.8.1.tar.gz
+[2023-07-10 10:51:57] INFO root fetch - processPackages [django-multi-email-field]: Downloading https://files.pythonhosted.org/packages/89/8b/4e0f2477cf7cd379113f2e1657b8b5647d8050a79eb4b898c85391e106b3/django-multi-email-field-0.6.2.tar.gz
+[2023-07-10 10:51:57] INFO root fetch - processPackages [ssi-fc-data]: Downloading https://files.pythonhosted.org/packages/40/c1/c95ce6ba2a8d1cba7c1f9d0b8529d1253df5c3843535c62cadf092d19997/ssi_fc_data-2.1.0.tar.gz
+[2023-07-10 10:51:57] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/f7/87/e9c9bb0448f6d98c666cb42c5491136038203ad50e695025afb0f3a12ae4/checkatlas-0.2.9.tar.gz
+[2023-07-10 10:51:57] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2023-07-10 10:51:57] INFO root fetch - processPackages [core-models]: Downloading https://files.pythonhosted.org/packages/05/7a/2f96dda91cbc8c3250c4c03fcb62186bec85ac572e9fb782174963f5c7a3/core_models-0.1.1.tar.gz
+[2023-07-10 10:51:57] INFO root fetch - processPackages [checkatlas]: executing diffoscope
+[2023-07-10 10:51:57] INFO root fetch - processPackages [checkatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkatlas-0.2.8.tar.gz tmp/checkatlas-0.2.9.tar.gz --markdown 20230710/c/checkatlas/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-10 10:51:57] INFO root fetch - processPackages [django-multi-email-field]: Downloading https://files.pythonhosted.org/packages/c6/34/8cdeda9c227e67a35003dafe52627647eab1d7c765f0964cf3d88b18cf91/django-multi-email-field-0.7.0.tar.gz
+[2023-07-10 10:51:57] INFO root fetch - processPackages [ssi-fc-data]: Downloading https://files.pythonhosted.org/packages/06/e9/cd85c473a0a5471fffce052cc34abe7f08da0d483ceb0baca2d7e8caaeb8/ssi_fc_data-2.1.1.tar.gz
+[2023-07-10 10:51:58] INFO root fetch - processPackages [ssi-fc-data]: executing diffoscope
+[2023-07-10 10:51:58] INFO root fetch - processPackages [ssi-fc-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssi_fc_data-2.1.0.tar.gz tmp/ssi_fc_data-2.1.1.tar.gz --markdown 20230710/s/ssi-fc-data/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-07-10 10:51:58] INFO root fetch - processPackages [django-multi-email-field]: executing diffoscope
+[2023-07-10 10:51:58] INFO root fetch - processPackages [django-multi-email-field]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-multi-email-field-0.6.2.tar.gz tmp/django-multi-email-field-0.7.0.tar.gz --markdown 20230710/d/django-multi-email-field/0.6.2-0.7.0/diff.md --exclude *.pyd
+[2023-07-10 10:51:58] INFO root fetch - processPackages [core-models]: Downloading https://files.pythonhosted.org/packages/ff/2c/ec1911c709bf81b3d5a08e372379757c5fc2a2568e54d8bb7ce50d134105/core_models-0.1.2.tar.gz
+[2023-07-10 10:51:58] INFO root fetch - processPackages [core-models]: executing diffoscope
+[2023-07-10 10:51:58] INFO root fetch - processPackages [core-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_models-0.1.1.tar.gz tmp/core_models-0.1.2.tar.gz --markdown 20230710/c/core-models/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-10 10:51:58] INFO root fetch - processPackages [otcdocstheme]: Downloading https://files.pythonhosted.org/packages/65/32/f86efa68e1d4d90b5d55bb215d834248474fb41082f68132bba53ec5ad34/otcdocstheme-0.9.0.tar.gz
+[2023-07-10 10:51:58] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2023-07-10 10:51:58] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-07-10 10:51:58] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230710/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-07-10 10:51:58] INFO root fetch - processPackages [otcdocstheme]: executing diffoscope
+[2023-07-10 10:51:58] INFO root fetch - processPackages [otcdocstheme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otcdocstheme-0.8.1.tar.gz tmp/otcdocstheme-0.9.0.tar.gz --markdown 20230710/o/otcdocstheme/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-10 10:51:58] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.2.8.tar.gz]
+[2023-07-10 10:51:58] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.2.9.tar.gz]
+[2023-07-10 10:51:58] INFO root fetch - main [MainThread]: End processing [checkatlas]: success
+[2023-07-10 10:51:58] INFO root fetch - processPackages [django-multi-email-field]: Remove: archive file [/home/abi/fetcher/tmp/django-multi-email-field-0.6.2.tar.gz]
+[2023-07-10 10:51:58] INFO root fetch - processPackages [django-multi-email-field]: Remove: archive file [/home/abi/fetcher/tmp/django-multi-email-field-0.7.0.tar.gz]
+[2023-07-10 10:51:59] INFO root fetch - main [MainThread]: End processing [django-multi-email-field]: success
+[2023-07-10 10:51:59] INFO root fetch - processPackages [ssi-fc-data]: Remove: archive file [/home/abi/fetcher/tmp/ssi_fc_data-2.1.0.tar.gz]
+[2023-07-10 10:51:59] INFO root fetch - processPackages [ssi-fc-data]: Remove: archive file [/home/abi/fetcher/tmp/ssi_fc_data-2.1.1.tar.gz]
+[2023-07-10 10:51:59] INFO root fetch - main [MainThread]: End processing [ssi-fc-data]: success
+[2023-07-10 10:51:59] INFO root fetch - processPackages [core-models]: Remove: archive file [/home/abi/fetcher/tmp/core_models-0.1.1.tar.gz]
+[2023-07-10 10:51:59] INFO root fetch - processPackages [core-models]: Remove: archive file [/home/abi/fetcher/tmp/core_models-0.1.2.tar.gz]
+[2023-07-10 10:51:59] INFO root fetch - main [MainThread]: End processing [core-models]: success
+[2023-07-10 10:52:00] INFO root fetch - processPackages [otcdocstheme]: Remove: archive file [/home/abi/fetcher/tmp/otcdocstheme-0.8.1.tar.gz]
+[2023-07-10 10:52:00] INFO root fetch - processPackages [otcdocstheme]: Remove: archive file [/home/abi/fetcher/tmp/otcdocstheme-0.9.0.tar.gz]
+[2023-07-10 10:52:00] INFO root fetch - main [MainThread]: End processing [otcdocstheme]: success
+[2023-07-10 10:52:03] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2023-07-10 10:52:03] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2023-07-10 10:52:03] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-07-10 10:52:03] INFO root fetch - main [MainThread]: Store serial: [18828478]
