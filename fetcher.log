@@ -8675,3 +8675,45 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 08:02:51] INFO root fetch - processPackages [truss]: Remove: archive file [/home/abi/fetcher/tmp/truss-0.4.9rc9.tar.gz]
 [2023-07-10 08:02:51] INFO root fetch - main [MainThread]: End processing [truss]: success
 [2023-07-10 08:02:51] INFO root fetch - main [MainThread]: Store serial: [18826985]
+[2023-07-10 08:07:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18826985]
+[2023-07-10 08:08:00] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-10 08:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: featureform
+[2023-07-10 08:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sopel-meetbot
+[2023-07-10 08:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SwarAnuvad
+[2023-07-10 08:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: physipy
+[2023-07-10 08:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cad-to-dagmc
+[2023-07-10 08:08:00] WARNING root fetch - processPackages [sopel-meetbot]: Skipping, unable to determine old version
+[2023-07-10 08:08:00] INFO root fetch - main [MainThread]: End processing [sopel-meetbot] error
+[2023-07-10 08:08:00] INFO root fetch - processPackages [SwarAnuvad]: New version: [2.4.5] Old Version: [2.4.0]
+[2023-07-10 08:08:00] INFO root fetch - processPackages [physipy]: New version: [0.2.post1] Old Version: [0.2.6]
+[2023-07-10 08:08:00] INFO root fetch - processPackages [cad-to-dagmc]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-07-10 08:08:00] INFO root fetch - processPackages [featureform]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-07-10 08:08:01] INFO root fetch - processPackages [SwarAnuvad]: Downloading https://files.pythonhosted.org/packages/9a/a1/b3e2d579d9d89a996b0403788dab368b6f6fcd0eb6cc4bd412a31f63555d/sWaraNuvad-2.4.0.tar.gz
+[2023-07-10 08:08:01] INFO root fetch - processPackages [featureform]: Downloading https://files.pythonhosted.org/packages/b2/e3/b409acd32bcbdd1ea3497943fefadadc561283b1a062dc9d9f7b66cd7c2b/featureform-1.9.4.tar.gz
+[2023-07-10 08:08:01] INFO root fetch - processPackages [physipy]: Downloading https://files.pythonhosted.org/packages/b6/26/75771d0fef124c391bd034e2d7a52b11519151c8f582fb38c6eb3be4c1d8/physipy-0.2.6.tar.gz
+[2023-07-10 08:08:01] INFO root fetch - processPackages [cad-to-dagmc]: Downloading https://files.pythonhosted.org/packages/72/8a/19455fe802ba480cacdec484387c87b2c59698d7af681a75b73768ed2d09/cad_to_dagmc-0.3.2.tar.gz
+[2023-07-10 08:08:01] INFO root fetch - processPackages [SwarAnuvad]: Downloading https://files.pythonhosted.org/packages/9f/a2/62fa25c7c57de88217e8ca3966b2ed0b49a70bc444585ca3b8426b1136b2/sWaraNuvad-2.4.5.tar.gz
+[2023-07-10 08:08:01] INFO root fetch - processPackages [SwarAnuvad]: executing diffoscope
+[2023-07-10 08:08:01] INFO root fetch - processPackages [SwarAnuvad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sWaraNuvad-2.4.0.tar.gz tmp/sWaraNuvad-2.4.5.tar.gz --markdown 20230710/S/SwarAnuvad/2.4.0-2.4.5/diff.md --exclude *.pyd
+[2023-07-10 08:08:01] INFO root fetch - processPackages [cad-to-dagmc]: Downloading https://files.pythonhosted.org/packages/06/25/f28c49fdfdfc8bd8f381bffcf996e3b94040ef343bd965ce6d6cf8f3590e/cad_to_dagmc-0.4.0.tar.gz
+[2023-07-10 08:08:01] INFO root fetch - processPackages [featureform]: Downloading https://files.pythonhosted.org/packages/e1/a6/b6bc8da66498a8c9c93f244d664b817b6a8dc8ff34835bd73223abe9a6f5/featureform-1.9.5.tar.gz
+[2023-07-10 08:08:01] INFO root fetch - processPackages [physipy]: Downloading https://files.pythonhosted.org/packages/54/a9/2740c8e6986ff4dd0525d62afd7eda4a954cf52d8d99fc83c5e2a2058edd/physipy-0.2.post1.tar.gz
+[2023-07-10 08:08:01] INFO root fetch - processPackages [physipy]: executing diffoscope
+[2023-07-10 08:08:01] INFO root fetch - processPackages [physipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/physipy-0.2.6.tar.gz tmp/physipy-0.2.post1.tar.gz --markdown 20230710/p/physipy/0.2.6-0.2.post1/diff.md --exclude *.pyd
+[2023-07-10 08:08:02] INFO root fetch - processPackages [featureform]: executing diffoscope
+[2023-07-10 08:08:02] INFO root fetch - processPackages [featureform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featureform-1.9.4.tar.gz tmp/featureform-1.9.5.tar.gz --markdown 20230710/f/featureform/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-07-10 08:08:02] INFO root fetch - processPackages [cad-to-dagmc]: executing diffoscope
+[2023-07-10 08:08:02] INFO root fetch - processPackages [cad-to-dagmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cad_to_dagmc-0.3.2.tar.gz tmp/cad_to_dagmc-0.4.0.tar.gz --markdown 20230710/c/cad-to-dagmc/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-07-10 08:08:02] INFO root fetch - processPackages [SwarAnuvad]: Remove: archive file [/home/abi/fetcher/tmp/sWaraNuvad-2.4.0.tar.gz]
+[2023-07-10 08:08:02] INFO root fetch - processPackages [SwarAnuvad]: Remove: archive file [/home/abi/fetcher/tmp/sWaraNuvad-2.4.5.tar.gz]
+[2023-07-10 08:08:02] INFO root fetch - main [MainThread]: End processing [SwarAnuvad]: success
+[2023-07-10 08:08:02] INFO root fetch - processPackages [physipy]: Remove: archive file [/home/abi/fetcher/tmp/physipy-0.2.6.tar.gz]
+[2023-07-10 08:08:02] INFO root fetch - processPackages [physipy]: Remove: archive file [/home/abi/fetcher/tmp/physipy-0.2.post1.tar.gz]
+[2023-07-10 08:08:02] INFO root fetch - main [MainThread]: End processing [physipy]: success
+[2023-07-10 08:08:03] INFO root fetch - processPackages [cad-to-dagmc]: Remove: archive file [/home/abi/fetcher/tmp/cad_to_dagmc-0.3.2.tar.gz]
+[2023-07-10 08:08:03] INFO root fetch - processPackages [cad-to-dagmc]: Remove: archive file [/home/abi/fetcher/tmp/cad_to_dagmc-0.4.0.tar.gz]
+[2023-07-10 08:08:03] INFO root fetch - main [MainThread]: End processing [cad-to-dagmc]: success
+[2023-07-10 08:08:04] INFO root fetch - processPackages [featureform]: Remove: archive file [/home/abi/fetcher/tmp/featureform-1.9.4.tar.gz]
+[2023-07-10 08:08:04] INFO root fetch - processPackages [featureform]: Remove: archive file [/home/abi/fetcher/tmp/featureform-1.9.5.tar.gz]
+[2023-07-10 08:08:04] INFO root fetch - main [MainThread]: End processing [featureform]: success
+[2023-07-10 08:08:04] INFO root fetch - main [MainThread]: Store serial: [18827004]
