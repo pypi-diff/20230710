@@ -8900,3 +8900,110 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 08:23:43] INFO root fetch - processPackages [drf-api-logger]: Remove: archive file [/home/abi/fetcher/tmp/drf_api_logger-1.1.14.tar.gz]
 [2023-07-10 08:23:43] INFO root fetch - main [MainThread]: End processing [drf-api-logger]: success
 [2023-07-10 08:23:43] INFO root fetch - main [MainThread]: Store serial: [18827083]
+[2023-07-10 08:28:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18827083]
+[2023-07-10 08:28:52] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-10 08:28:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: storey
+[2023-07-10 08:28:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xaddpy
+[2023-07-10 08:28:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bbat
+[2023-07-10 08:28:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: peutils
+[2023-07-10 08:28:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mlflow
+[2023-07-10 08:28:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wheel-axle-runtime
+[2023-07-10 08:28:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fake-bpy-module-latest
+[2023-07-10 08:28:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hds-stats
+[2023-07-10 08:28:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: datajunction
+[2023-07-10 08:28:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spiderx
+[2023-07-10 08:28:53] INFO root fetch - processPackages [xaddpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 08:28:53] INFO root fetch - processPackages [bbat]: New version: [5.2.3] Old Version: [5.2.2]
+[2023-07-10 08:28:53] INFO root fetch - processPackages [datajunction]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-07-10 08:28:53] INFO root fetch - processPackages [spiderx]: New version: [1.8.9] Old Version: [1.8.2]
+[2023-07-10 08:28:53] INFO root fetch - processPackages [wheel-axle-runtime]: New version: [0.0.4.dev20230710062519] Old Version: [0.0.4.dev20230415195356]
+[2023-07-10 08:28:53] INFO root fetch - processPackages [hds-stats]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-10 08:28:53] INFO root fetch - processPackages [storey]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-07-10 08:28:53] INFO root fetch - processPackages [peutils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 08:28:53] INFO root fetch - processPackages [mlflow]: New version: [2.4.2] Old Version: [2.4.1]
+[2023-07-10 08:28:53] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230710] Old Version: [20230709]
+[2023-07-10 08:28:53] INFO root fetch - processPackages [xaddpy]: Downloading https://files.pythonhosted.org/packages/20/90/e7ea0657b663e5ff61c88a10bb94ed63c06336fb9438776f74da1c77c4d1/xaddpy-0.1.8.tar.gz
+[2023-07-10 08:28:53] INFO root fetch - processPackages [bbat]: Downloading https://files.pythonhosted.org/packages/01/1a/c924b6f02f2f54340bad7959ea355a4af5c9c93fc1d5cb34f46984c5184c/bbat-5.2.2.tar.gz
+[2023-07-10 08:28:53] INFO root fetch - processPackages [spiderx]: Downloading https://files.pythonhosted.org/packages/0a/38/bdc5166668af43c8d8fb12955ee54797392b7e8d7c1bc7aa8180d6cf526b/spiderx-1.8.2.tar.gz
+[2023-07-10 08:28:53] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/2b/7a/789ebdb60814cb94c4043df7e6a75fa48b6c4a38e90f27a6cd1fca337457/fake-bpy-module-latest-20230709.tar.gz
+[2023-07-10 08:28:53] INFO root fetch - processPackages [hds-stats]: Downloading https://files.pythonhosted.org/packages/9c/e5/33be7d65b3a612bf884888a05aa9a5f1b4f3850d6aa37f146579109d479d/hds-stats-0.3.1.tar.gz
+[2023-07-10 08:28:53] INFO root fetch - processPackages [wheel-axle-runtime]: Downloading https://files.pythonhosted.org/packages/80/cb/d1f8ac45eebd3b5ba53b391041965a4d5871d4c6bfe475f16de9388c6c92/wheel-axle-runtime-0.0.4.dev20230415195356.tar.gz
+[2023-07-10 08:28:53] INFO root fetch - processPackages [mlflow]: Downloading https://files.pythonhosted.org/packages/47/5e/1b9a491d7b0ebbbcce3f81685e024161f4f6adfd49e07d12189f522d196c/mlflow-2.4.1.tar.gz
+[2023-07-10 08:28:53] INFO root fetch - processPackages [datajunction]: Downloading https://files.pythonhosted.org/packages/1c/dd/d011039dbc015ee0cadf6a3a31cdaef350b9b1ee49373c7b04f51d601564/datajunction-0.0.1a8.tar.gz
+[2023-07-10 08:28:53] INFO root fetch - processPackages [peutils]: Downloading https://files.pythonhosted.org/packages/59/06/1c8f2582ca1e885ab47b437ffaffe1263ae3120893aa3e2cee27fb2bc894/peutils-0.0.8.tar.gz
+[2023-07-10 08:28:53] INFO root fetch - processPackages [storey]: Downloading https://files.pythonhosted.org/packages/37/c5/e8e4d781f2a5ee1999b7b06ff3b1818a8b12f56e4e194c050eed7413c713/storey-1.4.3.tar.gz
+[2023-07-10 08:28:53] WARNING root fetch - processPackages [mlflow]: Skipping package: exceeds size limit 17731606>=10485760
+[2023-07-10 08:28:53] INFO root fetch - processPackages [mlflow]: Start processing: mlflow-skinny
+[2023-07-10 08:28:53] INFO root fetch - main [MainThread]: End processing [mlflow] error
+[2023-07-10 08:28:53] INFO root fetch - processPackages [xaddpy]: Downloading https://files.pythonhosted.org/packages/a2/7e/0091d45a4449b844ad0f094201e201adb58184142ce83f663d89bd284162/xaddpy-0.1.9.tar.gz
+[2023-07-10 08:28:53] INFO root fetch - processPackages [bbat]: Downloading https://files.pythonhosted.org/packages/4e/4b/33819c4f79c0f9235d45b08bdfe27269a604c195ee27f892114ef3e84406/bbat-5.2.3.tar.gz
+[2023-07-10 08:28:53] INFO root fetch - processPackages [mlflow-skinny]: New version: [2.4.2] Old Version: [2.4.1]
+[2023-07-10 08:28:53] INFO root fetch - processPackages [spiderx]: Downloading https://files.pythonhosted.org/packages/89/1b/9167dbeeaa50aa50ace655fad0bdde6e911624db12636d31909324747f8a/spiderx-1.8.9.tar.gz
+[2023-07-10 08:28:53] INFO root fetch - processPackages [hds-stats]: Downloading https://files.pythonhosted.org/packages/73/78/826efdfffec6ea98ebb12373edf484e62a791fb4a702ce6e8804dbcfa8ec/hds-stats-0.3.2.tar.gz
+[2023-07-10 08:28:53] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/ac/de/4178e53588d68116e18c790ecce6f46db76c0fa84f5170087b9c40fd9fd2/fake-bpy-module-latest-20230710.tar.gz
+[2023-07-10 08:28:54] INFO root fetch - processPackages [wheel-axle-runtime]: Downloading https://files.pythonhosted.org/packages/b1/99/66ff4304f8b2f7a94c85a6b47a70db81d1f25cf610f94f92519d1a50f639/wheel-axle-runtime-0.0.4.dev20230710062519.tar.gz
+[2023-07-10 08:28:54] INFO root fetch - processPackages [xaddpy]: executing diffoscope
+[2023-07-10 08:28:54] INFO root fetch - processPackages [xaddpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xaddpy-0.1.8.tar.gz tmp/xaddpy-0.1.9.tar.gz --markdown 20230710/x/xaddpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 08:28:54] INFO root fetch - processPackages [peutils]: Downloading https://files.pythonhosted.org/packages/7e/4c/b04cc08226f309f929014d3fa07e929ce9344068762872a701c5c2fa2555/peutils-0.0.9.tar.gz
+[2023-07-10 08:28:54] INFO root fetch - processPackages [storey]: Downloading https://files.pythonhosted.org/packages/08/4d/55f153158c3b25bc74e820c353a18194025291e8f574c028b3d7478c0673/storey-1.4.4.tar.gz
+[2023-07-10 08:28:54] INFO root fetch - processPackages [mlflow-skinny]: Downloading https://files.pythonhosted.org/packages/29/8c/0c15c233299665420083c139b9226644b1618adb3413ee81b53f7505e08f/mlflow-skinny-2.4.1.tar.gz
+[2023-07-10 08:28:54] INFO root fetch - processPackages [bbat]: executing diffoscope
+[2023-07-10 08:28:54] INFO root fetch - processPackages [bbat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbat-5.2.2.tar.gz tmp/bbat-5.2.3.tar.gz --markdown 20230710/b/bbat/5.2.2-5.2.3/diff.md --exclude *.pyd
+[2023-07-10 08:28:54] INFO root fetch - processPackages [storey]: executing diffoscope
+[2023-07-10 08:28:54] INFO root fetch - processPackages [storey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/storey-1.4.3.tar.gz tmp/storey-1.4.4.tar.gz --markdown 20230710/s/storey/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-07-10 08:28:54] INFO root fetch - processPackages [spiderx]: executing diffoscope
+[2023-07-10 08:28:54] INFO root fetch - processPackages [spiderx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiderx-1.8.2.tar.gz tmp/spiderx-1.8.9.tar.gz --markdown 20230710/s/spiderx/1.8.2-1.8.9/diff.md --exclude *.pyd
+[2023-07-10 08:28:54] INFO root fetch - processPackages [hds-stats]: executing diffoscope
+[2023-07-10 08:28:54] INFO root fetch - processPackages [hds-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hds-stats-0.3.1.tar.gz tmp/hds-stats-0.3.2.tar.gz --markdown 20230710/h/hds-stats/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-10 08:28:54] INFO root fetch - processPackages [wheel-axle-runtime]: executing diffoscope
+[2023-07-10 08:28:54] INFO root fetch - processPackages [wheel-axle-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wheel-axle-runtime-0.0.4.dev20230415195356.tar.gz tmp/wheel-axle-runtime-0.0.4.dev20230710062519.tar.gz --markdown 20230710/w/wheel-axle-runtime/0.0.4.dev20230415195356-0.0.4.dev20230710062519/diff.md --exclude *.pyd
+[2023-07-10 08:28:54] INFO root fetch - processPackages [peutils]: executing diffoscope
+[2023-07-10 08:28:54] INFO root fetch - processPackages [peutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peutils-0.0.8.tar.gz tmp/peutils-0.0.9.tar.gz --markdown 20230710/p/peutils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 08:28:54] INFO root fetch - processPackages [datajunction]: Downloading https://files.pythonhosted.org/packages/a3/56/726ef8b88da5d7d28a93212e0247effc166d3a97fbe5bb9c64412e7e2c66/datajunction-0.0.1a9.tar.gz
+[2023-07-10 08:28:54] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-07-10 08:28:54] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230709.tar.gz tmp/fake-bpy-module-latest-20230710.tar.gz --markdown 20230710/f/fake-bpy-module-latest/20230709-20230710/diff.md --exclude *.pyd
+[2023-07-10 08:28:54] INFO root fetch - processPackages [datajunction]: executing diffoscope
+[2023-07-10 08:28:54] INFO root fetch - processPackages [datajunction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datajunction-0.0.1a8.tar.gz tmp/datajunction-0.0.1a9.tar.gz --markdown 20230710/d/datajunction/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-07-10 08:28:55] INFO root fetch - processPackages [mlflow-skinny]: Downloading https://files.pythonhosted.org/packages/a2/4b/519ee80833a5a3b83635f1dd01f2fcda12c52d30203442b96563c191463e/mlflow-skinny-2.4.2.tar.gz
+[2023-07-10 08:28:55] INFO root fetch - processPackages [mlflow-skinny]: executing diffoscope
+[2023-07-10 08:28:55] INFO root fetch - processPackages [mlflow-skinny]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlflow-skinny-2.4.1.tar.gz tmp/mlflow-skinny-2.4.2.tar.gz --markdown 20230710/m/mlflow-skinny/2.4.1-2.4.2/diff.md --exclude *.pyd
+[2023-07-10 08:28:56] INFO root fetch - processPackages [bbat]: Remove: archive file [/home/abi/fetcher/tmp/bbat-5.2.2.tar.gz]
+[2023-07-10 08:28:56] INFO root fetch - processPackages [bbat]: Remove: archive file [/home/abi/fetcher/tmp/bbat-5.2.3.tar.gz]
+[2023-07-10 08:28:56] INFO root fetch - processPackages [bbat]: Start processing: video-ditor
+[2023-07-10 08:28:56] INFO root fetch - main [MainThread]: End processing [bbat]: success
+[2023-07-10 08:28:56] INFO root fetch - processPackages [video-ditor]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-10 08:28:56] INFO root fetch - processPackages [wheel-axle-runtime]: Remove: archive file [/home/abi/fetcher/tmp/wheel-axle-runtime-0.0.4.dev20230415195356.tar.gz]
+[2023-07-10 08:28:56] INFO root fetch - processPackages [wheel-axle-runtime]: Remove: archive file [/home/abi/fetcher/tmp/wheel-axle-runtime-0.0.4.dev20230710062519.tar.gz]
+[2023-07-10 08:28:56] INFO root fetch - main [MainThread]: End processing [wheel-axle-runtime]: success
+[2023-07-10 08:28:56] INFO root fetch - processPackages [xaddpy]: Remove: archive file [/home/abi/fetcher/tmp/xaddpy-0.1.8.tar.gz]
+[2023-07-10 08:28:56] INFO root fetch - processPackages [xaddpy]: Remove: archive file [/home/abi/fetcher/tmp/xaddpy-0.1.9.tar.gz]
+[2023-07-10 08:28:56] INFO root fetch - main [MainThread]: End processing [xaddpy]: success
+[2023-07-10 08:28:56] INFO root fetch - processPackages [video-ditor]: Downloading https://files.pythonhosted.org/packages/3e/88/395a671711a9faf42a1321ec0c9c416c932905929af73e7133f58c2e31a8/video-ditor-0.0.1.tar.gz
+[2023-07-10 08:28:56] INFO root fetch - processPackages [spiderx]: Remove: archive file [/home/abi/fetcher/tmp/spiderx-1.8.2.tar.gz]
+[2023-07-10 08:28:56] INFO root fetch - processPackages [spiderx]: Remove: archive file [/home/abi/fetcher/tmp/spiderx-1.8.9.tar.gz]
+[2023-07-10 08:28:56] INFO root fetch - main [MainThread]: End processing [spiderx]: success
+[2023-07-10 08:28:56] INFO root fetch - processPackages [hds-stats]: Remove: archive file [/home/abi/fetcher/tmp/hds-stats-0.3.1.tar.gz]
+[2023-07-10 08:28:56] INFO root fetch - processPackages [hds-stats]: Remove: archive file [/home/abi/fetcher/tmp/hds-stats-0.3.2.tar.gz]
+[2023-07-10 08:28:56] INFO root fetch - main [MainThread]: End processing [hds-stats]: success
+[2023-07-10 08:28:56] INFO root fetch - processPackages [peutils]: Remove: archive file [/home/abi/fetcher/tmp/peutils-0.0.8.tar.gz]
+[2023-07-10 08:28:56] INFO root fetch - processPackages [peutils]: Remove: archive file [/home/abi/fetcher/tmp/peutils-0.0.9.tar.gz]
+[2023-07-10 08:28:56] INFO root fetch - main [MainThread]: End processing [peutils]: success
+[2023-07-10 08:28:56] INFO root fetch - processPackages [video-ditor]: Downloading https://files.pythonhosted.org/packages/6f/63/2851748243e7544d2e83b3bdea65c01a40d3a0b53defe6b0450e291cdaa1/video-ditor-0.0.2.tar.gz
+[2023-07-10 08:28:56] INFO root fetch - processPackages [storey]: Remove: archive file [/home/abi/fetcher/tmp/storey-1.4.3.tar.gz]
+[2023-07-10 08:28:56] INFO root fetch - processPackages [storey]: Remove: archive file [/home/abi/fetcher/tmp/storey-1.4.4.tar.gz]
+[2023-07-10 08:28:56] INFO root fetch - main [MainThread]: End processing [storey]: success
+[2023-07-10 08:28:56] INFO root fetch - processPackages [video-ditor]: executing diffoscope
+[2023-07-10 08:28:56] INFO root fetch - processPackages [video-ditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/video-ditor-0.0.1.tar.gz tmp/video-ditor-0.0.2.tar.gz --markdown 20230710/v/video-ditor/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-10 08:28:56] INFO root fetch - processPackages [datajunction]: Remove: archive file [/home/abi/fetcher/tmp/datajunction-0.0.1a8.tar.gz]
+[2023-07-10 08:28:56] INFO root fetch - processPackages [datajunction]: Remove: archive file [/home/abi/fetcher/tmp/datajunction-0.0.1a9.tar.gz]
+[2023-07-10 08:28:56] INFO root fetch - main [MainThread]: End processing [datajunction]: success
+[2023-07-10 08:28:57] INFO root fetch - processPackages [video-ditor]: Remove: archive file [/home/abi/fetcher/tmp/video-ditor-0.0.1.tar.gz]
+[2023-07-10 08:28:57] INFO root fetch - processPackages [video-ditor]: Remove: archive file [/home/abi/fetcher/tmp/video-ditor-0.0.2.tar.gz]
+[2023-07-10 08:28:57] INFO root fetch - main [MainThread]: End processing [video-ditor]: success
+[2023-07-10 08:28:59] INFO root fetch - processPackages [mlflow-skinny]: Remove: archive file [/home/abi/fetcher/tmp/mlflow-skinny-2.4.1.tar.gz]
+[2023-07-10 08:28:59] INFO root fetch - processPackages [mlflow-skinny]: Remove: archive file [/home/abi/fetcher/tmp/mlflow-skinny-2.4.2.tar.gz]
+[2023-07-10 08:28:59] INFO root fetch - main [MainThread]: End processing [mlflow-skinny]: success
+[2023-07-10 08:28:59] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230709.tar.gz]
+[2023-07-10 08:28:59] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230710.tar.gz]
+[2023-07-10 08:28:59] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-07-10 08:28:59] INFO root fetch - main [MainThread]: Store serial: [18827117]
