@@ -10011,3 +10011,141 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 09:21:38] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.9.tar.gz]
 [2023-07-10 09:21:38] INFO root fetch - main [MainThread]: End processing [oarepo-cli]: success
 [2023-07-10 09:21:38] INFO root fetch - main [MainThread]: Store serial: [18827613]
+[2023-07-10 09:26:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18827613]
+[2023-07-10 09:26:47] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-10 09:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yplib
+[2023-07-10 09:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SwarAnuvad
+[2023-07-10 09:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: otx
+[2023-07-10 09:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cnert
+[2023-07-10 09:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ul-data-aggregator-sdk
+[2023-07-10 09:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: OpenGeode-Geosciences
+[2023-07-10 09:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-denorm-iplweb
+[2023-07-10 09:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: libredr
+[2023-07-10 09:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: validio-cli
+[2023-07-10 09:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: validio-sdk
+[2023-07-10 09:26:47] INFO root fetch - processPackages [otx]: New version: [1.4.0rc1] Old Version: [1.3.2rc1]
+[2023-07-10 09:26:47] INFO root fetch - processPackages [validio-sdk]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-10 09:26:47] INFO root fetch - processPackages [validio-cli]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-10 09:26:47] INFO root fetch - processPackages [yplib]: New version: [2.3.8] Old Version: [2.3.7]
+[2023-07-10 09:26:47] INFO root fetch - processPackages [django-denorm-iplweb]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-10 09:26:47] INFO root fetch - processPackages [cnert]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-07-10 09:26:47] WARNING root fetch - processPackages [libredr]: Skipping, unable to determine old version
+[2023-07-10 09:26:47] INFO root fetch - processPackages [libredr]: Start processing: specgenerator
+[2023-07-10 09:26:47] INFO root fetch - main [MainThread]: End processing [libredr] error
+[2023-07-10 09:26:47] INFO root fetch - processPackages [ul-data-aggregator-sdk]: New version: [8.9.5] Old Version: [8.11.3]
+[2023-07-10 09:26:47] INFO root fetch - processPackages [OpenGeode-Geosciences]: New version: [7.1.1rc1] Old Version: [7.1.0rc1]
+[2023-07-10 09:26:47] WARNING root fetch - processPackages [SwarAnuvad]: Skipping, unable to determine old version
+[2023-07-10 09:26:47] INFO root fetch - processPackages [SwarAnuvad]: Start processing: pygim-common
+[2023-07-10 09:26:47] INFO root fetch - main [MainThread]: End processing [SwarAnuvad] error
+[2023-07-10 09:26:47] INFO root fetch - processPackages [pygim-common]: New version: [0.5.0] Old Version: [0.2.0]
+[2023-07-10 09:26:47] WARNING root fetch - processPackages [specgenerator]: Skipping, unable to determine old version
+[2023-07-10 09:26:47] INFO root fetch - processPackages [specgenerator]: Start processing: qtgql
+[2023-07-10 09:26:47] INFO root fetch - main [MainThread]: End processing [specgenerator] error
+[2023-07-10 09:26:48] INFO root fetch - processPackages [qtgql]: New version: [0.128.0] Old Version: [0.127.0]
+[2023-07-10 09:26:48] INFO root fetch - processPackages [cnert]: Downloading https://files.pythonhosted.org/packages/21/2f/0c8bf5d1a78cca714987044efaffdd1c8eceb3aaa5424c06238c6b8ec238/cnert-0.7.2.tar.gz
+[2023-07-10 09:26:48] INFO root fetch - processPackages [otx]: Downloading https://files.pythonhosted.org/packages/8d/3f/5da28ed62fb87653b7489b3033b00f1a18093f189ce0d96de854d492aa85/otx-1.3.2rc1.tar.gz
+[2023-07-10 09:26:48] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/ca/2a/a5b7ce75683fabf23940a49d13c4be00f32047b5089abda30bbd5a20ea4a/yplib-2.3.7.tar.gz
+[2023-07-10 09:26:48] INFO root fetch - processPackages [validio-sdk]: Downloading https://files.pythonhosted.org/packages/14/09/c3c688ea1edc83e09d5203691a8e7cb6de8f5157099abbe0c70b33b8196a/validio_sdk-0.6.2.tar.gz
+[2023-07-10 09:26:48] INFO root fetch - processPackages [django-denorm-iplweb]: Downloading https://files.pythonhosted.org/packages/48/d6/701103223dd8a8d419d565eacfb2024f35598fdc2679ed4417d447a9b618/django_denorm_iplweb-1.1.0-py3-none-any.whl
+[2023-07-10 09:26:48] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Downloading https://files.pythonhosted.org/packages/1c/1f/5c064f7cda53b94dd5e63d1b272ada459fa30f1c462d984cf73976294bc7/ul-data-aggregator-sdk-8.11.3.tar.gz
+[2023-07-10 09:26:48] INFO root fetch - processPackages [OpenGeode-Geosciences]: Downloading https://files.pythonhosted.org/packages/3f/d2/e533f754da8fb9ae21eaaa63c5cc4318a98bb426678bc5734fce72fc4a7c/OpenGeode_Geosciences-7.1.0rc1-cp39-cp39-win_amd64.whl
+[2023-07-10 09:26:48] INFO root fetch - processPackages [validio-cli]: Downloading https://files.pythonhosted.org/packages/22/d6/b46d30b08aa6eb59e1829e8434e66022cf1010ce017bafca29bf53e22dbf/validio_cli-0.6.2.tar.gz
+[2023-07-10 09:26:48] INFO root fetch - processPackages [qtgql]: Downloading https://files.pythonhosted.org/packages/56/c8/074db610c5c4804444310327e2950f7ccb6d65ae640bf6e22d1f61719d8c/qtgql-0.127.0.tar.gz
+[2023-07-10 09:26:48] INFO root fetch - processPackages [pygim-common]: Downloading https://files.pythonhosted.org/packages/f3/03/f96fba4306a22c740be0425f983c9c4d0ac6287a63b8dcf5bc0afc1dba14/pygim_common-0.2.0-py3-none-any.whl
+[2023-07-10 09:26:48] INFO root fetch - processPackages [cnert]: Downloading https://files.pythonhosted.org/packages/62/7d/f6e8e803744213b9712f9da200235fae37ba76eff9826a43b586ee0ed3c8/cnert-0.7.3.tar.gz
+[2023-07-10 09:26:48] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/73/48/60237baee225e055bbd7ffe8e6980e15c87b48079a3bf066543966b75b45/yplib-2.3.8.tar.gz
+[2023-07-10 09:26:48] INFO root fetch - processPackages [validio-cli]: Downloading https://files.pythonhosted.org/packages/ab/b0/428e3d80a501389cfc82a97689b73c0ebb614be733d0122cf671e8824715/validio_cli-0.6.3.tar.gz
+[2023-07-10 09:26:48] INFO root fetch - processPackages [validio-sdk]: Downloading https://files.pythonhosted.org/packages/63/10/25cec64d22607beb5692fe6ec59f7b72b53e66455745808eb0a7b38df9ae/validio_sdk-0.6.3.tar.gz
+[2023-07-10 09:26:48] INFO root fetch - processPackages [cnert]: executing diffoscope
+[2023-07-10 09:26:48] INFO root fetch - processPackages [cnert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnert-0.7.2.tar.gz tmp/cnert-0.7.3.tar.gz --markdown 20230710/c/cnert/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-07-10 09:26:48] INFO root fetch - processPackages [django-denorm-iplweb]: Downloading https://files.pythonhosted.org/packages/1b/00/fa428dfdb4849484936cba4ade11db0e45cff3353c2de453709c6b1af989/django_denorm_iplweb-1.1.1-py3-none-any.whl
+[2023-07-10 09:26:48] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-07-10 09:26:48] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-2.3.7.tar.gz tmp/yplib-2.3.8.tar.gz --markdown 20230710/y/yplib/2.3.7-2.3.8/diff.md --exclude *.pyd
+[2023-07-10 09:26:48] INFO root fetch - processPackages [qtgql]: Downloading https://files.pythonhosted.org/packages/97/c3/51d80b8f3fd5edb3d33a5d37ce7fca3a4109f25dd0cfbd814c883b116399/qtgql-0.128.0.tar.gz
+[2023-07-10 09:26:48] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Downloading https://files.pythonhosted.org/packages/ae/cf/20ade1e77c7db14608e4ad73e7b31dd0bd4ee46d7222add34aa0ee1abaca/ul-data-aggregator-sdk-8.9.5.tar.gz
+[2023-07-10 09:26:48] INFO root fetch - processPackages [pygim-common]: Downloading https://files.pythonhosted.org/packages/a0/85/ffda21e0faa8acb55a69950e86266004711656326830397b7cea47de4078/pygim_common-0.5.0-py3-none-any.whl
+[2023-07-10 09:26:48] INFO root fetch - processPackages [validio-cli]: executing diffoscope
+[2023-07-10 09:26:48] INFO root fetch - processPackages [validio-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validio_cli-0.6.2.tar.gz tmp/validio_cli-0.6.3.tar.gz --markdown 20230710/v/validio-cli/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-10 09:26:48] INFO root fetch - processPackages [validio-sdk]: executing diffoscope
+[2023-07-10 09:26:48] INFO root fetch - processPackages [validio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validio_sdk-0.6.2.tar.gz tmp/validio_sdk-0.6.3.tar.gz --markdown 20230710/v/validio-sdk/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-10 09:26:48] INFO root fetch - processPackages [django-denorm-iplweb]: executing diffoscope
+[2023-07-10 09:26:48] INFO root fetch - processPackages [django-denorm-iplweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_denorm_iplweb-1.1.0-py3-none-any.whl.zip tmp/django_denorm_iplweb-1.1.1-py3-none-any.whl.zip --markdown 20230710/d/django-denorm-iplweb/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-10 09:26:49] INFO root fetch - processPackages [qtgql]: executing diffoscope
+[2023-07-10 09:26:49] INFO root fetch - processPackages [qtgql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtgql-0.127.0.tar.gz tmp/qtgql-0.128.0.tar.gz --markdown 20230710/q/qtgql/0.127.0-0.128.0/diff.md --exclude *.pyd
+[2023-07-10 09:26:49] INFO root fetch - processPackages [ul-data-aggregator-sdk]: executing diffoscope
+[2023-07-10 09:26:49] INFO root fetch - processPackages [ul-data-aggregator-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ul-data-aggregator-sdk-8.11.3.tar.gz tmp/ul-data-aggregator-sdk-8.9.5.tar.gz --markdown 20230710/u/ul-data-aggregator-sdk/8.11.3-8.9.5/diff.md --exclude *.pyd
+[2023-07-10 09:26:49] INFO root fetch - processPackages [pygim-common]: executing diffoscope
+[2023-07-10 09:26:49] INFO root fetch - processPackages [pygim-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygim_common-0.2.0-py3-none-any.whl.zip tmp/pygim_common-0.5.0-py3-none-any.whl.zip --markdown 20230710/p/pygim-common/0.2.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-10 09:26:49] INFO root fetch - processPackages [OpenGeode-Geosciences]: Downloading https://files.pythonhosted.org/packages/e9/c0/2c3e921cad4ec9e95e525adc9a03d0956698386567c75369e7941c6cb880/OpenGeode_Geosciences-7.1.1rc1-cp39-cp39-win_amd64.whl
+[2023-07-10 09:26:49] INFO root fetch - processPackages [OpenGeode-Geosciences]: executing diffoscope
+[2023-07-10 09:26:49] INFO root fetch - processPackages [OpenGeode-Geosciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_Geosciences-7.1.0rc1-cp39-cp39-win_amd64.whl.zip tmp/OpenGeode_Geosciences-7.1.1rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230710/O/OpenGeode-Geosciences/7.1.0rc1-7.1.1rc1/diff.md --exclude *.pyd
+[2023-07-10 09:26:50] INFO root fetch - processPackages [cnert]: Remove: archive file [/home/abi/fetcher/tmp/cnert-0.7.2.tar.gz]
+[2023-07-10 09:26:50] INFO root fetch - processPackages [cnert]: Remove: archive file [/home/abi/fetcher/tmp/cnert-0.7.3.tar.gz]
+[2023-07-10 09:26:50] INFO root fetch - processPackages [cnert]: Start processing: gs2-cdk
+[2023-07-10 09:26:50] INFO root fetch - main [MainThread]: End processing [cnert]: success
+[2023-07-10 09:26:50] INFO root fetch - processPackages [gs2-cdk]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-10 09:26:50] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.3.7.tar.gz]
+[2023-07-10 09:26:50] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.3.8.tar.gz]
+[2023-07-10 09:26:50] INFO root fetch - processPackages [yplib]: Start processing: vgis-code
+[2023-07-10 09:26:50] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-07-10 09:26:50] INFO root fetch - processPackages [validio-cli]: Remove: archive file [/home/abi/fetcher/tmp/validio_cli-0.6.2.tar.gz]
+[2023-07-10 09:26:50] INFO root fetch - processPackages [validio-cli]: Remove: archive file [/home/abi/fetcher/tmp/validio_cli-0.6.3.tar.gz]
+[2023-07-10 09:26:50] INFO root fetch - processPackages [validio-cli]: Start processing: liblinear-multicore
+[2023-07-10 09:26:50] INFO root fetch - main [MainThread]: End processing [validio-cli]: success
+[2023-07-10 09:26:50] INFO root fetch - processPackages [vgis-code]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-10 09:26:50] INFO root fetch - processPackages [liblinear-multicore]: New version: [2.47.0] Old Version: [2.46.1]
+[2023-07-10 09:26:50] INFO root fetch - processPackages [django-denorm-iplweb]: Remove: archive file [/home/abi/fetcher/tmp/django_denorm_iplweb-1.1.0-py3-none-any.whl.zip]
+[2023-07-10 09:26:50] INFO root fetch - processPackages [django-denorm-iplweb]: Remove: archive file [/home/abi/fetcher/tmp/django_denorm_iplweb-1.1.1-py3-none-any.whl.zip]
+[2023-07-10 09:26:50] INFO root fetch - processPackages [django-denorm-iplweb]: Start processing: dbt-workflows-factory
+[2023-07-10 09:26:50] INFO root fetch - main [MainThread]: End processing [django-denorm-iplweb]: success
+[2023-07-10 09:26:50] INFO root fetch - processPackages [gs2-cdk]: Downloading https://files.pythonhosted.org/packages/e3/aa/0f163edc9bc64614a93358063b9233d886f8c00044a4ce8276f11777827e/gs2-cdk-1.0.8.tar.gz
+[2023-07-10 09:26:50] INFO root fetch - processPackages [liblinear-multicore]: Downloading https://files.pythonhosted.org/packages/12/0b/fec8c7cd226ba112614d9bfb605d875e02af04218c1b044b757aaa156904/liblinear-multicore-2.46.1.tar.gz
+[2023-07-10 09:26:50] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ul-data-aggregator-sdk-8.11.3.tar.gz]
+[2023-07-10 09:26:50] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ul-data-aggregator-sdk-8.9.5.tar.gz]
+[2023-07-10 09:26:50] INFO root fetch - main [MainThread]: End processing [ul-data-aggregator-sdk]: success
+[2023-07-10 09:26:50] INFO root fetch - processPackages [dbt-workflows-factory]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-10 09:26:50] INFO root fetch - processPackages [vgis-code]: Downloading https://files.pythonhosted.org/packages/09/09/323ad69f51ca4d94fc32c67ec6d3a8df7e51f15d99bd5f4cd9de397f6389/vgis_code-1.0.1.tar.gz
+[2023-07-10 09:26:50] INFO root fetch - processPackages [qtgql]: Remove: archive file [/home/abi/fetcher/tmp/qtgql-0.127.0.tar.gz]
+[2023-07-10 09:26:50] INFO root fetch - processPackages [qtgql]: Remove: archive file [/home/abi/fetcher/tmp/qtgql-0.128.0.tar.gz]
+[2023-07-10 09:26:50] INFO root fetch - main [MainThread]: End processing [qtgql]: success
+[2023-07-10 09:26:50] INFO root fetch - processPackages [pygim-common]: Remove: archive file [/home/abi/fetcher/tmp/pygim_common-0.2.0-py3-none-any.whl.zip]
+[2023-07-10 09:26:50] INFO root fetch - processPackages [pygim-common]: Remove: archive file [/home/abi/fetcher/tmp/pygim_common-0.5.0-py3-none-any.whl.zip]
+[2023-07-10 09:26:50] INFO root fetch - main [MainThread]: End processing [pygim-common]: success
+[2023-07-10 09:26:50] INFO root fetch - processPackages [otx]: Downloading https://files.pythonhosted.org/packages/24/63/4d81d868ee3a245c5c9be8414ecf54ab41a4e09504113e610111844e98d8/otx-1.4.0rc1.tar.gz
+[2023-07-10 09:26:51] INFO root fetch - processPackages [dbt-workflows-factory]: Downloading https://files.pythonhosted.org/packages/8d/f0/e0392d0add458e91eaad647ae340af780dda69ae7ee066696a509d98f642/dbt-workflows-factory-0.1.0.tar.gz
+[2023-07-10 09:26:51] INFO root fetch - processPackages [vgis-code]: Downloading https://files.pythonhosted.org/packages/db/ce/23218481b52563a766e6bd3b064136f7f3dc25ed416961169e314fc42a26/vgis_code-1.0.2.tar.gz
+[2023-07-10 09:26:51] INFO root fetch - processPackages [liblinear-multicore]: Downloading https://files.pythonhosted.org/packages/b1/e5/3587fc1a34962ad059782989c0d5b1f7071137c5e318320b33b6916696c3/liblinear-multicore-2.47.0.tar.gz
+[2023-07-10 09:26:51] INFO root fetch - processPackages [gs2-cdk]: Downloading https://files.pythonhosted.org/packages/29/69/56532d9a44c725ba36a6010c493491c32d238a25ff3b70b61de2bd6479ef/gs2-cdk-1.0.9.tar.gz
+[2023-07-10 09:26:51] INFO root fetch - processPackages [vgis-code]: executing diffoscope
+[2023-07-10 09:26:51] INFO root fetch - processPackages [vgis-code]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgis_code-1.0.1.tar.gz tmp/vgis_code-1.0.2.tar.gz --markdown 20230710/v/vgis-code/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-10 09:26:51] INFO root fetch - processPackages [liblinear-multicore]: executing diffoscope
+[2023-07-10 09:26:51] INFO root fetch - processPackages [liblinear-multicore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liblinear-multicore-2.46.1.tar.gz tmp/liblinear-multicore-2.47.0.tar.gz --markdown 20230710/l/liblinear-multicore/2.46.1-2.47.0/diff.md --exclude *.pyd
+[2023-07-10 09:26:51] INFO root fetch - processPackages [gs2-cdk]: executing diffoscope
+[2023-07-10 09:26:51] INFO root fetch - processPackages [gs2-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs2-cdk-1.0.8.tar.gz tmp/gs2-cdk-1.0.9.tar.gz --markdown 20230710/g/gs2-cdk/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-10 09:26:51] INFO root fetch - processPackages [validio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/validio_sdk-0.6.2.tar.gz]
+[2023-07-10 09:26:51] INFO root fetch - processPackages [validio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/validio_sdk-0.6.3.tar.gz]
+[2023-07-10 09:26:51] INFO root fetch - main [MainThread]: End processing [validio-sdk]: success
+[2023-07-10 09:26:51] INFO root fetch - processPackages [dbt-workflows-factory]: Downloading https://files.pythonhosted.org/packages/2a/2a/64a02d16fb9a314eb461c000ab3e471487c6175ab4720a1069ec9886387a/dbt-workflows-factory-0.2.0.tar.gz
+[2023-07-10 09:26:51] INFO root fetch - processPackages [dbt-workflows-factory]: executing diffoscope
+[2023-07-10 09:26:51] INFO root fetch - processPackages [dbt-workflows-factory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-workflows-factory-0.1.0.tar.gz tmp/dbt-workflows-factory-0.2.0.tar.gz --markdown 20230710/d/dbt-workflows-factory/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-10 09:26:51] INFO root fetch - processPackages [otx]: executing diffoscope
+[2023-07-10 09:26:51] INFO root fetch - processPackages [otx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otx-1.3.2rc1.tar.gz tmp/otx-1.4.0rc1.tar.gz --markdown 20230710/o/otx/1.3.2rc1-1.4.0rc1/diff.md --exclude *.pyd
+[2023-07-10 09:26:52] INFO root fetch - processPackages [vgis-code]: Remove: archive file [/home/abi/fetcher/tmp/vgis_code-1.0.1.tar.gz]
+[2023-07-10 09:26:52] INFO root fetch - processPackages [vgis-code]: Remove: archive file [/home/abi/fetcher/tmp/vgis_code-1.0.2.tar.gz]
+[2023-07-10 09:26:52] INFO root fetch - main [MainThread]: End processing [vgis-code]: success
+[2023-07-10 09:26:52] INFO root fetch - processPackages [liblinear-multicore]: Remove: archive file [/home/abi/fetcher/tmp/liblinear-multicore-2.46.1.tar.gz]
+[2023-07-10 09:26:52] INFO root fetch - processPackages [liblinear-multicore]: Remove: archive file [/home/abi/fetcher/tmp/liblinear-multicore-2.47.0.tar.gz]
+[2023-07-10 09:26:52] INFO root fetch - main [MainThread]: End processing [liblinear-multicore]: success
+[2023-07-10 09:26:52] INFO root fetch - processPackages [dbt-workflows-factory]: Remove: archive file [/home/abi/fetcher/tmp/dbt-workflows-factory-0.1.0.tar.gz]
+[2023-07-10 09:26:52] INFO root fetch - processPackages [dbt-workflows-factory]: Remove: archive file [/home/abi/fetcher/tmp/dbt-workflows-factory-0.2.0.tar.gz]
+[2023-07-10 09:26:52] INFO root fetch - main [MainThread]: End processing [dbt-workflows-factory]: success
+[2023-07-10 09:26:53] INFO root fetch - processPackages [OpenGeode-Geosciences]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Geosciences-7.1.0rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-10 09:26:53] INFO root fetch - processPackages [OpenGeode-Geosciences]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Geosciences-7.1.1rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-10 09:26:53] INFO root fetch - main [MainThread]: End processing [OpenGeode-Geosciences]: success
+[2023-07-10 09:26:54] INFO root fetch - processPackages [gs2-cdk]: Remove: archive file [/home/abi/fetcher/tmp/gs2-cdk-1.0.8.tar.gz]
+[2023-07-10 09:26:54] INFO root fetch - processPackages [gs2-cdk]: Remove: archive file [/home/abi/fetcher/tmp/gs2-cdk-1.0.9.tar.gz]
+[2023-07-10 09:26:54] INFO root fetch - main [MainThread]: End processing [gs2-cdk]: success
+[2023-07-10 09:27:09] INFO root fetch - processPackages [otx]: Remove: archive file [/home/abi/fetcher/tmp/otx-1.3.2rc1.tar.gz]
+[2023-07-10 09:27:09] INFO root fetch - processPackages [otx]: Remove: archive file [/home/abi/fetcher/tmp/otx-1.4.0rc1.tar.gz]
+[2023-07-10 09:27:09] INFO root fetch - main [MainThread]: End processing [otx]: success
+[2023-07-10 09:27:09] INFO root fetch - main [MainThread]: Store serial: [18827687]
