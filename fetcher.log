@@ -5493,3 +5493,68 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 04:18:59] INFO root fetch - processPackages [mitosheet3]: Remove: archive file [/home/abi/fetcher/tmp/mitosheet3-0.3.92.tar.gz]
 [2023-07-10 04:18:59] INFO root fetch - main [MainThread]: End processing [mitosheet3]: success
 [2023-07-10 04:18:59] INFO root fetch - main [MainThread]: Store serial: [18825744]
+[2023-07-10 04:24:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18825744]
+[2023-07-10 04:24:08] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-10 04:24:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mitosheet3
+[2023-07-10 04:24:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mitosheet
+[2023-07-10 04:24:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: example-pkg-scdev-pd-columns
+[2023-07-10 04:24:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hypermea
+[2023-07-10 04:24:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mitoinstaller
+[2023-07-10 04:24:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tos
+[2023-07-10 04:24:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tungstenkit
+[2023-07-10 04:24:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vessl
+[2023-07-10 04:24:08] INFO root fetch - processPackages [mitosheet3]: New version: [0.3.92] Old Version: [0.3.91]
+[2023-07-10 04:24:08] INFO root fetch - processPackages [hypermea]: New version: [0.9.9] Old Version: [0.9.7]
+[2023-07-10 04:24:08] WARNING root fetch - processPackages [example-pkg-scdev-pd-columns]: Skipping, unable to determine old version
+[2023-07-10 04:24:08] INFO root fetch - main [MainThread]: End processing [example-pkg-scdev-pd-columns] error
+[2023-07-10 04:24:08] INFO root fetch - processPackages [tos]: New version: [2.6.1] Old Version: [2.6.0]
+[2023-07-10 04:24:08] INFO root fetch - processPackages [tungstenkit]: New version: [0.1.2.post3] Old Version: [0.1.2.post1]
+[2023-07-10 04:24:08] INFO root fetch - processPackages [vessl]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-10 04:24:08] INFO root fetch - processPackages [mitoinstaller]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-10 04:24:08] INFO root fetch - processPackages [mitosheet]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-10 04:24:08] INFO root fetch - processPackages [hypermea]: Downloading https://files.pythonhosted.org/packages/20/5b/2564b6dce1eedfef7069f5695d232032c437079ae6c553b2c5ed8349d3f2/hypermea-0.9.7-py3-none-any.whl
+[2023-07-10 04:24:08] INFO root fetch - processPackages [mitoinstaller]: Downloading https://files.pythonhosted.org/packages/a9/cc/efea247a930bcdd3371e2847677b40c385cbf35a56d638639d1e8b121847/mitoinstaller-0.0.98.tar.gz
+[2023-07-10 04:24:08] INFO root fetch - processPackages [mitosheet3]: Downloading https://files.pythonhosted.org/packages/6f/3c/6539541f7e98b9657a8e2532e70845cda53ecb7a601e5c97042db4d828bd/mitosheet3-0.3.91.tar.gz
+[2023-07-10 04:24:08] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/38/7d/1b2b94a1083188f3376a0af9cb2701abb4c084a8e0608a25f97e191ab3e7/vessl-0.1.98.tar.gz
+[2023-07-10 04:24:08] INFO root fetch - processPackages [tos]: Downloading https://files.pythonhosted.org/packages/91/de/ceaa41ab56e7353ff8e5037803a1884b33aee4ba4f15abe2d2c349fb961d/tos-2.6.0.tar.gz
+[2023-07-10 04:24:09] INFO root fetch - processPackages [mitosheet]: Downloading https://files.pythonhosted.org/packages/8f/ca/cfa5a04a8bad41705bac5f84cf0c0a38c2e86f34a87c85d097c82dd321da/mitosheet-0.1.98.tar.gz
+[2023-07-10 04:24:09] INFO root fetch - processPackages [tungstenkit]: Downloading https://files.pythonhosted.org/packages/29/50/b2426037c39b2cdd89927e2ad91da30999b879cce90f9b03ce3db7ee15db/tungstenkit-0.1.2.post1.tar.gz
+[2023-07-10 04:24:09] INFO root fetch - processPackages [mitoinstaller]: Downloading https://files.pythonhosted.org/packages/90/7c/46b1dcf5bb93cdb5baf1650e82750b20b76439dbb6550a8596d1d373443a/mitoinstaller-0.0.99.tar.gz
+[2023-07-10 04:24:09] WARNING root fetch - processPackages [mitosheet]: Skipping package: exceeds size limit 14622615>=10485760
+[2023-07-10 04:24:09] INFO root fetch - main [MainThread]: End processing [mitosheet] error
+[2023-07-10 04:24:09] INFO root fetch - processPackages [hypermea]: Downloading https://files.pythonhosted.org/packages/99/7e/cf6e6a1c9f576e7f34df531dda089047c00a693551f273d25607b425b2ac/hypermea-0.9.9-py3-none-any.whl
+[2023-07-10 04:24:09] INFO root fetch - processPackages [mitoinstaller]: executing diffoscope
+[2023-07-10 04:24:09] INFO root fetch - processPackages [mitoinstaller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitoinstaller-0.0.98.tar.gz tmp/mitoinstaller-0.0.99.tar.gz --markdown 20230710/m/mitoinstaller/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-10 04:24:09] INFO root fetch - processPackages [tos]: Downloading https://files.pythonhosted.org/packages/11/55/24a2ffe1cc3a135fe1b8a644084c448a5a7ac70ffe12a3d969c81de77ebc/tos-2.6.1.tar.gz
+[2023-07-10 04:24:09] INFO root fetch - processPackages [mitosheet3]: Downloading https://files.pythonhosted.org/packages/40/75/fd3d6e8ade06ccff505fe1fdb297fcc61956799b01527fb587f77f52ef6f/mitosheet3-0.3.92.tar.gz
+[2023-07-10 04:24:09] INFO root fetch - processPackages [hypermea]: executing diffoscope
+[2023-07-10 04:24:09] INFO root fetch - processPackages [hypermea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypermea-0.9.7-py3-none-any.whl.zip tmp/hypermea-0.9.9-py3-none-any.whl.zip --markdown 20230710/h/hypermea/0.9.7-0.9.9/diff.md --exclude *.pyd
+[2023-07-10 04:24:09] INFO root fetch - processPackages [tungstenkit]: Downloading https://files.pythonhosted.org/packages/3b/de/b1e814eaec0ff6efa9cdb18543800cb89dd65078664e09a38bf1f084db55/tungstenkit-0.1.2.post3.tar.gz
+[2023-07-10 04:24:09] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/21/b8/cbd9a61ba9f582b647d4ef42d4b54900e40293bc599bde0a7f1fe73974bc/vessl-0.1.99.tar.gz
+[2023-07-10 04:24:09] INFO root fetch - processPackages [tos]: executing diffoscope
+[2023-07-10 04:24:09] INFO root fetch - processPackages [tos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tos-2.6.0.tar.gz tmp/tos-2.6.1.tar.gz --markdown 20230710/t/tos/2.6.0-2.6.1/diff.md --exclude *.pyd
+[2023-07-10 04:24:09] INFO root fetch - processPackages [mitosheet3]: executing diffoscope
+[2023-07-10 04:24:09] INFO root fetch - processPackages [mitosheet3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitosheet3-0.3.91.tar.gz tmp/mitosheet3-0.3.92.tar.gz --markdown 20230710/m/mitosheet3/0.3.91-0.3.92/diff.md --exclude *.pyd
+[2023-07-10 04:24:09] INFO root fetch - processPackages [tungstenkit]: executing diffoscope
+[2023-07-10 04:24:09] INFO root fetch - processPackages [tungstenkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tungstenkit-0.1.2.post1.tar.gz tmp/tungstenkit-0.1.2.post3.tar.gz --markdown 20230710/t/tungstenkit/0.1.2.post1-0.1.2.post3/diff.md --exclude *.pyd
+[2023-07-10 04:24:09] INFO root fetch - processPackages [vessl]: executing diffoscope
+[2023-07-10 04:24:09] INFO root fetch - processPackages [vessl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vessl-0.1.98.tar.gz tmp/vessl-0.1.99.tar.gz --markdown 20230710/v/vessl/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-10 04:24:10] INFO root fetch - processPackages [mitoinstaller]: Remove: archive file [/home/abi/fetcher/tmp/mitoinstaller-0.0.98.tar.gz]
+[2023-07-10 04:24:10] INFO root fetch - processPackages [mitoinstaller]: Remove: archive file [/home/abi/fetcher/tmp/mitoinstaller-0.0.99.tar.gz]
+[2023-07-10 04:24:10] INFO root fetch - main [MainThread]: End processing [mitoinstaller]: success
+[2023-07-10 04:24:10] INFO root fetch - processPackages [tos]: Remove: archive file [/home/abi/fetcher/tmp/tos-2.6.0.tar.gz]
+[2023-07-10 04:24:10] INFO root fetch - processPackages [tos]: Remove: archive file [/home/abi/fetcher/tmp/tos-2.6.1.tar.gz]
+[2023-07-10 04:24:10] INFO root fetch - main [MainThread]: End processing [tos]: success
+[2023-07-10 04:24:11] INFO root fetch - processPackages [hypermea]: Remove: archive file [/home/abi/fetcher/tmp/hypermea-0.9.7-py3-none-any.whl.zip]
+[2023-07-10 04:24:11] INFO root fetch - processPackages [hypermea]: Remove: archive file [/home/abi/fetcher/tmp/hypermea-0.9.9-py3-none-any.whl.zip]
+[2023-07-10 04:24:11] INFO root fetch - main [MainThread]: End processing [hypermea]: success
+[2023-07-10 04:24:11] INFO root fetch - processPackages [tungstenkit]: Remove: archive file [/home/abi/fetcher/tmp/tungstenkit-0.1.2.post1.tar.gz]
+[2023-07-10 04:24:11] INFO root fetch - processPackages [tungstenkit]: Remove: archive file [/home/abi/fetcher/tmp/tungstenkit-0.1.2.post3.tar.gz]
+[2023-07-10 04:24:11] INFO root fetch - main [MainThread]: End processing [tungstenkit]: success
+[2023-07-10 04:24:12] INFO root fetch - processPackages [mitosheet3]: Remove: archive file [/home/abi/fetcher/tmp/mitosheet3-0.3.91.tar.gz]
+[2023-07-10 04:24:12] INFO root fetch - processPackages [mitosheet3]: Remove: archive file [/home/abi/fetcher/tmp/mitosheet3-0.3.92.tar.gz]
+[2023-07-10 04:24:12] INFO root fetch - main [MainThread]: End processing [mitosheet3]: success
+[2023-07-10 04:24:14] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.98.tar.gz]
+[2023-07-10 04:24:14] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.99.tar.gz]
+[2023-07-10 04:24:14] INFO root fetch - main [MainThread]: End processing [vessl]: success
+[2023-07-10 04:24:14] INFO root fetch - main [MainThread]: Store serial: [18825767]
