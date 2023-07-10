@@ -11037,3 +11037,144 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 10:04:35] INFO root fetch - processPackages [mistapi]: Remove: archive file [/home/abi/fetcher/tmp/mistapi-0.41.9.tar.gz]
 [2023-07-10 10:04:35] INFO root fetch - main [MainThread]: End processing [mistapi]: success
 [2023-07-10 10:04:35] INFO root fetch - main [MainThread]: Store serial: [18828006]
+[2023-07-10 10:09:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18828006]
+[2023-07-10 10:09:43] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-10 10:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tungstenkit
+[2023-07-10 10:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: volworld-aws-api-common
+[2023-07-10 10:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ai2-kit
+[2023-07-10 10:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clappform
+[2023-07-10 10:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: isla-solver
+[2023-07-10 10:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mistapi
+[2023-07-10 10:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: armonik
+[2023-07-10 10:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nanoCEM
+[2023-07-10 10:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pythogen
+[2023-07-10 10:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: feapder
+[2023-07-10 10:09:44] INFO root fetch - processPackages [ai2-kit]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-10 10:09:44] INFO root fetch - processPackages [pythogen]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-10 10:09:44] INFO root fetch - processPackages [feapder]: New version: [1.8.7b4] Old Version: [1.8.7b3]
+[2023-07-10 10:09:44] INFO root fetch - processPackages [nanoCEM]: New version: [0.0.1.6] Old Version: [0.0.1.5]
+[2023-07-10 10:09:44] INFO root fetch - processPackages [tungstenkit]: New version: [0.1.2.post6] Old Version: [0.1.2.post5]
+[2023-07-10 10:09:44] INFO root fetch - processPackages [volworld-aws-api-common]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-10 10:09:44] INFO root fetch - processPackages [clappform]: New version: [3.1.0] Old Version: [3.0.2]
+[2023-07-10 10:09:44] INFO root fetch - processPackages [mistapi]: New version: [0.41.9] Old Version: [0.41.8]
+[2023-07-10 10:09:44] INFO root fetch - processPackages [isla-solver]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-10 10:09:44] INFO root fetch - processPackages [armonik]: New version: [3.9.3.dev630] Old Version: [3.9.3.dev627]
+[2023-07-10 10:09:44] INFO root fetch - processPackages [clappform]: Downloading https://files.pythonhosted.org/packages/53/12/da4acaff1d1fd538cc92ffdcee684e0829c8749c1b57769de163661294fa/clappform-3.0.2.tar.gz
+[2023-07-10 10:09:44] INFO root fetch - processPackages [mistapi]: Downloading https://files.pythonhosted.org/packages/7c/7e/c80f4702c10dec7db81faaea2d584d96aa31fc91f05e2e141180faf6efd7/mistapi-0.41.8.tar.gz
+[2023-07-10 10:09:44] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/a3/db/468340c3e51513d2270b938c830901748ba3f03d05938557f70273672795/armonik-3.9.3.dev627.tar.gz
+[2023-07-10 10:09:44] INFO root fetch - processPackages [isla-solver]: Downloading https://files.pythonhosted.org/packages/c9/99/09105f20acc8de6191ce3e1d0c233588a1be090c26a381155ab775aff7b7/isla-solver-1.9.8.tar.gz
+[2023-07-10 10:09:44] INFO root fetch - processPackages [feapder]: Downloading https://files.pythonhosted.org/packages/af/2a/0a774443dbf02294a4c94cf790709547c98eb4d32f5c413487448051a5b0/feapder-1.8.7b3.tar.gz
+[2023-07-10 10:09:44] INFO root fetch - processPackages [volworld-aws-api-common]: Downloading https://files.pythonhosted.org/packages/c7/82/7aefcc55e9d34309e43a1c4f62f535a10cbf84c23f14b0b54efb88505de6/volworld_aws_api_common-0.1.98.tar.gz
+[2023-07-10 10:09:44] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/eb/f4/ea38d8c9f78873edcbb17216f185baee2019ecb183cd80b334c593f2b1bc/ai2_kit-0.3.8.tar.gz
+[2023-07-10 10:09:44] INFO root fetch - processPackages [pythogen]: Downloading https://files.pythonhosted.org/packages/15/7d/7d1685c688fa60ffa4be6f5070d87530c54ea9cabb801b99defc05acb1f6/pythogen-0.2.0.tar.gz
+[2023-07-10 10:09:44] INFO root fetch - processPackages [tungstenkit]: Downloading https://files.pythonhosted.org/packages/06/54/66ac8335f87dfc5f2f8d7eeffba2a2d94effc1d3cfab32b3914ca91a2621/tungstenkit-0.1.2.post5.tar.gz
+[2023-07-10 10:09:44] INFO root fetch - processPackages [nanoCEM]: Downloading https://files.pythonhosted.org/packages/d7/90/2ab822216e7dd0523396b50f98a8a8dc5ad7be42221dddd8d904a2bb252b/nanoCEM-0.0.1.5.tar.gz
+[2023-07-10 10:09:44] INFO root fetch - processPackages [mistapi]: Downloading https://files.pythonhosted.org/packages/80/d3/b266dd4edb93a3e8306915b9003b44b3217feb55cf5e562b2563675b50bf/mistapi-0.41.9.tar.gz
+[2023-07-10 10:09:45] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/11/ad/4f1bc0423cfda7af28cb5dc84e1865bf90ef91df50054caabbc8de87872b/armonik-3.9.3.dev630.tar.gz
+[2023-07-10 10:09:45] INFO root fetch - processPackages [clappform]: Downloading https://files.pythonhosted.org/packages/0c/c9/e54506ed0ab9d051f70064f6db601642250da094c28729bc397d55dce79f/clappform-3.1.0.tar.gz
+[2023-07-10 10:09:45] INFO root fetch - processPackages [pythogen]: Downloading https://files.pythonhosted.org/packages/83/2a/5f719a64051f347761bc8d07571b548bc720f57b1409aee20efa161c8643/pythogen-0.2.1.tar.gz
+[2023-07-10 10:09:45] INFO root fetch - processPackages [mistapi]: executing diffoscope
+[2023-07-10 10:09:45] INFO root fetch - processPackages [mistapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistapi-0.41.8.tar.gz tmp/mistapi-0.41.9.tar.gz --markdown 20230710/m/mistapi/0.41.8-0.41.9/diff.md --exclude *.pyd
+[2023-07-10 10:09:45] INFO root fetch - processPackages [volworld-aws-api-common]: Downloading https://files.pythonhosted.org/packages/85/c0/0151fa36df35a94f04ec24e70e3a88eb186696b9f9258ee1d18d894c66d6/volworld_aws_api_common-0.1.99.tar.gz
+[2023-07-10 10:09:45] INFO root fetch - processPackages [nanoCEM]: Downloading https://files.pythonhosted.org/packages/ce/77/8b2eb582c0b48f030475bafb9c0eb72ba56f07c4243115f286b7c7047391/nanoCEM-0.0.1.6.tar.gz
+[2023-07-10 10:09:45] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/f8/ec/3044fde579418570279eb9f4c2d60facdbd573ed724ec7fa07e3a4c940aa/ai2_kit-0.3.9.tar.gz
+[2023-07-10 10:09:45] INFO root fetch - processPackages [tungstenkit]: Downloading https://files.pythonhosted.org/packages/05/57/855a7dd3b6071be5ac41b8e01863aef0e17534bb1ca79847cbc36983b2de/tungstenkit-0.1.2.post6.tar.gz
+[2023-07-10 10:09:45] INFO root fetch - processPackages [clappform]: executing diffoscope
+[2023-07-10 10:09:45] INFO root fetch - processPackages [clappform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clappform-3.0.2.tar.gz tmp/clappform-3.1.0.tar.gz --markdown 20230710/c/clappform/3.0.2-3.1.0/diff.md --exclude *.pyd
+[2023-07-10 10:09:45] INFO root fetch - processPackages [feapder]: Downloading https://files.pythonhosted.org/packages/47/74/34974c9d2d343065d2723a57fa8d1a94260d5ec167222dafc2813297b2f0/feapder-1.8.7b4.tar.gz
+[2023-07-10 10:09:45] INFO root fetch - processPackages [armonik]: executing diffoscope
+[2023-07-10 10:09:45] INFO root fetch - processPackages [armonik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armonik-3.9.3.dev627.tar.gz tmp/armonik-3.9.3.dev630.tar.gz --markdown 20230710/a/armonik/3.9.3.dev627-3.9.3.dev630/diff.md --exclude *.pyd
+[2023-07-10 10:09:45] INFO root fetch - processPackages [isla-solver]: Downloading https://files.pythonhosted.org/packages/7e/60/798d236bff47e9112fed46b31fd94395e80dc1e3fb4d78c52663b7895151/isla-solver-1.9.9.tar.gz
+[2023-07-10 10:09:45] INFO root fetch - processPackages [volworld-aws-api-common]: executing diffoscope
+[2023-07-10 10:09:45] INFO root fetch - processPackages [volworld-aws-api-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volworld_aws_api_common-0.1.98.tar.gz tmp/volworld_aws_api_common-0.1.99.tar.gz --markdown 20230710/v/volworld-aws-api-common/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-10 10:09:45] INFO root fetch - processPackages [nanoCEM]: executing diffoscope
+[2023-07-10 10:09:45] INFO root fetch - processPackages [nanoCEM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanoCEM-0.0.1.5.tar.gz tmp/nanoCEM-0.0.1.6.tar.gz --markdown 20230710/n/nanoCEM/0.0.1.5-0.0.1.6/diff.md --exclude *.pyd
+[2023-07-10 10:09:45] INFO root fetch - processPackages [ai2-kit]: executing diffoscope
+[2023-07-10 10:09:45] INFO root fetch - processPackages [ai2-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai2_kit-0.3.8.tar.gz tmp/ai2_kit-0.3.9.tar.gz --markdown 20230710/a/ai2-kit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-10 10:09:45] INFO root fetch - processPackages [pythogen]: executing diffoscope
+[2023-07-10 10:09:45] INFO root fetch - processPackages [pythogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythogen-0.2.0.tar.gz tmp/pythogen-0.2.1.tar.gz --markdown 20230710/p/pythogen/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-10 10:09:45] INFO root fetch - processPackages [feapder]: executing diffoscope
+[2023-07-10 10:09:45] INFO root fetch - processPackages [feapder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feapder-1.8.7b3.tar.gz tmp/feapder-1.8.7b4.tar.gz --markdown 20230710/f/feapder/1.8.7b3-1.8.7b4/diff.md --exclude *.pyd
+[2023-07-10 10:09:45] INFO root fetch - processPackages [tungstenkit]: executing diffoscope
+[2023-07-10 10:09:45] INFO root fetch - processPackages [tungstenkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tungstenkit-0.1.2.post5.tar.gz tmp/tungstenkit-0.1.2.post6.tar.gz --markdown 20230710/t/tungstenkit/0.1.2.post5-0.1.2.post6/diff.md --exclude *.pyd
+[2023-07-10 10:09:45] INFO root fetch - processPackages [isla-solver]: executing diffoscope
+[2023-07-10 10:09:45] INFO root fetch - processPackages [isla-solver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isla-solver-1.9.8.tar.gz tmp/isla-solver-1.9.9.tar.gz --markdown 20230710/i/isla-solver/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-10 10:09:47] INFO root fetch - processPackages [clappform]: Remove: archive file [/home/abi/fetcher/tmp/clappform-3.0.2.tar.gz]
+[2023-07-10 10:09:47] INFO root fetch - processPackages [clappform]: Remove: archive file [/home/abi/fetcher/tmp/clappform-3.1.0.tar.gz]
+[2023-07-10 10:09:47] INFO root fetch - processPackages [clappform]: Start processing: dataporter
+[2023-07-10 10:09:47] INFO root fetch - main [MainThread]: End processing [clappform]: success
+[2023-07-10 10:09:47] INFO root fetch - processPackages [dataporter]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-10 10:09:47] INFO root fetch - processPackages [volworld-aws-api-common]: Remove: archive file [/home/abi/fetcher/tmp/volworld_aws_api_common-0.1.98.tar.gz]
+[2023-07-10 10:09:47] INFO root fetch - processPackages [volworld-aws-api-common]: Remove: archive file [/home/abi/fetcher/tmp/volworld_aws_api_common-0.1.99.tar.gz]
+[2023-07-10 10:09:47] INFO root fetch - processPackages [volworld-aws-api-common]: Start processing: pyglove
+[2023-07-10 10:09:47] INFO root fetch - main [MainThread]: End processing [volworld-aws-api-common]: success
+[2023-07-10 10:09:47] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230710] Old Version: [0.3.1.dev20230709]
+[2023-07-10 10:09:47] INFO root fetch - processPackages [dataporter]: Downloading https://files.pythonhosted.org/packages/70/66/fc32b06e6b3a35779b773c33dda65f8554c9fcfb8cc1116cbd823ce1357a/dataporter-0.1.5.tar.gz
+[2023-07-10 10:09:47] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/25/65/f3659f49837da5a213f1e7d61907d585b0aeef47d127d421a0401198d1e4/pyglove-0.3.1.dev20230709.tar.gz
+[2023-07-10 10:09:47] INFO root fetch - processPackages [nanoCEM]: Remove: archive file [/home/abi/fetcher/tmp/nanoCEM-0.0.1.5.tar.gz]
+[2023-07-10 10:09:47] INFO root fetch - processPackages [nanoCEM]: Remove: archive file [/home/abi/fetcher/tmp/nanoCEM-0.0.1.6.tar.gz]
+[2023-07-10 10:09:47] INFO root fetch - processPackages [nanoCEM]: Start processing: nonebot-plugin-gachalogs
+[2023-07-10 10:09:47] INFO root fetch - main [MainThread]: End processing [nanoCEM]: success
+[2023-07-10 10:09:47] INFO root fetch - processPackages [pythogen]: Remove: archive file [/home/abi/fetcher/tmp/pythogen-0.2.0.tar.gz]
+[2023-07-10 10:09:47] INFO root fetch - processPackages [pythogen]: Remove: archive file [/home/abi/fetcher/tmp/pythogen-0.2.1.tar.gz]
+[2023-07-10 10:09:47] INFO root fetch - processPackages [pythogen]: Start processing: langchain-wenxin
+[2023-07-10 10:09:47] INFO root fetch - main [MainThread]: End processing [pythogen]: success
+[2023-07-10 10:09:47] INFO root fetch - processPackages [nonebot-plugin-gachalogs]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-10 10:09:47] INFO root fetch - processPackages [langchain-wenxin]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-10 10:09:47] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.3.8.tar.gz]
+[2023-07-10 10:09:47] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.3.9.tar.gz]
+[2023-07-10 10:09:47] INFO root fetch - processPackages [ai2-kit]: Start processing: echofish-aws-raw-to-zarr-lambda
+[2023-07-10 10:09:47] INFO root fetch - main [MainThread]: End processing [ai2-kit]: success
+[2023-07-10 10:09:47] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.3.dev627.tar.gz]
+[2023-07-10 10:09:47] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.3.dev630.tar.gz]
+[2023-07-10 10:09:47] INFO root fetch - processPackages [armonik]: Start processing: NoomSmartKeyboard
+[2023-07-10 10:09:47] INFO root fetch - main [MainThread]: End processing [armonik]: success
+[2023-07-10 10:09:48] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: New version: [1.0.0.dev20230710064045] Old Version: [1.0.0.dev20230707224504]
+[2023-07-10 10:09:48] WARNING root fetch - processPackages [NoomSmartKeyboard]: Skipping, unable to determine old version
+[2023-07-10 10:09:48] INFO root fetch - main [MainThread]: End processing [NoomSmartKeyboard] error
+[2023-07-10 10:09:48] INFO root fetch - processPackages [langchain-wenxin]: Downloading https://files.pythonhosted.org/packages/4d/b3/7bd3673b4f7a690ac8a6ef7c9c3f9e20a764483a20890076be2bd904c50d/langchain_wenxin-0.7.0.tar.gz
+[2023-07-10 10:09:48] INFO root fetch - processPackages [dataporter]: Downloading https://files.pythonhosted.org/packages/8b/f9/b4ca267a6eca378cadd79c3e02ae563c70731f623f1ef5e4f073821f279f/dataporter-0.1.6.tar.gz
+[2023-07-10 10:09:48] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: Downloading https://files.pythonhosted.org/packages/be/d3/87d47d26bb10f82459ae5bacab4a2d696e1e01bb258ce74b78a0399dad3f/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230707224504.tar.gz
+[2023-07-10 10:09:48] INFO root fetch - processPackages [nonebot-plugin-gachalogs]: Downloading https://files.pythonhosted.org/packages/84/03/d1d5ffc7300c7f1975fd0e5cf8506db1ae4c30e2208ad6bbab9ce7e78a4f/nonebot_plugin_gachalogs-0.2.8.tar.gz
+[2023-07-10 10:09:48] INFO root fetch - processPackages [isla-solver]: Remove: archive file [/home/abi/fetcher/tmp/isla-solver-1.9.8.tar.gz]
+[2023-07-10 10:09:48] INFO root fetch - processPackages [isla-solver]: Remove: archive file [/home/abi/fetcher/tmp/isla-solver-1.9.9.tar.gz]
+[2023-07-10 10:09:48] INFO root fetch - main [MainThread]: End processing [isla-solver]: success
+[2023-07-10 10:09:48] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/6d/ee/15120cdd9a35ef51a22dbc3e062ced5123d2b54c2c0df54c430fa35a2a42/pyglove-0.3.1.dev20230710.tar.gz
+[2023-07-10 10:09:48] INFO root fetch - processPackages [dataporter]: executing diffoscope
+[2023-07-10 10:09:48] INFO root fetch - processPackages [dataporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataporter-0.1.5.tar.gz tmp/dataporter-0.1.6.tar.gz --markdown 20230710/d/dataporter/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-10 10:09:48] INFO root fetch - processPackages [langchain-wenxin]: Downloading https://files.pythonhosted.org/packages/9b/6d/776e9984e1e70faddf73fe76b8ff21030f880b222b0aa8641df2d9842cec/langchain_wenxin-0.7.1.tar.gz
+[2023-07-10 10:09:48] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-07-10 10:09:48] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230709.tar.gz tmp/pyglove-0.3.1.dev20230710.tar.gz --markdown 20230710/p/pyglove/0.3.1.dev20230709-0.3.1.dev20230710/diff.md --exclude *.pyd
+[2023-07-10 10:09:48] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: Downloading https://files.pythonhosted.org/packages/78/c1/64437052d28b1d5e558cad7817d141169773160ea8a8ddeb8a349211f347/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230710064045.tar.gz
+[2023-07-10 10:09:48] INFO root fetch - processPackages [langchain-wenxin]: executing diffoscope
+[2023-07-10 10:09:48] INFO root fetch - processPackages [langchain-wenxin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_wenxin-0.7.0.tar.gz tmp/langchain_wenxin-0.7.1.tar.gz --markdown 20230710/l/langchain-wenxin/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-10 10:09:48] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: executing diffoscope
+[2023-07-10 10:09:48] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230707224504.tar.gz tmp/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230710064045.tar.gz --markdown 20230710/e/echofish-aws-raw-to-zarr-lambda/1.0.0.dev20230707224504-1.0.0.dev20230710064045/diff.md --exclude *.pyd
+[2023-07-10 10:09:48] INFO root fetch - processPackages [nonebot-plugin-gachalogs]: Downloading https://files.pythonhosted.org/packages/7a/94/ea567da4c7c8ace323b104433819ccd6375abfdf41fde4ee9ced4a1dced6/nonebot_plugin_gachalogs-0.2.9.tar.gz
+[2023-07-10 10:09:48] INFO root fetch - processPackages [feapder]: Remove: archive file [/home/abi/fetcher/tmp/feapder-1.8.7b3.tar.gz]
+[2023-07-10 10:09:48] INFO root fetch - processPackages [feapder]: Remove: archive file [/home/abi/fetcher/tmp/feapder-1.8.7b4.tar.gz]
+[2023-07-10 10:09:48] INFO root fetch - main [MainThread]: End processing [feapder]: success
+[2023-07-10 10:09:48] INFO root fetch - processPackages [nonebot-plugin-gachalogs]: executing diffoscope
+[2023-07-10 10:09:48] INFO root fetch - processPackages [nonebot-plugin-gachalogs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_gachalogs-0.2.8.tar.gz tmp/nonebot_plugin_gachalogs-0.2.9.tar.gz --markdown 20230710/n/nonebot-plugin-gachalogs/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-10 10:09:50] INFO root fetch - processPackages [dataporter]: Remove: archive file [/home/abi/fetcher/tmp/dataporter-0.1.5.tar.gz]
+[2023-07-10 10:09:50] INFO root fetch - processPackages [dataporter]: Remove: archive file [/home/abi/fetcher/tmp/dataporter-0.1.6.tar.gz]
+[2023-07-10 10:09:50] INFO root fetch - main [MainThread]: End processing [dataporter]: success
+[2023-07-10 10:09:50] INFO root fetch - processPackages [mistapi]: Remove: archive file [/home/abi/fetcher/tmp/mistapi-0.41.8.tar.gz]
+[2023-07-10 10:09:50] INFO root fetch - processPackages [mistapi]: Remove: archive file [/home/abi/fetcher/tmp/mistapi-0.41.9.tar.gz]
+[2023-07-10 10:09:50] INFO root fetch - main [MainThread]: End processing [mistapi]: success
+[2023-07-10 10:09:50] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: Remove: archive file [/home/abi/fetcher/tmp/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230707224504.tar.gz]
+[2023-07-10 10:09:50] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: Remove: archive file [/home/abi/fetcher/tmp/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230710064045.tar.gz]
+[2023-07-10 10:09:50] INFO root fetch - main [MainThread]: End processing [echofish-aws-raw-to-zarr-lambda]: success
+[2023-07-10 10:09:50] INFO root fetch - processPackages [langchain-wenxin]: Remove: archive file [/home/abi/fetcher/tmp/langchain_wenxin-0.7.0.tar.gz]
+[2023-07-10 10:09:50] INFO root fetch - processPackages [langchain-wenxin]: Remove: archive file [/home/abi/fetcher/tmp/langchain_wenxin-0.7.1.tar.gz]
+[2023-07-10 10:09:50] INFO root fetch - main [MainThread]: End processing [langchain-wenxin]: success
+[2023-07-10 10:09:50] INFO root fetch - processPackages [nonebot-plugin-gachalogs]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_gachalogs-0.2.8.tar.gz]
+[2023-07-10 10:09:50] INFO root fetch - processPackages [nonebot-plugin-gachalogs]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_gachalogs-0.2.9.tar.gz]
+[2023-07-10 10:09:50] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-gachalogs]: success
+[2023-07-10 10:09:50] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230709.tar.gz]
+[2023-07-10 10:09:50] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230710.tar.gz]
+[2023-07-10 10:09:50] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-07-10 10:09:54] INFO root fetch - processPackages [tungstenkit]: Remove: archive file [/home/abi/fetcher/tmp/tungstenkit-0.1.2.post5.tar.gz]
+[2023-07-10 10:09:54] INFO root fetch - processPackages [tungstenkit]: Remove: archive file [/home/abi/fetcher/tmp/tungstenkit-0.1.2.post6.tar.gz]
+[2023-07-10 10:09:54] INFO root fetch - main [MainThread]: End processing [tungstenkit]: success
+[2023-07-10 10:09:54] INFO root fetch - main [MainThread]: Store serial: [18828055]
