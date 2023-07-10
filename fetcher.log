@@ -16671,3 +16671,130 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 14:08:15] INFO root fetch - processPackages [dash-dataflow-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_dataflow_components-0.0.4.tar.gz]
 [2023-07-10 14:08:15] INFO root fetch - main [MainThread]: End processing [dash-dataflow-components]: success
 [2023-07-10 14:08:15] INFO root fetch - main [MainThread]: Store serial: [18830291]
+[2023-07-10 14:13:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18830291]
+[2023-07-10 14:13:25] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-10 14:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mail-satvadev
+[2023-07-10 14:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mail-satvadev
+[2023-07-10 14:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-kafka-streamer
+[2023-07-10 14:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cmem-plugin-number-conversion
+[2023-07-10 14:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: feedancy
+[2023-07-10 14:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: diz
+[2023-07-10 14:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wizata-dsapi
+[2023-07-10 14:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: optibar
+[2023-07-10 14:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: decoratory
+[2023-07-10 14:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: manarpdf
+[2023-07-10 14:13:25] INFO root fetch - processPackages [cmem-plugin-number-conversion]: New version: [0.6.0] Old Version: [0.5.2]
+[2023-07-10 14:13:25] INFO root fetch - processPackages [feedancy]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-10 14:13:25] INFO root fetch - processPackages [mail-satvadev]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-10 14:13:25] INFO root fetch - processPackages [django-kafka-streamer]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-10 14:13:25] INFO root fetch - processPackages [decoratory]: New version: [0.9.3.6] Old Version: [0.9.2.7]
+[2023-07-10 14:13:25] INFO root fetch - processPackages [diz]: New version: [1.0.0] Old Version: [0.0.9]
+[2023-07-10 14:13:25] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-10 14:13:25] INFO root fetch - processPackages [mail-satvadev]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-10 14:13:25] WARNING root fetch - processPackages [manarpdf]: Skipping, unable to determine old version
+[2023-07-10 14:13:25] INFO root fetch - processPackages [manarpdf]: Start processing: telegramweb
+[2023-07-10 14:13:25] INFO root fetch - main [MainThread]: End processing [manarpdf] error
+[2023-07-10 14:13:25] WARNING root fetch - processPackages [optibar]: Skipping, unable to determine old version
+[2023-07-10 14:13:25] INFO root fetch - processPackages [optibar]: Start processing: tester-test-123asd
+[2023-07-10 14:13:25] INFO root fetch - main [MainThread]: End processing [optibar] error
+[2023-07-10 14:13:25] WARNING root fetch - processPackages [tester-test-123asd]: Skipping, unable to determine old version
+[2023-07-10 14:13:25] INFO root fetch - processPackages [tester-test-123asd]: Start processing: namespace-mahdimir
+[2023-07-10 14:13:25] INFO root fetch - main [MainThread]: End processing [tester-test-123asd] error
+[2023-07-10 14:13:25] INFO root fetch - processPackages [diz]: Downloading https://files.pythonhosted.org/packages/67/aa/8eeb7d6224fa76297103a5f16f04305940e6523da3639354f03769c5f4ef/diz-0.0.9.tar.gz
+[2023-07-10 14:13:25] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/90/b1/b31fa8e51e26bfab218d23a5556e1ddabf3b89a9a409dc29bf6a1291530f/wizata-dsapi-0.2.4.tar.gz
+[2023-07-10 14:13:25] INFO root fetch - processPackages [mail-satvadev]: Downloading https://files.pythonhosted.org/packages/5b/97/484e97674030637b7dc1931da0bd5d59573eedd4a9a077ecd2cbced3923c/mail_satvadev-1.0.3.tar.gz
+[2023-07-10 14:13:25] INFO root fetch - processPackages [mail-satvadev]: Downloading https://files.pythonhosted.org/packages/5b/97/484e97674030637b7dc1931da0bd5d59573eedd4a9a077ecd2cbced3923c/mail_satvadev-1.0.3.tar.gz
+[2023-07-10 14:13:25] INFO root fetch - processPackages [namespace-mahdimir]: New version: [1.0.0] Old Version: [0.1.2]
+[2023-07-10 14:13:25] INFO root fetch - processPackages [telegramweb]: New version: [5.6] Old Version: [5.5]
+[2023-07-10 14:13:25] INFO root fetch - processPackages [feedancy]: Downloading https://files.pythonhosted.org/packages/39/8d/d37d7d0dc491547f86409b0cc2a00e14f3694b284c1c9ac1c6e51b6be023/feedancy-0.1.1.tar.gz
+[2023-07-10 14:13:25] INFO root fetch - processPackages [cmem-plugin-number-conversion]: Downloading https://files.pythonhosted.org/packages/0c/7e/6f9976e74675b855c9b6bfe0d5f9085ef872c17772a9e8f423a0cfaf8f03/cmem_plugin_number_conversion-0.5.2.tar.gz
+[2023-07-10 14:13:25] INFO root fetch - processPackages [decoratory]: Downloading https://files.pythonhosted.org/packages/8c/ef/ff9ee9e5b4bf13a911151df3e2bca90dd0aae094768d0b5232efae30e037/decoratory-0.9.2.7.tar.gz
+[2023-07-10 14:13:25] INFO root fetch - processPackages [django-kafka-streamer]: Downloading https://files.pythonhosted.org/packages/75/b3/c7278c64bd3f3df9026c50efa8a9350560af999adc9d1e6ae80214b11215/django-kafka-streamer-1.1.0.tar.gz
+[2023-07-10 14:13:26] INFO root fetch - processPackages [namespace-mahdimir]: Downloading https://files.pythonhosted.org/packages/9a/70/a4e6f9acba6c78d007bc143f6ed4349c5d3bdc2e8b0401f915570da47cbf/namespace_mahdimir-0.1.2.tar.gz
+[2023-07-10 14:13:26] INFO root fetch - processPackages [telegramweb]: Downloading https://files.pythonhosted.org/packages/3d/07/33687e180881bd96600c2d91b3c1ef2dc7ca162639b0a799d02cf4d1eeb8/telegramweb-5.5.tar.gz
+[2023-07-10 14:13:26] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/0c/86/dbed4c31b5eb43d93c293d3e61febbc3e4e6690b8e2f0a1a0b1f7009f727/wizata-dsapi-0.2.5.tar.gz
+[2023-07-10 14:13:26] INFO root fetch - processPackages [mail-satvadev]: Downloading https://files.pythonhosted.org/packages/ad/d9/e72b90ca5463a167993599718406f8efc38b4cfeef13d8cf477a856e384d/mail_satvadev-1.0.4.tar.gz
+[2023-07-10 14:13:26] INFO root fetch - processPackages [diz]: Downloading https://files.pythonhosted.org/packages/60/93/f852e7b886239fcbedb32e0e042c2fb46358e311b494ba32b39fedfe73b3/diz-1.0.0.tar.gz
+[2023-07-10 14:13:26] INFO root fetch - processPackages [mail-satvadev]: Downloading https://files.pythonhosted.org/packages/ad/d9/e72b90ca5463a167993599718406f8efc38b4cfeef13d8cf477a856e384d/mail_satvadev-1.0.4.tar.gz
+[2023-07-10 14:13:26] INFO root fetch - processPackages [decoratory]: Downloading https://files.pythonhosted.org/packages/06/fe/a74a1885a6b733d75ae8ec0b8d8373da62e6dd8e3b456cb88c57c674411a/decoratory-0.9.3.6.tar.gz
+[2023-07-10 14:13:26] INFO root fetch - processPackages [feedancy]: Downloading https://files.pythonhosted.org/packages/f4/82/b505876d9cfa5789a8cbb12f065f10471c33d55266ebb7daef35bd81e705/feedancy-0.1.2.tar.gz
+[2023-07-10 14:13:26] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-07-10 14:13:26] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.2.4.tar.gz tmp/wizata-dsapi-0.2.5.tar.gz --markdown 20230710/w/wizata-dsapi/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-10 14:13:26] INFO root fetch - processPackages [cmem-plugin-number-conversion]: Downloading https://files.pythonhosted.org/packages/61/7d/05dc46094034c23045b81959ca277d7c14b5895ab994d99d283e4f667677/cmem_plugin_number_conversion-0.6.0.tar.gz
+[2023-07-10 14:13:26] INFO root fetch - processPackages [django-kafka-streamer]: Downloading https://files.pythonhosted.org/packages/f2/76/a96d9b074182209ff3c17e1f32ca99ce18f2086de008cbcf5e09aaf3c047/django-kafka-streamer-1.2.0.tar.gz
+[2023-07-10 14:13:26] INFO root fetch - processPackages [mail-satvadev]: executing diffoscope
+[2023-07-10 14:13:26] INFO root fetch - processPackages [mail-satvadev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mail_satvadev-1.0.3.tar.gz tmp/mail_satvadev-1.0.4.tar.gz --markdown 20230710/m/mail-satvadev/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-10 14:13:26] INFO root fetch - processPackages [mail-satvadev]: executing diffoscope
+[2023-07-10 14:13:26] INFO root fetch - processPackages [mail-satvadev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mail_satvadev-1.0.3.tar.gz tmp/mail_satvadev-1.0.4.tar.gz --markdown 20230710/m/mail-satvadev/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-10 14:13:26] INFO root fetch - processPackages [diz]: executing diffoscope
+[2023-07-10 14:13:26] INFO root fetch - processPackages [diz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diz-0.0.9.tar.gz tmp/diz-1.0.0.tar.gz --markdown 20230710/d/diz/0.0.9-1.0.0/diff.md --exclude *.pyd
+[2023-07-10 14:13:26] INFO root fetch - processPackages [feedancy]: executing diffoscope
+[2023-07-10 14:13:26] INFO root fetch - processPackages [feedancy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feedancy-0.1.1.tar.gz tmp/feedancy-0.1.2.tar.gz --markdown 20230710/f/feedancy/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-10 14:13:26] INFO root fetch - processPackages [decoratory]: executing diffoscope
+[2023-07-10 14:13:26] INFO root fetch - processPackages [decoratory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decoratory-0.9.2.7.tar.gz tmp/decoratory-0.9.3.6.tar.gz --markdown 20230710/d/decoratory/0.9.2.7-0.9.3.6/diff.md --exclude *.pyd
+[2023-07-10 14:13:26] INFO root fetch - processPackages [telegramweb]: Downloading https://files.pythonhosted.org/packages/43/9b/1ffe9f52232591a4c3592cc78cb1a1e788d34ee6242c6ed9a2a176e78cfc/telegramweb-5.6.tar.gz
+[2023-07-10 14:13:26] INFO root fetch - processPackages [cmem-plugin-number-conversion]: executing diffoscope
+[2023-07-10 14:13:26] INFO root fetch - processPackages [cmem-plugin-number-conversion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmem_plugin_number_conversion-0.5.2.tar.gz tmp/cmem_plugin_number_conversion-0.6.0.tar.gz --markdown 20230710/c/cmem-plugin-number-conversion/0.5.2-0.6.0/diff.md --exclude *.pyd
+[2023-07-10 14:13:26] INFO root fetch - processPackages [django-kafka-streamer]: executing diffoscope
+[2023-07-10 14:13:26] INFO root fetch - processPackages [django-kafka-streamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-kafka-streamer-1.1.0.tar.gz tmp/django-kafka-streamer-1.2.0.tar.gz --markdown 20230710/d/django-kafka-streamer/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-10 14:13:26] INFO root fetch - processPackages [namespace-mahdimir]: Downloading https://files.pythonhosted.org/packages/d9/f4/899ff755a613497f1887fc01b2dd134128d25d8d9b17cebeec663236d431/namespace_mahdimir-1.0.0.tar.gz
+[2023-07-10 14:13:26] INFO root fetch - processPackages [telegramweb]: executing diffoscope
+[2023-07-10 14:13:26] INFO root fetch - processPackages [telegramweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegramweb-5.5.tar.gz tmp/telegramweb-5.6.tar.gz --markdown 20230710/t/telegramweb/5.5-5.6/diff.md --exclude *.pyd
+[2023-07-10 14:13:26] INFO root fetch - processPackages [namespace-mahdimir]: executing diffoscope
+[2023-07-10 14:13:26] INFO root fetch - processPackages [namespace-mahdimir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namespace_mahdimir-0.1.2.tar.gz tmp/namespace_mahdimir-1.0.0.tar.gz --markdown 20230710/n/namespace-mahdimir/0.1.2-1.0.0/diff.md --exclude *.pyd
+[2023-07-10 14:13:28] INFO root fetch - processPackages [mail-satvadev]: Remove: archive file [/home/abi/fetcher/tmp/mail_satvadev-1.0.3.tar.gz]
+[2023-07-10 14:13:28] INFO root fetch - processPackages [mail-satvadev]: Remove: archive file [/home/abi/fetcher/tmp/mail_satvadev-1.0.4.tar.gz]
+[2023-07-10 14:13:28] INFO root fetch - processPackages [mail-satvadev]: Start processing: flitenv
+[2023-07-10 14:13:28] INFO root fetch - main [MainThread]: End processing [mail-satvadev]: success
+[2023-07-10 14:13:28] INFO root fetch - processPackages [flitenv]: New version: [0.4.0] Old Version: [0.3.4]
+[2023-07-10 14:13:28] INFO root fetch - processPackages [mail-satvadev]: Start processing: akshare
+[2023-07-10 14:13:28] INFO root fetch - main [MainThread]: End processing [mail-satvadev]: success
+[2023-07-10 14:13:28] INFO root fetch - processPackages [flitenv]: Downloading https://files.pythonhosted.org/packages/20/ab/3185fe5532a2a7dbf9d50e8dbada47b5dec52ceb4751fc52b5f6e7ce4726/flitenv-0.3.4.tar.gz
+[2023-07-10 14:13:28] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-07-10 14:13:28] INFO root fetch - processPackages [cmem-plugin-number-conversion]: Remove: archive file [/home/abi/fetcher/tmp/cmem_plugin_number_conversion-0.5.2.tar.gz]
+[2023-07-10 14:13:28] INFO root fetch - processPackages [cmem-plugin-number-conversion]: Remove: archive file [/home/abi/fetcher/tmp/cmem_plugin_number_conversion-0.6.0.tar.gz]
+[2023-07-10 14:13:28] INFO root fetch - processPackages [cmem-plugin-number-conversion]: Start processing: datagit
+[2023-07-10 14:13:28] INFO root fetch - main [MainThread]: End processing [cmem-plugin-number-conversion]: success
+[2023-07-10 14:13:28] INFO root fetch - processPackages [diz]: Remove: archive file [/home/abi/fetcher/tmp/diz-0.0.9.tar.gz]
+[2023-07-10 14:13:28] INFO root fetch - processPackages [diz]: Remove: archive file [/home/abi/fetcher/tmp/diz-1.0.0.tar.gz]
+[2023-07-10 14:13:28] INFO root fetch - main [MainThread]: End processing [diz]: success
+[2023-07-10 14:13:28] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.2.4.tar.gz]
+[2023-07-10 14:13:28] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.2.5.tar.gz]
+[2023-07-10 14:13:28] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-07-10 14:13:28] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2023-07-10 14:13:28] INFO root fetch - processPackages [namespace-mahdimir]: Remove: archive file [/home/abi/fetcher/tmp/namespace_mahdimir-0.1.2.tar.gz]
+[2023-07-10 14:13:28] INFO root fetch - processPackages [namespace-mahdimir]: Remove: archive file [/home/abi/fetcher/tmp/namespace_mahdimir-1.0.0.tar.gz]
+[2023-07-10 14:13:28] INFO root fetch - main [MainThread]: End processing [namespace-mahdimir]: success
+[2023-07-10 14:13:28] INFO root fetch - processPackages [datagit]: New version: [0.9] Old Version: [0.8]
+[2023-07-10 14:13:28] INFO root fetch - processPackages [decoratory]: Remove: archive file [/home/abi/fetcher/tmp/decoratory-0.9.2.7.tar.gz]
+[2023-07-10 14:13:28] INFO root fetch - processPackages [decoratory]: Remove: archive file [/home/abi/fetcher/tmp/decoratory-0.9.3.6.tar.gz]
+[2023-07-10 14:13:28] INFO root fetch - main [MainThread]: End processing [decoratory]: success
+[2023-07-10 14:13:28] INFO root fetch - processPackages [telegramweb]: Remove: archive file [/home/abi/fetcher/tmp/telegramweb-5.5.tar.gz]
+[2023-07-10 14:13:28] INFO root fetch - processPackages [telegramweb]: Remove: archive file [/home/abi/fetcher/tmp/telegramweb-5.6.tar.gz]
+[2023-07-10 14:13:28] INFO root fetch - main [MainThread]: End processing [telegramweb]: success
+[2023-07-10 14:13:28] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2023-07-10 14:13:28] INFO root fetch - processPackages [flitenv]: Downloading https://files.pythonhosted.org/packages/62/ef/7084d1601ac972a2bd63e48c6b29dbd222ac68c70b65257336128ba99a4e/flitenv-0.4.0.tar.gz
+[2023-07-10 14:13:28] INFO root fetch - processPackages [django-kafka-streamer]: Remove: archive file [/home/abi/fetcher/tmp/django-kafka-streamer-1.1.0.tar.gz]
+[2023-07-10 14:13:28] INFO root fetch - processPackages [django-kafka-streamer]: Remove: archive file [/home/abi/fetcher/tmp/django-kafka-streamer-1.2.0.tar.gz]
+[2023-07-10 14:13:28] INFO root fetch - main [MainThread]: End processing [django-kafka-streamer]: success
+[2023-07-10 14:13:28] INFO root fetch - processPackages [feedancy]: Remove: archive file [/home/abi/fetcher/tmp/feedancy-0.1.1.tar.gz]
+[2023-07-10 14:13:28] INFO root fetch - processPackages [feedancy]: Remove: archive file [/home/abi/fetcher/tmp/feedancy-0.1.2.tar.gz]
+[2023-07-10 14:13:28] INFO root fetch - main [MainThread]: End processing [feedancy]: success
+[2023-07-10 14:13:28] INFO root fetch - processPackages [datagit]: Downloading https://files.pythonhosted.org/packages/92/03/09115a0e007a0e9e34ca94fe7dc5a98a891eb84cfd5635cfc89e93e6145b/datagit-0.8.tar.gz
+[2023-07-10 14:13:28] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-07-10 14:13:28] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20230710/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-07-10 14:13:28] INFO root fetch - processPackages [flitenv]: executing diffoscope
+[2023-07-10 14:13:28] INFO root fetch - processPackages [flitenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flitenv-0.3.4.tar.gz tmp/flitenv-0.4.0.tar.gz --markdown 20230710/f/flitenv/0.3.4-0.4.0/diff.md --exclude *.pyd
+[2023-07-10 14:13:29] INFO root fetch - processPackages [datagit]: Downloading https://files.pythonhosted.org/packages/ae/74/35e2d657a79a0024a1d34c810f8eba7282593c263077d44d211afb6d9e3e/datagit-0.9.tar.gz
+[2023-07-10 14:13:29] INFO root fetch - processPackages [datagit]: executing diffoscope
+[2023-07-10 14:13:29] INFO root fetch - processPackages [datagit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datagit-0.8.tar.gz tmp/datagit-0.9.tar.gz --markdown 20230710/d/datagit/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-10 14:13:29] INFO root fetch - processPackages [flitenv]: Remove: archive file [/home/abi/fetcher/tmp/flitenv-0.3.4.tar.gz]
+[2023-07-10 14:13:29] INFO root fetch - processPackages [flitenv]: Remove: archive file [/home/abi/fetcher/tmp/flitenv-0.4.0.tar.gz]
+[2023-07-10 14:13:29] INFO root fetch - main [MainThread]: End processing [flitenv]: success
+[2023-07-10 14:13:30] INFO root fetch - processPackages [datagit]: Remove: archive file [/home/abi/fetcher/tmp/datagit-0.8.tar.gz]
+[2023-07-10 14:13:30] INFO root fetch - processPackages [datagit]: Remove: archive file [/home/abi/fetcher/tmp/datagit-0.9.tar.gz]
+[2023-07-10 14:13:30] INFO root fetch - main [MainThread]: End processing [datagit]: success
+[2023-07-10 14:13:31] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2023-07-10 14:13:31] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2023-07-10 14:13:31] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-07-10 14:13:31] INFO root fetch - main [MainThread]: Store serial: [18830352]
