@@ -8041,3 +8041,104 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 07:17:58] INFO root fetch - processPackages [eutil]: Remove: archive file [/home/abi/fetcher/tmp/eutil-0.0.9.tar.gz]
 [2023-07-10 07:17:58] INFO root fetch - main [MainThread]: End processing [eutil]: success
 [2023-07-10 07:17:58] INFO root fetch - main [MainThread]: Store serial: [18826753]
+[2023-07-10 07:23:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18826753]
+[2023-07-10 07:23:07] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-10 07:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: launchable
+[2023-07-10 07:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ffmperative
+[2023-07-10 07:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: elytra-ms
+[2023-07-10 07:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sWaraNuvad
+[2023-07-10 07:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wheel-axle
+[2023-07-10 07:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sdkit
+[2023-07-10 07:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sinabs
+[2023-07-10 07:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sWaraNuvad
+[2023-07-10 07:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sinabs
+[2023-07-10 07:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: elytra-ms
+[2023-07-10 07:23:08] INFO root fetch - processPackages [sinabs]: New version: [1.2.7.dev8] Old Version: [1.2.7.dev7]
+[2023-07-10 07:23:08] INFO root fetch - processPackages [sWaraNuvad]: New version: [2.4.3] Old Version: [2.4.2]
+[2023-07-10 07:23:08] INFO root fetch - processPackages [elytra-ms]: New version: [0.0.2] Old Version: [0.0.1b0]
+[2023-07-10 07:23:08] INFO root fetch - processPackages [wheel-axle]: New version: [0.0.7.dev20230710051936] Old Version: [0.0.7.dev20230628220411]
+[2023-07-10 07:23:08] INFO root fetch - processPackages [sWaraNuvad]: New version: [2.4.3] Old Version: [2.4.2]
+[2023-07-10 07:23:08] INFO root fetch - processPackages [elytra-ms]: New version: [0.0.2] Old Version: [0.0.1b0]
+[2023-07-10 07:23:08] INFO root fetch - processPackages [ffmperative]: New version: [0.0.4.post1] Old Version: [0.0.4]
+[2023-07-10 07:23:08] INFO root fetch - processPackages [launchable]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-10 07:23:08] INFO root fetch - processPackages [sdkit]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-10 07:23:08] INFO root fetch - processPackages [sinabs]: New version: [1.2.7.dev8] Old Version: [1.2.7.dev7]
+[2023-07-10 07:23:08] INFO root fetch - processPackages [sWaraNuvad]: Downloading https://files.pythonhosted.org/packages/94/eb/ad08d7bd16f756b29291edb4d612eea0bf5bd74497d7ca38660a7670021f/sWaraNuvad-2.4.2.tar.gz
+[2023-07-10 07:23:08] INFO root fetch - processPackages [elytra-ms]: Downloading https://files.pythonhosted.org/packages/0e/dd/8b62fc579573ef0501e9eaf4e48394fcffce4899fc7e20a16ab2d0fca626/elytra_ms-0.0.1b0.tar.gz
+[2023-07-10 07:23:08] INFO root fetch - processPackages [sWaraNuvad]: Downloading https://files.pythonhosted.org/packages/94/eb/ad08d7bd16f756b29291edb4d612eea0bf5bd74497d7ca38660a7670021f/sWaraNuvad-2.4.2.tar.gz
+[2023-07-10 07:23:08] INFO root fetch - processPackages [ffmperative]: Downloading https://files.pythonhosted.org/packages/53/85/19b5fbb92b1f359209cecfdae2904742dcc3e4c5555ed769b96a20b260a8/ffmperative-0.0.4-py3-none-any.whl
+[2023-07-10 07:23:08] INFO root fetch - processPackages [elytra-ms]: Downloading https://files.pythonhosted.org/packages/0e/dd/8b62fc579573ef0501e9eaf4e48394fcffce4899fc7e20a16ab2d0fca626/elytra_ms-0.0.1b0.tar.gz
+[2023-07-10 07:23:08] INFO root fetch - processPackages [sinabs]: Downloading https://files.pythonhosted.org/packages/f5/35/976796393a784989469b57e0ef34c42157d48c5ed77182a10638ab70b1a4/sinabs-1.2.7.dev7.tar.gz
+[2023-07-10 07:23:08] INFO root fetch - processPackages [sinabs]: Downloading https://files.pythonhosted.org/packages/f5/35/976796393a784989469b57e0ef34c42157d48c5ed77182a10638ab70b1a4/sinabs-1.2.7.dev7.tar.gz
+[2023-07-10 07:23:08] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/d1/c1/f3e251106f7f4c022d55f8fe3a3c0eacdb5bfdf84ce4182f71368c4f3a5f/sdkit-1.0.98.tar.gz
+[2023-07-10 07:23:08] INFO root fetch - processPackages [launchable]: Downloading https://files.pythonhosted.org/packages/2e/04/2169ed764cf3f5aadb8a30fda8dc6ede383388a7e3a7a47ed77123c89ddc/launchable-1.8.0.tar.gz
+[2023-07-10 07:23:08] INFO root fetch - processPackages [wheel-axle]: Downloading https://files.pythonhosted.org/packages/e4/68/9690bd5a3df6c4dacdfcf9359988ef102e6f495a878dfc2c4e1ee44335fe/wheel_axle-0.0.7.dev20230628220411.tar.gz
+[2023-07-10 07:23:08] WARNING root fetch - processPackages [launchable]: Skipping package: exceeds size limit 18312374>=10485760
+[2023-07-10 07:23:08] INFO root fetch - processPackages [launchable]: Start processing: instaloader
+[2023-07-10 07:23:08] INFO root fetch - main [MainThread]: End processing [launchable] error
+[2023-07-10 07:23:08] INFO root fetch - processPackages [elytra-ms]: Downloading https://files.pythonhosted.org/packages/f0/c5/d15dd84920c635a4f27fe0cf59697fb432e750854da0058f8356525bccbd/elytra_ms-0.0.2.tar.gz
+[2023-07-10 07:23:08] INFO root fetch - processPackages [elytra-ms]: Downloading https://files.pythonhosted.org/packages/f0/c5/d15dd84920c635a4f27fe0cf59697fb432e750854da0058f8356525bccbd/elytra_ms-0.0.2.tar.gz
+[2023-07-10 07:23:08] INFO root fetch - processPackages [instaloader]: New version: [4.9b3] Old Version: [4.9b2]
+[2023-07-10 07:23:08] INFO root fetch - processPackages [sWaraNuvad]: Downloading https://files.pythonhosted.org/packages/92/20/21034c7bdbec4c9a98ad0fd65e831cbd9cffdfe6db2bbaca8888fa3337bd/sWaraNuvad-2.4.3.tar.gz
+[2023-07-10 07:23:08] INFO root fetch - processPackages [sWaraNuvad]: Downloading https://files.pythonhosted.org/packages/92/20/21034c7bdbec4c9a98ad0fd65e831cbd9cffdfe6db2bbaca8888fa3337bd/sWaraNuvad-2.4.3.tar.gz
+[2023-07-10 07:23:09] INFO root fetch - processPackages [ffmperative]: Downloading https://files.pythonhosted.org/packages/5f/06/0dbe31827c1c7ee85680c84c49b37b63b51f36b3cbb15da3667ceadd9ebb/ffmperative-0.0.4.post1-py3-none-any.whl
+[2023-07-10 07:23:09] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/7e/69/b60dd118fa3c33f9ff305ec5ce9de04303dfdfc9be5d286e20cbc1ee1e7b/sdkit-1.0.99.tar.gz
+[2023-07-10 07:23:09] INFO root fetch - processPackages [sWaraNuvad]: executing diffoscope
+[2023-07-10 07:23:09] INFO root fetch - processPackages [sWaraNuvad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sWaraNuvad-2.4.2.tar.gz tmp/sWaraNuvad-2.4.3.tar.gz --markdown 20230710/s/sWaraNuvad/2.4.2-2.4.3/diff.md --exclude *.pyd
+[2023-07-10 07:23:09] INFO root fetch - processPackages [sWaraNuvad]: executing diffoscope
+[2023-07-10 07:23:09] INFO root fetch - processPackages [sWaraNuvad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sWaraNuvad-2.4.2.tar.gz tmp/sWaraNuvad-2.4.3.tar.gz --markdown 20230710/s/sWaraNuvad/2.4.2-2.4.3/diff.md --exclude *.pyd
+[2023-07-10 07:23:09] INFO root fetch - processPackages [elytra-ms]: executing diffoscope
+[2023-07-10 07:23:09] INFO root fetch - processPackages [elytra-ms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elytra_ms-0.0.1b0.tar.gz tmp/elytra_ms-0.0.2.tar.gz --markdown 20230710/e/elytra-ms/0.0.1b0-0.0.2/diff.md --exclude *.pyd
+[2023-07-10 07:23:09] INFO root fetch - processPackages [ffmperative]: executing diffoscope
+[2023-07-10 07:23:09] INFO root fetch - processPackages [ffmperative]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffmperative-0.0.4-py3-none-any.whl.zip tmp/ffmperative-0.0.4.post1-py3-none-any.whl.zip --markdown 20230710/f/ffmperative/0.0.4-0.0.4.post1/diff.md --exclude *.pyd
+[2023-07-10 07:23:09] INFO root fetch - processPackages [sinabs]: Downloading https://files.pythonhosted.org/packages/89/1c/a7566580c8b153efdbd2dca4b3f6c4aa33bedfb0fc37bf701c1264ff8b1f/sinabs-1.2.7.dev8.tar.gz
+[2023-07-10 07:23:09] INFO root fetch - processPackages [sinabs]: Downloading https://files.pythonhosted.org/packages/89/1c/a7566580c8b153efdbd2dca4b3f6c4aa33bedfb0fc37bf701c1264ff8b1f/sinabs-1.2.7.dev8.tar.gz
+[2023-07-10 07:23:09] INFO root fetch - processPackages [wheel-axle]: Downloading https://files.pythonhosted.org/packages/96/32/444d63c6ddcd06ccd6b0648fbf465b26416a9840dfc5874cc054101e9f76/wheel_axle-0.0.7.dev20230710051936.tar.gz
+[2023-07-10 07:23:09] INFO root fetch - processPackages [elytra-ms]: executing diffoscope
+[2023-07-10 07:23:09] INFO root fetch - processPackages [elytra-ms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elytra_ms-0.0.1b0.tar.gz tmp/elytra_ms-0.0.2.tar.gz --markdown 20230710/e/elytra-ms/0.0.1b0-0.0.2/diff.md --exclude *.pyd
+[2023-07-10 07:23:09] INFO root fetch - processPackages [instaloader]: Downloading https://files.pythonhosted.org/packages/ef/02/c589939bbfc06a7777dbac34608a9b5b58a40aada2ef61b00753210716a5/instaloader-4.9b2.tar.gz
+[2023-07-10 07:23:09] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-07-10 07:23:09] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.98.tar.gz tmp/sdkit-1.0.99.tar.gz --markdown 20230710/s/sdkit/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-10 07:23:09] INFO root fetch - processPackages [wheel-axle]: executing diffoscope
+[2023-07-10 07:23:09] INFO root fetch - processPackages [wheel-axle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wheel_axle-0.0.7.dev20230628220411.tar.gz tmp/wheel_axle-0.0.7.dev20230710051936.tar.gz --markdown 20230710/w/wheel-axle/0.0.7.dev20230628220411-0.0.7.dev20230710051936/diff.md --exclude *.pyd
+[2023-07-10 07:23:09] INFO root fetch - processPackages [sinabs]: executing diffoscope
+[2023-07-10 07:23:09] INFO root fetch - processPackages [sinabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinabs-1.2.7.dev7.tar.gz tmp/sinabs-1.2.7.dev8.tar.gz --markdown 20230710/s/sinabs/1.2.7.dev7-1.2.7.dev8/diff.md --exclude *.pyd
+[2023-07-10 07:23:09] INFO root fetch - processPackages [sinabs]: executing diffoscope
+[2023-07-10 07:23:09] INFO root fetch - processPackages [sinabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinabs-1.2.7.dev7.tar.gz tmp/sinabs-1.2.7.dev8.tar.gz --markdown 20230710/s/sinabs/1.2.7.dev7-1.2.7.dev8/diff.md --exclude *.pyd
+[2023-07-10 07:23:09] INFO root fetch - processPackages [instaloader]: Downloading https://files.pythonhosted.org/packages/4c/0d/cee659c5a899ea117ae6b326ce53967a6b87398a5b1a4e6ff425307f5ded/instaloader-4.9b3.tar.gz
+[2023-07-10 07:23:09] INFO root fetch - processPackages [instaloader]: executing diffoscope
+[2023-07-10 07:23:09] INFO root fetch - processPackages [instaloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instaloader-4.9b2.tar.gz tmp/instaloader-4.9b3.tar.gz --markdown 20230710/i/instaloader/4.9b2-4.9b3/diff.md --exclude *.pyd
+[2023-07-10 07:23:10] INFO root fetch - processPackages [sWaraNuvad]: Remove: archive file [/home/abi/fetcher/tmp/sWaraNuvad-2.4.2.tar.gz]
+[2023-07-10 07:23:10] INFO root fetch - processPackages [sWaraNuvad]: Remove: archive file [/home/abi/fetcher/tmp/sWaraNuvad-2.4.3.tar.gz]
+[2023-07-10 07:23:10] INFO root fetch - processPackages [sWaraNuvad]: Start processing: sWaraNuvad
+[2023-07-10 07:23:10] INFO root fetch - main [MainThread]: End processing [sWaraNuvad]: success
+[2023-07-10 07:23:10] INFO root fetch - main [MainThread]: End processing [sWaraNuvad]: success
+[2023-07-10 07:23:10] INFO root fetch - processPackages [sWaraNuvad]: New version: [2.4.5] Old Version: [2.4.3]
+[2023-07-10 07:23:10] INFO root fetch - processPackages [ffmperative]: Remove: archive file [/home/abi/fetcher/tmp/ffmperative-0.0.4-py3-none-any.whl.zip]
+[2023-07-10 07:23:10] INFO root fetch - processPackages [ffmperative]: Remove: archive file [/home/abi/fetcher/tmp/ffmperative-0.0.4.post1-py3-none-any.whl.zip]
+[2023-07-10 07:23:10] INFO root fetch - main [MainThread]: End processing [ffmperative]: success
+[2023-07-10 07:23:10] INFO root fetch - processPackages [sWaraNuvad]: Downloading https://files.pythonhosted.org/packages/92/20/21034c7bdbec4c9a98ad0fd65e831cbd9cffdfe6db2bbaca8888fa3337bd/sWaraNuvad-2.4.3.tar.gz
+[2023-07-10 07:23:10] INFO root fetch - processPackages [elytra-ms]: Remove: archive file [/home/abi/fetcher/tmp/elytra_ms-0.0.1b0.tar.gz]
+[2023-07-10 07:23:10] INFO root fetch - processPackages [elytra-ms]: Remove: archive file [/home/abi/fetcher/tmp/elytra_ms-0.0.2.tar.gz]
+[2023-07-10 07:23:10] INFO root fetch - main [MainThread]: End processing [elytra-ms]: success
+[2023-07-10 07:23:10] INFO root fetch - main [MainThread]: End processing [elytra-ms]: success
+[2023-07-10 07:23:11] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.98.tar.gz]
+[2023-07-10 07:23:11] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.99.tar.gz]
+[2023-07-10 07:23:11] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-07-10 07:23:11] INFO root fetch - processPackages [wheel-axle]: Remove: archive file [/home/abi/fetcher/tmp/wheel_axle-0.0.7.dev20230628220411.tar.gz]
+[2023-07-10 07:23:11] INFO root fetch - processPackages [wheel-axle]: Remove: archive file [/home/abi/fetcher/tmp/wheel_axle-0.0.7.dev20230710051936.tar.gz]
+[2023-07-10 07:23:11] INFO root fetch - main [MainThread]: End processing [wheel-axle]: success
+[2023-07-10 07:23:11] INFO root fetch - processPackages [sWaraNuvad]: Downloading https://files.pythonhosted.org/packages/9f/a2/62fa25c7c57de88217e8ca3966b2ed0b49a70bc444585ca3b8426b1136b2/sWaraNuvad-2.4.5.tar.gz
+[2023-07-10 07:23:11] INFO root fetch - processPackages [sinabs]: Remove: archive file [/home/abi/fetcher/tmp/sinabs-1.2.7.dev7.tar.gz]
+[2023-07-10 07:23:11] INFO root fetch - processPackages [sinabs]: Remove: archive file [/home/abi/fetcher/tmp/sinabs-1.2.7.dev8.tar.gz]
+[2023-07-10 07:23:11] INFO root fetch - main [MainThread]: End processing [sinabs]: success
+[2023-07-10 07:23:11] INFO root fetch - main [MainThread]: End processing [sinabs]: success
+[2023-07-10 07:23:11] INFO root fetch - processPackages [sWaraNuvad]: executing diffoscope
+[2023-07-10 07:23:11] INFO root fetch - processPackages [sWaraNuvad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sWaraNuvad-2.4.3.tar.gz tmp/sWaraNuvad-2.4.5.tar.gz --markdown 20230710/s/sWaraNuvad/2.4.3-2.4.5/diff.md --exclude *.pyd
+[2023-07-10 07:23:11] INFO root fetch - processPackages [instaloader]: Remove: archive file [/home/abi/fetcher/tmp/instaloader-4.9b2.tar.gz]
+[2023-07-10 07:23:11] INFO root fetch - processPackages [instaloader]: Remove: archive file [/home/abi/fetcher/tmp/instaloader-4.9b3.tar.gz]
+[2023-07-10 07:23:11] INFO root fetch - main [MainThread]: End processing [instaloader]: success
+[2023-07-10 07:23:12] INFO root fetch - processPackages [sWaraNuvad]: Remove: archive file [/home/abi/fetcher/tmp/sWaraNuvad-2.4.3.tar.gz]
+[2023-07-10 07:23:12] INFO root fetch - processPackages [sWaraNuvad]: Remove: archive file [/home/abi/fetcher/tmp/sWaraNuvad-2.4.5.tar.gz]
+[2023-07-10 07:23:12] INFO root fetch - main [MainThread]: End processing [sWaraNuvad]: success
+[2023-07-10 07:23:12] INFO root fetch - main [MainThread]: Store serial: [18826789]
