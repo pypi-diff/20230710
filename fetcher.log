@@ -15353,3 +15353,114 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 12:59:38] INFO root fetch - processPackages [ragas]: Remove: archive file [/home/abi/fetcher/tmp/ragas-0.0.4.tar.gz]
 [2023-07-10 12:59:38] INFO root fetch - main [MainThread]: End processing [ragas]: success
 [2023-07-10 12:59:38] INFO root fetch - main [MainThread]: Store serial: [18829749]
+[2023-07-10 13:04:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18829749]
+[2023-07-10 13:04:47] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-10 13:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SempCode
+[2023-07-10 13:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: taichu-storage
+[2023-07-10 13:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TheSilent
+[2023-07-10 13:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yellowdog-python-examples
+[2023-07-10 13:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: afex-sso
+[2023-07-10 13:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: teapy
+[2023-07-10 13:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aliyun-python-sdk-dbs
+[2023-07-10 13:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fluidgpt
+[2023-07-10 13:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ospd-openvas
+[2023-07-10 13:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: signxai
+[2023-07-10 13:04:47] WARNING root fetch - processPackages [signxai]: Skipping, unable to determine old version
+[2023-07-10 13:04:47] INFO root fetch - processPackages [signxai]: Start processing: threads-net
+[2023-07-10 13:04:47] INFO root fetch - main [MainThread]: End processing [signxai] error
+[2023-07-10 13:04:47] INFO root fetch - processPackages [fluidgpt]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-10 13:04:47] INFO root fetch - processPackages [teapy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 13:04:47] INFO root fetch - processPackages [ospd-openvas]: New version: [22.5.3] Old Version: [22.5.2]
+[2023-07-10 13:04:47] WARNING root fetch - processPackages [taichu-storage]: Skipping, unable to determine old version
+[2023-07-10 13:04:47] INFO root fetch - processPackages [taichu-storage]: Start processing: icupy
+[2023-07-10 13:04:47] INFO root fetch - main [MainThread]: End processing [taichu-storage] error
+[2023-07-10 13:04:47] INFO root fetch - processPackages [aliyun-python-sdk-dbs]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-10 13:04:47] INFO root fetch - processPackages [yellowdog-python-examples]: New version: [6.0.9] Old Version: [6.0.8]
+[2023-07-10 13:04:47] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-10 13:04:47] INFO root fetch - processPackages [SempCode]: New version: [0.5.0.1] Old Version: [0.3.7.5]
+[2023-07-10 13:04:47] INFO root fetch - processPackages [threads-net]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-10 13:04:47] INFO root fetch - processPackages [afex-sso]: New version: [0.0.61] Old Version: [0.0.60]
+[2023-07-10 13:04:47] INFO root fetch - processPackages [ospd-openvas]: Downloading https://files.pythonhosted.org/packages/4c/0b/3e5ed00a09a254ee243b5b5906caef81a61a409bc1679fc435788498e847/ospd_openvas-22.5.2.tar.gz
+[2023-07-10 13:04:47] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-10 13:04:47] INFO root fetch - processPackages [icupy]: New version: [0.9.0] Old Version: [0.8.0.post2]
+[2023-07-10 13:04:47] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/11/ba/483f4770d7c413aff80cfdfd96da75d50912f6604255f4a04d7e8448a5a1/threads-net-0.0.7.tar.gz
+[2023-07-10 13:04:47] INFO root fetch - processPackages [aliyun-python-sdk-dbs]: Downloading https://files.pythonhosted.org/packages/4b/7d/5780d1dba5c3f73245a43ee9e3edca2e855caf3c4e43fd1d12c21414c164/aliyun-python-sdk-dbs-1.0.8.tar.gz
+[2023-07-10 13:04:48] INFO root fetch - processPackages [yellowdog-python-examples]: Downloading https://files.pythonhosted.org/packages/a2/48/cdf0ef4fc387a3a6c47a9aaba1885cff4396c3237e445564179d92552e23/yellowdog-python-examples-6.0.8.tar.gz
+[2023-07-10 13:04:48] INFO root fetch - processPackages [fluidgpt]: Downloading https://files.pythonhosted.org/packages/47/38/15a53fb95a09644b617798cdd074d4d0ade1c0484a093ba7face3c40128d/fluidgpt-1.0.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-10 13:04:48] INFO root fetch - processPackages [SempCode]: Downloading https://files.pythonhosted.org/packages/2f/c1/6b6f55676c5786c40c9ee02a227e114df2900e30ddcb7c2ca0b84fcc3b39/SempCode-0.3.7.5-py3-none-any.whl
+[2023-07-10 13:04:48] INFO root fetch - processPackages [afex-sso]: Downloading https://files.pythonhosted.org/packages/5c/fb/434222d4f8c174f55c61567f64890029560929d847e6bbde1124bd1596b3/afex-sso-0.0.60.tar.gz
+[2023-07-10 13:04:48] INFO root fetch - processPackages [teapy]: Downloading https://files.pythonhosted.org/packages/88/ac/abf09da0c4988f80f15cd384b3e194e41bf849182b2d64e09e829d29e4b5/teapy-0.1.8.tar.gz
+[2023-07-10 13:04:48] INFO root fetch - processPackages [icupy]: Downloading https://files.pythonhosted.org/packages/e1/12/c6118dae90c0a667c4ba6e5484857e4e9265e2d87239f2b7fe90920e5666/icupy-0.8.0.post2.tar.gz
+[2023-07-10 13:04:48] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-10 13:04:48] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/de/bd/e372c12fe307c562ec3785151d74201431eddd2312171d55b8ee4ac81db6/threads-net-0.0.8.tar.gz
+[2023-07-10 13:04:48] INFO root fetch - processPackages [yellowdog-python-examples]: Downloading https://files.pythonhosted.org/packages/ae/46/084ce0552097af030aea7a1ce0ada555a97a695f850b3b501b42c47fc0ff/yellowdog-python-examples-6.0.9.tar.gz
+[2023-07-10 13:04:48] INFO root fetch - processPackages [ospd-openvas]: Downloading https://files.pythonhosted.org/packages/0a/8e/8df9be923549f7869e28cb4350c909d64f92d85d338ed92263184b274463/ospd_openvas-22.5.3.tar.gz
+[2023-07-10 13:04:48] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-10 13:04:48] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230710/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-10 13:04:48] INFO root fetch - processPackages [aliyun-python-sdk-dbs]: Downloading https://files.pythonhosted.org/packages/a5/44/50cceeb1d196474f16837bf89eac1ce6d3dfbd07c2c6b6c0c7e124e1b842/aliyun-python-sdk-dbs-1.0.9.tar.gz
+[2023-07-10 13:04:48] INFO root fetch - processPackages [afex-sso]: Downloading https://files.pythonhosted.org/packages/f7/21/71185fd1b7816f9106b640e2f5bc2f7175a199c00fed489ef9125d8f4a0a/afex-sso-0.0.61.tar.gz
+[2023-07-10 13:04:48] INFO root fetch - processPackages [SempCode]: Downloading https://files.pythonhosted.org/packages/37/1c/075b3ac004b1a7b4e1a06a677d03c210973e9c5f4be358c301f50c1862e6/SempCode-0.5.0.1-py3-none-any.whl
+[2023-07-10 13:04:48] INFO root fetch - processPackages [threads-net]: executing diffoscope
+[2023-07-10 13:04:48] INFO root fetch - processPackages [threads-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threads-net-0.0.7.tar.gz tmp/threads-net-0.0.8.tar.gz --markdown 20230710/t/threads-net/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-10 13:04:48] INFO root fetch - processPackages [yellowdog-python-examples]: executing diffoscope
+[2023-07-10 13:04:48] INFO root fetch - processPackages [yellowdog-python-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yellowdog-python-examples-6.0.8.tar.gz tmp/yellowdog-python-examples-6.0.9.tar.gz --markdown 20230710/y/yellowdog-python-examples/6.0.8-6.0.9/diff.md --exclude *.pyd
+[2023-07-10 13:04:48] INFO root fetch - processPackages [ospd-openvas]: executing diffoscope
+[2023-07-10 13:04:48] INFO root fetch - processPackages [ospd-openvas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ospd_openvas-22.5.2.tar.gz tmp/ospd_openvas-22.5.3.tar.gz --markdown 20230710/o/ospd-openvas/22.5.2-22.5.3/diff.md --exclude *.pyd
+[2023-07-10 13:04:48] INFO root fetch - processPackages [fluidgpt]: Downloading https://files.pythonhosted.org/packages/d1/be/21442ffe7f8c70b3e7c3dc013066b12c53d451253826bd6a989d252549f7/fluidgpt-1.1.0-cp39-cp39-win_amd64.whl
+[2023-07-10 13:04:48] INFO root fetch - processPackages [teapy]: Downloading https://files.pythonhosted.org/packages/29/2b/61110c41eb8ccc838afa9efa62d8b9fed01e07b191f1d4c069fc9c55af14/teapy-0.1.9.tar.gz
+[2023-07-10 13:04:48] INFO root fetch - processPackages [aliyun-python-sdk-dbs]: executing diffoscope
+[2023-07-10 13:04:48] INFO root fetch - processPackages [aliyun-python-sdk-dbs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-dbs-1.0.8.tar.gz tmp/aliyun-python-sdk-dbs-1.0.9.tar.gz --markdown 20230710/a/aliyun-python-sdk-dbs/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-10 13:04:48] INFO root fetch - processPackages [afex-sso]: executing diffoscope
+[2023-07-10 13:04:48] INFO root fetch - processPackages [afex-sso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afex-sso-0.0.60.tar.gz tmp/afex-sso-0.0.61.tar.gz --markdown 20230710/a/afex-sso/0.0.60-0.0.61/diff.md --exclude *.pyd
+[2023-07-10 13:04:48] INFO root fetch - processPackages [SempCode]: executing diffoscope
+[2023-07-10 13:04:48] INFO root fetch - processPackages [SempCode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SempCode-0.3.7.5-py3-none-any.whl.zip tmp/SempCode-0.5.0.1-py3-none-any.whl.zip --markdown 20230710/S/SempCode/0.3.7.5-0.5.0.1/diff.md --exclude *.pyd
+[2023-07-10 13:04:48] INFO root fetch - processPackages [fluidgpt]: executing diffoscope
+[2023-07-10 13:04:48] INFO root fetch - processPackages [fluidgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluidgpt-1.0.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/fluidgpt-1.1.0-cp39-cp39-win_amd64.whl.zip --markdown 20230710/f/fluidgpt/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-10 13:04:48] INFO root fetch - processPackages [teapy]: executing diffoscope
+[2023-07-10 13:04:48] INFO root fetch - processPackages [teapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teapy-0.1.8.tar.gz tmp/teapy-0.1.9.tar.gz --markdown 20230710/t/teapy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 13:04:49] INFO root fetch - processPackages [icupy]: Downloading https://files.pythonhosted.org/packages/6b/d3/a11d8f12f3e1a5b9894093f27e3bdb3eae3a8b59316f30be25b44d7b251e/icupy-0.9.0.tar.gz
+[2023-07-10 13:04:49] INFO root fetch - processPackages [icupy]: executing diffoscope
+[2023-07-10 13:04:49] INFO root fetch - processPackages [icupy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icupy-0.8.0.post2.tar.gz tmp/icupy-0.9.0.tar.gz --markdown 20230710/i/icupy/0.8.0.post2-0.9.0/diff.md --exclude *.pyd
+[2023-07-10 13:04:50] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-10 13:04:50] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-10 13:04:50] INFO root fetch - processPackages [TheSilent]: Start processing: python-pbxonline
+[2023-07-10 13:04:50] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-10 13:04:50] WARNING root fetch - processPackages [python-pbxonline]: Skipping, unable to determine old version
+[2023-07-10 13:04:50] INFO root fetch - processPackages [python-pbxonline]: Start processing: TheSilent
+[2023-07-10 13:04:50] INFO root fetch - main [MainThread]: End processing [python-pbxonline] error
+[2023-07-10 13:04:50] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.7.tar.gz]
+[2023-07-10 13:04:50] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.8.tar.gz]
+[2023-07-10 13:04:50] INFO root fetch - main [MainThread]: End processing [threads-net]: success
+[2023-07-10 13:04:50] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-10 13:04:50] INFO root fetch - processPackages [SempCode]: Remove: archive file [/home/abi/fetcher/tmp/SempCode-0.3.7.5-py3-none-any.whl.zip]
+[2023-07-10 13:04:50] INFO root fetch - processPackages [SempCode]: Remove: archive file [/home/abi/fetcher/tmp/SempCode-0.5.0.1-py3-none-any.whl.zip]
+[2023-07-10 13:04:50] INFO root fetch - main [MainThread]: End processing [SempCode]: success
+[2023-07-10 13:04:50] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-10 13:04:50] INFO root fetch - processPackages [aliyun-python-sdk-dbs]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-dbs-1.0.8.tar.gz]
+[2023-07-10 13:04:50] INFO root fetch - processPackages [aliyun-python-sdk-dbs]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-dbs-1.0.9.tar.gz]
+[2023-07-10 13:04:50] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-dbs]: success
+[2023-07-10 13:04:50] INFO root fetch - processPackages [afex-sso]: Remove: archive file [/home/abi/fetcher/tmp/afex-sso-0.0.60.tar.gz]
+[2023-07-10 13:04:50] INFO root fetch - processPackages [afex-sso]: Remove: archive file [/home/abi/fetcher/tmp/afex-sso-0.0.61.tar.gz]
+[2023-07-10 13:04:50] INFO root fetch - main [MainThread]: End processing [afex-sso]: success
+[2023-07-10 13:04:50] INFO root fetch - processPackages [fluidgpt]: Remove: archive file [/home/abi/fetcher/tmp/fluidgpt-1.0.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-10 13:04:50] INFO root fetch - processPackages [fluidgpt]: Remove: archive file [/home/abi/fetcher/tmp/fluidgpt-1.1.0-cp39-cp39-win_amd64.whl.zip]
+[2023-07-10 13:04:50] INFO root fetch - main [MainThread]: End processing [fluidgpt]: success
+[2023-07-10 13:04:50] INFO root fetch - processPackages [yellowdog-python-examples]: Remove: archive file [/home/abi/fetcher/tmp/yellowdog-python-examples-6.0.8.tar.gz]
+[2023-07-10 13:04:50] INFO root fetch - processPackages [yellowdog-python-examples]: Remove: archive file [/home/abi/fetcher/tmp/yellowdog-python-examples-6.0.9.tar.gz]
+[2023-07-10 13:04:50] INFO root fetch - main [MainThread]: End processing [yellowdog-python-examples]: success
+[2023-07-10 13:04:50] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-10 13:04:50] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-10 13:04:50] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230710/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-10 13:04:50] INFO root fetch - processPackages [ospd-openvas]: Remove: archive file [/home/abi/fetcher/tmp/ospd_openvas-22.5.2.tar.gz]
+[2023-07-10 13:04:50] INFO root fetch - processPackages [ospd-openvas]: Remove: archive file [/home/abi/fetcher/tmp/ospd_openvas-22.5.3.tar.gz]
+[2023-07-10 13:04:50] INFO root fetch - main [MainThread]: End processing [ospd-openvas]: success
+[2023-07-10 13:04:51] INFO root fetch - processPackages [teapy]: Remove: archive file [/home/abi/fetcher/tmp/teapy-0.1.8.tar.gz]
+[2023-07-10 13:04:51] INFO root fetch - processPackages [teapy]: Remove: archive file [/home/abi/fetcher/tmp/teapy-0.1.9.tar.gz]
+[2023-07-10 13:04:51] INFO root fetch - main [MainThread]: End processing [teapy]: success
+[2023-07-10 13:04:51] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-10 13:04:51] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-10 13:04:51] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-10 13:04:52] INFO root fetch - processPackages [icupy]: Remove: archive file [/home/abi/fetcher/tmp/icupy-0.8.0.post2.tar.gz]
+[2023-07-10 13:04:52] INFO root fetch - processPackages [icupy]: Remove: archive file [/home/abi/fetcher/tmp/icupy-0.9.0.tar.gz]
+[2023-07-10 13:04:52] INFO root fetch - main [MainThread]: End processing [icupy]: success
+[2023-07-10 13:04:52] INFO root fetch - main [MainThread]: Store serial: [18829807]
