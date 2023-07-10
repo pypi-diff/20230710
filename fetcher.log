@@ -5938,3 +5938,27 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 04:55:34] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.9-py3-none-any.whl.zip]
 [2023-07-10 04:55:34] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
 [2023-07-10 04:55:34] INFO root fetch - main [MainThread]: Store serial: [18825907]
+[2023-07-10 05:00:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18825907]
+[2023-07-10 05:00:43] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-10 05:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iam-actions
+[2023-07-10 05:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sj-tool
+[2023-07-10 05:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-nobahpictrue
+[2023-07-10 05:00:43] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-10 05:00:43] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230710] Old Version: [1.2.20230709]
+[2023-07-10 05:00:43] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/be/fc/50b1094e1b0fe40ed3b57f820f2d8684bec6ecc36998bb3fc3075cffda59/iam_actions-1.2.20230709.tar.gz
+[2023-07-10 05:00:43] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/8b/f9/2af667f18b77632259bbdac6a0db7f33f9cbea38a7a1baa7d9979d9060d3/sj_tool-1.0.8-py3-none-any.whl
+[2023-07-10 05:00:43] WARNING root fetch - processPackages [nonebot-plugin-nobahpictrue]: Skipping, unable to determine old version
+[2023-07-10 05:00:43] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-nobahpictrue] error
+[2023-07-10 05:00:43] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-07-10 05:00:44] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-07-10 05:00:44] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230710/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-10 05:00:44] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/80/6d/03a3e5ed78f313ab83eb0e3e1fcc5161ed46d8f298b0c418e1af09a86dbc/iam_actions-1.2.20230710.tar.gz
+[2023-07-10 05:00:44] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-07-10 05:00:44] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230709.tar.gz tmp/iam_actions-1.2.20230710.tar.gz --markdown 20230710/i/iam-actions/1.2.20230709-1.2.20230710/diff.md --exclude *.pyd
+[2023-07-10 05:00:44] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.8-py3-none-any.whl.zip]
+[2023-07-10 05:00:44] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.9-py3-none-any.whl.zip]
+[2023-07-10 05:00:44] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-07-10 05:00:45] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230709.tar.gz]
+[2023-07-10 05:00:45] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230710.tar.gz]
+[2023-07-10 05:00:45] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-07-10 05:00:45] INFO root fetch - main [MainThread]: Store serial: [18825913]
