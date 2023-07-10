@@ -11240,3 +11240,150 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 10:15:07] INFO root fetch - processPackages [weaviate-client]: Remove: archive file [/home/abi/fetcher/tmp/weaviate-client-3.9.0b0.tar.gz]
 [2023-07-10 10:15:07] INFO root fetch - main [MainThread]: End processing [weaviate-client]: success
 [2023-07-10 10:15:07] INFO root fetch - main [MainThread]: Store serial: [18828087]
+[2023-07-10 10:20:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18828087]
+[2023-07-10 10:20:16] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-10 10:20:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SRgenerator
+[2023-07-10 10:20:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scippnexus
+[2023-07-10 10:20:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wale-net
+[2023-07-10 10:20:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kraken-build
+[2023-07-10 10:20:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kraken-common
+[2023-07-10 10:20:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kraken-core
+[2023-07-10 10:20:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kraken-wrapper
+[2023-07-10 10:20:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kraken-std
+[2023-07-10 10:20:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alcoholic-tfe22540
+[2023-07-10 10:20:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Alpha-Rabbit
+[2023-07-10 10:20:16] INFO root fetch - processPackages [Alpha-Rabbit]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-07-10 10:20:16] INFO root fetch - processPackages [wale-net]: New version: [3.0.3] Old Version: [3.0.2]
+[2023-07-10 10:20:16] INFO root fetch - processPackages [scippnexus]: New version: [23.7.0] Old Version: [23.5.1]
+[2023-07-10 10:20:16] INFO root fetch - processPackages [SRgenerator]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-10 10:20:16] INFO root fetch - processPackages [kraken-common]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-07-10 10:20:16] INFO root fetch - processPackages [kraken-wrapper]: New version: [0.28.1] Old Version: [0.28.0.dev0]
+[2023-07-10 10:20:16] INFO root fetch - processPackages [alcoholic-tfe22540]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-10 10:20:16] INFO root fetch - processPackages [kraken-build]: New version: [0.28.1] Old Version: [0.28.0.dev0]
+[2023-07-10 10:20:16] INFO root fetch - processPackages [kraken-core]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-10 10:20:16] INFO root fetch - processPackages [kraken-std]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-07-10 10:20:16] INFO root fetch - processPackages [Alpha-Rabbit]: Downloading https://files.pythonhosted.org/packages/4c/47/186d6f48bed3b942f8a522040ba0d839c47db351d4b3a4f245d01238fbd9/Alpha_Rabbit-1.4.4.tar.gz
+[2023-07-10 10:20:16] INFO root fetch - processPackages [alcoholic-tfe22540]: Downloading https://files.pythonhosted.org/packages/85/ee/1207e18246d34caef208b454ecfef58d404c36e98bc538b61e0997056795/alcoholic_tfe22540-0.1.7.tar.gz
+[2023-07-10 10:20:16] INFO root fetch - processPackages [wale-net]: Downloading https://files.pythonhosted.org/packages/7e/cb/93af0ed3e5448be2d8037fafb67d024304f708a8470dbf36ab6e88747abe/wale-net-3.0.2.tar.gz
+[2023-07-10 10:20:16] INFO root fetch - processPackages [SRgenerator]: Downloading https://files.pythonhosted.org/packages/ff/38/9a528785c0b78efde71e121ea5c240e3147d2e3b9961f208c39d196cc398/SRgenerator-0.0.3.tar.gz
+[2023-07-10 10:20:16] INFO root fetch - processPackages [scippnexus]: Downloading https://files.pythonhosted.org/packages/6b/1c/67dfac2d2b55cab3f02e2c3595ac868e50ab20bf4244877c0211b71867d1/scippnexus-23.5.1.tar.gz
+[2023-07-10 10:20:16] INFO root fetch - processPackages [kraken-core]: Downloading https://files.pythonhosted.org/packages/c6/4c/480e3d597162031534e0e300b1d98eeec0838406875f691703142326e36a/kraken-core-0.9.5.tar.gz
+[2023-07-10 10:20:16] INFO root fetch - processPackages [kraken-common]: Downloading https://files.pythonhosted.org/packages/88/b6/970ad5d730a7c28f02ecce40246458941d521ab7049074d0c03bc6304f7c/kraken_common-0.5.3.tar.gz
+[2023-07-10 10:20:16] INFO root fetch - processPackages [kraken-wrapper]: Downloading https://files.pythonhosted.org/packages/7c/f6/9cbcab61d484ced4823af2e1ab8b33eea50195f4a3bb59f297bd8d104a1c/kraken_wrapper-0.28.0.dev0.tar.gz
+[2023-07-10 10:20:16] INFO root fetch - processPackages [kraken-std]: Downloading https://files.pythonhosted.org/packages/d2/93/fc7a0d5c20d6a3d551ef23ed605451eef6aa6cb35c9cf7b3366ffe5cc5e0/kraken_std-0.8.8.tar.gz
+[2023-07-10 10:20:16] INFO root fetch - processPackages [kraken-build]: Downloading https://files.pythonhosted.org/packages/9d/6e/d2be42012d2cfbd0be4b687e6304539445a0f30135337a5858aba586588c/kraken_build-0.28.0.dev0.tar.gz
+[2023-07-10 10:20:17] INFO root fetch - processPackages [Alpha-Rabbit]: Downloading https://files.pythonhosted.org/packages/fb/2b/cb3edad41d40ab044046b7e6384d983798cb6eb417f302c4286ba4a18569/Alpha_Rabbit-1.4.5.tar.gz
+[2023-07-10 10:20:17] INFO root fetch - processPackages [alcoholic-tfe22540]: Downloading https://files.pythonhosted.org/packages/1d/88/7877937c988c261ae044723e432898cb09c59d864e39f929e2995e6cfb38/alcoholic_tfe22540-0.1.8.tar.gz
+[2023-07-10 10:20:17] INFO root fetch - processPackages [SRgenerator]: Downloading https://files.pythonhosted.org/packages/89/a0/75e19a6694885006d03a8ae3386e75957785a60c05d66e4c2f7750e007a9/SRgenerator-0.0.4.tar.gz
+[2023-07-10 10:20:17] INFO root fetch - processPackages [scippnexus]: Downloading https://files.pythonhosted.org/packages/97/83/e05a610a9a0fc3977961cb4b24497d0f1f22413c476e69ec65bab8ef5089/scippnexus-23.7.0.tar.gz
+[2023-07-10 10:20:17] INFO root fetch - processPackages [kraken-build]: Downloading https://files.pythonhosted.org/packages/f4/08/7f35b83860cef9c4a5951f3122a723e613c7f367b4dbf9983504be97ac29/kraken_build-0.28.1.tar.gz
+[2023-07-10 10:20:17] INFO root fetch - processPackages [kraken-wrapper]: Downloading https://files.pythonhosted.org/packages/cd/8d/7162db409e8036ce8797157b91cd1f99508ef2b07acd758b8a664fa8441b/kraken_wrapper-0.28.1.tar.gz
+[2023-07-10 10:20:17] INFO root fetch - processPackages [SRgenerator]: executing diffoscope
+[2023-07-10 10:20:17] INFO root fetch - processPackages [SRgenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SRgenerator-0.0.3.tar.gz tmp/SRgenerator-0.0.4.tar.gz --markdown 20230710/S/SRgenerator/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-10 10:20:17] INFO root fetch - processPackages [kraken-common]: Downloading https://files.pythonhosted.org/packages/28/6b/40996d0e584f418f756a443a993b2ef5a68d9d934839d39b791b65917fc9/kraken_common-0.5.4.tar.gz
+[2023-07-10 10:20:17] INFO root fetch - processPackages [alcoholic-tfe22540]: executing diffoscope
+[2023-07-10 10:20:17] INFO root fetch - processPackages [alcoholic-tfe22540]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alcoholic_tfe22540-0.1.7.tar.gz tmp/alcoholic_tfe22540-0.1.8.tar.gz --markdown 20230710/a/alcoholic-tfe22540/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-10 10:20:17] INFO root fetch - processPackages [kraken-std]: Downloading https://files.pythonhosted.org/packages/a6/a8/8a0c122aadc67da4627c416b4669ed0c677b7b474f97ddb283c496a82a37/kraken_std-0.8.9.tar.gz
+[2023-07-10 10:20:17] INFO root fetch - processPackages [kraken-core]: Downloading https://files.pythonhosted.org/packages/b6/f4/2ddff1c25849833594115f69989cc831a594882af04a874bbb728e402668/kraken-core-0.9.6.tar.gz
+[2023-07-10 10:20:17] INFO root fetch - processPackages [Alpha-Rabbit]: executing diffoscope
+[2023-07-10 10:20:17] INFO root fetch - processPackages [Alpha-Rabbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Alpha_Rabbit-1.4.4.tar.gz tmp/Alpha_Rabbit-1.4.5.tar.gz --markdown 20230710/A/Alpha-Rabbit/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-07-10 10:20:17] INFO root fetch - processPackages [scippnexus]: executing diffoscope
+[2023-07-10 10:20:17] INFO root fetch - processPackages [scippnexus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scippnexus-23.5.1.tar.gz tmp/scippnexus-23.7.0.tar.gz --markdown 20230710/s/scippnexus/23.5.1-23.7.0/diff.md --exclude *.pyd
+[2023-07-10 10:20:17] INFO root fetch - processPackages [kraken-wrapper]: executing diffoscope
+[2023-07-10 10:20:17] INFO root fetch - processPackages [kraken-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_wrapper-0.28.0.dev0.tar.gz tmp/kraken_wrapper-0.28.1.tar.gz --markdown 20230710/k/kraken-wrapper/0.28.0.dev0-0.28.1/diff.md --exclude *.pyd
+[2023-07-10 10:20:17] INFO root fetch - processPackages [kraken-common]: executing diffoscope
+[2023-07-10 10:20:17] INFO root fetch - processPackages [kraken-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_common-0.5.3.tar.gz tmp/kraken_common-0.5.4.tar.gz --markdown 20230710/k/kraken-common/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-07-10 10:20:17] INFO root fetch - processPackages [wale-net]: Downloading https://files.pythonhosted.org/packages/95/5d/822067af0e20a39e1155ed541b42ec695a33d28616bcb0e5e8581bee6647/wale-net-3.0.3.tar.gz
+[2023-07-10 10:20:17] INFO root fetch - processPackages [kraken-std]: executing diffoscope
+[2023-07-10 10:20:17] INFO root fetch - processPackages [kraken-std]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_std-0.8.8.tar.gz tmp/kraken_std-0.8.9.tar.gz --markdown 20230710/k/kraken-std/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-07-10 10:20:17] INFO root fetch - processPackages [kraken-build]: executing diffoscope
+[2023-07-10 10:20:17] INFO root fetch - processPackages [kraken-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_build-0.28.0.dev0.tar.gz tmp/kraken_build-0.28.1.tar.gz --markdown 20230710/k/kraken-build/0.28.0.dev0-0.28.1/diff.md --exclude *.pyd
+[2023-07-10 10:20:17] INFO root fetch - processPackages [kraken-core]: executing diffoscope
+[2023-07-10 10:20:17] INFO root fetch - processPackages [kraken-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken-core-0.9.5.tar.gz tmp/kraken-core-0.9.6.tar.gz --markdown 20230710/k/kraken-core/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-10 10:20:18] INFO root fetch - processPackages [wale-net]: executing diffoscope
+[2023-07-10 10:20:18] INFO root fetch - processPackages [wale-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wale-net-3.0.2.tar.gz tmp/wale-net-3.0.3.tar.gz --markdown 20230710/w/wale-net/3.0.2-3.0.3/diff.md --exclude *.pyd
+[2023-07-10 10:20:19] INFO root fetch - processPackages [SRgenerator]: Remove: archive file [/home/abi/fetcher/tmp/SRgenerator-0.0.3.tar.gz]
+[2023-07-10 10:20:19] INFO root fetch - processPackages [SRgenerator]: Remove: archive file [/home/abi/fetcher/tmp/SRgenerator-0.0.4.tar.gz]
+[2023-07-10 10:20:19] INFO root fetch - processPackages [SRgenerator]: Start processing: runweb
+[2023-07-10 10:20:19] INFO root fetch - main [MainThread]: End processing [SRgenerator]: success
+[2023-07-10 10:20:19] INFO root fetch - processPackages [runweb]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-10 10:20:19] INFO root fetch - processPackages [Alpha-Rabbit]: Remove: archive file [/home/abi/fetcher/tmp/Alpha_Rabbit-1.4.4.tar.gz]
+[2023-07-10 10:20:19] INFO root fetch - processPackages [Alpha-Rabbit]: Remove: archive file [/home/abi/fetcher/tmp/Alpha_Rabbit-1.4.5.tar.gz]
+[2023-07-10 10:20:19] INFO root fetch - processPackages [Alpha-Rabbit]: Start processing: antchain-hk-securitytech
+[2023-07-10 10:20:19] INFO root fetch - main [MainThread]: End processing [Alpha-Rabbit]: success
+[2023-07-10 10:20:19] INFO root fetch - processPackages [runweb]: Downloading https://files.pythonhosted.org/packages/58/9d/b72113e5c6c417250117272bc27f6bf167f39501a3c236cf44137fbf9636/runweb-0.4.0.tar.gz
+[2023-07-10 10:20:19] INFO root fetch - processPackages [antchain-hk-securitytech]: New version: [1.3.5] Old Version: [1.3.2]
+[2023-07-10 10:20:19] INFO root fetch - processPackages [kraken-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/kraken_wrapper-0.28.0.dev0.tar.gz]
+[2023-07-10 10:20:19] INFO root fetch - processPackages [kraken-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/kraken_wrapper-0.28.1.tar.gz]
+[2023-07-10 10:20:19] INFO root fetch - processPackages [kraken-wrapper]: Start processing: yet-another-wizz
+[2023-07-10 10:20:19] INFO root fetch - main [MainThread]: End processing [kraken-wrapper]: success
+[2023-07-10 10:20:19] INFO root fetch - processPackages [kraken-build]: Remove: archive file [/home/abi/fetcher/tmp/kraken_build-0.28.0.dev0.tar.gz]
+[2023-07-10 10:20:19] INFO root fetch - processPackages [kraken-build]: Remove: archive file [/home/abi/fetcher/tmp/kraken_build-0.28.1.tar.gz]
+[2023-07-10 10:20:19] INFO root fetch - processPackages [kraken-build]: Start processing: vectice
+[2023-07-10 10:20:19] INFO root fetch - main [MainThread]: End processing [kraken-build]: success
+[2023-07-10 10:20:19] INFO root fetch - processPackages [yet-another-wizz]: New version: [2.5.post0] Old Version: [2.5]
+[2023-07-10 10:20:19] INFO root fetch - processPackages [vectice]: New version: [23.2.7.0] Old Version: [23.2.6.1]
+[2023-07-10 10:20:19] INFO root fetch - processPackages [alcoholic-tfe22540]: Remove: archive file [/home/abi/fetcher/tmp/alcoholic_tfe22540-0.1.7.tar.gz]
+[2023-07-10 10:20:19] INFO root fetch - processPackages [alcoholic-tfe22540]: Remove: archive file [/home/abi/fetcher/tmp/alcoholic_tfe22540-0.1.8.tar.gz]
+[2023-07-10 10:20:19] INFO root fetch - processPackages [alcoholic-tfe22540]: Start processing: buteo
+[2023-07-10 10:20:19] INFO root fetch - main [MainThread]: End processing [alcoholic-tfe22540]: success
+[2023-07-10 10:20:19] INFO root fetch - processPackages [antchain-hk-securitytech]: Downloading https://files.pythonhosted.org/packages/da/87/dadb9475b8a96747490a9cbcc60219c460a7723e711bc13a97da3a541e58/antchain_hk_securitytech-1.3.2.tar.gz
+[2023-07-10 10:20:20] INFO root fetch - processPackages [runweb]: Downloading https://files.pythonhosted.org/packages/3e/00/5b7adb88f8959566a2b4807ee8d33fa664b5f4361c086365da8c4c7f63fe/runweb-0.4.1.tar.gz
+[2023-07-10 10:20:20] INFO root fetch - processPackages [yet-another-wizz]: Downloading https://files.pythonhosted.org/packages/ae/6a/32891271a2597e48c5331b282d2087232fd8764dca9e96ef3cde2ae4f909/yet_another_wizz-2.5.tar.gz
+[2023-07-10 10:20:20] INFO root fetch - processPackages [kraken-common]: Remove: archive file [/home/abi/fetcher/tmp/kraken_common-0.5.3.tar.gz]
+[2023-07-10 10:20:20] INFO root fetch - processPackages [kraken-common]: Remove: archive file [/home/abi/fetcher/tmp/kraken_common-0.5.4.tar.gz]
+[2023-07-10 10:20:20] INFO root fetch - processPackages [kraken-common]: Start processing: aiidalab-launch
+[2023-07-10 10:20:20] INFO root fetch - main [MainThread]: End processing [kraken-common]: success
+[2023-07-10 10:20:20] INFO root fetch - processPackages [buteo]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-10 10:20:20] INFO root fetch - processPackages [kraken-core]: Remove: archive file [/home/abi/fetcher/tmp/kraken-core-0.9.5.tar.gz]
+[2023-07-10 10:20:20] INFO root fetch - processPackages [kraken-core]: Remove: archive file [/home/abi/fetcher/tmp/kraken-core-0.9.6.tar.gz]
+[2023-07-10 10:20:20] INFO root fetch - main [MainThread]: End processing [kraken-core]: success
+[2023-07-10 10:20:20] INFO root fetch - processPackages [runweb]: executing diffoscope
+[2023-07-10 10:20:20] INFO root fetch - processPackages [runweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runweb-0.4.0.tar.gz tmp/runweb-0.4.1.tar.gz --markdown 20230710/r/runweb/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-10 10:20:20] INFO root fetch - processPackages [vectice]: Downloading https://files.pythonhosted.org/packages/69/d5/8709719ef0f28e8571c356a71c8fb50d6253308f8f26622bb05185fdbb9c/vectice-23.2.6.1.tar.gz
+[2023-07-10 10:20:20] INFO root fetch - processPackages [kraken-std]: Remove: archive file [/home/abi/fetcher/tmp/kraken_std-0.8.8.tar.gz]
+[2023-07-10 10:20:20] INFO root fetch - processPackages [kraken-std]: Remove: archive file [/home/abi/fetcher/tmp/kraken_std-0.8.9.tar.gz]
+[2023-07-10 10:20:20] INFO root fetch - main [MainThread]: End processing [kraken-std]: success
+[2023-07-10 10:20:20] INFO root fetch - processPackages [aiidalab-launch]: New version: [2023.1019] Old Version: [2023.1018]
+[2023-07-10 10:20:20] INFO root fetch - processPackages [scippnexus]: Remove: archive file [/home/abi/fetcher/tmp/scippnexus-23.5.1.tar.gz]
+[2023-07-10 10:20:20] INFO root fetch - processPackages [scippnexus]: Remove: archive file [/home/abi/fetcher/tmp/scippnexus-23.7.0.tar.gz]
+[2023-07-10 10:20:20] INFO root fetch - main [MainThread]: End processing [scippnexus]: success
+[2023-07-10 10:20:20] INFO root fetch - processPackages [wale-net]: Remove: archive file [/home/abi/fetcher/tmp/wale-net-3.0.2.tar.gz]
+[2023-07-10 10:20:20] INFO root fetch - processPackages [wale-net]: Remove: archive file [/home/abi/fetcher/tmp/wale-net-3.0.3.tar.gz]
+[2023-07-10 10:20:20] INFO root fetch - main [MainThread]: End processing [wale-net]: success
+[2023-07-10 10:20:20] INFO root fetch - processPackages [antchain-hk-securitytech]: Downloading https://files.pythonhosted.org/packages/6b/8e/f56a73770ad326185ba6bed144dfe9bb3a6f2bd25af8113ba6ce6b69dba6/antchain_hk_securitytech-1.3.5.tar.gz
+[2023-07-10 10:20:20] INFO root fetch - processPackages [buteo]: Downloading https://files.pythonhosted.org/packages/30/1f/24a135d7a94d521f7525f83c54b3620b834740839a99f1cb107373bdbec4/buteo-0.9.8.tar.gz
+[2023-07-10 10:20:20] INFO root fetch - processPackages [antchain-hk-securitytech]: executing diffoscope
+[2023-07-10 10:20:20] INFO root fetch - processPackages [antchain-hk-securitytech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_hk_securitytech-1.3.2.tar.gz tmp/antchain_hk_securitytech-1.3.5.tar.gz --markdown 20230710/a/antchain-hk-securitytech/1.3.2-1.3.5/diff.md --exclude *.pyd
+[2023-07-10 10:20:20] INFO root fetch - processPackages [yet-another-wizz]: Downloading https://files.pythonhosted.org/packages/22/77/13f66c1f947d8aa062564534678703b9c9d4a8f640323aa54a9bc8525113/yet_another_wizz-2.5.post0.tar.gz
+[2023-07-10 10:20:20] INFO root fetch - processPackages [aiidalab-launch]: Downloading https://files.pythonhosted.org/packages/72/4d/7ea8ccd42d341dc012b46c65c2b3efe1d002242d4f41a4efec71ad063865/aiidalab_launch-2023.1018.tar.gz
+[2023-07-10 10:20:20] INFO root fetch - processPackages [vectice]: Downloading https://files.pythonhosted.org/packages/c5/ad/cec4f6320f1d815d9d8d7030621ec46af9f0c9ca95d15160f20f004734c5/vectice-23.2.7.0.tar.gz
+[2023-07-10 10:20:20] INFO root fetch - processPackages [yet-another-wizz]: executing diffoscope
+[2023-07-10 10:20:20] INFO root fetch - processPackages [yet-another-wizz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yet_another_wizz-2.5.tar.gz tmp/yet_another_wizz-2.5.post0.tar.gz --markdown 20230710/y/yet-another-wizz/2.5-2.5.post0/diff.md --exclude *.pyd
+[2023-07-10 10:20:20] INFO root fetch - processPackages [vectice]: executing diffoscope
+[2023-07-10 10:20:20] INFO root fetch - processPackages [vectice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectice-23.2.6.1.tar.gz tmp/vectice-23.2.7.0.tar.gz --markdown 20230710/v/vectice/23.2.6.1-23.2.7.0/diff.md --exclude *.pyd
+[2023-07-10 10:20:20] INFO root fetch - processPackages [buteo]: Downloading https://files.pythonhosted.org/packages/ff/14/50e63a5bd644b443b28af3c2bbe6c1aa1cc7f3e7a03a92253919d541c3de/buteo-0.9.9.tar.gz
+[2023-07-10 10:20:21] INFO root fetch - processPackages [buteo]: executing diffoscope
+[2023-07-10 10:20:21] INFO root fetch - processPackages [buteo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buteo-0.9.8.tar.gz tmp/buteo-0.9.9.tar.gz --markdown 20230710/b/buteo/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-10 10:20:21] INFO root fetch - processPackages [aiidalab-launch]: Downloading https://files.pythonhosted.org/packages/7b/af/75ff71ffaab98344bf2133529e8c879e166044b01383d5361cf7ccba069c/aiidalab_launch-2023.1019.tar.gz
+[2023-07-10 10:20:21] INFO root fetch - processPackages [aiidalab-launch]: executing diffoscope
+[2023-07-10 10:20:21] INFO root fetch - processPackages [aiidalab-launch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiidalab_launch-2023.1018.tar.gz tmp/aiidalab_launch-2023.1019.tar.gz --markdown 20230710/a/aiidalab-launch/2023.1018-2023.1019/diff.md --exclude *.pyd
+[2023-07-10 10:20:21] INFO root fetch - processPackages [runweb]: Remove: archive file [/home/abi/fetcher/tmp/runweb-0.4.0.tar.gz]
+[2023-07-10 10:20:21] INFO root fetch - processPackages [runweb]: Remove: archive file [/home/abi/fetcher/tmp/runweb-0.4.1.tar.gz]
+[2023-07-10 10:20:21] INFO root fetch - main [MainThread]: End processing [runweb]: success
+[2023-07-10 10:20:21] INFO root fetch - processPackages [antchain-hk-securitytech]: Remove: archive file [/home/abi/fetcher/tmp/antchain_hk_securitytech-1.3.2.tar.gz]
+[2023-07-10 10:20:21] INFO root fetch - processPackages [antchain-hk-securitytech]: Remove: archive file [/home/abi/fetcher/tmp/antchain_hk_securitytech-1.3.5.tar.gz]
+[2023-07-10 10:20:21] INFO root fetch - main [MainThread]: End processing [antchain-hk-securitytech]: success
+[2023-07-10 10:20:22] INFO root fetch - processPackages [aiidalab-launch]: Remove: archive file [/home/abi/fetcher/tmp/aiidalab_launch-2023.1018.tar.gz]
+[2023-07-10 10:20:22] INFO root fetch - processPackages [aiidalab-launch]: Remove: archive file [/home/abi/fetcher/tmp/aiidalab_launch-2023.1019.tar.gz]
+[2023-07-10 10:20:22] INFO root fetch - main [MainThread]: End processing [aiidalab-launch]: success
+[2023-07-10 10:20:22] INFO root fetch - processPackages [buteo]: Remove: archive file [/home/abi/fetcher/tmp/buteo-0.9.8.tar.gz]
+[2023-07-10 10:20:22] INFO root fetch - processPackages [buteo]: Remove: archive file [/home/abi/fetcher/tmp/buteo-0.9.9.tar.gz]
+[2023-07-10 10:20:22] INFO root fetch - main [MainThread]: End processing [buteo]: success
+[2023-07-10 10:20:22] INFO root fetch - processPackages [vectice]: Remove: archive file [/home/abi/fetcher/tmp/vectice-23.2.6.1.tar.gz]
+[2023-07-10 10:20:22] INFO root fetch - processPackages [vectice]: Remove: archive file [/home/abi/fetcher/tmp/vectice-23.2.7.0.tar.gz]
+[2023-07-10 10:20:22] INFO root fetch - main [MainThread]: End processing [vectice]: success
+[2023-07-10 10:20:22] INFO root fetch - processPackages [yet-another-wizz]: Remove: archive file [/home/abi/fetcher/tmp/yet_another_wizz-2.5.tar.gz]
+[2023-07-10 10:20:22] INFO root fetch - processPackages [yet-another-wizz]: Remove: archive file [/home/abi/fetcher/tmp/yet_another_wizz-2.5.post0.tar.gz]
+[2023-07-10 10:20:22] INFO root fetch - main [MainThread]: End processing [yet-another-wizz]: success
+[2023-07-10 10:20:22] INFO root fetch - main [MainThread]: Store serial: [18828167]
