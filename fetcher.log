@@ -10149,3 +10149,177 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 09:27:09] INFO root fetch - processPackages [otx]: Remove: archive file [/home/abi/fetcher/tmp/otx-1.4.0rc1.tar.gz]
 [2023-07-10 09:27:09] INFO root fetch - main [MainThread]: End processing [otx]: success
 [2023-07-10 09:27:09] INFO root fetch - main [MainThread]: Store serial: [18827687]
+[2023-07-10 09:32:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18827687]
+[2023-07-10 09:32:19] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-10 09:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yellowdog-python-examples
+[2023-07-10 09:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ar-ex-sys-worker
+[2023-07-10 09:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libcnmc
+[2023-07-10 09:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: waivek
+[2023-07-10 09:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Digital-Farming-Solution
+[2023-07-10 09:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: plothist
+[2023-07-10 09:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qesdk
+[2023-07-10 09:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openhab-pythonrule-engine
+[2023-07-10 09:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bdpycmd
+[2023-07-10 09:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pubtools-content-gateway
+[2023-07-10 09:32:20] INFO root fetch - processPackages [pubtools-content-gateway]: New version: [0.5.1] Old Version: [0.4.0]
+[2023-07-10 09:32:20] INFO root fetch - processPackages [qesdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 09:32:20] INFO root fetch - processPackages [openhab-pythonrule-engine]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-10 09:32:20] INFO root fetch - processPackages [yellowdog-python-examples]: New version: [6.0.9] Old Version: [6.0.8]
+[2023-07-10 09:32:20] INFO root fetch - processPackages [plothist]: New version: [0.3] Old Version: [0.2]
+[2023-07-10 09:32:20] INFO root fetch - processPackages [waivek]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 09:32:20] INFO root fetch - processPackages [ar-ex-sys-worker]: New version: [1.6.34] Old Version: [1.6.33]
+[2023-07-10 09:32:20] INFO root fetch - processPackages [Digital-Farming-Solution]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 09:32:20] INFO root fetch - processPackages [bdpycmd]: New version: [1.3.5] Old Version: [1.3.19]
+[2023-07-10 09:32:20] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-07-10 09:32:20] INFO root fetch - processPackages [openhab-pythonrule-engine]: Downloading https://files.pythonhosted.org/packages/8a/3e/0a84e9c40f490787cd7bc756b40c69bdd9b6b4c40deafa7c49d3d706bee5/openhab_pythonrule_engine-1.2.2.tar.gz
+[2023-07-10 09:32:20] INFO root fetch - processPackages [waivek]: Downloading https://files.pythonhosted.org/packages/8c/d1/949e523dd2d5b53ef756c740c7633425f3adeb94ad2c376cf81a62587e2e/waivek-0.1.8.tar.gz
+[2023-07-10 09:32:20] INFO root fetch - processPackages [pubtools-content-gateway]: Downloading https://files.pythonhosted.org/packages/5f/e2/b33379e2cbfbc7072b302a3e463122c3052f0d1383c6ead4358e2abd3881/pubtools-content-gateway-0.4.0.tar.gz
+[2023-07-10 09:32:20] INFO root fetch - processPackages [yellowdog-python-examples]: Downloading https://files.pythonhosted.org/packages/a2/48/cdf0ef4fc387a3a6c47a9aaba1885cff4396c3237e445564179d92552e23/yellowdog-python-examples-6.0.8.tar.gz
+[2023-07-10 09:32:20] INFO root fetch - processPackages [bdpycmd]: Downloading https://files.pythonhosted.org/packages/ce/09/8308b0aba270aded2346b59ba7c271936fd11ad05cd51f172db3c4625a39/bdpycmd-1.3.19.tar.gz
+[2023-07-10 09:32:20] INFO root fetch - processPackages [plothist]: Downloading https://files.pythonhosted.org/packages/fe/67/00bf5248ab67b105605fa583cb054f92e00a8c0d93e14374844df288bf26/plothist-0.2.tar.gz
+[2023-07-10 09:32:20] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/91/88/c28ff84568ef323398498b71d609a92ca287ddcdf8a851536ab656221bc4/libcnmc-23.9.0.tar.gz
+[2023-07-10 09:32:20] INFO root fetch - processPackages [ar-ex-sys-worker]: Downloading https://files.pythonhosted.org/packages/73/be/e273fa966496bf99553a7ddd8dcdee9d78886e34dd1c75399f5069924dfc/ar_ex_sys_worker-1.6.33-py3-none-any.whl
+[2023-07-10 09:32:20] INFO root fetch - processPackages [qesdk]: Downloading https://files.pythonhosted.org/packages/46/68/5ad67769ccee0b9d557ce3d6a8297fdc139c24cdcc4cd21ed0c39417d957/qesdk-0.1.8.tar.gz
+[2023-07-10 09:32:20] INFO root fetch - processPackages [openhab-pythonrule-engine]: Downloading https://files.pythonhosted.org/packages/00/76/b76aff500716c63042030f13fc8425d31e6a1e8d84cfe508d5aabdb76036/openhab_pythonrule_engine-1.2.3.tar.gz
+[2023-07-10 09:32:20] INFO root fetch - processPackages [Digital-Farming-Solution]: Downloading https://files.pythonhosted.org/packages/d6/69/5fb9c03e5ec1c8078926ed664f5565bf4d64291c1b548c4dd66124e08a83/Digital_Farming_Solution-0.1.8.tar.gz
+[2023-07-10 09:32:20] INFO root fetch - processPackages [waivek]: Downloading https://files.pythonhosted.org/packages/a4/ea/4c15b5c565a13175de2213d36052b88233e76e92301d40a51c483f4f346c/waivek-0.1.9.tar.gz
+[2023-07-10 09:32:20] INFO root fetch - processPackages [openhab-pythonrule-engine]: executing diffoscope
+[2023-07-10 09:32:20] INFO root fetch - processPackages [openhab-pythonrule-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openhab_pythonrule_engine-1.2.2.tar.gz tmp/openhab_pythonrule_engine-1.2.3.tar.gz --markdown 20230710/o/openhab-pythonrule-engine/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-10 09:32:21] INFO root fetch - processPackages [ar-ex-sys-worker]: Downloading https://files.pythonhosted.org/packages/30/5c/02524050fc34767e72592c751209ecf316db8ef3c4b3d213ea52149ea801/ar_ex_sys_worker-1.6.34-py3-none-any.whl
+[2023-07-10 09:32:21] INFO root fetch - processPackages [waivek]: executing diffoscope
+[2023-07-10 09:32:21] INFO root fetch - processPackages [waivek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waivek-0.1.8.tar.gz tmp/waivek-0.1.9.tar.gz --markdown 20230710/w/waivek/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 09:32:21] INFO root fetch - processPackages [pubtools-content-gateway]: Downloading https://files.pythonhosted.org/packages/f8/dd/b4d7fec308b8575351f7aaee74d45dcdecea4a7930a9d19aa4e5af42d681/pubtools-content-gateway-0.5.1.tar.gz
+[2023-07-10 09:32:21] INFO root fetch - processPackages [bdpycmd]: Downloading https://files.pythonhosted.org/packages/06/2e/64a0dc4c6af3c9a8b101f9890c412405d76cb89759707de9a5493a9d37af/bdpycmd-1.3.5.tar.gz
+[2023-07-10 09:32:21] INFO root fetch - processPackages [plothist]: Downloading https://files.pythonhosted.org/packages/f8/48/537e9adbd598007ad1bb46317e3b8881cf475e6d06932475c3a9a4fbfbd1/plothist-0.3.tar.gz
+[2023-07-10 09:32:21] INFO root fetch - processPackages [qesdk]: Downloading https://files.pythonhosted.org/packages/46/a4/b603ec7bf7f92d2fb5f15abf0dffb3a78f1cd5fd438f9cf8a2559c6f3692/qesdk-0.1.9.tar.gz
+[2023-07-10 09:32:21] INFO root fetch - processPackages [yellowdog-python-examples]: Downloading https://files.pythonhosted.org/packages/ae/46/084ce0552097af030aea7a1ce0ada555a97a695f850b3b501b42c47fc0ff/yellowdog-python-examples-6.0.9.tar.gz
+[2023-07-10 09:32:21] INFO root fetch - processPackages [ar-ex-sys-worker]: executing diffoscope
+[2023-07-10 09:32:21] INFO root fetch - processPackages [ar-ex-sys-worker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ar_ex_sys_worker-1.6.33-py3-none-any.whl.zip tmp/ar_ex_sys_worker-1.6.34-py3-none-any.whl.zip --markdown 20230710/a/ar-ex-sys-worker/1.6.33-1.6.34/diff.md --exclude *.pyd
+[2023-07-10 09:32:21] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/fc/9f/639d42b63484a91cf9f1c60f9bb709f1ed853240f45c2e02047054beffa6/libcnmc-23.9.1.tar.gz
+[2023-07-10 09:32:21] INFO root fetch - processPackages [Digital-Farming-Solution]: Downloading https://files.pythonhosted.org/packages/72/1a/d8e8a9832927a837d926da2ecb845407e5e87a8c1a303bc5912428380147/Digital_Farming_Solution-0.1.9.tar.gz
+[2023-07-10 09:32:21] INFO root fetch - processPackages [bdpycmd]: executing diffoscope
+[2023-07-10 09:32:21] INFO root fetch - processPackages [bdpycmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdpycmd-1.3.19.tar.gz tmp/bdpycmd-1.3.5.tar.gz --markdown 20230710/b/bdpycmd/1.3.19-1.3.5/diff.md --exclude *.pyd
+[2023-07-10 09:32:21] INFO root fetch - processPackages [pubtools-content-gateway]: executing diffoscope
+[2023-07-10 09:32:21] INFO root fetch - processPackages [pubtools-content-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pubtools-content-gateway-0.4.0.tar.gz tmp/pubtools-content-gateway-0.5.1.tar.gz --markdown 20230710/p/pubtools-content-gateway/0.4.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-10 09:32:21] INFO root fetch - processPackages [qesdk]: executing diffoscope
+[2023-07-10 09:32:21] INFO root fetch - processPackages [qesdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qesdk-0.1.8.tar.gz tmp/qesdk-0.1.9.tar.gz --markdown 20230710/q/qesdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 09:32:21] INFO root fetch - processPackages [Digital-Farming-Solution]: executing diffoscope
+[2023-07-10 09:32:21] INFO root fetch - processPackages [Digital-Farming-Solution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Digital_Farming_Solution-0.1.8.tar.gz tmp/Digital_Farming_Solution-0.1.9.tar.gz --markdown 20230710/D/Digital-Farming-Solution/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 09:32:21] INFO root fetch - processPackages [yellowdog-python-examples]: executing diffoscope
+[2023-07-10 09:32:21] INFO root fetch - processPackages [yellowdog-python-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yellowdog-python-examples-6.0.8.tar.gz tmp/yellowdog-python-examples-6.0.9.tar.gz --markdown 20230710/y/yellowdog-python-examples/6.0.8-6.0.9/diff.md --exclude *.pyd
+[2023-07-10 09:32:21] INFO root fetch - processPackages [plothist]: executing diffoscope
+[2023-07-10 09:32:21] INFO root fetch - processPackages [plothist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plothist-0.2.tar.gz tmp/plothist-0.3.tar.gz --markdown 20230710/p/plothist/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-10 09:32:21] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-07-10 09:32:21] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230710/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-07-10 09:32:22] INFO root fetch - processPackages [openhab-pythonrule-engine]: Remove: archive file [/home/abi/fetcher/tmp/openhab_pythonrule_engine-1.2.2.tar.gz]
+[2023-07-10 09:32:22] INFO root fetch - processPackages [openhab-pythonrule-engine]: Remove: archive file [/home/abi/fetcher/tmp/openhab_pythonrule_engine-1.2.3.tar.gz]
+[2023-07-10 09:32:22] INFO root fetch - processPackages [openhab-pythonrule-engine]: Start processing: benchmark-runner
+[2023-07-10 09:32:22] INFO root fetch - main [MainThread]: End processing [openhab-pythonrule-engine]: success
+[2023-07-10 09:32:22] INFO root fetch - processPackages [benchmark-runner]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-10 09:32:22] INFO root fetch - processPackages [benchmark-runner]: Downloading https://files.pythonhosted.org/packages/68/c2/3af8e8485f9abfd8f28512408ea35af542ce46eaf6c71c9da44e966b20f2/benchmark-runner-1.0.98.tar.gz
+[2023-07-10 09:32:22] INFO root fetch - processPackages [waivek]: Remove: archive file [/home/abi/fetcher/tmp/waivek-0.1.8.tar.gz]
+[2023-07-10 09:32:22] INFO root fetch - processPackages [waivek]: Remove: archive file [/home/abi/fetcher/tmp/waivek-0.1.9.tar.gz]
+[2023-07-10 09:32:22] INFO root fetch - processPackages [waivek]: Start processing: jennifer-python
+[2023-07-10 09:32:22] INFO root fetch - main [MainThread]: End processing [waivek]: success
+[2023-07-10 09:32:22] INFO root fetch - processPackages [ar-ex-sys-worker]: Remove: archive file [/home/abi/fetcher/tmp/ar_ex_sys_worker-1.6.33-py3-none-any.whl.zip]
+[2023-07-10 09:32:22] INFO root fetch - processPackages [ar-ex-sys-worker]: Remove: archive file [/home/abi/fetcher/tmp/ar_ex_sys_worker-1.6.34-py3-none-any.whl.zip]
+[2023-07-10 09:32:22] INFO root fetch - processPackages [ar-ex-sys-worker]: Start processing: diz
+[2023-07-10 09:32:22] INFO root fetch - main [MainThread]: End processing [ar-ex-sys-worker]: success
+[2023-07-10 09:32:23] INFO root fetch - processPackages [jennifer-python]: New version: [5.6.1.9] Old Version: [5.6.1.8]
+[2023-07-10 09:32:23] INFO root fetch - processPackages [diz]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-10 09:32:23] INFO root fetch - processPackages [benchmark-runner]: Downloading https://files.pythonhosted.org/packages/aa/74/0b502ae8dc7d1ab19876f92da2d177323637092c1bc4f54ae1beac2c2f18/benchmark-runner-1.0.99.tar.gz
+[2023-07-10 09:32:23] INFO root fetch - processPackages [bdpycmd]: Remove: archive file [/home/abi/fetcher/tmp/bdpycmd-1.3.19.tar.gz]
+[2023-07-10 09:32:23] INFO root fetch - processPackages [bdpycmd]: Remove: archive file [/home/abi/fetcher/tmp/bdpycmd-1.3.5.tar.gz]
+[2023-07-10 09:32:23] INFO root fetch - processPackages [bdpycmd]: Start processing: sanctify
+[2023-07-10 09:32:23] INFO root fetch - main [MainThread]: End processing [bdpycmd]: success
+[2023-07-10 09:32:23] INFO root fetch - processPackages [diz]: Downloading https://files.pythonhosted.org/packages/06/38/533e51f6b42636c6e01d6fb684e9b132f5be75773aefea71da8b070ca1fe/diz-0.0.7.tar.gz
+[2023-07-10 09:32:23] INFO root fetch - processPackages [pubtools-content-gateway]: Remove: archive file [/home/abi/fetcher/tmp/pubtools-content-gateway-0.4.0.tar.gz]
+[2023-07-10 09:32:23] INFO root fetch - processPackages [pubtools-content-gateway]: Remove: archive file [/home/abi/fetcher/tmp/pubtools-content-gateway-0.5.1.tar.gz]
+[2023-07-10 09:32:23] INFO root fetch - processPackages [pubtools-content-gateway]: Start processing: yplib
+[2023-07-10 09:32:23] INFO root fetch - main [MainThread]: End processing [pubtools-content-gateway]: success
+[2023-07-10 09:32:23] INFO root fetch - processPackages [sanctify]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-10 09:32:23] INFO root fetch - processPackages [Digital-Farming-Solution]: Remove: archive file [/home/abi/fetcher/tmp/Digital_Farming_Solution-0.1.8.tar.gz]
+[2023-07-10 09:32:23] INFO root fetch - processPackages [qesdk]: Remove: archive file [/home/abi/fetcher/tmp/qesdk-0.1.8.tar.gz]
+[2023-07-10 09:32:23] INFO root fetch - processPackages [Digital-Farming-Solution]: Remove: archive file [/home/abi/fetcher/tmp/Digital_Farming_Solution-0.1.9.tar.gz]
+[2023-07-10 09:32:23] INFO root fetch - processPackages [qesdk]: Remove: archive file [/home/abi/fetcher/tmp/qesdk-0.1.9.tar.gz]
+[2023-07-10 09:32:23] INFO root fetch - processPackages [Digital-Farming-Solution]: Start processing: cloud-governance
+[2023-07-10 09:32:23] INFO root fetch - main [MainThread]: End processing [Digital-Farming-Solution]: success
+[2023-07-10 09:32:23] INFO root fetch - processPackages [qesdk]: Start processing: odoo14-addon-sale-automatic-workflow
+[2023-07-10 09:32:23] INFO root fetch - main [MainThread]: End processing [qesdk]: success
+[2023-07-10 09:32:23] INFO root fetch - processPackages [benchmark-runner]: executing diffoscope
+[2023-07-10 09:32:23] INFO root fetch - processPackages [benchmark-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchmark-runner-1.0.98.tar.gz tmp/benchmark-runner-1.0.99.tar.gz --markdown 20230710/b/benchmark-runner/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-10 09:32:23] INFO root fetch - processPackages [jennifer-python]: Downloading https://files.pythonhosted.org/packages/84/e3/9c582270919735d5262b2290d99baeb712cc7d9389196c14973ee923780b/jennifer_python-5.6.1.8-py3-none-any.whl
+[2023-07-10 09:32:23] INFO root fetch - processPackages [yplib]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-07-10 09:32:23] INFO root fetch - processPackages [odoo14-addon-sale-automatic-workflow]: New version: [14.0.1.3.5.dev1] Old Version: [14.0.1.3.5]
+[2023-07-10 09:32:23] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-07-10 09:32:23] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/73/48/60237baee225e055bbd7ffe8e6980e15c87b48079a3bf066543966b75b45/yplib-2.3.8.tar.gz
+[2023-07-10 09:32:23] INFO root fetch - processPackages [yellowdog-python-examples]: Remove: archive file [/home/abi/fetcher/tmp/yellowdog-python-examples-6.0.8.tar.gz]
+[2023-07-10 09:32:23] INFO root fetch - processPackages [yellowdog-python-examples]: Remove: archive file [/home/abi/fetcher/tmp/yellowdog-python-examples-6.0.9.tar.gz]
+[2023-07-10 09:32:23] INFO root fetch - processPackages [yellowdog-python-examples]: Start processing: odoo14-addon-sale-automatic-workflow-payment-mode
+[2023-07-10 09:32:23] INFO root fetch - main [MainThread]: End processing [yellowdog-python-examples]: success
+[2023-07-10 09:32:23] INFO root fetch - processPackages [sanctify]: Downloading https://files.pythonhosted.org/packages/60/2e/16ef915c5f208080ab4f5a54b4c35b2d8aafe429338b4846456dc967da38/sanctify-1.0.0.tar.gz
+[2023-07-10 09:32:23] INFO root fetch - processPackages [odoo14-addon-sale-automatic-workflow-payment-mode]: New version: [14.0.1.1.1] Old Version: [14.0.1.1.0]
+[2023-07-10 09:32:23] INFO root fetch - processPackages [odoo14-addon-sale-automatic-workflow]: Downloading https://files.pythonhosted.org/packages/2a/67/3f01379228a60653a6e90210d6951c8dd72f5570976d246a92f5061d49ba/odoo14_addon_sale_automatic_workflow-14.0.1.3.5-py3-none-any.whl
+[2023-07-10 09:32:23] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2023-07-10 09:32:23] INFO root fetch - processPackages [diz]: Downloading https://files.pythonhosted.org/packages/2c/72/12a7394816bf86986c9e02996b7d1d253fafef170fc88ca0bf04519bf031/diz-0.0.8.tar.gz
+[2023-07-10 09:32:23] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/41/1c/c52cfc1c458856f4c4e6372631edf37d9903f5142ee4f70256c54a2d0718/yplib-2.3.9.tar.gz
+[2023-07-10 09:32:23] INFO root fetch - processPackages [diz]: executing diffoscope
+[2023-07-10 09:32:23] INFO root fetch - processPackages [diz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diz-0.0.7.tar.gz tmp/diz-0.0.8.tar.gz --markdown 20230710/d/diz/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-10 09:32:23] INFO root fetch - processPackages [plothist]: Remove: archive file [/home/abi/fetcher/tmp/plothist-0.2.tar.gz]
+[2023-07-10 09:32:23] INFO root fetch - processPackages [plothist]: Remove: archive file [/home/abi/fetcher/tmp/plothist-0.3.tar.gz]
+[2023-07-10 09:32:23] INFO root fetch - processPackages [plothist]: Start processing: crowdsim
+[2023-07-10 09:32:23] INFO root fetch - main [MainThread]: End processing [plothist]: success
+[2023-07-10 09:32:23] INFO root fetch - processPackages [sanctify]: Downloading https://files.pythonhosted.org/packages/09/85/32ef2d97e8ad4b545c14b290e70447897c40a43caf7fdac1047e8746764d/sanctify-1.0.1.tar.gz
+[2023-07-10 09:32:23] INFO root fetch - processPackages [odoo14-addon-sale-automatic-workflow-payment-mode]: Downloading https://files.pythonhosted.org/packages/bd/b1/992947d285859d7cc9c1f7956085571e61362b1634152b1669ccae61214c/odoo14_addon_sale_automatic_workflow_payment_mode-14.0.1.1.0-py3-none-any.whl
+[2023-07-10 09:32:23] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2023-07-10 09:32:23] INFO root fetch - processPackages [crowdsim]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-10 09:32:23] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-07-10 09:32:23] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-2.3.8.tar.gz tmp/yplib-2.3.9.tar.gz --markdown 20230710/y/yplib/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-07-10 09:32:23] INFO root fetch - processPackages [odoo14-addon-sale-automatic-workflow]: Downloading https://files.pythonhosted.org/packages/65/2f/b56279101f51e33a9f6a3271e95be1485a574f7384ba230c5096bd549eed/odoo14_addon_sale_automatic_workflow-14.0.1.3.5.dev1-py3-none-any.whl
+[2023-07-10 09:32:24] INFO root fetch - processPackages [sanctify]: executing diffoscope
+[2023-07-10 09:32:24] INFO root fetch - processPackages [sanctify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sanctify-1.0.0.tar.gz tmp/sanctify-1.0.1.tar.gz --markdown 20230710/s/sanctify/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-10 09:32:24] INFO root fetch - processPackages [crowdsim]: Downloading https://files.pythonhosted.org/packages/f2/b1/74b349f8f3f0119b458c9596ee35713b12e5b6d1602c77da60975115697f/crowdsim-0.1.2.tar.gz
+[2023-07-10 09:32:24] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2023-07-10 09:32:24] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20230710/c/cloud-governance/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-07-10 09:32:24] INFO root fetch - processPackages [crowdsim]: Downloading https://files.pythonhosted.org/packages/5c/29/d34d4e2044c594e87c3a7ab60ec8f2d27e5242f6f7e07724fce3f3433441/crowdsim-0.1.3.tar.gz
+[2023-07-10 09:32:24] INFO root fetch - processPackages [odoo14-addon-sale-automatic-workflow-payment-mode]: Downloading https://files.pythonhosted.org/packages/a6/29/d9e0301dd390b4fa120dbe4c86c6cd71882e962ef1f2b170651e9266bd26/odoo14_addon_sale_automatic_workflow_payment_mode-14.0.1.1.1-py3-none-any.whl
+[2023-07-10 09:32:24] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-23.9.0.tar.gz]
+[2023-07-10 09:32:24] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-23.9.1.tar.gz]
+[2023-07-10 09:32:24] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-07-10 09:32:24] INFO root fetch - processPackages [crowdsim]: executing diffoscope
+[2023-07-10 09:32:24] INFO root fetch - processPackages [crowdsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crowdsim-0.1.2.tar.gz tmp/crowdsim-0.1.3.tar.gz --markdown 20230710/c/crowdsim/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-10 09:32:24] INFO root fetch - processPackages [odoo14-addon-sale-automatic-workflow-payment-mode]: executing diffoscope
+[2023-07-10 09:32:24] INFO root fetch - processPackages [odoo14-addon-sale-automatic-workflow-payment-mode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_automatic_workflow_payment_mode-14.0.1.1.0-py3-none-any.whl.zip tmp/odoo14_addon_sale_automatic_workflow_payment_mode-14.0.1.1.1-py3-none-any.whl.zip --markdown 20230710/o/odoo14-addon-sale-automatic-workflow-payment-mode/14.0.1.1.0-14.0.1.1.1/diff.md --exclude *.pyd
+[2023-07-10 09:32:24] INFO root fetch - processPackages [odoo14-addon-sale-automatic-workflow]: executing diffoscope
+[2023-07-10 09:32:24] INFO root fetch - processPackages [odoo14-addon-sale-automatic-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_automatic_workflow-14.0.1.3.5-py3-none-any.whl.zip tmp/odoo14_addon_sale_automatic_workflow-14.0.1.3.5.dev1-py3-none-any.whl.zip --markdown 20230710/o/odoo14-addon-sale-automatic-workflow/14.0.1.3.5-14.0.1.3.5.dev1/diff.md --exclude *.pyd
+[2023-07-10 09:32:24] INFO root fetch - processPackages [benchmark-runner]: Remove: archive file [/home/abi/fetcher/tmp/benchmark-runner-1.0.98.tar.gz]
+[2023-07-10 09:32:24] INFO root fetch - processPackages [benchmark-runner]: Remove: archive file [/home/abi/fetcher/tmp/benchmark-runner-1.0.99.tar.gz]
+[2023-07-10 09:32:24] INFO root fetch - main [MainThread]: End processing [benchmark-runner]: success
+[2023-07-10 09:32:24] INFO root fetch - processPackages [jennifer-python]: Downloading https://files.pythonhosted.org/packages/07/a3/c5a6f754fe4a116f0f354d41ce768809ca3ec12d6a074d85545c82764e47/jennifer_python-5.6.1.9-py3-none-any.whl
+[2023-07-10 09:32:25] INFO root fetch - processPackages [diz]: Remove: archive file [/home/abi/fetcher/tmp/diz-0.0.7.tar.gz]
+[2023-07-10 09:32:25] INFO root fetch - processPackages [diz]: Remove: archive file [/home/abi/fetcher/tmp/diz-0.0.8.tar.gz]
+[2023-07-10 09:32:25] INFO root fetch - main [MainThread]: End processing [diz]: success
+[2023-07-10 09:32:25] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.3.8.tar.gz]
+[2023-07-10 09:32:25] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.3.9.tar.gz]
+[2023-07-10 09:32:25] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-07-10 09:32:25] INFO root fetch - processPackages [sanctify]: Remove: archive file [/home/abi/fetcher/tmp/sanctify-1.0.0.tar.gz]
+[2023-07-10 09:32:25] INFO root fetch - processPackages [sanctify]: Remove: archive file [/home/abi/fetcher/tmp/sanctify-1.0.1.tar.gz]
+[2023-07-10 09:32:25] INFO root fetch - main [MainThread]: End processing [sanctify]: success
+[2023-07-10 09:32:25] INFO root fetch - processPackages [crowdsim]: Remove: archive file [/home/abi/fetcher/tmp/crowdsim-0.1.2.tar.gz]
+[2023-07-10 09:32:25] INFO root fetch - processPackages [crowdsim]: Remove: archive file [/home/abi/fetcher/tmp/crowdsim-0.1.3.tar.gz]
+[2023-07-10 09:32:25] INFO root fetch - main [MainThread]: End processing [crowdsim]: success
+[2023-07-10 09:32:25] INFO root fetch - processPackages [odoo14-addon-sale-automatic-workflow-payment-mode]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_automatic_workflow_payment_mode-14.0.1.1.0-py3-none-any.whl.zip]
+[2023-07-10 09:32:25] INFO root fetch - processPackages [odoo14-addon-sale-automatic-workflow-payment-mode]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_automatic_workflow_payment_mode-14.0.1.1.1-py3-none-any.whl.zip]
+[2023-07-10 09:32:25] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-automatic-workflow-payment-mode]: success
+[2023-07-10 09:32:26] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2023-07-10 09:32:26] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2023-07-10 09:32:26] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2023-07-10 09:32:26] INFO root fetch - processPackages [odoo14-addon-sale-automatic-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_automatic_workflow-14.0.1.3.5-py3-none-any.whl.zip]
+[2023-07-10 09:32:26] INFO root fetch - processPackages [odoo14-addon-sale-automatic-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_automatic_workflow-14.0.1.3.5.dev1-py3-none-any.whl.zip]
+[2023-07-10 09:32:26] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-automatic-workflow]: success
+[2023-07-10 09:32:26] INFO root fetch - processPackages [jennifer-python]: executing diffoscope
+[2023-07-10 09:32:26] INFO root fetch - processPackages [jennifer-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jennifer_python-5.6.1.8-py3-none-any.whl.zip tmp/jennifer_python-5.6.1.9-py3-none-any.whl.zip --markdown 20230710/j/jennifer-python/5.6.1.8-5.6.1.9/diff.md --exclude *.pyd
+[2023-07-10 09:32:48] INFO root fetch - processPackages [jennifer-python]: Remove: archive file [/home/abi/fetcher/tmp/jennifer_python-5.6.1.8-py3-none-any.whl.zip]
+[2023-07-10 09:32:48] INFO root fetch - processPackages [jennifer-python]: Remove: archive file [/home/abi/fetcher/tmp/jennifer_python-5.6.1.9-py3-none-any.whl.zip]
+[2023-07-10 09:32:48] INFO root fetch - main [MainThread]: End processing [jennifer-python]: success
+[2023-07-10 09:32:48] INFO root fetch - main [MainThread]: Store serial: [18827739]
