@@ -16845,3 +16845,163 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 14:21:28] INFO root fetch - processPackages [moto-ext]: Remove: archive file [/home/abi/fetcher/tmp/moto-ext-4.1.9.post1.tar.gz]
 [2023-07-10 14:21:28] INFO root fetch - main [MainThread]: End processing [moto-ext]: success
 [2023-07-10 14:21:28] INFO root fetch - main [MainThread]: Store serial: [18830375]
+[2023-07-10 14:26:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18830375]
+[2023-07-10 14:26:37] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-10 14:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wizata-dsapi
+[2023-07-10 14:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-dllib-spark3
+[2023-07-10 14:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-orca-spark3
+[2023-07-10 14:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-friesian-spark3
+[2023-07-10 14:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opengsl
+[2023-07-10 14:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-chronos-spark3
+[2023-07-10 14:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-spark3
+[2023-07-10 14:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cosmotech-run-orchestrator
+[2023-07-10 14:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qontract-reconcile
+[2023-07-10 14:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: treepoem
+[2023-07-10 14:26:37] INFO root fetch - processPackages [treepoem]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-07-10 14:26:37] INFO root fetch - processPackages [bigdl-chronos-spark3]: New version: [2.4.0b20230710] Old Version: [2.4.0b20230708]
+[2023-07-10 14:26:37] INFO root fetch - processPackages [bigdl-dllib-spark3]: New version: [2.4.0b20230710] Old Version: [2.4.0b20230708]
+[2023-07-10 14:26:37] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-10 14:26:37] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-07-10 14:26:37] INFO root fetch - processPackages [bigdl-spark3]: New version: [2.4.0b20230710] Old Version: [2.4.0b20230708]
+[2023-07-10 14:26:37] INFO root fetch - processPackages [cosmotech-run-orchestrator]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-10 14:26:37] INFO root fetch - processPackages [opengsl]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-10 14:26:38] INFO root fetch - processPackages [bigdl-friesian-spark3]: New version: [2.4.0b20230710] Old Version: [2.4.0b20230708]
+[2023-07-10 14:26:38] INFO root fetch - processPackages [bigdl-orca-spark3]: New version: [2.4.0b20230710] Old Version: [2.4.0b20230708]
+[2023-07-10 14:26:38] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-07-10 14:26:38] INFO root fetch - processPackages [treepoem]: Downloading https://files.pythonhosted.org/packages/2f/74/9d4480075187ac923ac1000fb5cf1531619cbbc88e151a7f2c0e4641a4b6/treepoem-3.8.0.tar.gz
+[2023-07-10 14:26:38] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/94/00/e19453cebaf6c7bd80246c1060dcc15a2387c309e3277fb648c88b586334/bigdl_spark3-2.4.0b20230708-py3-none-manylinux1_x86_64.whl
+[2023-07-10 14:26:38] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/cb/09/2bd766ddb008f726db7f0855e64d58fc2cd5c08359ba9d7612e5f8f4e4fc/bigdl_chronos_spark3-2.4.0b20230708-py3-none-manylinux1_x86_64.whl
+[2023-07-10 14:26:38] INFO root fetch - processPackages [cosmotech-run-orchestrator]: Downloading https://files.pythonhosted.org/packages/97/12/f4ff79e2c83a2cc51a0851edd4c30c32b55ac2bf87f28c02f58c97f12700/cosmotech-run-orchestrator-1.0.3.tar.gz
+[2023-07-10 14:26:38] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/0c/86/dbed4c31b5eb43d93c293d3e61febbc3e4e6690b8e2f0a1a0b1f7009f727/wizata-dsapi-0.2.5.tar.gz
+[2023-07-10 14:26:38] INFO root fetch - processPackages [bigdl-dllib-spark3]: Downloading https://files.pythonhosted.org/packages/09/b4/e744237c31b4ae602b3cc4eacd3510006ecf3be75b0a576899018469c11a/bigdl-dllib-spark3-2.4.0b20230708.tar.gz
+[2023-07-10 14:26:38] INFO root fetch - processPackages [opengsl]: Downloading https://files.pythonhosted.org/packages/1e/32/9c09b1982277f74f6b76e23ff220707b4737752168b8ca6eeaf079249d3b/opengsl-0.0.4.tar.gz
+[2023-07-10 14:26:38] INFO root fetch - processPackages [bigdl-orca-spark3]: Downloading https://files.pythonhosted.org/packages/3a/eb/4826ac1b4cf809327ce7ed13348cd4f8b7b4693754e6e4d50d530b92a1ce/bigdl_orca_spark3-2.4.0b20230708-py3-none-manylinux1_x86_64.whl
+[2023-07-10 14:26:38] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/8b/c4/d1c591eb6e409fb0167294facc323f24fc2b40e6639f73d6674308eb5462/bigdl_friesian_spark3-2.4.0b20230708-py3-none-manylinux1_x86_64.whl
+[2023-07-10 14:26:38] WARNING root fetch - processPackages [bigdl-dllib-spark3]: Skipping package: exceeds size limit 61329166>=10485760
+[2023-07-10 14:26:38] INFO root fetch - processPackages [bigdl-dllib-spark3]: Start processing: opensesame-extension-updater
+[2023-07-10 14:26:38] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark3] error
+[2023-07-10 14:26:38] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-07-10 14:26:38] INFO root fetch - processPackages [opensesame-extension-updater]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 14:26:38] WARNING root fetch - processPackages [bigdl-orca-spark3]: Skipping package: exceeds size limit 20207955>=10485760
+[2023-07-10 14:26:38] INFO root fetch - processPackages [bigdl-orca-spark3]: Start processing: moosez
+[2023-07-10 14:26:38] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark3] error
+[2023-07-10 14:26:38] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/32/b3/5f1e7e0f9a0bfadb08bf36f0cb3fd53008752afd51b562f3229b1279c7cd/bigdl_spark3-2.4.0b20230710-py3-none-manylinux1_x86_64.whl
+[2023-07-10 14:26:38] INFO root fetch - processPackages [moosez]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-10 14:26:38] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/49/80/d542cf87a9d68e97eec5d83e8b81ad0c7fc25ef4e2f0cb31965ed06e5494/bigdl_chronos_spark3-2.4.0b20230710-py3-none-manylinux1_x86_64.whl
+[2023-07-10 14:26:38] INFO root fetch - processPackages [cosmotech-run-orchestrator]: Downloading https://files.pythonhosted.org/packages/fc/6f/b83fc6a9051724c08e0b239f5606047a50c657116f9aa5587bca67c5aa13/cosmotech-run-orchestrator-1.0.4.tar.gz
+[2023-07-10 14:26:38] INFO root fetch - processPackages [treepoem]: Downloading https://files.pythonhosted.org/packages/e1/3b/0ff4460d5e5203e1e001fdc3a7606c7da10a9a50a5e7253e6ee2de98ec87/treepoem-3.9.0.tar.gz
+[2023-07-10 14:26:38] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-07-10 14:26:38] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230710/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-07-10 14:26:38] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/a5/5a/25e60feb95e821955c9b7e54871bb8d78218c966c5123273918fccf39465/wizata-dsapi-0.2.6.tar.gz
+[2023-07-10 14:26:38] INFO root fetch - processPackages [opensesame-extension-updater]: Downloading https://files.pythonhosted.org/packages/27/02/a140fdc45e1988fbc5b10fb951bdfe6895c2b82921714139c38d99be6873/opensesame_extension_updater-0.1.8.tar.gz
+[2023-07-10 14:26:38] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/c2/b9/9ba3e44254ad29decd7b08760b84b94f2989dea3bc65cac9ae71ea9f0357/moosez-2.1.8.tar.gz
+[2023-07-10 14:26:38] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/c0/15/645e575b810867007865d41ff84051917283decbce2ded88112f1bbf6f90/bigdl_friesian_spark3-2.4.0b20230710-py3-none-manylinux1_x86_64.whl
+[2023-07-10 14:26:38] INFO root fetch - processPackages [bigdl-spark3]: executing diffoscope
+[2023-07-10 14:26:38] INFO root fetch - processPackages [bigdl-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark3-2.4.0b20230708-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark3-2.4.0b20230710-py3-none-manylinux1_x86_64.whl.zip --markdown 20230710/b/bigdl-spark3/2.4.0b20230708-2.4.0b20230710/diff.md --exclude *.pyd
+[2023-07-10 14:26:38] INFO root fetch - processPackages [opengsl]: Downloading https://files.pythonhosted.org/packages/f2/05/810de17e759b9471248fb70f5e380e27b6c75d98d626952270daeb32ce53/opengsl-0.0.5.tar.gz
+[2023-07-10 14:26:38] INFO root fetch - processPackages [bigdl-chronos-spark3]: executing diffoscope
+[2023-07-10 14:26:38] INFO root fetch - processPackages [bigdl-chronos-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark3-2.4.0b20230708-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark3-2.4.0b20230710-py3-none-manylinux1_x86_64.whl.zip --markdown 20230710/b/bigdl-chronos-spark3/2.4.0b20230708-2.4.0b20230710/diff.md --exclude *.pyd
+[2023-07-10 14:26:38] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-07-10 14:26:38] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.2.5.tar.gz tmp/wizata-dsapi-0.2.6.tar.gz --markdown 20230710/w/wizata-dsapi/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-10 14:26:38] INFO root fetch - processPackages [cosmotech-run-orchestrator]: executing diffoscope
+[2023-07-10 14:26:38] INFO root fetch - processPackages [cosmotech-run-orchestrator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosmotech-run-orchestrator-1.0.3.tar.gz tmp/cosmotech-run-orchestrator-1.0.4.tar.gz --markdown 20230710/c/cosmotech-run-orchestrator/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-10 14:26:39] INFO root fetch - processPackages [treepoem]: executing diffoscope
+[2023-07-10 14:26:39] INFO root fetch - processPackages [treepoem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/treepoem-3.8.0.tar.gz tmp/treepoem-3.9.0.tar.gz --markdown 20230710/t/treepoem/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-07-10 14:26:39] INFO root fetch - processPackages [bigdl-friesian-spark3]: executing diffoscope
+[2023-07-10 14:26:39] INFO root fetch - processPackages [bigdl-friesian-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark3-2.4.0b20230708-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark3-2.4.0b20230710-py3-none-manylinux1_x86_64.whl.zip --markdown 20230710/b/bigdl-friesian-spark3/2.4.0b20230708-2.4.0b20230710/diff.md --exclude *.pyd
+[2023-07-10 14:26:39] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/56/ac/bc6012faf269fbaf5537a960e128eda0094dce0864f52bcb84ea8826d3cf/moosez-2.1.9.tar.gz
+[2023-07-10 14:26:39] INFO root fetch - processPackages [opengsl]: executing diffoscope
+[2023-07-10 14:26:39] INFO root fetch - processPackages [opengsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opengsl-0.0.4.tar.gz tmp/opengsl-0.0.5.tar.gz --markdown 20230710/o/opengsl/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-10 14:26:39] INFO root fetch - processPackages [moosez]: executing diffoscope
+[2023-07-10 14:26:39] INFO root fetch - processPackages [moosez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moosez-2.1.8.tar.gz tmp/moosez-2.1.9.tar.gz --markdown 20230710/m/moosez/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-10 14:26:39] INFO root fetch - processPackages [opensesame-extension-updater]: Downloading https://files.pythonhosted.org/packages/da/7d/7e4365ec82cca407f06986e78fd186e4147a316db47de355e241393ff47f/opensesame_extension_updater-0.1.9.tar.gz
+[2023-07-10 14:26:39] INFO root fetch - processPackages [opensesame-extension-updater]: executing diffoscope
+[2023-07-10 14:26:39] INFO root fetch - processPackages [opensesame-extension-updater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensesame_extension_updater-0.1.8.tar.gz tmp/opensesame_extension_updater-0.1.9.tar.gz --markdown 20230710/o/opensesame-extension-updater/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 14:26:40] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230708-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-10 14:26:40] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230710-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-10 14:26:40] INFO root fetch - processPackages [bigdl-spark3]: Start processing: tone
+[2023-07-10 14:26:40] INFO root fetch - main [MainThread]: End processing [bigdl-spark3]: success
+[2023-07-10 14:26:40] INFO root fetch - processPackages [tone]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-10 14:26:40] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.2.5.tar.gz]
+[2023-07-10 14:26:40] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.2.6.tar.gz]
+[2023-07-10 14:26:40] INFO root fetch - processPackages [wizata-dsapi]: Start processing: sixth-python
+[2023-07-10 14:26:40] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-07-10 14:26:40] INFO root fetch - processPackages [tone]: Downloading https://files.pythonhosted.org/packages/1c/13/21f87b3482d6d3699cd9ef9fd706635606856edb2b9d8c46904344d7c6c3/tone-0.0.5.tar.gz
+[2023-07-10 14:26:40] INFO root fetch - processPackages [sixth-python]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-10 14:26:40] INFO root fetch - processPackages [sixth-python]: Downloading https://files.pythonhosted.org/packages/58/83/d4035ad7541485bfe7feb2460d3b0ecb820a45eebe604758299d4e3c77d0/sixth-python-0.1.3.tar.gz
+[2023-07-10 14:26:40] INFO root fetch - processPackages [cosmotech-run-orchestrator]: Remove: archive file [/home/abi/fetcher/tmp/cosmotech-run-orchestrator-1.0.3.tar.gz]
+[2023-07-10 14:26:40] INFO root fetch - processPackages [cosmotech-run-orchestrator]: Remove: archive file [/home/abi/fetcher/tmp/cosmotech-run-orchestrator-1.0.4.tar.gz]
+[2023-07-10 14:26:40] INFO root fetch - processPackages [cosmotech-run-orchestrator]: Start processing: atomicshop
+[2023-07-10 14:26:40] INFO root fetch - main [MainThread]: End processing [cosmotech-run-orchestrator]: success
+[2023-07-10 14:26:40] INFO root fetch - processPackages [atomicshop]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-07-10 14:26:40] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.1.8.tar.gz]
+[2023-07-10 14:26:40] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.1.9.tar.gz]
+[2023-07-10 14:26:40] INFO root fetch - processPackages [moosez]: Start processing: PlatooningSimulator
+[2023-07-10 14:26:40] INFO root fetch - main [MainThread]: End processing [moosez]: success
+[2023-07-10 14:26:40] INFO root fetch - processPackages [tone]: Downloading https://files.pythonhosted.org/packages/0c/ab/1191b372b609af0eb33dc981f31ea494caa41608140721970c5066eb72a2/tone-0.0.6.tar.gz
+[2023-07-10 14:26:40] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/6a/e4/3f67aaf30a9194c780ea83b29f0ac67ced8f360d4b91c4c6812e33413aac/atomicshop-1.8.0-py3-none-any.whl
+[2023-07-10 14:26:41] WARNING root fetch - processPackages [PlatooningSimulator]: Skipping, unable to determine old version
+[2023-07-10 14:26:41] INFO root fetch - processPackages [PlatooningSimulator]: Start processing: unittest-parametrize
+[2023-07-10 14:26:41] INFO root fetch - main [MainThread]: End processing [PlatooningSimulator] error
+[2023-07-10 14:26:41] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230708-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-10 14:26:41] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230710-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-10 14:26:41] INFO root fetch - processPackages [bigdl-friesian-spark3]: Start processing: leanit-mweb
+[2023-07-10 14:26:41] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark3]: success
+[2023-07-10 14:26:41] INFO root fetch - processPackages [opensesame-extension-updater]: Remove: archive file [/home/abi/fetcher/tmp/opensesame_extension_updater-0.1.8.tar.gz]
+[2023-07-10 14:26:41] INFO root fetch - processPackages [opensesame-extension-updater]: Remove: archive file [/home/abi/fetcher/tmp/opensesame_extension_updater-0.1.9.tar.gz]
+[2023-07-10 14:26:41] INFO root fetch - processPackages [opensesame-extension-updater]: Start processing: nava
+[2023-07-10 14:26:41] INFO root fetch - main [MainThread]: End processing [opensesame-extension-updater]: success
+[2023-07-10 14:26:41] INFO root fetch - processPackages [unittest-parametrize]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-07-10 14:26:41] INFO root fetch - processPackages [sixth-python]: Downloading https://files.pythonhosted.org/packages/ba/16/26e54952e653db90836047968f22b8537be53e764bc42964d8d979553a15/sixth-python-0.1.4.tar.gz
+[2023-07-10 14:26:41] INFO root fetch - processPackages [tone]: executing diffoscope
+[2023-07-10 14:26:41] INFO root fetch - processPackages [tone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tone-0.0.5.tar.gz tmp/tone-0.0.6.tar.gz --markdown 20230710/t/tone/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-10 14:26:41] INFO root fetch - processPackages [leanit-mweb]: New version: [23.7.3] Old Version: [23.7.2]
+[2023-07-10 14:26:41] INFO root fetch - processPackages [nava]: New version: [0.2] Old Version: [0.1]
+[2023-07-10 14:26:41] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/22/2c/b86830f78f8f470a6e9dc1b01933b87e7f9b7ad7eb88e75ce296610d5a78/atomicshop-1.8.1-py3-none-any.whl
+[2023-07-10 14:26:41] INFO root fetch - processPackages [unittest-parametrize]: Downloading https://files.pythonhosted.org/packages/f2/cf/252cea0348e0e614242e747c04ace6a50e38d9efe2a9b59e767567df04d6/unittest_parametrize-1.2.0.tar.gz
+[2023-07-10 14:26:41] INFO root fetch - processPackages [sixth-python]: executing diffoscope
+[2023-07-10 14:26:41] INFO root fetch - processPackages [sixth-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sixth-python-0.1.3.tar.gz tmp/sixth-python-0.1.4.tar.gz --markdown 20230710/s/sixth-python/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-10 14:26:41] INFO root fetch - processPackages [leanit-mweb]: Downloading https://files.pythonhosted.org/packages/c7/e6/0e5b30aebb3f45d044b640c14c170210a72ab4865a76015c5ecad60ef295/leanit-mweb-23.7.2.tar.gz
+[2023-07-10 14:26:41] INFO root fetch - processPackages [nava]: Downloading https://files.pythonhosted.org/packages/12/6d/605e40246122dcfe513be42b262853d87718710cc708910c86c2c3c07cdf/nava-0.1.tar.gz
+[2023-07-10 14:26:41] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230708-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-10 14:26:41] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230710-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-10 14:26:41] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
+[2023-07-10 14:26:41] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2023-07-10 14:26:41] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-1.8.0-py3-none-any.whl.zip tmp/atomicshop-1.8.1-py3-none-any.whl.zip --markdown 20230710/a/atomicshop/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-07-10 14:26:41] INFO root fetch - processPackages [leanit-mweb]: Downloading https://files.pythonhosted.org/packages/1c/7d/f7a9b598d2b801d2bf0ac43d6ff972f1b881237a26638e50da099cb3108e/leanit-mweb-23.7.3.tar.gz
+[2023-07-10 14:26:41] INFO root fetch - processPackages [unittest-parametrize]: Downloading https://files.pythonhosted.org/packages/16/d1/7aad06aab26bca4ddcb8ea47a34c3af377fce9f9f8ded8c264710b45c38f/unittest_parametrize-1.3.0.tar.gz
+[2023-07-10 14:26:41] INFO root fetch - processPackages [nava]: Downloading https://files.pythonhosted.org/packages/f1/d6/7f3d58364bc4d387d736050aac0b971b4f1acf046dc5fe5d579a22bd1e8d/nava-0.2.tar.gz
+[2023-07-10 14:26:41] INFO root fetch - processPackages [opengsl]: Remove: archive file [/home/abi/fetcher/tmp/opengsl-0.0.4.tar.gz]
+[2023-07-10 14:26:41] INFO root fetch - processPackages [opengsl]: Remove: archive file [/home/abi/fetcher/tmp/opengsl-0.0.5.tar.gz]
+[2023-07-10 14:26:41] INFO root fetch - main [MainThread]: End processing [opengsl]: success
+[2023-07-10 14:26:42] INFO root fetch - processPackages [unittest-parametrize]: executing diffoscope
+[2023-07-10 14:26:42] INFO root fetch - processPackages [unittest-parametrize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unittest_parametrize-1.2.0.tar.gz tmp/unittest_parametrize-1.3.0.tar.gz --markdown 20230710/u/unittest-parametrize/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-07-10 14:26:42] INFO root fetch - processPackages [leanit-mweb]: executing diffoscope
+[2023-07-10 14:26:42] INFO root fetch - processPackages [leanit-mweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leanit-mweb-23.7.2.tar.gz tmp/leanit-mweb-23.7.3.tar.gz --markdown 20230710/l/leanit-mweb/23.7.2-23.7.3/diff.md --exclude *.pyd
+[2023-07-10 14:26:42] INFO root fetch - processPackages [nava]: executing diffoscope
+[2023-07-10 14:26:42] INFO root fetch - processPackages [nava]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nava-0.1.tar.gz tmp/nava-0.2.tar.gz --markdown 20230710/n/nava/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-10 14:26:42] INFO root fetch - processPackages [tone]: Remove: archive file [/home/abi/fetcher/tmp/tone-0.0.5.tar.gz]
+[2023-07-10 14:26:42] INFO root fetch - processPackages [tone]: Remove: archive file [/home/abi/fetcher/tmp/tone-0.0.6.tar.gz]
+[2023-07-10 14:26:42] INFO root fetch - main [MainThread]: End processing [tone]: success
+[2023-07-10 14:26:42] INFO root fetch - processPackages [treepoem]: Remove: archive file [/home/abi/fetcher/tmp/treepoem-3.8.0.tar.gz]
+[2023-07-10 14:26:42] INFO root fetch - processPackages [treepoem]: Remove: archive file [/home/abi/fetcher/tmp/treepoem-3.9.0.tar.gz]
+[2023-07-10 14:26:42] INFO root fetch - main [MainThread]: End processing [treepoem]: success
+[2023-07-10 14:26:42] INFO root fetch - processPackages [sixth-python]: Remove: archive file [/home/abi/fetcher/tmp/sixth-python-0.1.3.tar.gz]
+[2023-07-10 14:26:42] INFO root fetch - processPackages [sixth-python]: Remove: archive file [/home/abi/fetcher/tmp/sixth-python-0.1.4.tar.gz]
+[2023-07-10 14:26:42] INFO root fetch - main [MainThread]: End processing [sixth-python]: success
+[2023-07-10 14:26:43] INFO root fetch - processPackages [unittest-parametrize]: Remove: archive file [/home/abi/fetcher/tmp/unittest_parametrize-1.2.0.tar.gz]
+[2023-07-10 14:26:43] INFO root fetch - processPackages [unittest-parametrize]: Remove: archive file [/home/abi/fetcher/tmp/unittest_parametrize-1.3.0.tar.gz]
+[2023-07-10 14:26:43] INFO root fetch - main [MainThread]: End processing [unittest-parametrize]: success
+[2023-07-10 14:26:43] INFO root fetch - processPackages [nava]: Remove: archive file [/home/abi/fetcher/tmp/nava-0.1.tar.gz]
+[2023-07-10 14:26:43] INFO root fetch - processPackages [nava]: Remove: archive file [/home/abi/fetcher/tmp/nava-0.2.tar.gz]
+[2023-07-10 14:26:43] INFO root fetch - main [MainThread]: End processing [nava]: success
+[2023-07-10 14:26:43] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-07-10 14:26:43] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-07-10 14:26:43] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-07-10 14:26:43] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-1.8.0-py3-none-any.whl.zip]
+[2023-07-10 14:26:43] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-1.8.1-py3-none-any.whl.zip]
+[2023-07-10 14:26:43] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2023-07-10 14:26:43] INFO root fetch - processPackages [leanit-mweb]: Remove: archive file [/home/abi/fetcher/tmp/leanit-mweb-23.7.2.tar.gz]
+[2023-07-10 14:26:43] INFO root fetch - processPackages [leanit-mweb]: Remove: archive file [/home/abi/fetcher/tmp/leanit-mweb-23.7.3.tar.gz]
+[2023-07-10 14:26:43] INFO root fetch - main [MainThread]: End processing [leanit-mweb]: success
+[2023-07-10 14:26:43] INFO root fetch - main [MainThread]: Store serial: [18830436]
