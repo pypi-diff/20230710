@@ -7964,3 +7964,80 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 07:12:32] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.0.9.tar.gz]
 [2023-07-10 07:12:32] INFO root fetch - main [MainThread]: End processing [django-restit]: success
 [2023-07-10 07:12:32] INFO root fetch - main [MainThread]: Store serial: [18826720]
+[2023-07-10 07:17:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18826720]
+[2023-07-10 07:17:42] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-10 07:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: typetype
+[2023-07-10 07:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plugen
+[2023-07-10 07:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plugen
+[2023-07-10 07:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: plugen
+[2023-07-10 07:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eutil
+[2023-07-10 07:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yaccounts
+[2023-07-10 07:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sWaraNuvad
+[2023-07-10 07:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Geode-Explicit
+[2023-07-10 07:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: plugen
+[2023-07-10 07:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: launchable
+[2023-07-10 07:17:42] INFO root fetch - processPackages [eutil]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 07:17:42] INFO root fetch - processPackages [plugen]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-10 07:17:42] WARNING root fetch - processPackages [typetype]: Skipping, unable to determine old version
+[2023-07-10 07:17:42] INFO root fetch - main [MainThread]: End processing [typetype] error
+[2023-07-10 07:17:42] INFO root fetch - processPackages [plugen]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-10 07:17:42] INFO root fetch - processPackages [plugen]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-10 07:17:42] INFO root fetch - processPackages [yaccounts]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-10 07:17:42] INFO root fetch - processPackages [plugen]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-10 07:17:42] INFO root fetch - processPackages [sWaraNuvad]: New version: [2.4.2] Old Version: [2.4]
+[2023-07-10 07:17:42] INFO root fetch - processPackages [Geode-Explicit]: New version: [4.1.1rc1] Old Version: [4.1.0rc2]
+[2023-07-10 07:17:42] INFO root fetch - processPackages [eutil]: Downloading https://files.pythonhosted.org/packages/b4/cd/a8ebd664eed8131994bd5465525dc57a6499c68b81d887ca1a1394ddcac2/eutil-0.0.8.tar.gz
+[2023-07-10 07:17:42] INFO root fetch - processPackages [yaccounts]: Downloading https://files.pythonhosted.org/packages/fa/97/8366fbee2b70fdb91d429485a83cd18ec95d8f430f8b6ced7fad7db0fb65/yaccounts-1.1.0.tar.gz
+[2023-07-10 07:17:42] INFO root fetch - processPackages [launchable]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-10 07:17:42] INFO root fetch - processPackages [plugen]: Downloading https://files.pythonhosted.org/packages/3b/9d/b64692f4c0e7a19f6f88aa9c26fc404fcb507171283890a02b305aa6361c/plugen-1.0.2.tar.gz
+[2023-07-10 07:17:42] INFO root fetch - processPackages [plugen]: Downloading https://files.pythonhosted.org/packages/3b/9d/b64692f4c0e7a19f6f88aa9c26fc404fcb507171283890a02b305aa6361c/plugen-1.0.2.tar.gz
+[2023-07-10 07:17:42] INFO root fetch - processPackages [plugen]: Downloading https://files.pythonhosted.org/packages/3b/9d/b64692f4c0e7a19f6f88aa9c26fc404fcb507171283890a02b305aa6361c/plugen-1.0.2.tar.gz
+[2023-07-10 07:17:42] INFO root fetch - processPackages [plugen]: Downloading https://files.pythonhosted.org/packages/3b/9d/b64692f4c0e7a19f6f88aa9c26fc404fcb507171283890a02b305aa6361c/plugen-1.0.2.tar.gz
+[2023-07-10 07:17:42] INFO root fetch - processPackages [sWaraNuvad]: Downloading https://files.pythonhosted.org/packages/80/5d/71b195e58824ebb626f93438525eb40e7e39a9d8c5a0b6eb9bafdbe86388/sWaraNuvad-2.4.tar.gz
+[2023-07-10 07:17:42] INFO root fetch - processPackages [Geode-Explicit]: Downloading https://files.pythonhosted.org/packages/ff/fb/c300d3404bb847073b3f571b3d9df6096c4eb30d78e27751b48215f4a340/Geode_Explicit-4.1.0rc2-cp39-cp39-win_amd64.whl
+[2023-07-10 07:17:43] INFO root fetch - processPackages [launchable]: Downloading https://files.pythonhosted.org/packages/2e/04/2169ed764cf3f5aadb8a30fda8dc6ede383388a7e3a7a47ed77123c89ddc/launchable-1.8.0.tar.gz
+[2023-07-10 07:17:43] INFO root fetch - processPackages [yaccounts]: Downloading https://files.pythonhosted.org/packages/8a/58/7b28e252062b3d2fabbb5f6aad680c7f9cb26ebfd3d5fdddfcf9fad93dce/yaccounts-1.1.1.tar.gz
+[2023-07-10 07:17:43] INFO root fetch - processPackages [plugen]: Downloading https://files.pythonhosted.org/packages/d1/66/034d6e5df071d1ba0632da51116952ae8fcbb8b5db4c033b600ff60cdc4f/plugen-1.0.3.tar.gz
+[2023-07-10 07:17:43] INFO root fetch - processPackages [plugen]: Downloading https://files.pythonhosted.org/packages/d1/66/034d6e5df071d1ba0632da51116952ae8fcbb8b5db4c033b600ff60cdc4f/plugen-1.0.3.tar.gz
+[2023-07-10 07:17:43] INFO root fetch - processPackages [plugen]: Downloading https://files.pythonhosted.org/packages/d1/66/034d6e5df071d1ba0632da51116952ae8fcbb8b5db4c033b600ff60cdc4f/plugen-1.0.3.tar.gz
+[2023-07-10 07:17:43] INFO root fetch - processPackages [plugen]: Downloading https://files.pythonhosted.org/packages/d1/66/034d6e5df071d1ba0632da51116952ae8fcbb8b5db4c033b600ff60cdc4f/plugen-1.0.3.tar.gz
+[2023-07-10 07:17:43] WARNING root fetch - processPackages [launchable]: Skipping package: exceeds size limit 18312374>=10485760
+[2023-07-10 07:17:43] INFO root fetch - main [MainThread]: End processing [launchable] error
+[2023-07-10 07:17:43] INFO root fetch - processPackages [sWaraNuvad]: Downloading https://files.pythonhosted.org/packages/94/eb/ad08d7bd16f756b29291edb4d612eea0bf5bd74497d7ca38660a7670021f/sWaraNuvad-2.4.2.tar.gz
+[2023-07-10 07:17:43] INFO root fetch - processPackages [yaccounts]: executing diffoscope
+[2023-07-10 07:17:43] INFO root fetch - processPackages [yaccounts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaccounts-1.1.0.tar.gz tmp/yaccounts-1.1.1.tar.gz --markdown 20230710/y/yaccounts/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-10 07:17:43] INFO root fetch - processPackages [plugen]: executing diffoscope
+[2023-07-10 07:17:43] INFO root fetch - processPackages [plugen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plugen-1.0.2.tar.gz tmp/plugen-1.0.3.tar.gz --markdown 20230710/p/plugen/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-10 07:17:43] INFO root fetch - processPackages [plugen]: executing diffoscope
+[2023-07-10 07:17:43] INFO root fetch - processPackages [plugen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plugen-1.0.2.tar.gz tmp/plugen-1.0.3.tar.gz --markdown 20230710/p/plugen/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-10 07:17:43] INFO root fetch - processPackages [plugen]: executing diffoscope
+[2023-07-10 07:17:43] INFO root fetch - processPackages [plugen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plugen-1.0.2.tar.gz tmp/plugen-1.0.3.tar.gz --markdown 20230710/p/plugen/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-10 07:17:43] INFO root fetch - processPackages [plugen]: executing diffoscope
+[2023-07-10 07:17:43] INFO root fetch - processPackages [plugen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plugen-1.0.2.tar.gz tmp/plugen-1.0.3.tar.gz --markdown 20230710/p/plugen/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-10 07:17:43] INFO root fetch - processPackages [sWaraNuvad]: executing diffoscope
+[2023-07-10 07:17:43] INFO root fetch - processPackages [sWaraNuvad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sWaraNuvad-2.4.tar.gz tmp/sWaraNuvad-2.4.2.tar.gz --markdown 20230710/s/sWaraNuvad/2.4-2.4.2/diff.md --exclude *.pyd
+[2023-07-10 07:17:43] INFO root fetch - processPackages [eutil]: Downloading https://files.pythonhosted.org/packages/3c/47/730c617e865b75b9696e3f4666abfe298a11b686d21b643dcb49b0ba005b/eutil-0.0.9.tar.gz
+[2023-07-10 07:17:43] INFO root fetch - processPackages [eutil]: executing diffoscope
+[2023-07-10 07:17:43] INFO root fetch - processPackages [eutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eutil-0.0.8.tar.gz tmp/eutil-0.0.9.tar.gz --markdown 20230710/e/eutil/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 07:17:44] INFO root fetch - processPackages [Geode-Explicit]: Downloading https://files.pythonhosted.org/packages/8c/9e/6210f6a390ce3e86657d145cec0b3b229ff59f62f276561bf6f322703b4f/Geode_Explicit-4.1.1rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-10 07:17:44] INFO root fetch - processPackages [yaccounts]: Remove: archive file [/home/abi/fetcher/tmp/yaccounts-1.1.0.tar.gz]
+[2023-07-10 07:17:44] INFO root fetch - processPackages [yaccounts]: Remove: archive file [/home/abi/fetcher/tmp/yaccounts-1.1.1.tar.gz]
+[2023-07-10 07:17:44] INFO root fetch - main [MainThread]: End processing [yaccounts]: success
+[2023-07-10 07:17:44] INFO root fetch - processPackages [plugen]: Remove: archive file [/home/abi/fetcher/tmp/plugen-1.0.2.tar.gz]
+[2023-07-10 07:17:44] INFO root fetch - processPackages [plugen]: Remove: archive file [/home/abi/fetcher/tmp/plugen-1.0.3.tar.gz]
+[2023-07-10 07:17:44] INFO root fetch - main [MainThread]: End processing [plugen]: success
+[2023-07-10 07:17:44] INFO root fetch - main [MainThread]: End processing [plugen]: success
+[2023-07-10 07:17:44] INFO root fetch - main [MainThread]: End processing [plugen]: success
+[2023-07-10 07:17:44] INFO root fetch - processPackages [sWaraNuvad]: Remove: archive file [/home/abi/fetcher/tmp/sWaraNuvad-2.4.tar.gz]
+[2023-07-10 07:17:44] INFO root fetch - processPackages [sWaraNuvad]: Remove: archive file [/home/abi/fetcher/tmp/sWaraNuvad-2.4.2.tar.gz]
+[2023-07-10 07:17:44] INFO root fetch - main [MainThread]: End processing [sWaraNuvad]: success
+[2023-07-10 07:17:44] INFO root fetch - main [MainThread]: End processing [plugen]: success
+[2023-07-10 07:17:44] INFO root fetch - processPackages [Geode-Explicit]: executing diffoscope
+[2023-07-10 07:17:44] INFO root fetch - processPackages [Geode-Explicit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Explicit-4.1.0rc2-cp39-cp39-win_amd64.whl.zip tmp/Geode_Explicit-4.1.1rc1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230710/G/Geode-Explicit/4.1.0rc2-4.1.1rc1/diff.md --exclude *.pyd
+[2023-07-10 07:17:45] INFO root fetch - processPackages [Geode-Explicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Explicit-4.1.0rc2-cp39-cp39-win_amd64.whl.zip]
+[2023-07-10 07:17:45] INFO root fetch - processPackages [Geode-Explicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Explicit-4.1.1rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-10 07:17:45] INFO root fetch - main [MainThread]: End processing [Geode-Explicit]: success
+[2023-07-10 07:17:58] INFO root fetch - processPackages [eutil]: Remove: archive file [/home/abi/fetcher/tmp/eutil-0.0.8.tar.gz]
+[2023-07-10 07:17:58] INFO root fetch - processPackages [eutil]: Remove: archive file [/home/abi/fetcher/tmp/eutil-0.0.9.tar.gz]
+[2023-07-10 07:17:58] INFO root fetch - main [MainThread]: End processing [eutil]: success
+[2023-07-10 07:17:58] INFO root fetch - main [MainThread]: Store serial: [18826753]
