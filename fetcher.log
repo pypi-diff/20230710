@@ -7006,3 +7006,72 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 06:20:12] INFO root fetch - main [MainThread]: End processing [bioutils]: success
 [2023-07-10 06:20:13] INFO root fetch - main [MainThread]: End processing [bioutils]: success
 [2023-07-10 06:20:13] INFO root fetch - main [MainThread]: Store serial: [18826322]
+[2023-07-10 06:25:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18826322]
+[2023-07-10 06:25:22] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-10 06:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zetascale
+[2023-07-10 06:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chirho
+[2023-07-10 06:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edc-metadata
+[2023-07-10 06:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xaddpy
+[2023-07-10 06:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edc-label
+[2023-07-10 06:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quickstart-vdk
+[2023-07-10 06:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sdkit
+[2023-07-10 06:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bantam
+[2023-07-10 06:25:22] INFO root fetch - processPackages [zetascale]: New version: [0.2.0] Old Version: [0.0.2]
+[2023-07-10 06:25:22] INFO root fetch - processPackages [xaddpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 06:25:22] INFO root fetch - processPackages [edc-label]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-10 06:25:22] WARNING root fetch - processPackages [chirho]: Skipping, unable to determine old version
+[2023-07-10 06:25:22] INFO root fetch - main [MainThread]: End processing [chirho] error
+[2023-07-10 06:25:22] INFO root fetch - processPackages [edc-metadata]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-10 06:25:22] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.925773930.dev12155] Old Version: [0.2.925333283.dev12147]
+[2023-07-10 06:25:22] INFO root fetch - processPackages [sdkit]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-10 06:25:22] INFO root fetch - processPackages [bantam]: New version: [2.4.8] Old Version: [2.4.7]
+[2023-07-10 06:25:22] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/d1/c1/f3e251106f7f4c022d55f8fe3a3c0eacdb5bfdf84ce4182f71368c4f3a5f/sdkit-1.0.98.tar.gz
+[2023-07-10 06:25:22] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/67/86/ab32a4ac09c1f0def13e7636a56fb95698bec238f85701c88594a85ad7a3/quickstart-vdk-0.2.925333283.dev12147.tar.gz
+[2023-07-10 06:25:22] INFO root fetch - processPackages [zetascale]: Downloading https://files.pythonhosted.org/packages/b5/72/074b0248270234cc9570bc35eb300070a77936c80993591a4780611aa2a9/zetascale-0.0.2.tar.gz
+[2023-07-10 06:25:22] INFO root fetch - processPackages [bantam]: Downloading https://files.pythonhosted.org/packages/ba/d0/a0c3c20e2e242aeb95a3a6a11a5ecabe615e6a507743bb467efe06b5a772/bantam-2.4.7.tar.gz
+[2023-07-10 06:25:22] INFO root fetch - processPackages [edc-label]: Downloading https://files.pythonhosted.org/packages/50/bf/4b600e11941538e1b8f041ad664fabb6a1f23316afdc3205384f5ad27228/edc-label-0.3.8.tar.gz
+[2023-07-10 06:25:22] INFO root fetch - processPackages [edc-metadata]: Downloading https://files.pythonhosted.org/packages/31/9d/7e4dc7d00a9f09501415d10d685657f87a104cade0c183eeed14910dacce/edc_metadata-0.3.8-py3-none-any.whl
+[2023-07-10 06:25:22] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/7e/69/b60dd118fa3c33f9ff305ec5ce9de04303dfdfc9be5d286e20cbc1ee1e7b/sdkit-1.0.99.tar.gz
+[2023-07-10 06:25:22] INFO root fetch - processPackages [xaddpy]: Downloading https://files.pythonhosted.org/packages/20/90/e7ea0657b663e5ff61c88a10bb94ed63c06336fb9438776f74da1c77c4d1/xaddpy-0.1.8.tar.gz
+[2023-07-10 06:25:22] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-07-10 06:25:22] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.98.tar.gz tmp/sdkit-1.0.99.tar.gz --markdown 20230710/s/sdkit/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-10 06:25:22] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/66/64/3eeb235eb9df35e0e4edcce2fa3118fb62b80dd28ee3465e92149327f366/quickstart-vdk-0.2.925773930.dev12155.tar.gz
+[2023-07-10 06:25:23] INFO root fetch - processPackages [bantam]: Downloading https://files.pythonhosted.org/packages/ff/c5/e83dfc5a3b00cbdcc83f7d76c63d2fb48e71947732e1e7f1346a5e84e650/bantam-2.4.8.tar.gz
+[2023-07-10 06:25:23] INFO root fetch - processPackages [zetascale]: Downloading https://files.pythonhosted.org/packages/09/18/ea90f1c1fb9c478fa0faab8f2f24d6bb9e49633c18644504cba17c470fb2/zetascale-0.2.0.tar.gz
+[2023-07-10 06:25:23] INFO root fetch - processPackages [edc-label]: Downloading https://files.pythonhosted.org/packages/25/14/69a99baaf8c6762af05ed633b49d3d7927a70ee58d6228edb0b89f93edc2/edc-label-0.3.9.tar.gz
+[2023-07-10 06:25:23] INFO root fetch - processPackages [bantam]: executing diffoscope
+[2023-07-10 06:25:23] INFO root fetch - processPackages [bantam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bantam-2.4.7.tar.gz tmp/bantam-2.4.8.tar.gz --markdown 20230710/b/bantam/2.4.7-2.4.8/diff.md --exclude *.pyd
+[2023-07-10 06:25:23] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-07-10 06:25:23] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.925333283.dev12147.tar.gz tmp/quickstart-vdk-0.2.925773930.dev12155.tar.gz --markdown 20230710/q/quickstart-vdk/0.2.925333283.dev12147-0.2.925773930.dev12155/diff.md --exclude *.pyd
+[2023-07-10 06:25:23] INFO root fetch - processPackages [zetascale]: executing diffoscope
+[2023-07-10 06:25:23] INFO root fetch - processPackages [zetascale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zetascale-0.0.2.tar.gz tmp/zetascale-0.2.0.tar.gz --markdown 20230710/z/zetascale/0.0.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-10 06:25:23] INFO root fetch - processPackages [edc-metadata]: Downloading https://files.pythonhosted.org/packages/fc/87/223d66df835d66d65b4b4fee1285f68343b30d95b0385ea166afd9f48874/edc_metadata-0.3.9-py3-none-any.whl
+[2023-07-10 06:25:23] INFO root fetch - processPackages [xaddpy]: Downloading https://files.pythonhosted.org/packages/a2/7e/0091d45a4449b844ad0f094201e201adb58184142ce83f663d89bd284162/xaddpy-0.1.9.tar.gz
+[2023-07-10 06:25:23] INFO root fetch - processPackages [edc-label]: executing diffoscope
+[2023-07-10 06:25:23] INFO root fetch - processPackages [edc-label]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-label-0.3.8.tar.gz tmp/edc-label-0.3.9.tar.gz --markdown 20230710/e/edc-label/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-10 06:25:23] INFO root fetch - processPackages [xaddpy]: executing diffoscope
+[2023-07-10 06:25:23] INFO root fetch - processPackages [xaddpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xaddpy-0.1.8.tar.gz tmp/xaddpy-0.1.9.tar.gz --markdown 20230710/x/xaddpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 06:25:23] INFO root fetch - processPackages [edc-metadata]: executing diffoscope
+[2023-07-10 06:25:23] INFO root fetch - processPackages [edc-metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_metadata-0.3.8-py3-none-any.whl.zip tmp/edc_metadata-0.3.9-py3-none-any.whl.zip --markdown 20230710/e/edc-metadata/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-10 06:25:24] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.925333283.dev12147.tar.gz]
+[2023-07-10 06:25:24] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.925773930.dev12155.tar.gz]
+[2023-07-10 06:25:24] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-07-10 06:25:24] INFO root fetch - processPackages [bantam]: Remove: archive file [/home/abi/fetcher/tmp/bantam-2.4.7.tar.gz]
+[2023-07-10 06:25:24] INFO root fetch - processPackages [bantam]: Remove: archive file [/home/abi/fetcher/tmp/bantam-2.4.8.tar.gz]
+[2023-07-10 06:25:24] INFO root fetch - main [MainThread]: End processing [bantam]: success
+[2023-07-10 06:25:24] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.98.tar.gz]
+[2023-07-10 06:25:24] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.99.tar.gz]
+[2023-07-10 06:25:24] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-07-10 06:25:24] INFO root fetch - processPackages [edc-label]: Remove: archive file [/home/abi/fetcher/tmp/edc-label-0.3.8.tar.gz]
+[2023-07-10 06:25:24] INFO root fetch - processPackages [edc-label]: Remove: archive file [/home/abi/fetcher/tmp/edc-label-0.3.9.tar.gz]
+[2023-07-10 06:25:24] INFO root fetch - main [MainThread]: End processing [edc-label]: success
+[2023-07-10 06:25:24] INFO root fetch - processPackages [zetascale]: Remove: archive file [/home/abi/fetcher/tmp/zetascale-0.0.2.tar.gz]
+[2023-07-10 06:25:24] INFO root fetch - processPackages [zetascale]: Remove: archive file [/home/abi/fetcher/tmp/zetascale-0.2.0.tar.gz]
+[2023-07-10 06:25:24] INFO root fetch - main [MainThread]: End processing [zetascale]: success
+[2023-07-10 06:25:24] INFO root fetch - processPackages [xaddpy]: Remove: archive file [/home/abi/fetcher/tmp/xaddpy-0.1.8.tar.gz]
+[2023-07-10 06:25:24] INFO root fetch - processPackages [xaddpy]: Remove: archive file [/home/abi/fetcher/tmp/xaddpy-0.1.9.tar.gz]
+[2023-07-10 06:25:24] INFO root fetch - main [MainThread]: End processing [xaddpy]: success
+[2023-07-10 06:25:24] INFO root fetch - processPackages [edc-metadata]: Remove: archive file [/home/abi/fetcher/tmp/edc_metadata-0.3.8-py3-none-any.whl.zip]
+[2023-07-10 06:25:24] INFO root fetch - processPackages [edc-metadata]: Remove: archive file [/home/abi/fetcher/tmp/edc_metadata-0.3.9-py3-none-any.whl.zip]
+[2023-07-10 06:25:24] INFO root fetch - main [MainThread]: End processing [edc-metadata]: success
+[2023-07-10 06:25:24] INFO root fetch - main [MainThread]: Store serial: [18826350]
