@@ -15954,3 +15954,167 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 13:31:18] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.9.tar.gz]
 [2023-07-10 13:31:18] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-07-10 13:31:18] INFO root fetch - main [MainThread]: Store serial: [18829999]
+[2023-07-10 13:36:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18829999]
+[2023-07-10 13:36:28] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-10 13:36:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hak
+[2023-07-10 13:36:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchserve-nightly
+[2023-07-10 13:36:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-jquery-datatables
+[2023-07-10 13:36:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: paasta-tools
+[2023-07-10 13:36:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torch-model-archiver-nightly
+[2023-07-10 13:36:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torch-workflow-archiver-nightly
+[2023-07-10 13:36:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-account-payment-order
+[2023-07-10 13:36:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: huawei-solar
+[2023-07-10 13:36:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ixoncdkingress
+[2023-07-10 13:36:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: weatheril
+[2023-07-10 13:36:28] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 13:36:28] INFO root fetch - processPackages [ixoncdkingress]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 13:36:28] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-10 13:36:28] INFO root fetch - processPackages [odoo-addon-account-payment-order]: New version: [16.0.1.2.0] Old Version: [16.0.1.1.1.3]
+[2023-07-10 13:36:28] INFO root fetch - processPackages [django-jquery-datatables]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-10 13:36:28] INFO root fetch - processPackages [paasta-tools]: New version: [0.92.1] Old Version: [0.92.0]
+[2023-07-10 13:36:28] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-10 13:36:28] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-10 13:36:28] INFO root fetch - processPackages [huawei-solar]: New version: [2.2.7b8] Old Version: [2.2.7b7]
+[2023-07-10 13:36:28] INFO root fetch - processPackages [weatheril]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-10 13:36:28] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/05/17/ad5ef91170b7c0e991a9c8bffa9f9a2dcf3961d5e90c31185bdf3ce8f425/hak-0.0.8.tar.gz
+[2023-07-10 13:36:28] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/fc/e9/cb5f596703c31d7f2e9bf2501c71de3a97dd6f54385926ea9d621de36d48/torch_model_archiver_nightly-2023.7.8-py3-none-any.whl
+[2023-07-10 13:36:28] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/44/8a/225f6757d5df77a706853e7f70981e785e26693e9c5529b1725322da94ee/torch_workflow_archiver_nightly-2023.7.8-py3-none-any.whl
+[2023-07-10 13:36:28] INFO root fetch - processPackages [django-jquery-datatables]: Downloading https://files.pythonhosted.org/packages/f2/9f/60aaa1740c051fb60d5ed96701b09e341589d9183c0c1fe1d4cbee8d688b/django_jquery_datatables-1.0.3.tar.gz
+[2023-07-10 13:36:28] INFO root fetch - processPackages [paasta-tools]: Downloading https://files.pythonhosted.org/packages/4a/0d/4404f538f73fd9262e827faffa3ec48b8413a24ff7a44cb416e30e89634c/paasta-tools-0.92.0.tar.gz
+[2023-07-10 13:36:28] INFO root fetch - processPackages [ixoncdkingress]: Downloading https://files.pythonhosted.org/packages/b3/1b/2738933755f61b85947702010ca1d9403e64824e49dcdc082f1b61a07b4a/ixoncdkingress-0.0.8.tar.gz
+[2023-07-10 13:36:28] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/bc/60/34072c3e63de24c524d10927e5f675dd8aef3018d70d95bc91c3653f3a5c/odoo_addon_account_payment_order-16.0.1.1.1.3-py3-none-any.whl
+[2023-07-10 13:36:28] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/d6/b2/b77948f318b41f4c30bce37021e5eaab04bf7c8abae416af053b02be3370/torchserve_nightly-2023.7.8-py3-none-any.whl
+[2023-07-10 13:36:29] INFO root fetch - processPackages [huawei-solar]: Downloading https://files.pythonhosted.org/packages/52/54/8b8edd4fe7d3da59215c13a4f73cbcb21568572d1d606b6e4fead5c70c5a/huawei-solar-2.2.7b7.tar.gz
+[2023-07-10 13:36:29] INFO root fetch - processPackages [weatheril]: Downloading https://files.pythonhosted.org/packages/35/90/600e8f97f69b3553e9ab61b52e87a4a06f29d0a232ff55930d181e040806/weatheril-0.8.0.tar.gz
+[2023-07-10 13:36:29] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23750079>=10485760
+[2023-07-10 13:36:29] INFO root fetch - processPackages [torchserve-nightly]: Start processing: spaceone-cost-analysis
+[2023-07-10 13:36:29] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-07-10 13:36:29] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/fa/aa/2acd3c1df69eef6cb2f42f54b0fd7b1c220c14c65ccebdf7f555bda0304d/torch_model_archiver_nightly-2023.7.9-py3-none-any.whl
+[2023-07-10 13:36:29] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/fd/2b/bf7b3451d5e3a84e9a674b47e9f046c4db1f582764a85a4dfc00e14ecf00/hak-0.0.9.tar.gz
+[2023-07-10 13:36:29] INFO root fetch - processPackages [spaceone-cost-analysis]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-07-10 13:36:29] INFO root fetch - processPackages [django-jquery-datatables]: Downloading https://files.pythonhosted.org/packages/7e/01/d83075b90bbf99ffcc484682ec27b8c0629f2271b3a956f25b31ab23f95c/django_jquery_datatables-1.0.4.tar.gz
+[2023-07-10 13:36:29] INFO root fetch - processPackages [ixoncdkingress]: Downloading https://files.pythonhosted.org/packages/81/5d/64486ddfc794e9b261c3c76607feaa76e92ecb01cd26ffd13bced3ecac65/ixoncdkingress-0.0.9.tar.gz
+[2023-07-10 13:36:29] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-07-10 13:36:29] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.7.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.7.9-py3-none-any.whl.zip --markdown 20230710/t/torch-model-archiver-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-10 13:36:29] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/85/64/719d1f375094f31023cd2b97435870f17fea5d016d5f51fdd8250c664576/odoo_addon_account_payment_order-16.0.1.2.0-py3-none-any.whl
+[2023-07-10 13:36:29] INFO root fetch - processPackages [paasta-tools]: Downloading https://files.pythonhosted.org/packages/d8/f5/9a4c0134f4d0862da0cbcc57381d5c9f52e37ea937fa628e123433ccb7a4/paasta-tools-0.92.1.tar.gz
+[2023-07-10 13:36:29] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/fe/e1/e410f517fa560296c172a15440f705636cb42246e81398b27edb5a7c072f/torch_workflow_archiver_nightly-2023.7.9-py3-none-any.whl
+[2023-07-10 13:36:29] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-07-10 13:36:29] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.8.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230710/h/hak/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 13:36:29] INFO root fetch - processPackages [spaceone-cost-analysis]: Downloading https://files.pythonhosted.org/packages/ca/57/274de01859938ee0ea18fde02a27bd004721324e14d9173c1aed6ce505f5/spaceone_cost_analysis-1.9.7.1-py3-none-any.whl
+[2023-07-10 13:36:29] INFO root fetch - processPackages [ixoncdkingress]: executing diffoscope
+[2023-07-10 13:36:29] INFO root fetch - processPackages [ixoncdkingress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ixoncdkingress-0.0.8.tar.gz tmp/ixoncdkingress-0.0.9.tar.gz --markdown 20230710/i/ixoncdkingress/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 13:36:29] INFO root fetch - processPackages [django-jquery-datatables]: executing diffoscope
+[2023-07-10 13:36:29] INFO root fetch - processPackages [django-jquery-datatables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_jquery_datatables-1.0.3.tar.gz tmp/django_jquery_datatables-1.0.4.tar.gz --markdown 20230710/d/django-jquery-datatables/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-10 13:36:29] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-07-10 13:36:29] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.7.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.7.9-py3-none-any.whl.zip --markdown 20230710/t/torch-workflow-archiver-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-10 13:36:29] INFO root fetch - processPackages [huawei-solar]: Downloading https://files.pythonhosted.org/packages/5b/b6/e645ba9ad1028825187d5e2b889eb740d6606efa1b4060b5778a81508b74/huawei-solar-2.2.7b8.tar.gz
+[2023-07-10 13:36:29] INFO root fetch - processPackages [odoo-addon-account-payment-order]: executing diffoscope
+[2023-07-10 13:36:29] INFO root fetch - processPackages [odoo-addon-account-payment-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_order-16.0.1.1.1.3-py3-none-any.whl.zip tmp/odoo_addon_account_payment_order-16.0.1.2.0-py3-none-any.whl.zip --markdown 20230710/o/odoo-addon-account-payment-order/16.0.1.1.1.3-16.0.1.2.0/diff.md --exclude *.pyd
+[2023-07-10 13:36:29] INFO root fetch - processPackages [paasta-tools]: executing diffoscope
+[2023-07-10 13:36:29] INFO root fetch - processPackages [paasta-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paasta-tools-0.92.0.tar.gz tmp/paasta-tools-0.92.1.tar.gz --markdown 20230710/p/paasta-tools/0.92.0-0.92.1/diff.md --exclude *.pyd
+[2023-07-10 13:36:29] INFO root fetch - processPackages [weatheril]: Downloading https://files.pythonhosted.org/packages/28/c7/06fc7a9adffbedf7904b79d709b4b9cdee9fde760309afafcbdf4aa2323e/weatheril-0.9.0.tar.gz
+[2023-07-10 13:36:29] INFO root fetch - processPackages [huawei-solar]: executing diffoscope
+[2023-07-10 13:36:29] INFO root fetch - processPackages [huawei-solar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huawei-solar-2.2.7b7.tar.gz tmp/huawei-solar-2.2.7b8.tar.gz --markdown 20230710/h/huawei-solar/2.2.7b7-2.2.7b8/diff.md --exclude *.pyd
+[2023-07-10 13:36:30] INFO root fetch - processPackages [weatheril]: executing diffoscope
+[2023-07-10 13:36:30] INFO root fetch - processPackages [weatheril]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weatheril-0.8.0.tar.gz tmp/weatheril-0.9.0.tar.gz --markdown 20230710/w/weatheril/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-10 13:36:30] INFO root fetch - processPackages [spaceone-cost-analysis]: Downloading https://files.pythonhosted.org/packages/cf/26/f9d82f22108804a06ee9380b339d652897bc5997f046962edc93c30d5f6a/spaceone_cost_analysis-1.9.7rc1-py3-none-any.whl
+[2023-07-10 13:36:30] INFO root fetch - processPackages [spaceone-cost-analysis]: executing diffoscope
+[2023-07-10 13:36:30] INFO root fetch - processPackages [spaceone-cost-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_cost_analysis-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_cost_analysis-1.9.7rc1-py3-none-any.whl.zip --markdown 20230710/s/spaceone-cost-analysis/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-07-10 13:36:31] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.7.8-py3-none-any.whl.zip]
+[2023-07-10 13:36:31] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.7.9-py3-none-any.whl.zip]
+[2023-07-10 13:36:31] INFO root fetch - processPackages [torch-model-archiver-nightly]: Start processing: data-gradients
+[2023-07-10 13:36:31] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-07-10 13:36:32] INFO root fetch - processPackages [data-gradients]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-10 13:36:32] INFO root fetch - processPackages [django-jquery-datatables]: Remove: archive file [/home/abi/fetcher/tmp/django_jquery_datatables-1.0.3.tar.gz]
+[2023-07-10 13:36:32] INFO root fetch - processPackages [django-jquery-datatables]: Remove: archive file [/home/abi/fetcher/tmp/django_jquery_datatables-1.0.4.tar.gz]
+[2023-07-10 13:36:32] INFO root fetch - processPackages [django-jquery-datatables]: Start processing: austrakka
+[2023-07-10 13:36:32] INFO root fetch - main [MainThread]: End processing [django-jquery-datatables]: success
+[2023-07-10 13:36:32] INFO root fetch - processPackages [data-gradients]: Downloading https://files.pythonhosted.org/packages/84/fa/c092f9e12355d95972814a41c37a281c7e238a04e386190f3b2526733f52/data_gradients-0.1.1-py3-none-any.whl
+[2023-07-10 13:36:32] INFO root fetch - processPackages [ixoncdkingress]: Remove: archive file [/home/abi/fetcher/tmp/ixoncdkingress-0.0.8.tar.gz]
+[2023-07-10 13:36:32] INFO root fetch - processPackages [ixoncdkingress]: Remove: archive file [/home/abi/fetcher/tmp/ixoncdkingress-0.0.9.tar.gz]
+[2023-07-10 13:36:32] INFO root fetch - processPackages [ixoncdkingress]: Start processing: odoo-addon-sale-order-product-recommendation
+[2023-07-10 13:36:32] INFO root fetch - main [MainThread]: End processing [ixoncdkingress]: success
+[2023-07-10 13:36:32] INFO root fetch - processPackages [austrakka]: New version: [0.31.0] Old Version: [0.30.2]
+[2023-07-10 13:36:32] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.7.8-py3-none-any.whl.zip]
+[2023-07-10 13:36:32] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.7.9-py3-none-any.whl.zip]
+[2023-07-10 13:36:32] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Start processing: odd-cli
+[2023-07-10 13:36:32] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-07-10 13:36:32] INFO root fetch - processPackages [odoo-addon-sale-order-product-recommendation]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2023-07-10 13:36:32] INFO root fetch - processPackages [odd-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 13:36:32] INFO root fetch - processPackages [austrakka]: Downloading https://files.pythonhosted.org/packages/e4/6a/2849606210dfe2c613093c003f5acde8587fc0e56e40e1ce8c3d5973f014/austrakka-0.30.2-py3-none-any.whl
+[2023-07-10 13:36:32] INFO root fetch - processPackages [huawei-solar]: Remove: archive file [/home/abi/fetcher/tmp/huawei-solar-2.2.7b7.tar.gz]
+[2023-07-10 13:36:32] INFO root fetch - processPackages [huawei-solar]: Remove: archive file [/home/abi/fetcher/tmp/huawei-solar-2.2.7b8.tar.gz]
+[2023-07-10 13:36:32] INFO root fetch - processPackages [huawei-solar]: Start processing: ngmapi
+[2023-07-10 13:36:32] INFO root fetch - main [MainThread]: End processing [huawei-solar]: success
+[2023-07-10 13:36:32] INFO root fetch - processPackages [weatheril]: Remove: archive file [/home/abi/fetcher/tmp/weatheril-0.8.0.tar.gz]
+[2023-07-10 13:36:32] INFO root fetch - processPackages [weatheril]: Remove: archive file [/home/abi/fetcher/tmp/weatheril-0.9.0.tar.gz]
+[2023-07-10 13:36:32] INFO root fetch - processPackages [weatheril]: Start processing: fsrs4anki-optimizer
+[2023-07-10 13:36:32] INFO root fetch - main [MainThread]: End processing [weatheril]: success
+[2023-07-10 13:36:32] INFO root fetch - processPackages [odd-cli]: Downloading https://files.pythonhosted.org/packages/da/28/d59ec31015858eae56e776c482a6d087078806f2a41e3857b6903cecac2a/odd_cli-0.1.8.tar.gz
+[2023-07-10 13:36:32] INFO root fetch - processPackages [ngmapi]: New version: [0.0.46] Old Version: [0.0.45]
+[2023-07-10 13:36:32] INFO root fetch - processPackages [fsrs4anki-optimizer]: New version: [3.26.2] Old Version: [3.26.1]
+[2023-07-10 13:36:32] INFO root fetch - processPackages [odoo-addon-sale-order-product-recommendation]: Downloading https://files.pythonhosted.org/packages/37/99/d13a07da7592277b1c3e2902af147bf557ce4341a632a4d07a5c9c96af59/odoo_addon_sale_order_product_recommendation-16.0.1.0.0.4-py3-none-any.whl
+[2023-07-10 13:36:32] INFO root fetch - processPackages [data-gradients]: Downloading https://files.pythonhosted.org/packages/a8/52/1b3594f5ad06f218daa4872f912f07ed5c1f563c0e2942733130af4dc39a/data_gradients-0.1.2-py3-none-any.whl
+[2023-07-10 13:36:32] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/ab/6f/0952aedba8fefee28188ca2e95e4b66bf9be73e031c4b97d08fed84fd05e/ngmapi-0.0.45.tar.gz
+[2023-07-10 13:36:33] INFO root fetch - processPackages [data-gradients]: executing diffoscope
+[2023-07-10 13:36:33] INFO root fetch - processPackages [data-gradients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_gradients-0.1.1-py3-none-any.whl.zip tmp/data_gradients-0.1.2-py3-none-any.whl.zip --markdown 20230710/d/data-gradients/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-10 13:36:33] INFO root fetch - processPackages [odd-cli]: Downloading https://files.pythonhosted.org/packages/f9/f5/14c61e8cbd460872feffaa66736fc22bb7b7ec0e7dd265674cd0d657ccc4/odd_cli-0.1.9.tar.gz
+[2023-07-10 13:36:33] INFO root fetch - processPackages [austrakka]: Downloading https://files.pythonhosted.org/packages/09/05/42e5d43710a01cccfde9ff2ba8d3a71f5b4e18d83c2eaa8c29f3b72c973a/austrakka-0.31.0-py3-none-any.whl
+[2023-07-10 13:36:33] INFO root fetch - processPackages [fsrs4anki-optimizer]: Downloading https://files.pythonhosted.org/packages/57/23/61d20fd6876aa35867f29539898d7c79b06ec2e19369a96b05e99c01d46c/fsrs4anki_optimizer-3.26.1.tar.gz
+[2023-07-10 13:36:33] INFO root fetch - processPackages [ngmapi]: Downloading https://files.pythonhosted.org/packages/f6/d7/5ef0a442cba391030c928b9abb68f04de3782539a70fa42678fcbd715e41/ngmapi-0.0.46.tar.gz
+[2023-07-10 13:36:33] INFO root fetch - processPackages [odd-cli]: executing diffoscope
+[2023-07-10 13:36:33] INFO root fetch - processPackages [odd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odd_cli-0.1.8.tar.gz tmp/odd_cli-0.1.9.tar.gz --markdown 20230710/o/odd-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 13:36:33] INFO root fetch - processPackages [austrakka]: executing diffoscope
+[2023-07-10 13:36:33] INFO root fetch - processPackages [austrakka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/austrakka-0.30.2-py3-none-any.whl.zip tmp/austrakka-0.31.0-py3-none-any.whl.zip --markdown 20230710/a/austrakka/0.30.2-0.31.0/diff.md --exclude *.pyd
+[2023-07-10 13:36:33] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_order-16.0.1.1.1.3-py3-none-any.whl.zip]
+[2023-07-10 13:36:33] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_order-16.0.1.2.0-py3-none-any.whl.zip]
+[2023-07-10 13:36:33] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Start processing: card91-python-package
+[2023-07-10 13:36:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-order]: success
+[2023-07-10 13:36:33] INFO root fetch - processPackages [ngmapi]: executing diffoscope
+[2023-07-10 13:36:33] INFO root fetch - processPackages [ngmapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngmapi-0.0.45.tar.gz tmp/ngmapi-0.0.46.tar.gz --markdown 20230710/n/ngmapi/0.0.45-0.0.46/diff.md --exclude *.pyd
+[2023-07-10 13:36:33] INFO root fetch - processPackages [odoo-addon-sale-order-product-recommendation]: Downloading https://files.pythonhosted.org/packages/a6/8e/cce9e86ff8d85f78220e8daa0834b4ff225b32253a7e5e02c9eee895e960/odoo_addon_sale_order_product_recommendation-16.0.1.0.0.5-py3-none-any.whl
+[2023-07-10 13:36:33] INFO root fetch - processPackages [fsrs4anki-optimizer]: Downloading https://files.pythonhosted.org/packages/2f/28/35afe1a8f66487773391f00c954f4958d11c84d4b757cd25b3b30e896d5f/fsrs4anki_optimizer-3.26.2.tar.gz
+[2023-07-10 13:36:33] WARNING root fetch - processPackages [card91-python-package]: Skipping, unable to determine old version
+[2023-07-10 13:36:33] INFO root fetch - processPackages [card91-python-package]: Start processing: pg-bulk-ingest
+[2023-07-10 13:36:33] INFO root fetch - main [MainThread]: End processing [card91-python-package] error
+[2023-07-10 13:36:33] INFO root fetch - processPackages [pg-bulk-ingest]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 13:36:33] INFO root fetch - processPackages [odoo-addon-sale-order-product-recommendation]: executing diffoscope
+[2023-07-10 13:36:33] INFO root fetch - processPackages [odoo-addon-sale-order-product-recommendation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_order_product_recommendation-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_sale_order_product_recommendation-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230710/o/odoo-addon-sale-order-product-recommendation/16.0.1.0.0.4-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-07-10 13:36:33] INFO root fetch - processPackages [spaceone-cost-analysis]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_cost_analysis-1.9.7.1-py3-none-any.whl.zip]
+[2023-07-10 13:36:33] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.8.tar.gz]
+[2023-07-10 13:36:33] INFO root fetch - processPackages [spaceone-cost-analysis]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_cost_analysis-1.9.7rc1-py3-none-any.whl.zip]
+[2023-07-10 13:36:33] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
+[2023-07-10 13:36:33] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-07-10 13:36:33] INFO root fetch - main [MainThread]: End processing [spaceone-cost-analysis]: success
+[2023-07-10 13:36:33] INFO root fetch - processPackages [fsrs4anki-optimizer]: executing diffoscope
+[2023-07-10 13:36:33] INFO root fetch - processPackages [fsrs4anki-optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsrs4anki_optimizer-3.26.1.tar.gz tmp/fsrs4anki_optimizer-3.26.2.tar.gz --markdown 20230710/f/fsrs4anki-optimizer/3.26.1-3.26.2/diff.md --exclude *.pyd
+[2023-07-10 13:36:34] INFO root fetch - processPackages [pg-bulk-ingest]: Downloading https://files.pythonhosted.org/packages/e7/4c/79370bd20a6c816fde6c364043a829acf317c47786fa13893e26ccd005f6/pg_bulk_ingest-0.0.8.tar.gz
+[2023-07-10 13:36:34] INFO root fetch - processPackages [pg-bulk-ingest]: Downloading https://files.pythonhosted.org/packages/db/bb/df7525f74975aacf76789085425bed157db43bb21c9d69e39c9e4bedd944/pg_bulk_ingest-0.0.9.tar.gz
+[2023-07-10 13:36:34] INFO root fetch - processPackages [paasta-tools]: Remove: archive file [/home/abi/fetcher/tmp/paasta-tools-0.92.0.tar.gz]
+[2023-07-10 13:36:34] INFO root fetch - processPackages [paasta-tools]: Remove: archive file [/home/abi/fetcher/tmp/paasta-tools-0.92.1.tar.gz]
+[2023-07-10 13:36:34] INFO root fetch - main [MainThread]: End processing [paasta-tools]: success
+[2023-07-10 13:36:34] INFO root fetch - processPackages [pg-bulk-ingest]: executing diffoscope
+[2023-07-10 13:36:34] INFO root fetch - processPackages [pg-bulk-ingest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_bulk_ingest-0.0.8.tar.gz tmp/pg_bulk_ingest-0.0.9.tar.gz --markdown 20230710/p/pg-bulk-ingest/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 13:36:35] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.45.tar.gz]
+[2023-07-10 13:36:35] INFO root fetch - processPackages [ngmapi]: Remove: archive file [/home/abi/fetcher/tmp/ngmapi-0.0.46.tar.gz]
+[2023-07-10 13:36:35] INFO root fetch - main [MainThread]: End processing [ngmapi]: success
+[2023-07-10 13:36:35] INFO root fetch - processPackages [odd-cli]: Remove: archive file [/home/abi/fetcher/tmp/odd_cli-0.1.8.tar.gz]
+[2023-07-10 13:36:35] INFO root fetch - processPackages [odd-cli]: Remove: archive file [/home/abi/fetcher/tmp/odd_cli-0.1.9.tar.gz]
+[2023-07-10 13:36:35] INFO root fetch - main [MainThread]: End processing [odd-cli]: success
+[2023-07-10 13:36:35] INFO root fetch - processPackages [fsrs4anki-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/fsrs4anki_optimizer-3.26.1.tar.gz]
+[2023-07-10 13:36:35] INFO root fetch - processPackages [fsrs4anki-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/fsrs4anki_optimizer-3.26.2.tar.gz]
+[2023-07-10 13:36:35] INFO root fetch - main [MainThread]: End processing [fsrs4anki-optimizer]: success
+[2023-07-10 13:36:35] INFO root fetch - processPackages [odoo-addon-sale-order-product-recommendation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_product_recommendation-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-10 13:36:35] INFO root fetch - processPackages [odoo-addon-sale-order-product-recommendation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_product_recommendation-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-07-10 13:36:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-product-recommendation]: success
+[2023-07-10 13:36:35] INFO root fetch - processPackages [austrakka]: Remove: archive file [/home/abi/fetcher/tmp/austrakka-0.30.2-py3-none-any.whl.zip]
+[2023-07-10 13:36:35] INFO root fetch - processPackages [austrakka]: Remove: archive file [/home/abi/fetcher/tmp/austrakka-0.31.0-py3-none-any.whl.zip]
+[2023-07-10 13:36:35] INFO root fetch - main [MainThread]: End processing [austrakka]: success
+[2023-07-10 13:36:36] INFO root fetch - processPackages [data-gradients]: Remove: archive file [/home/abi/fetcher/tmp/data_gradients-0.1.1-py3-none-any.whl.zip]
+[2023-07-10 13:36:36] INFO root fetch - processPackages [data-gradients]: Remove: archive file [/home/abi/fetcher/tmp/data_gradients-0.1.2-py3-none-any.whl.zip]
+[2023-07-10 13:36:36] INFO root fetch - main [MainThread]: End processing [data-gradients]: success
+[2023-07-10 13:36:36] INFO root fetch - processPackages [pg-bulk-ingest]: Remove: archive file [/home/abi/fetcher/tmp/pg_bulk_ingest-0.0.8.tar.gz]
+[2023-07-10 13:36:36] INFO root fetch - processPackages [pg-bulk-ingest]: Remove: archive file [/home/abi/fetcher/tmp/pg_bulk_ingest-0.0.9.tar.gz]
+[2023-07-10 13:36:36] INFO root fetch - main [MainThread]: End processing [pg-bulk-ingest]: success
+[2023-07-10 13:36:36] INFO root fetch - main [MainThread]: Store serial: [18830052]
