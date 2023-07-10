@@ -7075,3 +7075,100 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 06:25:24] INFO root fetch - processPackages [edc-metadata]: Remove: archive file [/home/abi/fetcher/tmp/edc_metadata-0.3.9-py3-none-any.whl.zip]
 [2023-07-10 06:25:24] INFO root fetch - main [MainThread]: End processing [edc-metadata]: success
 [2023-07-10 06:25:24] INFO root fetch - main [MainThread]: Store serial: [18826350]
+[2023-07-10 06:30:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18826350]
+[2023-07-10 06:30:33] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-10 06:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edc-listboard
+[2023-07-10 06:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cm2py
+[2023-07-10 06:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: remindmail
+[2023-07-10 06:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oblv-client
+[2023-07-10 06:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edc-locator
+[2023-07-10 06:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bantam
+[2023-07-10 06:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: remindmail
+[2023-07-10 06:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: performancetest
+[2023-07-10 06:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pmdsky-debug-py
+[2023-07-10 06:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sydeploy
+[2023-07-10 06:30:34] INFO root fetch - processPackages [edc-listboard]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 06:30:34] INFO root fetch - processPackages [performancetest]: New version: [0.0.17] Old Version: [0.0.16]
+[2023-07-10 06:30:34] INFO root fetch - processPackages [pmdsky-debug-py]: New version: [7.0.2] Old Version: [7.0.1]
+[2023-07-10 06:30:34] INFO root fetch - processPackages [sydeploy]: New version: [0.2.94] Old Version: [0.2.93]
+[2023-07-10 06:30:34] INFO root fetch - processPackages [cm2py]: New version: [0.2.5] Old Version: [0.2.3]
+[2023-07-10 06:30:34] INFO root fetch - processPackages [remindmail]: New version: [2023.7.9.3] Old Version: [2023.7.9.2]
+[2023-07-10 06:30:34] WARNING root fetch - processPackages [oblv-client]: Skipping, unable to determine old version
+[2023-07-10 06:30:34] INFO root fetch - processPackages [oblv-client]: Start processing: oslui
+[2023-07-10 06:30:34] INFO root fetch - main [MainThread]: End processing [oblv-client] error
+[2023-07-10 06:30:34] INFO root fetch - processPackages [edc-locator]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-10 06:30:34] INFO root fetch - processPackages [bantam]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-07-10 06:30:34] INFO root fetch - processPackages [remindmail]: New version: [2023.7.9.3] Old Version: [2023.7.9.2]
+[2023-07-10 06:30:34] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/95/9c/9a71a323f85d272a0b8c60eb37b80ed1174c9f2bdb16e0a663c177fdc4b0/sydeploy-0.2.93-py3-none-any.whl
+[2023-07-10 06:30:34] WARNING root fetch - processPackages [oslui]: Skipping, unable to determine old version
+[2023-07-10 06:30:34] INFO root fetch - processPackages [oslui]: Start processing: bioutils
+[2023-07-10 06:30:34] INFO root fetch - main [MainThread]: End processing [oslui] error
+[2023-07-10 06:30:34] INFO root fetch - processPackages [performancetest]: Downloading https://files.pythonhosted.org/packages/09/8b/2ad82b3c6dfb6c69af3fc350af1d30313f75bad6231a932fb3634da28f08/performancetest-0.0.16.tar.gz
+[2023-07-10 06:30:34] INFO root fetch - processPackages [pmdsky-debug-py]: Downloading https://files.pythonhosted.org/packages/7e/4e/fd8ffb4ba1ffedbab81dc20ee70244f7b2fd95553d6e0df5ff6312210daf/pmdsky_debug_py-7.0.1-py3-none-any.whl
+[2023-07-10 06:30:34] INFO root fetch - processPackages [bioutils]: New version: [0.5.8rc1] Old Version: [0.5.8rc0]
+[2023-07-10 06:30:34] INFO root fetch - processPackages [bantam]: Downloading https://files.pythonhosted.org/packages/ff/c5/e83dfc5a3b00cbdcc83f7d76c63d2fb48e71947732e1e7f1346a5e84e650/bantam-2.4.8.tar.gz
+[2023-07-10 06:30:34] INFO root fetch - processPackages [cm2py]: Downloading https://files.pythonhosted.org/packages/07/92/1e77df4e1bea095c1caaf17fb20dfc568d2669c585d4d2a05ce3962cd8d1/cm2py-0.2.3-py3-none-any.whl
+[2023-07-10 06:30:34] INFO root fetch - processPackages [edc-locator]: Downloading https://files.pythonhosted.org/packages/23/dc/5dfe8e311dc347218bf82960648dd9859311bda95f3734940080bbee8770/edc_locator-0.3.8-py3-none-any.whl
+[2023-07-10 06:30:34] INFO root fetch - processPackages [remindmail]: Downloading https://files.pythonhosted.org/packages/9a/35/52edfe4964b9cb592cba3c66b031e1db314d8d701b43c6e226cb8372b999/remindmail-2023.7.9.2.tar.gz
+[2023-07-10 06:30:34] INFO root fetch - processPackages [remindmail]: Downloading https://files.pythonhosted.org/packages/9a/35/52edfe4964b9cb592cba3c66b031e1db314d8d701b43c6e226cb8372b999/remindmail-2023.7.9.2.tar.gz
+[2023-07-10 06:30:34] INFO root fetch - processPackages [bioutils]: Downloading https://files.pythonhosted.org/packages/46/fc/e603dfaeb016efd4aa09ba0151cd5a7874538f774f0ca37bbb62d9cc9614/bioutils-0.5.8rc0-py3-none-any.whl
+[2023-07-10 06:30:34] INFO root fetch - processPackages [edc-listboard]: Downloading https://files.pythonhosted.org/packages/44/da/9378ed95f6e91ff4cfd958e2962897c6f3779cfdaeee7da8f5694ceb0f2d/edc-listboard-0.1.8.tar.gz
+[2023-07-10 06:30:34] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/a2/b1/246218727c5e7e8022d30203255f8f1096ad4f8954207c56a42a884ff971/sydeploy-0.2.94-py3-none-any.whl
+[2023-07-10 06:30:34] INFO root fetch - processPackages [performancetest]: Downloading https://files.pythonhosted.org/packages/53/78/a256a5bed300183a79b7e43534020c41a6799f74426c4b63878b378ef64c/performancetest-0.0.17.tar.gz
+[2023-07-10 06:30:34] INFO root fetch - processPackages [sydeploy]: executing diffoscope
+[2023-07-10 06:30:34] INFO root fetch - processPackages [sydeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sydeploy-0.2.93-py3-none-any.whl.zip tmp/sydeploy-0.2.94-py3-none-any.whl.zip --markdown 20230710/s/sydeploy/0.2.93-0.2.94/diff.md --exclude *.pyd
+[2023-07-10 06:30:34] INFO root fetch - processPackages [cm2py]: Downloading https://files.pythonhosted.org/packages/65/df/6682da0c2528964396f9c917b477c67bb77413b67ae6402a9b78fb1f19bc/cm2py-0.2.5.tar.gz
+[2023-07-10 06:30:34] INFO root fetch - processPackages [pmdsky-debug-py]: Downloading https://files.pythonhosted.org/packages/7e/3b/0bd7e838055e0bedf75e33cac37e8169a1264dabf5f9fd75cbb11ea732c4/pmdsky_debug_py-7.0.2-py3-none-any.whl
+[2023-07-10 06:30:35] INFO root fetch - processPackages [performancetest]: executing diffoscope
+[2023-07-10 06:30:35] INFO root fetch - processPackages [performancetest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/performancetest-0.0.16.tar.gz tmp/performancetest-0.0.17.tar.gz --markdown 20230710/p/performancetest/0.0.16-0.0.17/diff.md --exclude *.pyd
+[2023-07-10 06:30:35] INFO root fetch - processPackages [bantam]: Downloading https://files.pythonhosted.org/packages/a4/e3/f6ae76173a8082d3121ab1ab91c821358649a8018eece5de89b7467d06ae/bantam-2.4.9.tar.gz
+[2023-07-10 06:30:35] INFO root fetch - processPackages [bioutils]: Downloading https://files.pythonhosted.org/packages/81/89/595ed17aeb392ae5cd7e55e776ada0598b183040f0628cbaa3e47559301c/bioutils-0.5.8rc1-py3-none-any.whl
+[2023-07-10 06:30:35] INFO root fetch - processPackages [remindmail]: Downloading https://files.pythonhosted.org/packages/5a/f7/2747dd070c5a58f4ca1d4bd5d26b621b5e53f4a98ffcbe7e0f394258b947/remindmail-2023.7.9.3.tar.gz
+[2023-07-10 06:30:35] INFO root fetch - processPackages [remindmail]: Downloading https://files.pythonhosted.org/packages/5a/f7/2747dd070c5a58f4ca1d4bd5d26b621b5e53f4a98ffcbe7e0f394258b947/remindmail-2023.7.9.3.tar.gz
+[2023-07-10 06:30:35] INFO root fetch - processPackages [cm2py]: executing diffoscope
+[2023-07-10 06:30:35] INFO root fetch - processPackages [cm2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cm2py-0.2.3-py3-none-any.whl.zip tmp/cm2py-0.2.5.tar.gz --markdown 20230710/c/cm2py/0.2.3-0.2.5/diff.md --exclude *.pyd
+[2023-07-10 06:30:35] INFO root fetch - processPackages [edc-locator]: Downloading https://files.pythonhosted.org/packages/8d/89/63cfcd98d138c00cbdb907bc1bf53adc8d3af73e2a79ce70d1e6deccd71a/edc_locator-0.3.9-py3-none-any.whl
+[2023-07-10 06:30:35] INFO root fetch - processPackages [bantam]: executing diffoscope
+[2023-07-10 06:30:35] INFO root fetch - processPackages [bantam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bantam-2.4.8.tar.gz tmp/bantam-2.4.9.tar.gz --markdown 20230710/b/bantam/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-07-10 06:30:35] INFO root fetch - processPackages [edc-listboard]: Downloading https://files.pythonhosted.org/packages/84/bc/1c7a5bec5a284a08fa57262f7da55208fe9e196d6cc02fbb483562dee2cc/edc-listboard-0.1.9.tar.gz
+[2023-07-10 06:30:35] INFO root fetch - processPackages [bioutils]: executing diffoscope
+[2023-07-10 06:30:35] INFO root fetch - processPackages [bioutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioutils-0.5.8rc0-py3-none-any.whl.zip tmp/bioutils-0.5.8rc1-py3-none-any.whl.zip --markdown 20230710/b/bioutils/0.5.8rc0-0.5.8rc1/diff.md --exclude *.pyd
+[2023-07-10 06:30:35] INFO root fetch - processPackages [pmdsky-debug-py]: executing diffoscope
+[2023-07-10 06:30:35] INFO root fetch - processPackages [pmdsky-debug-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmdsky_debug_py-7.0.1-py3-none-any.whl.zip tmp/pmdsky_debug_py-7.0.2-py3-none-any.whl.zip --markdown 20230710/p/pmdsky-debug-py/7.0.1-7.0.2/diff.md --exclude *.pyd
+[2023-07-10 06:30:35] INFO root fetch - processPackages [remindmail]: executing diffoscope
+[2023-07-10 06:30:35] INFO root fetch - processPackages [remindmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remindmail-2023.7.9.2.tar.gz tmp/remindmail-2023.7.9.3.tar.gz --markdown 20230710/r/remindmail/2023.7.9.2-2023.7.9.3/diff.md --exclude *.pyd
+[2023-07-10 06:30:35] INFO root fetch - processPackages [remindmail]: executing diffoscope
+[2023-07-10 06:30:35] INFO root fetch - processPackages [remindmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remindmail-2023.7.9.2.tar.gz tmp/remindmail-2023.7.9.3.tar.gz --markdown 20230710/r/remindmail/2023.7.9.2-2023.7.9.3/diff.md --exclude *.pyd
+[2023-07-10 06:30:35] INFO root fetch - processPackages [edc-listboard]: executing diffoscope
+[2023-07-10 06:30:35] INFO root fetch - processPackages [edc-listboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-listboard-0.1.8.tar.gz tmp/edc-listboard-0.1.9.tar.gz --markdown 20230710/e/edc-listboard/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 06:30:35] INFO root fetch - processPackages [edc-locator]: executing diffoscope
+[2023-07-10 06:30:35] INFO root fetch - processPackages [edc-locator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_locator-0.3.8-py3-none-any.whl.zip tmp/edc_locator-0.3.9-py3-none-any.whl.zip --markdown 20230710/e/edc-locator/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-10 06:30:36] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.93-py3-none-any.whl.zip]
+[2023-07-10 06:30:36] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.94-py3-none-any.whl.zip]
+[2023-07-10 06:30:36] INFO root fetch - main [MainThread]: End processing [sydeploy]: success
+[2023-07-10 06:30:36] INFO root fetch - processPackages [performancetest]: Remove: archive file [/home/abi/fetcher/tmp/performancetest-0.0.16.tar.gz]
+[2023-07-10 06:30:36] INFO root fetch - processPackages [performancetest]: Remove: archive file [/home/abi/fetcher/tmp/performancetest-0.0.17.tar.gz]
+[2023-07-10 06:30:36] INFO root fetch - main [MainThread]: End processing [performancetest]: success
+[2023-07-10 06:30:36] INFO root fetch - processPackages [cm2py]: Remove: archive file [/home/abi/fetcher/tmp/cm2py-0.2.3-py3-none-any.whl.zip]
+[2023-07-10 06:30:36] INFO root fetch - processPackages [cm2py]: Remove: archive file [/home/abi/fetcher/tmp/cm2py-0.2.5.tar.gz]
+[2023-07-10 06:30:36] INFO root fetch - main [MainThread]: End processing [cm2py]: success
+[2023-07-10 06:30:36] INFO root fetch - processPackages [bantam]: Remove: archive file [/home/abi/fetcher/tmp/bantam-2.4.8.tar.gz]
+[2023-07-10 06:30:36] INFO root fetch - processPackages [bantam]: Remove: archive file [/home/abi/fetcher/tmp/bantam-2.4.9.tar.gz]
+[2023-07-10 06:30:36] INFO root fetch - main [MainThread]: End processing [bantam]: success
+[2023-07-10 06:30:36] INFO root fetch - processPackages [remindmail]: Remove: archive file [/home/abi/fetcher/tmp/remindmail-2023.7.9.2.tar.gz]
+[2023-07-10 06:30:36] INFO root fetch - processPackages [remindmail]: Remove: archive file [/home/abi/fetcher/tmp/remindmail-2023.7.9.3.tar.gz]
+[2023-07-10 06:30:36] INFO root fetch - main [MainThread]: End processing [remindmail]: success
+[2023-07-10 06:30:37] INFO root fetch - main [MainThread]: End processing [remindmail]: success
+[2023-07-10 06:30:37] INFO root fetch - processPackages [edc-listboard]: Remove: archive file [/home/abi/fetcher/tmp/edc-listboard-0.1.8.tar.gz]
+[2023-07-10 06:30:37] INFO root fetch - processPackages [edc-listboard]: Remove: archive file [/home/abi/fetcher/tmp/edc-listboard-0.1.9.tar.gz]
+[2023-07-10 06:30:37] INFO root fetch - main [MainThread]: End processing [edc-listboard]: success
+[2023-07-10 06:30:37] INFO root fetch - processPackages [edc-locator]: Remove: archive file [/home/abi/fetcher/tmp/edc_locator-0.3.8-py3-none-any.whl.zip]
+[2023-07-10 06:30:37] INFO root fetch - processPackages [edc-locator]: Remove: archive file [/home/abi/fetcher/tmp/edc_locator-0.3.9-py3-none-any.whl.zip]
+[2023-07-10 06:30:37] INFO root fetch - main [MainThread]: End processing [edc-locator]: success
+[2023-07-10 06:30:37] INFO root fetch - processPackages [pmdsky-debug-py]: Remove: archive file [/home/abi/fetcher/tmp/pmdsky_debug_py-7.0.1-py3-none-any.whl.zip]
+[2023-07-10 06:30:37] INFO root fetch - processPackages [pmdsky-debug-py]: Remove: archive file [/home/abi/fetcher/tmp/pmdsky_debug_py-7.0.2-py3-none-any.whl.zip]
+[2023-07-10 06:30:37] INFO root fetch - main [MainThread]: End processing [pmdsky-debug-py]: success
+[2023-07-10 06:30:47] INFO root fetch - processPackages [bioutils]: Remove: archive file [/home/abi/fetcher/tmp/bioutils-0.5.8rc0-py3-none-any.whl.zip]
+[2023-07-10 06:30:47] INFO root fetch - processPackages [bioutils]: Remove: archive file [/home/abi/fetcher/tmp/bioutils-0.5.8rc1-py3-none-any.whl.zip]
+[2023-07-10 06:30:47] INFO root fetch - main [MainThread]: End processing [bioutils]: success
+[2023-07-10 06:30:47] INFO root fetch - main [MainThread]: Store serial: [18826427]
