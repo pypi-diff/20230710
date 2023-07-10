@@ -15536,3 +15536,91 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 13:10:05] INFO root fetch - processPackages [signxai]: Remove: archive file [/home/abi/fetcher/tmp/signxai-0.0.2.tar.gz]
 [2023-07-10 13:10:05] INFO root fetch - main [MainThread]: End processing [signxai]: success
 [2023-07-10 13:10:05] INFO root fetch - main [MainThread]: Store serial: [18829837]
+[2023-07-10 13:15:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18829837]
+[2023-07-10 13:15:14] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-10 13:15:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TheSilent
+[2023-07-10 13:15:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pastml
+[2023-07-10 13:15:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiomisc
+[2023-07-10 13:15:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-oz-gambitlinux
+[2023-07-10 13:15:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: paasta-tools
+[2023-07-10 13:15:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-semantic-versioning
+[2023-07-10 13:15:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: seatsio
+[2023-07-10 13:15:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: talkytrend
+[2023-07-10 13:15:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: TheSilent
+[2023-07-10 13:15:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: write-githubstat
+[2023-07-10 13:15:14] WARNING root fetch - processPackages [python-semantic-versioning]: Skipping, unable to determine old version
+[2023-07-10 13:15:14] INFO root fetch - processPackages [python-semantic-versioning]: Start processing: odoo14-addon-base-delivery-carrier-files
+[2023-07-10 13:15:14] INFO root fetch - main [MainThread]: End processing [python-semantic-versioning] error
+[2023-07-10 13:15:14] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-10 13:15:14] INFO root fetch - processPackages [talkytrend]: New version: [1.7.0] Old Version: [1.6.0]
+[2023-07-10 13:15:14] INFO root fetch - processPackages [pastml]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-10 13:15:14] INFO root fetch - processPackages [seatsio]: New version: [74.0.0] Old Version: [73.1.0]
+[2023-07-10 13:15:14] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-10 13:15:14] INFO root fetch - processPackages [write-githubstat]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-10 13:15:14] WARNING root fetch - processPackages [certora-cli-alpha-oz-gambitlinux]: Skipping, unable to determine old version
+[2023-07-10 13:15:14] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-oz-gambitlinux] error
+[2023-07-10 13:15:14] INFO root fetch - processPackages [odoo14-addon-base-delivery-carrier-files]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev8]
+[2023-07-10 13:15:14] INFO root fetch - processPackages [aiomisc]: New version: [9.8.4] Old Version: [9.8.1]
+[2023-07-10 13:15:14] INFO root fetch - processPackages [paasta-tools]: New version: [0.92.1] Old Version: [0.92.0]
+[2023-07-10 13:15:14] INFO root fetch - processPackages [pastml]: Downloading https://files.pythonhosted.org/packages/50/fd/974dd2408972e4b24c5de3010cb7171de70c4d7e9535d730a8a73422eb33/pastml-1.9.8.tar.gz
+[2023-07-10 13:15:14] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/1c/1a/b0628e6ae495a7a9bd9a5a967f0bc96d2800f92b086ffaa3304c6ae25c41/talkytrend-1.6.0.tar.gz
+[2023-07-10 13:15:14] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-10 13:15:14] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-10 13:15:14] INFO root fetch - processPackages [seatsio]: Downloading https://files.pythonhosted.org/packages/59/e5/69252cbdfbbd57b04c0792cc1c121ed119c4d4fd0bd43b27aae0146ccac6/seatsio-73.1.0.tar.gz
+[2023-07-10 13:15:14] INFO root fetch - processPackages [write-githubstat]: Downloading https://files.pythonhosted.org/packages/61/c2/c5b76dff5d956793912e2abd56f75472170cbaea96a8678adba0eeacb5fb/write_githubstat-0.1.3.tar.gz
+[2023-07-10 13:15:14] INFO root fetch - processPackages [aiomisc]: Downloading https://files.pythonhosted.org/packages/c2/5e/0147260c1e4e86e57f3580d773391c45e0148592e1be737a164b6956c434/aiomisc-9.8.1.tar.gz
+[2023-07-10 13:15:14] INFO root fetch - processPackages [odoo14-addon-base-delivery-carrier-files]: Downloading https://files.pythonhosted.org/packages/42/a3/c69d5f14e5c7c06532baa26ac34eede98a93e815e8ef97814a85ea1408ef/odoo14_addon_base_delivery_carrier_files-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-07-10 13:15:14] INFO root fetch - processPackages [paasta-tools]: Downloading https://files.pythonhosted.org/packages/4a/0d/4404f538f73fd9262e827faffa3ec48b8413a24ff7a44cb416e30e89634c/paasta-tools-0.92.0.tar.gz
+[2023-07-10 13:15:15] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/49/bd/52c3c5e7b6607ad5dbdcf5dda168e955cac3885d4bde0755bedd2f8d0d6f/talkytrend-1.7.0.tar.gz
+[2023-07-10 13:15:15] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-10 13:15:15] INFO root fetch - processPackages [pastml]: Downloading https://files.pythonhosted.org/packages/55/81/9714d09ee749e60dcd33b30721417fd5ae608a3a773f2525461bd519ba14/pastml-1.9.9.tar.gz
+[2023-07-10 13:15:15] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-10 13:15:15] INFO root fetch - processPackages [seatsio]: Downloading https://files.pythonhosted.org/packages/d0/ba/2d73742eb49006861b5cef62d8f4cb24028624560e03e4b864beebfe60a9/seatsio-74.0.0.tar.gz
+[2023-07-10 13:15:15] INFO root fetch - processPackages [write-githubstat]: Downloading https://files.pythonhosted.org/packages/df/d1/b98dc6d7a3a6bbcafc80f3a822117e458b1785d73f18a88c9e393d20cc0e/write_githubstat-0.1.4.tar.gz
+[2023-07-10 13:15:15] INFO root fetch - processPackages [talkytrend]: executing diffoscope
+[2023-07-10 13:15:15] INFO root fetch - processPackages [talkytrend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytrend-1.6.0.tar.gz tmp/talkytrend-1.7.0.tar.gz --markdown 20230710/t/talkytrend/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2023-07-10 13:15:15] INFO root fetch - processPackages [paasta-tools]: Downloading https://files.pythonhosted.org/packages/d8/f5/9a4c0134f4d0862da0cbcc57381d5c9f52e37ea937fa628e123433ccb7a4/paasta-tools-0.92.1.tar.gz
+[2023-07-10 13:15:15] INFO root fetch - processPackages [aiomisc]: Downloading https://files.pythonhosted.org/packages/93/ba/bd5f5955a4619763392f62584654683f73fc061715a99f405c324f3b51f9/aiomisc-9.8.4.tar.gz
+[2023-07-10 13:15:15] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-10 13:15:15] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230710/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-10 13:15:15] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-10 13:15:15] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230710/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-10 13:15:15] INFO root fetch - processPackages [odoo14-addon-base-delivery-carrier-files]: Downloading https://files.pythonhosted.org/packages/38/f0/7b915ef716e830d96599ee67fa4abe6f5ddcf243ac12101d5b1818bd78a7/odoo14_addon_base_delivery_carrier_files-14.0.1.0.1.dev9-py3-none-any.whl
+[2023-07-10 13:15:15] INFO root fetch - processPackages [pastml]: executing diffoscope
+[2023-07-10 13:15:15] INFO root fetch - processPackages [pastml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pastml-1.9.8.tar.gz tmp/pastml-1.9.9.tar.gz --markdown 20230710/p/pastml/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-10 13:15:15] INFO root fetch - processPackages [paasta-tools]: executing diffoscope
+[2023-07-10 13:15:15] INFO root fetch - processPackages [paasta-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paasta-tools-0.92.0.tar.gz tmp/paasta-tools-0.92.1.tar.gz --markdown 20230710/p/paasta-tools/0.92.0-0.92.1/diff.md --exclude *.pyd
+[2023-07-10 13:15:15] INFO root fetch - processPackages [write-githubstat]: executing diffoscope
+[2023-07-10 13:15:15] INFO root fetch - processPackages [write-githubstat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/write_githubstat-0.1.3.tar.gz tmp/write_githubstat-0.1.4.tar.gz --markdown 20230710/w/write-githubstat/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-10 13:15:15] INFO root fetch - processPackages [seatsio]: executing diffoscope
+[2023-07-10 13:15:15] INFO root fetch - processPackages [seatsio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seatsio-73.1.0.tar.gz tmp/seatsio-74.0.0.tar.gz --markdown 20230710/s/seatsio/73.1.0-74.0.0/diff.md --exclude *.pyd
+[2023-07-10 13:15:15] INFO root fetch - processPackages [aiomisc]: executing diffoscope
+[2023-07-10 13:15:15] INFO root fetch - processPackages [aiomisc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiomisc-9.8.1.tar.gz tmp/aiomisc-9.8.4.tar.gz --markdown 20230710/a/aiomisc/9.8.1-9.8.4/diff.md --exclude *.pyd
+[2023-07-10 13:15:15] INFO root fetch - processPackages [odoo14-addon-base-delivery-carrier-files]: executing diffoscope
+[2023-07-10 13:15:15] INFO root fetch - processPackages [odoo14-addon-base-delivery-carrier-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_base_delivery_carrier_files-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_base_delivery_carrier_files-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230710/o/odoo14-addon-base-delivery-carrier-files/14.0.1.0.1.dev8-14.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-07-10 13:15:16] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.6.0.tar.gz]
+[2023-07-10 13:15:16] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.7.0.tar.gz]
+[2023-07-10 13:15:16] INFO root fetch - main [MainThread]: End processing [talkytrend]: success
+[2023-07-10 13:15:16] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-10 13:15:16] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-10 13:15:16] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-10 13:15:17] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-10 13:15:17] INFO root fetch - processPackages [write-githubstat]: Remove: archive file [/home/abi/fetcher/tmp/write_githubstat-0.1.3.tar.gz]
+[2023-07-10 13:15:17] INFO root fetch - processPackages [write-githubstat]: Remove: archive file [/home/abi/fetcher/tmp/write_githubstat-0.1.4.tar.gz]
+[2023-07-10 13:15:17] INFO root fetch - main [MainThread]: End processing [write-githubstat]: success
+[2023-07-10 13:15:17] INFO root fetch - processPackages [pastml]: Remove: archive file [/home/abi/fetcher/tmp/pastml-1.9.8.tar.gz]
+[2023-07-10 13:15:17] INFO root fetch - processPackages [pastml]: Remove: archive file [/home/abi/fetcher/tmp/pastml-1.9.9.tar.gz]
+[2023-07-10 13:15:17] INFO root fetch - main [MainThread]: End processing [pastml]: success
+[2023-07-10 13:15:17] INFO root fetch - processPackages [seatsio]: Remove: archive file [/home/abi/fetcher/tmp/seatsio-73.1.0.tar.gz]
+[2023-07-10 13:15:17] INFO root fetch - processPackages [seatsio]: Remove: archive file [/home/abi/fetcher/tmp/seatsio-74.0.0.tar.gz]
+[2023-07-10 13:15:17] INFO root fetch - main [MainThread]: End processing [seatsio]: success
+[2023-07-10 13:15:17] INFO root fetch - processPackages [aiomisc]: Remove: archive file [/home/abi/fetcher/tmp/aiomisc-9.8.1.tar.gz]
+[2023-07-10 13:15:17] INFO root fetch - processPackages [aiomisc]: Remove: archive file [/home/abi/fetcher/tmp/aiomisc-9.8.4.tar.gz]
+[2023-07-10 13:15:17] INFO root fetch - main [MainThread]: End processing [aiomisc]: success
+[2023-07-10 13:15:17] INFO root fetch - processPackages [odoo14-addon-base-delivery-carrier-files]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_delivery_carrier_files-14.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2023-07-10 13:15:17] INFO root fetch - processPackages [odoo14-addon-base-delivery-carrier-files]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_delivery_carrier_files-14.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2023-07-10 13:15:17] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-delivery-carrier-files]: success
+[2023-07-10 13:15:18] INFO root fetch - processPackages [paasta-tools]: Remove: archive file [/home/abi/fetcher/tmp/paasta-tools-0.92.0.tar.gz]
+[2023-07-10 13:15:18] INFO root fetch - processPackages [paasta-tools]: Remove: archive file [/home/abi/fetcher/tmp/paasta-tools-0.92.1.tar.gz]
+[2023-07-10 13:15:18] INFO root fetch - main [MainThread]: End processing [paasta-tools]: success
+[2023-07-10 13:15:18] INFO root fetch - main [MainThread]: Store serial: [18829872]
