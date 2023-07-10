@@ -14552,3 +14552,114 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 12:22:47] INFO root fetch - processPackages [areixio]: Remove: archive file [/home/abi/fetcher/tmp/areixio-0.2.92.tar.gz]
 [2023-07-10 12:22:47] INFO root fetch - main [MainThread]: End processing [areixio]: success
 [2023-07-10 12:22:47] INFO root fetch - main [MainThread]: Store serial: [18829424]
+[2023-07-10 12:27:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18829424]
+[2023-07-10 12:28:01] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-10 12:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydflow
+[2023-07-10 12:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: threads-net
+[2023-07-10 12:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sihl
+[2023-07-10 12:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydoclint
+[2023-07-10 12:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: open-gpt-torch
+[2023-07-10 12:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-xbrl
+[2023-07-10 12:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fsleyes-props
+[2023-07-10 12:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ms-python-client
+[2023-07-10 12:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chainbench
+[2023-07-10 12:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: asfpy
+[2023-07-10 12:28:01] INFO root fetch - processPackages [threads-net]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-10 12:28:01] INFO root fetch - processPackages [pydoclint]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 12:28:01] INFO root fetch - processPackages [py-xbrl]: New version: [2.2.7] Old Version: [2.2.6]
+[2023-07-10 12:28:01] INFO root fetch - processPackages [chainbench]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-10 12:28:01] INFO root fetch - processPackages [sihl]: New version: [0.0.3.dev1] Old Version: [0.0.3.dev0]
+[2023-07-10 12:28:01] INFO root fetch - processPackages [open-gpt-torch]: New version: [0.0.9.dev2] Old Version: [0.0.9.dev1]
+[2023-07-10 12:28:01] INFO root fetch - processPackages [fsleyes-props]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-07-10 12:28:01] INFO root fetch - processPackages [ms-python-client]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-10 12:28:01] INFO root fetch - processPackages [asfpy]: New version: [0.9] Old Version: [0.8]
+[2023-07-10 12:28:01] INFO root fetch - processPackages [pydflow]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-07-10 12:28:01] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/11/ba/483f4770d7c413aff80cfdfd96da75d50912f6604255f4a04d7e8448a5a1/threads-net-0.0.7.tar.gz
+[2023-07-10 12:28:01] INFO root fetch - processPackages [ms-python-client]: Downloading https://files.pythonhosted.org/packages/30/bb/9de328831e95912cc0f0efc299eb667ddc929501209dda710b5a52abc154/ms_python_client-1.0.0.tar.gz
+[2023-07-10 12:28:01] INFO root fetch - processPackages [chainbench]: Downloading https://files.pythonhosted.org/packages/86/70/0b6c95105498261ce874467f2a4980890582887e9bd564decf2bcf447e05/chainbench-0.3.0.tar.gz
+[2023-07-10 12:28:01] INFO root fetch - processPackages [pydoclint]: Downloading https://files.pythonhosted.org/packages/88/64/f0f85cdb501e1d74fe72d7b3b306ad13f100598b427f8ff0e8568dc3a68f/pydoclint-0.0.8.tar.gz
+[2023-07-10 12:28:01] INFO root fetch - processPackages [open-gpt-torch]: Downloading https://files.pythonhosted.org/packages/26/81/fbe34f4ba5ac8fe314218f19136de0fb5155cfb04f58ec35a16bfc756c1a/open-gpt-torch-0.0.9.dev1.tar.gz
+[2023-07-10 12:28:01] INFO root fetch - processPackages [py-xbrl]: Downloading https://files.pythonhosted.org/packages/a6/99/e311ea9cb7b35f5ca1da21a9d3dccfdb8371297990762f9cd8f48a0e763b/py-xbrl-2.2.6.tar.gz
+[2023-07-10 12:28:01] INFO root fetch - processPackages [fsleyes-props]: Downloading https://files.pythonhosted.org/packages/39/12/5587c1dcef80e5beec9709b4c05bea6b88da7b772737bfdc18164da2ffb8/fsleyes-props-1.9.4.tar.gz
+[2023-07-10 12:28:01] INFO root fetch - processPackages [asfpy]: Downloading https://files.pythonhosted.org/packages/3a/c8/f6a76d839f060bc8966c52570d01bd6fe03a7a3c5b5bc353ea31f88f93cf/asfpy-0.8.tar.gz
+[2023-07-10 12:28:01] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/33/96/a989d9cfcdb5dcb43d60a72640c59e2efb7fd053182742205b332006f813/pydflow-1.7.8.tar.gz
+[2023-07-10 12:28:02] INFO root fetch - processPackages [sihl]: Downloading https://files.pythonhosted.org/packages/24/97/79dc43d40625ca5adfddd03e99581e0aef42cf3609ce4717c6cafa0cc52b/sihl-0.0.3.dev0.tar.gz
+[2023-07-10 12:28:02] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/de/bd/e372c12fe307c562ec3785151d74201431eddd2312171d55b8ee4ac81db6/threads-net-0.0.8.tar.gz
+[2023-07-10 12:28:02] INFO root fetch - processPackages [ms-python-client]: Downloading https://files.pythonhosted.org/packages/db/2b/9c1d870d161bd0773f9f16f75fcfc93d40b275309777f515532f842c6851/ms_python_client-1.0.1.tar.gz
+[2023-07-10 12:28:02] INFO root fetch - processPackages [chainbench]: Downloading https://files.pythonhosted.org/packages/ac/c6/8776dc39da6791312d86404062b34d1e874ab5e4ae015a114e01ea787c54/chainbench-0.3.1.tar.gz
+[2023-07-10 12:28:02] INFO root fetch - processPackages [threads-net]: executing diffoscope
+[2023-07-10 12:28:02] INFO root fetch - processPackages [threads-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threads-net-0.0.7.tar.gz tmp/threads-net-0.0.8.tar.gz --markdown 20230710/t/threads-net/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-10 12:28:02] INFO root fetch - processPackages [open-gpt-torch]: Downloading https://files.pythonhosted.org/packages/f2/39/4e48e66313b5aca4a636946a7f31cfdc9bc2b1b43c35fe150b8f915b85ea/open-gpt-torch-0.0.9.dev2.tar.gz
+[2023-07-10 12:28:02] INFO root fetch - processPackages [pydoclint]: Downloading https://files.pythonhosted.org/packages/08/fc/a46479a39d8bd265031e3186beb56d28f720613929d6a32ec23a11b6798b/pydoclint-0.0.9.tar.gz
+[2023-07-10 12:28:02] INFO root fetch - processPackages [asfpy]: Downloading https://files.pythonhosted.org/packages/52/39/791aabb53ac9b5babb229dbed13515d5245859521352b8ff681aab0626ec/asfpy-0.9.tar.gz
+[2023-07-10 12:28:02] INFO root fetch - processPackages [fsleyes-props]: Downloading https://files.pythonhosted.org/packages/b1/f4/963c63a88e514c6d4232fac4a5bfd4bdc48f22c3ddc46fa045ff0ed82c67/fsleyes-props-1.9.5.tar.gz
+[2023-07-10 12:28:02] INFO root fetch - processPackages [py-xbrl]: Downloading https://files.pythonhosted.org/packages/2c/16/6696a3f18dfd2fdf0941af5884990aac276af9f177229c67cf5654bd5398/py-xbrl-2.2.7.tar.gz
+[2023-07-10 12:28:02] INFO root fetch - processPackages [sihl]: Downloading https://files.pythonhosted.org/packages/ec/40/dac6148571491f772ccc2d98b75f999d9a14032ad22c77a6fa2b40a51c48/sihl-0.0.3.dev1.tar.gz
+[2023-07-10 12:28:02] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/9c/41/6c9bc72fde943869899725f55fade9f850f62ecbc6fa31e53b8fa79ae5a3/pydflow-1.7.9.tar.gz
+[2023-07-10 12:28:02] INFO root fetch - processPackages [ms-python-client]: executing diffoscope
+[2023-07-10 12:28:02] INFO root fetch - processPackages [ms-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_python_client-1.0.0.tar.gz tmp/ms_python_client-1.0.1.tar.gz --markdown 20230710/m/ms-python-client/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-10 12:28:02] INFO root fetch - processPackages [chainbench]: executing diffoscope
+[2023-07-10 12:28:02] INFO root fetch - processPackages [chainbench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainbench-0.3.0.tar.gz tmp/chainbench-0.3.1.tar.gz --markdown 20230710/c/chainbench/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-10 12:28:02] INFO root fetch - processPackages [open-gpt-torch]: executing diffoscope
+[2023-07-10 12:28:02] INFO root fetch - processPackages [open-gpt-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-gpt-torch-0.0.9.dev1.tar.gz tmp/open-gpt-torch-0.0.9.dev2.tar.gz --markdown 20230710/o/open-gpt-torch/0.0.9.dev1-0.0.9.dev2/diff.md --exclude *.pyd
+[2023-07-10 12:28:02] INFO root fetch - processPackages [pydoclint]: executing diffoscope
+[2023-07-10 12:28:02] INFO root fetch - processPackages [pydoclint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydoclint-0.0.8.tar.gz tmp/pydoclint-0.0.9.tar.gz --markdown 20230710/p/pydoclint/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 12:28:02] INFO root fetch - processPackages [asfpy]: executing diffoscope
+[2023-07-10 12:28:02] INFO root fetch - processPackages [asfpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asfpy-0.8.tar.gz tmp/asfpy-0.9.tar.gz --markdown 20230710/a/asfpy/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-10 12:28:02] INFO root fetch - processPackages [fsleyes-props]: executing diffoscope
+[2023-07-10 12:28:02] INFO root fetch - processPackages [fsleyes-props]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsleyes-props-1.9.4.tar.gz tmp/fsleyes-props-1.9.5.tar.gz --markdown 20230710/f/fsleyes-props/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-07-10 12:28:02] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-07-10 12:28:02] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.7.8.tar.gz tmp/pydflow-1.7.9.tar.gz --markdown 20230710/p/pydflow/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-07-10 12:28:02] INFO root fetch - processPackages [py-xbrl]: executing diffoscope
+[2023-07-10 12:28:02] INFO root fetch - processPackages [py-xbrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-xbrl-2.2.6.tar.gz tmp/py-xbrl-2.2.7.tar.gz --markdown 20230710/p/py-xbrl/2.2.6-2.2.7/diff.md --exclude *.pyd
+[2023-07-10 12:28:02] INFO root fetch - processPackages [sihl]: executing diffoscope
+[2023-07-10 12:28:02] INFO root fetch - processPackages [sihl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sihl-0.0.3.dev0.tar.gz tmp/sihl-0.0.3.dev1.tar.gz --markdown 20230710/s/sihl/0.0.3.dev0-0.0.3.dev1/diff.md --exclude *.pyd
+[2023-07-10 12:28:03] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.7.tar.gz]
+[2023-07-10 12:28:03] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.8.tar.gz]
+[2023-07-10 12:28:03] INFO root fetch - processPackages [threads-net]: Start processing: vectordb
+[2023-07-10 12:28:03] INFO root fetch - main [MainThread]: End processing [threads-net]: success
+[2023-07-10 12:28:03] INFO root fetch - processPackages [vectordb]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-10 12:28:04] INFO root fetch - processPackages [vectordb]: Downloading https://files.pythonhosted.org/packages/c3/8c/c5d7c24c4302d5028dc95791d7628401c3cc2159aff9e92076d2187de6c8/vectordb-0.0.4.tar.gz
+[2023-07-10 12:28:04] INFO root fetch - processPackages [asfpy]: Remove: archive file [/home/abi/fetcher/tmp/asfpy-0.8.tar.gz]
+[2023-07-10 12:28:04] INFO root fetch - processPackages [asfpy]: Remove: archive file [/home/abi/fetcher/tmp/asfpy-0.9.tar.gz]
+[2023-07-10 12:28:04] INFO root fetch - processPackages [asfpy]: Start processing: mecord-cli
+[2023-07-10 12:28:04] INFO root fetch - main [MainThread]: End processing [asfpy]: success
+[2023-07-10 12:28:04] INFO root fetch - processPackages [mecord-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 12:28:04] INFO root fetch - processPackages [ms-python-client]: Remove: archive file [/home/abi/fetcher/tmp/ms_python_client-1.0.0.tar.gz]
+[2023-07-10 12:28:04] INFO root fetch - processPackages [ms-python-client]: Remove: archive file [/home/abi/fetcher/tmp/ms_python_client-1.0.1.tar.gz]
+[2023-07-10 12:28:04] INFO root fetch - main [MainThread]: End processing [ms-python-client]: success
+[2023-07-10 12:28:04] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/99/07/defecf133b4a0c137e7272f092b0a7e4b36005e5d2e5b2e4f22949323973/mecord-cli-0.1.8.tar.gz
+[2023-07-10 12:28:04] INFO root fetch - processPackages [pydoclint]: Remove: archive file [/home/abi/fetcher/tmp/pydoclint-0.0.8.tar.gz]
+[2023-07-10 12:28:04] INFO root fetch - processPackages [pydoclint]: Remove: archive file [/home/abi/fetcher/tmp/pydoclint-0.0.9.tar.gz]
+[2023-07-10 12:28:04] INFO root fetch - main [MainThread]: End processing [pydoclint]: success
+[2023-07-10 12:28:04] INFO root fetch - processPackages [chainbench]: Remove: archive file [/home/abi/fetcher/tmp/chainbench-0.3.0.tar.gz]
+[2023-07-10 12:28:04] INFO root fetch - processPackages [chainbench]: Remove: archive file [/home/abi/fetcher/tmp/chainbench-0.3.1.tar.gz]
+[2023-07-10 12:28:04] INFO root fetch - main [MainThread]: End processing [chainbench]: success
+[2023-07-10 12:28:04] INFO root fetch - processPackages [vectordb]: Downloading https://files.pythonhosted.org/packages/02/f7/b1c94e0a1e4751323fc38f0865169f0febf90013b488f55822777d1e5877/vectordb-0.0.5.tar.gz
+[2023-07-10 12:28:04] INFO root fetch - processPackages [py-xbrl]: Remove: archive file [/home/abi/fetcher/tmp/py-xbrl-2.2.6.tar.gz]
+[2023-07-10 12:28:04] INFO root fetch - processPackages [py-xbrl]: Remove: archive file [/home/abi/fetcher/tmp/py-xbrl-2.2.7.tar.gz]
+[2023-07-10 12:28:04] INFO root fetch - main [MainThread]: End processing [py-xbrl]: success
+[2023-07-10 12:28:04] INFO root fetch - processPackages [open-gpt-torch]: Remove: archive file [/home/abi/fetcher/tmp/open-gpt-torch-0.0.9.dev1.tar.gz]
+[2023-07-10 12:28:04] INFO root fetch - processPackages [open-gpt-torch]: Remove: archive file [/home/abi/fetcher/tmp/open-gpt-torch-0.0.9.dev2.tar.gz]
+[2023-07-10 12:28:04] INFO root fetch - main [MainThread]: End processing [open-gpt-torch]: success
+[2023-07-10 12:28:04] INFO root fetch - processPackages [sihl]: Remove: archive file [/home/abi/fetcher/tmp/sihl-0.0.3.dev0.tar.gz]
+[2023-07-10 12:28:04] INFO root fetch - processPackages [sihl]: Remove: archive file [/home/abi/fetcher/tmp/sihl-0.0.3.dev1.tar.gz]
+[2023-07-10 12:28:04] INFO root fetch - main [MainThread]: End processing [sihl]: success
+[2023-07-10 12:28:04] INFO root fetch - processPackages [fsleyes-props]: Remove: archive file [/home/abi/fetcher/tmp/fsleyes-props-1.9.4.tar.gz]
+[2023-07-10 12:28:04] INFO root fetch - processPackages [fsleyes-props]: Remove: archive file [/home/abi/fetcher/tmp/fsleyes-props-1.9.5.tar.gz]
+[2023-07-10 12:28:04] INFO root fetch - main [MainThread]: End processing [fsleyes-props]: success
+[2023-07-10 12:28:04] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/2b/9f/dbf00e6cfb2e166744734b7095dec6d81a7ee7213a1ef56c5c29e85783a1/mecord-cli-0.1.9.tar.gz
+[2023-07-10 12:28:04] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.8.tar.gz]
+[2023-07-10 12:28:04] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.9.tar.gz]
+[2023-07-10 12:28:04] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-07-10 12:28:04] INFO root fetch - processPackages [vectordb]: executing diffoscope
+[2023-07-10 12:28:04] INFO root fetch - processPackages [vectordb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectordb-0.0.4.tar.gz tmp/vectordb-0.0.5.tar.gz --markdown 20230710/v/vectordb/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-10 12:28:04] INFO root fetch - processPackages [mecord-cli]: executing diffoscope
+[2023-07-10 12:28:04] INFO root fetch - processPackages [mecord-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecord-cli-0.1.8.tar.gz tmp/mecord-cli-0.1.9.tar.gz --markdown 20230710/m/mecord-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 12:28:05] INFO root fetch - processPackages [vectordb]: Remove: archive file [/home/abi/fetcher/tmp/vectordb-0.0.4.tar.gz]
+[2023-07-10 12:28:05] INFO root fetch - processPackages [vectordb]: Remove: archive file [/home/abi/fetcher/tmp/vectordb-0.0.5.tar.gz]
+[2023-07-10 12:28:05] INFO root fetch - main [MainThread]: End processing [vectordb]: success
+[2023-07-10 12:28:05] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.1.8.tar.gz]
+[2023-07-10 12:28:05] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.1.9.tar.gz]
+[2023-07-10 12:28:05] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
+[2023-07-10 12:28:05] INFO root fetch - main [MainThread]: Store serial: [18829460]
