@@ -14755,3 +14755,123 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 12:33:17] INFO root fetch - processPackages [pulumi-databricks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_databricks-1.9.0a1678745257.tar.gz]
 [2023-07-10 12:33:17] INFO root fetch - main [MainThread]: End processing [pulumi-databricks]: success
 [2023-07-10 12:33:17] INFO root fetch - main [MainThread]: Store serial: [18829506]
+[2023-07-10 12:38:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18829506]
+[2023-07-10 12:38:26] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-10 12:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adata
+[2023-07-10 12:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cognite-neat
+[2023-07-10 12:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: faasmctl
+[2023-07-10 12:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: androtools
+[2023-07-10 12:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: viramp-hub
+[2023-07-10 12:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nvfuser-cu121
+[2023-07-10 12:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SIGN-XAI
+[2023-07-10 12:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: funding-service-design-utils
+[2023-07-10 12:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: capsolver
+[2023-07-10 12:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zesty.zbs-api-securonix
+[2023-07-10 12:38:27] INFO root fetch - processPackages [funding-service-design-utils]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-10 12:38:27] INFO root fetch - processPackages [faasmctl]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-10 12:38:27] WARNING root fetch - processPackages [viramp-hub]: Skipping, unable to determine old version
+[2023-07-10 12:38:27] INFO root fetch - processPackages [viramp-hub]: Start processing: angmom-suite
+[2023-07-10 12:38:27] INFO root fetch - main [MainThread]: End processing [viramp-hub] error
+[2023-07-10 12:38:27] WARNING root fetch - processPackages [SIGN-XAI]: Skipping, unable to determine old version
+[2023-07-10 12:38:27] INFO root fetch - processPackages [SIGN-XAI]: Start processing: chaostoolkit-reliably
+[2023-07-10 12:38:27] INFO root fetch - main [MainThread]: End processing [SIGN-XAI] error
+[2023-07-10 12:38:27] INFO root fetch - processPackages [cognite-neat]: New version: [0.16.0] Old Version: [0.15.0]
+[2023-07-10 12:38:27] INFO root fetch - processPackages [capsolver]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-10 12:38:27] INFO root fetch - processPackages [androtools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 12:38:27] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-07-10 12:38:27] INFO root fetch - processPackages [adata]: New version: [0.0.9b0] Old Version: [0.0.8b0]
+[2023-07-10 12:38:27] INFO root fetch - processPackages [zesty.zbs-api-securonix]: New version: [1.0.2023.7.9.1688932894] Old Version: [1.0.2023.7.3.1688395274]
+[2023-07-10 12:38:27] INFO root fetch - processPackages [angmom-suite]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-07-10 12:38:27] INFO root fetch - processPackages [chaostoolkit-reliably]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-10 12:38:27] INFO root fetch - processPackages [funding-service-design-utils]: Downloading https://files.pythonhosted.org/packages/fc/05/ebfd1361ff3bd9a9b0a15e036dfd215e147713cb058c15778765feded45b/funding-service-design-utils-2.0.8.tar.gz
+[2023-07-10 12:38:27] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/95/33/299c4fca9a6cdbff4073a3411d36f979fa13fb7a03c6ba4a56eec39f2d19/faasmctl-0.2.2.tar.gz
+[2023-07-10 12:38:27] INFO root fetch - processPackages [androtools]: Downloading https://files.pythonhosted.org/packages/5b/cc/e5f1f5ab897c900b8ba03e4e402f9d1f75523052876efb75ab82a44ac2bb/androtools-0.1.8.tar.gz
+[2023-07-10 12:38:27] INFO root fetch - processPackages [zesty.zbs-api-securonix]: Downloading https://files.pythonhosted.org/packages/0d/4a/df1c85dbf2428152c3bd10ece6666a56b2945cd05f493ca462fd958dc7f4/zesty.zbs-api-securonix-1.0.2023.7.3.1688395274.tar.gz
+[2023-07-10 12:38:27] INFO root fetch - processPackages [capsolver]: Downloading https://files.pythonhosted.org/packages/f2/1f/c077f78978a65fe533e480f03973aa2022602d35410988f020fb51e1a909/capsolver-1.0.5.tar.gz
+[2023-07-10 12:38:27] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/50/44/2f61576cfec354c923c16563af2a2b0765936054e10e18eca0b458c190d0/cognite_neat-0.15.0.tar.gz
+[2023-07-10 12:38:27] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/b3/bf/667bd4aad6c776a5e62ad2f63da6dd5bb51f013f1ff3284d04efbf109991/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-10 12:38:27] INFO root fetch - processPackages [adata]: Downloading https://files.pythonhosted.org/packages/66/fd/d3c9b9a7b2572489cc2001d80eeca95b9e231b8b8c1d6f582fe0e62853c5/adata-0.0.8b0.tar.gz
+[2023-07-10 12:38:27] INFO root fetch - processPackages [angmom-suite]: Downloading https://files.pythonhosted.org/packages/0c/61/698f9619ad7ae1dda4e582a74dae0e7910c95d6910e49af840cd217ca385/angmom_suite-1.8.2.tar.gz
+[2023-07-10 12:38:27] INFO root fetch - processPackages [chaostoolkit-reliably]: Downloading https://files.pythonhosted.org/packages/32/df/58422a4f470f2c9c9d486c7b83bf6c238d72841a2ae64f0b7c88350a6b01/chaostoolkit-reliably-0.9.3.tar.gz
+[2023-07-10 12:38:27] INFO root fetch - processPackages [funding-service-design-utils]: Downloading https://files.pythonhosted.org/packages/64/dd/5468aa90577e921b62adb3b2a2ce40bcdbcbdf4133e3ffe35bab68233cc6/funding-service-design-utils-2.0.9.tar.gz
+[2023-07-10 12:38:27] INFO root fetch - processPackages [zesty.zbs-api-securonix]: Downloading https://files.pythonhosted.org/packages/d5/54/ff8ca57626db341af6c68b46cc7a7cb76cb002dbf18fe22557673284a3f0/zesty.zbs-api-securonix-1.0.2023.7.9.1688932894.tar.gz
+[2023-07-10 12:38:28] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/60/2d/590e4e0fcb17da4e90098bb831a082ae342bc9f17cd05d69757438bef0ea/faasmctl-0.2.3.tar.gz
+[2023-07-10 12:38:28] INFO root fetch - processPackages [androtools]: Downloading https://files.pythonhosted.org/packages/31/6e/e40d1ea5fd96e8f3b0b5c48b914c152439428ed2c0a0eba22c63f044e2b3/androtools-0.1.9.tar.gz
+[2023-07-10 12:38:28] INFO root fetch - processPackages [funding-service-design-utils]: executing diffoscope
+[2023-07-10 12:38:28] INFO root fetch - processPackages [funding-service-design-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funding-service-design-utils-2.0.8.tar.gz tmp/funding-service-design-utils-2.0.9.tar.gz --markdown 20230710/f/funding-service-design-utils/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-10 12:38:28] INFO root fetch - processPackages [zesty.zbs-api-securonix]: executing diffoscope
+[2023-07-10 12:38:28] INFO root fetch - processPackages [zesty.zbs-api-securonix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zesty.zbs-api-securonix-1.0.2023.7.3.1688395274.tar.gz tmp/zesty.zbs-api-securonix-1.0.2023.7.9.1688932894.tar.gz --markdown 20230710/z/zesty.zbs-api-securonix/1.0.2023.7.3.1688395274-1.0.2023.7.9.1688932894/diff.md --exclude *.pyd
+[2023-07-10 12:38:28] INFO root fetch - processPackages [faasmctl]: executing diffoscope
+[2023-07-10 12:38:28] INFO root fetch - processPackages [faasmctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faasmctl-0.2.2.tar.gz tmp/faasmctl-0.2.3.tar.gz --markdown 20230710/f/faasmctl/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-10 12:38:28] INFO root fetch - processPackages [androtools]: executing diffoscope
+[2023-07-10 12:38:28] INFO root fetch - processPackages [androtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/androtools-0.1.8.tar.gz tmp/androtools-0.1.9.tar.gz --markdown 20230710/a/androtools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 12:38:28] INFO root fetch - processPackages [capsolver]: Downloading https://files.pythonhosted.org/packages/9a/b0/232ba60fb2c1cbaf1efedeae42900011c3c7257d90ad58b371fd7d9111eb/capsolver-1.0.6.tar.gz
+[2023-07-10 12:38:28] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/8d/33/4ca0d9a4f3236e66b63631b0be387ead925d667c0522c309aa8585df688f/cognite_neat-0.16.0.tar.gz
+[2023-07-10 12:38:28] INFO root fetch - processPackages [adata]: Downloading https://files.pythonhosted.org/packages/a8/b4/65647d57045b6c7d198901b3c90bec97ada894e04e9504c736ca433399c0/adata-0.0.9b0.tar.gz
+[2023-07-10 12:38:28] INFO root fetch - processPackages [angmom-suite]: Downloading https://files.pythonhosted.org/packages/aa/f2/4b1999e91fe587a8c51098a142e94717915c29c1d2b7e5107e95bd5da4af/angmom_suite-1.9.0.tar.gz
+[2023-07-10 12:38:28] INFO root fetch - processPackages [chaostoolkit-reliably]: Downloading https://files.pythonhosted.org/packages/b8/c5/810c74691ec477bb4963d5199f379e4a81d6cce5b71db42bc848f3477e16/chaostoolkit-reliably-0.9.4.tar.gz
+[2023-07-10 12:38:28] INFO root fetch - processPackages [adata]: executing diffoscope
+[2023-07-10 12:38:28] INFO root fetch - processPackages [adata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adata-0.0.8b0.tar.gz tmp/adata-0.0.9b0.tar.gz --markdown 20230710/a/adata/0.0.8b0-0.0.9b0/diff.md --exclude *.pyd
+[2023-07-10 12:38:28] INFO root fetch - processPackages [capsolver]: executing diffoscope
+[2023-07-10 12:38:28] INFO root fetch - processPackages [capsolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capsolver-1.0.5.tar.gz tmp/capsolver-1.0.6.tar.gz --markdown 20230710/c/capsolver/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-10 12:38:28] INFO root fetch - processPackages [chaostoolkit-reliably]: executing diffoscope
+[2023-07-10 12:38:28] INFO root fetch - processPackages [chaostoolkit-reliably]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaostoolkit-reliably-0.9.3.tar.gz tmp/chaostoolkit-reliably-0.9.4.tar.gz --markdown 20230710/c/chaostoolkit-reliably/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-10 12:38:28] INFO root fetch - processPackages [angmom-suite]: executing diffoscope
+[2023-07-10 12:38:28] INFO root fetch - processPackages [angmom-suite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/angmom_suite-1.8.2.tar.gz tmp/angmom_suite-1.9.0.tar.gz --markdown 20230710/a/angmom-suite/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-07-10 12:38:28] INFO root fetch - processPackages [cognite-neat]: executing diffoscope
+[2023-07-10 12:38:28] INFO root fetch - processPackages [cognite-neat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_neat-0.15.0.tar.gz tmp/cognite_neat-0.16.0.tar.gz --markdown 20230710/c/cognite-neat/0.15.0-0.16.0/diff.md --exclude *.pyd
+[2023-07-10 12:38:28] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/05/3d/6c84b5f07a9f69349df1b20f64065b4cbd84158521710f47bb31051a8ee9/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-10 12:38:29] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2023-07-10 12:38:29] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230710/n/nvfuser-cu121/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-07-10 12:38:29] INFO root fetch - processPackages [androtools]: Remove: archive file [/home/abi/fetcher/tmp/androtools-0.1.8.tar.gz]
+[2023-07-10 12:38:29] INFO root fetch - processPackages [androtools]: Remove: archive file [/home/abi/fetcher/tmp/androtools-0.1.9.tar.gz]
+[2023-07-10 12:38:29] INFO root fetch - processPackages [androtools]: Start processing: surfinBH
+[2023-07-10 12:38:29] INFO root fetch - main [MainThread]: End processing [androtools]: success
+[2023-07-10 12:38:29] INFO root fetch - processPackages [surfinBH]: New version: [1.2.0] Old Version: [1.1.8]
+[2023-07-10 12:38:29] INFO root fetch - processPackages [zesty.zbs-api-securonix]: Remove: archive file [/home/abi/fetcher/tmp/zesty.zbs-api-securonix-1.0.2023.7.3.1688395274.tar.gz]
+[2023-07-10 12:38:29] INFO root fetch - processPackages [zesty.zbs-api-securonix]: Remove: archive file [/home/abi/fetcher/tmp/zesty.zbs-api-securonix-1.0.2023.7.9.1688932894.tar.gz]
+[2023-07-10 12:38:29] INFO root fetch - processPackages [zesty.zbs-api-securonix]: Start processing: fvnkylibs
+[2023-07-10 12:38:29] INFO root fetch - main [MainThread]: End processing [zesty.zbs-api-securonix]: success
+[2023-07-10 12:38:29] INFO root fetch - processPackages [funding-service-design-utils]: Remove: archive file [/home/abi/fetcher/tmp/funding-service-design-utils-2.0.8.tar.gz]
+[2023-07-10 12:38:29] INFO root fetch - processPackages [funding-service-design-utils]: Remove: archive file [/home/abi/fetcher/tmp/funding-service-design-utils-2.0.9.tar.gz]
+[2023-07-10 12:38:29] INFO root fetch - processPackages [funding-service-design-utils]: Start processing: TEST-TC
+[2023-07-10 12:38:29] INFO root fetch - main [MainThread]: End processing [funding-service-design-utils]: success
+[2023-07-10 12:38:29] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.2.2.tar.gz]
+[2023-07-10 12:38:29] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.2.3.tar.gz]
+[2023-07-10 12:38:29] INFO root fetch - main [MainThread]: End processing [faasmctl]: success
+[2023-07-10 12:38:29] WARNING root fetch - processPackages [fvnkylibs]: Skipping, unable to determine old version
+[2023-07-10 12:38:29] INFO root fetch - main [MainThread]: End processing [fvnkylibs] error
+[2023-07-10 12:38:29] INFO root fetch - processPackages [TEST-TC]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-10 12:38:29] INFO root fetch - processPackages [surfinBH]: Downloading https://files.pythonhosted.org/packages/01/db/f8b22631ef28071234049d06e161b3f4fd555416bff4b0d62c1ce6688bfa/surfinBH-1.1.8.tar.gz
+[2023-07-10 12:38:30] INFO root fetch - processPackages [capsolver]: Remove: archive file [/home/abi/fetcher/tmp/capsolver-1.0.5.tar.gz]
+[2023-07-10 12:38:30] INFO root fetch - processPackages [capsolver]: Remove: archive file [/home/abi/fetcher/tmp/capsolver-1.0.6.tar.gz]
+[2023-07-10 12:38:30] INFO root fetch - main [MainThread]: End processing [capsolver]: success
+[2023-07-10 12:38:30] INFO root fetch - processPackages [adata]: Remove: archive file [/home/abi/fetcher/tmp/adata-0.0.8b0.tar.gz]
+[2023-07-10 12:38:30] INFO root fetch - processPackages [adata]: Remove: archive file [/home/abi/fetcher/tmp/adata-0.0.9b0.tar.gz]
+[2023-07-10 12:38:30] INFO root fetch - main [MainThread]: End processing [adata]: success
+[2023-07-10 12:38:30] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/32/d7/25de7877d72acf5b8a5c4707f8513d08c9f5f082c469011ce71ebd71d5da/TEST_TC-1.0.2.tar.gz
+[2023-07-10 12:38:30] INFO root fetch - processPackages [chaostoolkit-reliably]: Remove: archive file [/home/abi/fetcher/tmp/chaostoolkit-reliably-0.9.3.tar.gz]
+[2023-07-10 12:38:30] INFO root fetch - processPackages [chaostoolkit-reliably]: Remove: archive file [/home/abi/fetcher/tmp/chaostoolkit-reliably-0.9.4.tar.gz]
+[2023-07-10 12:38:30] INFO root fetch - main [MainThread]: End processing [chaostoolkit-reliably]: success
+[2023-07-10 12:38:30] INFO root fetch - processPackages [angmom-suite]: Remove: archive file [/home/abi/fetcher/tmp/angmom_suite-1.8.2.tar.gz]
+[2023-07-10 12:38:30] INFO root fetch - processPackages [angmom-suite]: Remove: archive file [/home/abi/fetcher/tmp/angmom_suite-1.9.0.tar.gz]
+[2023-07-10 12:38:30] INFO root fetch - main [MainThread]: End processing [angmom-suite]: success
+[2023-07-10 12:38:30] INFO root fetch - processPackages [surfinBH]: Downloading https://files.pythonhosted.org/packages/ca/90/5e902fcd049b64cb9f660536978632348e6fd4d4095bddb7ec152d7a8144/surfinBH-1.2.0.tar.gz
+[2023-07-10 12:38:30] INFO root fetch - processPackages [surfinBH]: executing diffoscope
+[2023-07-10 12:38:30] INFO root fetch - processPackages [surfinBH]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfinBH-1.1.8.tar.gz tmp/surfinBH-1.2.0.tar.gz --markdown 20230710/s/surfinBH/1.1.8-1.2.0/diff.md --exclude *.pyd
+[2023-07-10 12:38:30] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/37/c8/d90022848811afe33c54b498469694a48c21a9620b11cb06849974616006/TEST_TC-1.0.3.tar.gz
+[2023-07-10 12:38:30] INFO root fetch - processPackages [TEST-TC]: executing diffoscope
+[2023-07-10 12:38:30] INFO root fetch - processPackages [TEST-TC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TEST_TC-1.0.2.tar.gz tmp/TEST_TC-1.0.3.tar.gz --markdown 20230710/T/TEST-TC/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-10 12:38:30] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-10 12:38:30] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-10 12:38:30] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2023-07-10 12:38:31] INFO root fetch - processPackages [surfinBH]: Remove: archive file [/home/abi/fetcher/tmp/surfinBH-1.1.8.tar.gz]
+[2023-07-10 12:38:31] INFO root fetch - processPackages [surfinBH]: Remove: archive file [/home/abi/fetcher/tmp/surfinBH-1.2.0.tar.gz]
+[2023-07-10 12:38:31] INFO root fetch - main [MainThread]: End processing [surfinBH]: success
+[2023-07-10 12:38:31] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-1.0.2.tar.gz]
+[2023-07-10 12:38:31] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-1.0.3.tar.gz]
+[2023-07-10 12:38:31] INFO root fetch - main [MainThread]: End processing [TEST-TC]: success
+[2023-07-10 12:38:31] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.15.0.tar.gz]
+[2023-07-10 12:38:31] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.16.0.tar.gz]
+[2023-07-10 12:38:31] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
+[2023-07-10 12:38:31] INFO root fetch - main [MainThread]: Store serial: [18829562]
