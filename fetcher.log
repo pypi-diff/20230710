@@ -8585,3 +8585,93 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 07:57:38] INFO root fetch - processPackages [Nuitka-winsvc]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-winsvc-1.7.3.tar.gz]
 [2023-07-10 07:57:38] INFO root fetch - main [MainThread]: End processing [Nuitka-winsvc]: success
 [2023-07-10 07:57:38] INFO root fetch - main [MainThread]: Store serial: [18826950]
+[2023-07-10 08:02:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18826950]
+[2023-07-10 08:02:48] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-10 08:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pythontest-unique-1-0-0
+[2023-07-10 08:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: truss
+[2023-07-10 08:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: samna
+[2023-07-10 08:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: typetype
+[2023-07-10 08:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: safeway-coupons
+[2023-07-10 08:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pwl_writer
+[2023-07-10 08:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lktbotfb
+[2023-07-10 08:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: halring
+[2023-07-10 08:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sWaraNuvad
+[2023-07-10 08:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: FeishuBitableAPI
+[2023-07-10 08:02:48] INFO root fetch - processPackages [typetype]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-10 08:02:48] INFO root fetch - processPackages [safeway-coupons]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-10 08:02:48] INFO root fetch - processPackages [FeishuBitableAPI]: New version: [3.3.0] Old Version: [3.2.9]
+[2023-07-10 08:02:48] INFO root fetch - processPackages [pwl_writer]: New version: [1.2.0] Old Version: [1.1.3]
+[2023-07-10 08:02:48] INFO root fetch - processPackages [halring]: New version: [2.2.4] Old Version: [2.2.3]
+[2023-07-10 08:02:48] WARNING root fetch - processPackages [lktbotfb]: Skipping, unable to determine old version
+[2023-07-10 08:02:48] INFO root fetch - processPackages [lktbotfb]: Start processing: pyno-logger
+[2023-07-10 08:02:48] INFO root fetch - main [MainThread]: End processing [lktbotfb] error
+[2023-07-10 08:02:48] INFO root fetch - processPackages [sWaraNuvad]: New version: [2.4.5] Old Version: [2.4.0]
+[2023-07-10 08:02:48] INFO root fetch - processPackages [truss]: New version: [0.4.9rc9] Old Version: [0.4.9rc5]
+[2023-07-10 08:02:48] INFO root fetch - processPackages [samna]: New version: [0.9.39.0] Old Version: [0.9.38.0]
+[2023-07-10 08:02:48] WARNING root fetch - processPackages [pythontest-unique-1-0-0]: Skipping, unable to determine old version
+[2023-07-10 08:02:48] INFO root fetch - main [MainThread]: End processing [pythontest-unique-1-0-0] error
+[2023-07-10 08:02:48] INFO root fetch - processPackages [typetype]: Downloading https://files.pythonhosted.org/packages/92/de/3aa6a4d20122ade98f742700c03a0f31c4e95aaaaa0fc334eed10cd756dd/typetype-1.0.2.tar.gz
+[2023-07-10 08:02:48] INFO root fetch - processPackages [safeway-coupons]: Downloading https://files.pythonhosted.org/packages/76/c4/cf5f1dbffd2e6000908ea8654aa6ef6bb094a64e71a387f139dfb3a0a33c/safeway_coupons-0.2.1.tar.gz
+[2023-07-10 08:02:48] INFO root fetch - processPackages [pyno-logger]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-10 08:02:49] INFO root fetch - processPackages [pwl_writer]: Downloading https://files.pythonhosted.org/packages/0b/ba/6a8a5bd98f442140a8475d01f151ffb9d6f86775bc2ee2aa69639c795937/pwl_writer-1.1.3.tar.gz
+[2023-07-10 08:02:49] INFO root fetch - processPackages [FeishuBitableAPI]: Downloading https://files.pythonhosted.org/packages/e9/a7/cc698439deebca99d67405dd93fa67dd7acb4da9cf93b18de73e76082494/FeishuBitableAPI-3.2.9.tar.gz
+[2023-07-10 08:02:49] INFO root fetch - processPackages [sWaraNuvad]: Downloading https://files.pythonhosted.org/packages/9a/a1/b3e2d579d9d89a996b0403788dab368b6f6fcd0eb6cc4bd412a31f63555d/sWaraNuvad-2.4.0.tar.gz
+[2023-07-10 08:02:49] INFO root fetch - processPackages [halring]: Downloading https://files.pythonhosted.org/packages/ee/f9/017948bf3a4024b4c62ae2db572cd8fd963e163db3a6a36674f7b930eef2/halring-2.2.3-py3-none-any.whl
+[2023-07-10 08:02:49] INFO root fetch - processPackages [samna]: Downloading https://files.pythonhosted.org/packages/ac/49/8e22575b9ef0f797dd5332cff83b9f2288c02887aeff0cb8048a960a2edb/samna-0.9.38.0-py3-none-any.whl
+[2023-07-10 08:02:49] INFO root fetch - processPackages [truss]: Downloading https://files.pythonhosted.org/packages/a5/ac/6da658c05b328c158997857f4315d9203f0c68cfcb1a90b247c8966bad5b/truss-0.4.9rc5.tar.gz
+[2023-07-10 08:02:49] INFO root fetch - processPackages [pyno-logger]: Downloading https://files.pythonhosted.org/packages/88/ab/ca7d6acb75cbd0614daf28bd570b9020c03d740323219b305747a5dfb016/pyno_logger-0.0.7.tar.gz
+[2023-07-10 08:02:49] INFO root fetch - processPackages [typetype]: Downloading https://files.pythonhosted.org/packages/24/78/5055eb507fe51eb909082f2326777900cf5f3dbbd81fe07f3420beb79549/typetype-1.0.3.tar.gz
+[2023-07-10 08:02:49] INFO root fetch - processPackages [safeway-coupons]: Downloading https://files.pythonhosted.org/packages/95/8a/f1f64d7094c407ecf8387dbc695dec111610d96f45203b4c2514d1c4ae3f/safeway_coupons-0.2.2.tar.gz
+[2023-07-10 08:02:49] INFO root fetch - processPackages [halring]: Downloading https://files.pythonhosted.org/packages/e4/a8/01166ddaf049e8a22a813daf9850d05c5ddcd834e16799f9839b44798fe5/halring-2.2.4-py3-none-any.whl
+[2023-07-10 08:02:49] INFO root fetch - processPackages [typetype]: executing diffoscope
+[2023-07-10 08:02:49] INFO root fetch - processPackages [typetype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typetype-1.0.2.tar.gz tmp/typetype-1.0.3.tar.gz --markdown 20230710/t/typetype/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-10 08:02:49] INFO root fetch - processPackages [safeway-coupons]: executing diffoscope
+[2023-07-10 08:02:49] INFO root fetch - processPackages [safeway-coupons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safeway_coupons-0.2.1.tar.gz tmp/safeway_coupons-0.2.2.tar.gz --markdown 20230710/s/safeway-coupons/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-10 08:02:49] INFO root fetch - processPackages [FeishuBitableAPI]: Downloading https://files.pythonhosted.org/packages/5b/5f/cc2a09955f3756858d70f4245fb825e3d5ddec55b99fdd386e84b17f479a/FeishuBitableAPI-3.3.0.tar.gz
+[2023-07-10 08:02:49] INFO root fetch - processPackages [samna]: Downloading https://files.pythonhosted.org/packages/00/d4/3de54a6c91f47d5c29700e274166c999cadaf0ba26c263d4a4b8a40342e2/samna-0.9.39.0-py3-none-any.whl
+[2023-07-10 08:02:49] INFO root fetch - processPackages [truss]: Downloading https://files.pythonhosted.org/packages/92/97/5f78d50e5618eaf7c5f3f918d7ea2a494d65cb8ebc0daf5e329af774240d/truss-0.4.9rc9.tar.gz
+[2023-07-10 08:02:49] INFO root fetch - processPackages [pwl_writer]: Downloading https://files.pythonhosted.org/packages/46/03/ba83a295e156cff85bc516739e2243bdfcb668a76c840322ba26945ba647/pwl_writer-1.2.0.tar.gz
+[2023-07-10 08:02:49] INFO root fetch - processPackages [sWaraNuvad]: Downloading https://files.pythonhosted.org/packages/9f/a2/62fa25c7c57de88217e8ca3966b2ed0b49a70bc444585ca3b8426b1136b2/sWaraNuvad-2.4.5.tar.gz
+[2023-07-10 08:02:49] INFO root fetch - processPackages [halring]: executing diffoscope
+[2023-07-10 08:02:49] INFO root fetch - processPackages [halring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/halring-2.2.3-py3-none-any.whl.zip tmp/halring-2.2.4-py3-none-any.whl.zip --markdown 20230710/h/halring/2.2.3-2.2.4/diff.md --exclude *.pyd
+[2023-07-10 08:02:49] INFO root fetch - processPackages [pyno-logger]: Downloading https://files.pythonhosted.org/packages/7e/65/0b15131b1181e79997429b0d3b9e2292c7bd0e1d90759f15f9d357ab0e64/pyno_logger-0.0.8.tar.gz
+[2023-07-10 08:02:49] INFO root fetch - processPackages [samna]: executing diffoscope
+[2023-07-10 08:02:49] INFO root fetch - processPackages [samna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samna-0.9.38.0-py3-none-any.whl.zip tmp/samna-0.9.39.0-py3-none-any.whl.zip --markdown 20230710/s/samna/0.9.38.0-0.9.39.0/diff.md --exclude *.pyd
+[2023-07-10 08:02:49] INFO root fetch - processPackages [FeishuBitableAPI]: executing diffoscope
+[2023-07-10 08:02:49] INFO root fetch - processPackages [FeishuBitableAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FeishuBitableAPI-3.2.9.tar.gz tmp/FeishuBitableAPI-3.3.0.tar.gz --markdown 20230710/F/FeishuBitableAPI/3.2.9-3.3.0/diff.md --exclude *.pyd
+[2023-07-10 08:02:49] INFO root fetch - processPackages [pwl_writer]: executing diffoscope
+[2023-07-10 08:02:49] INFO root fetch - processPackages [pwl_writer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwl_writer-1.1.3.tar.gz tmp/pwl_writer-1.2.0.tar.gz --markdown 20230710/p/pwl_writer/1.1.3-1.2.0/diff.md --exclude *.pyd
+[2023-07-10 08:02:49] INFO root fetch - processPackages [truss]: executing diffoscope
+[2023-07-10 08:02:49] INFO root fetch - processPackages [truss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truss-0.4.9rc5.tar.gz tmp/truss-0.4.9rc9.tar.gz --markdown 20230710/t/truss/0.4.9rc5-0.4.9rc9/diff.md --exclude *.pyd
+[2023-07-10 08:02:49] INFO root fetch - processPackages [sWaraNuvad]: executing diffoscope
+[2023-07-10 08:02:49] INFO root fetch - processPackages [sWaraNuvad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sWaraNuvad-2.4.0.tar.gz tmp/sWaraNuvad-2.4.5.tar.gz --markdown 20230710/s/sWaraNuvad/2.4.0-2.4.5/diff.md --exclude *.pyd
+[2023-07-10 08:02:49] INFO root fetch - processPackages [pyno-logger]: executing diffoscope
+[2023-07-10 08:02:49] INFO root fetch - processPackages [pyno-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyno_logger-0.0.7.tar.gz tmp/pyno_logger-0.0.8.tar.gz --markdown 20230710/p/pyno-logger/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-10 08:02:50] INFO root fetch - processPackages [typetype]: Remove: archive file [/home/abi/fetcher/tmp/typetype-1.0.2.tar.gz]
+[2023-07-10 08:02:50] INFO root fetch - processPackages [typetype]: Remove: archive file [/home/abi/fetcher/tmp/typetype-1.0.3.tar.gz]
+[2023-07-10 08:02:50] INFO root fetch - main [MainThread]: End processing [typetype]: success
+[2023-07-10 08:02:50] INFO root fetch - processPackages [safeway-coupons]: Remove: archive file [/home/abi/fetcher/tmp/safeway_coupons-0.2.1.tar.gz]
+[2023-07-10 08:02:50] INFO root fetch - processPackages [safeway-coupons]: Remove: archive file [/home/abi/fetcher/tmp/safeway_coupons-0.2.2.tar.gz]
+[2023-07-10 08:02:50] INFO root fetch - main [MainThread]: End processing [safeway-coupons]: success
+[2023-07-10 08:02:51] INFO root fetch - processPackages [samna]: Remove: archive file [/home/abi/fetcher/tmp/samna-0.9.38.0-py3-none-any.whl.zip]
+[2023-07-10 08:02:51] INFO root fetch - processPackages [samna]: Remove: archive file [/home/abi/fetcher/tmp/samna-0.9.39.0-py3-none-any.whl.zip]
+[2023-07-10 08:02:51] INFO root fetch - main [MainThread]: End processing [samna]: success
+[2023-07-10 08:02:51] INFO root fetch - processPackages [pwl_writer]: Remove: archive file [/home/abi/fetcher/tmp/pwl_writer-1.1.3.tar.gz]
+[2023-07-10 08:02:51] INFO root fetch - processPackages [pwl_writer]: Remove: archive file [/home/abi/fetcher/tmp/pwl_writer-1.2.0.tar.gz]
+[2023-07-10 08:02:51] INFO root fetch - main [MainThread]: End processing [pwl_writer]: success
+[2023-07-10 08:02:51] INFO root fetch - processPackages [pyno-logger]: Remove: archive file [/home/abi/fetcher/tmp/pyno_logger-0.0.7.tar.gz]
+[2023-07-10 08:02:51] INFO root fetch - processPackages [pyno-logger]: Remove: archive file [/home/abi/fetcher/tmp/pyno_logger-0.0.8.tar.gz]
+[2023-07-10 08:02:51] INFO root fetch - processPackages [FeishuBitableAPI]: Remove: archive file [/home/abi/fetcher/tmp/FeishuBitableAPI-3.2.9.tar.gz]
+[2023-07-10 08:02:51] INFO root fetch - processPackages [FeishuBitableAPI]: Remove: archive file [/home/abi/fetcher/tmp/FeishuBitableAPI-3.3.0.tar.gz]
+[2023-07-10 08:02:51] INFO root fetch - main [MainThread]: End processing [pyno-logger]: success
+[2023-07-10 08:02:51] INFO root fetch - main [MainThread]: End processing [FeishuBitableAPI]: success
+[2023-07-10 08:02:51] INFO root fetch - processPackages [sWaraNuvad]: Remove: archive file [/home/abi/fetcher/tmp/sWaraNuvad-2.4.0.tar.gz]
+[2023-07-10 08:02:51] INFO root fetch - processPackages [sWaraNuvad]: Remove: archive file [/home/abi/fetcher/tmp/sWaraNuvad-2.4.5.tar.gz]
+[2023-07-10 08:02:51] INFO root fetch - main [MainThread]: End processing [sWaraNuvad]: success
+[2023-07-10 08:02:51] INFO root fetch - processPackages [halring]: Remove: archive file [/home/abi/fetcher/tmp/halring-2.2.3-py3-none-any.whl.zip]
+[2023-07-10 08:02:51] INFO root fetch - processPackages [halring]: Remove: archive file [/home/abi/fetcher/tmp/halring-2.2.4-py3-none-any.whl.zip]
+[2023-07-10 08:02:51] INFO root fetch - main [MainThread]: End processing [halring]: success
+[2023-07-10 08:02:51] INFO root fetch - processPackages [truss]: Remove: archive file [/home/abi/fetcher/tmp/truss-0.4.9rc5.tar.gz]
+[2023-07-10 08:02:51] INFO root fetch - processPackages [truss]: Remove: archive file [/home/abi/fetcher/tmp/truss-0.4.9rc9.tar.gz]
+[2023-07-10 08:02:51] INFO root fetch - main [MainThread]: End processing [truss]: success
+[2023-07-10 08:02:51] INFO root fetch - main [MainThread]: Store serial: [18826985]
