@@ -13187,3 +13187,147 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 11:23:57] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
 [2023-07-10 11:23:57] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
 [2023-07-10 11:23:57] INFO root fetch - main [MainThread]: Store serial: [18828897]
+[2023-07-10 11:29:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18828897]
+[2023-07-10 11:29:06] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-10 11:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2023-07-10 11:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spanishconjugator
+[2023-07-10 11:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rstream
+[2023-07-10 11:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tej-tool-api
+[2023-07-10 11:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: AlgorithmLib
+[2023-07-10 11:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aioqui
+[2023-07-10 11:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rongdavbaaddins
+[2023-07-10 11:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: SwarAnuvad
+[2023-07-10 11:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tbp-nightly
+[2023-07-10 11:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: changecode
+[2023-07-10 11:29:07] INFO root fetch - processPackages [rongdavbaaddins]: New version: [0.1.0.3] Old Version: [0.1.0.2]
+[2023-07-10 11:29:07] INFO root fetch - processPackages [changecode]: New version: [0.0.2] Old Version: [0.0.1b0]
+[2023-07-10 11:29:07] INFO root fetch - processPackages [rstream]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-10 11:29:07] INFO root fetch - processPackages [tej-tool-api]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-10 11:29:07] INFO root fetch - processPackages [AlgorithmLib]: New version: [3.9.9] Old Version: [3.9.8]
+[2023-07-10 11:29:07] WARNING root fetch - processPackages [SwarAnuvad]: Skipping, unable to determine old version
+[2023-07-10 11:29:07] INFO root fetch - processPackages [SwarAnuvad]: Start processing: irene-pro
+[2023-07-10 11:29:07] INFO root fetch - main [MainThread]: End processing [SwarAnuvad] error
+[2023-07-10 11:29:07] INFO root fetch - processPackages [aioqui]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-10 11:29:07] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-10 11:29:07] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-10 11:29:07] INFO root fetch - processPackages [aioqui]: Downloading https://files.pythonhosted.org/packages/22/fd/20d4fab53f929ea520def7875d10c94f4fe555cdc0e9279c4ea0d17a6e9e/aioqui-2.1.8.tar.gz
+[2023-07-10 11:29:07] INFO root fetch - processPackages [irene-pro]: New version: [0.0.94] Old Version: [0.0.93]
+[2023-07-10 11:29:07] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-07-10 11:29:07] INFO root fetch - processPackages [AlgorithmLib]: Downloading https://files.pythonhosted.org/packages/78/f1/2fbac4aa9ef115eda50059c81431330d595bbf744e9ac898466afc3a85ee/AlgorithmLib-3.9.8.tar.gz
+[2023-07-10 11:29:07] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/54/10/58baac6ba30f38a873da98bd2bc86bb56699c24a3a4a54b6b119a23cd0b8/rongdavbaaddins-0.1.0.2.tar.gz
+[2023-07-10 11:29:07] INFO root fetch - processPackages [changecode]: Downloading https://files.pythonhosted.org/packages/35/95/b4afa0e6ba576e8c06eccfcb0642a02d91b6df84fac21b9ff2cda45fcd68/changecode-0.0.1b0.tar.gz
+[2023-07-10 11:29:07] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-10 11:29:07] INFO root fetch - processPackages [rstream]: Downloading https://files.pythonhosted.org/packages/b9/02/cda6be5ba5d1adb01bada1d2cfaec91e30f2d6ec2a048f9fa170aa87f94d/rstream-0.8.1.tar.gz
+[2023-07-10 11:29:07] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-10 11:29:07] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/d9/52/8833efb0ca5971cd662b66d8f9e0cf85fca24e9e7da3d70d849bc0aa735b/irene_pro-0.0.93.tar.gz
+[2023-07-10 11:29:07] INFO root fetch - processPackages [tej-tool-api]: Downloading https://files.pythonhosted.org/packages/50/ea/231f17554f9bb2d72ee63a8d2539ab5f8ff96cd170346507e80d28a5252f/tej-tool-api-1.0.1.tar.gz
+[2023-07-10 11:29:07] WARNING root fetch - processPackages [AlgorithmLib]: Skipping package: exceeds size limit 14952675>=10485760
+[2023-07-10 11:29:07] INFO root fetch - processPackages [AlgorithmLib]: Start processing: seventv
+[2023-07-10 11:29:07] INFO root fetch - main [MainThread]: End processing [AlgorithmLib] error
+[2023-07-10 11:29:07] INFO root fetch - processPackages [seventv]: New version: [2.4.0] Old Version: [2.3.3]
+[2023-07-10 11:29:07] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2023-07-10 11:29:07] INFO root fetch - processPackages [seventv]: Downloading https://files.pythonhosted.org/packages/ae/91/ed7ce263ae75e26cf6731835aa625a4fb656c3aabf334ab5432caa63c664/seventv-2.3.3.tar.gz
+[2023-07-10 11:29:07] INFO root fetch - processPackages [changecode]: Downloading https://files.pythonhosted.org/packages/07/ac/dac8242f60a7ac356b7bf1a1508012cb659bcfa7a46997a673cb3981e074/changecode-0.0.2.tar.gz
+[2023-07-10 11:29:07] INFO root fetch - processPackages [aioqui]: Downloading https://files.pythonhosted.org/packages/57/ed/0a495d64c34e7231be831a2e5c8c4f72a4c1e127db36502e72aca015e92f/aioqui-2.1.9.tar.gz
+[2023-07-10 11:29:07] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/a2/1b/85ce69715f478ddbce43842fd2d4794ce1f5094ca7576c7935e72a259bf4/irene_pro-0.0.94.tar.gz
+[2023-07-10 11:29:08] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-10 11:29:08] INFO root fetch - processPackages [rstream]: Downloading https://files.pythonhosted.org/packages/92/ef/61a6ea12a0afe157e759df9abbbb973d4d75526af47b4b5bddf4f613b288/rstream-0.9.0.tar.gz
+[2023-07-10 11:29:08] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-10 11:29:08] INFO root fetch - processPackages [tej-tool-api]: Downloading https://files.pythonhosted.org/packages/cc/a4/073bfadbb454575db83dcb75468af85e424ca0893f9bd39c85f0ba12e566/tej-tool-api-1.0.2.tar.gz
+[2023-07-10 11:29:08] INFO root fetch - processPackages [changecode]: executing diffoscope
+[2023-07-10 11:29:08] INFO root fetch - processPackages [changecode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/changecode-0.0.1b0.tar.gz tmp/changecode-0.0.2.tar.gz --markdown 20230710/c/changecode/0.0.1b0-0.0.2/diff.md --exclude *.pyd
+[2023-07-10 11:29:08] INFO root fetch - processPackages [aioqui]: executing diffoscope
+[2023-07-10 11:29:08] INFO root fetch - processPackages [aioqui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioqui-2.1.8.tar.gz tmp/aioqui-2.1.9.tar.gz --markdown 20230710/a/aioqui/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-10 11:29:08] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-07-10 11:29:08] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.0.93.tar.gz tmp/irene_pro-0.0.94.tar.gz --markdown 20230710/i/irene-pro/0.0.93-0.0.94/diff.md --exclude *.pyd
+[2023-07-10 11:29:08] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-10 11:29:08] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230710/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-10 11:29:08] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-10 11:29:08] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230710/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-10 11:29:08] INFO root fetch - processPackages [rstream]: executing diffoscope
+[2023-07-10 11:29:08] INFO root fetch - processPackages [rstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rstream-0.8.1.tar.gz tmp/rstream-0.9.0.tar.gz --markdown 20230710/r/rstream/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-10 11:29:08] INFO root fetch - processPackages [tej-tool-api]: executing diffoscope
+[2023-07-10 11:29:08] INFO root fetch - processPackages [tej-tool-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tej-tool-api-1.0.1.tar.gz tmp/tej-tool-api-1.0.2.tar.gz --markdown 20230710/t/tej-tool-api/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-10 11:29:08] INFO root fetch - processPackages [seventv]: Downloading https://files.pythonhosted.org/packages/ca/99/3df54e08ae024e5f2b34c38b2d2a45da4bea55fdc2a4305fe0b5e69976b9/seventv-2.4.0.tar.gz
+[2023-07-10 11:29:08] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/a7/33/48d9e016baeb48eda24c5274a266f084452a530eee5b605128b7d8abd984/rongdavbaaddins-0.1.0.3.tar.gz
+[2023-07-10 11:29:08] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2023-07-10 11:29:08] INFO root fetch - processPackages [seventv]: executing diffoscope
+[2023-07-10 11:29:08] INFO root fetch - processPackages [seventv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seventv-2.3.3.tar.gz tmp/seventv-2.4.0.tar.gz --markdown 20230710/s/seventv/2.3.3-2.4.0/diff.md --exclude *.pyd
+[2023-07-10 11:29:08] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-07-10 11:29:08] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230710/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-07-10 11:29:09] INFO root fetch - processPackages [rongdavbaaddins]: executing diffoscope
+[2023-07-10 11:29:09] INFO root fetch - processPackages [rongdavbaaddins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rongdavbaaddins-0.1.0.2.tar.gz tmp/rongdavbaaddins-0.1.0.3.tar.gz --markdown 20230710/r/rongdavbaaddins/0.1.0.2-0.1.0.3/diff.md --exclude *.pyd
+[2023-07-10 11:29:10] INFO root fetch - processPackages [changecode]: Remove: archive file [/home/abi/fetcher/tmp/changecode-0.0.1b0.tar.gz]
+[2023-07-10 11:29:10] INFO root fetch - processPackages [changecode]: Remove: archive file [/home/abi/fetcher/tmp/changecode-0.0.2.tar.gz]
+[2023-07-10 11:29:10] INFO root fetch - processPackages [changecode]: Start processing: nonebot-plugin-herocard
+[2023-07-10 11:29:10] INFO root fetch - main [MainThread]: End processing [changecode]: success
+[2023-07-10 11:29:10] INFO root fetch - processPackages [nonebot-plugin-herocard]: New version: [1.0.5] Old Version: [1.0.3]
+[2023-07-10 11:29:11] INFO root fetch - processPackages [nonebot-plugin-herocard]: Downloading https://files.pythonhosted.org/packages/28/b3/9018f6ffc2eab5b8b9caa7f495a94845faa9ec5a88316899475aff29f244/nonebot-plugin-herocard-1.0.3.tar.gz
+[2023-07-10 11:29:11] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.93.tar.gz]
+[2023-07-10 11:29:11] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.94.tar.gz]
+[2023-07-10 11:29:11] INFO root fetch - processPackages [irene-pro]: Start processing: streamlit-baseweb
+[2023-07-10 11:29:11] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-07-10 11:29:11] INFO root fetch - processPackages [streamlit-baseweb]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-10 11:29:11] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-10 11:29:11] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-10 11:29:11] INFO root fetch - processPackages [spanishconjugator]: Start processing: jimit
+[2023-07-10 11:29:11] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-10 11:29:11] INFO root fetch - processPackages [jimit]: New version: [3.9.5] Old Version: [3.9.4]
+[2023-07-10 11:29:11] INFO root fetch - processPackages [nonebot-plugin-herocard]: Downloading https://files.pythonhosted.org/packages/86/92/93b4577f183b6921f2757f10d62ef7e879d43d6bbc5ce5d74d9a6af10746/nonebot-plugin-herocard-1.0.5.tar.gz
+[2023-07-10 11:29:11] INFO root fetch - processPackages [streamlit-baseweb]: Downloading https://files.pythonhosted.org/packages/a2/fe/b066693ae6df535e405c8fcaf6ba0ec109117c564bcfdcb4e6a342a8ce54/streamlit_baseweb-0.1.1.tar.gz
+[2023-07-10 11:29:11] INFO root fetch - processPackages [tej-tool-api]: Remove: archive file [/home/abi/fetcher/tmp/tej-tool-api-1.0.1.tar.gz]
+[2023-07-10 11:29:11] INFO root fetch - processPackages [tej-tool-api]: Remove: archive file [/home/abi/fetcher/tmp/tej-tool-api-1.0.2.tar.gz]
+[2023-07-10 11:29:11] INFO root fetch - processPackages [tej-tool-api]: Start processing: pyfirebird
+[2023-07-10 11:29:11] INFO root fetch - main [MainThread]: End processing [tej-tool-api]: success
+[2023-07-10 11:29:11] INFO root fetch - processPackages [rstream]: Remove: archive file [/home/abi/fetcher/tmp/rstream-0.8.1.tar.gz]
+[2023-07-10 11:29:11] INFO root fetch - processPackages [rstream]: Remove: archive file [/home/abi/fetcher/tmp/rstream-0.9.0.tar.gz]
+[2023-07-10 11:29:11] INFO root fetch - processPackages [rstream]: Start processing: dataverse-sdk
+[2023-07-10 11:29:11] INFO root fetch - main [MainThread]: End processing [rstream]: success
+[2023-07-10 11:29:11] INFO root fetch - processPackages [pyfirebird]: New version: [0.0.80] Old Version: [0.0.79]
+[2023-07-10 11:29:11] INFO root fetch - processPackages [seventv]: Remove: archive file [/home/abi/fetcher/tmp/seventv-2.3.3.tar.gz]
+[2023-07-10 11:29:11] INFO root fetch - processPackages [seventv]: Remove: archive file [/home/abi/fetcher/tmp/seventv-2.4.0.tar.gz]
+[2023-07-10 11:29:12] INFO root fetch - processPackages [dataverse-sdk]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-07-10 11:29:12] INFO root fetch - main [MainThread]: End processing [seventv]: success
+[2023-07-10 11:29:12] INFO root fetch - processPackages [nonebot-plugin-herocard]: executing diffoscope
+[2023-07-10 11:29:12] INFO root fetch - processPackages [nonebot-plugin-herocard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-herocard-1.0.3.tar.gz tmp/nonebot-plugin-herocard-1.0.5.tar.gz --markdown 20230710/n/nonebot-plugin-herocard/1.0.3-1.0.5/diff.md --exclude *.pyd
+[2023-07-10 11:29:12] INFO root fetch - processPackages [jimit]: Downloading https://files.pythonhosted.org/packages/c9/c5/e3d4b751a09a58c1bd465c7fef45b379dab2e8c6940539b27f843346bc3f/jimit-3.9.4-py3-none-any.whl
+[2023-07-10 11:29:12] INFO root fetch - processPackages [pyfirebird]: Downloading https://files.pythonhosted.org/packages/82/fe/c038b45d2c931bf8474a708ffa471c70af9766d378fb43a785b67b86abcb/pyfirebird-0.0.79.tar.gz
+[2023-07-10 11:29:12] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-10 11:29:12] INFO root fetch - processPackages [dataverse-sdk]: Downloading https://files.pythonhosted.org/packages/da/6e/bc06eb62e81a3dde8922f1321e4743aa17e87680af156fc89924e4e68c30/dataverse-sdk-0.1.5.tar.gz
+[2023-07-10 11:29:12] INFO root fetch - processPackages [streamlit-baseweb]: Downloading https://files.pythonhosted.org/packages/e3/88/81c2faf9934145eeec5ad3bc64b342e3cf430e2a8765c449700718121b8c/streamlit_baseweb-0.1.2.tar.gz
+[2023-07-10 11:29:12] INFO root fetch - processPackages [jimit]: Downloading https://files.pythonhosted.org/packages/3f/d2/4e155b955940ee59b910821cf8203928dbfff65cc40a0528279045abfca8/jimit-3.9.5-py3-none-any.whl
+[2023-07-10 11:29:12] INFO root fetch - processPackages [pyfirebird]: Downloading https://files.pythonhosted.org/packages/03/b1/03d512bc56a95cfe58ca63e1198a5814ac0a5bfd4b5a6689d787441a5ea8/pyfirebird-0.0.80.tar.gz
+[2023-07-10 11:29:12] INFO root fetch - processPackages [jimit]: executing diffoscope
+[2023-07-10 11:29:12] INFO root fetch - processPackages [jimit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jimit-3.9.4-py3-none-any.whl.zip tmp/jimit-3.9.5-py3-none-any.whl.zip --markdown 20230710/j/jimit/3.9.4-3.9.5/diff.md --exclude *.pyd
+[2023-07-10 11:29:12] INFO root fetch - processPackages [dataverse-sdk]: Downloading https://files.pythonhosted.org/packages/12/ca/91d2f0bf3816ca17624dff280ca018a387cfb458e17bcfd58ac98cdbc17a/dataverse-sdk-0.2.0.tar.gz
+[2023-07-10 11:29:12] INFO root fetch - processPackages [streamlit-baseweb]: executing diffoscope
+[2023-07-10 11:29:12] INFO root fetch - processPackages [streamlit-baseweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_baseweb-0.1.1.tar.gz tmp/streamlit_baseweb-0.1.2.tar.gz --markdown 20230710/s/streamlit-baseweb/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-10 11:29:12] INFO root fetch - processPackages [pyfirebird]: executing diffoscope
+[2023-07-10 11:29:12] INFO root fetch - processPackages [pyfirebird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfirebird-0.0.79.tar.gz tmp/pyfirebird-0.0.80.tar.gz --markdown 20230710/p/pyfirebird/0.0.79-0.0.80/diff.md --exclude *.pyd
+[2023-07-10 11:29:12] INFO root fetch - processPackages [dataverse-sdk]: executing diffoscope
+[2023-07-10 11:29:12] INFO root fetch - processPackages [dataverse-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataverse-sdk-0.1.5.tar.gz tmp/dataverse-sdk-0.2.0.tar.gz --markdown 20230710/d/dataverse-sdk/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-07-10 11:29:13] INFO root fetch - processPackages [aioqui]: Remove: archive file [/home/abi/fetcher/tmp/aioqui-2.1.8.tar.gz]
+[2023-07-10 11:29:13] INFO root fetch - processPackages [aioqui]: Remove: archive file [/home/abi/fetcher/tmp/aioqui-2.1.9.tar.gz]
+[2023-07-10 11:29:13] INFO root fetch - main [MainThread]: End processing [aioqui]: success
+[2023-07-10 11:29:13] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.1.0.2.tar.gz]
+[2023-07-10 11:29:13] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.1.0.3.tar.gz]
+[2023-07-10 11:29:13] INFO root fetch - main [MainThread]: End processing [rongdavbaaddins]: success
+[2023-07-10 11:29:13] INFO root fetch - processPackages [nonebot-plugin-herocard]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-herocard-1.0.3.tar.gz]
+[2023-07-10 11:29:13] INFO root fetch - processPackages [nonebot-plugin-herocard]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-herocard-1.0.5.tar.gz]
+[2023-07-10 11:29:13] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-herocard]: success
+[2023-07-10 11:29:14] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2023-07-10 11:29:14] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2023-07-10 11:29:14] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-07-10 11:29:14] INFO root fetch - processPackages [jimit]: Remove: archive file [/home/abi/fetcher/tmp/jimit-3.9.4-py3-none-any.whl.zip]
+[2023-07-10 11:29:14] INFO root fetch - processPackages [jimit]: Remove: archive file [/home/abi/fetcher/tmp/jimit-3.9.5-py3-none-any.whl.zip]
+[2023-07-10 11:29:14] INFO root fetch - main [MainThread]: End processing [jimit]: success
+[2023-07-10 11:29:15] INFO root fetch - processPackages [dataverse-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dataverse-sdk-0.1.5.tar.gz]
+[2023-07-10 11:29:15] INFO root fetch - processPackages [dataverse-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dataverse-sdk-0.2.0.tar.gz]
+[2023-07-10 11:29:15] INFO root fetch - main [MainThread]: End processing [dataverse-sdk]: success
+[2023-07-10 11:29:15] INFO root fetch - processPackages [streamlit-baseweb]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_baseweb-0.1.1.tar.gz]
+[2023-07-10 11:29:15] INFO root fetch - processPackages [streamlit-baseweb]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_baseweb-0.1.2.tar.gz]
+[2023-07-10 11:29:15] INFO root fetch - main [MainThread]: End processing [streamlit-baseweb]: success
+[2023-07-10 11:29:20] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.79.tar.gz]
+[2023-07-10 11:29:20] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.80.tar.gz]
+[2023-07-10 11:29:20] INFO root fetch - main [MainThread]: End processing [pyfirebird]: success
+[2023-07-10 11:29:20] INFO root fetch - main [MainThread]: Store serial: [18828962]
