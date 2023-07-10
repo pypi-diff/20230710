@@ -7597,3 +7597,105 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 06:51:38] INFO root fetch - processPackages [edc-sites]: Remove: archive file [/home/abi/fetcher/tmp/edc-sites-0.3.9.tar.gz]
 [2023-07-10 06:51:38] INFO root fetch - main [MainThread]: End processing [edc-sites]: success
 [2023-07-10 06:51:38] INFO root fetch - main [MainThread]: Store serial: [18826573]
+[2023-07-10 06:56:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18826573]
+[2023-07-10 06:56:47] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-10 06:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rime-sdk
+[2023-07-10 06:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zcmds
+[2023-07-10 06:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edc-visit-tracking
+[2023-07-10 06:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lancedb
+[2023-07-10 06:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quao
+[2023-07-10 06:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seislib
+[2023-07-10 06:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: edc-visit-schedule
+[2023-07-10 06:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gnssanalysis
+[2023-07-10 06:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: azdev
+[2023-07-10 06:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: input-helper
+[2023-07-10 06:56:47] INFO root fetch - processPackages [lancedb]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 06:56:47] INFO root fetch - processPackages [seislib]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-07-10 06:56:47] INFO root fetch - processPackages [quao]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-10 06:56:47] INFO root fetch - processPackages [edc-visit-schedule]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-10 06:56:47] INFO root fetch - processPackages [rime-sdk]: New version: [2.2.0rc0] Old Version: [2.1.5]
+[2023-07-10 06:56:47] INFO root fetch - processPackages [zcmds]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-10 06:56:47] INFO root fetch - processPackages [gnssanalysis]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 06:56:47] INFO root fetch - processPackages [input-helper]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 06:56:47] INFO root fetch - processPackages [azdev]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 06:56:47] INFO root fetch - processPackages [edc-visit-tracking]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-10 06:56:48] INFO root fetch - processPackages [lancedb]: Downloading https://files.pythonhosted.org/packages/3c/d6/efb0ca55e0b3cd024e23b27597b1f248bb3e6e960c96ae5d4ba4b1dbda1c/lancedb-0.1.8.tar.gz
+[2023-07-10 06:56:48] INFO root fetch - processPackages [zcmds]: Downloading https://files.pythonhosted.org/packages/cf/85/6745bf792d3dace88b4a0cfba4bf8c74d34157be8f84838613c74637f6a0/zcmds-1.4.8.tar.gz
+[2023-07-10 06:56:48] INFO root fetch - processPackages [seislib]: Downloading https://files.pythonhosted.org/packages/fa/db/7cd5468132f947ba6fbc576ac83465af1395fdf81126672172a2e8a884f6/seislib-0.6.8.tar.gz
+[2023-07-10 06:56:48] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/36/c6/fbada3e670ae565661c9f111322b58ef3ce88b5363eef3472997552436f0/rime_sdk-2.1.5.tar.gz
+[2023-07-10 06:56:48] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/00/a0/820dd62b9ef8233a40ce1fc9f928bae61cb1a92a54db8058c2910b1219f8/quao-0.2.8.tar.gz
+[2023-07-10 06:56:48] INFO root fetch - processPackages [edc-visit-schedule]: Downloading https://files.pythonhosted.org/packages/55/62/08b5eb66559fe5f11493a7403cf1549605588ac96f1433e68190de33a591/edc_visit_schedule-0.3.8-py3-none-any.whl
+[2023-07-10 06:56:48] INFO root fetch - processPackages [input-helper]: Downloading https://files.pythonhosted.org/packages/f6/cc/8ae2263b03cc044ac5cf44f0f1f812afe569175d292bfec4542f986496bc/input_helper-0.1.8-py3-none-any.whl
+[2023-07-10 06:56:48] INFO root fetch - processPackages [edc-visit-tracking]: Downloading https://files.pythonhosted.org/packages/1a/06/f2a9bc1cef336d39c82c1055f707cc73912c2e08799ac43095b50a894cbc/edc_visit_tracking-0.3.8-py3-none-any.whl
+[2023-07-10 06:56:48] INFO root fetch - processPackages [azdev]: Downloading https://files.pythonhosted.org/packages/26/b3/e90a3d82517d0e67d66c68d4948f50df5460083d749b90620911ec3dcb94/azdev-0.1.8.tar.gz
+[2023-07-10 06:56:48] INFO root fetch - processPackages [gnssanalysis]: Downloading https://files.pythonhosted.org/packages/e0/2d/6e9b2e6b7338eb4ade3a80238c53fe3d7046af99576c4229b166e23c1a3a/gnssanalysis-0.0.8.tar.gz
+[2023-07-10 06:56:48] INFO root fetch - processPackages [lancedb]: Downloading https://files.pythonhosted.org/packages/c7/28/57475fd76b4d2e319857bcb2776a299b06694faf92c20d385c6b027e3567/lancedb-0.1.9.tar.gz
+[2023-07-10 06:56:48] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/d0/ff/90f672abf82ab98ec061a87b3397a46e00f723b3ba96708bc7c3faeb163a/rime_sdk-2.2.0rc0.tar.gz
+[2023-07-10 06:56:48] INFO root fetch - processPackages [zcmds]: Downloading https://files.pythonhosted.org/packages/ee/c7/785afe3eb6342eebc74522af1d496ca09cf10ab8aab660d94d91cfbef640/zcmds-1.4.9.tar.gz
+[2023-07-10 06:56:48] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/71/09/bd8cda58d91a73371f9e83c0e98473af677f6309c58284adcb968c002aa8/quao-0.2.9.tar.gz
+[2023-07-10 06:56:48] INFO root fetch - processPackages [edc-visit-schedule]: Downloading https://files.pythonhosted.org/packages/d5/72/3df1323c5292ddeb8587bdab58504a97371317f435cce78a6e93a1c6561a/edc_visit_schedule-0.3.9-py3-none-any.whl
+[2023-07-10 06:56:48] INFO root fetch - processPackages [gnssanalysis]: Downloading https://files.pythonhosted.org/packages/e1/ac/da507121836c683adba00ccb9f5f955063e24f97656ce240e4354a9cbe10/gnssanalysis-0.0.9.tar.gz
+[2023-07-10 06:56:48] INFO root fetch - processPackages [input-helper]: Downloading https://files.pythonhosted.org/packages/9b/d5/221242f586e06acaf1e4aa11292abad93a412a49686315476f5243d07e1b/input_helper-0.1.9-py3-none-any.whl
+[2023-07-10 06:56:48] INFO root fetch - processPackages [edc-visit-tracking]: Downloading https://files.pythonhosted.org/packages/cc/b6/616bf936c99497cd724389cfd967ef496bbcf233516084b90307f5d30127/edc_visit_tracking-0.3.9-py3-none-any.whl
+[2023-07-10 06:56:48] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2023-07-10 06:56:48] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.1.5.tar.gz tmp/rime_sdk-2.2.0rc0.tar.gz --markdown 20230710/r/rime-sdk/2.1.5-2.2.0rc0/diff.md --exclude *.pyd
+[2023-07-10 06:56:48] INFO root fetch - processPackages [zcmds]: executing diffoscope
+[2023-07-10 06:56:48] INFO root fetch - processPackages [zcmds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcmds-1.4.8.tar.gz tmp/zcmds-1.4.9.tar.gz --markdown 20230710/z/zcmds/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-10 06:56:48] INFO root fetch - processPackages [lancedb]: executing diffoscope
+[2023-07-10 06:56:48] INFO root fetch - processPackages [lancedb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lancedb-0.1.8.tar.gz tmp/lancedb-0.1.9.tar.gz --markdown 20230710/l/lancedb/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 06:56:48] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-07-10 06:56:48] INFO root fetch - processPackages [azdev]: Downloading https://files.pythonhosted.org/packages/a8/bf/9cd7c2c31e25d929e85358027632a0d46d8e5d7f85c855a131905cb53218/azdev-0.1.9.tar.gz
+[2023-07-10 06:56:48] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.2.8.tar.gz tmp/quao-0.2.9.tar.gz --markdown 20230710/q/quao/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-10 06:56:48] INFO root fetch - processPackages [seislib]: Downloading https://files.pythonhosted.org/packages/6e/89/88649e946b7aaa8994cb16d24ac91ff50b3c51bf3ee343461e805667cfa6/seislib-0.6.9.tar.gz
+[2023-07-10 06:56:49] INFO root fetch - processPackages [gnssanalysis]: executing diffoscope
+[2023-07-10 06:56:49] INFO root fetch - processPackages [gnssanalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnssanalysis-0.0.8.tar.gz tmp/gnssanalysis-0.0.9.tar.gz --markdown 20230710/g/gnssanalysis/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 06:56:49] INFO root fetch - processPackages [edc-visit-schedule]: executing diffoscope
+[2023-07-10 06:56:49] INFO root fetch - processPackages [edc-visit-schedule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_visit_schedule-0.3.8-py3-none-any.whl.zip tmp/edc_visit_schedule-0.3.9-py3-none-any.whl.zip --markdown 20230710/e/edc-visit-schedule/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-10 06:56:49] INFO root fetch - processPackages [edc-visit-tracking]: executing diffoscope
+[2023-07-10 06:56:49] INFO root fetch - processPackages [edc-visit-tracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_visit_tracking-0.3.8-py3-none-any.whl.zip tmp/edc_visit_tracking-0.3.9-py3-none-any.whl.zip --markdown 20230710/e/edc-visit-tracking/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-10 06:56:49] INFO root fetch - processPackages [input-helper]: executing diffoscope
+[2023-07-10 06:56:49] INFO root fetch - processPackages [input-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/input_helper-0.1.8-py3-none-any.whl.zip tmp/input_helper-0.1.9-py3-none-any.whl.zip --markdown 20230710/i/input-helper/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 06:56:49] INFO root fetch - processPackages [azdev]: executing diffoscope
+[2023-07-10 06:56:49] INFO root fetch - processPackages [azdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azdev-0.1.8.tar.gz tmp/azdev-0.1.9.tar.gz --markdown 20230710/a/azdev/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 06:56:49] INFO root fetch - processPackages [seislib]: executing diffoscope
+[2023-07-10 06:56:49] INFO root fetch - processPackages [seislib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seislib-0.6.8.tar.gz tmp/seislib-0.6.9.tar.gz --markdown 20230710/s/seislib/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-07-10 06:56:50] INFO root fetch - processPackages [lancedb]: Remove: archive file [/home/abi/fetcher/tmp/lancedb-0.1.8.tar.gz]
+[2023-07-10 06:56:50] INFO root fetch - processPackages [lancedb]: Remove: archive file [/home/abi/fetcher/tmp/lancedb-0.1.9.tar.gz]
+[2023-07-10 06:56:50] INFO root fetch - processPackages [lancedb]: Start processing: cdot
+[2023-07-10 06:56:50] INFO root fetch - main [MainThread]: End processing [lancedb]: success
+[2023-07-10 06:56:50] INFO root fetch - processPackages [cdot]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-10 06:56:50] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.2.8.tar.gz]
+[2023-07-10 06:56:50] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.2.9.tar.gz]
+[2023-07-10 06:56:50] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-07-10 06:56:50] INFO root fetch - processPackages [edc-visit-tracking]: Remove: archive file [/home/abi/fetcher/tmp/edc_visit_tracking-0.3.8-py3-none-any.whl.zip]
+[2023-07-10 06:56:50] INFO root fetch - processPackages [edc-visit-tracking]: Remove: archive file [/home/abi/fetcher/tmp/edc_visit_tracking-0.3.9-py3-none-any.whl.zip]
+[2023-07-10 06:56:50] INFO root fetch - main [MainThread]: End processing [edc-visit-tracking]: success
+[2023-07-10 06:56:50] INFO root fetch - processPackages [gnssanalysis]: Remove: archive file [/home/abi/fetcher/tmp/gnssanalysis-0.0.8.tar.gz]
+[2023-07-10 06:56:50] INFO root fetch - processPackages [gnssanalysis]: Remove: archive file [/home/abi/fetcher/tmp/gnssanalysis-0.0.9.tar.gz]
+[2023-07-10 06:56:50] INFO root fetch - main [MainThread]: End processing [gnssanalysis]: success
+[2023-07-10 06:56:50] INFO root fetch - processPackages [input-helper]: Remove: archive file [/home/abi/fetcher/tmp/input_helper-0.1.8-py3-none-any.whl.zip]
+[2023-07-10 06:56:50] INFO root fetch - processPackages [input-helper]: Remove: archive file [/home/abi/fetcher/tmp/input_helper-0.1.9-py3-none-any.whl.zip]
+[2023-07-10 06:56:50] INFO root fetch - main [MainThread]: End processing [input-helper]: success
+[2023-07-10 06:56:51] INFO root fetch - processPackages [cdot]: Downloading https://files.pythonhosted.org/packages/be/ef/d1dd63a51af2549d654554fd9aee97436ad7cca17ccce573cd94a1114469/cdot-0.2.8.tar.gz
+[2023-07-10 06:56:51] INFO root fetch - processPackages [azdev]: Remove: archive file [/home/abi/fetcher/tmp/azdev-0.1.8.tar.gz]
+[2023-07-10 06:56:51] INFO root fetch - processPackages [azdev]: Remove: archive file [/home/abi/fetcher/tmp/azdev-0.1.9.tar.gz]
+[2023-07-10 06:56:51] INFO root fetch - main [MainThread]: End processing [azdev]: success
+[2023-07-10 06:56:51] INFO root fetch - processPackages [edc-visit-schedule]: Remove: archive file [/home/abi/fetcher/tmp/edc_visit_schedule-0.3.8-py3-none-any.whl.zip]
+[2023-07-10 06:56:51] INFO root fetch - processPackages [edc-visit-schedule]: Remove: archive file [/home/abi/fetcher/tmp/edc_visit_schedule-0.3.9-py3-none-any.whl.zip]
+[2023-07-10 06:56:51] INFO root fetch - main [MainThread]: End processing [edc-visit-schedule]: success
+[2023-07-10 06:56:51] INFO root fetch - processPackages [zcmds]: Remove: archive file [/home/abi/fetcher/tmp/zcmds-1.4.8.tar.gz]
+[2023-07-10 06:56:51] INFO root fetch - processPackages [zcmds]: Remove: archive file [/home/abi/fetcher/tmp/zcmds-1.4.9.tar.gz]
+[2023-07-10 06:56:51] INFO root fetch - main [MainThread]: End processing [zcmds]: success
+[2023-07-10 06:56:51] INFO root fetch - processPackages [cdot]: Downloading https://files.pythonhosted.org/packages/db/ee/f890f3499ba1dd982d79757a7800fee7e82c526f3041e920b36e92033727/cdot-0.2.9.tar.gz
+[2023-07-10 06:56:51] INFO root fetch - processPackages [cdot]: executing diffoscope
+[2023-07-10 06:56:51] INFO root fetch - processPackages [cdot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdot-0.2.8.tar.gz tmp/cdot-0.2.9.tar.gz --markdown 20230710/c/cdot/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-10 06:56:52] INFO root fetch - processPackages [cdot]: Remove: archive file [/home/abi/fetcher/tmp/cdot-0.2.8.tar.gz]
+[2023-07-10 06:56:52] INFO root fetch - processPackages [cdot]: Remove: archive file [/home/abi/fetcher/tmp/cdot-0.2.9.tar.gz]
+[2023-07-10 06:56:52] INFO root fetch - main [MainThread]: End processing [cdot]: success
+[2023-07-10 06:56:52] INFO root fetch - processPackages [seislib]: Remove: archive file [/home/abi/fetcher/tmp/seislib-0.6.8.tar.gz]
+[2023-07-10 06:56:52] INFO root fetch - processPackages [seislib]: Remove: archive file [/home/abi/fetcher/tmp/seislib-0.6.9.tar.gz]
+[2023-07-10 06:56:52] INFO root fetch - main [MainThread]: End processing [seislib]: success
+[2023-07-10 06:56:53] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.1.5.tar.gz]
+[2023-07-10 06:56:53] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.2.0rc0.tar.gz]
+[2023-07-10 06:56:53] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2023-07-10 06:56:53] INFO root fetch - main [MainThread]: Store serial: [18826603]
