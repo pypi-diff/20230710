@@ -9587,3 +9587,65 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 09:00:32] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-38.1.4.tar.gz]
 [2023-07-10 09:00:32] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-07-10 09:00:32] INFO root fetch - main [MainThread]: Store serial: [18827426]
+[2023-07-10 09:05:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18827426]
+[2023-07-10 09:05:41] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-10 09:05:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: weconnect
+[2023-07-10 09:05:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netdoc
+[2023-07-10 09:05:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seqio-nightly
+[2023-07-10 09:05:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: preprocessing-pgp
+[2023-07-10 09:05:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gentoo-update
+[2023-07-10 09:05:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: External-User-Local
+[2023-07-10 09:05:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: irene-pro
+[2023-07-10 09:05:41] INFO root fetch - processPackages [netdoc]: New version: [0.9.71] Old Version: [0.9.70]
+[2023-07-10 09:05:41] INFO root fetch - processPackages [weconnect]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-10 09:05:41] INFO root fetch - processPackages [irene-pro]: New version: [0.0.92] Old Version: [0.0.91]
+[2023-07-10 09:05:41] INFO root fetch - processPackages [gentoo-update]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-10 09:05:41] INFO root fetch - processPackages [preprocessing-pgp]: New version: [0.2.9.post9.dev8] Old Version: [0.2.9.post9.dev7]
+[2023-07-10 09:05:41] INFO root fetch - processPackages [External-User-Local]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-10 09:05:41] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-07-10 09:05:41] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/38/22/c9a3e1162d5dfd39e0095f69a0dd5b5d8dd846b672ef0ffcce20e6894fb4/irene_pro-0.0.91.tar.gz
+[2023-07-10 09:05:41] INFO root fetch - processPackages [netdoc]: Downloading https://files.pythonhosted.org/packages/f2/ef/1d391989d1fcf09c8c91936ac38fc2ecb4b2432ab959707ae3761c31002a/netdoc-0.9.70.tar.gz
+[2023-07-10 09:05:41] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-07-10 09:05:41] INFO root fetch - processPackages [External-User-Local]: Downloading https://files.pythonhosted.org/packages/85/e1/802ed2a70ac5853263da8623877fd451ba71677d57a60dcd7069d8d2c5f4/External-User-Local-0.0.2.tar.gz
+[2023-07-10 09:05:41] INFO root fetch - processPackages [weconnect]: Downloading https://files.pythonhosted.org/packages/98/5d/fd6fc5ebe1c0ada72e060a0cb952fa9ad1c6cba57c65b0b572ad85262736/weconnect-0.9.0.tar.gz
+[2023-07-10 09:05:41] INFO root fetch - processPackages [gentoo-update]: Downloading https://files.pythonhosted.org/packages/96/cd/51963cadb421ed46cbdf9542c32d6fc6885f849604400aa76d2e6afb918c/gentoo-update-0.1.7.tar.gz
+[2023-07-10 09:05:41] INFO root fetch - processPackages [preprocessing-pgp]: Downloading https://files.pythonhosted.org/packages/3b/ff/280ddfc30db341960587617aede0239f03d7380c369e1410cf3fc31d07bf/preprocessing-pgp-0.2.9.post9.dev7.tar.gz
+[2023-07-10 09:05:41] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-07-10 09:05:41] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/02/f8/5f8c005e957ba67e3f01e30150fee4e465977f0667d2b389d45bbd99201b/irene_pro-0.0.92.tar.gz
+[2023-07-10 09:05:41] INFO root fetch - processPackages [External-User-Local]: Downloading https://files.pythonhosted.org/packages/a9/d2/57a53ebb0ad1f252c8a9f831eed9e0b65d29bc938e3a4045984dd267b34e/External-User-Local-0.0.3.tar.gz
+[2023-07-10 09:05:41] INFO root fetch - processPackages [netdoc]: Downloading https://files.pythonhosted.org/packages/c5/bc/813dccd0af76852b3fea6f6f9ba3ebc578c1efa3980ff3e4676ac88f2077/netdoc-0.9.71.tar.gz
+[2023-07-10 09:05:42] INFO root fetch - processPackages [gentoo-update]: Downloading https://files.pythonhosted.org/packages/92/b3/de7368043f9f881addd6dfec40aee331184716a5a965730bb635d76a7e53/gentoo-update-0.1.8.tar.gz
+[2023-07-10 09:05:42] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-07-10 09:05:42] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230710/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-07-10 09:05:42] INFO root fetch - processPackages [weconnect]: Downloading https://files.pythonhosted.org/packages/39/4c/48cecd311d6d4dc3b5164d03a8f9b847ae9b4ce2459f0c5e494b4d4d8c3d/weconnect-0.9.1.tar.gz
+[2023-07-10 09:05:42] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-07-10 09:05:42] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.0.91.tar.gz tmp/irene_pro-0.0.92.tar.gz --markdown 20230710/i/irene-pro/0.0.91-0.0.92/diff.md --exclude *.pyd
+[2023-07-10 09:05:42] INFO root fetch - processPackages [External-User-Local]: executing diffoscope
+[2023-07-10 09:05:42] INFO root fetch - processPackages [External-User-Local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/External-User-Local-0.0.2.tar.gz tmp/External-User-Local-0.0.3.tar.gz --markdown 20230710/E/External-User-Local/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-10 09:05:42] INFO root fetch - processPackages [gentoo-update]: executing diffoscope
+[2023-07-10 09:05:42] INFO root fetch - processPackages [gentoo-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gentoo-update-0.1.7.tar.gz tmp/gentoo-update-0.1.8.tar.gz --markdown 20230710/g/gentoo-update/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-10 09:05:42] WARNING root fetch - processPackages [preprocessing-pgp]: Skipping package: exceeds size limit 78857974>=10485760
+[2023-07-10 09:05:42] INFO root fetch - main [MainThread]: End processing [preprocessing-pgp] error
+[2023-07-10 09:05:42] INFO root fetch - processPackages [netdoc]: executing diffoscope
+[2023-07-10 09:05:42] INFO root fetch - processPackages [netdoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netdoc-0.9.70.tar.gz tmp/netdoc-0.9.71.tar.gz --markdown 20230710/n/netdoc/0.9.70-0.9.71/diff.md --exclude *.pyd
+[2023-07-10 09:05:42] INFO root fetch - processPackages [weconnect]: executing diffoscope
+[2023-07-10 09:05:42] INFO root fetch - processPackages [weconnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weconnect-0.9.0.tar.gz tmp/weconnect-0.9.1.tar.gz --markdown 20230710/w/weconnect/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-10 09:05:43] INFO root fetch - processPackages [gentoo-update]: Remove: archive file [/home/abi/fetcher/tmp/gentoo-update-0.1.7.tar.gz]
+[2023-07-10 09:05:43] INFO root fetch - processPackages [gentoo-update]: Remove: archive file [/home/abi/fetcher/tmp/gentoo-update-0.1.8.tar.gz]
+[2023-07-10 09:05:43] INFO root fetch - main [MainThread]: End processing [gentoo-update]: success
+[2023-07-10 09:05:43] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.91.tar.gz]
+[2023-07-10 09:05:43] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.92.tar.gz]
+[2023-07-10 09:05:43] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-07-10 09:05:43] INFO root fetch - processPackages [External-User-Local]: Remove: archive file [/home/abi/fetcher/tmp/External-User-Local-0.0.2.tar.gz]
+[2023-07-10 09:05:43] INFO root fetch - processPackages [External-User-Local]: Remove: archive file [/home/abi/fetcher/tmp/External-User-Local-0.0.3.tar.gz]
+[2023-07-10 09:05:43] INFO root fetch - main [MainThread]: End processing [External-User-Local]: success
+[2023-07-10 09:05:43] INFO root fetch - processPackages [weconnect]: Remove: archive file [/home/abi/fetcher/tmp/weconnect-0.9.0.tar.gz]
+[2023-07-10 09:05:43] INFO root fetch - processPackages [weconnect]: Remove: archive file [/home/abi/fetcher/tmp/weconnect-0.9.1.tar.gz]
+[2023-07-10 09:05:43] INFO root fetch - main [MainThread]: End processing [weconnect]: success
+[2023-07-10 09:05:43] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-07-10 09:05:43] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-07-10 09:05:43] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-07-10 09:05:44] INFO root fetch - processPackages [netdoc]: Remove: archive file [/home/abi/fetcher/tmp/netdoc-0.9.70.tar.gz]
+[2023-07-10 09:05:44] INFO root fetch - processPackages [netdoc]: Remove: archive file [/home/abi/fetcher/tmp/netdoc-0.9.71.tar.gz]
+[2023-07-10 09:05:44] INFO root fetch - main [MainThread]: End processing [netdoc]: success
+[2023-07-10 09:05:44] INFO root fetch - main [MainThread]: Store serial: [18827451]
