@@ -6058,3 +6058,66 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 05:11:09] INFO root fetch - processPackages [concrete]: Remove: archive file [/home/abi/fetcher/tmp/concrete-4.9.6.tar.gz]
 [2023-07-10 05:11:09] INFO root fetch - main [MainThread]: End processing [concrete]: success
 [2023-07-10 05:11:09] INFO root fetch - main [MainThread]: Store serial: [18825962]
+[2023-07-10 05:16:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18825962]
+[2023-07-10 05:16:17] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-10 05:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: a1-notation
+[2023-07-10 05:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-nobahpictrue
+[2023-07-10 05:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: perseus-restful-api-framework
+[2023-07-10 05:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: secretflow
+[2023-07-10 05:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: secretflow-lite
+[2023-07-10 05:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edc-action-item
+[2023-07-10 05:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dbt-doris
+[2023-07-10 05:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: obd
+[2023-07-10 05:16:18] WARNING root fetch - processPackages [a1-notation]: Skipping, unable to determine old version
+[2023-07-10 05:16:18] INFO root fetch - main [MainThread]: End processing [a1-notation] error
+[2023-07-10 05:16:18] INFO root fetch - processPackages [secretflow-lite]: New version: [1.0.0b3] Old Version: [1.0.0b2]
+[2023-07-10 05:16:18] INFO root fetch - processPackages [perseus-restful-api-framework]: New version: [1.27.0] Old Version: [1.26.9]
+[2023-07-10 05:16:18] WARNING root fetch - processPackages [nonebot-plugin-nobahpictrue]: Skipping, unable to determine old version
+[2023-07-10 05:16:18] INFO root fetch - processPackages [dbt-doris]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-07-10 05:16:18] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-nobahpictrue] error
+[2023-07-10 05:16:18] INFO root fetch - processPackages [obd]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-07-10 05:16:18] INFO root fetch - processPackages [secretflow]: New version: [1.0.0b3] Old Version: [1.0.0b2]
+[2023-07-10 05:16:18] INFO root fetch - processPackages [edc-action-item]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-10 05:16:18] INFO root fetch - processPackages [dbt-doris]: Downloading https://files.pythonhosted.org/packages/8a/06/f38a4dd9de8dd45f4ab5477f6c6ffe2a7be1fae37102a23cf989872764cb/dbt-doris-0.2.1.tar.gz
+[2023-07-10 05:16:18] INFO root fetch - processPackages [secretflow-lite]: Downloading https://files.pythonhosted.org/packages/5b/8a/7548d8d0a2cb87ee9fc2fcabacc02b346b72dd0ca23ad46e0a4646e77b2e/secretflow_lite-1.0.0b2-cp38-cp38-manylinux2014_x86_64.whl
+[2023-07-10 05:16:18] INFO root fetch - processPackages [perseus-restful-api-framework]: Downloading https://files.pythonhosted.org/packages/cf/74/730b74192f6c1e7410d7a9ba9957dad8eebbc5f556057ff6a238cac07e2a/perseus_restful_api_framework-1.26.9.tar.gz
+[2023-07-10 05:16:18] INFO root fetch - processPackages [obd]: Downloading https://files.pythonhosted.org/packages/fc/7b/13ffeaefa5b2623263ba26d60ed12229cb1c9ceabdb50c880de9d77d2613/obd-0.7.1.tar.gz
+[2023-07-10 05:16:18] INFO root fetch - processPackages [secretflow]: Downloading https://files.pythonhosted.org/packages/a0/bb/952b2db8eabe91114fc9723ea21c3af1b0bb6e842c55e85f956349173b74/secretflow-1.0.0b2-cp38-cp38-manylinux2014_x86_64.whl
+[2023-07-10 05:16:18] INFO root fetch - processPackages [edc-action-item]: Downloading https://files.pythonhosted.org/packages/de/5a/1dc166c4fd573ff5dfdb59854b9486b0bb27eb6c6e8c720e931baf318a4c/edc_action_item-0.3.8-py3-none-any.whl
+[2023-07-10 05:16:18] INFO root fetch - processPackages [dbt-doris]: Downloading https://files.pythonhosted.org/packages/f0/e3/81ef6406955ef2bab0baa4a6aaa1a05c3957361d79931fd246bf537d6da9/dbt_doris-0.3.0-py3-none-any.whl
+[2023-07-10 05:16:18] INFO root fetch - processPackages [obd]: Downloading https://files.pythonhosted.org/packages/e7/3a/db9b34fc823d30138529504bc22ad72eab2c9916fa0d32b90687df4792b9/obd-0.7.2.tar.gz
+[2023-07-10 05:16:18] INFO root fetch - processPackages [secretflow-lite]: Downloading https://files.pythonhosted.org/packages/6d/08/85bda83e31e9ff4d803d4c9f8ae4c89d533d28d4d11dddde2e75a5ec7226/secretflow_lite-1.0.0b3-cp38-cp38-macosx_11_0_arm64.whl
+[2023-07-10 05:16:18] INFO root fetch - processPackages [edc-action-item]: Downloading https://files.pythonhosted.org/packages/1f/74/a25a0c0516fcd227b7ff92f76a6964b274c5434b3f53ee629dbdb634e005/edc_action_item-0.3.9-py3-none-any.whl
+[2023-07-10 05:16:19] INFO root fetch - processPackages [dbt-doris]: executing diffoscope
+[2023-07-10 05:16:19] INFO root fetch - processPackages [dbt-doris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-doris-0.2.1.tar.gz tmp/dbt_doris-0.3.0-py3-none-any.whl.zip --markdown 20230710/d/dbt-doris/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-07-10 05:16:19] INFO root fetch - processPackages [obd]: executing diffoscope
+[2023-07-10 05:16:19] INFO root fetch - processPackages [obd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obd-0.7.1.tar.gz tmp/obd-0.7.2.tar.gz --markdown 20230710/o/obd/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-07-10 05:16:19] INFO root fetch - processPackages [secretflow]: Downloading https://files.pythonhosted.org/packages/a6/39/8380f6702c504742660f3e2eac9e35147fe6ab728c02907911f296f6ff3e/secretflow-1.0.0b3-cp38-cp38-macosx_11_0_arm64.whl
+[2023-07-10 05:16:19] INFO root fetch - processPackages [edc-action-item]: executing diffoscope
+[2023-07-10 05:16:19] INFO root fetch - processPackages [edc-action-item]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_action_item-0.3.8-py3-none-any.whl.zip tmp/edc_action_item-0.3.9-py3-none-any.whl.zip --markdown 20230710/e/edc-action-item/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-10 05:16:19] INFO root fetch - processPackages [secretflow-lite]: executing diffoscope
+[2023-07-10 05:16:19] INFO root fetch - processPackages [secretflow-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretflow_lite-1.0.0b2-cp38-cp38-manylinux2014_x86_64.whl.zip tmp/secretflow_lite-1.0.0b3-cp38-cp38-macosx_11_0_arm64.whl.zip --markdown 20230710/s/secretflow-lite/1.0.0b2-1.0.0b3/diff.md --exclude *.pyd
+[2023-07-10 05:16:19] INFO root fetch - processPackages [secretflow]: executing diffoscope
+[2023-07-10 05:16:19] INFO root fetch - processPackages [secretflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretflow-1.0.0b2-cp38-cp38-manylinux2014_x86_64.whl.zip tmp/secretflow-1.0.0b3-cp38-cp38-macosx_11_0_arm64.whl.zip --markdown 20230710/s/secretflow/1.0.0b2-1.0.0b3/diff.md --exclude *.pyd
+[2023-07-10 05:16:19] INFO root fetch - processPackages [perseus-restful-api-framework]: Downloading https://files.pythonhosted.org/packages/82/c5/68ff1852075e19a85502b9d0aabcb8d5f61b0469ef0afba666c48efd2e62/perseus_restful_api_framework-1.27.0.tar.gz
+[2023-07-10 05:16:20] INFO root fetch - processPackages [dbt-doris]: Remove: archive file [/home/abi/fetcher/tmp/dbt-doris-0.2.1.tar.gz]
+[2023-07-10 05:16:20] INFO root fetch - processPackages [dbt-doris]: Remove: archive file [/home/abi/fetcher/tmp/dbt_doris-0.3.0-py3-none-any.whl.zip]
+[2023-07-10 05:16:20] INFO root fetch - main [MainThread]: End processing [dbt-doris]: success
+[2023-07-10 05:16:20] INFO root fetch - processPackages [obd]: Remove: archive file [/home/abi/fetcher/tmp/obd-0.7.1.tar.gz]
+[2023-07-10 05:16:20] INFO root fetch - processPackages [obd]: Remove: archive file [/home/abi/fetcher/tmp/obd-0.7.2.tar.gz]
+[2023-07-10 05:16:20] INFO root fetch - main [MainThread]: End processing [obd]: success
+[2023-07-10 05:16:20] INFO root fetch - processPackages [perseus-restful-api-framework]: executing diffoscope
+[2023-07-10 05:16:20] INFO root fetch - processPackages [perseus-restful-api-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perseus_restful_api_framework-1.26.9.tar.gz tmp/perseus_restful_api_framework-1.27.0.tar.gz --markdown 20230710/p/perseus-restful-api-framework/1.26.9-1.27.0/diff.md --exclude *.pyd
+[2023-07-10 05:16:20] INFO root fetch - processPackages [edc-action-item]: Remove: archive file [/home/abi/fetcher/tmp/edc_action_item-0.3.8-py3-none-any.whl.zip]
+[2023-07-10 05:16:20] INFO root fetch - processPackages [edc-action-item]: Remove: archive file [/home/abi/fetcher/tmp/edc_action_item-0.3.9-py3-none-any.whl.zip]
+[2023-07-10 05:16:20] INFO root fetch - main [MainThread]: End processing [edc-action-item]: success
+[2023-07-10 05:16:21] INFO root fetch - processPackages [secretflow-lite]: Remove: archive file [/home/abi/fetcher/tmp/secretflow_lite-1.0.0b2-cp38-cp38-manylinux2014_x86_64.whl.zip]
+[2023-07-10 05:16:21] INFO root fetch - processPackages [secretflow-lite]: Remove: archive file [/home/abi/fetcher/tmp/secretflow_lite-1.0.0b3-cp38-cp38-macosx_11_0_arm64.whl.zip]
+[2023-07-10 05:16:21] INFO root fetch - main [MainThread]: End processing [secretflow-lite]: success
+[2023-07-10 05:16:21] INFO root fetch - processPackages [secretflow]: Remove: archive file [/home/abi/fetcher/tmp/secretflow-1.0.0b2-cp38-cp38-manylinux2014_x86_64.whl.zip]
+[2023-07-10 05:16:21] INFO root fetch - processPackages [secretflow]: Remove: archive file [/home/abi/fetcher/tmp/secretflow-1.0.0b3-cp38-cp38-macosx_11_0_arm64.whl.zip]
+[2023-07-10 05:16:21] INFO root fetch - main [MainThread]: End processing [secretflow]: success
+[2023-07-10 05:16:22] INFO root fetch - processPackages [perseus-restful-api-framework]: Remove: archive file [/home/abi/fetcher/tmp/perseus_restful_api_framework-1.26.9.tar.gz]
+[2023-07-10 05:16:22] INFO root fetch - processPackages [perseus-restful-api-framework]: Remove: archive file [/home/abi/fetcher/tmp/perseus_restful_api_framework-1.27.0.tar.gz]
+[2023-07-10 05:16:22] INFO root fetch - main [MainThread]: End processing [perseus-restful-api-framework]: success
+[2023-07-10 05:16:22] INFO root fetch - main [MainThread]: Store serial: [18825988]
