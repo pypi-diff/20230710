@@ -17524,3 +17524,135 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 14:48:25] INFO root fetch - processPackages [deprl]: Remove: archive file [/home/abi/fetcher/tmp/deprl-0.1.4.tar.gz]
 [2023-07-10 14:48:25] INFO root fetch - main [MainThread]: End processing [deprl]: success
 [2023-07-10 14:48:25] INFO root fetch - main [MainThread]: Store serial: [18830685]
+[2023-07-10 14:53:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18830685]
+[2023-07-10 14:53:34] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-10 14:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jolli
+[2023-07-10 14:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: skycalc-ipy
+[2023-07-10 14:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tensorcircuit-nightly
+[2023-07-10 14:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pai-easy-rec
+[2023-07-10 14:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oking
+[2023-07-10 14:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: micropython-icm20948
+[2023-07-10 14:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: KorDigits
+[2023-07-10 14:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: manticore
+[2023-07-10 14:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: langchain-chatglm
+[2023-07-10 14:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hydropump
+[2023-07-10 14:53:35] INFO root fetch - processPackages [micropython-icm20948]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-10 14:53:35] INFO root fetch - processPackages [KorDigits]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-10 14:53:35] INFO root fetch - processPackages [pai-easy-rec]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-07-10 14:53:35] INFO root fetch - processPackages [hydropump]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-10 14:53:35] WARNING root fetch - processPackages [jolli]: Skipping, unable to determine old version
+[2023-07-10 14:53:35] INFO root fetch - processPackages [jolli]: Start processing: darwinio
+[2023-07-10 14:53:35] INFO root fetch - main [MainThread]: End processing [jolli] error
+[2023-07-10 14:53:35] INFO root fetch - processPackages [oking]: New version: [4.1.188] Old Version: [4.1.187]
+[2023-07-10 14:53:35] INFO root fetch - processPackages [darwinio]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-10 14:53:35] INFO root fetch - processPackages [skycalc-ipy]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-10 14:53:35] INFO root fetch - processPackages [langchain-chatglm]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-10 14:53:35] INFO root fetch - processPackages [hydropump]: Downloading https://files.pythonhosted.org/packages/17/bb/1af2cde032b5f48a138717f8996fe6c33848d618219c6b128f9ef85580f3/hydropump-0.1.1.tar.gz
+[2023-07-10 14:53:35] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230710] Old Version: [0.3.8.dev230709]
+[2023-07-10 14:53:35] INFO root fetch - processPackages [oking]: Downloading https://files.pythonhosted.org/packages/4f/5a/d1f4b209a8efa2eb5a32a68f8e1281fb56a4b34dbad743de7b6669c193ed/oking-4.1.187.tar.gz
+[2023-07-10 14:53:35] INFO root fetch - processPackages [KorDigits]: Downloading https://files.pythonhosted.org/packages/31/b5/f74d67b4a41e00192e2fc10f7049f3de590d39fc7028b260999c0a57c3b5/KorDigits-1.0.4-py3-none-any.whl
+[2023-07-10 14:53:35] INFO root fetch - processPackages [pai-easy-rec]: Downloading https://files.pythonhosted.org/packages/0b/8f/bb58d81814d6f32a023ec6b68155c7b822e00a891cbee308977790537db3/pai-easy-rec-0.6.3.tar.gz
+[2023-07-10 14:53:35] WARNING root fetch - processPackages [oking]: Skipping package: exceeds size limit 82501430>=10485760
+[2023-07-10 14:53:35] INFO root fetch - processPackages [oking]: Start processing: gapic-generator
+[2023-07-10 14:53:35] INFO root fetch - main [MainThread]: End processing [oking] error
+[2023-07-10 14:53:35] INFO root fetch - processPackages [skycalc-ipy]: Downloading https://files.pythonhosted.org/packages/ff/d4/54caadb0a6b44f03dfd316ff06954d57bdd7a23efbbcfecf8eb7c557e2ea/skycalc-ipy-0.1.3.tar.gz
+[2023-07-10 14:53:35] WARNING root fetch - processPackages [KorDigits]: Skipping package: exceeds size limit 61307796>=10485760
+[2023-07-10 14:53:35] INFO root fetch - processPackages [KorDigits]: Start processing: telegramweb
+[2023-07-10 14:53:35] INFO root fetch - main [MainThread]: End processing [KorDigits] error
+[2023-07-10 14:53:35] INFO root fetch - processPackages [micropython-icm20948]: Downloading https://files.pythonhosted.org/packages/cd/b3/778bcc0b3e37b74aa8ed891ab33f98c3e0d921fa1c1f928b377dfd1046c6/micropython-icm20948-0.2.1.tar.gz
+[2023-07-10 14:53:35] INFO root fetch - processPackages [gapic-generator]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-10 14:53:35] WARNING root fetch - processPackages [pai-easy-rec]: Skipping package: exceeds size limit 16032723>=10485760
+[2023-07-10 14:53:35] INFO root fetch - processPackages [pai-easy-rec]: Start processing: python-json-log-formatter
+[2023-07-10 14:53:35] INFO root fetch - main [MainThread]: End processing [pai-easy-rec] error
+[2023-07-10 14:53:35] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2023-07-10 14:53:35] INFO root fetch - processPackages [darwinio]: Downloading https://files.pythonhosted.org/packages/99/71/208ea3a9d83cd47744be110093452756f7252f9ffc2e485813ee2dce0cbb/darwinio-0.1.0.tar.gz
+[2023-07-10 14:53:35] INFO root fetch - processPackages [telegramweb]: New version: [5.8] Old Version: [5.7]
+[2023-07-10 14:53:35] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/0a/41/cea5d82b10249143909b55a113079e0db18cca2f7aedd4b9801f143a69bb/manticore-0.3.8.dev230709.tar.gz
+[2023-07-10 14:53:35] INFO root fetch - processPackages [python-json-log-formatter]: New version: [3.2.4] Old Version: [3.2.2]
+[2023-07-10 14:53:35] INFO root fetch - processPackages [langchain-chatglm]: Downloading https://files.pythonhosted.org/packages/c1/fb/30a91c7a9fdb8b80a53360e8145d89de9d77e7f2f8fbd5bcb1cfb90d9d0c/langchain-chatglm-0.0.7.tar.gz
+[2023-07-10 14:53:35] INFO root fetch - processPackages [telegramweb]: Downloading https://files.pythonhosted.org/packages/74/2e/cfb92b3599c96a822bf9e264c394f1d9383e44a74a0d4d8100ec11e23cbb/telegramweb-5.7.tar.gz
+[2023-07-10 14:53:35] INFO root fetch - processPackages [hydropump]: Downloading https://files.pythonhosted.org/packages/82/1c/668d83c7493a98ebbe85ab07f68b6fc3a03827780479ce6eb9b5c9f26156/hydropump-0.1.2.tar.gz
+[2023-07-10 14:53:36] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2023-07-10 14:53:36] INFO root fetch - processPackages [gapic-generator]: Downloading https://files.pythonhosted.org/packages/d1/8e/fc63e6060aacb533da9c1a39aed87a2b26b06b1e2b2373f2c3474a23e84a/gapic-generator-1.9.0.tar.gz
+[2023-07-10 14:53:36] INFO root fetch - processPackages [python-json-log-formatter]: Downloading https://files.pythonhosted.org/packages/8b/bd/c9f4221c280e26356bf1d2927dd7080c440b1c1865e6021b4c9b912e0a4f/python_json_log_formatter-3.2.2.tar.gz
+[2023-07-10 14:53:36] INFO root fetch - processPackages [skycalc-ipy]: Downloading https://files.pythonhosted.org/packages/a4/bd/af2c3e5d8b89e395d5a7b7b2ff4352d0232c90e9a22edd160a58aa52913e/skycalc_ipy-0.1.4.tar.gz
+[2023-07-10 14:53:36] INFO root fetch - processPackages [hydropump]: executing diffoscope
+[2023-07-10 14:53:36] INFO root fetch - processPackages [hydropump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydropump-0.1.1.tar.gz tmp/hydropump-0.1.2.tar.gz --markdown 20230710/h/hydropump/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-10 14:53:36] INFO root fetch - processPackages [micropython-icm20948]: Downloading https://files.pythonhosted.org/packages/48/74/fbfc8f6732840632be46003f0b8be6ce555afaceaac4e668eb8b36779b34/micropython-icm20948-0.2.2.tar.gz
+[2023-07-10 14:53:36] INFO root fetch - processPackages [langchain-chatglm]: Downloading https://files.pythonhosted.org/packages/22/93/5d2bb88a621d4b8300241c60bce0b8129dfe1a21122262e3e85f6ee432b9/langchain-chatglm-0.0.8.tar.gz
+[2023-07-10 14:53:36] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/1f/d6/9043a274e4da1881145fb4d2b3722a4fd00c3d395edd5ff4aa0f7fd5cfa6/manticore-0.3.8.dev230710.tar.gz
+[2023-07-10 14:53:36] INFO root fetch - processPackages [skycalc-ipy]: executing diffoscope
+[2023-07-10 14:53:36] INFO root fetch - processPackages [skycalc-ipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skycalc-ipy-0.1.3.tar.gz tmp/skycalc_ipy-0.1.4.tar.gz --markdown 20230710/s/skycalc-ipy/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-10 14:53:36] INFO root fetch - processPackages [telegramweb]: Downloading https://files.pythonhosted.org/packages/18/4a/65e6f1ad6d5aca7dec4f4b1f6d3d18238591913126ed295223b7a7432f7d/telegramweb-5.8.tar.gz
+[2023-07-10 14:53:36] INFO root fetch - processPackages [micropython-icm20948]: executing diffoscope
+[2023-07-10 14:53:36] INFO root fetch - processPackages [micropython-icm20948]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-icm20948-0.2.1.tar.gz tmp/micropython-icm20948-0.2.2.tar.gz --markdown 20230710/m/micropython-icm20948/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-10 14:53:36] INFO root fetch - processPackages [langchain-chatglm]: executing diffoscope
+[2023-07-10 14:53:36] INFO root fetch - processPackages [langchain-chatglm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-chatglm-0.0.7.tar.gz tmp/langchain-chatglm-0.0.8.tar.gz --markdown 20230710/l/langchain-chatglm/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-10 14:53:36] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-07-10 14:53:36] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230709.tar.gz tmp/manticore-0.3.8.dev230710.tar.gz --markdown 20230710/m/manticore/0.3.8.dev230709-0.3.8.dev230710/diff.md --exclude *.pyd
+[2023-07-10 14:53:36] INFO root fetch - processPackages [telegramweb]: executing diffoscope
+[2023-07-10 14:53:36] INFO root fetch - processPackages [telegramweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegramweb-5.7.tar.gz tmp/telegramweb-5.8.tar.gz --markdown 20230710/t/telegramweb/5.7-5.8/diff.md --exclude *.pyd
+[2023-07-10 14:53:36] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2023-07-10 14:53:36] INFO root fetch - processPackages [darwinio]: Downloading https://files.pythonhosted.org/packages/3e/3a/10deebd14ba351d4c6fc5d9ea61cdee1613e137617c57889304e8fc9ee6f/darwinio-0.1.1.tar.gz
+[2023-07-10 14:53:36] INFO root fetch - processPackages [gapic-generator]: Downloading https://files.pythonhosted.org/packages/18/b8/edff8de1cdf35688513694fcb96714591da0c31428d9193add5cb31c6cdf/gapic-generator-1.9.1.tar.gz
+[2023-07-10 14:53:36] INFO root fetch - processPackages [python-json-log-formatter]: Downloading https://files.pythonhosted.org/packages/f8/a6/41850113b16bc2ea95c3b7a740637944d812fc968a41d646683f43666c3c/python_json_log_formatter-3.2.4.tar.gz
+[2023-07-10 14:53:36] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2023-07-10 14:53:36] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20230710/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/diff.md --exclude *.pyd
+[2023-07-10 14:53:36] INFO root fetch - processPackages [python-json-log-formatter]: executing diffoscope
+[2023-07-10 14:53:36] INFO root fetch - processPackages [python-json-log-formatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_json_log_formatter-3.2.2.tar.gz tmp/python_json_log_formatter-3.2.4.tar.gz --markdown 20230710/p/python-json-log-formatter/3.2.2-3.2.4/diff.md --exclude *.pyd
+[2023-07-10 14:53:36] INFO root fetch - processPackages [gapic-generator]: executing diffoscope
+[2023-07-10 14:53:36] INFO root fetch - processPackages [gapic-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gapic-generator-1.9.0.tar.gz tmp/gapic-generator-1.9.1.tar.gz --markdown 20230710/g/gapic-generator/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-10 14:53:37] INFO root fetch - processPackages [darwinio]: executing diffoscope
+[2023-07-10 14:53:37] INFO root fetch - processPackages [darwinio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/darwinio-0.1.0.tar.gz tmp/darwinio-0.1.1.tar.gz --markdown 20230710/d/darwinio/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-10 14:53:37] INFO root fetch - processPackages [hydropump]: Remove: archive file [/home/abi/fetcher/tmp/hydropump-0.1.1.tar.gz]
+[2023-07-10 14:53:37] INFO root fetch - processPackages [hydropump]: Remove: archive file [/home/abi/fetcher/tmp/hydropump-0.1.2.tar.gz]
+[2023-07-10 14:53:37] INFO root fetch - processPackages [hydropump]: Start processing: midnight-engine
+[2023-07-10 14:53:37] INFO root fetch - main [MainThread]: End processing [hydropump]: success
+[2023-07-10 14:53:37] INFO root fetch - processPackages [midnight-engine]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-10 14:53:37] INFO root fetch - processPackages [micropython-icm20948]: Remove: archive file [/home/abi/fetcher/tmp/micropython-icm20948-0.2.1.tar.gz]
+[2023-07-10 14:53:37] INFO root fetch - processPackages [micropython-icm20948]: Remove: archive file [/home/abi/fetcher/tmp/micropython-icm20948-0.2.2.tar.gz]
+[2023-07-10 14:53:37] INFO root fetch - processPackages [micropython-icm20948]: Start processing: zgy-pkg
+[2023-07-10 14:53:37] INFO root fetch - main [MainThread]: End processing [micropython-icm20948]: success
+[2023-07-10 14:53:37] INFO root fetch - processPackages [midnight-engine]: Downloading https://files.pythonhosted.org/packages/8e/30/7e1537d797bb7dff134a84eec89d012b1f1fade439b62890d45afd281636/midnight-engine-0.1.0.tar.gz
+[2023-07-10 14:53:38] INFO root fetch - processPackages [langchain-chatglm]: Remove: archive file [/home/abi/fetcher/tmp/langchain-chatglm-0.0.7.tar.gz]
+[2023-07-10 14:53:38] INFO root fetch - processPackages [langchain-chatglm]: Remove: archive file [/home/abi/fetcher/tmp/langchain-chatglm-0.0.8.tar.gz]
+[2023-07-10 14:53:38] INFO root fetch - processPackages [langchain-chatglm]: Start processing: micomputing
+[2023-07-10 14:53:38] INFO root fetch - main [MainThread]: End processing [langchain-chatglm]: success
+[2023-07-10 14:53:38] INFO root fetch - processPackages [skycalc-ipy]: Remove: archive file [/home/abi/fetcher/tmp/skycalc-ipy-0.1.3.tar.gz]
+[2023-07-10 14:53:38] INFO root fetch - processPackages [skycalc-ipy]: Remove: archive file [/home/abi/fetcher/tmp/skycalc_ipy-0.1.4.tar.gz]
+[2023-07-10 14:53:38] INFO root fetch - main [MainThread]: End processing [skycalc-ipy]: success
+[2023-07-10 14:53:38] INFO root fetch - processPackages [micomputing]: New version: [1.1.45] Old Version: [1.1.44]
+[2023-07-10 14:53:38] WARNING root fetch - processPackages [zgy-pkg]: Skipping, unable to determine old version
+[2023-07-10 14:53:38] INFO root fetch - main [MainThread]: End processing [zgy-pkg] error
+[2023-07-10 14:53:38] INFO root fetch - processPackages [telegramweb]: Remove: archive file [/home/abi/fetcher/tmp/telegramweb-5.7.tar.gz]
+[2023-07-10 14:53:38] INFO root fetch - processPackages [telegramweb]: Remove: archive file [/home/abi/fetcher/tmp/telegramweb-5.8.tar.gz]
+[2023-07-10 14:53:38] INFO root fetch - main [MainThread]: End processing [telegramweb]: success
+[2023-07-10 14:53:38] INFO root fetch - processPackages [midnight-engine]: Downloading https://files.pythonhosted.org/packages/2d/3c/54c8a267805f5f3c682bbc2f797379fa6dfe7ed691842c9e48b725dc0a3e/midnight-engine-0.1.1.tar.gz
+[2023-07-10 14:53:38] INFO root fetch - processPackages [micomputing]: Downloading https://files.pythonhosted.org/packages/fe/cc/74e8bf37b30110f3c0d2250e9c0d5a256c7bcad3806f4fef75af91730049/micomputing-1.1.44.tar.gz
+[2023-07-10 14:53:38] INFO root fetch - processPackages [python-json-log-formatter]: Remove: archive file [/home/abi/fetcher/tmp/python_json_log_formatter-3.2.2.tar.gz]
+[2023-07-10 14:53:38] INFO root fetch - processPackages [python-json-log-formatter]: Remove: archive file [/home/abi/fetcher/tmp/python_json_log_formatter-3.2.4.tar.gz]
+[2023-07-10 14:53:38] INFO root fetch - main [MainThread]: End processing [python-json-log-formatter]: success
+[2023-07-10 14:53:38] INFO root fetch - processPackages [midnight-engine]: executing diffoscope
+[2023-07-10 14:53:38] INFO root fetch - processPackages [midnight-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/midnight-engine-0.1.0.tar.gz tmp/midnight-engine-0.1.1.tar.gz --markdown 20230710/m/midnight-engine/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-10 14:53:38] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230709.tar.gz]
+[2023-07-10 14:53:38] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230710.tar.gz]
+[2023-07-10 14:53:38] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-07-10 14:53:38] INFO root fetch - processPackages [micomputing]: Downloading https://files.pythonhosted.org/packages/af/21/0b14cce3ed8d84910779c4f41e53351e2617266e6c2c1962581abf25e6ff/micomputing-1.1.45.tar.gz
+[2023-07-10 14:53:38] INFO root fetch - processPackages [micomputing]: executing diffoscope
+[2023-07-10 14:53:38] INFO root fetch - processPackages [micomputing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micomputing-1.1.44.tar.gz tmp/micomputing-1.1.45.tar.gz --markdown 20230710/m/micomputing/1.1.44-1.1.45/diff.md --exclude *.pyd
+[2023-07-10 14:53:38] INFO root fetch - processPackages [darwinio]: Remove: archive file [/home/abi/fetcher/tmp/darwinio-0.1.0.tar.gz]
+[2023-07-10 14:53:38] INFO root fetch - processPackages [darwinio]: Remove: archive file [/home/abi/fetcher/tmp/darwinio-0.1.1.tar.gz]
+[2023-07-10 14:53:39] INFO root fetch - main [MainThread]: End processing [darwinio]: success
+[2023-07-10 14:53:39] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2023-07-10 14:53:39] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2023-07-10 14:53:39] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2023-07-10 14:53:39] INFO root fetch - processPackages [midnight-engine]: Remove: archive file [/home/abi/fetcher/tmp/midnight-engine-0.1.0.tar.gz]
+[2023-07-10 14:53:39] INFO root fetch - processPackages [midnight-engine]: Remove: archive file [/home/abi/fetcher/tmp/midnight-engine-0.1.1.tar.gz]
+[2023-07-10 14:53:39] INFO root fetch - main [MainThread]: End processing [midnight-engine]: success
+[2023-07-10 14:53:39] INFO root fetch - processPackages [micomputing]: Remove: archive file [/home/abi/fetcher/tmp/micomputing-1.1.44.tar.gz]
+[2023-07-10 14:53:39] INFO root fetch - processPackages [micomputing]: Remove: archive file [/home/abi/fetcher/tmp/micomputing-1.1.45.tar.gz]
+[2023-07-10 14:53:39] INFO root fetch - main [MainThread]: End processing [micomputing]: success
+[2023-07-10 14:53:41] INFO root fetch - processPackages [gapic-generator]: Remove: archive file [/home/abi/fetcher/tmp/gapic-generator-1.9.0.tar.gz]
+[2023-07-10 14:53:41] INFO root fetch - processPackages [gapic-generator]: Remove: archive file [/home/abi/fetcher/tmp/gapic-generator-1.9.1.tar.gz]
+[2023-07-10 14:53:41] INFO root fetch - main [MainThread]: End processing [gapic-generator]: success
+[2023-07-10 14:53:41] INFO root fetch - main [MainThread]: Store serial: [18830740]
