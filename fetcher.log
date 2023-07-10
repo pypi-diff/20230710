@@ -7226,3 +7226,84 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 06:35:58] INFO root fetch - processPackages [edc-ltfu]: Remove: archive file [/home/abi/fetcher/tmp/edc_ltfu-0.3.9-py3-none-any.whl.zip]
 [2023-07-10 06:35:58] INFO root fetch - main [MainThread]: End processing [edc-ltfu]: success
 [2023-07-10 06:35:58] INFO root fetch - main [MainThread]: Store serial: [18826445]
+[2023-07-10 06:41:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18826445]
+[2023-07-10 06:41:07] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-10 06:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: devops-trabalho
+[2023-07-10 06:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SgitisnepiPy
+[2023-07-10 06:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edc-microbiology
+[2023-07-10 06:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rssadd
+[2023-07-10 06:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aws-info-helper
+[2023-07-10 06:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: st-paywall
+[2023-07-10 06:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: roblox-pyc
+[2023-07-10 06:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: safeway-coupons
+[2023-07-10 06:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lvhao-lib
+[2023-07-10 06:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: satosacontrib.perun
+[2023-07-10 06:41:07] INFO root fetch - processPackages [edc-microbiology]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 06:41:07] WARNING root fetch - processPackages [SgitisnepiPy]: Skipping, unable to determine old version
+[2023-07-10 06:41:07] INFO root fetch - main [MainThread]: End processing [SgitisnepiPy] error
+[2023-07-10 06:41:07] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-10 06:41:07] INFO root fetch - processPackages [st-paywall]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-10 06:41:07] INFO root fetch - processPackages [devops-trabalho]: New version: [0.0.4] Old Version: [0.0.1]
+[2023-07-10 06:41:07] INFO root fetch - processPackages [safeway-coupons]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-10 06:41:07] INFO root fetch - processPackages [lvhao-lib]: New version: [0.7.0] Old Version: [0.3.0]
+[2023-07-10 06:41:07] WARNING root fetch - processPackages [rssadd]: Skipping, unable to determine old version
+[2023-07-10 06:41:07] INFO root fetch - main [MainThread]: End processing [rssadd] error
+[2023-07-10 06:41:07] INFO root fetch - processPackages [aws-info-helper]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-10 06:41:07] INFO root fetch - processPackages [satosacontrib.perun]: New version: [3.6.2] Old Version: [3.6.1]
+[2023-07-10 06:41:07] INFO root fetch - processPackages [safeway-coupons]: Downloading https://files.pythonhosted.org/packages/9d/bf/a299db3d34457d88ebfc1897d66f3d8f28ef83380efd242b373eeb6af836/safeway_coupons-0.2.0.tar.gz
+[2023-07-10 06:41:08] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-10 06:41:08] INFO root fetch - processPackages [edc-microbiology]: Downloading https://files.pythonhosted.org/packages/b5/18/748e8690b6c4ab223e1d54a630e84111708fb2dd82f1dabc224f7f9da214/edc-microbiology-0.1.8.tar.gz
+[2023-07-10 06:41:08] INFO root fetch - processPackages [st-paywall]: Downloading https://files.pythonhosted.org/packages/b8/76/53dbc2865130a629c8f538fd60b3c3347c2667425965d8a0e05e9b44d592/st-paywall-0.1.1.tar.gz
+[2023-07-10 06:41:08] INFO root fetch - processPackages [devops-trabalho]: Downloading https://files.pythonhosted.org/packages/4e/e1/e89fdf8b2e459d5133ea37f5b7ff2400f7d56111d6b728e729b48c94fdf7/devops_trabalho-0.0.1.tar.gz
+[2023-07-10 06:41:08] INFO root fetch - processPackages [lvhao-lib]: Downloading https://files.pythonhosted.org/packages/94/a1/14e7462bbb7c849d385414d66be728b5dca7fa70dd891ef582455edec99e/lvhao_lib-0.3.0.tar.gz
+[2023-07-10 06:41:08] INFO root fetch - processPackages [aws-info-helper]: Downloading https://files.pythonhosted.org/packages/ae/71/dfeb05ff33a04ab4458331de6f0b9b051a7f0038cd5e238f9aeca783fd90/aws_info_helper-0.1.1-py3-none-any.whl
+[2023-07-10 06:41:08] INFO root fetch - processPackages [satosacontrib.perun]: Downloading https://files.pythonhosted.org/packages/71/e0/21d462e67e12b3abd94db1ab0a1d532243a6719202d613590a0e0bb9d2be/satosacontrib.perun-3.6.1.tar.gz
+[2023-07-10 06:41:08] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-10 06:41:08] INFO root fetch - processPackages [safeway-coupons]: Downloading https://files.pythonhosted.org/packages/76/c4/cf5f1dbffd2e6000908ea8654aa6ef6bb094a64e71a387f139dfb3a0a33c/safeway_coupons-0.2.1.tar.gz
+[2023-07-10 06:41:08] INFO root fetch - processPackages [edc-microbiology]: Downloading https://files.pythonhosted.org/packages/2d/ca/da76e05fe8a34ef452638758ca6f05bde9daf8b367680d10d07778ce5727/edc-microbiology-0.1.9.tar.gz
+[2023-07-10 06:41:08] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-10 06:41:08] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230710/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-10 06:41:08] INFO root fetch - processPackages [st-paywall]: Downloading https://files.pythonhosted.org/packages/e9/27/525a50e6728ed4553820086e46e51aea2f02b48a9ef263cf386163fedd69/st-paywall-0.1.2.tar.gz
+[2023-07-10 06:41:08] INFO root fetch - processPackages [devops-trabalho]: Downloading https://files.pythonhosted.org/packages/8e/4b/91554046856535358ea2adc472fc7f3f3cfba133c779ef3a0a0a8dddbfee/devops_trabalho-0.0.4.tar.gz
+[2023-07-10 06:41:08] INFO root fetch - processPackages [satosacontrib.perun]: Downloading https://files.pythonhosted.org/packages/d6/99/4893a0435582795166e225fc39b01214ceb62ab025b7ca036a771ed79c93/satosacontrib.perun-3.6.2.tar.gz
+[2023-07-10 06:41:08] INFO root fetch - processPackages [aws-info-helper]: Downloading https://files.pythonhosted.org/packages/57/84/6b361ef00f5467271c0b491bd2c40f906426230a8167999c2cc27c9d1eba/aws_info_helper-0.1.2-py3-none-any.whl
+[2023-07-10 06:41:08] INFO root fetch - processPackages [safeway-coupons]: executing diffoscope
+[2023-07-10 06:41:08] INFO root fetch - processPackages [safeway-coupons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safeway_coupons-0.2.0.tar.gz tmp/safeway_coupons-0.2.1.tar.gz --markdown 20230710/s/safeway-coupons/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-10 06:41:08] INFO root fetch - processPackages [st-paywall]: executing diffoscope
+[2023-07-10 06:41:08] INFO root fetch - processPackages [devops-trabalho]: executing diffoscope
+[2023-07-10 06:41:08] INFO root fetch - processPackages [st-paywall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st-paywall-0.1.1.tar.gz tmp/st-paywall-0.1.2.tar.gz --markdown 20230710/s/st-paywall/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-10 06:41:08] INFO root fetch - processPackages [devops-trabalho]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devops_trabalho-0.0.1.tar.gz tmp/devops_trabalho-0.0.4.tar.gz --markdown 20230710/d/devops-trabalho/0.0.1-0.0.4/diff.md --exclude *.pyd
+[2023-07-10 06:41:08] INFO root fetch - processPackages [lvhao-lib]: Downloading https://files.pythonhosted.org/packages/cc/e4/544b24e4a0f9b5e4f31edb6fc85809a0ac59efb914e011eed89751aa8020/lvhao_lib-0.7.0.tar.gz
+[2023-07-10 06:41:08] INFO root fetch - processPackages [edc-microbiology]: executing diffoscope
+[2023-07-10 06:41:08] INFO root fetch - processPackages [edc-microbiology]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-microbiology-0.1.8.tar.gz tmp/edc-microbiology-0.1.9.tar.gz --markdown 20230710/e/edc-microbiology/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 06:41:08] INFO root fetch - processPackages [aws-info-helper]: executing diffoscope
+[2023-07-10 06:41:08] INFO root fetch - processPackages [aws-info-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_info_helper-0.1.1-py3-none-any.whl.zip tmp/aws_info_helper-0.1.2-py3-none-any.whl.zip --markdown 20230710/a/aws-info-helper/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-10 06:41:08] INFO root fetch - processPackages [satosacontrib.perun]: executing diffoscope
+[2023-07-10 06:41:08] INFO root fetch - processPackages [satosacontrib.perun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satosacontrib.perun-3.6.1.tar.gz tmp/satosacontrib.perun-3.6.2.tar.gz --markdown 20230710/s/satosacontrib.perun/3.6.1-3.6.2/diff.md --exclude *.pyd
+[2023-07-10 06:41:09] INFO root fetch - processPackages [lvhao-lib]: executing diffoscope
+[2023-07-10 06:41:09] INFO root fetch - processPackages [lvhao-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lvhao_lib-0.3.0.tar.gz tmp/lvhao_lib-0.7.0.tar.gz --markdown 20230710/l/lvhao-lib/0.3.0-0.7.0/diff.md --exclude *.pyd
+[2023-07-10 06:41:09] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-10 06:41:09] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-10 06:41:09] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-10 06:41:09] INFO root fetch - processPackages [devops-trabalho]: Remove: archive file [/home/abi/fetcher/tmp/devops_trabalho-0.0.1.tar.gz]
+[2023-07-10 06:41:09] INFO root fetch - processPackages [devops-trabalho]: Remove: archive file [/home/abi/fetcher/tmp/devops_trabalho-0.0.4.tar.gz]
+[2023-07-10 06:41:09] INFO root fetch - main [MainThread]: End processing [devops-trabalho]: success
+[2023-07-10 06:41:09] INFO root fetch - processPackages [safeway-coupons]: Remove: archive file [/home/abi/fetcher/tmp/safeway_coupons-0.2.0.tar.gz]
+[2023-07-10 06:41:09] INFO root fetch - processPackages [safeway-coupons]: Remove: archive file [/home/abi/fetcher/tmp/safeway_coupons-0.2.1.tar.gz]
+[2023-07-10 06:41:09] INFO root fetch - main [MainThread]: End processing [safeway-coupons]: success
+[2023-07-10 06:41:10] INFO root fetch - processPackages [st-paywall]: Remove: archive file [/home/abi/fetcher/tmp/st-paywall-0.1.1.tar.gz]
+[2023-07-10 06:41:10] INFO root fetch - processPackages [st-paywall]: Remove: archive file [/home/abi/fetcher/tmp/st-paywall-0.1.2.tar.gz]
+[2023-07-10 06:41:10] INFO root fetch - main [MainThread]: End processing [st-paywall]: success
+[2023-07-10 06:41:10] INFO root fetch - processPackages [aws-info-helper]: Remove: archive file [/home/abi/fetcher/tmp/aws_info_helper-0.1.1-py3-none-any.whl.zip]
+[2023-07-10 06:41:10] INFO root fetch - processPackages [aws-info-helper]: Remove: archive file [/home/abi/fetcher/tmp/aws_info_helper-0.1.2-py3-none-any.whl.zip]
+[2023-07-10 06:41:10] INFO root fetch - main [MainThread]: End processing [aws-info-helper]: success
+[2023-07-10 06:41:10] INFO root fetch - processPackages [edc-microbiology]: Remove: archive file [/home/abi/fetcher/tmp/edc-microbiology-0.1.8.tar.gz]
+[2023-07-10 06:41:10] INFO root fetch - processPackages [edc-microbiology]: Remove: archive file [/home/abi/fetcher/tmp/edc-microbiology-0.1.9.tar.gz]
+[2023-07-10 06:41:10] INFO root fetch - main [MainThread]: End processing [edc-microbiology]: success
+[2023-07-10 06:41:10] INFO root fetch - processPackages [satosacontrib.perun]: Remove: archive file [/home/abi/fetcher/tmp/satosacontrib.perun-3.6.1.tar.gz]
+[2023-07-10 06:41:10] INFO root fetch - processPackages [satosacontrib.perun]: Remove: archive file [/home/abi/fetcher/tmp/satosacontrib.perun-3.6.2.tar.gz]
+[2023-07-10 06:41:10] INFO root fetch - main [MainThread]: End processing [satosacontrib.perun]: success
+[2023-07-10 06:41:10] INFO root fetch - processPackages [lvhao-lib]: Remove: archive file [/home/abi/fetcher/tmp/lvhao_lib-0.3.0.tar.gz]
+[2023-07-10 06:41:10] INFO root fetch - processPackages [lvhao-lib]: Remove: archive file [/home/abi/fetcher/tmp/lvhao_lib-0.7.0.tar.gz]
+[2023-07-10 06:41:10] INFO root fetch - main [MainThread]: End processing [lvhao-lib]: success
+[2023-07-10 06:41:10] INFO root fetch - main [MainThread]: Store serial: [18826476]
