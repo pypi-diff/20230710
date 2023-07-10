@@ -20700,3 +20700,143 @@ EOFError: EOF read where object expected
 [2023-07-10 16:35:27] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Remove: archive file [/home/abi/fetcher/tmp/PureCloudPlatformClientV2-99.0.0.tar.gz]
 [2023-07-10 16:35:27] INFO root fetch - main [MainThread]: End processing [PureCloudPlatformClientV2]: success
 [2023-07-10 16:35:27] INFO root fetch - main [MainThread]: Store serial: [18831977]
+[2023-07-10 16:40:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18831977]
+[2023-07-10 16:40:37] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-10 16:40:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-helpdesk-mgmt-timesheet
+[2023-07-10 16:40:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-roborock
+[2023-07-10 16:40:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ephysiopy
+[2023-07-10 16:40:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: 1on1
+[2023-07-10 16:40:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hestia-earth-validation
+[2023-07-10 16:40:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pythonperlin
+[2023-07-10 16:40:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lusid-sdk-preview
+[2023-07-10 16:40:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tllab-common
+[2023-07-10 16:40:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lusid-sdk
+[2023-07-10 16:40:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: OpenGeode-core
+[2023-07-10 16:40:37] INFO root fetch - processPackages [tllab-common]: New version: [2023.7.1] Old Version: [2023.7.0]
+[2023-07-10 16:40:37] INFO root fetch - processPackages [ephysiopy]: New version: [1.9.23] Old Version: [1.9.22]
+[2023-07-10 16:40:37] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt-timesheet]: New version: [14.0.1.2.0] Old Version: [14.0.1.1.1.dev1]
+[2023-07-10 16:40:37] WARNING root fetch - processPackages [1on1]: Skipping, unable to determine old version
+[2023-07-10 16:40:37] INFO root fetch - processPackages [1on1]: Start processing: picsellia
+[2023-07-10 16:40:37] INFO root fetch - main [MainThread]: End processing [1on1] error
+[2023-07-10 16:40:37] INFO root fetch - processPackages [pythonperlin]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-10 16:40:37] INFO root fetch - processPackages [python-roborock]: New version: [0.9.0rc0] Old Version: [0.9.0]
+[2023-07-10 16:40:37] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-07-10 16:40:37] INFO root fetch - processPackages [OpenGeode-core]: New version: [9.10.4] Old Version: [14.4.1rc4]
+[2023-07-10 16:40:37] INFO root fetch - processPackages [picsellia]: New version: [6.9.0] Old Version: [6.8.0]
+[2023-07-10 16:40:37] INFO root fetch - processPackages [hestia-earth-validation]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-10 16:40:37] INFO root fetch - processPackages [lusid-sdk]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-07-10 16:40:37] INFO root fetch - processPackages [pythonperlin]: Downloading https://files.pythonhosted.org/packages/c5/45/c234fb22d836985f4aa0aba82cc0de3b3d906c6dde091da7349b9a18e30c/pythonperlin-0.0.4.tar.gz
+[2023-07-10 16:40:37] INFO root fetch - processPackages [tllab-common]: Downloading https://files.pythonhosted.org/packages/77/8c/a5edb2ae12b9932b43bdf589bd8566c0f22acdfe83f1aad7f3f6ab39ec0b/tllab_common-2023.7.0.tar.gz
+[2023-07-10 16:40:37] INFO root fetch - processPackages [ephysiopy]: Downloading https://files.pythonhosted.org/packages/26/23/0af1b7a1b81a3202b1eefc8038d9e8884fe47135dbb0af107ba6484944fb/ephysiopy-1.9.22.tar.gz
+[2023-07-10 16:40:37] INFO root fetch - processPackages [OpenGeode-core]: Downloading https://files.pythonhosted.org/packages/b5/d7/8420d14cd53773be366f97af35f46eb86042cb4b1992e6525cfd7004a5a8/OpenGeode_core-14.4.1rc4-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-10 16:40:37] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt-timesheet]: Downloading https://files.pythonhosted.org/packages/cc/a0/b401766caa1ce5f6a1be43c59bfba7ba06c02c6bb1679c16f31b0d8f2bdd/odoo14_addon_helpdesk_mgmt_timesheet-14.0.1.1.1.dev1-py3-none-any.whl
+[2023-07-10 16:40:38] INFO root fetch - processPackages [python-roborock]: Downloading https://files.pythonhosted.org/packages/bc/a5/7bd08437421c34e92b81b72e3d3eaf9ab00bc7dcca9dd03a427476c13e59/python_roborock-0.9.0.tar.gz
+[2023-07-10 16:40:38] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/49/7a/a2c137408aeb27bd4c7f6dd83e907217e3962f825b96448437c4cfa4e0ea/lusid-sdk-preview-1.0.91.tar.gz
+[2023-07-10 16:40:38] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/be/34/7662f651750d07513450337ca9275481d00381ada330eaaa7e365fdde135/lusid-sdk-1.0.91.tar.gz
+[2023-07-10 16:40:38] INFO root fetch - processPackages [picsellia]: Downloading https://files.pythonhosted.org/packages/02/3a/e796aeeee6a3240ea60c80d910c574157b92761c46816f3f0bb9b29a709a/picsellia-6.8.0.tar.gz
+[2023-07-10 16:40:38] INFO root fetch - processPackages [hestia-earth-validation]: Downloading https://files.pythonhosted.org/packages/33/b1/1105a4e61f23c309958db8eb0a5c59b945e3291d912a253970b1cdb90f73/hestia-earth-validation-0.9.2.tar.gz
+[2023-07-10 16:40:38] WARNING root fetch - processPackages [OpenGeode-core]: Skipping package: exceeds size limit 14124466>=10485760
+[2023-07-10 16:40:38] INFO root fetch - processPackages [OpenGeode-core]: Start processing: seaplane
+[2023-07-10 16:40:38] INFO root fetch - main [MainThread]: End processing [OpenGeode-core] error
+[2023-07-10 16:40:38] INFO root fetch - processPackages [seaplane]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-10 16:40:38] INFO root fetch - processPackages [pythonperlin]: Downloading https://files.pythonhosted.org/packages/14/64/5f049499b4cc27b3d2b3472adf0d7ec9d8281ab1d593591ba1489422e821/pythonperlin-0.0.5.tar.gz
+[2023-07-10 16:40:38] INFO root fetch - processPackages [tllab-common]: Downloading https://files.pythonhosted.org/packages/18/f5/064b5d4293f90fe641ac0777be43f6ff8175cd73b6b2d7051afe2813c873/tllab_common-2023.7.1.tar.gz
+[2023-07-10 16:40:38] INFO root fetch - processPackages [pythonperlin]: executing diffoscope
+[2023-07-10 16:40:38] INFO root fetch - processPackages [pythonperlin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonperlin-0.0.4.tar.gz tmp/pythonperlin-0.0.5.tar.gz --markdown 20230710/p/pythonperlin/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-10 16:40:38] INFO root fetch - processPackages [ephysiopy]: Downloading https://files.pythonhosted.org/packages/92/07/2e8e468540fd88f64b1e552514dfd6d422de66d532d612dbd6295e42d063/ephysiopy-1.9.23.tar.gz
+[2023-07-10 16:40:38] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt-timesheet]: Downloading https://files.pythonhosted.org/packages/38/e8/91c7c06bcd05d53e324fabcc13077230a6af6c730f59561731c3def7d41e/odoo14_addon_helpdesk_mgmt_timesheet-14.0.1.2.0-py3-none-any.whl
+[2023-07-10 16:40:38] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/e7/61/c864ce95e15abf9ad2a76809ae1db8bd46564cb3bfcf2cf7b76a1221faf8/seaplane-0.3.8.tar.gz
+[2023-07-10 16:40:38] INFO root fetch - processPackages [hestia-earth-validation]: Downloading https://files.pythonhosted.org/packages/b0/45/d5ba27a9ee459bf387b017277d998197192c37d8374146ae34a294f8a0af/hestia-earth-validation-0.9.3.tar.gz
+[2023-07-10 16:40:38] INFO root fetch - processPackages [picsellia]: Downloading https://files.pythonhosted.org/packages/53/4d/429cba0ffc92e278bb7c6de092db18ca374292e945109e701914a1cbd70e/picsellia-6.9.0.tar.gz
+[2023-07-10 16:40:38] INFO root fetch - processPackages [python-roborock]: Downloading https://files.pythonhosted.org/packages/40/9b/30bb82604def56c9a66db0578b68938e38bd30a9c931295d66012a137825/python_roborock-0.9.0rc0.tar.gz
+[2023-07-10 16:40:38] INFO root fetch - processPackages [tllab-common]: executing diffoscope
+[2023-07-10 16:40:38] INFO root fetch - processPackages [tllab-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tllab_common-2023.7.0.tar.gz tmp/tllab_common-2023.7.1.tar.gz --markdown 20230710/t/tllab-common/2023.7.0-2023.7.1/diff.md --exclude *.pyd
+[2023-07-10 16:40:38] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/14/c8/523a5d4f9c0dcabd6883ffe308d0ecf41ed93c1f7e1cdc4baced16ec67c6/lusid-sdk-1.0.98.tar.gz
+[2023-07-10 16:40:38] INFO root fetch - processPackages [ephysiopy]: executing diffoscope
+[2023-07-10 16:40:38] INFO root fetch - processPackages [ephysiopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ephysiopy-1.9.22.tar.gz tmp/ephysiopy-1.9.23.tar.gz --markdown 20230710/e/ephysiopy/1.9.22-1.9.23/diff.md --exclude *.pyd
+[2023-07-10 16:40:38] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt-timesheet]: executing diffoscope
+[2023-07-10 16:40:38] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt-timesheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_helpdesk_mgmt_timesheet-14.0.1.1.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_helpdesk_mgmt_timesheet-14.0.1.2.0-py3-none-any.whl.zip --markdown 20230710/o/odoo14-addon-helpdesk-mgmt-timesheet/14.0.1.1.1.dev1-14.0.1.2.0/diff.md --exclude *.pyd
+[2023-07-10 16:40:38] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/98/81/36672596a28f997865bee76ba030a446e52a68b56b9e297ed56f9a8fb301/lusid-sdk-preview-1.0.98.tar.gz
+[2023-07-10 16:40:38] INFO root fetch - processPackages [hestia-earth-validation]: executing diffoscope
+[2023-07-10 16:40:38] INFO root fetch - processPackages [hestia-earth-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia-earth-validation-0.9.2.tar.gz tmp/hestia-earth-validation-0.9.3.tar.gz --markdown 20230710/h/hestia-earth-validation/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-10 16:40:38] INFO root fetch - processPackages [picsellia]: executing diffoscope
+[2023-07-10 16:40:38] INFO root fetch - processPackages [picsellia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picsellia-6.8.0.tar.gz tmp/picsellia-6.9.0.tar.gz --markdown 20230710/p/picsellia/6.8.0-6.9.0/diff.md --exclude *.pyd
+[2023-07-10 16:40:39] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2023-07-10 16:40:39] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-1.0.91.tar.gz tmp/lusid-sdk-1.0.98.tar.gz --markdown 20230710/l/lusid-sdk/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-07-10 16:40:39] INFO root fetch - processPackages [python-roborock]: executing diffoscope
+[2023-07-10 16:40:39] INFO root fetch - processPackages [python-roborock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_roborock-0.9.0.tar.gz tmp/python_roborock-0.9.0rc0.tar.gz --markdown 20230710/p/python-roborock/0.9.0-0.9.0rc0/diff.md --exclude *.pyd
+[2023-07-10 16:40:39] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2023-07-10 16:40:39] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.0.91.tar.gz tmp/lusid-sdk-preview-1.0.98.tar.gz --markdown 20230710/l/lusid-sdk-preview/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-07-10 16:40:39] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/f7/af/2f29681bd0dce058b9d26f46481537dde0fcdbe0e5d6d80d9e4622dc52b8/seaplane-0.3.9.tar.gz
+[2023-07-10 16:40:39] INFO root fetch - processPackages [seaplane]: executing diffoscope
+[2023-07-10 16:40:39] INFO root fetch - processPackages [seaplane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaplane-0.3.8.tar.gz tmp/seaplane-0.3.9.tar.gz --markdown 20230710/s/seaplane/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-10 16:40:39] INFO root fetch - processPackages [pythonperlin]: Remove: archive file [/home/abi/fetcher/tmp/pythonperlin-0.0.4.tar.gz]
+[2023-07-10 16:40:39] INFO root fetch - processPackages [pythonperlin]: Remove: archive file [/home/abi/fetcher/tmp/pythonperlin-0.0.5.tar.gz]
+[2023-07-10 16:40:39] INFO root fetch - processPackages [pythonperlin]: Start processing: ns-asphalt9
+[2023-07-10 16:40:39] INFO root fetch - main [MainThread]: End processing [pythonperlin]: success
+[2023-07-10 16:40:39] INFO root fetch - processPackages [ns-asphalt9]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-10 16:40:39] INFO root fetch - processPackages [ns-asphalt9]: Downloading https://files.pythonhosted.org/packages/67/ca/82bb43738e594c6fcd08a00cd74f5b977c4088af5cac07777ddf11e4ef69/ns_asphalt9-0.1.0.tar.gz
+[2023-07-10 16:40:40] INFO root fetch - processPackages [tllab-common]: Remove: archive file [/home/abi/fetcher/tmp/tllab_common-2023.7.0.tar.gz]
+[2023-07-10 16:40:40] INFO root fetch - processPackages [tllab-common]: Remove: archive file [/home/abi/fetcher/tmp/tllab_common-2023.7.1.tar.gz]
+[2023-07-10 16:40:40] INFO root fetch - processPackages [tllab-common]: Start processing: malbrid
+[2023-07-10 16:40:40] INFO root fetch - main [MainThread]: End processing [tllab-common]: success
+[2023-07-10 16:40:40] INFO root fetch - processPackages [ns-asphalt9]: Downloading https://files.pythonhosted.org/packages/2e/82/eb17daeb1dd3bdb0fcbdd12b66cdacd82e66348a0663404623d62ae77660/ns_asphalt9-0.1.1.tar.gz
+[2023-07-10 16:40:40] INFO root fetch - processPackages [malbrid]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 16:40:40] INFO root fetch - processPackages [ephysiopy]: Remove: archive file [/home/abi/fetcher/tmp/ephysiopy-1.9.22.tar.gz]
+[2023-07-10 16:40:40] INFO root fetch - processPackages [ephysiopy]: Remove: archive file [/home/abi/fetcher/tmp/ephysiopy-1.9.23.tar.gz]
+[2023-07-10 16:40:40] INFO root fetch - processPackages [ephysiopy]: Start processing: darwinio
+[2023-07-10 16:40:40] INFO root fetch - main [MainThread]: End processing [ephysiopy]: success
+[2023-07-10 16:40:40] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt-timesheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_helpdesk_mgmt_timesheet-14.0.1.1.1.dev1-py3-none-any.whl.zip]
+[2023-07-10 16:40:40] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt-timesheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_helpdesk_mgmt_timesheet-14.0.1.2.0-py3-none-any.whl.zip]
+[2023-07-10 16:40:40] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt-timesheet]: Start processing: maptasker
+[2023-07-10 16:40:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-helpdesk-mgmt-timesheet]: success
+[2023-07-10 16:40:40] INFO root fetch - processPackages [darwinio]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-10 16:40:40] INFO root fetch - processPackages [hestia-earth-validation]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-validation-0.9.2.tar.gz]
+[2023-07-10 16:40:40] INFO root fetch - processPackages [hestia-earth-validation]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-validation-0.9.3.tar.gz]
+[2023-07-10 16:40:40] INFO root fetch - processPackages [hestia-earth-validation]: Start processing: oddrn-generator
+[2023-07-10 16:40:40] INFO root fetch - main [MainThread]: End processing [hestia-earth-validation]: success
+[2023-07-10 16:40:40] INFO root fetch - processPackages [darwinio]: Downloading https://files.pythonhosted.org/packages/99/71/208ea3a9d83cd47744be110093452756f7252f9ffc2e485813ee2dce0cbb/darwinio-0.1.0.tar.gz
+[2023-07-10 16:40:40] INFO root fetch - processPackages [python-roborock]: Remove: archive file [/home/abi/fetcher/tmp/python_roborock-0.9.0.tar.gz]
+[2023-07-10 16:40:40] INFO root fetch - processPackages [python-roborock]: Remove: archive file [/home/abi/fetcher/tmp/python_roborock-0.9.0rc0.tar.gz]
+[2023-07-10 16:40:40] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
+[2023-07-10 16:40:40] INFO root fetch - processPackages [ns-asphalt9]: executing diffoscope
+[2023-07-10 16:40:40] INFO root fetch - processPackages [ns-asphalt9]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ns_asphalt9-0.1.0.tar.gz tmp/ns_asphalt9-0.1.1.tar.gz --markdown 20230710/n/ns-asphalt9/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-10 16:40:40] INFO root fetch - processPackages [malbrid]: Downloading https://files.pythonhosted.org/packages/86/ee/74d67df0d832168140de59d7880751529808fb2f80d936a592980fa521f0/malbrid-0.0.8.tar.gz
+[2023-07-10 16:40:40] WARNING root fetch - processPackages [maptasker]: Skipping, unable to determine old version
+[2023-07-10 16:40:40] INFO root fetch - main [MainThread]: End processing [maptasker] error
+[2023-07-10 16:40:40] INFO root fetch - processPackages [picsellia]: Remove: archive file [/home/abi/fetcher/tmp/picsellia-6.8.0.tar.gz]
+[2023-07-10 16:40:40] INFO root fetch - processPackages [picsellia]: Remove: archive file [/home/abi/fetcher/tmp/picsellia-6.9.0.tar.gz]
+[2023-07-10 16:40:40] INFO root fetch - main [MainThread]: End processing [picsellia]: success
+[2023-07-10 16:40:40] INFO root fetch - processPackages [oddrn-generator]: New version: [0.1.9] Old Version: [0.1.86]
+[2023-07-10 16:40:40] INFO root fetch - processPackages [oddrn-generator]: Downloading https://files.pythonhosted.org/packages/2f/1c/197a8f4e067cc791902815102a9aa99d5fcd35bb1e9a41f7cced2eeeec23/oddrn_generator-0.1.86.tar.gz
+[2023-07-10 16:40:41] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.8.tar.gz]
+[2023-07-10 16:40:41] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.9.tar.gz]
+[2023-07-10 16:40:41] INFO root fetch - main [MainThread]: End processing [seaplane]: success
+[2023-07-10 16:40:41] INFO root fetch - processPackages [malbrid]: Downloading https://files.pythonhosted.org/packages/8c/2c/a74c00ba3fc23e1c486622ae0ade2eff5b7ea34b642fa6ff8aa7ab7b128a/malbrid-0.0.9.tar.gz
+[2023-07-10 16:40:41] INFO root fetch - processPackages [darwinio]: Downloading https://files.pythonhosted.org/packages/3e/3a/10deebd14ba351d4c6fc5d9ea61cdee1613e137617c57889304e8fc9ee6f/darwinio-0.1.1.tar.gz
+[2023-07-10 16:40:41] INFO root fetch - processPackages [malbrid]: executing diffoscope
+[2023-07-10 16:40:41] INFO root fetch - processPackages [malbrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/malbrid-0.0.8.tar.gz tmp/malbrid-0.0.9.tar.gz --markdown 20230710/m/malbrid/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 16:40:41] INFO root fetch - processPackages [oddrn-generator]: Downloading https://files.pythonhosted.org/packages/2a/2e/c01483d58b0cf1c450eb92f93a9180e3d71bda2dfe4cbe678bad80d62bfb/oddrn-generator-0.1.9.tar.gz
+[2023-07-10 16:40:41] INFO root fetch - processPackages [darwinio]: executing diffoscope
+[2023-07-10 16:40:41] INFO root fetch - processPackages [darwinio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/darwinio-0.1.0.tar.gz tmp/darwinio-0.1.1.tar.gz --markdown 20230710/d/darwinio/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-10 16:40:41] INFO root fetch - processPackages [oddrn-generator]: executing diffoscope
+[2023-07-10 16:40:41] INFO root fetch - processPackages [oddrn-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oddrn_generator-0.1.86.tar.gz tmp/oddrn-generator-0.1.9.tar.gz --markdown 20230710/o/oddrn-generator/0.1.86-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 16:40:41] INFO root fetch - processPackages [ns-asphalt9]: Remove: archive file [/home/abi/fetcher/tmp/ns_asphalt9-0.1.0.tar.gz]
+[2023-07-10 16:40:41] INFO root fetch - processPackages [ns-asphalt9]: Remove: archive file [/home/abi/fetcher/tmp/ns_asphalt9-0.1.1.tar.gz]
+[2023-07-10 16:40:41] INFO root fetch - main [MainThread]: End processing [ns-asphalt9]: success
+[2023-07-10 16:40:42] INFO root fetch - processPackages [malbrid]: Remove: archive file [/home/abi/fetcher/tmp/malbrid-0.0.8.tar.gz]
+[2023-07-10 16:40:42] INFO root fetch - processPackages [malbrid]: Remove: archive file [/home/abi/fetcher/tmp/malbrid-0.0.9.tar.gz]
+[2023-07-10 16:40:42] INFO root fetch - main [MainThread]: End processing [malbrid]: success
+[2023-07-10 16:40:42] INFO root fetch - processPackages [oddrn-generator]: Remove: archive file [/home/abi/fetcher/tmp/oddrn_generator-0.1.86.tar.gz]
+[2023-07-10 16:40:42] INFO root fetch - processPackages [oddrn-generator]: Remove: archive file [/home/abi/fetcher/tmp/oddrn-generator-0.1.9.tar.gz]
+[2023-07-10 16:40:42] INFO root fetch - main [MainThread]: End processing [oddrn-generator]: success
+[2023-07-10 16:40:42] INFO root fetch - processPackages [darwinio]: Remove: archive file [/home/abi/fetcher/tmp/darwinio-0.1.0.tar.gz]
+[2023-07-10 16:40:42] INFO root fetch - processPackages [darwinio]: Remove: archive file [/home/abi/fetcher/tmp/darwinio-0.1.1.tar.gz]
+[2023-07-10 16:40:42] INFO root fetch - main [MainThread]: End processing [darwinio]: success
+[2023-07-10 16:40:48] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.91.tar.gz]
+[2023-07-10 16:40:48] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.98.tar.gz]
+[2023-07-10 16:40:48] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2023-07-10 16:40:52] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.91.tar.gz]
+[2023-07-10 16:40:52] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.98.tar.gz]
+[2023-07-10 16:40:52] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2023-07-10 16:40:52] INFO root fetch - main [MainThread]: Store serial: [18832030]
