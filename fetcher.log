@@ -16239,3 +16239,84 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 13:41:52] INFO root fetch - processPackages [netbox-topology-views]: Remove: archive file [/home/abi/fetcher/tmp/netbox-topology-views-3.6.0b2.tar.gz]
 [2023-07-10 13:41:52] INFO root fetch - main [MainThread]: End processing [netbox-topology-views]: success
 [2023-07-10 13:41:52] INFO root fetch - main [MainThread]: Store serial: [18830104]
+[2023-07-10 13:46:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18830104]
+[2023-07-10 13:47:00] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-10 13:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netbox-cisco-support-plugin
+[2023-07-10 13:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: supervisely
+[2023-07-10 13:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flwr-custom
+[2023-07-10 13:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reliably-cli
+[2023-07-10 13:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autotrain-advanced
+[2023-07-10 13:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: signxai
+[2023-07-10 13:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dcentrapi
+[2023-07-10 13:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: atomicshop
+[2023-07-10 13:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bibleit
+[2023-07-10 13:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yolink-api
+[2023-07-10 13:47:01] INFO root fetch - processPackages [signxai]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-10 13:47:01] INFO root fetch - processPackages [yolink-api]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-07-10 13:47:01] INFO root fetch - processPackages [autotrain-advanced]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-07-10 13:47:01] INFO root fetch - processPackages [dcentrapi]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-10 13:47:01] INFO root fetch - processPackages [signxai]: Downloading https://files.pythonhosted.org/packages/dd/2d/2ba9069009552ef30db243ffb1d6eefaf1bbff723e41660eaf4d8534fb37/signxai-0.0.3.tar.gz
+[2023-07-10 13:47:01] WARNING root fetch - processPackages [flwr-custom]: Skipping, unable to determine old version
+[2023-07-10 13:47:01] INFO root fetch - main [MainThread]: End processing [flwr-custom] error
+[2023-07-10 13:47:01] INFO root fetch - processPackages [atomicshop]: New version: [1.8.0] Old Version: [1.7.8]
+[2023-07-10 13:47:01] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-07-10 13:47:01] WARNING root fetch - processPackages [netbox-cisco-support-plugin]: Skipping, unable to determine old version
+[2023-07-10 13:47:01] INFO root fetch - main [MainThread]: End processing [netbox-cisco-support-plugin] error
+[2023-07-10 13:47:01] INFO root fetch - processPackages [reliably-cli]: New version: [0.8.8] Old Version: [0.8.7]
+[2023-07-10 13:47:01] INFO root fetch - processPackages [bibleit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 13:47:01] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/0c/09/f22deb72fda0085cdf575c9c9f5ac6017ba69a6e5bdf9eca806ea6f77d26/autotrain-advanced-0.5.2.tar.gz
+[2023-07-10 13:47:01] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/5a/d1c5e1830d747d899ac781f368bbd65eb9c02eaf0faf98d318a7dd8cce53/supervisely-6.9.1.tar.gz
+[2023-07-10 13:47:01] INFO root fetch - processPackages [yolink-api]: Downloading https://files.pythonhosted.org/packages/8c/47/d2aa60bfbb0514d5bfbf81a8dccfd2aee2b731b5d261787097fc909f3106/yolink-api-0.2.9.tar.gz
+[2023-07-10 13:47:01] INFO root fetch - processPackages [dcentrapi]: Downloading https://files.pythonhosted.org/packages/59/e1/b672e3395aed5aeb7c4e94a9e78edb01b8af7c9cfba0c37edc473845bc7a/dcentrapi-0.3.0.tar.gz
+[2023-07-10 13:47:01] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/63/cf/79dda5eed3587efe701b18119359c3fabe085bd6f8bbe68a0fe52387beb3/atomicshop-1.7.8-py3-none-any.whl
+[2023-07-10 13:47:01] INFO root fetch - processPackages [reliably-cli]: Downloading https://files.pythonhosted.org/packages/2d/4f/a666f3b25abf608eb512190e6a1421e2cb2877647f970690334d6b5d87c0/reliably_cli-0.8.7-py3-none-any.whl
+[2023-07-10 13:47:01] INFO root fetch - processPackages [bibleit]: Downloading https://files.pythonhosted.org/packages/46/67/1c4081b5ffc00608bcf294305b347654cc44bf04151037a6b5f06cd5ba25/bibleit-0.0.8.tar.gz
+[2023-07-10 13:47:01] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/fa/7e/c43ca87a68de1633c11ee349fab67921821c5109929252c1c406ffcd6f3f/autotrain-advanced-0.5.3.tar.gz
+[2023-07-10 13:47:01] INFO root fetch - processPackages [signxai]: Downloading https://files.pythonhosted.org/packages/a9/e1/c22b884112e493d713fa21260bb7b7c7ac6c56d5b5d5bf0f13647293cbb7/signxai-0.0.4.tar.gz
+[2023-07-10 13:47:01] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/56/78987e56220fcb935013105de97143fb9371ba9732a7dcdcb9451350a28f/supervisely-6.9.2.tar.gz
+[2023-07-10 13:47:01] INFO root fetch - processPackages [autotrain-advanced]: executing diffoscope
+[2023-07-10 13:47:01] INFO root fetch - processPackages [autotrain-advanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotrain-advanced-0.5.2.tar.gz tmp/autotrain-advanced-0.5.3.tar.gz --markdown 20230710/a/autotrain-advanced/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-07-10 13:47:02] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2023-07-10 13:47:02] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20230710/s/supervisely/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-07-10 13:47:02] INFO root fetch - processPackages [signxai]: executing diffoscope
+[2023-07-10 13:47:02] INFO root fetch - processPackages [signxai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signxai-0.0.3.tar.gz tmp/signxai-0.0.4.tar.gz --markdown 20230710/s/signxai/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-10 13:47:02] INFO root fetch - processPackages [yolink-api]: Downloading https://files.pythonhosted.org/packages/53/48/d62a93a17412eb6de5ca0e0cf85fb213114cbc964d03196988b8b14e6793/yolink-api-0.3.0.tar.gz
+[2023-07-10 13:47:02] INFO root fetch - processPackages [dcentrapi]: Downloading https://files.pythonhosted.org/packages/74/db/c071394b74efbaa576e39883061ffcc68c1767242124755d2da4c28d6325/dcentrapi-0.3.1.tar.gz
+[2023-07-10 13:47:02] INFO root fetch - processPackages [reliably-cli]: Downloading https://files.pythonhosted.org/packages/fa/c7/2291075f15800903ceee55b6d4b3a6c772e9729f06a3b3fa8f157d5d0142/reliably_cli-0.8.8-py3-none-any.whl
+[2023-07-10 13:47:02] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/6a/e4/3f67aaf30a9194c780ea83b29f0ac67ced8f360d4b91c4c6812e33413aac/atomicshop-1.8.0-py3-none-any.whl
+[2023-07-10 13:47:02] INFO root fetch - processPackages [yolink-api]: executing diffoscope
+[2023-07-10 13:47:02] INFO root fetch - processPackages [yolink-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yolink-api-0.2.9.tar.gz tmp/yolink-api-0.3.0.tar.gz --markdown 20230710/y/yolink-api/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-07-10 13:47:02] INFO root fetch - processPackages [dcentrapi]: executing diffoscope
+[2023-07-10 13:47:02] INFO root fetch - processPackages [dcentrapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcentrapi-0.3.0.tar.gz tmp/dcentrapi-0.3.1.tar.gz --markdown 20230710/d/dcentrapi/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-10 13:47:02] INFO root fetch - processPackages [reliably-cli]: executing diffoscope
+[2023-07-10 13:47:02] INFO root fetch - processPackages [reliably-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliably_cli-0.8.7-py3-none-any.whl.zip tmp/reliably_cli-0.8.8-py3-none-any.whl.zip --markdown 20230710/r/reliably-cli/0.8.7-0.8.8/diff.md --exclude *.pyd
+[2023-07-10 13:47:02] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2023-07-10 13:47:02] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-1.7.8-py3-none-any.whl.zip tmp/atomicshop-1.8.0-py3-none-any.whl.zip --markdown 20230710/a/atomicshop/1.7.8-1.8.0/diff.md --exclude *.pyd
+[2023-07-10 13:47:02] INFO root fetch - processPackages [bibleit]: Downloading https://files.pythonhosted.org/packages/48/a2/403182399a047ed6f5ea0175511bae62c223f1efb278739f73b2f82272fa/bibleit-0.0.9.tar.gz
+[2023-07-10 13:47:03] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.5.2.tar.gz]
+[2023-07-10 13:47:03] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.5.3.tar.gz]
+[2023-07-10 13:47:03] INFO root fetch - main [MainThread]: End processing [autotrain-advanced]: success
+[2023-07-10 13:47:03] INFO root fetch - processPackages [yolink-api]: Remove: archive file [/home/abi/fetcher/tmp/yolink-api-0.2.9.tar.gz]
+[2023-07-10 13:47:03] INFO root fetch - processPackages [yolink-api]: Remove: archive file [/home/abi/fetcher/tmp/yolink-api-0.3.0.tar.gz]
+[2023-07-10 13:47:03] INFO root fetch - processPackages [dcentrapi]: Remove: archive file [/home/abi/fetcher/tmp/dcentrapi-0.3.0.tar.gz]
+[2023-07-10 13:47:03] INFO root fetch - processPackages [dcentrapi]: Remove: archive file [/home/abi/fetcher/tmp/dcentrapi-0.3.1.tar.gz]
+[2023-07-10 13:47:03] INFO root fetch - main [MainThread]: End processing [yolink-api]: success
+[2023-07-10 13:47:03] INFO root fetch - processPackages [bibleit]: executing diffoscope
+[2023-07-10 13:47:03] INFO root fetch - processPackages [bibleit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bibleit-0.0.8.tar.gz tmp/bibleit-0.0.9.tar.gz --markdown 20230710/b/bibleit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 13:47:03] INFO root fetch - main [MainThread]: End processing [dcentrapi]: success
+[2023-07-10 13:47:03] INFO root fetch - processPackages [reliably-cli]: Remove: archive file [/home/abi/fetcher/tmp/reliably_cli-0.8.7-py3-none-any.whl.zip]
+[2023-07-10 13:47:03] INFO root fetch - processPackages [reliably-cli]: Remove: archive file [/home/abi/fetcher/tmp/reliably_cli-0.8.8-py3-none-any.whl.zip]
+[2023-07-10 13:47:03] INFO root fetch - main [MainThread]: End processing [reliably-cli]: success
+[2023-07-10 13:47:03] INFO root fetch - processPackages [signxai]: Remove: archive file [/home/abi/fetcher/tmp/signxai-0.0.3.tar.gz]
+[2023-07-10 13:47:03] INFO root fetch - processPackages [signxai]: Remove: archive file [/home/abi/fetcher/tmp/signxai-0.0.4.tar.gz]
+[2023-07-10 13:47:03] INFO root fetch - main [MainThread]: End processing [signxai]: success
+[2023-07-10 13:47:04] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-1.7.8-py3-none-any.whl.zip]
+[2023-07-10 13:47:04] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-1.8.0-py3-none-any.whl.zip]
+[2023-07-10 13:47:04] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2023-07-10 13:47:04] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.1.tar.gz]
+[2023-07-10 13:47:04] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.2.tar.gz]
+[2023-07-10 13:47:04] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2023-07-10 13:47:05] INFO root fetch - processPackages [bibleit]: Remove: archive file [/home/abi/fetcher/tmp/bibleit-0.0.8.tar.gz]
+[2023-07-10 13:47:05] INFO root fetch - processPackages [bibleit]: Remove: archive file [/home/abi/fetcher/tmp/bibleit-0.0.9.tar.gz]
+[2023-07-10 13:47:05] INFO root fetch - main [MainThread]: End processing [bibleit]: success
+[2023-07-10 13:47:05] INFO root fetch - main [MainThread]: Store serial: [18830135]
