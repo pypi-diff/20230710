@@ -13506,3 +13506,113 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 11:34:51] INFO root fetch - main [MainThread]: End processing [deepdataspace]: success
 [2023-07-10 11:34:51] INFO root fetch - main [MainThread]: End processing [deepdataspace]: success
 [2023-07-10 11:34:51] INFO root fetch - main [MainThread]: Store serial: [18829044]
+[2023-07-10 11:39:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18829044]
+[2023-07-10 11:40:02] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-10 11:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aind-data-schema
+[2023-07-10 11:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: robotslacker-testcli
+[2023-07-10 11:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quantplay
+[2023-07-10 11:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: siman
+[2023-07-10 11:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jcci
+[2023-07-10 11:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: q1simulator
+[2023-07-10 11:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: documentdataextraction
+[2023-07-10 11:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: visionai-data-format
+[2023-07-10 11:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: minimus
+[2023-07-10 11:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: NearBeach
+[2023-07-10 11:40:02] INFO root fetch - processPackages [siman]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-10 11:40:02] INFO root fetch - processPackages [visionai-data-format]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-10 11:40:02] INFO root fetch - processPackages [jcci]: New version: [0.0.7] Old Version: [0.0.5]
+[2023-07-10 11:40:02] INFO root fetch - processPackages [NearBeach]: New version: [0.30.0rc4] Old Version: [0.30.0rc3]
+[2023-07-10 11:40:02] INFO root fetch - processPackages [minimus]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-10 11:40:02] INFO root fetch - processPackages [q1simulator]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-10 11:40:02] INFO root fetch - processPackages [documentdataextraction]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 11:40:02] INFO root fetch - processPackages [robotslacker-testcli]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 11:40:02] INFO root fetch - processPackages [aind-data-schema]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-10 11:40:02] INFO root fetch - processPackages [quantplay]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-10 11:40:02] INFO root fetch - processPackages [jcci]: Downloading https://files.pythonhosted.org/packages/aa/83/204c7848045ead050121065dacfe71fcce88b16797466971b5249e812e55/jcci-0.0.5.tar.gz
+[2023-07-10 11:40:02] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/45/df/9dafdbe1d951b59dcb7dc8f02188b232f56f79298a06892f0e603becc389/quantplay-1.3.8.tar.gz
+[2023-07-10 11:40:02] INFO root fetch - processPackages [siman]: Downloading https://files.pythonhosted.org/packages/36/eb/d915c06a7f6c2506b740115a9232e079d36b15ea5014735a2c96cf191b79/siman-1.3.2.tar.gz
+[2023-07-10 11:40:02] INFO root fetch - processPackages [visionai-data-format]: Downloading https://files.pythonhosted.org/packages/8b/c1/13e261257edef7bb570c49f851877517931e2e9e42c4882cf9adf07775a3/visionai-data-format-1.0.3.tar.gz
+[2023-07-10 11:40:02] INFO root fetch - processPackages [minimus]: Downloading https://files.pythonhosted.org/packages/ac/14/a8dfe273b80894b4d0af5cdf48f2bec7322e75005391db8f218df5f55645/minimus-2.0.0.tar.gz
+[2023-07-10 11:40:02] INFO root fetch - processPackages [NearBeach]: Downloading https://files.pythonhosted.org/packages/48/ef/4fe893d540b28dfca68c8b7c5bf2cc70a8562ced9e4002654f6c513ee77a/NearBeach-0.30.0rc3.tar.gz
+[2023-07-10 11:40:02] INFO root fetch - processPackages [robotslacker-testcli]: Downloading https://files.pythonhosted.org/packages/57/71/45cf11c2c66e7969006d17b79832678705ed38a0df644acf7ca1110f208b/robotslacker-testcli-0.0.8.tar.gz
+[2023-07-10 11:40:02] INFO root fetch - processPackages [documentdataextraction]: Downloading https://files.pythonhosted.org/packages/1a/e4/1e85519ce247c6ed7c20e6c47ef38f5c09cf919ff231bf453cc23a1f0ba0/documentdataextraction-0.0.8-py3-none-any.whl
+[2023-07-10 11:40:03] INFO root fetch - processPackages [q1simulator]: Downloading https://files.pythonhosted.org/packages/8f/53/b06602f4b93893eefb2dd2a21fb7e1fc03b183e7e6b6043ebf03592cb78d/q1simulator-0.9.0.tar.gz
+[2023-07-10 11:40:03] WARNING root fetch - processPackages [NearBeach]: Skipping package: exceeds size limit 15031318>=10485760
+[2023-07-10 11:40:03] INFO root fetch - processPackages [NearBeach]: Start processing: raga-testing-platform
+[2023-07-10 11:40:03] INFO root fetch - main [MainThread]: End processing [NearBeach] error
+[2023-07-10 11:40:03] INFO root fetch - processPackages [jcci]: Downloading https://files.pythonhosted.org/packages/fc/03/bab8784fcdca44416f92f0a2c268feefe0b7ad48427345885407657ca696/jcci-0.0.7.tar.gz
+[2023-07-10 11:40:03] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/ee/a5/18caaa36bc077cbd964b78406eed5d1840456172da7cdd1b6c18be824d06/quantplay-1.3.9.tar.gz
+[2023-07-10 11:40:03] INFO root fetch - processPackages [raga-testing-platform]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-10 11:40:03] INFO root fetch - processPackages [jcci]: executing diffoscope
+[2023-07-10 11:40:03] INFO root fetch - processPackages [jcci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcci-0.0.5.tar.gz tmp/jcci-0.0.7.tar.gz --markdown 20230710/j/jcci/0.0.5-0.0.7/diff.md --exclude *.pyd
+[2023-07-10 11:40:03] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/cb/2b/5872c9c0e75b4ef4393e95963e7fa22ccf8c70b12d66a64c83dfec600b32/raga-testing-platform-1.0.8.tar.gz
+[2023-07-10 11:40:03] INFO root fetch - processPackages [visionai-data-format]: Downloading https://files.pythonhosted.org/packages/f7/eb/a3d0b4e62aad59fea8f5e0a5688c2df052b8d445118af458011e77c663c4/visionai-data-format-1.0.4.tar.gz
+[2023-07-10 11:40:03] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-07-10 11:40:03] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.3.8.tar.gz tmp/quantplay-1.3.9.tar.gz --markdown 20230710/q/quantplay/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-10 11:40:03] INFO root fetch - processPackages [siman]: Downloading https://files.pythonhosted.org/packages/58/61/c894df8fff7c08fe1f12bdac5608cecaa7b65050a9205e990d1481112dbb/siman-1.3.3.tar.gz
+[2023-07-10 11:40:03] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/f0/3d/4b855ccf3f1b8204c6d84b119d9c98b856c1659bfafe8aa893009a0e4d63/aind-data-schema-0.9.5.tar.gz
+[2023-07-10 11:40:03] INFO root fetch - processPackages [visionai-data-format]: executing diffoscope
+[2023-07-10 11:40:03] INFO root fetch - processPackages [visionai-data-format]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visionai-data-format-1.0.3.tar.gz tmp/visionai-data-format-1.0.4.tar.gz --markdown 20230710/v/visionai-data-format/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-10 11:40:03] INFO root fetch - processPackages [minimus]: Downloading https://files.pythonhosted.org/packages/c7/92/56b3e11e275bc8170c0574be687b084bde1ec2f169bc7aa861f7ac93f847/minimus-2.0.1.tar.gz
+[2023-07-10 11:40:03] INFO root fetch - processPackages [q1simulator]: Downloading https://files.pythonhosted.org/packages/12/5d/9963f79d6cb216eb80352c34369c0c13410e07eafd4a6fbfa67d46097817/q1simulator-0.9.1.tar.gz
+[2023-07-10 11:40:03] INFO root fetch - processPackages [documentdataextraction]: Downloading https://files.pythonhosted.org/packages/b3/ec/eb9901e48d02bee04847cd1afe0c6b8ca7231d1a8b133261a63ae052f777/documentdataextraction-0.0.9-py3-none-any.whl
+[2023-07-10 11:40:03] INFO root fetch - processPackages [siman]: executing diffoscope
+[2023-07-10 11:40:03] INFO root fetch - processPackages [siman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siman-1.3.2.tar.gz tmp/siman-1.3.3.tar.gz --markdown 20230710/s/siman/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-10 11:40:03] INFO root fetch - processPackages [q1simulator]: executing diffoscope
+[2023-07-10 11:40:03] INFO root fetch - processPackages [q1simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q1simulator-0.9.0.tar.gz tmp/q1simulator-0.9.1.tar.gz --markdown 20230710/q/q1simulator/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-10 11:40:03] INFO root fetch - processPackages [minimus]: executing diffoscope
+[2023-07-10 11:40:03] INFO root fetch - processPackages [minimus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minimus-2.0.0.tar.gz tmp/minimus-2.0.1.tar.gz --markdown 20230710/m/minimus/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-10 11:40:03] INFO root fetch - processPackages [documentdataextraction]: executing diffoscope
+[2023-07-10 11:40:03] INFO root fetch - processPackages [documentdataextraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/documentdataextraction-0.0.8-py3-none-any.whl.zip tmp/documentdataextraction-0.0.9-py3-none-any.whl.zip --markdown 20230710/d/documentdataextraction/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 11:40:03] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/23/a1/3de642a69a0d1253446d4f7bd1dd9d074e3fe635e84f3d430d001424a072/raga-testing-platform-1.0.9.tar.gz
+[2023-07-10 11:40:03] INFO root fetch - processPackages [robotslacker-testcli]: Downloading https://files.pythonhosted.org/packages/49/c7/4e9f25562dae606566643edd46e0c7fdfcb015dd742780c7eeb381d4ae43/robotslacker-testcli-0.0.9.tar.gz
+[2023-07-10 11:40:04] INFO root fetch - processPackages [raga-testing-platform]: executing diffoscope
+[2023-07-10 11:40:04] INFO root fetch - processPackages [raga-testing-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-testing-platform-1.0.8.tar.gz tmp/raga-testing-platform-1.0.9.tar.gz --markdown 20230710/r/raga-testing-platform/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-10 11:40:04] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/42/51/6b230e8ca198de797130787e0cd5036fc8d11696d1c43a8c8c07152176e8/aind-data-schema-0.9.6.tar.gz
+[2023-07-10 11:40:04] INFO root fetch - processPackages [aind-data-schema]: executing diffoscope
+[2023-07-10 11:40:04] INFO root fetch - processPackages [aind-data-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-schema-0.9.5.tar.gz tmp/aind-data-schema-0.9.6.tar.gz --markdown 20230710/a/aind-data-schema/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-10 11:40:04] INFO root fetch - processPackages [robotslacker-testcli]: executing diffoscope
+[2023-07-10 11:40:04] INFO root fetch - processPackages [robotslacker-testcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotslacker-testcli-0.0.8.tar.gz tmp/robotslacker-testcli-0.0.9.tar.gz --markdown 20230710/r/robotslacker-testcli/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 11:40:04] INFO root fetch - processPackages [jcci]: Remove: archive file [/home/abi/fetcher/tmp/jcci-0.0.5.tar.gz]
+[2023-07-10 11:40:04] INFO root fetch - processPackages [jcci]: Remove: archive file [/home/abi/fetcher/tmp/jcci-0.0.7.tar.gz]
+[2023-07-10 11:40:04] INFO root fetch - processPackages [jcci]: Start processing: documentdataextraction
+[2023-07-10 11:40:04] INFO root fetch - main [MainThread]: End processing [jcci]: success
+[2023-07-10 11:40:04] INFO root fetch - processPackages [documentdataextraction]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 11:40:04] INFO root fetch - processPackages [documentdataextraction]: executing diffoscope
+[2023-07-10 11:40:04] INFO root fetch - processPackages [documentdataextraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/documentdataextraction-0.0.8-py3-none-any.whl.zip tmp/documentdataextraction-0.0.9-py3-none-any.whl.zip --markdown 20230710/d/documentdataextraction/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 11:40:05] INFO root fetch - processPackages [visionai-data-format]: Remove: archive file [/home/abi/fetcher/tmp/visionai-data-format-1.0.3.tar.gz]
+[2023-07-10 11:40:05] INFO root fetch - processPackages [visionai-data-format]: Remove: archive file [/home/abi/fetcher/tmp/visionai-data-format-1.0.4.tar.gz]
+[2023-07-10 11:40:05] INFO root fetch - processPackages [visionai-data-format]: Start processing: mongodb-python-manager
+[2023-07-10 11:40:05] INFO root fetch - main [MainThread]: End processing [visionai-data-format]: success
+[2023-07-10 11:40:05] WARNING root fetch - processPackages [mongodb-python-manager]: Skipping, unable to determine old version
+[2023-07-10 11:40:05] INFO root fetch - main [MainThread]: End processing [mongodb-python-manager] error
+[2023-07-10 11:40:05] INFO root fetch - processPackages [documentdataextraction]: Remove: archive file [/home/abi/fetcher/tmp/documentdataextraction-0.0.8-py3-none-any.whl.zip]
+[2023-07-10 11:40:05] INFO root fetch - processPackages [documentdataextraction]: Remove: archive file [/home/abi/fetcher/tmp/documentdataextraction-0.0.9-py3-none-any.whl.zip]
+[2023-07-10 11:40:05] INFO root fetch - main [MainThread]: End processing [documentdataextraction]: success
+[2023-07-10 11:40:05] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.3.8.tar.gz]
+[2023-07-10 11:40:05] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.3.9.tar.gz]
+[2023-07-10 11:40:05] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-07-10 11:40:05] INFO root fetch - processPackages [q1simulator]: Remove: archive file [/home/abi/fetcher/tmp/q1simulator-0.9.0.tar.gz]
+[2023-07-10 11:40:05] INFO root fetch - processPackages [q1simulator]: Remove: archive file [/home/abi/fetcher/tmp/q1simulator-0.9.1.tar.gz]
+[2023-07-10 11:40:05] INFO root fetch - main [MainThread]: End processing [q1simulator]: success
+[2023-07-10 11:40:05] INFO root fetch - processPackages [minimus]: Remove: archive file [/home/abi/fetcher/tmp/minimus-2.0.0.tar.gz]
+[2023-07-10 11:40:05] INFO root fetch - processPackages [minimus]: Remove: archive file [/home/abi/fetcher/tmp/minimus-2.0.1.tar.gz]
+[2023-07-10 11:40:05] INFO root fetch - main [MainThread]: End processing [minimus]: success
+[2023-07-10 11:40:05] INFO root fetch - processPackages [siman]: Remove: archive file [/home/abi/fetcher/tmp/siman-1.3.2.tar.gz]
+[2023-07-10 11:40:05] INFO root fetch - processPackages [siman]: Remove: archive file [/home/abi/fetcher/tmp/siman-1.3.3.tar.gz]
+[2023-07-10 11:40:05] INFO root fetch - main [MainThread]: End processing [siman]: success
+[2023-07-10 11:40:05] ERROR root fetch - processPackages [documentdataextraction]: Diffoscope failed: time="2023-07-10T11:40:04+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/documentdataextraction-0.0.8-py3-none-any.whl.zip: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/documentdataextraction-0.0.9-py3-none-any.whl.zip: No such file or directory
+
+[2023-07-10 11:40:05] INFO root fetch - main [MainThread]: End processing [documentdataextraction] error
+[2023-07-10 11:40:05] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.8.tar.gz]
+[2023-07-10 11:40:05] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.9.tar.gz]
+[2023-07-10 11:40:05] INFO root fetch - main [MainThread]: End processing [raga-testing-platform]: success
+[2023-07-10 11:40:05] INFO root fetch - processPackages [aind-data-schema]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-schema-0.9.5.tar.gz]
+[2023-07-10 11:40:05] INFO root fetch - processPackages [aind-data-schema]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-schema-0.9.6.tar.gz]
+[2023-07-10 11:40:05] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
+[2023-07-10 11:40:06] INFO root fetch - processPackages [robotslacker-testcli]: Remove: archive file [/home/abi/fetcher/tmp/robotslacker-testcli-0.0.8.tar.gz]
+[2023-07-10 11:40:06] INFO root fetch - processPackages [robotslacker-testcli]: Remove: archive file [/home/abi/fetcher/tmp/robotslacker-testcli-0.0.9.tar.gz]
+[2023-07-10 11:40:06] INFO root fetch - main [MainThread]: End processing [robotslacker-testcli]: success
+[2023-07-10 11:40:06] INFO root fetch - main [MainThread]: Store serial: [18829090]
