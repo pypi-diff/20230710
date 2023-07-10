@@ -15162,3 +15162,138 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 12:49:07] INFO root fetch - processPackages [django-viewflow]: Remove: archive file [/home/abi/fetcher/tmp/django-viewflow-2.0.0b5.tar.gz]
 [2023-07-10 12:49:07] INFO root fetch - main [MainThread]: End processing [django-viewflow]: success
 [2023-07-10 12:49:07] INFO root fetch - main [MainThread]: Store serial: [18829677]
+[2023-07-10 12:54:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18829677]
+[2023-07-10 12:54:16] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-10 12:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pop-create-idem
+[2023-07-10 12:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: localstack-core
+[2023-07-10 12:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tone
+[2023-07-10 12:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TheSilent
+[2023-07-10 12:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: HOLY-BIBLE-from-Gch
+[2023-07-10 12:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyvast
+[2023-07-10 12:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: QuNet
+[2023-07-10 12:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-base-user-role
+[2023-07-10 12:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-base-user-role
+[2023-07-10 12:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dbt-cloud-cli
+[2023-07-10 12:54:16] INFO root fetch - processPackages [pop-create-idem]: New version: [4.2.0] Old Version: [4.1.1]
+[2023-07-10 12:54:16] INFO root fetch - processPackages [dbt-cloud-cli]: New version: [0.7.6] Old Version: [0.7.5]
+[2023-07-10 12:54:16] WARNING root fetch - processPackages [HOLY-BIBLE-from-Gch]: Skipping, unable to determine old version
+[2023-07-10 12:54:16] INFO root fetch - processPackages [HOLY-BIBLE-from-Gch]: Start processing: atriumsports-sdk
+[2023-07-10 12:54:16] INFO root fetch - main [MainThread]: End processing [HOLY-BIBLE-from-Gch] error
+[2023-07-10 12:54:16] INFO root fetch - processPackages [odoo-addon-base-user-role]: New version: [16.0.1.2.1] Old Version: [16.0.1.2.0.1]
+[2023-07-10 12:54:16] INFO root fetch - processPackages [pyvast]: New version: [4.0.0rc7] Old Version: [4.0.0rc6]
+[2023-07-10 12:54:16] INFO root fetch - processPackages [QuNet]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-10 12:54:16] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230710104932] Old Version: [2.1.1.dev20230708222706]
+[2023-07-10 12:54:16] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-10 12:54:16] INFO root fetch - processPackages [atriumsports-sdk]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-07-10 12:54:16] INFO root fetch - processPackages [tone]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-10 12:54:16] INFO root fetch - processPackages [odoo14-addon-base-user-role]: New version: [14.0.2.5.2.dev7] Old Version: [14.0.2.5.2.dev6]
+[2023-07-10 12:54:16] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/d5/ed/08e3812ae99f48d271d226b77d4a7da9cf1105ce195a4687389eb1e2d646/QuNet-0.0.98-py3-none-any.whl
+[2023-07-10 12:54:16] INFO root fetch - processPackages [pyvast]: Downloading https://files.pythonhosted.org/packages/99/20/a0a0395b0634a45c03fd51b4007c3df6abd2435ee6fc494e96e5e984256c/pyvast-4.0.0rc6.tar.gz
+[2023-07-10 12:54:16] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-10 12:54:16] INFO root fetch - processPackages [atriumsports-sdk]: Downloading https://files.pythonhosted.org/packages/c3/cb/aede451f73633a0695b6324ed5e2b142f79f981af3d5707d477b185f7c0d/atriumsports_sdk-1.3.1.tar.gz
+[2023-07-10 12:54:16] INFO root fetch - processPackages [dbt-cloud-cli]: Downloading https://files.pythonhosted.org/packages/04/1d/c4cc11af4fbab67d032f310bcfaa13d8d61fa49a62210e88c23b7a3375db/dbt-cloud-cli-0.7.5.tar.gz
+[2023-07-10 12:54:16] INFO root fetch - processPackages [odoo-addon-base-user-role]: Downloading https://files.pythonhosted.org/packages/ad/6c/51d88000e6e6fba23749e0e452aca006a8250df53848e5b9f06fa9081a3b/odoo_addon_base_user_role-16.0.1.2.0.1-py3-none-any.whl
+[2023-07-10 12:54:16] INFO root fetch - processPackages [pop-create-idem]: Downloading https://files.pythonhosted.org/packages/24/a5/b4dfb2af6934030ebb898bb71b574d0c701bdd97b3490b28f3b5aa552367/pop-create-idem-4.1.1.tar.gz
+[2023-07-10 12:54:16] INFO root fetch - processPackages [odoo14-addon-base-user-role]: Downloading https://files.pythonhosted.org/packages/6c/c0/a280db081d89eb7f413f81c3a6eb91d5733696200329f16410819afe7d40/odoo14_addon_base_user_role-14.0.2.5.2.dev6-py3-none-any.whl
+[2023-07-10 12:54:16] INFO root fetch - processPackages [tone]: Downloading https://files.pythonhosted.org/packages/57/86/b7bd99145340a2498a7aca3c5b6cd36b4fe62b444c3babcc2d9552f9099c/tone-0.0.4.tar.gz
+[2023-07-10 12:54:17] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/31/cd/9465f0cc3d3a9ddae92d1b484fb008b307b5f7b83f8b6bba5368e5ce0dcd/localstack-core-2.1.1.dev20230708222706.tar.gz
+[2023-07-10 12:54:17] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/e0/80/c34810051dcacd44f750dc59c5f982f9a679cbb6caaccd0aad3288430f3e/QuNet-0.0.99-py3-none-any.whl
+[2023-07-10 12:54:17] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-10 12:54:17] INFO root fetch - processPackages [pyvast]: Downloading https://files.pythonhosted.org/packages/db/d0/4a15eab948df8130ba04b442a418e02c0dfc99918a1768e075eaeddabb6b/pyvast-4.0.0rc7.tar.gz
+[2023-07-10 12:54:17] INFO root fetch - processPackages [atriumsports-sdk]: Downloading https://files.pythonhosted.org/packages/c8/a5/539fa7c078f105c069447fba622097b70c41af826c232e0df046ca81601c/atriumsports_sdk-1.3.2.tar.gz
+[2023-07-10 12:54:17] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-10 12:54:17] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230710/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-10 12:54:17] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-07-10 12:54:17] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.98-py3-none-any.whl.zip tmp/QuNet-0.0.99-py3-none-any.whl.zip --markdown 20230710/Q/QuNet/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-10 12:54:17] INFO root fetch - processPackages [dbt-cloud-cli]: Downloading https://files.pythonhosted.org/packages/0e/98/6d3a3afe2c62e31fc98840d7103c59ba2165379a4219edeb0c4d6f0dab1b/dbt-cloud-cli-0.7.6.tar.gz
+[2023-07-10 12:54:17] INFO root fetch - processPackages [pop-create-idem]: Downloading https://files.pythonhosted.org/packages/17/c0/2187e1edc7b6c5fc04607c2dbfb6b24692bb2d20c2be1f9060fb5f4f3156/pop-create-idem-4.2.0.tar.gz
+[2023-07-10 12:54:17] INFO root fetch - processPackages [odoo-addon-base-user-role]: Downloading https://files.pythonhosted.org/packages/10/f8/f1a0b5fcff5f7c41f58fc83053f57aacef6cf7e929b3d297a43b37b9d18d/odoo_addon_base_user_role-16.0.1.2.1-py3-none-any.whl
+[2023-07-10 12:54:17] INFO root fetch - processPackages [tone]: Downloading https://files.pythonhosted.org/packages/1c/13/21f87b3482d6d3699cd9ef9fd706635606856edb2b9d8c46904344d7c6c3/tone-0.0.5.tar.gz
+[2023-07-10 12:54:17] INFO root fetch - processPackages [atriumsports-sdk]: executing diffoscope
+[2023-07-10 12:54:17] INFO root fetch - processPackages [atriumsports-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atriumsports_sdk-1.3.1.tar.gz tmp/atriumsports_sdk-1.3.2.tar.gz --markdown 20230710/a/atriumsports-sdk/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-07-10 12:54:17] INFO root fetch - processPackages [pyvast]: executing diffoscope
+[2023-07-10 12:54:17] INFO root fetch - processPackages [pyvast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvast-4.0.0rc6.tar.gz tmp/pyvast-4.0.0rc7.tar.gz --markdown 20230710/p/pyvast/4.0.0rc6-4.0.0rc7/diff.md --exclude *.pyd
+[2023-07-10 12:54:17] INFO root fetch - processPackages [dbt-cloud-cli]: executing diffoscope
+[2023-07-10 12:54:17] INFO root fetch - processPackages [dbt-cloud-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-cloud-cli-0.7.5.tar.gz tmp/dbt-cloud-cli-0.7.6.tar.gz --markdown 20230710/d/dbt-cloud-cli/0.7.5-0.7.6/diff.md --exclude *.pyd
+[2023-07-10 12:54:17] INFO root fetch - processPackages [odoo14-addon-base-user-role]: Downloading https://files.pythonhosted.org/packages/58/7f/d04cbc75db536ed857f913c979ab9d22fab3a7bb0276fbcdaf2b0259df65/odoo14_addon_base_user_role-14.0.2.5.2.dev7-py3-none-any.whl
+[2023-07-10 12:54:17] INFO root fetch - processPackages [tone]: executing diffoscope
+[2023-07-10 12:54:17] INFO root fetch - processPackages [tone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tone-0.0.4.tar.gz tmp/tone-0.0.5.tar.gz --markdown 20230710/t/tone/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-10 12:54:17] INFO root fetch - processPackages [pop-create-idem]: executing diffoscope
+[2023-07-10 12:54:17] INFO root fetch - processPackages [pop-create-idem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pop-create-idem-4.1.1.tar.gz tmp/pop-create-idem-4.2.0.tar.gz --markdown 20230710/p/pop-create-idem/4.1.1-4.2.0/diff.md --exclude *.pyd
+[2023-07-10 12:54:17] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/f5/9d/c3a67dc637b03099ee499d287a7742a9dc157c47f5c2bd7a28b4e938ee24/localstack-core-2.1.1.dev20230710104932.tar.gz
+[2023-07-10 12:54:17] INFO root fetch - processPackages [odoo-addon-base-user-role]: executing diffoscope
+[2023-07-10 12:54:17] INFO root fetch - processPackages [odoo-addon-base-user-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_user_role-16.0.1.2.0.1-py3-none-any.whl.zip tmp/odoo_addon_base_user_role-16.0.1.2.1-py3-none-any.whl.zip --markdown 20230710/o/odoo-addon-base-user-role/16.0.1.2.0.1-16.0.1.2.1/diff.md --exclude *.pyd
+[2023-07-10 12:54:17] INFO root fetch - processPackages [odoo14-addon-base-user-role]: executing diffoscope
+[2023-07-10 12:54:17] INFO root fetch - processPackages [odoo14-addon-base-user-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_base_user_role-14.0.2.5.2.dev6-py3-none-any.whl.zip tmp/odoo14_addon_base_user_role-14.0.2.5.2.dev7-py3-none-any.whl.zip --markdown 20230710/o/odoo14-addon-base-user-role/14.0.2.5.2.dev6-14.0.2.5.2.dev7/diff.md --exclude *.pyd
+[2023-07-10 12:54:17] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-07-10 12:54:17] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230708222706.tar.gz tmp/localstack-core-2.1.1.dev20230710104932.tar.gz --markdown 20230710/l/localstack-core/2.1.1.dev20230708222706-2.1.1.dev20230710104932/diff.md --exclude *.pyd
+[2023-07-10 12:54:19] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-10 12:54:19] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-10 12:54:19] INFO root fetch - processPackages [TheSilent]: Start processing: odoo-addon-base-user-role
+[2023-07-10 12:54:19] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-10 12:54:19] INFO root fetch - processPackages [odoo-addon-base-user-role]: New version: [16.0.1.2.1] Old Version: [16.0.1.2.0.1]
+[2023-07-10 12:54:19] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.98-py3-none-any.whl.zip]
+[2023-07-10 12:54:19] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.99-py3-none-any.whl.zip]
+[2023-07-10 12:54:19] INFO root fetch - processPackages [QuNet]: Start processing: oidc-drf
+[2023-07-10 12:54:19] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-07-10 12:54:19] INFO root fetch - processPackages [pyvast]: Remove: archive file [/home/abi/fetcher/tmp/pyvast-4.0.0rc6.tar.gz]
+[2023-07-10 12:54:19] INFO root fetch - processPackages [pyvast]: Remove: archive file [/home/abi/fetcher/tmp/pyvast-4.0.0rc7.tar.gz]
+[2023-07-10 12:54:19] INFO root fetch - processPackages [pyvast]: Start processing: odoo14-addon-l10n-it-withholding-tax-reason
+[2023-07-10 12:54:19] INFO root fetch - main [MainThread]: End processing [pyvast]: success
+[2023-07-10 12:54:19] INFO root fetch - processPackages [oidc-drf]: New version: [1.3.0] Old Version: [1.2.9]
+[2023-07-10 12:54:19] INFO root fetch - processPackages [odoo-addon-base-user-role]: executing diffoscope
+[2023-07-10 12:54:19] INFO root fetch - processPackages [odoo-addon-base-user-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_user_role-16.0.1.2.0.1-py3-none-any.whl.zip tmp/odoo_addon_base_user_role-16.0.1.2.1-py3-none-any.whl.zip --markdown 20230710/o/odoo-addon-base-user-role/16.0.1.2.0.1-16.0.1.2.1/diff.md --exclude *.pyd
+[2023-07-10 12:54:19] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/d7/de/e7417f81d3a2bb32b6f2acb0044fcadd08723cefbe4019f55c809d6c5afe/oidc_drf-1.2.9.tar.gz
+[2023-07-10 12:54:19] INFO root fetch - processPackages [tone]: Remove: archive file [/home/abi/fetcher/tmp/tone-0.0.4.tar.gz]
+[2023-07-10 12:54:19] INFO root fetch - processPackages [tone]: Remove: archive file [/home/abi/fetcher/tmp/tone-0.0.5.tar.gz]
+[2023-07-10 12:54:19] INFO root fetch - processPackages [tone]: Start processing: TerraByte
+[2023-07-10 12:54:19] INFO root fetch - main [MainThread]: End processing [tone]: success
+[2023-07-10 12:54:19] INFO root fetch - processPackages [odoo14-addon-l10n-it-withholding-tax-reason]: New version: [14.0.1.0.3.dev4] Old Version: [14.0.1.0.3.dev2]
+[2023-07-10 12:54:19] INFO root fetch - processPackages [dbt-cloud-cli]: Remove: archive file [/home/abi/fetcher/tmp/dbt-cloud-cli-0.7.5.tar.gz]
+[2023-07-10 12:54:19] INFO root fetch - processPackages [dbt-cloud-cli]: Remove: archive file [/home/abi/fetcher/tmp/dbt-cloud-cli-0.7.6.tar.gz]
+[2023-07-10 12:54:19] INFO root fetch - processPackages [dbt-cloud-cli]: Start processing: powerbiclient
+[2023-07-10 12:54:19] INFO root fetch - main [MainThread]: End processing [dbt-cloud-cli]: success
+[2023-07-10 12:54:19] WARNING root fetch - processPackages [TerraByte]: Skipping, unable to determine old version
+[2023-07-10 12:54:19] INFO root fetch - main [MainThread]: End processing [TerraByte] error
+[2023-07-10 12:54:19] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/76/d6/71d7071e156d7be25ca57300b4ece7d773797522ab3a8cecec226ba58c83/oidc_drf-1.3.0.tar.gz
+[2023-07-10 12:54:19] INFO root fetch - processPackages [odoo14-addon-l10n-it-withholding-tax-reason]: Downloading https://files.pythonhosted.org/packages/06/01/d5977926730de137142691979be8c3ade84f2e4af84fb2c22a57489eb909/odoo14_addon_l10n_it_withholding_tax_reason-14.0.1.0.3.dev2-py3-none-any.whl
+[2023-07-10 12:54:19] INFO root fetch - processPackages [powerbiclient]: New version: [3.1.0] Old Version: [3.0.2]
+[2023-07-10 12:54:19] INFO root fetch - processPackages [oidc-drf]: executing diffoscope
+[2023-07-10 12:54:19] INFO root fetch - processPackages [oidc-drf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oidc_drf-1.2.9.tar.gz tmp/oidc_drf-1.3.0.tar.gz --markdown 20230710/o/oidc-drf/1.2.9-1.3.0/diff.md --exclude *.pyd
+[2023-07-10 12:54:20] INFO root fetch - processPackages [pop-create-idem]: Remove: archive file [/home/abi/fetcher/tmp/pop-create-idem-4.1.1.tar.gz]
+[2023-07-10 12:54:20] INFO root fetch - processPackages [pop-create-idem]: Remove: archive file [/home/abi/fetcher/tmp/pop-create-idem-4.2.0.tar.gz]
+[2023-07-10 12:54:20] INFO root fetch - main [MainThread]: End processing [pop-create-idem]: success
+[2023-07-10 12:54:20] INFO root fetch - processPackages [odoo-addon-base-user-role]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_user_role-16.0.1.2.0.1-py3-none-any.whl.zip]
+[2023-07-10 12:54:20] INFO root fetch - processPackages [odoo-addon-base-user-role]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_user_role-16.0.1.2.1-py3-none-any.whl.zip]
+[2023-07-10 12:54:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-user-role]: success
+[2023-07-10 12:54:20] INFO root fetch - processPackages [powerbiclient]: Downloading https://files.pythonhosted.org/packages/31/35/54b3e7768fc26ecddcc92871e96df92e5453dfe429276cb58a535b5741e7/powerbiclient-3.0.2-py2.py3-none-any.whl
+[2023-07-10 12:54:20] INFO root fetch - processPackages [odoo14-addon-base-user-role]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_user_role-14.0.2.5.2.dev6-py3-none-any.whl.zip]
+[2023-07-10 12:54:20] INFO root fetch - processPackages [odoo14-addon-base-user-role]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_user_role-14.0.2.5.2.dev7-py3-none-any.whl.zip]
+[2023-07-10 12:54:20] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-user-role]: success
+[2023-07-10 12:54:20] INFO root fetch - processPackages [odoo14-addon-l10n-it-withholding-tax-reason]: Downloading https://files.pythonhosted.org/packages/eb/4a/5e7a0829ff175ec9a9c834972f010df6607830b2ca193001b0349dc5c134/odoo14_addon_l10n_it_withholding_tax_reason-14.0.1.0.3.dev4-py3-none-any.whl
+[2023-07-10 12:54:20] ERROR root fetch - processPackages [odoo-addon-base-user-role]: Diffoscope failed: time="2023-07-10T12:54:19+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/odoo_addon_base_user_role-16.0.1.2.0.1-py3-none-any.whl.zip: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/odoo_addon_base_user_role-16.0.1.2.1-py3-none-any.whl.zip: No such file or directory
+
+[2023-07-10 12:54:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-user-role] error
+[2023-07-10 12:54:20] INFO root fetch - processPackages [odoo14-addon-l10n-it-withholding-tax-reason]: executing diffoscope
+[2023-07-10 12:54:20] INFO root fetch - processPackages [odoo14-addon-l10n-it-withholding-tax-reason]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_withholding_tax_reason-14.0.1.0.3.dev2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_withholding_tax_reason-14.0.1.0.3.dev4-py3-none-any.whl.zip --markdown 20230710/o/odoo14-addon-l10n-it-withholding-tax-reason/14.0.1.0.3.dev2-14.0.1.0.3.dev4/diff.md --exclude *.pyd
+[2023-07-10 12:54:20] INFO root fetch - processPackages [powerbiclient]: Downloading https://files.pythonhosted.org/packages/bd/43/0b386a421b999e5626fbe51cb8994508074357fb2d80a5b8d1a84db3bfc9/powerbiclient-3.1.0-py2.py3-none-any.whl
+[2023-07-10 12:54:20] INFO root fetch - processPackages [powerbiclient]: executing diffoscope
+[2023-07-10 12:54:20] INFO root fetch - processPackages [powerbiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powerbiclient-3.0.2-py2.py3-none-any.whl.zip tmp/powerbiclient-3.1.0-py2.py3-none-any.whl.zip --markdown 20230710/p/powerbiclient/3.0.2-3.1.0/diff.md --exclude *.pyd
+[2023-07-10 12:54:20] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.2.9.tar.gz]
+[2023-07-10 12:54:20] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.3.0.tar.gz]
+[2023-07-10 12:54:20] INFO root fetch - main [MainThread]: End processing [oidc-drf]: success
+[2023-07-10 12:54:21] INFO root fetch - processPackages [odoo14-addon-l10n-it-withholding-tax-reason]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_withholding_tax_reason-14.0.1.0.3.dev2-py3-none-any.whl.zip]
+[2023-07-10 12:54:21] INFO root fetch - processPackages [odoo14-addon-l10n-it-withholding-tax-reason]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_withholding_tax_reason-14.0.1.0.3.dev4-py3-none-any.whl.zip]
+[2023-07-10 12:54:21] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-withholding-tax-reason]: success
+[2023-07-10 12:54:22] INFO root fetch - processPackages [atriumsports-sdk]: Remove: archive file [/home/abi/fetcher/tmp/atriumsports_sdk-1.3.1.tar.gz]
+[2023-07-10 12:54:22] INFO root fetch - processPackages [atriumsports-sdk]: Remove: archive file [/home/abi/fetcher/tmp/atriumsports_sdk-1.3.2.tar.gz]
+[2023-07-10 12:54:22] INFO root fetch - main [MainThread]: End processing [atriumsports-sdk]: success
+[2023-07-10 12:54:23] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230708222706.tar.gz]
+[2023-07-10 12:54:23] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230710104932.tar.gz]
+[2023-07-10 12:54:23] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-07-10 12:54:26] INFO root fetch - processPackages [powerbiclient]: Remove: archive file [/home/abi/fetcher/tmp/powerbiclient-3.0.2-py2.py3-none-any.whl.zip]
+[2023-07-10 12:54:26] INFO root fetch - processPackages [powerbiclient]: Remove: archive file [/home/abi/fetcher/tmp/powerbiclient-3.1.0-py2.py3-none-any.whl.zip]
+[2023-07-10 12:54:26] INFO root fetch - main [MainThread]: End processing [powerbiclient]: success
+[2023-07-10 12:54:26] INFO root fetch - main [MainThread]: Store serial: [18829723]
