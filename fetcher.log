@@ -18811,3 +18811,247 @@ EOFError: EOF read where object expected
 [2023-07-10 15:41:26] INFO root fetch - processPackages [flarespy]: Remove: archive file [/home/abi/fetcher/tmp/flarespy-0.9.8.tar.gz]
 [2023-07-10 15:41:26] INFO root fetch - main [MainThread]: End processing [flarespy]: success
 [2023-07-10 15:41:26] INFO root fetch - main [MainThread]: Store serial: [18831215]
+[2023-07-10 15:46:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18831215]
+[2023-07-10 15:46:35] INFO root fetch - main [MainThread]: Found 30 changed packages
+[2023-07-10 15:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edc-mnsi
+[2023-07-10 15:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-hammer-maij
+[2023-07-10 15:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pileoffeather
+[2023-07-10 15:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: database-infrastructure-local
+[2023-07-10 15:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qsafecrypto
+[2023-07-10 15:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kraken-build
+[2023-07-10 15:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kraken-common
+[2023-07-10 15:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kraken-core
+[2023-07-10 15:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kraken-wrapper
+[2023-07-10 15:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kraken-std
+[2023-07-10 15:46:36] INFO root fetch - processPackages [pileoffeather]: New version: [0.2.0] Old Version: [0.0.1]
+[2023-07-10 15:46:36] WARNING root fetch - processPackages [database-infrastructure-local]: Skipping, unable to determine old version
+[2023-07-10 15:46:36] INFO root fetch - processPackages [database-infrastructure-local]: Start processing: graph-model-parser
+[2023-07-10 15:46:36] INFO root fetch - main [MainThread]: End processing [database-infrastructure-local] error
+[2023-07-10 15:46:36] WARNING root fetch - processPackages [qsafecrypto]: Skipping, unable to determine old version
+[2023-07-10 15:46:36] INFO root fetch - processPackages [qsafecrypto]: Start processing: bert-for-sequence-classification
+[2023-07-10 15:46:36] INFO root fetch - main [MainThread]: End processing [qsafecrypto] error
+[2023-07-10 15:46:36] INFO root fetch - processPackages [kraken-common]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-07-10 15:46:36] INFO root fetch - processPackages [kraken-wrapper]: New version: [0.28.2] Old Version: [0.28.1]
+[2023-07-10 15:46:36] INFO root fetch - processPackages [kraken-build]: New version: [0.28.3] Old Version: [0.28.2]
+[2023-07-10 15:46:36] INFO root fetch - processPackages [kraken-core]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-10 15:46:36] INFO root fetch - processPackages [kraken-std]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-07-10 15:46:36] INFO root fetch - processPackages [edc-mnsi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 15:46:36] INFO root fetch - processPackages [nonebot-plugin-hammer-maij]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-10 15:46:36] INFO root fetch - processPackages [bert-for-sequence-classification]: New version: [0.0.5a0] Old Version: [0.0.5]
+[2023-07-10 15:46:36] INFO root fetch - processPackages [graph-model-parser]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-10 15:46:36] INFO root fetch - processPackages [kraken-wrapper]: Downloading https://files.pythonhosted.org/packages/cd/8d/7162db409e8036ce8797157b91cd1f99508ef2b07acd758b8a664fa8441b/kraken_wrapper-0.28.1.tar.gz
+[2023-07-10 15:46:36] INFO root fetch - processPackages [kraken-core]: Downloading https://files.pythonhosted.org/packages/c6/4c/480e3d597162031534e0e300b1d98eeec0838406875f691703142326e36a/kraken-core-0.9.5.tar.gz
+[2023-07-10 15:46:36] INFO root fetch - processPackages [kraken-common]: Downloading https://files.pythonhosted.org/packages/88/b6/970ad5d730a7c28f02ecce40246458941d521ab7049074d0c03bc6304f7c/kraken_common-0.5.3.tar.gz
+[2023-07-10 15:46:36] INFO root fetch - processPackages [kraken-std]: Downloading https://files.pythonhosted.org/packages/d2/93/fc7a0d5c20d6a3d551ef23ed605451eef6aa6cb35c9cf7b3366ffe5cc5e0/kraken_std-0.8.8.tar.gz
+[2023-07-10 15:46:36] INFO root fetch - processPackages [bert-for-sequence-classification]: Downloading https://files.pythonhosted.org/packages/3d/57/41334b37c9c8ee8bedfe0655ae0338551ab35c84f1f3ce7e58f1d2a411d4/bert-for-sequence-classification-0.0.5.tar.gz
+[2023-07-10 15:46:36] INFO root fetch - processPackages [pileoffeather]: Downloading https://files.pythonhosted.org/packages/f3/fc/db70a029d7c5bb420319cb414d5b9f4040b1df8736e05633aba2feb002ae/pileoffeather-0.0.1.tar.gz
+[2023-07-10 15:46:36] INFO root fetch - processPackages [kraken-build]: Downloading https://files.pythonhosted.org/packages/1a/a5/a9ab312b97fc327b2cb854df334981fc30ede4a5f6c6cc3d22009ac71a17/kraken_build-0.28.2.tar.gz
+[2023-07-10 15:46:36] INFO root fetch - processPackages [edc-mnsi]: Downloading https://files.pythonhosted.org/packages/9e/b5/2f05f25dc03ba478d8ef1682a900dad229f457c79266f8452b61854cba33/edc-mnsi-0.1.8.tar.gz
+[2023-07-10 15:46:36] INFO root fetch - processPackages [nonebot-plugin-hammer-maij]: Downloading https://files.pythonhosted.org/packages/07/98/fe99946adb24c7f4422fc50e70a4a837bb08b5e9f59dd937d4250d581840/nonebot_plugin_hammer_maij-1.0.0.tar.gz
+[2023-07-10 15:46:36] INFO root fetch - processPackages [graph-model-parser]: Downloading https://files.pythonhosted.org/packages/a5/ef/fdb0d294604cb9e894109d23a86631b7cecfde79706fd8b2106edc7936bd/graph-model-parser-0.1.3.tar.gz
+[2023-07-10 15:46:36] INFO root fetch - processPackages [kraken-common]: Downloading https://files.pythonhosted.org/packages/28/6b/40996d0e584f418f756a443a993b2ef5a68d9d934839d39b791b65917fc9/kraken_common-0.5.4.tar.gz
+[2023-07-10 15:46:36] INFO root fetch - processPackages [kraken-std]: Downloading https://files.pythonhosted.org/packages/a6/a8/8a0c122aadc67da4627c416b4669ed0c677b7b474f97ddb283c496a82a37/kraken_std-0.8.9.tar.gz
+[2023-07-10 15:46:36] INFO root fetch - processPackages [kraken-core]: Downloading https://files.pythonhosted.org/packages/b6/f4/2ddff1c25849833594115f69989cc831a594882af04a874bbb728e402668/kraken-core-0.9.6.tar.gz
+[2023-07-10 15:46:36] INFO root fetch - processPackages [bert-for-sequence-classification]: Downloading https://files.pythonhosted.org/packages/c1/d6/c6db7e9fede67db75b5501f7222437b9a146e9c9b411bfd6e6adf4ebe0ce/bert-for-sequence-classification-0.0.5a0.tar.gz
+[2023-07-10 15:46:36] INFO root fetch - processPackages [pileoffeather]: Downloading https://files.pythonhosted.org/packages/cf/41/11ece94f4d21222920d5b520c7cda9403322e137717113b47bfd2923a0a8/pileoffeather-0.2.0.tar.gz
+[2023-07-10 15:46:36] INFO root fetch - processPackages [kraken-wrapper]: Downloading https://files.pythonhosted.org/packages/0a/1d/70ae25eb70997607ad2e806c805ca9e7fcb57c4f4a438e3d937c26ea8fef/kraken_wrapper-0.28.2.tar.gz
+[2023-07-10 15:46:36] INFO root fetch - processPackages [kraken-common]: executing diffoscope
+[2023-07-10 15:46:36] INFO root fetch - processPackages [kraken-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_common-0.5.3.tar.gz tmp/kraken_common-0.5.4.tar.gz --markdown 20230710/k/kraken-common/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-07-10 15:46:37] INFO root fetch - processPackages [kraken-build]: Downloading https://files.pythonhosted.org/packages/25/16/d732bfd3f451d2897131cf5925b24beab9a7057ceeb6725332fec8ae59ed/kraken_build-0.28.3.tar.gz
+[2023-07-10 15:46:37] INFO root fetch - processPackages [kraken-std]: executing diffoscope
+[2023-07-10 15:46:37] INFO root fetch - processPackages [kraken-std]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_std-0.8.8.tar.gz tmp/kraken_std-0.8.9.tar.gz --markdown 20230710/k/kraken-std/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-07-10 15:46:37] INFO root fetch - processPackages [nonebot-plugin-hammer-maij]: Downloading https://files.pythonhosted.org/packages/83/5a/2cab92c63f11b9b64e0d935676efce607245e19d6104479935a66c8f8f46/nonebot_plugin_hammer_maij-1.0.1.tar.gz
+[2023-07-10 15:46:37] INFO root fetch - processPackages [kraken-core]: executing diffoscope
+[2023-07-10 15:46:37] INFO root fetch - processPackages [kraken-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken-core-0.9.5.tar.gz tmp/kraken-core-0.9.6.tar.gz --markdown 20230710/k/kraken-core/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-10 15:46:37] INFO root fetch - processPackages [pileoffeather]: executing diffoscope
+[2023-07-10 15:46:37] INFO root fetch - processPackages [pileoffeather]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pileoffeather-0.0.1.tar.gz tmp/pileoffeather-0.2.0.tar.gz --markdown 20230710/p/pileoffeather/0.0.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-10 15:46:37] INFO root fetch - processPackages [kraken-wrapper]: executing diffoscope
+[2023-07-10 15:46:37] INFO root fetch - processPackages [kraken-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_wrapper-0.28.1.tar.gz tmp/kraken_wrapper-0.28.2.tar.gz --markdown 20230710/k/kraken-wrapper/0.28.1-0.28.2/diff.md --exclude *.pyd
+[2023-07-10 15:46:37] INFO root fetch - processPackages [edc-mnsi]: Downloading https://files.pythonhosted.org/packages/be/b8/4083662795c7254c9b47e4bbf0bbc518d1e95eadd330ea69df1ce778a01f/edc-mnsi-0.1.9.tar.gz
+[2023-07-10 15:46:37] INFO root fetch - processPackages [graph-model-parser]: Downloading https://files.pythonhosted.org/packages/3e/d7/c3a948bb438709988aaf023715ab7a3ae9ec56b75ae0139abe57e71ce536/graph-model-parser-0.1.4.tar.gz
+[2023-07-10 15:46:37] INFO root fetch - processPackages [kraken-build]: executing diffoscope
+[2023-07-10 15:46:37] INFO root fetch - processPackages [kraken-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_build-0.28.2.tar.gz tmp/kraken_build-0.28.3.tar.gz --markdown 20230710/k/kraken-build/0.28.2-0.28.3/diff.md --exclude *.pyd
+[2023-07-10 15:46:37] INFO root fetch - processPackages [bert-for-sequence-classification]: executing diffoscope
+[2023-07-10 15:46:37] INFO root fetch - processPackages [bert-for-sequence-classification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bert-for-sequence-classification-0.0.5.tar.gz tmp/bert-for-sequence-classification-0.0.5a0.tar.gz --markdown 20230710/b/bert-for-sequence-classification/0.0.5-0.0.5a0/diff.md --exclude *.pyd
+[2023-07-10 15:46:37] INFO root fetch - processPackages [nonebot-plugin-hammer-maij]: executing diffoscope
+[2023-07-10 15:46:37] INFO root fetch - processPackages [nonebot-plugin-hammer-maij]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_hammer_maij-1.0.0.tar.gz tmp/nonebot_plugin_hammer_maij-1.0.1.tar.gz --markdown 20230710/n/nonebot-plugin-hammer-maij/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-10 15:46:37] INFO root fetch - processPackages [graph-model-parser]: executing diffoscope
+[2023-07-10 15:46:37] INFO root fetch - processPackages [graph-model-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graph-model-parser-0.1.3.tar.gz tmp/graph-model-parser-0.1.4.tar.gz --markdown 20230710/g/graph-model-parser/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-10 15:46:37] INFO root fetch - processPackages [edc-mnsi]: executing diffoscope
+[2023-07-10 15:46:37] INFO root fetch - processPackages [edc-mnsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-mnsi-0.1.8.tar.gz tmp/edc-mnsi-0.1.9.tar.gz --markdown 20230710/e/edc-mnsi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 15:46:38] INFO root fetch - processPackages [kraken-common]: Remove: archive file [/home/abi/fetcher/tmp/kraken_common-0.5.3.tar.gz]
+[2023-07-10 15:46:38] INFO root fetch - processPackages [kraken-common]: Remove: archive file [/home/abi/fetcher/tmp/kraken_common-0.5.4.tar.gz]
+[2023-07-10 15:46:38] INFO root fetch - processPackages [kraken-common]: Start processing: language-agent
+[2023-07-10 15:46:38] INFO root fetch - main [MainThread]: End processing [kraken-common]: success
+[2023-07-10 15:46:38] WARNING root fetch - processPackages [language-agent]: Skipping, unable to determine old version
+[2023-07-10 15:46:38] INFO root fetch - processPackages [language-agent]: Start processing: atomicshop
+[2023-07-10 15:46:38] INFO root fetch - main [MainThread]: End processing [language-agent] error
+[2023-07-10 15:46:38] INFO root fetch - processPackages [kraken-build]: Remove: archive file [/home/abi/fetcher/tmp/kraken_build-0.28.2.tar.gz]
+[2023-07-10 15:46:38] INFO root fetch - processPackages [kraken-build]: Remove: archive file [/home/abi/fetcher/tmp/kraken_build-0.28.3.tar.gz]
+[2023-07-10 15:46:38] INFO root fetch - processPackages [kraken-build]: Start processing: sparsezoo-nightly
+[2023-07-10 15:46:38] INFO root fetch - main [MainThread]: End processing [kraken-build]: success
+[2023-07-10 15:46:38] INFO root fetch - processPackages [pileoffeather]: Remove: archive file [/home/abi/fetcher/tmp/pileoffeather-0.0.1.tar.gz]
+[2023-07-10 15:46:38] INFO root fetch - processPackages [pileoffeather]: Remove: archive file [/home/abi/fetcher/tmp/pileoffeather-0.2.0.tar.gz]
+[2023-07-10 15:46:38] INFO root fetch - processPackages [pileoffeather]: Start processing: sparseml-nightly
+[2023-07-10 15:46:38] INFO root fetch - main [MainThread]: End processing [pileoffeather]: success
+[2023-07-10 15:46:38] INFO root fetch - processPackages [atomicshop]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-07-10 15:46:38] INFO root fetch - processPackages [kraken-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/kraken_wrapper-0.28.1.tar.gz]
+[2023-07-10 15:46:38] INFO root fetch - processPackages [kraken-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/kraken_wrapper-0.28.2.tar.gz]
+[2023-07-10 15:46:38] INFO root fetch - processPackages [kraken-wrapper]: Start processing: yaml-extender
+[2023-07-10 15:46:38] INFO root fetch - main [MainThread]: End processing [kraken-wrapper]: success
+[2023-07-10 15:46:38] INFO root fetch - processPackages [graph-model-parser]: Remove: archive file [/home/abi/fetcher/tmp/graph-model-parser-0.1.3.tar.gz]
+[2023-07-10 15:46:38] INFO root fetch - processPackages [graph-model-parser]: Remove: archive file [/home/abi/fetcher/tmp/graph-model-parser-0.1.4.tar.gz]
+[2023-07-10 15:46:38] INFO root fetch - processPackages [graph-model-parser]: Start processing: kiwi
+[2023-07-10 15:46:38] INFO root fetch - main [MainThread]: End processing [graph-model-parser]: success
+[2023-07-10 15:46:38] INFO root fetch - processPackages [nonebot-plugin-hammer-maij]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_hammer_maij-1.0.0.tar.gz]
+[2023-07-10 15:46:38] INFO root fetch - processPackages [nonebot-plugin-hammer-maij]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_hammer_maij-1.0.1.tar.gz]
+[2023-07-10 15:46:38] INFO root fetch - processPackages [nonebot-plugin-hammer-maij]: Start processing: fbgemm-gpu-nightly
+[2023-07-10 15:46:38] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-hammer-maij]: success
+[2023-07-10 15:46:38] INFO root fetch - processPackages [kraken-core]: Remove: archive file [/home/abi/fetcher/tmp/kraken-core-0.9.5.tar.gz]
+[2023-07-10 15:46:38] INFO root fetch - processPackages [kraken-core]: Remove: archive file [/home/abi/fetcher/tmp/kraken-core-0.9.6.tar.gz]
+[2023-07-10 15:46:38] INFO root fetch - processPackages [kraken-core]: Start processing: text-fabric
+[2023-07-10 15:46:38] INFO root fetch - main [MainThread]: End processing [kraken-core]: success
+[2023-07-10 15:46:38] INFO root fetch - processPackages [yaml-extender]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-10 15:46:38] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/22/2c/b86830f78f8f470a6e9dc1b01933b87e7f9b7ad7eb88e75ce296610d5a78/atomicshop-1.8.1-py3-none-any.whl
+[2023-07-10 15:46:39] INFO root fetch - processPackages [bert-for-sequence-classification]: Remove: archive file [/home/abi/fetcher/tmp/bert-for-sequence-classification-0.0.5.tar.gz]
+[2023-07-10 15:46:39] INFO root fetch - processPackages [bert-for-sequence-classification]: Remove: archive file [/home/abi/fetcher/tmp/bert-for-sequence-classification-0.0.5a0.tar.gz]
+[2023-07-10 15:46:39] INFO root fetch - processPackages [bert-for-sequence-classification]: Start processing: deepsparse-nightly
+[2023-07-10 15:46:39] INFO root fetch - main [MainThread]: End processing [bert-for-sequence-classification]: success
+[2023-07-10 15:46:39] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-10 15:46:39] INFO root fetch - processPackages [sparseml-nightly]: New version: [1.6.0.20230707] Old Version: [1.6.0.20230629]
+[2023-07-10 15:46:39] INFO root fetch - processPackages [sparsezoo-nightly]: New version: [1.6.0.20230707] Old Version: [1.6.0.20230629]
+[2023-07-10 15:46:39] INFO root fetch - processPackages [kiwi]: New version: [9.8.0] Old Version: [9.7.4]
+[2023-07-10 15:46:39] INFO root fetch - processPackages [text-fabric]: New version: [9.5.2] Old Version: [9.4.4]
+[2023-07-10 15:46:39] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/85/6f/86b176a883e5fa5efd2edb2801a311e2d4169621b2a4e85841bbefb09286/fbgemm_gpu_nightly-2023.7.8-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-10 15:46:39] INFO root fetch - processPackages [kraken-std]: Remove: archive file [/home/abi/fetcher/tmp/kraken_std-0.8.8.tar.gz]
+[2023-07-10 15:46:39] INFO root fetch - processPackages [kraken-std]: Remove: archive file [/home/abi/fetcher/tmp/kraken_std-0.8.9.tar.gz]
+[2023-07-10 15:46:39] INFO root fetch - processPackages [kraken-std]: Start processing: honeybee-energy
+[2023-07-10 15:46:39] INFO root fetch - main [MainThread]: End processing [kraken-std]: success
+[2023-07-10 15:46:39] INFO root fetch - processPackages [edc-mnsi]: Remove: archive file [/home/abi/fetcher/tmp/edc-mnsi-0.1.8.tar.gz]
+[2023-07-10 15:46:39] INFO root fetch - processPackages [edc-mnsi]: Remove: archive file [/home/abi/fetcher/tmp/edc-mnsi-0.1.9.tar.gz]
+[2023-07-10 15:46:39] INFO root fetch - processPackages [edc-mnsi]: Start processing: pyispace
+[2023-07-10 15:46:39] INFO root fetch - main [MainThread]: End processing [edc-mnsi]: success
+[2023-07-10 15:46:39] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 264523724>=10485760
+[2023-07-10 15:46:39] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Start processing: signxai
+[2023-07-10 15:46:39] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2023-07-10 15:46:39] INFO root fetch - processPackages [yaml-extender]: Downloading https://files.pythonhosted.org/packages/61/ca/abf457c7b828f04ae12e47aed6d4c8100240a0e38599c4f68007508d6a1e/yaml-extender-0.0.7.tar.gz
+[2023-07-10 15:46:39] INFO root fetch - processPackages [pyispace]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-07-10 15:46:39] INFO root fetch - processPackages [deepsparse-nightly]: New version: [1.6.0.20230707] Old Version: [1.6.0.20230629]
+[2023-07-10 15:46:39] INFO root fetch - processPackages [sparseml-nightly]: Downloading https://files.pythonhosted.org/packages/55/d6/92a570fbbe241b2384cd141d25abc2ac20ca0a3fc20e63d3c2e097f7ba10/sparseml_nightly-1.6.0.20230629-py3-none-any.whl
+[2023-07-10 15:46:39] INFO root fetch - processPackages [signxai]: New version: [1.0.0] Old Version: [0.0.6]
+[2023-07-10 15:46:39] INFO root fetch - processPackages [honeybee-energy]: New version: [1.99.9] Old Version: [1.99.8]
+[2023-07-10 15:46:39] INFO root fetch - processPackages [sparsezoo-nightly]: Downloading https://files.pythonhosted.org/packages/6b/df/125ba48304441edd6c5128c315c16b1d4239d06fb2c18e4b974ecd3f6b53/sparsezoo_nightly-1.6.0.20230629-py3-none-any.whl
+[2023-07-10 15:46:39] INFO root fetch - processPackages [text-fabric]: Downloading https://files.pythonhosted.org/packages/bb/80/b9db47ad2d39859a5c2276e27c56daae0db451a130db8305340dfe7dd7ee/text_fabric-9.4.4-py3-none-any.whl
+[2023-07-10 15:46:39] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/14/db/75296d42faaae54583dd79fb1606fdb4d127cda223381e5ca26717f080cb/atomicshop-1.8.2-py3-none-any.whl
+[2023-07-10 15:46:39] INFO root fetch - processPackages [signxai]: Downloading https://files.pythonhosted.org/packages/77/2c/6275c4e0d90fcc008b43745e4e71596a95d1f8d70990eb1e0cfd3690c368/signxai-0.0.6.tar.gz
+[2023-07-10 15:46:39] INFO root fetch - processPackages [pyispace]: Downloading https://files.pythonhosted.org/packages/f2/b2/104b15768af047ad14057b222ff92bdb6dc5e50c15b0c3601305d59a41a8/pyispace-0.3.5.tar.gz
+[2023-07-10 15:46:39] INFO root fetch - processPackages [deepsparse-nightly]: Downloading https://files.pythonhosted.org/packages/11/c0/b45e9ff4c0544b2a33cde986b36afe05b61c72b374ebbcdaf08224d167d4/deepsparse-nightly-1.6.0.20230629.tar.gz
+[2023-07-10 15:46:39] INFO root fetch - processPackages [honeybee-energy]: Downloading https://files.pythonhosted.org/packages/b1/ab/c8fb70e349d71cce95bac52782f7ea0659a6987ed84dd41c7fe2ef40806c/honeybee-energy-1.99.8.tar.gz
+[2023-07-10 15:46:39] INFO root fetch - processPackages [kiwi]: executing diffoscope
+[2023-07-10 15:46:39] INFO root fetch - processPackages [kiwi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiwi-9.7.4.tar.gz tmp/kiwi-9.8.0.tar.gz --markdown 20230710/k/kiwi/9.7.4-9.8.0/diff.md --exclude *.pyd
+[2023-07-10 15:46:39] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2023-07-10 15:46:39] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-1.8.1-py3-none-any.whl.zip tmp/atomicshop-1.8.2-py3-none-any.whl.zip --markdown 20230710/a/atomicshop/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-07-10 15:46:39] WARNING root fetch - processPackages [deepsparse-nightly]: Skipping package: exceeds size limit 42719181>=10485760
+[2023-07-10 15:46:39] INFO root fetch - processPackages [deepsparse-nightly]: Start processing: jupyter-operator
+[2023-07-10 15:46:39] INFO root fetch - main [MainThread]: End processing [deepsparse-nightly] error
+[2023-07-10 15:46:39] INFO root fetch - processPackages [yaml-extender]: Downloading https://files.pythonhosted.org/packages/d4/0c/84e0b17cea2f762d7f4bde183fad5b2b6771e5287dd7c93c83a3753a74ff/yaml-extender-0.0.8.tar.gz
+[2023-07-10 15:46:39] INFO root fetch - processPackages [jupyter-operator]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-10 15:46:39] INFO root fetch - processPackages [sparseml-nightly]: Downloading https://files.pythonhosted.org/packages/ce/c0/023e05badc4f22e7beb6492766821de3113abfc531eab58c24f425d24932/sparseml_nightly-1.6.0.20230707-py3-none-any.whl
+[2023-07-10 15:46:39] INFO root fetch - processPackages [sparsezoo-nightly]: Downloading https://files.pythonhosted.org/packages/e5/35/bd802ca41b5744044409dc318681b54509487268b7be1fd2920f4a074ba7/sparsezoo_nightly-1.6.0.20230707-py3-none-any.whl
+[2023-07-10 15:46:39] INFO root fetch - processPackages [signxai]: Downloading https://files.pythonhosted.org/packages/e4/c6/13731924d5a41b27089d7a5604081a36b08d75582610c345e6bfcf7be268/signxai-1.0.0.tar.gz
+[2023-07-10 15:46:39] INFO root fetch - processPackages [yaml-extender]: executing diffoscope
+[2023-07-10 15:46:39] INFO root fetch - processPackages [yaml-extender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaml-extender-0.0.7.tar.gz tmp/yaml-extender-0.0.8.tar.gz --markdown 20230710/y/yaml-extender/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-10 15:46:39] INFO root fetch - processPackages [jupyter-operator]: Downloading https://files.pythonhosted.org/packages/9a/87/9f31d1ff9bf455336d71c14706164c41949f9a2edd2e6e356d4bbd3bb81f/jupyter_operator-0.0.3.tar.gz
+[2023-07-10 15:46:40] INFO root fetch - processPackages [pyispace]: Downloading https://files.pythonhosted.org/packages/50/fa/01578660c5940648f925e7d7a1f72c6ad663f63fc7b813d2abda2d9d7547/pyispace-0.3.6.tar.gz
+[2023-07-10 15:46:40] INFO root fetch - processPackages [signxai]: executing diffoscope
+[2023-07-10 15:46:40] INFO root fetch - processPackages [signxai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signxai-0.0.6.tar.gz tmp/signxai-1.0.0.tar.gz --markdown 20230710/s/signxai/0.0.6-1.0.0/diff.md --exclude *.pyd
+[2023-07-10 15:46:40] INFO root fetch - processPackages [sparsezoo-nightly]: executing diffoscope
+[2023-07-10 15:46:40] INFO root fetch - processPackages [sparsezoo-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparsezoo_nightly-1.6.0.20230629-py3-none-any.whl.zip tmp/sparsezoo_nightly-1.6.0.20230707-py3-none-any.whl.zip --markdown 20230710/s/sparsezoo-nightly/1.6.0.20230629-1.6.0.20230707/diff.md --exclude *.pyd
+[2023-07-10 15:46:40] INFO root fetch - processPackages [pyispace]: executing diffoscope
+[2023-07-10 15:46:40] INFO root fetch - processPackages [pyispace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyispace-0.3.5.tar.gz tmp/pyispace-0.3.6.tar.gz --markdown 20230710/p/pyispace/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-07-10 15:46:40] INFO root fetch - processPackages [honeybee-energy]: Downloading https://files.pythonhosted.org/packages/8d/5e/1bc90eeaf45799cc7d5cda125017c1e4e2cf0ef068cd3db60d971b9596ba/honeybee-energy-1.99.9.tar.gz
+[2023-07-10 15:46:40] INFO root fetch - processPackages [sparseml-nightly]: executing diffoscope
+[2023-07-10 15:46:40] INFO root fetch - processPackages [sparseml-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparseml_nightly-1.6.0.20230629-py3-none-any.whl.zip tmp/sparseml_nightly-1.6.0.20230707-py3-none-any.whl.zip --markdown 20230710/s/sparseml-nightly/1.6.0.20230629-1.6.0.20230707/diff.md --exclude *.pyd
+[2023-07-10 15:46:40] INFO root fetch - processPackages [jupyter-operator]: Downloading https://files.pythonhosted.org/packages/18/1d/fcae1598081aefa789f00db02e97d8f1473920b9459275d5a04bd48021ba/jupyter_operator-0.0.4.tar.gz
+[2023-07-10 15:46:40] INFO root fetch - processPackages [honeybee-energy]: executing diffoscope
+[2023-07-10 15:46:40] INFO root fetch - processPackages [honeybee-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-energy-1.99.8.tar.gz tmp/honeybee-energy-1.99.9.tar.gz --markdown 20230710/h/honeybee-energy/1.99.8-1.99.9/diff.md --exclude *.pyd
+[2023-07-10 15:46:40] INFO root fetch - processPackages [jupyter-operator]: executing diffoscope
+[2023-07-10 15:46:40] INFO root fetch - processPackages [jupyter-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_operator-0.0.3.tar.gz tmp/jupyter_operator-0.0.4.tar.gz --markdown 20230710/j/jupyter-operator/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-10 15:46:41] INFO root fetch - processPackages [yaml-extender]: Remove: archive file [/home/abi/fetcher/tmp/yaml-extender-0.0.7.tar.gz]
+[2023-07-10 15:46:41] INFO root fetch - processPackages [yaml-extender]: Remove: archive file [/home/abi/fetcher/tmp/yaml-extender-0.0.8.tar.gz]
+[2023-07-10 15:46:41] INFO root fetch - processPackages [yaml-extender]: Start processing: pytket-aqt
+[2023-07-10 15:46:41] INFO root fetch - main [MainThread]: End processing [yaml-extender]: success
+[2023-07-10 15:46:41] INFO root fetch - processPackages [pytket-aqt]: New version: [0.9.0] Old Version: [0.7.0]
+[2023-07-10 15:46:41] INFO root fetch - processPackages [pyispace]: Remove: archive file [/home/abi/fetcher/tmp/pyispace-0.3.5.tar.gz]
+[2023-07-10 15:46:41] INFO root fetch - processPackages [pyispace]: Remove: archive file [/home/abi/fetcher/tmp/pyispace-0.3.6.tar.gz]
+[2023-07-10 15:46:41] INFO root fetch - processPackages [pyispace]: Start processing: cogeo-mosaic
+[2023-07-10 15:46:41] INFO root fetch - main [MainThread]: End processing [pyispace]: success
+[2023-07-10 15:46:41] INFO root fetch - processPackages [signxai]: Remove: archive file [/home/abi/fetcher/tmp/signxai-0.0.6.tar.gz]
+[2023-07-10 15:46:41] INFO root fetch - processPackages [signxai]: Remove: archive file [/home/abi/fetcher/tmp/signxai-1.0.0.tar.gz]
+[2023-07-10 15:46:41] INFO root fetch - processPackages [signxai]: Start processing: nm-transformers-nightly
+[2023-07-10 15:46:41] INFO root fetch - main [MainThread]: End processing [signxai]: success
+[2023-07-10 15:46:41] INFO root fetch - processPackages [pytket-aqt]: Downloading https://files.pythonhosted.org/packages/28/c2/950ae856697665890a8c09191e7278264262a90613d027fec6c93c36a3af/pytket-aqt-0.7.0.tar.gz
+[2023-07-10 15:46:41] INFO root fetch - processPackages [cogeo-mosaic]: New version: [6.0.0] Old Version: [5.1.1]
+[2023-07-10 15:46:41] INFO root fetch - processPackages [sparsezoo-nightly]: Remove: archive file [/home/abi/fetcher/tmp/sparsezoo_nightly-1.6.0.20230629-py3-none-any.whl.zip]
+[2023-07-10 15:46:41] INFO root fetch - processPackages [sparsezoo-nightly]: Remove: archive file [/home/abi/fetcher/tmp/sparsezoo_nightly-1.6.0.20230707-py3-none-any.whl.zip]
+[2023-07-10 15:46:41] INFO root fetch - processPackages [sparsezoo-nightly]: Start processing: weaverbird
+[2023-07-10 15:46:41] INFO root fetch - main [MainThread]: End processing [sparsezoo-nightly]: success
+[2023-07-10 15:46:41] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-1.8.1-py3-none-any.whl.zip]
+[2023-07-10 15:46:41] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-1.8.2-py3-none-any.whl.zip]
+[2023-07-10 15:46:41] INFO root fetch - processPackages [atomicshop]: Start processing: nm-yolov5-nightly
+[2023-07-10 15:46:41] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2023-07-10 15:46:42] INFO root fetch - processPackages [nm-transformers-nightly]: New version: [1.6.0.20230707] Old Version: [1.6.0.20230629]
+[2023-07-10 15:46:42] INFO root fetch - processPackages [cogeo-mosaic]: Downloading https://files.pythonhosted.org/packages/d0/cd/9af373bc8bf1205edd47ef959fc0a44f8c0c0151f4f33a07c25eee3b8ff4/cogeo_mosaic-5.1.1.tar.gz
+[2023-07-10 15:46:42] INFO root fetch - processPackages [nm-yolov5-nightly]: New version: [1.6.0.20230707] Old Version: [1.6.0.20230629]
+[2023-07-10 15:46:42] INFO root fetch - processPackages [weaverbird]: New version: [0.9.0] Old Version: [0.8.9]
+[2023-07-10 15:46:42] INFO root fetch - processPackages [pytket-aqt]: Downloading https://files.pythonhosted.org/packages/01/3b/8602d3ebf8bf11c571e859083178afbcf5a167976d95b86e23cf65960aec/pytket-aqt-0.9.0.tar.gz
+[2023-07-10 15:46:42] INFO root fetch - processPackages [text-fabric]: Downloading https://files.pythonhosted.org/packages/5a/68/601e800ea7b082fabb89c3c0c122fd9fa13b4da75c0bdfbafa945139092a/text_fabric-9.5.2-py3-none-any.whl
+[2023-07-10 15:46:42] INFO root fetch - processPackages [nm-transformers-nightly]: Downloading https://files.pythonhosted.org/packages/b0/86/c4a04ba1d11937e08c5f4d1d465cd3c55b50075f3c2fa2a4138c2d1e3989/nm_transformers_nightly-1.6.0.20230629-py3-none-any.whl
+[2023-07-10 15:46:42] INFO root fetch - processPackages [pytket-aqt]: executing diffoscope
+[2023-07-10 15:46:42] INFO root fetch - processPackages [pytket-aqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytket-aqt-0.7.0.tar.gz tmp/pytket-aqt-0.9.0.tar.gz --markdown 20230710/p/pytket-aqt/0.7.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-10 15:46:42] INFO root fetch - processPackages [nm-yolov5-nightly]: Downloading https://files.pythonhosted.org/packages/31/3b/67d5a051bcfb09592d25173e009c0d568605bbb95c3e096245d8bac3610a/nm_yolov5_nightly-1.6.0.20230629-py3-none-any.whl
+[2023-07-10 15:46:42] INFO root fetch - processPackages [weaverbird]: Downloading https://files.pythonhosted.org/packages/13/d4/a67794d24aede09e2291acd8527a2687b1bb832998e72426432346f1c29b/weaverbird-0.8.9.tar.gz
+[2023-07-10 15:46:42] INFO root fetch - processPackages [cogeo-mosaic]: Downloading https://files.pythonhosted.org/packages/fb/32/fd2c864af7c58ec31b8377ba62de39b845ae667781409e8ee3ee03e19c74/cogeo_mosaic-6.0.0.tar.gz
+[2023-07-10 15:46:42] INFO root fetch - processPackages [honeybee-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-energy-1.99.8.tar.gz]
+[2023-07-10 15:46:42] INFO root fetch - processPackages [honeybee-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-energy-1.99.9.tar.gz]
+[2023-07-10 15:46:42] INFO root fetch - main [MainThread]: End processing [honeybee-energy]: success
+[2023-07-10 15:46:42] INFO root fetch - processPackages [jupyter-operator]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_operator-0.0.3.tar.gz]
+[2023-07-10 15:46:42] INFO root fetch - processPackages [jupyter-operator]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_operator-0.0.4.tar.gz]
+[2023-07-10 15:46:42] INFO root fetch - main [MainThread]: End processing [jupyter-operator]: success
+[2023-07-10 15:46:42] INFO root fetch - processPackages [cogeo-mosaic]: executing diffoscope
+[2023-07-10 15:46:42] INFO root fetch - processPackages [cogeo-mosaic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cogeo_mosaic-5.1.1.tar.gz tmp/cogeo_mosaic-6.0.0.tar.gz --markdown 20230710/c/cogeo-mosaic/5.1.1-6.0.0/diff.md --exclude *.pyd
+[2023-07-10 15:46:42] INFO root fetch - processPackages [nm-yolov5-nightly]: Downloading https://files.pythonhosted.org/packages/5a/c4/1d19e745b5f0f3fac4bb721a0a6eb5f0046308df4ec3394bc7b61e26327e/nm_yolov5_nightly-1.6.0.20230707-py3-none-any.whl
+[2023-07-10 15:46:42] INFO root fetch - processPackages [weaverbird]: Downloading https://files.pythonhosted.org/packages/7d/6c/1b304fa798ee7d82dbc5bc587a90653cc03647f25d1c498a0020b52a5f78/weaverbird-0.9.0.tar.gz
+[2023-07-10 15:46:43] INFO root fetch - processPackages [weaverbird]: executing diffoscope
+[2023-07-10 15:46:43] INFO root fetch - processPackages [weaverbird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weaverbird-0.8.9.tar.gz tmp/weaverbird-0.9.0.tar.gz --markdown 20230710/w/weaverbird/0.8.9-0.9.0/diff.md --exclude *.pyd
+[2023-07-10 15:46:43] INFO root fetch - processPackages [nm-transformers-nightly]: Downloading https://files.pythonhosted.org/packages/46/05/db4612d7ea29f42c18a61361f6c3be516c6c6c5f6bb78bdbe1d833b81fc2/nm_transformers_nightly-1.6.0.20230707-py3-none-any.whl
+[2023-07-10 15:46:43] INFO root fetch - processPackages [nm-yolov5-nightly]: executing diffoscope
+[2023-07-10 15:46:43] INFO root fetch - processPackages [nm-yolov5-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nm_yolov5_nightly-1.6.0.20230629-py3-none-any.whl.zip tmp/nm_yolov5_nightly-1.6.0.20230707-py3-none-any.whl.zip --markdown 20230710/n/nm-yolov5-nightly/1.6.0.20230629-1.6.0.20230707/diff.md --exclude *.pyd
+[2023-07-10 15:46:43] INFO root fetch - processPackages [pytket-aqt]: Remove: archive file [/home/abi/fetcher/tmp/pytket-aqt-0.7.0.tar.gz]
+[2023-07-10 15:46:43] INFO root fetch - processPackages [pytket-aqt]: Remove: archive file [/home/abi/fetcher/tmp/pytket-aqt-0.9.0.tar.gz]
+[2023-07-10 15:46:43] INFO root fetch - main [MainThread]: End processing [pytket-aqt]: success
+[2023-07-10 15:46:43] INFO root fetch - processPackages [sparseml-nightly]: Remove: archive file [/home/abi/fetcher/tmp/sparseml_nightly-1.6.0.20230629-py3-none-any.whl.zip]
+[2023-07-10 15:46:43] INFO root fetch - processPackages [sparseml-nightly]: Remove: archive file [/home/abi/fetcher/tmp/sparseml_nightly-1.6.0.20230707-py3-none-any.whl.zip]
+[2023-07-10 15:46:43] INFO root fetch - main [MainThread]: End processing [sparseml-nightly]: success
+[2023-07-10 15:46:44] INFO root fetch - processPackages [cogeo-mosaic]: Remove: archive file [/home/abi/fetcher/tmp/cogeo_mosaic-5.1.1.tar.gz]
+[2023-07-10 15:46:44] INFO root fetch - processPackages [cogeo-mosaic]: Remove: archive file [/home/abi/fetcher/tmp/cogeo_mosaic-6.0.0.tar.gz]
+[2023-07-10 15:46:44] INFO root fetch - main [MainThread]: End processing [cogeo-mosaic]: success
+[2023-07-10 15:46:44] INFO root fetch - processPackages [nm-transformers-nightly]: executing diffoscope
+[2023-07-10 15:46:44] INFO root fetch - processPackages [nm-transformers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nm_transformers_nightly-1.6.0.20230629-py3-none-any.whl.zip tmp/nm_transformers_nightly-1.6.0.20230707-py3-none-any.whl.zip --markdown 20230710/n/nm-transformers-nightly/1.6.0.20230629-1.6.0.20230707/diff.md --exclude *.pyd
+[2023-07-10 15:46:44] INFO root fetch - processPackages [weaverbird]: Remove: archive file [/home/abi/fetcher/tmp/weaverbird-0.8.9.tar.gz]
+[2023-07-10 15:46:44] INFO root fetch - processPackages [weaverbird]: Remove: archive file [/home/abi/fetcher/tmp/weaverbird-0.9.0.tar.gz]
+[2023-07-10 15:46:44] INFO root fetch - main [MainThread]: End processing [weaverbird]: success
+[2023-07-10 15:46:44] INFO root fetch - processPackages [nm-yolov5-nightly]: Remove: archive file [/home/abi/fetcher/tmp/nm_yolov5_nightly-1.6.0.20230629-py3-none-any.whl.zip]
+[2023-07-10 15:46:44] INFO root fetch - processPackages [nm-yolov5-nightly]: Remove: archive file [/home/abi/fetcher/tmp/nm_yolov5_nightly-1.6.0.20230707-py3-none-any.whl.zip]
+[2023-07-10 15:46:44] INFO root fetch - main [MainThread]: End processing [nm-yolov5-nightly]: success
+[2023-07-10 15:46:45] INFO root fetch - processPackages [text-fabric]: executing diffoscope
+[2023-07-10 15:46:45] INFO root fetch - processPackages [text-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_fabric-9.4.4-py3-none-any.whl.zip tmp/text_fabric-9.5.2-py3-none-any.whl.zip --markdown 20230710/t/text-fabric/9.4.4-9.5.2/diff.md --exclude *.pyd
+[2023-07-10 15:46:46] INFO root fetch - processPackages [text-fabric]: Remove: archive file [/home/abi/fetcher/tmp/text_fabric-9.4.4-py3-none-any.whl.zip]
+[2023-07-10 15:46:46] INFO root fetch - processPackages [text-fabric]: Remove: archive file [/home/abi/fetcher/tmp/text_fabric-9.5.2-py3-none-any.whl.zip]
+[2023-07-10 15:46:46] INFO root fetch - main [MainThread]: End processing [text-fabric]: success
+[2023-07-10 15:46:52] INFO root fetch - processPackages [nm-transformers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/nm_transformers_nightly-1.6.0.20230629-py3-none-any.whl.zip]
+[2023-07-10 15:46:52] INFO root fetch - processPackages [nm-transformers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/nm_transformers_nightly-1.6.0.20230707-py3-none-any.whl.zip]
+[2023-07-10 15:46:52] INFO root fetch - main [MainThread]: End processing [nm-transformers-nightly]: success
+[2023-07-10 15:49:39] ERROR root fetch - processPackages [kiwi]: Timeout during execution of pkgdiff
+[2023-07-10 15:49:39] INFO root fetch - main [MainThread]: End processing [kiwi] error
+[2023-07-10 15:49:39] INFO root fetch - main [MainThread]: Store serial: [18831316]
