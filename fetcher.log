@@ -23480,3 +23480,117 @@ EOFError: EOF read where object expected
 [2023-07-10 18:09:14] INFO root fetch - processPackages [emperor]: Remove: archive file [/home/abi/fetcher/tmp/emperor-1.0.4.tar.gz]
 [2023-07-10 18:09:14] INFO root fetch - main [MainThread]: End processing [emperor]: success
 [2023-07-10 18:09:14] INFO root fetch - main [MainThread]: Store serial: [18833230]
+[2023-07-10 18:14:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18833230]
+[2023-07-10 18:14:24] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-10 18:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpt-json
+[2023-07-10 18:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: segmentation-mask-overlay
+[2023-07-10 18:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ckanext-gallery
+[2023-07-10 18:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ordotools
+[2023-07-10 18:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: debiai
+[2023-07-10 18:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pycommons-tests
+[2023-07-10 18:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jsondbupload
+[2023-07-10 18:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nixos-compose
+[2023-07-10 18:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: canarytools
+[2023-07-10 18:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyfastedit
+[2023-07-10 18:14:24] INFO root fetch - processPackages [gpt-json]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 18:14:24] INFO root fetch - processPackages [ckanext-gallery]: New version: [2.2.8] Old Version: [2.2.7]
+[2023-07-10 18:14:24] INFO root fetch - processPackages [ordotools]: New version: [0.0.9] Old Version: [0.0.6]
+[2023-07-10 18:14:24] INFO root fetch - processPackages [pyfastedit]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-10 18:14:24] WARNING root fetch - processPackages [pycommons-tests]: Skipping, unable to determine old version
+[2023-07-10 18:14:24] INFO root fetch - processPackages [pycommons-tests]: Start processing: streamlitopencvplayer
+[2023-07-10 18:14:24] INFO root fetch - main [MainThread]: End processing [pycommons-tests] error
+[2023-07-10 18:14:24] INFO root fetch - processPackages [segmentation-mask-overlay]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-07-10 18:14:24] INFO root fetch - processPackages [ordotools]: Downloading https://files.pythonhosted.org/packages/c1/3b/1c77a37917843f29c2dce0c870193404fbcfc4ccc45f19a7b11a2f3ff732/ordotools-0.0.6.tar.gz
+[2023-07-10 18:14:24] INFO root fetch - processPackages [jsondbupload]: New version: [1.3] Old Version: [1.2]
+[2023-07-10 18:14:24] INFO root fetch - processPackages [pyfastedit]: Downloading https://files.pythonhosted.org/packages/87/fb/488bf00cf2c6350cc387755a8d80910e99cdd071da835b3a2ab0db0edc1b/pyfastedit-0.0.2.tar.gz
+[2023-07-10 18:14:24] INFO root fetch - processPackages [canarytools]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-10 18:14:24] INFO root fetch - processPackages [debiai]: New version: [0.24.1] Old Version: [0.24.0]
+[2023-07-10 18:14:24] INFO root fetch - processPackages [nixos-compose]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-07-10 18:14:24] INFO root fetch - processPackages [streamlitopencvplayer]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-07-10 18:14:24] INFO root fetch - processPackages [gpt-json]: Downloading https://files.pythonhosted.org/packages/fe/5c/721aadf83f68f7e3827bfeaabf2ed0993aaa651c2363d15833512b1e7451/gpt_json-0.1.8.tar.gz
+[2023-07-10 18:14:24] INFO root fetch - processPackages [segmentation-mask-overlay]: Downloading https://files.pythonhosted.org/packages/82/0a/ec1f20abbeedd7c7125fbab6736bb22fd73210993d804d67c0f6bfd2ceee/segmentation-mask-overlay-0.4.3.tar.gz
+[2023-07-10 18:14:24] INFO root fetch - processPackages [ckanext-gallery]: Downloading https://files.pythonhosted.org/packages/15/28/a6e9e5a5b0ec1d3456bdbd615fe4d2a3c21c42cf855dd0feec3728202ff1/ckanext-gallery-2.2.7.tar.gz
+[2023-07-10 18:14:24] INFO root fetch - processPackages [jsondbupload]: Downloading https://files.pythonhosted.org/packages/5e/9f/3efd9b64b694e89f0f86d0c32446385ea6a9137f4f53a0c6f924d78fdcf4/jsondbupload-1.2.tar.gz
+[2023-07-10 18:14:25] INFO root fetch - processPackages [canarytools]: Downloading https://files.pythonhosted.org/packages/6b/44/1a1860dec0acda7660f17cd0460359a7b19e7fa4103eba55defe40ff97ba/canarytools-1.1.0.tar.gz
+[2023-07-10 18:14:25] INFO root fetch - processPackages [debiai]: Downloading https://files.pythonhosted.org/packages/62/4d/03267dc102f94dd7f82019a86e8e267c6817de980dfba9738353edfe1855/debiai-0.24.0.tar.gz
+[2023-07-10 18:14:25] INFO root fetch - processPackages [nixos-compose]: Downloading https://files.pythonhosted.org/packages/1a/e6/384e889e73e870e2e944acc3209d2bb433d9d2a02cdcc3dd2ba5655bf2c4/nixos_compose-0.5.4.tar.gz
+[2023-07-10 18:14:25] INFO root fetch - processPackages [streamlitopencvplayer]: Downloading https://files.pythonhosted.org/packages/f7/8e/ffbe29195337da43423510d0b026e76f55fc015170a374bdf249a798b20b/streamlitopencvplayer-1.3.1.tar.gz
+[2023-07-10 18:14:25] INFO root fetch - processPackages [ordotools]: Downloading https://files.pythonhosted.org/packages/01/db/6a489501f8c0e7ade876273a94a639d070a95fe91102e634e254e318bb3e/ordotools-0.0.9.tar.gz
+[2023-07-10 18:14:25] INFO root fetch - processPackages [pyfastedit]: Downloading https://files.pythonhosted.org/packages/8c/70/f9a262c2c23d25a432bf0e237fb131a64ad271f7717a7cd0d4c7ef04fa23/pyfastedit-0.0.3.tar.gz
+[2023-07-10 18:14:25] INFO root fetch - processPackages [ordotools]: executing diffoscope
+[2023-07-10 18:14:25] INFO root fetch - processPackages [ordotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ordotools-0.0.6.tar.gz tmp/ordotools-0.0.9.tar.gz --markdown 20230710/o/ordotools/0.0.6-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 18:14:25] INFO root fetch - processPackages [gpt-json]: Downloading https://files.pythonhosted.org/packages/da/08/112cf9a10b2fac8cacd600a5085e02c014919276de52a40f22cc020ed3b8/gpt_json-0.1.9.tar.gz
+[2023-07-10 18:14:25] INFO root fetch - processPackages [segmentation-mask-overlay]: Downloading https://files.pythonhosted.org/packages/3f/5d/49adde17b4aaafd0a3e1b52d70e66023366c0c8aac1256222e513c824c16/segmentation-mask-overlay-0.4.4.tar.gz
+[2023-07-10 18:14:25] INFO root fetch - processPackages [pyfastedit]: executing diffoscope
+[2023-07-10 18:14:25] INFO root fetch - processPackages [pyfastedit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfastedit-0.0.2.tar.gz tmp/pyfastedit-0.0.3.tar.gz --markdown 20230710/p/pyfastedit/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-10 18:14:25] INFO root fetch - processPackages [ckanext-gallery]: Downloading https://files.pythonhosted.org/packages/06/cd/569f738b14a316c5b60f639a5b951a9b1c9bc0b6ca76c963905d0ee04d8a/ckanext-gallery-2.2.8.tar.gz
+[2023-07-10 18:14:25] INFO root fetch - processPackages [jsondbupload]: Downloading https://files.pythonhosted.org/packages/5f/3b/2d9c7ab25c197fb691724436a771f3562332aed957ba08f0b3ab5730ca21/jsondbupload-1.3.tar.gz
+[2023-07-10 18:14:25] INFO root fetch - processPackages [canarytools]: Downloading https://files.pythonhosted.org/packages/0a/cd/8f4e3fdafdd94501a9936e0508225fc386ec56ca07d7c3ee7dcfef96a0eb/canarytools-1.1.1.tar.gz
+[2023-07-10 18:14:25] INFO root fetch - processPackages [debiai]: Downloading https://files.pythonhosted.org/packages/b5/4e/b52af06d4e412e06ae00c1c2d8cc5037b8930f39e926156e06b1e70b9cea/debiai-0.24.1.tar.gz
+[2023-07-10 18:14:25] INFO root fetch - processPackages [gpt-json]: executing diffoscope
+[2023-07-10 18:14:25] INFO root fetch - processPackages [gpt-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_json-0.1.8.tar.gz tmp/gpt_json-0.1.9.tar.gz --markdown 20230710/g/gpt-json/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 18:14:25] INFO root fetch - processPackages [segmentation-mask-overlay]: executing diffoscope
+[2023-07-10 18:14:25] INFO root fetch - processPackages [segmentation-mask-overlay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segmentation-mask-overlay-0.4.3.tar.gz tmp/segmentation-mask-overlay-0.4.4.tar.gz --markdown 20230710/s/segmentation-mask-overlay/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-07-10 18:14:25] INFO root fetch - processPackages [streamlitopencvplayer]: Downloading https://files.pythonhosted.org/packages/34/c6/ac01ee40f6dc61ace9f6cba60eee3faffa17016c8dc937e34194693078d6/streamlitopencvplayer-1.3.2.tar.gz
+[2023-07-10 18:14:25] INFO root fetch - processPackages [ckanext-gallery]: executing diffoscope
+[2023-07-10 18:14:25] INFO root fetch - processPackages [ckanext-gallery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-gallery-2.2.7.tar.gz tmp/ckanext-gallery-2.2.8.tar.gz --markdown 20230710/c/ckanext-gallery/2.2.7-2.2.8/diff.md --exclude *.pyd
+[2023-07-10 18:14:25] INFO root fetch - processPackages [nixos-compose]: Downloading https://files.pythonhosted.org/packages/fe/6a/b1e48b5507cb5c9b96167217a610162506c4995379d98cfbf534a54865e9/nixos_compose-0.5.5.tar.gz
+[2023-07-10 18:14:25] INFO root fetch - processPackages [jsondbupload]: executing diffoscope
+[2023-07-10 18:14:25] INFO root fetch - processPackages [jsondbupload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsondbupload-1.2.tar.gz tmp/jsondbupload-1.3.tar.gz --markdown 20230710/j/jsondbupload/1.2-1.3/diff.md --exclude *.pyd
+[2023-07-10 18:14:25] INFO root fetch - processPackages [debiai]: executing diffoscope
+[2023-07-10 18:14:25] INFO root fetch - processPackages [canarytools]: executing diffoscope
+[2023-07-10 18:14:25] INFO root fetch - processPackages [debiai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/debiai-0.24.0.tar.gz tmp/debiai-0.24.1.tar.gz --markdown 20230710/d/debiai/0.24.0-0.24.1/diff.md --exclude *.pyd
+[2023-07-10 18:14:25] INFO root fetch - processPackages [canarytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canarytools-1.1.0.tar.gz tmp/canarytools-1.1.1.tar.gz --markdown 20230710/c/canarytools/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-10 18:14:25] INFO root fetch - processPackages [streamlitopencvplayer]: executing diffoscope
+[2023-07-10 18:14:25] INFO root fetch - processPackages [streamlitopencvplayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlitopencvplayer-1.3.1.tar.gz tmp/streamlitopencvplayer-1.3.2.tar.gz --markdown 20230710/s/streamlitopencvplayer/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-07-10 18:14:25] INFO root fetch - processPackages [nixos-compose]: executing diffoscope
+[2023-07-10 18:14:25] INFO root fetch - processPackages [nixos-compose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nixos_compose-0.5.4.tar.gz tmp/nixos_compose-0.5.5.tar.gz --markdown 20230710/n/nixos-compose/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-07-10 18:14:26] INFO root fetch - processPackages [ordotools]: Remove: archive file [/home/abi/fetcher/tmp/ordotools-0.0.6.tar.gz]
+[2023-07-10 18:14:26] INFO root fetch - processPackages [ordotools]: Remove: archive file [/home/abi/fetcher/tmp/ordotools-0.0.9.tar.gz]
+[2023-07-10 18:14:26] INFO root fetch - processPackages [ordotools]: Start processing: tubular
+[2023-07-10 18:14:26] INFO root fetch - main [MainThread]: End processing [ordotools]: success
+[2023-07-10 18:14:26] INFO root fetch - processPackages [pyfastedit]: Remove: archive file [/home/abi/fetcher/tmp/pyfastedit-0.0.2.tar.gz]
+[2023-07-10 18:14:26] INFO root fetch - processPackages [pyfastedit]: Remove: archive file [/home/abi/fetcher/tmp/pyfastedit-0.0.3.tar.gz]
+[2023-07-10 18:14:26] INFO root fetch - processPackages [pyfastedit]: Start processing: tokenmonster
+[2023-07-10 18:14:26] INFO root fetch - main [MainThread]: End processing [pyfastedit]: success
+[2023-07-10 18:14:26] INFO root fetch - processPackages [tubular]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-07-10 18:14:26] INFO root fetch - processPackages [tokenmonster]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-07-10 18:14:27] INFO root fetch - processPackages [jsondbupload]: Remove: archive file [/home/abi/fetcher/tmp/jsondbupload-1.2.tar.gz]
+[2023-07-10 18:14:27] INFO root fetch - processPackages [jsondbupload]: Remove: archive file [/home/abi/fetcher/tmp/jsondbupload-1.3.tar.gz]
+[2023-07-10 18:14:27] INFO root fetch - main [MainThread]: End processing [jsondbupload]: success
+[2023-07-10 18:14:27] INFO root fetch - processPackages [segmentation-mask-overlay]: Remove: archive file [/home/abi/fetcher/tmp/segmentation-mask-overlay-0.4.3.tar.gz]
+[2023-07-10 18:14:27] INFO root fetch - processPackages [segmentation-mask-overlay]: Remove: archive file [/home/abi/fetcher/tmp/segmentation-mask-overlay-0.4.4.tar.gz]
+[2023-07-10 18:14:27] INFO root fetch - main [MainThread]: End processing [segmentation-mask-overlay]: success
+[2023-07-10 18:14:27] INFO root fetch - processPackages [gpt-json]: Remove: archive file [/home/abi/fetcher/tmp/gpt_json-0.1.8.tar.gz]
+[2023-07-10 18:14:27] INFO root fetch - processPackages [gpt-json]: Remove: archive file [/home/abi/fetcher/tmp/gpt_json-0.1.9.tar.gz]
+[2023-07-10 18:14:27] INFO root fetch - main [MainThread]: End processing [gpt-json]: success
+[2023-07-10 18:14:27] INFO root fetch - processPackages [tubular]: Downloading https://files.pythonhosted.org/packages/a5/1a/5f366dbd9b6e2a734c6d2b4abc73d04fd6be0e15751a5ad3c4e6193186cb/tubular-0.3.7.tar.gz
+[2023-07-10 18:14:27] INFO root fetch - processPackages [tokenmonster]: Downloading https://files.pythonhosted.org/packages/4d/34/a715ddf33448f6308da9abc31a9968ce388f6b0ad2003f95e515a9f2c6d8/tokenmonster-1.0.1.tar.gz
+[2023-07-10 18:14:27] INFO root fetch - processPackages [streamlitopencvplayer]: Remove: archive file [/home/abi/fetcher/tmp/streamlitopencvplayer-1.3.1.tar.gz]
+[2023-07-10 18:14:27] INFO root fetch - processPackages [streamlitopencvplayer]: Remove: archive file [/home/abi/fetcher/tmp/streamlitopencvplayer-1.3.2.tar.gz]
+[2023-07-10 18:14:27] INFO root fetch - main [MainThread]: End processing [streamlitopencvplayer]: success
+[2023-07-10 18:14:27] INFO root fetch - processPackages [debiai]: Remove: archive file [/home/abi/fetcher/tmp/debiai-0.24.0.tar.gz]
+[2023-07-10 18:14:27] INFO root fetch - processPackages [debiai]: Remove: archive file [/home/abi/fetcher/tmp/debiai-0.24.1.tar.gz]
+[2023-07-10 18:14:27] INFO root fetch - main [MainThread]: End processing [debiai]: success
+[2023-07-10 18:14:27] INFO root fetch - processPackages [ckanext-gallery]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-gallery-2.2.7.tar.gz]
+[2023-07-10 18:14:27] INFO root fetch - processPackages [ckanext-gallery]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-gallery-2.2.8.tar.gz]
+[2023-07-10 18:14:27] INFO root fetch - main [MainThread]: End processing [ckanext-gallery]: success
+[2023-07-10 18:14:27] INFO root fetch - processPackages [canarytools]: Remove: archive file [/home/abi/fetcher/tmp/canarytools-1.1.0.tar.gz]
+[2023-07-10 18:14:27] INFO root fetch - processPackages [canarytools]: Remove: archive file [/home/abi/fetcher/tmp/canarytools-1.1.1.tar.gz]
+[2023-07-10 18:14:27] INFO root fetch - main [MainThread]: End processing [canarytools]: success
+[2023-07-10 18:14:27] INFO root fetch - processPackages [tubular]: Downloading https://files.pythonhosted.org/packages/a3/cd/efd1af61cad1ef7f8b6951dcb23e0181dc030a88a87bb8fae1f194b74be4/tubular-0.3.8.tar.gz
+[2023-07-10 18:14:27] INFO root fetch - processPackages [tokenmonster]: Downloading https://files.pythonhosted.org/packages/4e/43/3ab6a8aad60d80cb55e8263f101ef604c42b4421b69a55148cb8f0b78212/tokenmonster-1.1.0.tar.gz
+[2023-07-10 18:14:27] INFO root fetch - processPackages [nixos-compose]: Remove: archive file [/home/abi/fetcher/tmp/nixos_compose-0.5.4.tar.gz]
+[2023-07-10 18:14:27] INFO root fetch - processPackages [nixos-compose]: Remove: archive file [/home/abi/fetcher/tmp/nixos_compose-0.5.5.tar.gz]
+[2023-07-10 18:14:27] INFO root fetch - main [MainThread]: End processing [nixos-compose]: success
+[2023-07-10 18:14:27] INFO root fetch - processPackages [tubular]: executing diffoscope
+[2023-07-10 18:14:27] INFO root fetch - processPackages [tubular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tubular-0.3.7.tar.gz tmp/tubular-0.3.8.tar.gz --markdown 20230710/t/tubular/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-07-10 18:14:27] INFO root fetch - processPackages [tokenmonster]: executing diffoscope
+[2023-07-10 18:14:27] INFO root fetch - processPackages [tokenmonster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tokenmonster-1.0.1.tar.gz tmp/tokenmonster-1.1.0.tar.gz --markdown 20230710/t/tokenmonster/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-07-10 18:14:28] INFO root fetch - processPackages [tokenmonster]: Remove: archive file [/home/abi/fetcher/tmp/tokenmonster-1.0.1.tar.gz]
+[2023-07-10 18:14:28] INFO root fetch - processPackages [tokenmonster]: Remove: archive file [/home/abi/fetcher/tmp/tokenmonster-1.1.0.tar.gz]
+[2023-07-10 18:14:28] INFO root fetch - main [MainThread]: End processing [tokenmonster]: success
+[2023-07-10 18:14:28] INFO root fetch - processPackages [tubular]: Remove: archive file [/home/abi/fetcher/tmp/tubular-0.3.7.tar.gz]
+[2023-07-10 18:14:28] INFO root fetch - processPackages [tubular]: Remove: archive file [/home/abi/fetcher/tmp/tubular-0.3.8.tar.gz]
+[2023-07-10 18:14:28] INFO root fetch - main [MainThread]: End processing [tubular]: success
+[2023-07-10 18:14:28] INFO root fetch - main [MainThread]: Store serial: [18833276]
