@@ -5329,3 +5329,47 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 03:58:11] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2023.6.5.tar.gz]
 [2023-07-10 03:58:11] INFO root fetch - main [MainThread]: End processing [esphome]: success
 [2023-07-10 03:58:11] INFO root fetch - main [MainThread]: Store serial: [18825681]
+[2023-07-10 04:03:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18825681]
+[2023-07-10 04:03:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-10 04:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gradio-orz
+[2023-07-10 04:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yplib
+[2023-07-10 04:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-cfassistant
+[2023-07-10 04:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ai2-kit
+[2023-07-10 04:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: psychoanalyze
+[2023-07-10 04:03:20] INFO root fetch - processPackages [nonebot-plugin-cfassistant]: New version: [1.2] Old Version: [1.1]
+[2023-07-10 04:03:20] INFO root fetch - processPackages [ai2-kit]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-10 04:03:20] INFO root fetch - processPackages [psychoanalyze]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-10 04:03:20] INFO root fetch - processPackages [gradio-orz]: New version: [3.35.5] Old Version: [3.35.4]
+[2023-07-10 04:03:20] INFO root fetch - processPackages [yplib]: New version: [2.3.6] Old Version: [2.3.5]
+[2023-07-10 04:03:21] INFO root fetch - processPackages [psychoanalyze]: Downloading https://files.pythonhosted.org/packages/ee/6d/02f330b0cec70f36f646e04190ee8fd7e26af3142d3c229f5f82fc68e508/psychoanalyze-0.4.8.tar.gz
+[2023-07-10 04:03:21] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/cb/b4/5b1937295f1abfe01d2e37ff4c9b43372bb03552e3ee3704d4929d85406f/yplib-2.3.5.tar.gz
+[2023-07-10 04:03:21] INFO root fetch - processPackages [nonebot-plugin-cfassistant]: Downloading https://files.pythonhosted.org/packages/cf/79/25cf96c571fddaf8507b5144780a0deb4b7ca0454f2a503f9d757e5388d4/nonebot-plugin-cfassistant-1.1.tar.gz
+[2023-07-10 04:03:21] INFO root fetch - processPackages [gradio-orz]: Downloading https://files.pythonhosted.org/packages/dd/dd/eac82d3df144e44bd5db4389b22830e655967f154280e018690d5994c8b0/gradio_orz-3.35.4.tar.gz
+[2023-07-10 04:03:21] INFO root fetch - processPackages [psychoanalyze]: Downloading https://files.pythonhosted.org/packages/db/6d/81bf8d7fa373f9f4fc347916742d104ad6c5478192f29c408b14cbc9ba34/psychoanalyze-0.4.9.tar.gz
+[2023-07-10 04:03:21] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/86/be/0218c833ea8e6ca4964b606765218d27e4a799cd96a1b142e36c7461c007/yplib-2.3.6.tar.gz
+[2023-07-10 04:03:21] WARNING root fetch - processPackages [gradio-orz]: Skipping package: exceeds size limit 10907651>=10485760
+[2023-07-10 04:03:21] INFO root fetch - main [MainThread]: End processing [gradio-orz] error
+[2023-07-10 04:03:21] INFO root fetch - processPackages [psychoanalyze]: executing diffoscope
+[2023-07-10 04:03:21] INFO root fetch - processPackages [psychoanalyze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psychoanalyze-0.4.8.tar.gz tmp/psychoanalyze-0.4.9.tar.gz --markdown 20230710/p/psychoanalyze/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-10 04:03:21] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-07-10 04:03:21] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-2.3.5.tar.gz tmp/yplib-2.3.6.tar.gz --markdown 20230710/y/yplib/2.3.5-2.3.6/diff.md --exclude *.pyd
+[2023-07-10 04:03:21] INFO root fetch - processPackages [nonebot-plugin-cfassistant]: Downloading https://files.pythonhosted.org/packages/f9/2f/a366a144cc62e24f0dfe1a298c0fce60d40e73b4d011151f7bffdaa0497f/nonebot-plugin-cfassistant-1.2.tar.gz
+[2023-07-10 04:03:21] INFO root fetch - processPackages [nonebot-plugin-cfassistant]: executing diffoscope
+[2023-07-10 04:03:21] INFO root fetch - processPackages [nonebot-plugin-cfassistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-cfassistant-1.1.tar.gz tmp/nonebot-plugin-cfassistant-1.2.tar.gz --markdown 20230710/n/nonebot-plugin-cfassistant/1.1-1.2/diff.md --exclude *.pyd
+[2023-07-10 04:03:22] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/eb/f4/ea38d8c9f78873edcbb17216f185baee2019ecb183cd80b334c593f2b1bc/ai2_kit-0.3.8.tar.gz
+[2023-07-10 04:03:22] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/f8/ec/3044fde579418570279eb9f4c2d60facdbd573ed724ec7fa07e3a4c940aa/ai2_kit-0.3.9.tar.gz
+[2023-07-10 04:03:22] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.3.5.tar.gz]
+[2023-07-10 04:03:22] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.3.6.tar.gz]
+[2023-07-10 04:03:22] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-07-10 04:03:22] INFO root fetch - processPackages [psychoanalyze]: Remove: archive file [/home/abi/fetcher/tmp/psychoanalyze-0.4.8.tar.gz]
+[2023-07-10 04:03:22] INFO root fetch - processPackages [psychoanalyze]: Remove: archive file [/home/abi/fetcher/tmp/psychoanalyze-0.4.9.tar.gz]
+[2023-07-10 04:03:22] INFO root fetch - main [MainThread]: End processing [psychoanalyze]: success
+[2023-07-10 04:03:22] INFO root fetch - processPackages [ai2-kit]: executing diffoscope
+[2023-07-10 04:03:22] INFO root fetch - processPackages [ai2-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai2_kit-0.3.8.tar.gz tmp/ai2_kit-0.3.9.tar.gz --markdown 20230710/a/ai2-kit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-10 04:03:22] INFO root fetch - processPackages [nonebot-plugin-cfassistant]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-cfassistant-1.1.tar.gz]
+[2023-07-10 04:03:22] INFO root fetch - processPackages [nonebot-plugin-cfassistant]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-cfassistant-1.2.tar.gz]
+[2023-07-10 04:03:22] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-cfassistant]: success
+[2023-07-10 04:03:23] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.3.8.tar.gz]
+[2023-07-10 04:03:23] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.3.9.tar.gz]
+[2023-07-10 04:03:23] INFO root fetch - main [MainThread]: End processing [ai2-kit]: success
+[2023-07-10 04:03:23] INFO root fetch - main [MainThread]: Store serial: [18825698]
