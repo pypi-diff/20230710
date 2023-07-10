@@ -11566,3 +11566,136 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 10:25:48] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.9.1a1641826769.tar.gz]
 [2023-07-10 10:25:48] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
 [2023-07-10 10:25:48] INFO root fetch - main [MainThread]: Store serial: [18828241]
+[2023-07-10 10:30:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18828241]
+[2023-07-10 10:30:57] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-10 10:30:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vfsfusepy
+[2023-07-10 10:30:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ailola
+[2023-07-10 10:30:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wagtail-icon-chooser
+[2023-07-10 10:30:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torch-hrp
+[2023-07-10 10:30:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: androtools
+[2023-07-10 10:30:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ailola
+[2023-07-10 10:30:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tf-nightly
+[2023-07-10 10:30:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: katottglib
+[2023-07-10 10:30:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: huhangkai
+[2023-07-10 10:30:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mistapi
+[2023-07-10 10:30:57] INFO root fetch - processPackages [ailola]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-10 10:30:57] INFO root fetch - processPackages [vfsfusepy]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-10 10:30:57] INFO root fetch - processPackages [torch-hrp]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-10 10:30:57] INFO root fetch - processPackages [androtools]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-10 10:30:57] INFO root fetch - processPackages [katottglib]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-10 10:30:57] INFO root fetch - processPackages [wagtail-icon-chooser]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-10 10:30:57] INFO root fetch - processPackages [ailola]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-10 10:30:57] INFO root fetch - processPackages [mistapi]: New version: [0.41.9] Old Version: [0.41.8]
+[2023-07-10 10:30:57] INFO root fetch - processPackages [huhangkai]: New version: [1.5.5] Old Version: [1.5.4]
+[2023-07-10 10:30:57] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230710] Old Version: [2.14.0.dev20230709]
+[2023-07-10 10:30:57] INFO root fetch - processPackages [androtools]: Downloading https://files.pythonhosted.org/packages/81/8a/7c22749ab22898434f02e06484671cb6c3e4657051d48e0b13fcc85bc59c/androtools-0.1.7.tar.gz
+[2023-07-10 10:30:57] INFO root fetch - processPackages [huhangkai]: Downloading https://files.pythonhosted.org/packages/94/20/f303cdb6012a9d50f8a22e6e6556c9916c9e69b03beb3b53be582c54f607/huhangkai-1.5.4.tar.gz
+[2023-07-10 10:30:57] INFO root fetch - processPackages [ailola]: Downloading https://files.pythonhosted.org/packages/af/e3/0d169038e0fe08ab4cb50913f9adaa0e1e6f352207f72302e37e86888be2/ailola-0.9.8.tar.gz
+[2023-07-10 10:30:57] INFO root fetch - processPackages [ailola]: Downloading https://files.pythonhosted.org/packages/af/e3/0d169038e0fe08ab4cb50913f9adaa0e1e6f352207f72302e37e86888be2/ailola-0.9.8.tar.gz
+[2023-07-10 10:30:57] INFO root fetch - processPackages [mistapi]: Downloading https://files.pythonhosted.org/packages/7c/7e/c80f4702c10dec7db81faaea2d584d96aa31fc91f05e2e141180faf6efd7/mistapi-0.41.8.tar.gz
+[2023-07-10 10:30:57] INFO root fetch - processPackages [vfsfusepy]: Downloading https://files.pythonhosted.org/packages/a3/af/0ba0530d249ebeb4ce388188618b4aac74bffaa54f6f98d906f11596590b/vfsfusepy-0.2.0.tar.gz
+[2023-07-10 10:30:57] INFO root fetch - processPackages [katottglib]: Downloading https://files.pythonhosted.org/packages/29/aa/eace93189cedf2a6e35c5ca2e8ed77f8aa99b61c381bb61dd3221a9d5c89/katottglib-0.2.5.tar.gz
+[2023-07-10 10:30:57] INFO root fetch - processPackages [wagtail-icon-chooser]: Downloading https://files.pythonhosted.org/packages/23/40/2034c1592709d6ee96a52da662253f9e639c29abca771dab5943b759b980/wagtail-icon-chooser-0.0.3.tar.gz
+[2023-07-10 10:30:57] INFO root fetch - processPackages [torch-hrp]: Downloading https://files.pythonhosted.org/packages/20/47/10bc54069a4578aa194b396e831d79bf63f9912698f18f403dc3d80efabf/torch-hrp-0.1.1.tar.gz
+[2023-07-10 10:30:57] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/9a/fc/be50ede5f793733e850d248a919a0b1613f1e0600b441c44300ca61c93ca/tf_nightly-2.14.0.dev20230709-cp39-cp39-win_amd64.whl
+[2023-07-10 10:30:58] INFO root fetch - processPackages [huhangkai]: Downloading https://files.pythonhosted.org/packages/4b/19/e38e90b333ba45884adb9088100c376b44085025d4e6e0a06ab42ae00424/huhangkai-1.5.5.tar.gz
+[2023-07-10 10:30:58] INFO root fetch - processPackages [androtools]: Downloading https://files.pythonhosted.org/packages/5b/cc/e5f1f5ab897c900b8ba03e4e402f9d1f75523052876efb75ab82a44ac2bb/androtools-0.1.8.tar.gz
+[2023-07-10 10:30:58] INFO root fetch - processPackages [ailola]: Downloading https://files.pythonhosted.org/packages/0a/02/d1ca04f4904163f75791f299f0615467ccefaa60386ef5034bb9446d8c1e/ailola-0.9.9.tar.gz
+[2023-07-10 10:30:58] INFO root fetch - processPackages [ailola]: Downloading https://files.pythonhosted.org/packages/0a/02/d1ca04f4904163f75791f299f0615467ccefaa60386ef5034bb9446d8c1e/ailola-0.9.9.tar.gz
+[2023-07-10 10:30:58] INFO root fetch - processPackages [katottglib]: Downloading https://files.pythonhosted.org/packages/99/ae/ccf5ba93a1ed57479cad0d2d43d7175822c0656d5efdea164b5ab7f09abb/katottglib-0.2.6.tar.gz
+[2023-07-10 10:30:58] INFO root fetch - processPackages [mistapi]: Downloading https://files.pythonhosted.org/packages/80/d3/b266dd4edb93a3e8306915b9003b44b3217feb55cf5e562b2563675b50bf/mistapi-0.41.9.tar.gz
+[2023-07-10 10:30:58] INFO root fetch - processPackages [vfsfusepy]: Downloading https://files.pythonhosted.org/packages/3d/67/2f6a795e8c412eee19a235492b70f25824163d5db1d7bd348fb8a6dae1a6/vfsfusepy-0.2.1.tar.gz
+[2023-07-10 10:30:58] INFO root fetch - processPackages [androtools]: executing diffoscope
+[2023-07-10 10:30:58] INFO root fetch - processPackages [androtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/androtools-0.1.7.tar.gz tmp/androtools-0.1.8.tar.gz --markdown 20230710/a/androtools/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-10 10:30:58] INFO root fetch - processPackages [ailola]: executing diffoscope
+[2023-07-10 10:30:58] INFO root fetch - processPackages [ailola]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ailola-0.9.8.tar.gz tmp/ailola-0.9.9.tar.gz --markdown 20230710/a/ailola/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-10 10:30:58] INFO root fetch - processPackages [huhangkai]: executing diffoscope
+[2023-07-10 10:30:58] INFO root fetch - processPackages [huhangkai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huhangkai-1.5.4.tar.gz tmp/huhangkai-1.5.5.tar.gz --markdown 20230710/h/huhangkai/1.5.4-1.5.5/diff.md --exclude *.pyd
+[2023-07-10 10:30:58] INFO root fetch - processPackages [torch-hrp]: Downloading https://files.pythonhosted.org/packages/78/61/1ca5cf7a634647f91243a7f4546150c99de7242cff0360a238c19e37f5f6/torch-hrp-0.2.0.tar.gz
+[2023-07-10 10:30:58] INFO root fetch - processPackages [ailola]: executing diffoscope
+[2023-07-10 10:30:58] INFO root fetch - processPackages [ailola]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ailola-0.9.8.tar.gz tmp/ailola-0.9.9.tar.gz --markdown 20230710/a/ailola/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-10 10:30:58] INFO root fetch - processPackages [wagtail-icon-chooser]: Downloading https://files.pythonhosted.org/packages/89/ca/54c3a1c31853a9e83e9d7211aac95e0755650af1f33396fbafcf05640759/wagtail-icon-chooser-0.0.4.tar.gz
+[2023-07-10 10:30:58] INFO root fetch - processPackages [vfsfusepy]: executing diffoscope
+[2023-07-10 10:30:58] INFO root fetch - processPackages [vfsfusepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vfsfusepy-0.2.0.tar.gz tmp/vfsfusepy-0.2.1.tar.gz --markdown 20230710/v/vfsfusepy/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-10 10:30:58] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/95/6d/7f86319aa226ff0eacc32039654fa1919aeab7f13342641d2690f462c25b/tf_nightly-2.14.0.dev20230710-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-10 10:30:58] INFO root fetch - processPackages [mistapi]: executing diffoscope
+[2023-07-10 10:30:58] INFO root fetch - processPackages [mistapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistapi-0.41.8.tar.gz tmp/mistapi-0.41.9.tar.gz --markdown 20230710/m/mistapi/0.41.8-0.41.9/diff.md --exclude *.pyd
+[2023-07-10 10:30:58] INFO root fetch - processPackages [torch-hrp]: executing diffoscope
+[2023-07-10 10:30:58] INFO root fetch - processPackages [torch-hrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch-hrp-0.1.1.tar.gz tmp/torch-hrp-0.2.0.tar.gz --markdown 20230710/t/torch-hrp/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-10 10:30:58] INFO root fetch - processPackages [wagtail-icon-chooser]: executing diffoscope
+[2023-07-10 10:30:58] INFO root fetch - processPackages [wagtail-icon-chooser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-icon-chooser-0.0.3.tar.gz tmp/wagtail-icon-chooser-0.0.4.tar.gz --markdown 20230710/w/wagtail-icon-chooser/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-10 10:30:58] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 490905634>=10485760
+[2023-07-10 10:30:58] INFO root fetch - processPackages [tf-nightly]: Start processing: troubadix
+[2023-07-10 10:30:58] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-07-10 10:30:58] INFO root fetch - processPackages [katottglib]: executing diffoscope
+[2023-07-10 10:30:58] INFO root fetch - processPackages [katottglib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/katottglib-0.2.5.tar.gz tmp/katottglib-0.2.6.tar.gz --markdown 20230710/k/katottglib/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-10 10:30:58] INFO root fetch - processPackages [troubadix]: New version: [23.7.0] Old Version: [23.6.3]
+[2023-07-10 10:30:59] INFO root fetch - processPackages [troubadix]: Downloading https://files.pythonhosted.org/packages/2c/d9/6d9449bb3e1ced89327898d222ad2e2c146d9c8c8103cb4d7ca06bf498a9/troubadix-23.6.3.tar.gz
+[2023-07-10 10:30:59] INFO root fetch - processPackages [troubadix]: Downloading https://files.pythonhosted.org/packages/b7/87/84bd5585083bf25f05f6684bc2c4f5297114cd46c43c0f647df55f8b5e9f/troubadix-23.7.0.tar.gz
+[2023-07-10 10:30:59] INFO root fetch - processPackages [troubadix]: executing diffoscope
+[2023-07-10 10:30:59] INFO root fetch - processPackages [troubadix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/troubadix-23.6.3.tar.gz tmp/troubadix-23.7.0.tar.gz --markdown 20230710/t/troubadix/23.6.3-23.7.0/diff.md --exclude *.pyd
+[2023-07-10 10:31:00] INFO root fetch - processPackages [androtools]: Remove: archive file [/home/abi/fetcher/tmp/androtools-0.1.7.tar.gz]
+[2023-07-10 10:31:00] INFO root fetch - processPackages [androtools]: Remove: archive file [/home/abi/fetcher/tmp/androtools-0.1.8.tar.gz]
+[2023-07-10 10:31:00] INFO root fetch - processPackages [androtools]: Start processing: SRgenerator
+[2023-07-10 10:31:00] INFO root fetch - main [MainThread]: End processing [androtools]: success
+[2023-07-10 10:31:00] INFO root fetch - processPackages [SRgenerator]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-10 10:31:00] INFO root fetch - processPackages [ailola]: Remove: archive file [/home/abi/fetcher/tmp/ailola-0.9.8.tar.gz]
+[2023-07-10 10:31:00] INFO root fetch - processPackages [ailola]: Remove: archive file [/home/abi/fetcher/tmp/ailola-0.9.9.tar.gz]
+[2023-07-10 10:31:00] INFO root fetch - processPackages [ailola]: Start processing: quantplay
+[2023-07-10 10:31:00] INFO root fetch - main [MainThread]: End processing [ailola]: success
+[2023-07-10 10:31:00] INFO root fetch - processPackages [ailola]: Start processing: fbnlab-preview
+[2023-07-10 10:31:00] INFO root fetch - main [MainThread]: End processing [ailola]: success
+[2023-07-10 10:31:00] INFO root fetch - processPackages [SRgenerator]: Downloading https://files.pythonhosted.org/packages/7b/da/edfe421901f149e14495df38dac484ce9e435256ca5aafb4344758007328/SRgenerator-0.0.5.tar.gz
+[2023-07-10 10:31:00] INFO root fetch - processPackages [fbnlab-preview]: New version: [0.1.8] Old Version: [0.1.62]
+[2023-07-10 10:31:00] INFO root fetch - processPackages [quantplay]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-10 10:31:00] INFO root fetch - processPackages [wagtail-icon-chooser]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-icon-chooser-0.0.3.tar.gz]
+[2023-07-10 10:31:00] INFO root fetch - processPackages [wagtail-icon-chooser]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-icon-chooser-0.0.4.tar.gz]
+[2023-07-10 10:31:00] INFO root fetch - processPackages [wagtail-icon-chooser]: Start processing: armonik
+[2023-07-10 10:31:00] INFO root fetch - main [MainThread]: End processing [wagtail-icon-chooser]: success
+[2023-07-10 10:31:00] INFO root fetch - processPackages [vfsfusepy]: Remove: archive file [/home/abi/fetcher/tmp/vfsfusepy-0.2.0.tar.gz]
+[2023-07-10 10:31:00] INFO root fetch - processPackages [vfsfusepy]: Remove: archive file [/home/abi/fetcher/tmp/vfsfusepy-0.2.1.tar.gz]
+[2023-07-10 10:31:00] INFO root fetch - main [MainThread]: End processing [vfsfusepy]: success
+[2023-07-10 10:31:00] INFO root fetch - processPackages [armonik]: New version: [3.9.3.dev630] Old Version: [3.9.3.dev627]
+[2023-07-10 10:31:00] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/45/df/9dafdbe1d951b59dcb7dc8f02188b232f56f79298a06892f0e603becc389/quantplay-1.3.8.tar.gz
+[2023-07-10 10:31:00] INFO root fetch - processPackages [torch-hrp]: Remove: archive file [/home/abi/fetcher/tmp/torch-hrp-0.1.1.tar.gz]
+[2023-07-10 10:31:00] INFO root fetch - processPackages [torch-hrp]: Remove: archive file [/home/abi/fetcher/tmp/torch-hrp-0.2.0.tar.gz]
+[2023-07-10 10:31:00] INFO root fetch - main [MainThread]: End processing [torch-hrp]: success
+[2023-07-10 10:31:00] INFO root fetch - processPackages [katottglib]: Remove: archive file [/home/abi/fetcher/tmp/katottglib-0.2.5.tar.gz]
+[2023-07-10 10:31:00] INFO root fetch - processPackages [katottglib]: Remove: archive file [/home/abi/fetcher/tmp/katottglib-0.2.6.tar.gz]
+[2023-07-10 10:31:00] INFO root fetch - main [MainThread]: End processing [katottglib]: success
+[2023-07-10 10:31:00] INFO root fetch - processPackages [fbnlab-preview]: Downloading https://files.pythonhosted.org/packages/5b/91/92c34d57974d9af6bb9a0b9abc207dc31a857e420528b22af7f26be6a336/fbnlab_preview-0.1.62-py3-none-any.whl
+[2023-07-10 10:31:00] INFO root fetch - processPackages [huhangkai]: Remove: archive file [/home/abi/fetcher/tmp/huhangkai-1.5.4.tar.gz]
+[2023-07-10 10:31:00] INFO root fetch - processPackages [huhangkai]: Remove: archive file [/home/abi/fetcher/tmp/huhangkai-1.5.5.tar.gz]
+[2023-07-10 10:31:00] INFO root fetch - main [MainThread]: End processing [huhangkai]: success
+[2023-07-10 10:31:00] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/a3/db/468340c3e51513d2270b938c830901748ba3f03d05938557f70273672795/armonik-3.9.3.dev627.tar.gz
+[2023-07-10 10:31:00] INFO root fetch - processPackages [SRgenerator]: Downloading https://files.pythonhosted.org/packages/eb/b6/023050a3f2f8377179c0ba39a787a0ffa1d9c226b9b63cce2c0e861755a1/SRgenerator-0.0.6.tar.gz
+[2023-07-10 10:31:01] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/ee/a5/18caaa36bc077cbd964b78406eed5d1840456172da7cdd1b6c18be824d06/quantplay-1.3.9.tar.gz
+[2023-07-10 10:31:01] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/11/ad/4f1bc0423cfda7af28cb5dc84e1865bf90ef91df50054caabbc8de87872b/armonik-3.9.3.dev630.tar.gz
+[2023-07-10 10:31:01] INFO root fetch - processPackages [SRgenerator]: executing diffoscope
+[2023-07-10 10:31:01] INFO root fetch - processPackages [SRgenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SRgenerator-0.0.5.tar.gz tmp/SRgenerator-0.0.6.tar.gz --markdown 20230710/S/SRgenerator/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-10 10:31:01] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-07-10 10:31:01] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.3.8.tar.gz tmp/quantplay-1.3.9.tar.gz --markdown 20230710/q/quantplay/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-10 10:31:01] INFO root fetch - processPackages [armonik]: executing diffoscope
+[2023-07-10 10:31:01] INFO root fetch - processPackages [armonik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armonik-3.9.3.dev627.tar.gz tmp/armonik-3.9.3.dev630.tar.gz --markdown 20230710/a/armonik/3.9.3.dev627-3.9.3.dev630/diff.md --exclude *.pyd
+[2023-07-10 10:31:01] INFO root fetch - processPackages [fbnlab-preview]: Downloading https://files.pythonhosted.org/packages/d7/3a/47c89e574c39c0662e1815320fe44c7232deaec9dfc8f45c9607f9d1f0fb/fbnlab_preview-0.1.8-py3-none-any.whl
+[2023-07-10 10:31:01] INFO root fetch - processPackages [fbnlab-preview]: executing diffoscope
+[2023-07-10 10:31:01] INFO root fetch - processPackages [fbnlab-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbnlab_preview-0.1.62-py3-none-any.whl.zip tmp/fbnlab_preview-0.1.8-py3-none-any.whl.zip --markdown 20230710/f/fbnlab-preview/0.1.62-0.1.8/diff.md --exclude *.pyd
+[2023-07-10 10:31:02] INFO root fetch - processPackages [SRgenerator]: Remove: archive file [/home/abi/fetcher/tmp/SRgenerator-0.0.5.tar.gz]
+[2023-07-10 10:31:02] INFO root fetch - processPackages [SRgenerator]: Remove: archive file [/home/abi/fetcher/tmp/SRgenerator-0.0.6.tar.gz]
+[2023-07-10 10:31:02] INFO root fetch - main [MainThread]: End processing [SRgenerator]: success
+[2023-07-10 10:31:02] INFO root fetch - processPackages [troubadix]: Remove: archive file [/home/abi/fetcher/tmp/troubadix-23.6.3.tar.gz]
+[2023-07-10 10:31:02] INFO root fetch - processPackages [troubadix]: Remove: archive file [/home/abi/fetcher/tmp/troubadix-23.7.0.tar.gz]
+[2023-07-10 10:31:02] INFO root fetch - main [MainThread]: End processing [troubadix]: success
+[2023-07-10 10:31:02] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.3.dev627.tar.gz]
+[2023-07-10 10:31:02] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.3.dev630.tar.gz]
+[2023-07-10 10:31:02] INFO root fetch - main [MainThread]: End processing [armonik]: success
+[2023-07-10 10:31:02] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.3.8.tar.gz]
+[2023-07-10 10:31:02] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.3.9.tar.gz]
+[2023-07-10 10:31:02] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-07-10 10:31:02] INFO root fetch - processPackages [mistapi]: Remove: archive file [/home/abi/fetcher/tmp/mistapi-0.41.8.tar.gz]
+[2023-07-10 10:31:02] INFO root fetch - processPackages [mistapi]: Remove: archive file [/home/abi/fetcher/tmp/mistapi-0.41.9.tar.gz]
+[2023-07-10 10:31:02] INFO root fetch - main [MainThread]: End processing [mistapi]: success
+[2023-07-10 10:31:02] INFO root fetch - processPackages [fbnlab-preview]: Remove: archive file [/home/abi/fetcher/tmp/fbnlab_preview-0.1.62-py3-none-any.whl.zip]
+[2023-07-10 10:31:02] INFO root fetch - processPackages [fbnlab-preview]: Remove: archive file [/home/abi/fetcher/tmp/fbnlab_preview-0.1.8-py3-none-any.whl.zip]
+[2023-07-10 10:31:02] INFO root fetch - main [MainThread]: End processing [fbnlab-preview]: success
+[2023-07-10 10:31:02] INFO root fetch - main [MainThread]: Store serial: [18828287]
