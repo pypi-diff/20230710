@@ -22585,3 +22585,195 @@ EOFError: EOF read where object expected
 [2023-07-10 17:32:31] INFO root fetch - processPackages [cubicweb]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-4.1.0.tar.gz]
 [2023-07-10 17:32:31] INFO root fetch - main [MainThread]: End processing [cubicweb]: success
 [2023-07-10 17:32:31] INFO root fetch - main [MainThread]: Store serial: [18832796]
+[2023-07-10 17:37:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18832796]
+[2023-07-10 17:37:40] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-07-10 17:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iamlistening
+[2023-07-10 17:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: secureli
+[2023-07-10 17:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ordotools
+[2023-07-10 17:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openhab-pythonrule-engine
+[2023-07-10 17:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tastytrade-sdk
+[2023-07-10 17:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: swh.storage
+[2023-07-10 17:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scMMT
+[2023-07-10 17:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: template-pypackage-builder
+[2023-07-10 17:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-vpc
+[2023-07-10 17:37:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: reps-new
+[2023-07-10 17:37:40] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.1.4a0.dev9] Old Version: [0.1.4a0.dev8]
+[2023-07-10 17:37:40] WARNING root fetch - processPackages [template-pypackage-builder]: Skipping, unable to determine old version
+[2023-07-10 17:37:40] INFO root fetch - processPackages [template-pypackage-builder]: Start processing: cuihlibs
+[2023-07-10 17:37:40] INFO root fetch - main [MainThread]: End processing [template-pypackage-builder] error
+[2023-07-10 17:37:40] INFO root fetch - processPackages [ordotools]: New version: [0.0.9] Old Version: [0.0.6]
+[2023-07-10 17:37:40] INFO root fetch - processPackages [reps-new]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-10 17:37:40] INFO root fetch - processPackages [secureli]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-07-10 17:37:40] WARNING root fetch - processPackages [scMMT]: Skipping, unable to determine old version
+[2023-07-10 17:37:40] INFO root fetch - processPackages [scMMT]: Start processing: text-styling
+[2023-07-10 17:37:40] INFO root fetch - main [MainThread]: End processing [scMMT] error
+[2023-07-10 17:37:40] INFO root fetch - processPackages [iamlistening]: New version: [1.0.0] Old Version: [0.2.8]
+[2023-07-10 17:37:40] INFO root fetch - processPackages [openhab-pythonrule-engine]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-07-10 17:37:40] INFO root fetch - processPackages [pepperize.cdk-vpc]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-10 17:37:40] INFO root fetch - processPackages [tastytrade-sdk]: Downloading https://files.pythonhosted.org/packages/40/99/5518af8ede59a3ab21c019a933e042ec4c22925d37f64ffb670880084b27/tastytrade_sdk-0.1.4a0.dev8.tar.gz
+[2023-07-10 17:37:40] INFO root fetch - processPackages [swh.storage]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-10 17:37:40] WARNING root fetch - processPackages [cuihlibs]: Skipping, unable to determine old version
+[2023-07-10 17:37:40] INFO root fetch - processPackages [cuihlibs]: Start processing: hyperx
+[2023-07-10 17:37:40] INFO root fetch - main [MainThread]: End processing [cuihlibs] error
+[2023-07-10 17:37:41] INFO root fetch - processPackages [openhab-pythonrule-engine]: Downloading https://files.pythonhosted.org/packages/bb/31/e6226469f783be0b504cc409f95ae4378c8735566f1847b038f9dae4c93c/openhab_pythonrule_engine-1.2.5.tar.gz
+[2023-07-10 17:37:41] WARNING root fetch - processPackages [text-styling]: Skipping, unable to determine old version
+[2023-07-10 17:37:41] INFO root fetch - processPackages [text-styling]: Start processing: wagtail-metrics
+[2023-07-10 17:37:41] INFO root fetch - main [MainThread]: End processing [text-styling] error
+[2023-07-10 17:37:41] INFO root fetch - processPackages [hyperx]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-10 17:37:41] INFO root fetch - processPackages [wagtail-metrics]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 17:37:41] INFO root fetch - processPackages [reps-new]: Downloading https://files.pythonhosted.org/packages/50/80/a7c7df8bacf8bb466207eeb522eb8701764081da0ea24ba3b3eea3f653b5/reps_new-0.3.1.tar.gz
+[2023-07-10 17:37:41] INFO root fetch - processPackages [ordotools]: Downloading https://files.pythonhosted.org/packages/c1/3b/1c77a37917843f29c2dce0c870193404fbcfc4ccc45f19a7b11a2f3ff732/ordotools-0.0.6.tar.gz
+[2023-07-10 17:37:41] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/2c/66/da7767e2e5bfe088f345212e3b57dfa738a40310c47387d5c179b2cf0968/iamlistening-0.2.8.tar.gz
+[2023-07-10 17:37:41] INFO root fetch - processPackages [secureli]: Downloading https://files.pythonhosted.org/packages/7f/d3/bc2388d519bb68fb1a3a9c8aa5a46b41e215bd304d319e029a90818f6988/secureli-0.6.5.tar.gz
+[2023-07-10 17:37:41] INFO root fetch - processPackages [pepperize.cdk-vpc]: Downloading https://files.pythonhosted.org/packages/25/98/839bb964d107b60f6cc3bb06dbdb864b04f9c38cafbf4725617501c0ad49/pepperize.cdk-vpc-0.0.98.tar.gz
+[2023-07-10 17:37:41] INFO root fetch - processPackages [swh.storage]: Downloading https://files.pythonhosted.org/packages/2a/de/dfede4312a54f58ce0cacba3673579b46c45be36910fe4c346f85de2a969/swh.storage-1.8.0.tar.gz
+[2023-07-10 17:37:41] INFO root fetch - processPackages [hyperx]: Downloading https://files.pythonhosted.org/packages/c7/27/d9938d43465def883f4ed5b27b94690eee3561246dca04833cb34855469e/hyperx-0.1.1.tar.gz
+[2023-07-10 17:37:41] INFO root fetch - processPackages [tastytrade-sdk]: Downloading https://files.pythonhosted.org/packages/af/99/95439aaf228c524cc0939f97e6980159e9001d608a79266c666033aa0d69/tastytrade_sdk-0.1.4a0.dev9.tar.gz
+[2023-07-10 17:37:41] INFO root fetch - processPackages [wagtail-metrics]: Downloading https://files.pythonhosted.org/packages/67/ae/2e67dc21d18b99d2dd543d69568bfc0de7f7ae2b286ec4a6c17d84f3701a/wagtail_metrics-0.0.8.tar.gz
+[2023-07-10 17:37:41] INFO root fetch - processPackages [reps-new]: Downloading https://files.pythonhosted.org/packages/bd/ae/d75ebeaecc252446c75e6f7047a406271af867ac2780f84ac033788ef234/reps_new-0.3.2.tar.gz
+[2023-07-10 17:37:41] INFO root fetch - processPackages [secureli]: Downloading https://files.pythonhosted.org/packages/a5/9a/bbb50ebf92599594c801a0facf8760d12524c5ac70f1648191de1c66e5b4/secureli-0.6.6.tar.gz
+[2023-07-10 17:37:41] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/c2/50/e8bc281381664acfccb3779faaa05f3678b889a84ecd054d4c64433c19c8/iamlistening-1.0.0.tar.gz
+[2023-07-10 17:37:41] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-07-10 17:37:41] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.1.4a0.dev8.tar.gz tmp/tastytrade_sdk-0.1.4a0.dev9.tar.gz --markdown 20230710/t/tastytrade-sdk/0.1.4a0.dev8-0.1.4a0.dev9/diff.md --exclude *.pyd
+[2023-07-10 17:37:41] INFO root fetch - processPackages [ordotools]: Downloading https://files.pythonhosted.org/packages/01/db/6a489501f8c0e7ade876273a94a639d070a95fe91102e634e254e318bb3e/ordotools-0.0.9.tar.gz
+[2023-07-10 17:37:41] INFO root fetch - processPackages [pepperize.cdk-vpc]: Downloading https://files.pythonhosted.org/packages/e8/f1/d3bacab49ff19cf30ba787ffcbc7ad05fd05f663b5194429568885059996/pepperize.cdk-vpc-0.0.99.tar.gz
+[2023-07-10 17:37:41] INFO root fetch - processPackages [openhab-pythonrule-engine]: Downloading https://files.pythonhosted.org/packages/79/fd/6d29d252fc48ba368ae2f0447e2bbda0098ff9761b6a789d45ff966a0d64/openhab_pythonrule_engine-1.2.6.tar.gz
+[2023-07-10 17:37:41] INFO root fetch - processPackages [swh.storage]: Downloading https://files.pythonhosted.org/packages/96/d9/1ce230d5c980eab9071c640a60c695e7efad82145bb8f2662ef8678e7661/swh.storage-1.9.0.tar.gz
+[2023-07-10 17:37:41] INFO root fetch - processPackages [hyperx]: Downloading https://files.pythonhosted.org/packages/15/c4/5806ac836a4acaba211edb8b6342f4bad5d026d84d3ea9f5923afdb3c8d1/hyperx-0.1.2.tar.gz
+[2023-07-10 17:37:41] INFO root fetch - processPackages [reps-new]: executing diffoscope
+[2023-07-10 17:37:41] INFO root fetch - processPackages [reps-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reps_new-0.3.1.tar.gz tmp/reps_new-0.3.2.tar.gz --markdown 20230710/r/reps-new/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-10 17:37:41] INFO root fetch - processPackages [ordotools]: executing diffoscope
+[2023-07-10 17:37:41] INFO root fetch - processPackages [ordotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ordotools-0.0.6.tar.gz tmp/ordotools-0.0.9.tar.gz --markdown 20230710/o/ordotools/0.0.6-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 17:37:41] INFO root fetch - processPackages [secureli]: executing diffoscope
+[2023-07-10 17:37:41] INFO root fetch - processPackages [secureli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secureli-0.6.5.tar.gz tmp/secureli-0.6.6.tar.gz --markdown 20230710/s/secureli/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-07-10 17:37:41] INFO root fetch - processPackages [iamlistening]: executing diffoscope
+[2023-07-10 17:37:41] INFO root fetch - processPackages [iamlistening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iamlistening-0.2.8.tar.gz tmp/iamlistening-1.0.0.tar.gz --markdown 20230710/i/iamlistening/0.2.8-1.0.0/diff.md --exclude *.pyd
+[2023-07-10 17:37:41] INFO root fetch - processPackages [pepperize.cdk-vpc]: executing diffoscope
+[2023-07-10 17:37:41] INFO root fetch - processPackages [pepperize.cdk-vpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-vpc-0.0.98.tar.gz tmp/pepperize.cdk-vpc-0.0.99.tar.gz --markdown 20230710/p/pepperize.cdk-vpc/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-10 17:37:42] INFO root fetch - processPackages [wagtail-metrics]: Downloading https://files.pythonhosted.org/packages/43/d6/bfdcd66731449af8c312bfc42d44efed1b95714ea918e946172dfcc9d52b/wagtail_metrics-0.0.9.tar.gz
+[2023-07-10 17:37:42] INFO root fetch - processPackages [openhab-pythonrule-engine]: executing diffoscope
+[2023-07-10 17:37:42] INFO root fetch - processPackages [openhab-pythonrule-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openhab_pythonrule_engine-1.2.5.tar.gz tmp/openhab_pythonrule_engine-1.2.6.tar.gz --markdown 20230710/o/openhab-pythonrule-engine/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-07-10 17:37:42] INFO root fetch - processPackages [hyperx]: executing diffoscope
+[2023-07-10 17:37:42] INFO root fetch - processPackages [hyperx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperx-0.1.1.tar.gz tmp/hyperx-0.1.2.tar.gz --markdown 20230710/h/hyperx/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-10 17:37:42] INFO root fetch - processPackages [swh.storage]: executing diffoscope
+[2023-07-10 17:37:42] INFO root fetch - processPackages [swh.storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh.storage-1.8.0.tar.gz tmp/swh.storage-1.9.0.tar.gz --markdown 20230710/s/swh.storage/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-10 17:37:42] INFO root fetch - processPackages [wagtail-metrics]: executing diffoscope
+[2023-07-10 17:37:42] INFO root fetch - processPackages [wagtail-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_metrics-0.0.8.tar.gz tmp/wagtail_metrics-0.0.9.tar.gz --markdown 20230710/w/wagtail-metrics/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 17:37:43] INFO root fetch - processPackages [tastytrade-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tastytrade_sdk-0.1.4a0.dev8.tar.gz]
+[2023-07-10 17:37:43] INFO root fetch - processPackages [tastytrade-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tastytrade_sdk-0.1.4a0.dev9.tar.gz]
+[2023-07-10 17:37:43] INFO root fetch - processPackages [tastytrade-sdk]: Start processing: lnschema_bionty
+[2023-07-10 17:37:43] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-07-10 17:37:43] INFO root fetch - processPackages [lnschema_bionty]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-10 17:37:43] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-0.2.8.tar.gz]
+[2023-07-10 17:37:43] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-1.0.0.tar.gz]
+[2023-07-10 17:37:43] INFO root fetch - processPackages [iamlistening]: Start processing: dela
+[2023-07-10 17:37:43] INFO root fetch - main [MainThread]: End processing [iamlistening]: success
+[2023-07-10 17:37:43] INFO root fetch - processPackages [dela]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-10 17:37:43] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/12/bb/32a1cbaa73ee4f038a3540bbbf0b3d7e27f22edcdbd7d7c80667fef68afd/lnschema_bionty-0.8.1.tar.gz
+[2023-07-10 17:37:43] INFO root fetch - processPackages [ordotools]: Remove: archive file [/home/abi/fetcher/tmp/ordotools-0.0.6.tar.gz]
+[2023-07-10 17:37:43] INFO root fetch - processPackages [ordotools]: Remove: archive file [/home/abi/fetcher/tmp/ordotools-0.0.9.tar.gz]
+[2023-07-10 17:37:43] INFO root fetch - processPackages [ordotools]: Start processing: connect-eaas-core
+[2023-07-10 17:37:43] INFO root fetch - main [MainThread]: End processing [ordotools]: success
+[2023-07-10 17:37:43] INFO root fetch - processPackages [reps-new]: Remove: archive file [/home/abi/fetcher/tmp/reps_new-0.3.1.tar.gz]
+[2023-07-10 17:37:43] INFO root fetch - processPackages [reps-new]: Remove: archive file [/home/abi/fetcher/tmp/reps_new-0.3.2.tar.gz]
+[2023-07-10 17:37:43] INFO root fetch - processPackages [reps-new]: Start processing: cloudshell-cp-vcenter
+[2023-07-10 17:37:43] INFO root fetch - main [MainThread]: End processing [reps-new]: success
+[2023-07-10 17:37:43] INFO root fetch - processPackages [openhab-pythonrule-engine]: Remove: archive file [/home/abi/fetcher/tmp/openhab_pythonrule_engine-1.2.5.tar.gz]
+[2023-07-10 17:37:43] INFO root fetch - processPackages [openhab-pythonrule-engine]: Remove: archive file [/home/abi/fetcher/tmp/openhab_pythonrule_engine-1.2.6.tar.gz]
+[2023-07-10 17:37:43] INFO root fetch - processPackages [openhab-pythonrule-engine]: Start processing: discovery-core
+[2023-07-10 17:37:43] INFO root fetch - main [MainThread]: End processing [openhab-pythonrule-engine]: success
+[2023-07-10 17:37:43] INFO root fetch - processPackages [cloudshell-cp-vcenter]: New version: [5.0.5] Old Version: [5.0.4]
+[2023-07-10 17:37:43] INFO root fetch - processPackages [dela]: Downloading https://files.pythonhosted.org/packages/41/74/790df69daca4619f9e8007e0405a963f17096de66a49c99c7c4a953e742c/dela-0.1.0.tar.gz
+[2023-07-10 17:37:43] WARNING root fetch - processPackages [discovery-core]: Skipping, unable to determine old version
+[2023-07-10 17:37:43] INFO root fetch - processPackages [discovery-core]: Start processing: node-distance
+[2023-07-10 17:37:43] INFO root fetch - main [MainThread]: End processing [discovery-core] error
+[2023-07-10 17:37:43] INFO root fetch - processPackages [connect-eaas-core]: New version: [4.1.0] Old Version: [4.0.0]
+[2023-07-10 17:37:43] INFO root fetch - processPackages [hyperx]: Remove: archive file [/home/abi/fetcher/tmp/hyperx-0.1.1.tar.gz]
+[2023-07-10 17:37:43] INFO root fetch - processPackages [hyperx]: Remove: archive file [/home/abi/fetcher/tmp/hyperx-0.1.2.tar.gz]
+[2023-07-10 17:37:43] INFO root fetch - processPackages [hyperx]: Start processing: pyCSM
+[2023-07-10 17:37:43] INFO root fetch - main [MainThread]: End processing [hyperx]: success
+[2023-07-10 17:37:43] INFO root fetch - processPackages [pepperize.cdk-vpc]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-vpc-0.0.98.tar.gz]
+[2023-07-10 17:37:43] INFO root fetch - processPackages [pepperize.cdk-vpc]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-vpc-0.0.99.tar.gz]
+[2023-07-10 17:37:43] INFO root fetch - processPackages [pepperize.cdk-vpc]: Start processing: jnt-django-admin-tools
+[2023-07-10 17:37:43] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-vpc]: success
+[2023-07-10 17:37:43] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/ed/64/d2babdba858b56f5825e7ac3e2d375cf42dcf278f3c6ad9daf179e40b556/lnschema_bionty-0.9.0.tar.gz
+[2023-07-10 17:37:43] INFO root fetch - processPackages [node-distance]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-10 17:37:43] INFO root fetch - processPackages [wagtail-metrics]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_metrics-0.0.8.tar.gz]
+[2023-07-10 17:37:43] INFO root fetch - processPackages [wagtail-metrics]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_metrics-0.0.9.tar.gz]
+[2023-07-10 17:37:43] INFO root fetch - processPackages [wagtail-metrics]: Start processing: moosez
+[2023-07-10 17:37:43] INFO root fetch - main [MainThread]: End processing [wagtail-metrics]: success
+[2023-07-10 17:37:43] INFO root fetch - processPackages [secureli]: Remove: archive file [/home/abi/fetcher/tmp/secureli-0.6.5.tar.gz]
+[2023-07-10 17:37:43] INFO root fetch - processPackages [secureli]: Remove: archive file [/home/abi/fetcher/tmp/secureli-0.6.6.tar.gz]
+[2023-07-10 17:37:43] INFO root fetch - processPackages [secureli]: Start processing: mm-sdk
+[2023-07-10 17:37:43] INFO root fetch - main [MainThread]: End processing [secureli]: success
+[2023-07-10 17:37:43] INFO root fetch - processPackages [pyCSM]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-10 17:37:43] INFO root fetch - processPackages [cloudshell-cp-vcenter]: Downloading https://files.pythonhosted.org/packages/57/1e/d096b8441c74c629c108b14dd7d536bd2f108312e5650503d7468ef74328/cloudshell-cp-vcenter-5.0.4.tar.gz
+[2023-07-10 17:37:44] INFO root fetch - processPackages [jnt-django-admin-tools]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-10 17:37:44] INFO root fetch - processPackages [moosez]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-10 17:37:44] INFO root fetch - processPackages [lnschema_bionty]: executing diffoscope
+[2023-07-10 17:37:44] INFO root fetch - processPackages [lnschema_bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_bionty-0.8.1.tar.gz tmp/lnschema_bionty-0.9.0.tar.gz --markdown 20230710/l/lnschema_bionty/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-10 17:37:44] INFO root fetch - processPackages [connect-eaas-core]: Downloading https://files.pythonhosted.org/packages/cc/2b/dea815280942b1c045ca9eecfafffe56712d2b8c5e293241f99caf0d825c/connect-eaas-core-4.0.0.tar.gz
+[2023-07-10 17:37:44] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/c2/b9/9ba3e44254ad29decd7b08760b84b94f2989dea3bc65cac9ae71ea9f0357/moosez-2.1.8.tar.gz
+[2023-07-10 17:37:44] INFO root fetch - processPackages [mm-sdk]: New version: [0.1.3] Old Version: [0.1.288]
+[2023-07-10 17:37:44] INFO root fetch - processPackages [node-distance]: Downloading https://files.pythonhosted.org/packages/09/c7/ec72ce8e5cb3ddebc3f0e795a7528ed5d30f47b5090605f7fc8cb21ac3c9/node-distance-0.1.0.tar.gz
+[2023-07-10 17:37:44] INFO root fetch - processPackages [dela]: Downloading https://files.pythonhosted.org/packages/3f/54/8f632344d965c24cdac65ec6d180a1ad8dfebc198b4d93be231e79e28a6a/dela-0.1.1.tar.gz
+[2023-07-10 17:37:44] INFO root fetch - processPackages [pyCSM]: Downloading https://files.pythonhosted.org/packages/c5/fc/55aeb02f2dd8b6a4924856d08a0a4f4c0b96c6d5135999af1750f9c5421a/pyCSM-1.0.2.tar.gz
+[2023-07-10 17:37:44] INFO root fetch - processPackages [mm-sdk]: Downloading https://files.pythonhosted.org/packages/f2/6f/e868e4e5963ef897f66c6e6ddbf85026008f2eb73dcf0dcee9459b12d7c3/mm_sdk-0.1.288.tar.gz
+[2023-07-10 17:37:44] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/56/ac/bc6012faf269fbaf5537a960e128eda0094dce0864f52bcb84ea8826d3cf/moosez-2.1.9.tar.gz
+[2023-07-10 17:37:44] INFO root fetch - processPackages [cloudshell-cp-vcenter]: Downloading https://files.pythonhosted.org/packages/dd/41/39a684a37e4c3ff7f833b9332ac07d05655066dd40b0d5a8b511aa2945be/cloudshell-cp-vcenter-5.0.5.tar.gz
+[2023-07-10 17:37:44] INFO root fetch - processPackages [jnt-django-admin-tools]: Downloading https://files.pythonhosted.org/packages/fe/6b/b3063a4bb824d4ebe91cc69ca6a29126b8ee3e65e124b4a3226ec325534a/jnt-django-admin-tools-0.9.8.tar.gz
+[2023-07-10 17:37:44] INFO root fetch - processPackages [dela]: executing diffoscope
+[2023-07-10 17:37:44] INFO root fetch - processPackages [dela]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dela-0.1.0.tar.gz tmp/dela-0.1.1.tar.gz --markdown 20230710/d/dela/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-10 17:37:44] INFO root fetch - processPackages [moosez]: executing diffoscope
+[2023-07-10 17:37:44] INFO root fetch - processPackages [moosez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moosez-2.1.8.tar.gz tmp/moosez-2.1.9.tar.gz --markdown 20230710/m/moosez/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-10 17:37:44] INFO root fetch - processPackages [connect-eaas-core]: Downloading https://files.pythonhosted.org/packages/b8/0e/223cf7857305fa1f3a5dd5f98ef3ffefc0eabf78b1d8512dc021aac41705/connect-eaas-core-4.1.0.tar.gz
+[2023-07-10 17:37:44] INFO root fetch - processPackages [node-distance]: Downloading https://files.pythonhosted.org/packages/eb/a0/938ff1c9efba446fe32648a6540afab950bcf9f200498d0c11877b05c1c9/node-distance-0.2.0.tar.gz
+[2023-07-10 17:37:44] INFO root fetch - processPackages [cloudshell-cp-vcenter]: executing diffoscope
+[2023-07-10 17:37:44] INFO root fetch - processPackages [cloudshell-cp-vcenter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudshell-cp-vcenter-5.0.4.tar.gz tmp/cloudshell-cp-vcenter-5.0.5.tar.gz --markdown 20230710/c/cloudshell-cp-vcenter/5.0.4-5.0.5/diff.md --exclude *.pyd
+[2023-07-10 17:37:44] INFO root fetch - processPackages [pyCSM]: Downloading https://files.pythonhosted.org/packages/d9/30/da2d034e331f650723591294cba04f199d074b0e98d6ca0609c1ea87f84f/pyCSM-1.0.3.tar.gz
+[2023-07-10 17:37:44] INFO root fetch - processPackages [connect-eaas-core]: executing diffoscope
+[2023-07-10 17:37:44] INFO root fetch - processPackages [connect-eaas-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connect-eaas-core-4.0.0.tar.gz tmp/connect-eaas-core-4.1.0.tar.gz --markdown 20230710/c/connect-eaas-core/4.0.0-4.1.0/diff.md --exclude *.pyd
+[2023-07-10 17:37:44] INFO root fetch - processPackages [node-distance]: executing diffoscope
+[2023-07-10 17:37:44] INFO root fetch - processPackages [node-distance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/node-distance-0.1.0.tar.gz tmp/node-distance-0.2.0.tar.gz --markdown 20230710/n/node-distance/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-10 17:37:44] INFO root fetch - processPackages [mm-sdk]: Downloading https://files.pythonhosted.org/packages/03/aa/d8c272285a7704066ac4561b833b5144e76c812479a75a91e1eff3bc24af/mm-sdk-0.1.3.tar.gz
+[2023-07-10 17:37:44] INFO root fetch - processPackages [jnt-django-admin-tools]: Downloading https://files.pythonhosted.org/packages/4a/8d/8e85ee009bdc218cfc4fd6b6e009852d5ac3c4e5ec6b7a1b22fc185c7451/jnt-django-admin-tools-0.9.9.tar.gz
+[2023-07-10 17:37:44] INFO root fetch - processPackages [pyCSM]: executing diffoscope
+[2023-07-10 17:37:44] INFO root fetch - processPackages [pyCSM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyCSM-1.0.2.tar.gz tmp/pyCSM-1.0.3.tar.gz --markdown 20230710/p/pyCSM/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-10 17:37:45] INFO root fetch - processPackages [mm-sdk]: executing diffoscope
+[2023-07-10 17:37:45] INFO root fetch - processPackages [mm-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mm_sdk-0.1.288.tar.gz tmp/mm-sdk-0.1.3.tar.gz --markdown 20230710/m/mm-sdk/0.1.288-0.1.3/diff.md --exclude *.pyd
+[2023-07-10 17:37:45] INFO root fetch - processPackages [jnt-django-admin-tools]: executing diffoscope
+[2023-07-10 17:37:45] INFO root fetch - processPackages [jnt-django-admin-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jnt-django-admin-tools-0.9.8.tar.gz tmp/jnt-django-admin-tools-0.9.9.tar.gz --markdown 20230710/j/jnt-django-admin-tools/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-10 17:37:45] INFO root fetch - processPackages [lnschema_bionty]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_bionty-0.8.1.tar.gz]
+[2023-07-10 17:37:45] INFO root fetch - processPackages [lnschema_bionty]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_bionty-0.9.0.tar.gz]
+[2023-07-10 17:37:45] INFO root fetch - processPackages [lnschema_bionty]: Start processing: discovery-capability
+[2023-07-10 17:37:45] INFO root fetch - main [MainThread]: End processing [lnschema_bionty]: success
+[2023-07-10 17:37:45] WARNING root fetch - processPackages [discovery-capability]: Skipping, unable to determine old version
+[2023-07-10 17:37:45] INFO root fetch - main [MainThread]: End processing [discovery-capability] error
+[2023-07-10 17:37:45] INFO root fetch - processPackages [swh.storage]: Remove: archive file [/home/abi/fetcher/tmp/swh.storage-1.8.0.tar.gz]
+[2023-07-10 17:37:45] INFO root fetch - processPackages [swh.storage]: Remove: archive file [/home/abi/fetcher/tmp/swh.storage-1.9.0.tar.gz]
+[2023-07-10 17:37:45] INFO root fetch - main [MainThread]: End processing [swh.storage]: success
+[2023-07-10 17:37:45] INFO root fetch - processPackages [dela]: Remove: archive file [/home/abi/fetcher/tmp/dela-0.1.0.tar.gz]
+[2023-07-10 17:37:45] INFO root fetch - processPackages [dela]: Remove: archive file [/home/abi/fetcher/tmp/dela-0.1.1.tar.gz]
+[2023-07-10 17:37:45] INFO root fetch - main [MainThread]: End processing [dela]: success
+[2023-07-10 17:37:45] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.1.8.tar.gz]
+[2023-07-10 17:37:45] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.1.9.tar.gz]
+[2023-07-10 17:37:45] INFO root fetch - main [MainThread]: End processing [moosez]: success
+[2023-07-10 17:37:46] INFO root fetch - processPackages [connect-eaas-core]: Remove: archive file [/home/abi/fetcher/tmp/connect-eaas-core-4.0.0.tar.gz]
+[2023-07-10 17:37:46] INFO root fetch - processPackages [connect-eaas-core]: Remove: archive file [/home/abi/fetcher/tmp/connect-eaas-core-4.1.0.tar.gz]
+[2023-07-10 17:37:46] INFO root fetch - main [MainThread]: End processing [connect-eaas-core]: success
+[2023-07-10 17:37:46] INFO root fetch - processPackages [node-distance]: Remove: archive file [/home/abi/fetcher/tmp/node-distance-0.1.0.tar.gz]
+[2023-07-10 17:37:46] INFO root fetch - processPackages [node-distance]: Remove: archive file [/home/abi/fetcher/tmp/node-distance-0.2.0.tar.gz]
+[2023-07-10 17:37:46] INFO root fetch - main [MainThread]: End processing [node-distance]: success
+[2023-07-10 17:37:46] INFO root fetch - processPackages [pyCSM]: Remove: archive file [/home/abi/fetcher/tmp/pyCSM-1.0.2.tar.gz]
+[2023-07-10 17:37:46] INFO root fetch - processPackages [pyCSM]: Remove: archive file [/home/abi/fetcher/tmp/pyCSM-1.0.3.tar.gz]
+[2023-07-10 17:37:46] INFO root fetch - main [MainThread]: End processing [pyCSM]: success
+[2023-07-10 17:37:46] INFO root fetch - processPackages [mm-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mm_sdk-0.1.288.tar.gz]
+[2023-07-10 17:37:46] INFO root fetch - processPackages [mm-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mm-sdk-0.1.3.tar.gz]
+[2023-07-10 17:37:46] INFO root fetch - main [MainThread]: End processing [mm-sdk]: success
+[2023-07-10 17:37:46] INFO root fetch - processPackages [cloudshell-cp-vcenter]: Remove: archive file [/home/abi/fetcher/tmp/cloudshell-cp-vcenter-5.0.4.tar.gz]
+[2023-07-10 17:37:46] INFO root fetch - processPackages [cloudshell-cp-vcenter]: Remove: archive file [/home/abi/fetcher/tmp/cloudshell-cp-vcenter-5.0.5.tar.gz]
+[2023-07-10 17:37:46] INFO root fetch - main [MainThread]: End processing [cloudshell-cp-vcenter]: success
+[2023-07-10 17:37:46] INFO root fetch - processPackages [jnt-django-admin-tools]: Remove: archive file [/home/abi/fetcher/tmp/jnt-django-admin-tools-0.9.8.tar.gz]
+[2023-07-10 17:37:46] INFO root fetch - processPackages [jnt-django-admin-tools]: Remove: archive file [/home/abi/fetcher/tmp/jnt-django-admin-tools-0.9.9.tar.gz]
+[2023-07-10 17:37:46] INFO root fetch - main [MainThread]: End processing [jnt-django-admin-tools]: success
+[2023-07-10 17:37:46] INFO root fetch - main [MainThread]: Store serial: [18832878]
