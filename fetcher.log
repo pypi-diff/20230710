@@ -15697,3 +15697,123 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 13:20:31] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230710.125126.tar.gz]
 [2023-07-10 13:20:31] INFO root fetch - main [MainThread]: End processing [returnn]: success
 [2023-07-10 13:20:31] INFO root fetch - main [MainThread]: Store serial: [18829894]
+[2023-07-10 13:25:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18829894]
+[2023-07-10 13:25:40] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-10 13:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pipeline-ai
+[2023-07-10 13:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yet-another-wizz-cli
+[2023-07-10 13:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odd-dbt
+[2023-07-10 13:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: causalgraph
+[2023-07-10 13:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flwr-custom
+[2023-07-10 13:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-azure
+[2023-07-10 13:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pycatsearch
+[2023-07-10 13:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scikit-map
+[2023-07-10 13:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fastMONAI
+[2023-07-10 13:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: AidlabSDK
+[2023-07-10 13:25:41] WARNING root fetch - processPackages [yet-another-wizz-cli]: Skipping, unable to determine old version
+[2023-07-10 13:25:41] INFO root fetch - processPackages [yet-another-wizz-cli]: Start processing: tb-nightly
+[2023-07-10 13:25:41] INFO root fetch - main [MainThread]: End processing [yet-another-wizz-cli] error
+[2023-07-10 13:25:41] INFO root fetch - processPackages [causalgraph]: New version: [0.1.0] Old Version: [0.0.6]
+[2023-07-10 13:25:41] INFO root fetch - processPackages [odd-dbt]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-10 13:25:41] INFO root fetch - processPackages [AidlabSDK]: New version: [1.3.28] Old Version: [1.3.27]
+[2023-07-10 13:25:41] INFO root fetch - processPackages [pulumi-azure]: New version: [5.9.0a1654522381] Old Version: [5.9.0a1654274095]
+[2023-07-10 13:25:41] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-07-10 13:25:41] WARNING root fetch - processPackages [scikit-map]: Skipping, unable to determine old version
+[2023-07-10 13:25:41] INFO root fetch - processPackages [scikit-map]: Start processing: statstests
+[2023-07-10 13:25:41] INFO root fetch - main [MainThread]: End processing [scikit-map] error
+[2023-07-10 13:25:41] WARNING root fetch - processPackages [flwr-custom]: Skipping, unable to determine old version
+[2023-07-10 13:25:41] INFO root fetch - processPackages [flwr-custom]: Start processing: torchtnt-nightly
+[2023-07-10 13:25:41] INFO root fetch - main [MainThread]: End processing [flwr-custom] error
+[2023-07-10 13:25:41] INFO root fetch - processPackages [fastMONAI]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-10 13:25:41] INFO root fetch - processPackages [pycatsearch]: New version: [5.1.9.2] Old Version: [5.1.8]
+[2023-07-10 13:25:41] INFO root fetch - processPackages [pipeline-ai]: New version: [0.5.0b9] Old Version: [0.5.0b8]
+[2023-07-10 13:25:41] INFO root fetch - processPackages [statstests]: New version: [1.0.5.dev3] Old Version: [1.0.4]
+[2023-07-10 13:25:41] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-10 13:25:41] INFO root fetch - processPackages [odd-dbt]: Downloading https://files.pythonhosted.org/packages/b7/77/67690ce5b1e290b99a44b98cc3db13869c03435faaa81822b620ed66a2cd/odd_dbt-0.1.8.tar.gz
+[2023-07-10 13:25:41] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-07-10 13:25:41] INFO root fetch - processPackages [causalgraph]: Downloading https://files.pythonhosted.org/packages/c8/ce/cc2c51503ddeb9401ed4b0063868d9f9bd0cd3770576051384c0aaa487f7/causalgraph-0.0.6.tar.gz
+[2023-07-10 13:25:41] INFO root fetch - processPackages [AidlabSDK]: Downloading https://files.pythonhosted.org/packages/14/01/f6f1a8587a8e1ca38d265278c438c02ac428f32aaf95d4b41e5db53b8a88/AidlabSDK-1.3.27.tar.gz
+[2023-07-10 13:25:41] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/47/a5/6e0ce29c38b55188a4ab6ec32c5f4908ef7a19908d233cb0c077fcc21462/torchtnt-nightly-2023.7.8.tar.gz
+[2023-07-10 13:25:41] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/95/6d/184badcdda1d8846e82c25063e340f60ddbf5b018a98c303e4bb5aa0a6ff/pulumi_azure-5.9.0a1654274095.tar.gz
+[2023-07-10 13:25:41] INFO root fetch - processPackages [pycatsearch]: Downloading https://files.pythonhosted.org/packages/b2/94/80d10b88b271acc0eaf5ef789d9d2880a8eb3c5d5de7222016dbe8a58738/pycatsearch-5.1.8.tar.gz
+[2023-07-10 13:25:41] INFO root fetch - processPackages [fastMONAI]: Downloading https://files.pythonhosted.org/packages/53/9a/211a637708c583466403fb02e2d773d8425b0869b6b12acc0165d6d24550/fastMONAI-0.3.0.tar.gz
+[2023-07-10 13:25:41] INFO root fetch - processPackages [pipeline-ai]: Downloading https://files.pythonhosted.org/packages/45/84/69fb620c6f6b3f06697d71d86fa7f79d152166acbaff211bb451a9c093d9/pipeline_ai-0.5.0b8.tar.gz
+[2023-07-10 13:25:41] INFO root fetch - processPackages [statstests]: Downloading https://files.pythonhosted.org/packages/71/ec/7f613bf12f20c97b418ced2266265d0645fa27ea3c7d7c90234f7f8a099a/statstests-1.0.4-py3-none-any.whl
+[2023-07-10 13:25:41] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-07-10 13:25:41] INFO root fetch - processPackages [causalgraph]: Downloading https://files.pythonhosted.org/packages/2f/6d/9d8cae71a882fd7375031e450df04163810bff986c2513ee95b343a9c45c/causalgraph-0.1.0.tar.gz
+[2023-07-10 13:25:42] INFO root fetch - processPackages [odd-dbt]: Downloading https://files.pythonhosted.org/packages/76/80/81cebf15f3ce39f89419c1c84befe62cab623b6f95a7b4808ef81c967e1b/odd_dbt-0.1.9.tar.gz
+[2023-07-10 13:25:42] INFO root fetch - processPackages [AidlabSDK]: Downloading https://files.pythonhosted.org/packages/16/ab/856132e26ea7bc100459e879b735e63eeb388d0f4d4179d10148213414f4/AidlabSDK-1.3.28.tar.gz
+[2023-07-10 13:25:42] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/ae/7f/589eb3c0712725a4a9594bdbc4229b9087a94038117bda63c54ef6d2e7e5/torchtnt-nightly-2023.7.9.tar.gz
+[2023-07-10 13:25:42] INFO root fetch - processPackages [pycatsearch]: Downloading https://files.pythonhosted.org/packages/f6/51/efb3c4c7e644df5f1446f46d63cfc5abc8c5ea789b0f5b037bab2e6e66c6/pycatsearch-5.1.9.2.tar.gz
+[2023-07-10 13:25:42] INFO root fetch - processPackages [pipeline-ai]: Downloading https://files.pythonhosted.org/packages/b7/28/822a6cc9e70825b5c051ab9bf029b954982ed00aa6b036349995dcf4c5fa/pipeline_ai-0.5.0b9.tar.gz
+[2023-07-10 13:25:42] INFO root fetch - processPackages [fastMONAI]: Downloading https://files.pythonhosted.org/packages/80/05/5f18be66e364bb02884a46ba4e38305dbe52467876e8a40da973b7b4b279/fastMONAI-0.3.1.tar.gz
+[2023-07-10 13:25:42] INFO root fetch - processPackages [odd-dbt]: executing diffoscope
+[2023-07-10 13:25:42] INFO root fetch - processPackages [odd-dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odd_dbt-0.1.8.tar.gz tmp/odd_dbt-0.1.9.tar.gz --markdown 20230710/o/odd-dbt/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-10 13:25:42] INFO root fetch - processPackages [statstests]: Downloading https://files.pythonhosted.org/packages/b8/31/c8d04b6d4ab7a3fe4227961112f4c98676a398dac859aceb11e3efac1dac/statstests-1.0.5.dev3-py3-none-any.whl
+[2023-07-10 13:25:42] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-07-10 13:25:42] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.7.8.tar.gz tmp/torchtnt-nightly-2023.7.9.tar.gz --markdown 20230710/t/torchtnt-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-10 13:25:42] INFO root fetch - processPackages [pycatsearch]: executing diffoscope
+[2023-07-10 13:25:42] INFO root fetch - processPackages [pycatsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycatsearch-5.1.8.tar.gz tmp/pycatsearch-5.1.9.2.tar.gz --markdown 20230710/p/pycatsearch/5.1.8-5.1.9.2/diff.md --exclude *.pyd
+[2023-07-10 13:25:42] INFO root fetch - processPackages [causalgraph]: executing diffoscope
+[2023-07-10 13:25:42] INFO root fetch - processPackages [causalgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/causalgraph-0.0.6.tar.gz tmp/causalgraph-0.1.0.tar.gz --markdown 20230710/c/causalgraph/0.0.6-0.1.0/diff.md --exclude *.pyd
+[2023-07-10 13:25:42] INFO root fetch - processPackages [AidlabSDK]: executing diffoscope
+[2023-07-10 13:25:42] INFO root fetch - processPackages [AidlabSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AidlabSDK-1.3.27.tar.gz tmp/AidlabSDK-1.3.28.tar.gz --markdown 20230710/A/AidlabSDK/1.3.27-1.3.28/diff.md --exclude *.pyd
+[2023-07-10 13:25:42] INFO root fetch - processPackages [fastMONAI]: executing diffoscope
+[2023-07-10 13:25:42] INFO root fetch - processPackages [fastMONAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastMONAI-0.3.0.tar.gz tmp/fastMONAI-0.3.1.tar.gz --markdown 20230710/f/fastMONAI/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-10 13:25:42] INFO root fetch - processPackages [pipeline-ai]: executing diffoscope
+[2023-07-10 13:25:42] INFO root fetch - processPackages [pipeline-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline_ai-0.5.0b8.tar.gz tmp/pipeline_ai-0.5.0b9.tar.gz --markdown 20230710/p/pipeline-ai/0.5.0b8-0.5.0b9/diff.md --exclude *.pyd
+[2023-07-10 13:25:42] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-07-10 13:25:42] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230710/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-07-10 13:25:42] INFO root fetch - processPackages [statstests]: executing diffoscope
+[2023-07-10 13:25:42] INFO root fetch - processPackages [statstests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statstests-1.0.4-py3-none-any.whl.zip tmp/statstests-1.0.5.dev3-py3-none-any.whl.zip --markdown 20230710/s/statstests/1.0.4-1.0.5.dev3/diff.md --exclude *.pyd
+[2023-07-10 13:25:42] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/19/1b/87a51c6988d790ed8bfb430670a85c499af09d14d21430448a37baa7fb64/pulumi_azure-5.9.0a1654522381.tar.gz
+[2023-07-10 13:25:43] INFO root fetch - processPackages [pulumi-azure]: executing diffoscope
+[2023-07-10 13:25:43] INFO root fetch - processPackages [pulumi-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azure-5.9.0a1654274095.tar.gz tmp/pulumi_azure-5.9.0a1654522381.tar.gz --markdown 20230710/p/pulumi-azure/5.9.0a1654274095-5.9.0a1654522381/diff.md --exclude *.pyd
+[2023-07-10 13:25:43] INFO root fetch - processPackages [odd-dbt]: Remove: archive file [/home/abi/fetcher/tmp/odd_dbt-0.1.8.tar.gz]
+[2023-07-10 13:25:43] INFO root fetch - processPackages [odd-dbt]: Remove: archive file [/home/abi/fetcher/tmp/odd_dbt-0.1.9.tar.gz]
+[2023-07-10 13:25:43] INFO root fetch - processPackages [odd-dbt]: Start processing: hak
+[2023-07-10 13:25:43] INFO root fetch - main [MainThread]: End processing [odd-dbt]: success
+[2023-07-10 13:25:43] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 13:25:44] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/05/17/ad5ef91170b7c0e991a9c8bffa9f9a2dcf3961d5e90c31185bdf3ce8f425/hak-0.0.8.tar.gz
+[2023-07-10 13:25:44] INFO root fetch - processPackages [statstests]: Remove: archive file [/home/abi/fetcher/tmp/statstests-1.0.4-py3-none-any.whl.zip]
+[2023-07-10 13:25:44] INFO root fetch - processPackages [statstests]: Remove: archive file [/home/abi/fetcher/tmp/statstests-1.0.5.dev3-py3-none-any.whl.zip]
+[2023-07-10 13:25:44] INFO root fetch - processPackages [statstests]: Start processing: torchrl-nightly
+[2023-07-10 13:25:44] INFO root fetch - main [MainThread]: End processing [statstests]: success
+[2023-07-10 13:25:44] INFO root fetch - processPackages [fastMONAI]: Remove: archive file [/home/abi/fetcher/tmp/fastMONAI-0.3.0.tar.gz]
+[2023-07-10 13:25:44] INFO root fetch - processPackages [fastMONAI]: Remove: archive file [/home/abi/fetcher/tmp/fastMONAI-0.3.1.tar.gz]
+[2023-07-10 13:25:44] INFO root fetch - main [MainThread]: End processing [fastMONAI]: success
+[2023-07-10 13:25:44] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.7.8.tar.gz]
+[2023-07-10 13:25:44] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.7.9.tar.gz]
+[2023-07-10 13:25:44] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-07-10 13:25:44] INFO root fetch - processPackages [torchrl-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-10 13:25:44] INFO root fetch - processPackages [pycatsearch]: Remove: archive file [/home/abi/fetcher/tmp/pycatsearch-5.1.8.tar.gz]
+[2023-07-10 13:25:44] INFO root fetch - processPackages [pycatsearch]: Remove: archive file [/home/abi/fetcher/tmp/pycatsearch-5.1.9.2.tar.gz]
+[2023-07-10 13:25:44] INFO root fetch - main [MainThread]: End processing [pycatsearch]: success
+[2023-07-10 13:25:44] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/fd/2b/bf7b3451d5e3a84e9a674b47e9f046c4db1f582764a85a4dfc00e14ecf00/hak-0.0.9.tar.gz
+[2023-07-10 13:25:44] INFO root fetch - processPackages [pipeline-ai]: Remove: archive file [/home/abi/fetcher/tmp/pipeline_ai-0.5.0b8.tar.gz]
+[2023-07-10 13:25:44] INFO root fetch - processPackages [pipeline-ai]: Remove: archive file [/home/abi/fetcher/tmp/pipeline_ai-0.5.0b9.tar.gz]
+[2023-07-10 13:25:44] INFO root fetch - main [MainThread]: End processing [pipeline-ai]: success
+[2023-07-10 13:25:44] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/38/33/59a88ceafbd8e349b7f261de4859c91912b883bd14249422d344f09ba9ed/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl
+[2023-07-10 13:25:44] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-07-10 13:25:44] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.8.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230710/h/hak/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 13:25:45] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/22/59/298ac6427c9497e554f2b3ba5d253603250fe69672e94a74affda6a5613c/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl
+[2023-07-10 13:25:45] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2023-07-10 13:25:45] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip --markdown 20230710/t/torchrl-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-10 13:25:45] INFO root fetch - processPackages [causalgraph]: Remove: archive file [/home/abi/fetcher/tmp/causalgraph-0.0.6.tar.gz]
+[2023-07-10 13:25:45] INFO root fetch - processPackages [causalgraph]: Remove: archive file [/home/abi/fetcher/tmp/causalgraph-0.1.0.tar.gz]
+[2023-07-10 13:25:45] INFO root fetch - main [MainThread]: End processing [causalgraph]: success
+[2023-07-10 13:25:46] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2023-07-10 13:25:46] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2023-07-10 13:25:46] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-07-10 13:25:46] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.8.tar.gz]
+[2023-07-10 13:25:46] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
+[2023-07-10 13:25:46] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-07-10 13:25:47] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip]
+[2023-07-10 13:25:47] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-10 13:25:47] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2023-07-10 13:25:49] INFO root fetch - processPackages [AidlabSDK]: Remove: archive file [/home/abi/fetcher/tmp/AidlabSDK-1.3.27.tar.gz]
+[2023-07-10 13:25:49] INFO root fetch - processPackages [AidlabSDK]: Remove: archive file [/home/abi/fetcher/tmp/AidlabSDK-1.3.28.tar.gz]
+[2023-07-10 13:25:49] INFO root fetch - main [MainThread]: End processing [AidlabSDK]: success
+[2023-07-10 13:25:57] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654274095.tar.gz]
+[2023-07-10 13:25:57] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
+[2023-07-10 13:25:57] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
+[2023-07-10 13:25:57] INFO root fetch - main [MainThread]: Store serial: [18829941]
