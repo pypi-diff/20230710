@@ -5836,3 +5836,60 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 04:45:12] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
 [2023-07-10 04:45:12] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
 [2023-07-10 04:45:12] INFO root fetch - main [MainThread]: Store serial: [18825867]
+[2023-07-10 04:50:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18825867]
+[2023-07-10 04:50:20] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-10 04:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quao
+[2023-07-10 04:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s-plus-25
+[2023-07-10 04:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cyberdrop-dl
+[2023-07-10 04:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airunner
+[2023-07-10 04:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: airball
+[2023-07-10 04:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hkfdb
+[2023-07-10 04:50:21] INFO root fetch - processPackages [airball]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-07-10 04:50:21] INFO root fetch - processPackages [quao]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-10 04:50:21] INFO root fetch - processPackages [airunner]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-07-10 04:50:21] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.8.9] Old Version: [2.8.80]
+[2023-07-10 04:50:21] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.99] Old Version: [4.2.98]
+[2023-07-10 04:50:21] INFO root fetch - processPackages [hkfdb]: New version: [3.7.3] Old Version: [3.7.2]
+[2023-07-10 04:50:21] INFO root fetch - processPackages [airunner]: Downloading https://files.pythonhosted.org/packages/0f/28/5d6eb195531dae307a9e84b7fe1e183dd82e76c124ecaaf38cb3ceac37a2/airunner-2.0.3.tar.gz
+[2023-07-10 04:50:21] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/1d/b4/2e165114355bde9d67b25d8ea660a949f1fde44348fe4ee07d485c22179a/cdk8s-plus-25-2.8.80.tar.gz
+[2023-07-10 04:50:21] INFO root fetch - processPackages [airball]: Downloading https://files.pythonhosted.org/packages/c0/3b/3d0d192cf689594762ca6e9cd99ee1648c75194982aab891f68de5065b25/airball-0.4.3.tar.gz
+[2023-07-10 04:50:21] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/00/a0/820dd62b9ef8233a40ce1fc9f928bae61cb1a92a54db8058c2910b1219f8/quao-0.2.8.tar.gz
+[2023-07-10 04:50:21] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/1b/f8/0bf0ba2d44c54577234ba97b219752bdc63f63c54eddb613647161b06c5e/cyberdrop-dl-4.2.98.tar.gz
+[2023-07-10 04:50:21] INFO root fetch - processPackages [hkfdb]: Downloading https://files.pythonhosted.org/packages/04/d8/14fb40f7bd33c9c986b12decbf03a09be5d928d1c95bcc3781ceba9047c3/hkfdb-3.7.2.tar.gz
+[2023-07-10 04:50:21] INFO root fetch - processPackages [airunner]: Downloading https://files.pythonhosted.org/packages/8f/f7/4e30406cd5555e123586ce80cdc6d73146c2c3666cb8a9f68f4f9cd4e953/airunner-2.0.4.tar.gz
+[2023-07-10 04:50:21] INFO root fetch - processPackages [airunner]: executing diffoscope
+[2023-07-10 04:50:21] INFO root fetch - processPackages [airunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airunner-2.0.3.tar.gz tmp/airunner-2.0.4.tar.gz --markdown 20230710/a/airunner/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-07-10 04:50:21] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/79/f6/d6bb21b3e8c3f61cefbc6cfb377c23ba65b57440ab1bd217fa176e0b9df7/cdk8s-plus-25-2.8.9.tar.gz
+[2023-07-10 04:50:21] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/71/09/bd8cda58d91a73371f9e83c0e98473af677f6309c58284adcb968c002aa8/quao-0.2.9.tar.gz
+[2023-07-10 04:50:22] INFO root fetch - processPackages [airball]: Downloading https://files.pythonhosted.org/packages/5b/86/6d67fdba380db79f877eca0d65a9281b6b96f4f19e07d30ee770d021c945/airball-0.4.4.tar.gz
+[2023-07-10 04:50:22] INFO root fetch - processPackages [hkfdb]: Downloading https://files.pythonhosted.org/packages/54/c3/11688685a89729cf8b0a89296127a9b4161994e4c638a1e256c97777af72/hkfdb-3.7.3.tar.gz
+[2023-07-10 04:50:22] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-07-10 04:50:22] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.8.80.tar.gz tmp/cdk8s-plus-25-2.8.9.tar.gz --markdown 20230710/c/cdk8s-plus-25/2.8.80-2.8.9/diff.md --exclude *.pyd
+[2023-07-10 04:50:22] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-07-10 04:50:22] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.2.8.tar.gz tmp/quao-0.2.9.tar.gz --markdown 20230710/q/quao/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-10 04:50:22] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/cb/85/1082dbce7699795fa0752358803e2c52dedd79d14d96d728d35eae76c69a/cyberdrop-dl-4.2.99.tar.gz
+[2023-07-10 04:50:22] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-07-10 04:50:22] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.98.tar.gz tmp/cyberdrop-dl-4.2.99.tar.gz --markdown 20230710/c/cyberdrop-dl/4.2.98-4.2.99/diff.md --exclude *.pyd
+[2023-07-10 04:50:22] INFO root fetch - processPackages [airball]: executing diffoscope
+[2023-07-10 04:50:22] INFO root fetch - processPackages [airball]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airball-0.4.3.tar.gz tmp/airball-0.4.4.tar.gz --markdown 20230710/a/airball/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-07-10 04:50:22] INFO root fetch - processPackages [hkfdb]: executing diffoscope
+[2023-07-10 04:50:22] INFO root fetch - processPackages [hkfdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkfdb-3.7.2.tar.gz tmp/hkfdb-3.7.3.tar.gz --markdown 20230710/h/hkfdb/3.7.2-3.7.3/diff.md --exclude *.pyd
+[2023-07-10 04:50:23] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.2.8.tar.gz]
+[2023-07-10 04:50:23] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.2.9.tar.gz]
+[2023-07-10 04:50:23] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-07-10 04:50:23] INFO root fetch - processPackages [airunner]: Remove: archive file [/home/abi/fetcher/tmp/airunner-2.0.3.tar.gz]
+[2023-07-10 04:50:23] INFO root fetch - processPackages [airunner]: Remove: archive file [/home/abi/fetcher/tmp/airunner-2.0.4.tar.gz]
+[2023-07-10 04:50:23] INFO root fetch - main [MainThread]: End processing [airunner]: success
+[2023-07-10 04:50:23] INFO root fetch - processPackages [hkfdb]: Remove: archive file [/home/abi/fetcher/tmp/hkfdb-3.7.2.tar.gz]
+[2023-07-10 04:50:23] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.80.tar.gz]
+[2023-07-10 04:50:23] INFO root fetch - processPackages [hkfdb]: Remove: archive file [/home/abi/fetcher/tmp/hkfdb-3.7.3.tar.gz]
+[2023-07-10 04:50:23] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.9.tar.gz]
+[2023-07-10 04:50:23] INFO root fetch - main [MainThread]: End processing [hkfdb]: success
+[2023-07-10 04:50:23] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-07-10 04:50:23] INFO root fetch - processPackages [airball]: Remove: archive file [/home/abi/fetcher/tmp/airball-0.4.3.tar.gz]
+[2023-07-10 04:50:23] INFO root fetch - processPackages [airball]: Remove: archive file [/home/abi/fetcher/tmp/airball-0.4.4.tar.gz]
+[2023-07-10 04:50:23] INFO root fetch - main [MainThread]: End processing [airball]: success
+[2023-07-10 04:50:23] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.98.tar.gz]
+[2023-07-10 04:50:23] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.99.tar.gz]
+[2023-07-10 04:50:23] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-07-10 04:50:23] INFO root fetch - main [MainThread]: Store serial: [18825885]
