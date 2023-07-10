@@ -5445,3 +5445,51 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 04:13:46] INFO root fetch - processPackages [radstar]: Remove: archive file [/home/abi/fetcher/tmp/radstar-0.12.3-py3-none-any.whl.zip]
 [2023-07-10 04:13:46] INFO root fetch - main [MainThread]: End processing [radstar]: success
 [2023-07-10 04:13:46] INFO root fetch - main [MainThread]: Store serial: [18825734]
+[2023-07-10 04:18:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18825734]
+[2023-07-10 04:18:55] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-10 04:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mitoinstaller
+[2023-07-10 04:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: azureml-evaluate-mlflow
+[2023-07-10 04:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: themis-imager-readfile
+[2023-07-10 04:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: animage-data-sorter
+[2023-07-10 04:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mitosheet3
+[2023-07-10 04:18:55] INFO root fetch - processPackages [themis-imager-readfile]: New version: [1.3.0] Old Version: [1.2.3]
+[2023-07-10 04:18:55] INFO root fetch - processPackages [azureml-evaluate-mlflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-10 04:18:55] INFO root fetch - processPackages [animage-data-sorter]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-10 04:18:55] INFO root fetch - processPackages [mitoinstaller]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-10 04:18:55] INFO root fetch - processPackages [mitoinstaller]: Downloading https://files.pythonhosted.org/packages/a9/cc/efea247a930bcdd3371e2847677b40c385cbf35a56d638639d1e8b121847/mitoinstaller-0.0.98.tar.gz
+[2023-07-10 04:18:55] INFO root fetch - processPackages [mitosheet3]: New version: [0.3.92] Old Version: [0.3.91]
+[2023-07-10 04:18:55] INFO root fetch - processPackages [azureml-evaluate-mlflow]: Downloading https://files.pythonhosted.org/packages/bf/82/f2b5cca48caac7cedb5d44dff46c9fbcc32c3cde13444bead6d5aacb0c43/azureml_evaluate_mlflow-0.0.8-py3-none-any.whl
+[2023-07-10 04:18:55] INFO root fetch - processPackages [themis-imager-readfile]: Downloading https://files.pythonhosted.org/packages/09/78/582cc2ebffdcb2f3bd928309775532d9a863901602ac19551b75d42df72b/themis_imager_readfile-1.2.3.tar.gz
+[2023-07-10 04:18:55] INFO root fetch - processPackages [animage-data-sorter]: Downloading https://files.pythonhosted.org/packages/d1/78/07d125892def3e671caefc1e54c3a9320b0f1bc5e7ab883f7f87c5635896/animage-data_sorter-1.1.3.tar.gz
+[2023-07-10 04:18:55] INFO root fetch - processPackages [mitosheet3]: Downloading https://files.pythonhosted.org/packages/6f/3c/6539541f7e98b9657a8e2532e70845cda53ecb7a601e5c97042db4d828bd/mitosheet3-0.3.91.tar.gz
+[2023-07-10 04:18:55] INFO root fetch - processPackages [mitoinstaller]: Downloading https://files.pythonhosted.org/packages/90/7c/46b1dcf5bb93cdb5baf1650e82750b20b76439dbb6550a8596d1d373443a/mitoinstaller-0.0.99.tar.gz
+[2023-07-10 04:18:56] INFO root fetch - processPackages [mitoinstaller]: executing diffoscope
+[2023-07-10 04:18:56] INFO root fetch - processPackages [mitoinstaller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitoinstaller-0.0.98.tar.gz tmp/mitoinstaller-0.0.99.tar.gz --markdown 20230710/m/mitoinstaller/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-10 04:18:56] INFO root fetch - processPackages [themis-imager-readfile]: Downloading https://files.pythonhosted.org/packages/ee/6f/080e7a012b0caca9ce210f205e42a3f822f9b0f753c7250307ae73cdfe85/themis_imager_readfile-1.3.0.tar.gz
+[2023-07-10 04:18:56] INFO root fetch - processPackages [animage-data-sorter]: Downloading https://files.pythonhosted.org/packages/e0/af/2fb47948de6162b88b540bd99bd9a3f1dcacab69627d8863e82be79d25fb/animage-data_sorter-1.1.4.tar.gz
+[2023-07-10 04:18:56] INFO root fetch - processPackages [azureml-evaluate-mlflow]: Downloading https://files.pythonhosted.org/packages/b8/d5/37e5123c1308f4fb41e069c8fe225331772b429781cd0e55a35c8a932e20/azureml_evaluate_mlflow-0.0.9-py3-none-any.whl
+[2023-07-10 04:18:56] INFO root fetch - processPackages [mitosheet3]: Downloading https://files.pythonhosted.org/packages/40/75/fd3d6e8ade06ccff505fe1fdb297fcc61956799b01527fb587f77f52ef6f/mitosheet3-0.3.92.tar.gz
+[2023-07-10 04:18:56] INFO root fetch - processPackages [themis-imager-readfile]: executing diffoscope
+[2023-07-10 04:18:56] INFO root fetch - processPackages [themis-imager-readfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/themis_imager_readfile-1.2.3.tar.gz tmp/themis_imager_readfile-1.3.0.tar.gz --markdown 20230710/t/themis-imager-readfile/1.2.3-1.3.0/diff.md --exclude *.pyd
+[2023-07-10 04:18:56] INFO root fetch - processPackages [animage-data-sorter]: executing diffoscope
+[2023-07-10 04:18:56] INFO root fetch - processPackages [animage-data-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/animage-data_sorter-1.1.3.tar.gz tmp/animage-data_sorter-1.1.4.tar.gz --markdown 20230710/a/animage-data-sorter/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-07-10 04:18:56] INFO root fetch - processPackages [azureml-evaluate-mlflow]: executing diffoscope
+[2023-07-10 04:18:56] INFO root fetch - processPackages [azureml-evaluate-mlflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_evaluate_mlflow-0.0.8-py3-none-any.whl.zip tmp/azureml_evaluate_mlflow-0.0.9-py3-none-any.whl.zip --markdown 20230710/a/azureml-evaluate-mlflow/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-10 04:18:56] INFO root fetch - processPackages [mitosheet3]: executing diffoscope
+[2023-07-10 04:18:56] INFO root fetch - processPackages [mitosheet3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitosheet3-0.3.91.tar.gz tmp/mitosheet3-0.3.92.tar.gz --markdown 20230710/m/mitosheet3/0.3.91-0.3.92/diff.md --exclude *.pyd
+[2023-07-10 04:18:57] INFO root fetch - processPackages [mitoinstaller]: Remove: archive file [/home/abi/fetcher/tmp/mitoinstaller-0.0.98.tar.gz]
+[2023-07-10 04:18:57] INFO root fetch - processPackages [mitoinstaller]: Remove: archive file [/home/abi/fetcher/tmp/mitoinstaller-0.0.99.tar.gz]
+[2023-07-10 04:18:57] INFO root fetch - main [MainThread]: End processing [mitoinstaller]: success
+[2023-07-10 04:18:57] INFO root fetch - processPackages [themis-imager-readfile]: Remove: archive file [/home/abi/fetcher/tmp/themis_imager_readfile-1.2.3.tar.gz]
+[2023-07-10 04:18:57] INFO root fetch - processPackages [themis-imager-readfile]: Remove: archive file [/home/abi/fetcher/tmp/themis_imager_readfile-1.3.0.tar.gz]
+[2023-07-10 04:18:57] INFO root fetch - main [MainThread]: End processing [themis-imager-readfile]: success
+[2023-07-10 04:18:57] INFO root fetch - processPackages [animage-data-sorter]: Remove: archive file [/home/abi/fetcher/tmp/animage-data_sorter-1.1.3.tar.gz]
+[2023-07-10 04:18:57] INFO root fetch - processPackages [animage-data-sorter]: Remove: archive file [/home/abi/fetcher/tmp/animage-data_sorter-1.1.4.tar.gz]
+[2023-07-10 04:18:57] INFO root fetch - main [MainThread]: End processing [animage-data-sorter]: success
+[2023-07-10 04:18:57] INFO root fetch - processPackages [azureml-evaluate-mlflow]: Remove: archive file [/home/abi/fetcher/tmp/azureml_evaluate_mlflow-0.0.8-py3-none-any.whl.zip]
+[2023-07-10 04:18:57] INFO root fetch - processPackages [azureml-evaluate-mlflow]: Remove: archive file [/home/abi/fetcher/tmp/azureml_evaluate_mlflow-0.0.9-py3-none-any.whl.zip]
+[2023-07-10 04:18:57] INFO root fetch - main [MainThread]: End processing [azureml-evaluate-mlflow]: success
+[2023-07-10 04:18:59] INFO root fetch - processPackages [mitosheet3]: Remove: archive file [/home/abi/fetcher/tmp/mitosheet3-0.3.91.tar.gz]
+[2023-07-10 04:18:59] INFO root fetch - processPackages [mitosheet3]: Remove: archive file [/home/abi/fetcher/tmp/mitosheet3-0.3.92.tar.gz]
+[2023-07-10 04:18:59] INFO root fetch - main [MainThread]: End processing [mitosheet3]: success
+[2023-07-10 04:18:59] INFO root fetch - main [MainThread]: Store serial: [18825744]
