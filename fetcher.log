@@ -6896,3 +6896,113 @@ AssertionError: tmp/katottglib-0.2.3.tar.gz does not exist
 [2023-07-10 06:14:50] INFO root fetch - processPackages [DefyDatabase]: Remove: archive file [/home/abi/fetcher/tmp/DefyDatabase-10.0.0b1.tar.gz]
 [2023-07-10 06:14:50] INFO root fetch - main [MainThread]: End processing [DefyDatabase]: success
 [2023-07-10 06:14:50] INFO root fetch - main [MainThread]: Store serial: [18826288]
+[2023-07-10 06:19:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18826288]
+[2023-07-10 06:19:59] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-10 06:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DefyDatabase
+[2023-07-10 06:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lvhao-lib
+[2023-07-10 06:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kuantaz-api-client
+[2023-07-10 06:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: execsql
+[2023-07-10 06:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: msgram-core
+[2023-07-10 06:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bioutils
+[2023-07-10 06:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cm2py
+[2023-07-10 06:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: diz
+[2023-07-10 06:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tablespoon
+[2023-07-10 06:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: remindmail
+[2023-07-10 06:20:00] INFO root fetch - processPackages [cm2py]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-10 06:20:00] INFO root fetch - processPackages [tablespoon]: New version: [0.5.0] Old Version: [0.4.9]
+[2023-07-10 06:20:00] INFO root fetch - processPackages [msgram-core]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-10 06:20:00] INFO root fetch - processPackages [DefyDatabase]: New version: [10.0.0b1] Old Version: [10.0.0a4.dev202307071900]
+[2023-07-10 06:20:00] INFO root fetch - processPackages [execsql]: New version: [1.98.0] Old Version: [1.97.0]
+[2023-07-10 06:20:00] INFO root fetch - processPackages [lvhao-lib]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-07-10 06:20:00] WARNING root fetch - processPackages [kuantaz-api-client]: Skipping, unable to determine old version
+[2023-07-10 06:20:00] INFO root fetch - processPackages [kuantaz-api-client]: Start processing: sydeploy
+[2023-07-10 06:20:00] INFO root fetch - main [MainThread]: End processing [kuantaz-api-client] error
+[2023-07-10 06:20:00] INFO root fetch - processPackages [diz]: New version: [0.0.7] Old Version: [0.0.5]
+[2023-07-10 06:20:00] INFO root fetch - processPackages [bioutils]: New version: [0.5.8rc1] Old Version: [0.5.8rc0]
+[2023-07-10 06:20:00] INFO root fetch - processPackages [remindmail]: New version: [2023.7.9.1] Old Version: [2023.6.8.1]
+[2023-07-10 06:20:00] INFO root fetch - processPackages [sydeploy]: New version: [0.2.93] Old Version: [0.2.92]
+[2023-07-10 06:20:00] INFO root fetch - processPackages [lvhao-lib]: Downloading https://files.pythonhosted.org/packages/9b/e3/8eda1c48e174efb4569ab616a013cc6ab71eaf2af22b85a1f52ce06945d9/lvhao_lib-0.2.1.tar.gz
+[2023-07-10 06:20:00] INFO root fetch - processPackages [diz]: Downloading https://files.pythonhosted.org/packages/b1/c0/7638a3b2da03929f199cd7ce115e0a489dd36fdf700bf2c7a951ad6968ad/diz-0.0.5.tar.gz
+[2023-07-10 06:20:00] INFO root fetch - processPackages [DefyDatabase]: Downloading https://files.pythonhosted.org/packages/fc/58/b3941850fbe98badba327982683f2a7a8e221ee42b3a48201fb549b0f849/DefyDatabase-10.0.0a4.dev202307071900.tar.gz
+[2023-07-10 06:20:00] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/17/6a/57326c3524f2be861275d72d9988d02bb70405951302fe73d0f39510185f/sydeploy-0.2.92-py3-none-any.whl
+[2023-07-10 06:20:00] INFO root fetch - processPackages [cm2py]: Downloading https://files.pythonhosted.org/packages/07/92/1e77df4e1bea095c1caaf17fb20dfc568d2669c585d4d2a05ce3962cd8d1/cm2py-0.2.3-py3-none-any.whl
+[2023-07-10 06:20:00] INFO root fetch - processPackages [bioutils]: Downloading https://files.pythonhosted.org/packages/46/fc/e603dfaeb016efd4aa09ba0151cd5a7874538f774f0ca37bbb62d9cc9614/bioutils-0.5.8rc0-py3-none-any.whl
+[2023-07-10 06:20:00] INFO root fetch - processPackages [tablespoon]: Downloading https://files.pythonhosted.org/packages/3e/86/429e697b9be76d8870902429a8cc787cd7ead3241cb09810d0c76ba31a42/tablespoon-0.4.9.tar.gz
+[2023-07-10 06:20:00] INFO root fetch - processPackages [msgram-core]: Downloading https://files.pythonhosted.org/packages/68/9b/2fce9a704f6c9f1d8606625dc72ce0a92510aaef839278d96df20e3641c9/msgram_core-1.3.2.tar.gz
+[2023-07-10 06:20:00] INFO root fetch - processPackages [execsql]: Downloading https://files.pythonhosted.org/packages/91/8e/51da00d0618e95a78d658b8ba5ca02e29543fb296784ecffc9c3e13a9aff/execsql-1.97.0.tar.gz
+[2023-07-10 06:20:00] INFO root fetch - processPackages [remindmail]: Downloading https://files.pythonhosted.org/packages/57/f4/27b007bb1348d6f0b913c46781c7c5a0a4bd8e30cb21648e9d9b8a134f17/remindmail-2023.6.8.1.tar.gz
+[2023-07-10 06:20:00] INFO root fetch - processPackages [diz]: Downloading https://files.pythonhosted.org/packages/06/38/533e51f6b42636c6e01d6fb684e9b132f5be75773aefea71da8b070ca1fe/diz-0.0.7.tar.gz
+[2023-07-10 06:20:00] INFO root fetch - processPackages [lvhao-lib]: Downloading https://files.pythonhosted.org/packages/94/a1/14e7462bbb7c849d385414d66be728b5dca7fa70dd891ef582455edec99e/lvhao_lib-0.3.0.tar.gz
+[2023-07-10 06:20:00] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/95/9c/9a71a323f85d272a0b8c60eb37b80ed1174c9f2bdb16e0a663c177fdc4b0/sydeploy-0.2.93-py3-none-any.whl
+[2023-07-10 06:20:00] INFO root fetch - processPackages [DefyDatabase]: Downloading https://files.pythonhosted.org/packages/9c/cd/9ca75d65ea8f3fd81dbb3b3f97fb1ea051610d3b96514d52516aa7c51106/DefyDatabase-10.0.0b1.tar.gz
+[2023-07-10 06:20:00] INFO root fetch - processPackages [cm2py]: Downloading https://files.pythonhosted.org/packages/03/fc/6fdea4f6a533e55a069f8fd217f36c5e3260ee7c38211094af6d738fce51/cm2py-0.2.4.tar.gz
+[2023-07-10 06:20:00] INFO root fetch - processPackages [diz]: executing diffoscope
+[2023-07-10 06:20:00] INFO root fetch - processPackages [diz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diz-0.0.5.tar.gz tmp/diz-0.0.7.tar.gz --markdown 20230710/d/diz/0.0.5-0.0.7/diff.md --exclude *.pyd
+[2023-07-10 06:20:00] INFO root fetch - processPackages [tablespoon]: Downloading https://files.pythonhosted.org/packages/ef/a5/13332b970c2f6149fc2b9a9d91092ccbddee2ecf255ea9cc4f7e65f63650/tablespoon-0.5.0.tar.gz
+[2023-07-10 06:20:00] INFO root fetch - processPackages [bioutils]: Downloading https://files.pythonhosted.org/packages/81/89/595ed17aeb392ae5cd7e55e776ada0598b183040f0628cbaa3e47559301c/bioutils-0.5.8rc1-py3-none-any.whl
+[2023-07-10 06:20:01] INFO root fetch - processPackages [msgram-core]: Downloading https://files.pythonhosted.org/packages/cb/de/01ede5b447599c28a200925e393790c8e990104a43a7a13a81efc71c9303/msgram_core-1.3.3.tar.gz
+[2023-07-10 06:20:01] INFO root fetch - processPackages [sydeploy]: executing diffoscope
+[2023-07-10 06:20:01] INFO root fetch - processPackages [sydeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sydeploy-0.2.92-py3-none-any.whl.zip tmp/sydeploy-0.2.93-py3-none-any.whl.zip --markdown 20230710/s/sydeploy/0.2.92-0.2.93/diff.md --exclude *.pyd
+[2023-07-10 06:20:01] INFO root fetch - processPackages [DefyDatabase]: executing diffoscope
+[2023-07-10 06:20:01] INFO root fetch - processPackages [DefyDatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DefyDatabase-10.0.0a4.dev202307071900.tar.gz tmp/DefyDatabase-10.0.0b1.tar.gz --markdown 20230710/D/DefyDatabase/10.0.0a4.dev202307071900-10.0.0b1/diff.md --exclude *.pyd
+[2023-07-10 06:20:01] INFO root fetch - processPackages [cm2py]: executing diffoscope
+[2023-07-10 06:20:01] INFO root fetch - processPackages [cm2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cm2py-0.2.3-py3-none-any.whl.zip tmp/cm2py-0.2.4.tar.gz --markdown 20230710/c/cm2py/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-10 06:20:01] INFO root fetch - processPackages [tablespoon]: executing diffoscope
+[2023-07-10 06:20:01] INFO root fetch - processPackages [tablespoon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablespoon-0.4.9.tar.gz tmp/tablespoon-0.5.0.tar.gz --markdown 20230710/t/tablespoon/0.4.9-0.5.0/diff.md --exclude *.pyd
+[2023-07-10 06:20:01] INFO root fetch - processPackages [remindmail]: Downloading https://files.pythonhosted.org/packages/f9/eb/fe86fb74e46b9f454d9e037f4f4696a0bfcd787106b84281639729a0394b/remindmail-2023.7.9.1.tar.gz
+[2023-07-10 06:20:01] INFO root fetch - processPackages [msgram-core]: executing diffoscope
+[2023-07-10 06:20:01] INFO root fetch - processPackages [msgram-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msgram_core-1.3.2.tar.gz tmp/msgram_core-1.3.3.tar.gz --markdown 20230710/m/msgram-core/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-10 06:20:01] INFO root fetch - processPackages [lvhao-lib]: executing diffoscope
+[2023-07-10 06:20:01] INFO root fetch - processPackages [lvhao-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lvhao_lib-0.2.1.tar.gz tmp/lvhao_lib-0.3.0.tar.gz --markdown 20230710/l/lvhao-lib/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-07-10 06:20:01] INFO root fetch - processPackages [bioutils]: executing diffoscope
+[2023-07-10 06:20:01] INFO root fetch - processPackages [bioutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioutils-0.5.8rc0-py3-none-any.whl.zip tmp/bioutils-0.5.8rc1-py3-none-any.whl.zip --markdown 20230710/b/bioutils/0.5.8rc0-0.5.8rc1/diff.md --exclude *.pyd
+[2023-07-10 06:20:01] INFO root fetch - processPackages [execsql]: Downloading https://files.pythonhosted.org/packages/af/c4/14198e9e025b1207415fad1d39bc1e6ebcc8fb846e1ba1b4e22742316993/execsql-1.98.0.tar.gz
+[2023-07-10 06:20:01] INFO root fetch - processPackages [remindmail]: executing diffoscope
+[2023-07-10 06:20:01] INFO root fetch - processPackages [remindmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remindmail-2023.6.8.1.tar.gz tmp/remindmail-2023.7.9.1.tar.gz --markdown 20230710/r/remindmail/2023.6.8.1-2023.7.9.1/diff.md --exclude *.pyd
+[2023-07-10 06:20:01] INFO root fetch - processPackages [execsql]: executing diffoscope
+[2023-07-10 06:20:01] INFO root fetch - processPackages [execsql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/execsql-1.97.0.tar.gz tmp/execsql-1.98.0.tar.gz --markdown 20230710/e/execsql/1.97.0-1.98.0/diff.md --exclude *.pyd
+[2023-07-10 06:20:02] INFO root fetch - processPackages [diz]: Remove: archive file [/home/abi/fetcher/tmp/diz-0.0.5.tar.gz]
+[2023-07-10 06:20:02] INFO root fetch - processPackages [diz]: Remove: archive file [/home/abi/fetcher/tmp/diz-0.0.7.tar.gz]
+[2023-07-10 06:20:02] INFO root fetch - processPackages [diz]: Start processing: ffmperative
+[2023-07-10 06:20:02] INFO root fetch - main [MainThread]: End processing [diz]: success
+[2023-07-10 06:20:02] INFO root fetch - processPackages [ffmperative]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-10 06:20:02] INFO root fetch - processPackages [ffmperative]: Downloading https://files.pythonhosted.org/packages/8f/74/172f07da456578e84bee09d476e9e983eae2ba9ee4e6289d89330466de3e/ffmperative-0.0.3.tar.gz
+[2023-07-10 06:20:02] INFO root fetch - processPackages [cm2py]: Remove: archive file [/home/abi/fetcher/tmp/cm2py-0.2.3-py3-none-any.whl.zip]
+[2023-07-10 06:20:02] INFO root fetch - processPackages [cm2py]: Remove: archive file [/home/abi/fetcher/tmp/cm2py-0.2.4.tar.gz]
+[2023-07-10 06:20:02] INFO root fetch - processPackages [cm2py]: Start processing: bioutils
+[2023-07-10 06:20:02] INFO root fetch - main [MainThread]: End processing [cm2py]: success
+[2023-07-10 06:20:02] INFO root fetch - processPackages [bioutils]: New version: [0.5.8rc1] Old Version: [0.5.8rc0]
+[2023-07-10 06:20:02] INFO root fetch - processPackages [DefyDatabase]: Remove: archive file [/home/abi/fetcher/tmp/DefyDatabase-10.0.0a4.dev202307071900.tar.gz]
+[2023-07-10 06:20:02] INFO root fetch - processPackages [DefyDatabase]: Remove: archive file [/home/abi/fetcher/tmp/DefyDatabase-10.0.0b1.tar.gz]
+[2023-07-10 06:20:02] INFO root fetch - main [MainThread]: End processing [DefyDatabase]: success
+[2023-07-10 06:20:02] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.92-py3-none-any.whl.zip]
+[2023-07-10 06:20:02] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.2.93-py3-none-any.whl.zip]
+[2023-07-10 06:20:02] INFO root fetch - main [MainThread]: End processing [sydeploy]: success
+[2023-07-10 06:20:02] INFO root fetch - processPackages [lvhao-lib]: Remove: archive file [/home/abi/fetcher/tmp/lvhao_lib-0.2.1.tar.gz]
+[2023-07-10 06:20:02] INFO root fetch - processPackages [lvhao-lib]: Remove: archive file [/home/abi/fetcher/tmp/lvhao_lib-0.3.0.tar.gz]
+[2023-07-10 06:20:02] INFO root fetch - main [MainThread]: End processing [lvhao-lib]: success
+[2023-07-10 06:20:02] INFO root fetch - processPackages [tablespoon]: Remove: archive file [/home/abi/fetcher/tmp/tablespoon-0.4.9.tar.gz]
+[2023-07-10 06:20:02] INFO root fetch - processPackages [tablespoon]: Remove: archive file [/home/abi/fetcher/tmp/tablespoon-0.5.0.tar.gz]
+[2023-07-10 06:20:02] INFO root fetch - main [MainThread]: End processing [tablespoon]: success
+[2023-07-10 06:20:02] INFO root fetch - processPackages [bioutils]: executing diffoscope
+[2023-07-10 06:20:02] INFO root fetch - processPackages [bioutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioutils-0.5.8rc0-py3-none-any.whl.zip tmp/bioutils-0.5.8rc1-py3-none-any.whl.zip --markdown 20230710/b/bioutils/0.5.8rc0-0.5.8rc1/diff.md --exclude *.pyd
+[2023-07-10 06:20:02] INFO root fetch - processPackages [remindmail]: Remove: archive file [/home/abi/fetcher/tmp/remindmail-2023.6.8.1.tar.gz]
+[2023-07-10 06:20:02] INFO root fetch - processPackages [msgram-core]: Remove: archive file [/home/abi/fetcher/tmp/msgram_core-1.3.2.tar.gz]
+[2023-07-10 06:20:02] INFO root fetch - processPackages [remindmail]: Remove: archive file [/home/abi/fetcher/tmp/remindmail-2023.7.9.1.tar.gz]
+[2023-07-10 06:20:02] INFO root fetch - processPackages [msgram-core]: Remove: archive file [/home/abi/fetcher/tmp/msgram_core-1.3.3.tar.gz]
+[2023-07-10 06:20:02] INFO root fetch - main [MainThread]: End processing [remindmail]: success
+[2023-07-10 06:20:02] INFO root fetch - main [MainThread]: End processing [msgram-core]: success
+[2023-07-10 06:20:02] INFO root fetch - processPackages [ffmperative]: Downloading https://files.pythonhosted.org/packages/53/85/19b5fbb92b1f359209cecfdae2904742dcc3e4c5555ed769b96a20b260a8/ffmperative-0.0.4-py3-none-any.whl
+[2023-07-10 06:20:03] INFO root fetch - processPackages [ffmperative]: executing diffoscope
+[2023-07-10 06:20:03] INFO root fetch - processPackages [ffmperative]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230710:/home/abi/fetcher/20230710:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffmperative-0.0.3.tar.gz tmp/ffmperative-0.0.4-py3-none-any.whl.zip --markdown 20230710/f/ffmperative/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-10 06:20:03] INFO root fetch - processPackages [execsql]: Remove: archive file [/home/abi/fetcher/tmp/execsql-1.97.0.tar.gz]
+[2023-07-10 06:20:03] INFO root fetch - processPackages [execsql]: Remove: archive file [/home/abi/fetcher/tmp/execsql-1.98.0.tar.gz]
+[2023-07-10 06:20:03] INFO root fetch - main [MainThread]: End processing [execsql]: success
+[2023-07-10 06:20:03] INFO root fetch - processPackages [ffmperative]: Remove: archive file [/home/abi/fetcher/tmp/ffmperative-0.0.3.tar.gz]
+[2023-07-10 06:20:03] INFO root fetch - processPackages [ffmperative]: Remove: archive file [/home/abi/fetcher/tmp/ffmperative-0.0.4-py3-none-any.whl.zip]
+[2023-07-10 06:20:03] INFO root fetch - main [MainThread]: End processing [ffmperative]: success
+[2023-07-10 06:20:12] INFO root fetch - processPackages [bioutils]: Remove: archive file [/home/abi/fetcher/tmp/bioutils-0.5.8rc0-py3-none-any.whl.zip]
+[2023-07-10 06:20:12] INFO root fetch - processPackages [bioutils]: Remove: archive file [/home/abi/fetcher/tmp/bioutils-0.5.8rc1-py3-none-any.whl.zip]
+[2023-07-10 06:20:12] INFO root fetch - main [MainThread]: End processing [bioutils]: success
+[2023-07-10 06:20:13] INFO root fetch - main [MainThread]: End processing [bioutils]: success
+[2023-07-10 06:20:13] INFO root fetch - main [MainThread]: Store serial: [18826322]
